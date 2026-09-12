@@ -1,0 +1,166 @@
+﻿{
+  "Claims": [
+    {
+      "Section": "CanonAdditions",
+      "Claim": "The temple was built to contain the Blight.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "\u0022The temple was built to contain the Blight.\u0022",
+      "Reason": null
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "There are spells and relics hidden within the temple walls.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "Kaelen said, \u0027There are spells and relics hidden within its walls.\u0027",
+      "Reason": null
+    },
+    {
+      "Section": "WorldStateUpdates",
+      "Claim": "A barrier of shimmering light materialized across the temple entrance.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "a barrier of shimmering light materialized, stretching across the temple entrance.",
+      "Reason": null
+    },
+    {
+      "Section": "WorldStateUpdates",
+      "Claim": "Elias Thorne is inside the temple hall.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "The chapter states Elias is in the courtyard outside when the doors shut and only enters the temple after Kaelen is already inside."
+    },
+    {
+      "Section": "WorldStateUpdates",
+      "Claim": "Kaelen is inside the temple hall.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "Kaelen was already inside, leaning against one of the pillars.",
+      "Reason": null
+    },
+    {
+      "Section": "WorldStateUpdates",
+      "Claim": "The ground trembles violently due to an approaching massive entity.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "The distant thudding grew louder, the ground trembling violently.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Elias Thorne",
+      "Claim": "Elias Thorne exists and is an established character.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "The temple doors creaked shut behind Kaelen, leaving Elias to stand in the courtyard...",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Elias Thorne",
+      "Claim": "Elias Thorne has pain in his shoulder and leg from the fight.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "He limped toward the temple entrance, the pain in his shoulder and leg a constant reminder of the fight he had just endured.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Elias Thorne",
+      "Claim": "Elias Thorne is exhausted.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "Elias nodded, the exhaustion settling over him like a heavy cloak.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Kaelen",
+      "Claim": "Kaelen exists and is an established character.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The temple doors creaked shut behind Kaelen, leaving Elias to stand in the courtyard.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Kaelen",
+      "Claim": "Kaelen sustained a grazing claw injury to his arm that caused bleeding.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "The chapter states Kaelen has blood trickling down his arm but does not specify the injury was a grazing claw wound."
+    },
+    {
+      "Section": "CharacterStateUpdates/Kaelen",
+      "Claim": "Kaelen completed an incantation using the stone tablets.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "Kaelen\u2019s eyes flashed, and he completed the final incantation, the tablets glowing with a fierce light.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Kaelen",
+      "Claim": "Kaelen holds a staff.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "Kaelen stood beside him, his staff held loosely in one hand.",
+      "Reason": null
+    },
+    {
+      "Section": "NarrativeStateUpdates",
+      "Claim": "Elias Thorne and Kaelen are huddled together inside the temple hall behind a newly created barrier.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "The chapter states they huddled together in the temple with a barrier at the entrance, but it does not establish that they are behind a \u0027newly created\u0027 barrier inside the hall or specifically \u0027inside the temple hall\u0027 rather than near the entrance."
+    },
+    {
+      "Section": "UnresolvedInformation",
+      "Claim": "The identity of the stranger is not revealed.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "The chapter mentions a \u0027stranger\u0027 only in the context of the approaching threat (\u0027something else\u0027, \u0027something ancient\u0027), but never explicitly identifies or describes an individual stranger whose identity is withheld; the text does not establish that a specific stranger\u0027s identity is unknown."
+    },
+    {
+      "Section": "UnresolvedInformation",
+      "Claim": "The name or specific location of the village with black spires is not provided.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "The chapter mentions a village with black spires in the claim but never establishes its name or location within the text."
+    },
+    {
+      "Section": "UnresolvedInformation",
+      "Claim": "Whether Elias Thorne survived the encounter with the three Blight-Touched entities is not established.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": null
+    },
+    {
+      "Section": "UnresolvedInformation",
+      "Claim": "Whether Kaelen successfully sealed the door of the temple hall is not established.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "The chapter explicitly states that Kaelen completed the final incantation and a barrier materialized across the temple entrance, establishing that he successfully sealed it."
+    }
+  ]
+}
