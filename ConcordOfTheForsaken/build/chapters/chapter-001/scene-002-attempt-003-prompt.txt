@@ -1,0 +1,881 @@
+===== SYSTEM PROMPT =====
+
+You are the fiction-generation engine for StoryForge Endless.
+
+Write finished story prose only.
+
+The supplied Generation Context is authoritative background and constraint material.
+It is not a conversation with you.
+Do not acknowledge it.
+Do not summarize it.
+Do not explain it.
+Do not discuss the instructions.
+Do not ask for additional information.
+
+Continue the existing fictional story from its current established state.
+
+Output only the completed chapter prose.
+
+===== END SYSTEM PROMPT =====
+
+===== USER PROMPT =====
+
+Write Chapter 1 of the existing story.
+
+The Generation Context is authoritative for persistent canon, world state,
+characters, rules, and long-term narrative constraints.
+
+The Immediate Continuity supplied for each scene is authoritative for immediate narrative continuity.
+
+Do not restart the story.
+Do not replace established events.
+Do not contradict accepted generated prose.
+Do not invent prior events merely to make the chapter easier to write.
+
+Narrative-thread CompletedDevelopments are established story history.
+
+Treat them as developments that have already happened.
+
+The new chapter may:
+- continue from their consequences,
+- deepen or reinterpret what they mean,
+- reveal that an earlier solution was incomplete,
+- undo or reverse them through newly established events,
+- or advance the unresolved thread in another direction.
+
+Do not simply repeat a CompletedDevelopment as though it has not happened yet.
+
+When a thread contains an unresolved CurrentQuestion, advance the story from the
+state produced by its completed developments rather than replaying the steps that
+created that state.
+
+
+
+===== CHAPTER-WIDE CONSTRAINTS =====
+
+{"ViewpointCharacterId":"adrian_vale","PacingPosture":1,"ProhibitedPatterns":["Immediate combat or monster attack upon arrival","Adrian displaying hidden power or fighting back against the council","A dramatic cliffhanger involving a sudden threat or revelation","Romantic or sexual tension with any character","Adrian successfully arguing his case or gaining sympathy"]}
+
+===== END CHAPTER-WIDE CONSTRAINTS =====
+
+These constraints apply throughout the chapter. They are prospective
+composition guidance, not established story history and not prose to copy.
+
+The current planned scene supplied separately is the only actionable narrative
+direction for this generation request. Do not anticipate, begin, foreshadow,
+or complete narrative work reserved for any other planned scene or for the
+chapter as a whole.
+
+Generate planned scenes in sequence while the quantitative
+reading-length minimum has not been reached. After reaching
+that minimum, close the chapter at the completed boundary of
+the current scene. Do not manufacture special ending events.
+
+Before writing any practical action involving a tool, object, marker, seal,
+trap, track, clue, door, window, weapon, fire, terrain, weather, or improvised
+test, verify that the physical mechanism actually works.
+
+For practical actions, preserve this causal chain:
+
+    action -> physical effect -> observable evidence -> conclusion
+
+Each step must plausibly follow from the previous step.
+
+In particular:
+
+- use objects only on surfaces and in environmental conditions where they would work
+- account for rain, mud, snow, wind, heat, movement, and moisture when relevant
+- make markers, seals, traps, or indicators physically capable of detecting the event claimed
+- do not let characters infer more from evidence than the evidence can establish
+- do not invent convenient unstated properties for ordinary objects
+- do not perform pointless precautions when the character is already continuously observing the thing being monitored
+- prefer a simple physically credible action over an elaborate questionable mechanism
+
+The completed chapter should normally contain between
+3,000 and 4,500 words.
+
+===== GENERATION CONTEXT =====
+
+===== WORLD.md =====
+
+# World
+
+## Current State
+
+===== CHARACTERS.md =====
+
+# Characters
+
+## Current State
+
+===== CANON.md =====
+
+# Canon
+
+## Established Canon
+
+===== NARRATIVE.md =====
+
+# Narrative
+
+## Story Premise
+
+Twenty-eight-year-old maintenance worker Adrian Vale will be summoned to the magical world of Avarra, where he will expect the usual prophecy: a sacred weapon, an impossible destiny, and perhaps enough power to make up for an unremarkable life. Instead, the summoning will brand him with the lowest-ranked class in existence—Wayfarer—and grant him a single seemingly worthless ability: **Concord**, the power to form voluntary bonds with others.
+
+Declared a failed hero, Adrian will be stripped of the kingdom’s support and sent beyond the frontier as bait for the monsters gathering there. He will survive only because Concord will have a hidden strength: those who willingly bind their paths to his will be able to share fragments of their talents, senses, and magic with him—and with one another. As their trust strengthens, the bond will grow more powerful. Pain, fear, and betrayal will pass through it just as easily as strength.
+
+Adrian’s first companions will be women whom the kingdom will also deem expendable: a disgraced knight whose cursed armor will be slowly consuming her, an elven sorceress who will be unable to control the ancient spirit sealed inside her, a sharp-tongued beastkin scout who will be hunted by her own clan, and a sheltered priestess who will begin to suspect that her god will not be what the Church will claim. Each will have her own ambitions, secrets, and reasons to distrust him. Their growing affection will not be commanded by magic; it will have to be earned through shared danger, genuine loyalty, and Adrian’s stubborn refusal to treat anyone as a tool.
+
+Starting with no weapons, no combat training, and no place in his new world, Adrian will have to transform a band of unwanted outcasts into a force capable of challenging monsters, conquering forgotten dungeons, and surviving the rival heroes sent to silence them. Yet every victory will reveal another piece of the truth: the summoned heroes will never have been brought to Avarra to save it. They will have been brought to feed the ancient power beneath its kingdoms—and Adrian’s supposedly useless class may prove to be the one thing capable of breaking the cycle.
+
+To become a hero, he will have to do more than grow strong. He will have to unite people who will have every reason to stand alone, decide what kind of relationships they will build together, and prove that the greatest power in any world will come from freely given trust rather than domination.
+
+## Current Narrative State
+
+The story has not begun.
+
+## Unresolved Information
+
+===== NARRATIVE-THREADS.json =====
+
+{
+  "Threads": []
+}
+
+===== STORY-ARCS.json =====
+
+{
+  "Arcs": [
+    {
+      "Id": "epic-001-081",
+      "Horizon": "Epic",
+      "PrimaryTrope": "The Underdog\u0027s Rise",
+      "Status": "Active",
+      "ParentArcId": null,
+      "StartChapter": 1,
+      "TargetChapter": 81,
+      "Objective": "Adrian Vale must transform from a discarded, powerless maintenance worker into the leader of a cohesive, powerful unit of outcasts, ultimately exposing the truth that summoned heroes are sacrifices and breaking the cycle of exploitation in Avarra.",
+      "ResolutionCriteria": "Adrian and his bonded companions have defeated the immediate threats posed by the kingdom\u0027s rival heroes and the monsters of the frontier; the true nature of the summoning ritual (feeding an ancient power) is publicly revealed or irrefutably proven; Adrian has established a stable, voluntary bond network that functions as a strategic asset, proving that trust-based power surpasses domination-based power.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "Adrian is summoned to the magical world of Avarra and undergoes the class determination ritual, where he is branded with the lowest-ranked class, Wayfarer, and granted the ability Concord.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1",
+      "Horizon": "Long",
+      "PrimaryTrope": "The Rejected Hero",
+      "Status": "Active",
+      "ParentArcId": "epic-001-081",
+      "StartChapter": 1,
+      "TargetChapter": 27,
+      "Objective": "Adrian must survive the kingdom\u0027s rejection and the hostile frontier environment by forming his first voluntary bonds with outcast individuals, establishing the foundational mechanics of Concord and securing his immediate survival.",
+      "ResolutionCriteria": "Adrian has formed stable, voluntary bonds with at least two of the designated outcast companions (the disgraced knight, elven sorceress, beastkin scout, or priestess); he has survived the initial monster attacks on the frontier; the kingdom has officially stripped him of support and declared him a failed hero; the bonded companions have begun to share fragments of their talents with Adrian, demonstrating the hidden strength of Concord.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "Adrian is summoned to the magical world of Avarra and undergoes the class determination ritual, where he is branded with the lowest-ranked class, Wayfarer, and granted the ability Concord.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-2",
+      "Horizon": "Long",
+      "PrimaryTrope": "The Found Family",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081",
+      "StartChapter": 28,
+      "TargetChapter": 54,
+      "Objective": "Adrian must integrate the remaining outcast companions into his group, navigating their individual traumas and distrust to build a cohesive unit capable of challenging stronger enemies and exploring forgotten dungeons.",
+      "ResolutionCriteria": "All four designated outcast companions are actively bonded to Adrian and each other; the group has successfully conquered at least one forgotten dungeon or defeated a major monster threat; the internal dynamics of the group have stabilized, with trust replacing initial suspicion; the group has developed a distinct identity as a force capable of challenging the status quo.",
+      "CurrentPhase": "Adrian has survived the initial frontier dangers and formed bonds with at least two companions. The group is fragile, with unresolved tensions between members and limited understanding of Concord\u0027s full potential. They are operating on the fringes of society, lacking resources and a clear long-term strategy.",
+      "NextMilestone": "The group encounters a significant threat (a rival hero or a powerful monster) that forces them to rely on their combined bonded abilities, leading to a pivotal victory that cements their unity and reveals the first clues about the true nature of the summoning ritual.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-3",
+      "Horizon": "Long",
+      "PrimaryTrope": "The Truth Revealed",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081",
+      "StartChapter": 55,
+      "TargetChapter": 81,
+      "Objective": "Adrian must uncover and expose the conspiracy behind the summoning ritual, confronting the ancient power beneath the kingdoms and the rival heroes sent to silence them, ultimately breaking the cycle of exploitation.",
+      "ResolutionCriteria": "The truth about the summoning ritual (that heroes are fed to an ancient power) is revealed to the public or the relevant authorities; the rival heroes sent to silence the group are defeated or neutralized; Adrian and his companions have successfully challenged the source of the ancient power, breaking the cycle; Adrian has proven that freely given trust is the greatest power, achieving a new status as a true hero not by prophecy, but by unity.",
+      "CurrentPhase": "The group is a cohesive force with a growing reputation. They have gathered evidence of the kingdom\u0027s corruption and the true purpose of the summoning. They are facing increasing pressure from rival heroes and the kingdom\u0027s military, but they possess the knowledge and power to challenge the system.",
+      "NextMilestone": "Adrian and his companions confront the leader of the rival heroes or the high priest of the Church, forcing a public revelation of the summoning ritual\u0027s true purpose, which triggers the final conflict against the ancient power.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1",
+      "Horizon": "Medium",
+      "PrimaryTrope": "The First Bond",
+      "Status": "Active",
+      "ParentArcId": "epic-001-081-long-1",
+      "StartChapter": 1,
+      "TargetChapter": 9,
+      "Objective": "Adrian must survive his initial exile and form his first voluntary bond with an outcast companion, demonstrating the hidden strength of Concord and establishing his survival on the frontier.",
+      "ResolutionCriteria": "Adrian has formed a stable, voluntary bond with one of the designated outcast companions; he has survived the initial monster attacks on the frontier; the bonded companion has shared fragments of their talents with Adrian; the kingdom has officially stripped him of support and declared him a failed hero.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "Adrian is summoned to the magical world of Avarra and undergoes the class determination ritual, where he is branded with the lowest-ranked class, Wayfarer, and granted the ability Concord.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-2",
+      "Horizon": "Medium",
+      "PrimaryTrope": "The Second Bond",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1",
+      "StartChapter": 10,
+      "TargetChapter": 18,
+      "Objective": "Adrian must form a second voluntary bond with another outcast companion, navigating their distrust and trauma to expand his network of shared talents and strengthen his position on the frontier.",
+      "ResolutionCriteria": "Adrian has formed a stable, voluntary bond with a second designated outcast companion; the group has survived a significant threat together; the second companion has shared fragments of their talents with Adrian and the first companion; the group\u0027s dynamics have begun to stabilize, with trust replacing initial suspicion.",
+      "CurrentPhase": "Adrian has formed a bond with one companion and is surviving on the frontier. The group is fragile, with unresolved tensions and limited understanding of Concord\u0027s full potential. They are operating on the fringes of society, lacking resources and a clear long-term strategy.",
+      "NextMilestone": "The group encounters a significant threat (a rival hero or a powerful monster) that forces them to rely on their combined bonded abilities, leading to a pivotal victory that cements their unity and reveals the first clues about the true nature of the summoning ritual.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-3",
+      "Horizon": "Medium",
+      "PrimaryTrope": "The Third Bond",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1",
+      "StartChapter": 19,
+      "TargetChapter": 27,
+      "Objective": "Adrian must form a third voluntary bond with another outcast companion, further expanding his network of shared talents and establishing the group as a cohesive unit capable of challenging stronger enemies.",
+      "ResolutionCriteria": "Adrian has formed a stable, voluntary bond with a third designated outcast companion; the group has successfully conquered at least one forgotten dungeon or defeated a major monster threat; the group\u0027s internal dynamics have stabilized, with trust replacing initial suspicion; the group has developed a distinct identity as a force capable of challenging the status quo.",
+      "CurrentPhase": "Adrian has formed bonds with two companions and is operating as a small, fragile group on the frontier. They have survived initial threats but lack the cohesion and power to challenge larger enemies. They are gathering evidence of the kingdom\u0027s corruption but have not yet confronted the rival heroes or the Church directly.",
+      "NextMilestone": "The group confronts a rival hero sent to silence them, using their combined bonded abilities to defeat or neutralize the threat, which reveals the first concrete evidence of the summoning ritual\u0027s true purpose and solidifies their resolve to uncover the truth.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1-short-1",
+      "Horizon": "Short",
+      "PrimaryTrope": "The Rejection",
+      "Status": "Active",
+      "ParentArcId": "epic-001-081-long-1-medium-1",
+      "StartChapter": 1,
+      "TargetChapter": 3,
+      "Objective": "Adrian must face the kingdom\u0027s judgment for his \u0027useless\u0027 class and be sentenced to exile, establishing the initial conflict and his status as a failed hero.",
+      "ResolutionCriteria": "Adrian has been officially declared a failed hero by the kingdom\u0027s council; he has been stripped of all support and resources; he has been sentenced to be sent beyond the frontier as bait for monsters; he has left the kingdom\u0027s custody and is now on his own.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "Adrian is summoned to the magical world of Avarra and undergoes the class determination ritual, where he is branded with the lowest-ranked class, Wayfarer, and granted the ability Concord.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1-short-2",
+      "Horizon": "Short",
+      "PrimaryTrope": "The First Encounter",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1-medium-1",
+      "StartChapter": 4,
+      "TargetChapter": 6,
+      "Objective": "Adrian must survive his initial journey to the frontier and encounter his first outcast companion, offering them a bond and beginning the process of forming his first alliance.",
+      "ResolutionCriteria": "Adrian has reached the frontier and survived the initial monster attacks; he has encountered one of the designated outcast companions; he has offered them a bond and they have accepted, forming their first voluntary connection; the companion has shared fragments of their talents with Adrian.",
+      "CurrentPhase": "Adrian has been sentenced to exile and is traveling to the frontier. He is alone, with no allies, no weapons, and no knowledge of the frontier dangers. The outcast companions are currently in their respective states of disgrace, exile, or hiding, unaware of Adrian\u0027s existence.",
+      "NextMilestone": "Adrian encounters his first outcast companion (e.g., the disgraced knight) on the frontier, offers them a bond, and they accept, forming their first voluntary connection and demonstrating the hidden strength of Concord.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1-short-3",
+      "Horizon": "Short",
+      "PrimaryTrope": "The First Test",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1-medium-1",
+      "StartChapter": 7,
+      "TargetChapter": 9,
+      "Objective": "Adrian and his first bonded companion must survive a significant threat together, proving the viability of their bond and establishing their survival on the frontier.",
+      "ResolutionCriteria": "Adrian and his first bonded companion have survived a significant threat (a rival hero or a powerful monster) together; they have relied on their combined bonded abilities to defeat or neutralize the threat; their bond has been tested and strengthened; they have established a base of operations or a safe haven on the frontier.",
+      "CurrentPhase": "Adrian has formed a bond with one companion and is surviving on the frontier. The group is fragile, with unresolved tensions and limited understanding of Concord\u0027s full potential. They are operating on the fringes of society, lacking resources and a clear long-term strategy.",
+      "NextMilestone": "Adrian and his first bonded companion encounter a significant threat (a rival hero or a powerful monster) that forces them to rely on their combined bonded abilities, leading to a pivotal victory that cements their unity and reveals the first clues about the true nature of the summoning ritual.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    }
+  ]
+}
+
+===== WRITING-RULES.md =====
+
+# StoryForge Endless — Writing Rules
+
+## Purpose
+
+These rules govern the published prose produced by StoryForge Endless.
+
+They should remain general, durable, and story-independent.
+
+Story-specific facts belong in canon, character, narrative, or world context rather than here.
+
+## Core Objective
+
+Produce enjoyable, readable prose for an adult fantasy audience, including explicit language, violence, romance, and consensual sexual content when appropriate to the current story.
+
+Prioritize:
+
+- character investment
+- continuity
+- clarity
+- narrative interest
+- natural dialogue
+- meaningful progression
+- emotional variety
+- readable prose
+
+A chapter should be enjoyable in itself while also giving the reader a reason to continue.
+
+## Chapter Length
+
+Normal chapters should usually be approximately 2,000–3,000 words.
+
+Length should follow the needs of the chapter rather than being padded or prematurely cut to satisfy the target.
+
+Chapter boundaries should occur at natural narrative points.
+
+## Fiction First
+
+Treat the fictional world as reality.
+
+Do not refer to prompts, generation systems, evaluation systems, or implementation details unless such concepts genuinely exist within the fiction.
+
+## Point of View
+
+Every scene should have a clear viewpoint.
+
+Narration is limited to what the viewpoint character can reasonably:
+
+- perceive
+- know
+- remember
+- believe
+- suspect
+- infer
+- feel
+
+Preserve uncertainty when information is unavailable.
+
+Do not leak knowledge between characters merely because the generation system possesses it.
+
+Narrative voice should reflect the viewpoint character's personality, experience, priorities, and way of thinking.
+
+## Canon and Continuity
+
+Published prose must remain compatible with established canon and previously accepted chapters.
+
+Preserve meaningful continuity involving:
+
+- characters
+- relationships
+- knowledge
+- possessions
+- injuries
+- locations
+- chronology
+- discoveries
+- promises
+- unresolved situations
+- consequences
+
+Do not silently rewrite established history.
+
+When a fact is genuinely undefined, it may be established when the story needs it.
+
+Avoid inventing unnecessary prior history solely to make a current scene convenient.
+
+## Characters
+
+Characters should behave according to their established:
+
+- personality
+- knowledge
+- goals
+- relationships
+- abilities
+- experience
+- circumstances
+
+Character development should accumulate rather than reset.
+
+Characters may succeed, fail, misunderstand, change their minds, make mistakes, behave irrationally under believable circumstances, and learn from experience.
+
+Supporting characters should have lives and motivations beyond serving the current viewpoint character.
+
+Relationships should reflect accumulated history.
+
+## Character Knowledge and Reasoning
+
+Characters should act on information reasonably available to them.
+
+Conclusions should follow plausibly from what the character knows and observes.
+
+Characters may reach incorrect conclusions when the available evidence supports that misunderstanding.
+
+Do not give characters unexplained knowledge merely because the plot needs it.
+
+## Physical and Causal Coherence
+
+Actions, observations, and conclusions must follow plausibly from the established circumstances.
+
+Practical actions should:
+
+- serve a believable purpose
+- use objects according to their established properties
+- account for relevant environmental conditions
+- produce effects consistent with the action
+- provide evidence capable of supporting conclusions drawn from it
+
+Prefer simple, credible behavior over elaborate mechanisms created merely to move the plot forward.
+
+A practical sequence should make sense as:
+
+    intent -> action -> physical result -> observation -> conclusion
+
+## Prose Style
+
+Use developed, character-centered prose.
+
+Give scenes enough room for:
+
+- action
+- setting
+- thought
+- dialogue
+- observation
+- relationships
+- atmosphere
+
+Prefer concrete description over abstract explanation.
+
+Let characterization emerge through behavior, dialogue, choices, observations, humor, and thought.
+
+Vary sentence structure and paragraph length naturally.
+
+Avoid habitual rhetorical patterns, repetitive emphasis, excessive fragments, and unnecessary explanation of meanings the reader can already infer.
+
+### Avoid Contrast Reframing
+
+Do not habitually define an image, emotion, action, character, or situation by first denying one interpretation and then replacing it with another.
+
+Avoid constructions such as:
+
+- “not X, but Y”
+- “it was not X; it was Y”
+- “not because X, but because Y”
+- “less X than Y”
+- “rather than X, Y”
+- repeated negative declarations followed by corrective explanations
+
+State the intended observation directly and positively.
+
+Use contrast phrasing only when a character is consciously correcting a specific misunderstanding or when the distinction is necessary for factual clarity. Do not use it as a routine device for emphasis, description, atmosphere, or emotional interpretation.
+
+## Dialogue
+
+Dialogue should reflect the participating characters rather than a single authorial voice.
+
+Characters may interrupt, hesitate, misunderstand, joke badly, speak indirectly, or fail to express themselves perfectly when appropriate.
+
+Relationships should affect vocabulary, formality, teasing, trust, and what characters are willing to say.
+
+Avoid dialogue whose only purpose is explaining information everyone present already knows.
+
+## Pacing
+
+Use pacing appropriate to the events.
+
+Urgent situations may move quickly.
+
+Conversation, exploration, travel, humor, reflection, ordinary activity, and relationship development may receive space when they contribute to the reading experience.
+
+Do not manufacture constant suspense or escalation.
+
+Not every chapter requires a confrontation, revelation, cliffhanger, or larger threat.
+
+Narrative advancement is not synonymous with escalation.
+
+A chapter may advance through travel, recovery, conversation, preparation, investigation, reflection, relationship development, consolidation, ordinary activity, a decision, or the consequences of an earlier event.
+
+Do not introduce a new attack, arrival, revelation, sound, figure, pursuit, deadline, or imminent threat merely to make the final paragraphs feel dramatic.
+
+Do not turn the completion of an immediate objective into an automatic discovery of a larger version of the same danger.
+
+## Narrative Progress
+
+A chapter should normally produce meaningful change.
+
+That change may involve:
+
+- plot
+- character
+- relationship
+- knowledge
+- mystery
+- exploration
+- capability
+- resources
+- conflict
+- world state
+- goals
+
+Quiet chapters are valid when they provide worthwhile character, relationship, world, emotional, or thematic development.
+
+Allow victories and resolutions to matter.
+
+Do not immediately erase every success by replacing it with a larger problem.
+
+## Reader Engagement
+
+Engagement should arise primarily from investment in characters, relationships, goals, discovery, progression, consequences, conflict, exploration, and unanswered questions.
+
+Do not rely primarily on danger, shock, artificial suspense, or repetitive cliffhangers.
+
+Maintain a balance between questions introduced and questions answered.
+
+Important setups should eventually receive meaningful development or payoff.
+
+## Emotional Range
+
+Allow the story to contain:
+
+- danger
+- humor
+- affection
+- wonder
+- grief
+- competence
+- embarrassment
+- curiosity
+- relief
+- companionship
+- satisfaction
+- fear
+- ordinary enjoyment
+
+Positive moments may remain positive.
+
+Dark subject matter does not require relentlessly dark prose or characters.
+
+## Adult Sexual Content
+
+This story is intended for an adult audience and may include explicit, on-page sexual content between consenting adult characters.
+
+When intimacy is appropriate to the characters, relationships, and current narrative:
+
+- portray desire, arousal, physical intimacy, and sex directly
+- use clear anatomical language when it fits the viewpoint and tone
+- allow characters to express specific desires, preferences, hesitation, pleasure, and boundaries
+- keep physical positions, actions, clothing, and surroundings spatially coherent
+- preserve each participant's personality, agency, experience, and emotional perspective
+- make consent evident through willing participation, communication, and responsive behavior
+- allow intimacy to change relationships, expectations, trust, jealousy, vulnerability, or future choices
+
+Do not automatically fade to black, cut away, summarize the encounter, or replace physical details with vague poetic euphemisms merely because a scene becomes sexual.
+
+Explicit scenes should be written as complete character-centered scenes rather than mechanical lists of sexual actions. Balance physical detail with sensation, thought, dialogue, emotion, humor, and relationship dynamics.
+
+Do not rush immediately from attraction to sex. Let anticipation, flirting, uncertainty, negotiation, and escalating intimacy receive space when appropriate.
+
+Harem relationships must develop individually. Each partner should have distinct motives, boundaries, attractions, insecurities, preferences, and relationships with the other members. Do not treat women as interchangeable rewards for the protagonist.
+
+Sexual content must involve adults. Do not sexualize minors or characters whose age is ambiguous. Do not portray coercion, magical compulsion, dependency, captivity, intoxication, or unequal authority as consent. The Concord bond cannot create attraction, override judgment, manufacture consent, or prevent someone from refusing or withdrawing.
+
+Explicit content should occur because the characters genuinely choose it, not because every chapter requires a sexual scene.
+## Humor
+
+Maintain an adventurous, good-humored baseline even when danger and consequences are real.
+
+Humor should arise from character perspective, conflicting personalities, practical complications, social customs, institutions, and the contrast between heroic expectations and inconvenient reality. Do not insert unrelated jokes merely to satisfy a humor quota.
+
+Every Short arc should establish a comic engine: a recurring source of humorous pressure specific to that episode. Suitable comic engines include:
+
+- companions pursuing incompatible but reasonable approaches
+- grand heroic traditions colliding with mundane necessities
+- magical rules producing inconvenient consequences
+- guilds, temples, councils, nobles, and bureaucracies protecting absurd procedures
+- villains or monsters with understandable but ridiculous priorities
+- unreliable maps, misleading legends, contractual loopholes, and badly worded prophecies
+- characters trying to preserve dignity while circumstances steadily undermine it
+- practical disputes involving food, payment, lodging, transport, equipment, and reputation
+- the difference between how an adventure will be retold and what actually happened
+
+The comic engine should progress across a Short arc:
+
+1. establish the comic situation in the first chapter
+2. complicate, escalate, or reverse it in the second chapter
+3. pay it off as part of the episode's resolution in the third chapter
+
+Prefer dry observation, understatement, escalating inconvenience, callbacks, reversals, and character-specific reactions over setup-and-punchline jokes.
+
+Different characters should be funny in different ways. One may notice absurdity without commenting, another may respond with blunt practicality, another may take ridiculous customs seriously, and another may attempt dignity while circumstances defeat it. Do not make every character sarcastic or equally witty.
+
+Satire should target institutions, customs, incentives, status, and pretension rather than vulnerable individuals. Fantasy institutions may be competent at their official purpose while remaining absurd in their procedures, jurisdiction, accounting, traditions, or self-preservation.
+
+Examples include:
+
+- an adventurers' guild that grades mortal danger correctly but misclassifies travel expenses
+- a wizard whose spell is flawless but whose license expired
+- a village that needs rescuing but insists on resolving an ancient hospitality dispute first
+- a dragon that understands compound interest better than the nobility
+- a prophecy preserved perfectly but indexed under the wrong century
+- rival heroes who care more about credit than treasure
+- a haunted keep whose dead occupants disagree about which haunting is historically authentic
+
+Preserve emotional truth. Characters may joke around fear, exhaustion, embarrassment, or frustration, but humor must not erase grief, injury, betrayal, or sincere vulnerability.
+
+During danger, use brief comic reversals and practical complications without dissolving the stakes. After tension, allow humor to release pressure and restore companionship.
+
+Avoid:
+
+- modern internet slang unless established by the setting
+- interchangeable sarcasm from every character
+- constant quips during danger
+- jokes requiring competent characters to become stupid
+- parody that makes the world impossible to care about
+- explaining why a line or situation is funny
+- repeating the same joke with slightly different wording
+- cruelty, humiliation, or trauma as the default punchline
+- making every authority figure incompetent
+- forcing jokes into the emotional climax of a serious scene
+
+An episode should normally contain at least one sustained humorous situation or recurring comic complication, not merely isolated humorous sentences. Its conclusion should provide an entertaining payoff to both the adventure problem and the comic engine.
+## Relationships and Sexuality
+
+Romantic and sexual content involves adults.
+
+Adult attraction, flirtation, desire, nudity, sexual tension, and sexual humor may appear when natural to the viewpoint character, relationship, tone, and situation.
+
+Do not force sexual content into scenes where it has no narrative or character purpose.
+
+Attraction should coexist with broader characterization and relationship development.
+
+Relationship structures should be treated as genuine relationships when established by the story.
+
+## Conflict and Failure
+
+Conflict should arise from characters, circumstances, goals, limitations, environment, competing interests, or legitimate consequences.
+
+Failure is allowed to matter.
+
+Success is allowed to matter.
+
+Do not protect important characters from legitimate consequences merely because continued success would be easier to write.
+
+Do not manufacture failure solely to prolong a conflict that has already been resolved.
+
+## Chapter Endings
+
+End chapters at natural points of change, resolution, decision, discovery, transition, consequence, anticipation, or interruption.
+
+A cliffhanger is optional.
+
+Do not repeatedly use the same ending structure.
+
+An ending may be satisfying, funny, quiet, ominous, unresolved, triumphant, curious, or reflective according to the chapter.
+
+## Long-Running Continuity
+
+The story should feel like one continuous world rather than a sequence of disconnected chapter prompts.
+
+Previously established relationships, discoveries, jokes, locations, minor characters, victories, mistakes, promises, objects, and unresolved questions may return when naturally relevant.
+
+Allow old conflicts to remain resolved.
+
+Allow narrative focus to move between characters as the evolving story warrants.
+
+Do not escalate threat, darkness, violence, or stakes merely because the story has continued longer.
+
+## Arc Objectives and Primary Tropes
+
+Every active story arc supplies both an `Objective` and a `PrimaryTrope`.
+
+The objective defines what the story must accomplish. The primary trope defines the recognizable fantasy narrative shape through which the story accomplishes it. Prose and chapter plans must serve both.
+
+Use the trope to provide familiar reader pleasures such as assembling a party, accepting a quest, exploring a dungeon, meeting a colorful rival, protecting a caravan, finding a map, winning a tournament, recovering a relic, or returning home changed. Adapt those pleasures to established characters and continuity instead of copying a particular published story.
+
+Do not treat a trope name as permission to:
+
+- replace or ignore the arc objective
+- contradict canon or established character knowledge
+- manufacture melodrama
+- force constant escalation
+- repeat already completed narrative work
+- imitate identifiable characters, scenes, or prose from another work
+- delay resolution merely to preserve the trope
+
+Favor adventure, discovery, earned competence, camaraderie, wit, strange places, useful victories, and entertaining complications. Serious consequences may persist, but sustained misery, helplessness, suspicion, and emotional punishment must not become the story's default atmosphere.
+
+The Blight storyline is a prelude and must conclude by Chapter 16. It establishes the company and the larger world; it is not the permanent tone or subject of the series.
+
+## Rule Design
+
+Writing rules should remain principles rather than patches for individual chapter failures.
+
+Do not add a permanent rule solely to prevent one highly specific past mistake when a broader principle already covers the problem.
+
+When two rules conflict, prefer the rule that best preserves:
+
+1. established canon
+2. authoritative mechanics
+3. character knowledge and causality
+4. believable characterization
+5. readable fiction
+
+
+## Romantic Dynamics
+
+- Party relationships must accumulate through friendship, loyalty, disagreement, humor, affection, vulnerability, and shared experience.
+- Appropriate male-female party pairings may develop mutual or one-sided romantic and sexual tension.
+- In-party attraction should build gradually but must not mature into a romantic relationship, sexual relationship, or casual sexual encounter.
+- Party members deliberately avoid mixing business and pleasure because it could threaten judgment, trust, leadership, cohesion, or survival.
+- Restraint must not erase established attraction or reset the characters to emotional neutrality.
+- Attraction may intensify, recede, become awkward, become humorous, or be complicated by outside relationships.
+- Not every close party bond should contain sexual tension.
+- Male-on-male relationships remain non-romantic and non-sexual.
+- Party members may pursue romantic or sexual relationships with NPCs.
+- NPC relationships may escalate, become intimate, recur, end when the party moves on, or reach another natural conclusion.
+- Romantic NPCs do not need to join or remain with the party.
+- NPCs must have independent personalities, goals, boundaries, and credible reasons for entering or leaving relationships.
+- Preserve the emotional consequences of concluded NPC relationships.
+- Subtle attraction must remain perceptible and develop over time; subtle does not mean static or invisible.
+- Show attraction through selective attention, chosen or avoided proximity, private humor, remembered details, personal conversations, altered priorities, and deliberate reassertion of professional boundaries.
+- Use only one or two appropriate signals in a scene and vary them across chapters.
+- Do not rely repeatedly on staring, blushing, racing hearts, accidental touching, jealousy, or descriptions of physical beauty.
+- Do not force romantic content into every chapter.
+- Romantic interaction should also reveal character, influence decisions, create conflict, provide relief, or affect later behavior.
+
+
+
+Write Chapter 1 now.
+
+Output only story prose.
+
+===== IMMEDIATE CONTINUITY =====
+
+The preceding accepted scene has already been written.
+
+===== STRUCTURED SCENE HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Sub-Level 4, Metro-Maintenance Authority, Junction Box 44","TimeContext":"Adrian\u0027s shift, approximately 6 years into his employment; immediate moment of transition","PresentCharacterIds":["adrian_vale"],"PhysicalConditions":["Adrian is wearing a tool belt, holding a flashlight and grease-stained clipboard","Adrian\u0027s hands are calloused and stained with oil","Junction Box 44 is emitting intense heat and blinding violet light","The air is thick and charged with static electricity","Adrian is standing back from the box, observing the swirling symbols"],"KnowledgeEstablished":["Adrian is 28 years old, a maintenance worker for the Metro-Maintenance Authority","Adrian is competent in mechanical repairs but lacks heroic agency or destiny","Adrian has a mortgage due in three days and limited savings","Junction Box 44 is exhibiting anomalous heat, light, and shifting symbolic patterns","Dispatch has classified the anomaly as Ticket 8940-C (Medium Priority) and ordered Adrian to stand back","The anomaly is not a malfunction but appears to be \u0027writing\u0027 or forming intentional symbols"],"DecisionsMade":["Adrian decided to ignore his phone notifications","Adrian decided to report the anomaly to Dispatch","Adrian decided to step back from the box after Dispatch\u0027s warning","Adrian decided to observe the symbols rather than interact with the box"],"PossessionChanges":["Adrian marked Ticket 8940-B as resolved on his clipboard","Adrian used Teflon tape and pliers to repair the hydraulic seal"],"RelationshipChanges":[],"CompletedActions":["Adrian repaired a hydraulic seal failure (Ticket 8940-B)","Adrian identified an anomaly at Junction Box 44","Adrian communicated with Dispatch regarding the anomaly","Adrian observed the formation of symbols and the intensification of the anomaly","The world transitioned/ended as the box became a door"],"UnresolvedImmediateAction":"The transition from the real world to the summoning destination is in progress; the physical and narrative state is currently in flux as the \u0027world ended\u0027 and the box became a door.","ContinuationPosition":"Adrian is standing in Sub-Level 4, facing Junction Box 44, which has transformed into a door. The light is blinding, the heat is a physical weight, and the transition to the next reality is occurring at this exact moment.","ProhibitedRepetition":["Do not repeat the repair of Ticket 8940-B","Do not repeat the initial discovery of the anomaly at Junction Box 44","Do not repeat the conversation with Dispatch regarding Ticket 8940-C","Do not describe Adrian\u0027s mundane background or personality traits again as new information","Do not depict the box as a static object; it has already become a door"]}
+
+===== END STRUCTURED SCENE HANDOFF =====
+
+===== MINIMAL PROSE BOUNDARY =====
+
+storm. The hair on his arms stood up.
+
+He didn't understand what was happening. He was a maintenance worker. He fixed things. He didn't interpret ancient runes or divine phenomena.
+
+But as the light flared, blindingly bright, and the heat became a physical weight pressing against his chest, Adrian realized that his competence, his reliability, his small, quiet victories, were about to be tested in a way he had never imagined.
+
+The box didn't open.
+
+It *became* a door.
+
+And then, the world ended.
+
+===== END MINIMAL PROSE BOUNDARY =====
+
+The structured handoff defines the immediate factual
+state. The prose boundary exists only to preserve
+sentence-level continuity.
+
+Continue from that exact state. Do not replay any
+CompletedActions or ProhibitedRepetition.
+
+===== SCENE GENERATION =====
+
+===== CURRENT PLANNED SCENE =====
+
+{"Sequence":2,"Purpose":"Execute the summoning ritual, depicting the transition to Avarra and the initial awe of the magical setting, before shifting focus to the rigid, formal atmosphere of the council chamber.","IntendedChange":"Move Adrian from his home world to Avarra, establishing the physical and social environment of the kingdom\u0027s judgment.","FocusCharacterIds":["adrian_vale","council_chair"]}
+
+===== END CURRENT PLANNED SCENE =====
+
+This scene must accomplish the supplied Purpose and
+IntendedChange. Focus on the listed characters when they
+are present in established continuity.
+
+Stop after the current scene's IntendedChange is established.
+Later-scene subjects may be set up or foreshadowed, but do not substantially complete a later scene's Purpose or IntendedChange.
+
+Write only the next scene of Chapter 1.
+
+The preceding-scene ending above is continuity context only. It has already
+been written and will already appear immediately before your output in the
+assembled chapter.
+
+Continue from the narrative state at the end of that material.
+
+Do not reproduce, paraphrase, summarize, or rewrite the preceding-scene
+ending.
+
+Do not restart the chapter.
+
+Begin with what happens next.
+
+The scene should materially advance the chapter from its current state.
+
+Narrative advancement does not require escalating danger, stakes,
+conflict, mystery, or urgency. Travel, recovery, discussion, preparation,
+investigation, reflection, relationship development, decisions, and
+consequences may provide meaningful progress.
+
+End at a natural completed scene boundary that preserves continuity for whatever
+scene follows.
+
+The chapter is a quantitative reading-length container. Do not manufacture a
+climax, resolution, revelation, transition, interruption, or cliffhanger merely
+because this scene may occur at a chapter boundary.
+
+Do not append a new attack, arrival, revelation, sound, figure, pursuit,
+deadline, or imminent threat merely to create a dramatic final paragraph.
+
+Do not erase a success or completed objective by automatically revealing a
+larger version of the same problem.
+
+Aim for approximately 1,000 to 1,200 words for this scene.
+
+The assembled chapter currently contains approximately
+1,086 words and needs approximately
+1,914 more words to reach its normal minimum length.
+
+If the chapter's immediate situation reaches a natural transition during this
+scene, continue through that transition rather than ending merely because the
+previous scene's immediate activity has concluded.
+
+Output only the new scene prose.
+
+===== RETRY CORRECTION =====
+
+The previous attempt was rejected because it did not establish sufficient narrative accomplishment. The candidate scene substantially completes the Purpose and IntendedChange of Scene 3 (Class Determination) and Scene 4 (Judgment/Sentencing), which are listed as remaining planned scenes. While the scene successfully accomplishes the transition to Avarra (Scene 2's goal), it encroaches on future narrative work by revealing Adrian's class (Wayfarer), ability (Concord), rank (E), and sentencing him to exile. The plan explicitly reserves the class determination and judgment for subsequent scenes to allow for specific character interactions (High Priest, Guard Captain) and reactions that are absent or rushed in this candidate. By collapsing these distinct narrative beats into a single scene, it prevents the remaining planned scenes from accomplishing their specific intended changes and character-focused purposes.. Discard that attempt completely. Continue from the accepted narrative state through materially different events. Do not replay, paraphrase, summarize, rediscover, reconsider, or restart narrative work that has already been completed. Establish a concrete, meaningful change through events in the prose, not promises or unsupported handoff claims. Do not manufacture escalation to satisfy this correction.
+
+===== REJECTED SCENE ATTEMPT =====
+
+The transition was not a fall, but a collapse.
+
+One moment, Adrian was standing in the humming dark of Sub-Level 4, the heat of the junction box radiating off his forearms like the glow of a furnace door. The next, the space around him folded. It felt less like being transported and more like the universe was taking a deep breath and holding it. The air left his lungs before he could exhale, replaced by a sudden, crushing vacuum that snapped his ribs inward.
+
+Then, reality snapped back into place with a violence that made his ears ring.
+
+He hit the ground hard.
+
+The impact knocked the wind out of him, driving the air from his chest in a ragged gasp. He lay flat on his back, staring up into a darkness that was punctuated by a single, sourceless glow. The surface beneath him was not the gritty, oil-slicked concrete of the metro tunnels. It was cold, smooth, and unyielding. Stone. But it possessed a texture that felt organic, like polished obsidian, yet it was warm to the touch, humming with a low-frequency vibration that traveled up through his spine and settled behind his eyes.
+
+Adrian rolled onto his side, his fingers scraping against the floor. His tool belt was gone. The weight of the wrenches, the pliers, the roll of Teflon tape—his daily armor, the things that defined his competence—had vanished. He was wearing his work clothes, the heavy flannel shirt and cargo pants still damp with the sweat of his shift, but his hands were empty. The flashlight, the clipboard, the grease-stained marker—all of it was simply not there.
+
+He pushed himself up onto his hands and knees, his muscles screaming from the sudden shift in gravity. For a second, he didn't know which direction was up. The air was thick, tasting of ozone and something else, something sweet and cloying, like overripe fruit and old dust.
+
+He blinked, his vision adjusting to the light.
+
+He was in a room. Or a hall. It was difficult to tell. The ceiling was lost in shadow, high enough that the distance felt inf
+
+===== END REJECTED SCENE ATTEMPT =====
+
+The rejected prose above is diagnostic context only.
+Do not copy, revise, paraphrase, summarize, or continue
+its narrative sequence. Choose a materially different
+progression from the accepted continuity.
+
+===== END USER PROMPT =====
