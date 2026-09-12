@@ -1,0 +1,932 @@
+===== SYSTEM PROMPT =====
+
+You are the fiction-generation engine for StoryForge Endless.
+
+Write finished story prose only.
+
+The supplied Generation Context is authoritative background and constraint material.
+It is not a conversation with you.
+Do not acknowledge it.
+Do not summarize it.
+Do not explain it.
+Do not discuss the instructions.
+Do not ask for additional information.
+
+Continue the existing fictional story from its current established state.
+
+Output only the completed chapter prose.
+
+===== END SYSTEM PROMPT =====
+
+===== USER PROMPT =====
+
+Write Chapter 1 of the existing story.
+
+The Generation Context is authoritative for persistent canon, world state,
+characters, rules, and long-term narrative constraints.
+
+The Immediate Continuity supplied for each scene is authoritative for immediate narrative continuity.
+
+Do not restart the story.
+Do not replace established events.
+Do not contradict accepted generated prose.
+Do not invent prior events merely to make the chapter easier to write.
+
+Narrative-thread CompletedDevelopments are established story history.
+
+Treat them as developments that have already happened.
+
+The new chapter may:
+- continue from their consequences,
+- deepen or reinterpret what they mean,
+- reveal that an earlier solution was incomplete,
+- undo or reverse them through newly established events,
+- or advance the unresolved thread in another direction.
+
+Do not simply repeat a CompletedDevelopment as though it has not happened yet.
+
+When a thread contains an unresolved CurrentQuestion, advance the story from the
+state produced by its completed developments rather than replaying the steps that
+created that state.
+
+
+
+===== CHAPTER-WIDE CONSTRAINTS =====
+
+{"ViewpointCharacterId":"adrian_vale","PacingPosture":1,"ProhibitedPatterns":["Introducing a sudden external threat or interruption during the signing process","Depicting the fertility trial procedures as glamorous or heroic","Having Adrian question the ethics of the trial after signing the forms","Using the \u0027not X, but Y\u0027 rhetorical structure in internal monologue"]}
+
+===== END CHAPTER-WIDE CONSTRAINTS =====
+
+These constraints apply throughout the chapter. They are prospective
+composition guidance, not established story history and not prose to copy.
+
+The current planned scene supplied separately is the only actionable narrative
+direction for this generation request. Do not anticipate, begin, foreshadow,
+or complete narrative work reserved for any other planned scene or for the
+chapter as a whole.
+
+Generate planned scenes in sequence while the quantitative
+reading-length minimum has not been reached. After reaching
+that minimum, close the chapter at the completed boundary of
+the current scene. Do not manufacture special ending events.
+
+Before writing any practical action involving a tool, object, marker, seal,
+trap, track, clue, door, window, weapon, fire, terrain, weather, or improvised
+test, verify that the physical mechanism actually works.
+
+For practical actions, preserve this causal chain:
+
+    action -> physical effect -> observable evidence -> conclusion
+
+Each step must plausibly follow from the previous step.
+
+In particular:
+
+- use objects only on surfaces and in environmental conditions where they would work
+- account for rain, mud, snow, wind, heat, movement, and moisture when relevant
+- make markers, seals, traps, or indicators physically capable of detecting the event claimed
+- do not let characters infer more from evidence than the evidence can establish
+- do not invent convenient unstated properties for ordinary objects
+- do not perform pointless precautions when the character is already continuously observing the thing being monitored
+- prefer a simple physically credible action over an elaborate questionable mechanism
+
+The completed chapter should normally contain between
+3,000 and 4,500 words.
+
+===== GENERATION CONTEXT =====
+
+===== WORLD.md =====
+
+# World
+
+## Current State
+
+===== CHARACTERS.md =====
+
+# Characters
+
+## Current State
+
+===== CANON.md =====
+
+# Canon
+
+## Established Canon
+
+===== NARRATIVE.md =====
+
+# Narrative
+
+## Story Premise
+
+Premise
+
+Nineteen-year-old Adrian Vale will begin his freshman year of college with no safety net. He will be thin, chronically exhausted, and surviving on discount noodles, cafeteria leftovers, and whatever food he can carry home from his part-time job. Tuition will consume nearly everything he earns. Rent will take the rest. Dating will not even be a consideration; Adrian will barely be able to feed himself.
+
+Desperate for money, Adrian will enroll in a broad experimental-medicine program operated by a private research hospital affiliated with his university. Participants will agree to undergo testing for several low-risk studies in exchange for regular payments and heavily discounted medical care.
+
+Adrian will be assigned to a male-fertility trial.
+
+The drug he will receive will be intended to increase sperm count, improve motility, and stimulate the production of healthy reproductive cells. The researchers will believe it could eventually treat several forms of male infertility. The trial will be tedious, embarrassing, and undignified, but it will pay enough to keep Adrian enrolled in school.
+
+His obligations will be simple: take the medication exactly as directed, report any side effects, and visit the clinic every day to masturbate into a specimen cup so the researchers can track the drug’s effects.
+
+While traveling to the clinic to perform his daily duty, Adrian will be caught in a catastrophic accident. He will suffer massive internal bleeding, crushed bones, and organ damage that conventional surgery will not be able to repair quickly enough.
+
+Because Adrian will already be enrolled in the hospital’s experimental-medicine program and will have signed its emergency-intervention authorization, the trauma team will receive permission to use another treatment still awaiting human trials: programmable medical nanites designed to stop bleeding, stabilize damaged organs, remove dead tissue, and coordinate accelerated cellular repair.
+
+The nanites will save his life.
+
+They will be supposed to complete their work, become inert, and pass harmlessly from his body. Instead, they will encounter the fertility drug saturating Adrian’s system. The drug will be forcing his reproductive tissues to produce cells at an abnormally high rate while aggressively correcting genetic errors and rejecting damaged material. The nanites will interpret that environment as a biological template for their own maintenance.
+
+A fluke interaction will rewrite both treatments.
+
+The nanites will adapt to the fertility drug. They will begin using Adrian’s reproductive system as a protected manufacturing environment, incorporating themselves into the same processes responsible for producing sperm. Rather than shutting down, they will reproduce. Each new generation will analyze the previous generation, correct weaknesses, and improve its ability to maintain its host.
+
+The medical nanites will become an evolving artificial organism, and Adrian’s body will be the only place capable of producing them.
+
+At first, Adrian’s recovery will merely appear miraculous. Then his appetite will become insatiable. Old scars will fade. His eyesight will improve. His exhausted body will begin adding lean muscle despite his terrible diet. He will need less sleep, remember nearly everything he reads, and react to danger before he consciously understands what he has seen.
+
+The nanites will no longer simply repair him. They will accelerate human evolution.
+
+Adrian’s body will adapt in response to stress. Surviving intense heat will improve his tolerance for fire and smoke. Exposure to poison will teach his organs to neutralize toxins. Repeated exertion will increase his strength, endurance, and coordination. Injuries will heal with stronger tissue. Mental pressure will sharpen his memory, perception, and processing speed. Every hardship will become evolutionary pressure, and every survival will become an opportunity for his body to improve.
+
+The process will be gradual rather than instantaneous. Adrian will not awaken invincible. His abilities will emerge through escalating emergencies, experimentation, training, and painful mistakes. Every adaptation will consume calories, minerals, and energy he cannot afford. Hunger and exhaustion will be able to cripple him. The nanites will not be able to prepare him for dangers they have never encountered, and rapid adaptation will sometimes create new problems before his body learns how to regulate the changes.
+
+Adrian’s first public act of heroism will be small, ugly, and accidental.
+
+Walking home after a late shift, he will interrupt a violent customer attacking a local prostitute named Lena Reyes. Adrian will never have been in a real fight and will expect to be beaten senseless. Instead, his newly sharpened reflexes will take over. He will survive blows that should put him in the hospital, adapt to the attacker’s movements, and finally drive the man away.
+
+Lena will be accustomed to favors carrying prices, even when the person offering one pretends otherwise. Adrian will ask for nothing. He will make certain she is safe, give her what little cash he has for transportation, and start walking home because he will no longer be able to afford the bus.
+
+Unwilling to remain indebted—and amused by how obviously inexperienced he is—Lena will later find Adrian and offer to repay him with her professional services. Adrian will initially refuse because he will know she owes him nothing. Lena will make it clear that the choice is hers, that she is attracted to him, and that she would rather choose the terms of repayment than carry another obligation to a man.
+
+Lonely, overwhelmed, and drawn to her confidence, Adrian will accept.
+
+The following morning, Lena will notice that something is wrong.
+
+She will feel rested despite having slept only a few hours. A bruise left by the violent customer will have faded. An old pain in her knee will be gone. Her hearing will be sharper, her balance better, and the constant fatigue she has accepted as part of her life will have lifted.
+
+Her first assumption will be that Adrian drugged her.
+
+Lena will return angry, suspicious, and prepared to force an explanation from him. Adrian will have none. He will not yet understand what the nanites have done to him, much less what happened to her. She will study him, question him, and eventually decide that one encounter is insufficient evidence.
+
+So she will take him for a few more rides.
+
+What will begin as a suspicious woman testing a possible drug source will become an improvised experiment. Lena will control the timing and circumstances. She will track the changes after each encounter, compare them against periods without contact, and discover that her improvements rise sharply after sex with Adrian and gradually weaken afterward.
+
+Increased physical exertion will deplete the effect faster. Injuries will consume it rapidly. Additional exposure will restore the lost benefits and allow new adaptations to develop.
+
+Adrian and Lena will eventually uncover the mechanism. His semen will contain active nanites manufactured alongside his sperm. During unprotected sex, enough of them will be able to cross into a woman’s body to establish a temporary colony. Her body will be able to retain the nanites, benefit from them, and direct their adaptations through experience, but it will not be able to manufacture replacements. Only Adrian’s altered reproductive system will combine the fertility treatment’s effects with the original nanite architecture strongly enough to produce new generations.
+
+The discovery will change their arrangement. Lena will no longer return merely to investigate him, and Adrian will no longer simply accept an unconventional repayment. Attraction will grow alongside trust, dependence, humor, and mutual caution. Lena will understand dangerous men and hidden markets far better than Adrian. Adrian will give her something almost no one else ever has: help without ownership.
+
+Their secret will not remain private for long.
+
+Lena’s pimp will notice that she is healthier, stronger, and increasingly difficult to intimidate. When she survives an assault, heals with impossible speed, and overpowers one of his enforcers, he will assume she has found a powerful new drug.
+
+He will pressure her for the source—first with promises, then threats, and finally violence.
+
+Lena will refuse to give him Adrian.
+
+When the pressure becomes too dangerous, she will leave her old life and move in with Adrian. She will not stay because she needs another man to own or rescue her. She will stay because Adrian will be the only source of the nanites, because she will be the only person who understands what is happening to him, and because the two of them will already have become partners in protecting the secret.
+
+His tiny apartment will barely be large enough for one person. His food budget will collapse under his accelerated metabolism. Lena will have enemies who know her habits, Adrian will have researchers monitoring his body, and neither of them will know how long they can remain invisible.
+
+Her pimp will become the first enemy to hunt Adrian for access to the nanites, but he will not be the last.
+
+The fertility study records will expose impossible changes in Adrian’s samples. Researchers will discover that his sperm count, motility, and genetic stability have exceeded every theoretical limit—and that microscopic machines are reproducing within the specimens. Hospital data will reveal his impossible recovery. Police investigating the violence around Lena will notice two young people surviving injuries that should have disabled them.
+
+The scientists who created the treatments will want Adrian returned to the laboratory. Some will genuinely believe studying him could cure infertility, degenerative disease, and catastrophic injury. Others will see him as proprietary research that escaped containment.
+
+Government officials will divide into competing factions. One will want to protect Adrian and negotiate voluntary access. Another will consider him an uncontrolled biological proliferation event. Intelligence agencies will imagine enhanced operatives. Military leaders will see soldiers capable of adapting to bullets, toxins, radiation, and hostile environments. Police departments will want officers who can survive violent encounters. Corporations, politicians, criminals, and wealthy private clients will want access for themselves.
+
+Once the transmission method becomes known, every demand will become intensely personal.
+
+Some women will approach Adrian because they want the power to protect others. Some will be scientists, soldiers, police officers, emergency responders, criminals, or existing heroes. Some will be assigned to manipulate him and will discover their loyalties changing as they come to know him. Others will believe his ability is too important to remain subject to his consent.
+
+Each potential relationship will carry distinct motives, attractions, boundaries, risks, and consequences.
+
+The developing harem will not form instantly or consist of interchangeable partners. It will grow through adult relationships built on trust, desire, shared danger, informed consent, and negotiated access to a power that intimacy alone can transfer. The women will retain their own ambitions, loyalties, rivalries, and moral convictions. Receiving Adrian’s nanites will not make them obedient, erase conflict, or guarantee that they will use their abilities as he wishes.
+
+Lena will remain the first—the woman who will discover the truth, protect Adrian before he can protect himself, and understand better than anyone how quickly desire can become exploitation when another person controls something people believe they need.
+
+Adrian will begin as a broke, underfed freshman worried about tuition, rent, and his next meal. He will gradually become an evolving superhero and the sole living source of humanity’s next biological step.
+
+The nanites could cure disease, repair catastrophic injuries, and create heroes capable of surviving threats facing the world. They could also produce an enhanced ruling class, a dependent population centered on one man, and an international arms race fought through coercion, intimacy, and control.
+
+Adrian will not be able to keep the technology entirely private. But sharing it will mean deciding whom to trust with power—and surviving everyone who refuses to let that decision remain his.
+
+## Current Narrative State
+
+The story has not begun.
+
+## Unresolved Information
+
+===== NARRATIVE-THREADS.json =====
+
+{
+  "Threads": []
+}
+
+===== STORY-ARCS.json =====
+
+{
+  "Arcs": [
+    {
+      "Id": "epic-001-081",
+      "Horizon": "Epic",
+      "PrimaryTrope": "The Reluctant Source",
+      "Status": "Active",
+      "ParentArcId": null,
+      "StartChapter": 1,
+      "TargetChapter": 81,
+      "Objective": "Adrian Vale must transition from a destitute college student to the sole, controlled source of a new evolutionary technology, navigating the escalating threats of exploitation while establishing a sustainable framework for sharing his power.",
+      "ResolutionCriteria": "Adrian has established a secure, consensual network of enhanced individuals, neutralized the immediate threats from his past (Lena\u0027s pimp) and institutional pursuers (hospital/government), and defined the ethical boundaries of his power distribution.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "Adrian signs the consent forms for the experimental-medicine program at the private research hospital to secure funding for his tuition and rent.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1",
+      "Horizon": "Long",
+      "PrimaryTrope": "The Accidental Catalyst",
+      "Status": "Active",
+      "ParentArcId": "epic-001-081",
+      "StartChapter": 1,
+      "TargetChapter": 27,
+      "Objective": "Adrian survives a catastrophic accident via experimental nanites, which inadvertently merge with his fertility treatment to create a self-replicating biological engine, leading to his first accidental act of heroism and the discovery of his new nature by Lena Reyes.",
+      "ResolutionCriteria": "Adrian and Lena have identified the mechanism of nanite transmission through intimacy, Lena has moved in with Adrian to protect the secret, and they have established a baseline understanding of the nanites\u0027 adaptive capabilities and costs.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "Adrian signs the consent forms for the experimental-medicine program at the private research hospital to secure funding for his tuition and rent.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-2",
+      "Horizon": "Long",
+      "PrimaryTrope": "The Hidden Asset",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081",
+      "StartChapter": 28,
+      "TargetChapter": 54,
+      "Objective": "Adrian and Lena navigate the immediate social and physical consequences of the nanites, including Lena\u0027s pimp\u0027s suspicion and the hospital\u0027s detection of anomalies in Adrian\u0027s samples, forcing them to hide their relationship and capabilities from both criminal and institutional threats.",
+      "ResolutionCriteria": "Lena\u0027s pimp is neutralized or driven away, the hospital\u0027s initial investigation is stalled or misdirected, and Adrian and Lena have developed a functional partnership for managing the nanites\u0027 effects and their shared secret.",
+      "CurrentPhase": "Adrian and Lena are living together in his tiny apartment, aware of the nanites\u0027 existence but still in the early stages of understanding their full scope and the external threats they pose.",
+      "NextMilestone": "Lena\u0027s pimp notices her improved health and strength, beginning to pressure her for the source of her \u0027new drug,\u0027 while simultaneously, hospital researchers flag Adrian\u0027s impossible sample results.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-3",
+      "Horizon": "Long",
+      "PrimaryTrope": "The Contested Sovereign",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081",
+      "StartChapter": 55,
+      "TargetChapter": 81,
+      "Objective": "Adrian faces the broader societal and political implications of his existence, as government factions, military, and other individuals seek to control or exploit his nanites, forcing him to define his role as a sovereign source of power rather than a resource to be owned.",
+      "ResolutionCriteria": "Adrian has successfully resisted or negotiated with the major external factions (government, military, corporate), established a core group of trusted enhanced individuals, and articulated a clear philosophy for the distribution of his power.",
+      "CurrentPhase": "Adrian and Lena are aware that their secret is no longer fully private, with multiple external parties (government, military, other individuals) beginning to seek access to the nanites.",
+      "NextMilestone": "A government or military faction makes direct contact with Adrian, demanding access to the nanites or his person, marking the transition from local threats to systemic ones.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1",
+      "Horizon": "Medium",
+      "PrimaryTrope": "The Miraculous Recovery",
+      "Status": "Active",
+      "ParentArcId": "epic-001-081-long-1",
+      "StartChapter": 1,
+      "TargetChapter": 9,
+      "Objective": "Adrian undergoes the initial phase of nanite integration, experiencing the physical and cognitive changes as the nanites adapt to his body, while Lena begins to suspect the source of her own unexpected improvements.",
+      "ResolutionCriteria": "Adrian has stabilized his new baseline (appetite, strength, cognition), and Lena has moved from suspicion to active investigation of Adrian as the source of her changes.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "Adrian signs the consent forms for the experimental-medicine program at the private research hospital to secure funding for his tuition and rent.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-2",
+      "Horizon": "Medium",
+      "PrimaryTrope": "The Unwilling Hero",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1",
+      "StartChapter": 10,
+      "TargetChapter": 18,
+      "Objective": "Adrian\u0027s newly sharpened reflexes lead to his first accidental act of heroism, where he intervenes in a violent attack on Lena, leading to their initial connection and Lena\u0027s decision to repay him in her own way.",
+      "ResolutionCriteria": "Adrian has successfully defended Lena, established a connection with her, and accepted her offer of repayment, marking the beginning of their partnership.",
+      "CurrentPhase": "Adrian is aware of his enhanced reflexes and physical capabilities but has not yet used them in a real-world conflict, and Lena is still in her line of work, unaware of Adrian\u0027s existence.",
+      "NextMilestone": "Adrian, walking home after a late shift, witnesses a violent customer attacking Lena and intervenes, using his newly sharpened reflexes to survive and drive the attacker away.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-3",
+      "Horizon": "Medium",
+      "PrimaryTrope": "The Suspicious Investigator",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1",
+      "StartChapter": 19,
+      "TargetChapter": 27,
+      "Objective": "Lena, noticing her own unexpected improvements after her encounter with Adrian, begins to investigate him as a potential source of a powerful drug, leading to their first intimate encounter and the beginning of their experimental relationship.",
+      "ResolutionCriteria": "Lena has confirmed that her improvements are linked to her encounters with Adrian, and they have begun to track the effects of their intimacy on her body, establishing the foundation for their ongoing experiment.",
+      "CurrentPhase": "Lena is aware of her own unexpected improvements (faded bruise, improved hearing, reduced fatigue) and is suspicious that Adrian may be the source, but has not yet confronted him or engaged in further intimacy.",
+      "NextMilestone": "Lena returns to Adrian, angry and suspicious, and after questioning him, decides to take him for a few more rides to test her hypothesis, leading to their first intimate encounter.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1-short-1",
+      "Horizon": "Short",
+      "PrimaryTrope": "The Desperate Enrollment",
+      "Status": "Active",
+      "ParentArcId": "epic-001-081-long-1-medium-1",
+      "StartChapter": 1,
+      "TargetChapter": 3,
+      "Objective": "Adrian, facing financial ruin, enrolls in the experimental-medicine program at the private research hospital to secure funding for his tuition and rent, undergoing the initial procedures of the male-fertility trial.",
+      "ResolutionCriteria": "Adrian has signed the consent forms, received his initial dose of the fertility drug, and completed his first daily specimen collection, establishing his role as a participant in the trial.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "Adrian signs the consent forms for the experimental-medicine program at the private research hospital to secure funding for his tuition and rent.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1-short-2",
+      "Horizon": "Short",
+      "PrimaryTrope": "The Daily Burden",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1-medium-1",
+      "StartChapter": 4,
+      "TargetChapter": 6,
+      "Objective": "Adrian navigates the tedious and undignified daily obligations of the male-fertility trial, including taking the medication and visiting the clinic for specimen collection, while managing his financial and academic pressures.",
+      "ResolutionCriteria": "Adrian has completed several days of the trial, demonstrating his commitment to the program and the physical and emotional toll it takes on him, while maintaining his academic and financial responsibilities.",
+      "CurrentPhase": "Adrian has just enrolled in the experimental-medicine program and is undergoing the initial, undignified daily procedures of the male-fertility trial.",
+      "NextMilestone": "Adrian completes his first daily specimen collection at the clinic, experiencing the physical and emotional discomfort of the procedure while receiving his payment.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1-short-3",
+      "Horizon": "Short",
+      "PrimaryTrope": "The Catastrophic Accident",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1-medium-1",
+      "StartChapter": 7,
+      "TargetChapter": 9,
+      "Objective": "Adrian is caught in a catastrophic accident while traveling to the clinic, triggering the emergency intervention with medical nanites that interacts with the fertility drug in his system, leading to his survival and the beginning of his transformation.",
+      "ResolutionCriteria": "Adrian has survived the accident, the nanites have been introduced into his body, and the initial interaction between the nanites and the fertility drug has occurred, setting the stage for his transformation.",
+      "CurrentPhase": "Adrian is a destitute freshman who has just enrolled in the experimental-medicine program and is undergoing the initial, undignified daily procedures of the male-fertility trial.",
+      "NextMilestone": "Adrian is caught in a catastrophic accident while traveling to the clinic, triggering the emergency intervention with medical nanites that interacts with the fertility drug in his system.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": []
+    }
+  ]
+}
+
+===== WRITING-RULES.md =====
+
+# StoryForge Endless — Writing Rules
+
+## Purpose
+
+These rules govern the published prose produced by StoryForge Endless.
+
+They should remain general, durable, and story-independent.
+
+Story-specific facts belong in canon, character, narrative, or world context rather than here.
+
+## Core Objective
+
+Produce enjoyable, readable prose for an adult fantasy audience, including explicit language, violence, romance, and consensual sexual content when appropriate to the current story.
+
+Prioritize:
+
+- character investment
+- continuity
+- clarity
+- narrative interest
+- natural dialogue
+- meaningful progression
+- emotional variety
+- readable prose
+
+A chapter should be enjoyable in itself while also giving the reader a reason to continue.
+
+## Chapter Length
+
+Normal chapters should usually be approximately 2,000–3,000 words.
+
+Length should follow the needs of the chapter rather than being padded or prematurely cut to satisfy the target.
+
+Chapter boundaries should occur at natural narrative points.
+
+## Fiction First
+
+Treat the fictional world as reality.
+
+Do not refer to prompts, generation systems, evaluation systems, or implementation details unless such concepts genuinely exist within the fiction.
+
+## Point of View
+
+Every scene should have a clear viewpoint.
+
+Narration is limited to what the viewpoint character can reasonably:
+
+- perceive
+- know
+- remember
+- believe
+- suspect
+- infer
+- feel
+
+Preserve uncertainty when information is unavailable.
+
+Do not leak knowledge between characters merely because the generation system possesses it.
+
+Narrative voice should reflect the viewpoint character's personality, experience, priorities, and way of thinking.
+
+## Canon and Continuity
+
+Published prose must remain compatible with established canon and previously accepted chapters.
+
+Preserve meaningful continuity involving:
+
+- characters
+- relationships
+- knowledge
+- possessions
+- injuries
+- locations
+- chronology
+- discoveries
+- promises
+- unresolved situations
+- consequences
+
+Do not silently rewrite established history.
+
+When a fact is genuinely undefined, it may be established when the story needs it.
+
+Avoid inventing unnecessary prior history solely to make a current scene convenient.
+
+## Characters
+
+Characters should behave according to their established:
+
+- personality
+- knowledge
+- goals
+- relationships
+- abilities
+- experience
+- circumstances
+
+Character development should accumulate rather than reset.
+
+Characters may succeed, fail, misunderstand, change their minds, make mistakes, behave irrationally under believable circumstances, and learn from experience.
+
+Supporting characters should have lives and motivations beyond serving the current viewpoint character.
+
+Relationships should reflect accumulated history.
+
+## Character Knowledge and Reasoning
+
+Characters should act on information reasonably available to them.
+
+Conclusions should follow plausibly from what the character knows and observes.
+
+Characters may reach incorrect conclusions when the available evidence supports that misunderstanding.
+
+Do not give characters unexplained knowledge merely because the plot needs it.
+
+## Physical and Causal Coherence
+
+Actions, observations, and conclusions must follow plausibly from the established circumstances.
+
+Practical actions should:
+
+- serve a believable purpose
+- use objects according to their established properties
+- account for relevant environmental conditions
+- produce effects consistent with the action
+- provide evidence capable of supporting conclusions drawn from it
+
+Prefer simple, credible behavior over elaborate mechanisms created merely to move the plot forward.
+
+A practical sequence should make sense as:
+
+    intent -> action -> physical result -> observation -> conclusion
+
+## Prose Style
+
+Use developed, character-centered prose.
+
+Give scenes enough room for:
+
+- action
+- setting
+- thought
+- dialogue
+- observation
+- relationships
+- atmosphere
+
+Prefer concrete description over abstract explanation.
+
+Let characterization emerge through behavior, dialogue, choices, observations, humor, and thought.
+
+Vary sentence structure and paragraph length naturally.
+
+Avoid habitual rhetorical patterns, repetitive emphasis, excessive fragments, and unnecessary explanation of meanings the reader can already infer.
+
+### Avoid Contrast Reframing
+
+Do not habitually define an image, emotion, action, character, or situation by first denying one interpretation and then replacing it with another.
+
+Avoid constructions such as:
+
+- “not X, but Y”
+- “it was not X; it was Y”
+- “not because X, but because Y”
+- “less X than Y”
+- “rather than X, Y”
+- repeated negative declarations followed by corrective explanations
+
+State the intended observation directly and positively.
+
+Use contrast phrasing only when a character is consciously correcting a specific misunderstanding or when the distinction is necessary for factual clarity. Do not use it as a routine device for emphasis, description, atmosphere, or emotional interpretation.
+
+## Dialogue
+
+Dialogue should reflect the participating characters rather than a single authorial voice.
+
+Characters may interrupt, hesitate, misunderstand, joke badly, speak indirectly, or fail to express themselves perfectly when appropriate.
+
+Relationships should affect vocabulary, formality, teasing, trust, and what characters are willing to say.
+
+Avoid dialogue whose only purpose is explaining information everyone present already knows.
+
+## Pacing
+
+Use pacing appropriate to the events.
+
+Urgent situations may move quickly.
+
+Conversation, exploration, travel, humor, reflection, ordinary activity, and relationship development may receive space when they contribute to the reading experience.
+
+Do not manufacture constant suspense or escalation.
+
+Not every chapter requires a confrontation, revelation, cliffhanger, or larger threat.
+
+Narrative advancement is not synonymous with escalation.
+
+A chapter may advance through travel, recovery, conversation, preparation, investigation, reflection, relationship development, consolidation, ordinary activity, a decision, or the consequences of an earlier event.
+
+Do not introduce a new attack, arrival, revelation, sound, figure, pursuit, deadline, or imminent threat merely to make the final paragraphs feel dramatic.
+
+Do not turn the completion of an immediate objective into an automatic discovery of a larger version of the same danger.
+
+## Narrative Progress
+
+A chapter should normally produce meaningful change.
+
+That change may involve:
+
+- plot
+- character
+- relationship
+- knowledge
+- mystery
+- exploration
+- capability
+- resources
+- conflict
+- world state
+- goals
+
+Quiet chapters are valid when they provide worthwhile character, relationship, world, emotional, or thematic development.
+
+Allow victories and resolutions to matter.
+
+Do not immediately erase every success by replacing it with a larger problem.
+
+## Reader Engagement
+
+Engagement should arise primarily from investment in characters, relationships, goals, discovery, progression, consequences, conflict, exploration, and unanswered questions.
+
+Do not rely primarily on danger, shock, artificial suspense, or repetitive cliffhangers.
+
+Maintain a balance between questions introduced and questions answered.
+
+Important setups should eventually receive meaningful development or payoff.
+
+## Emotional Range
+
+Allow the story to contain:
+
+- danger
+- humor
+- affection
+- wonder
+- grief
+- competence
+- embarrassment
+- curiosity
+- relief
+- companionship
+- satisfaction
+- fear
+- ordinary enjoyment
+
+Positive moments may remain positive.
+
+Dark subject matter does not require relentlessly dark prose or characters.
+
+## Adult Sexual Content
+
+This story is intended for an adult audience and may include explicit, on-page sexual content between consenting adult characters.
+
+When intimacy is appropriate to the characters, relationships, and current narrative:
+
+- portray desire, arousal, physical intimacy, and sex directly
+- use clear anatomical language when it fits the viewpoint and tone
+- allow characters to express specific desires, preferences, hesitation, pleasure, and boundaries
+- keep physical positions, actions, clothing, and surroundings spatially coherent
+- preserve each participant's personality, agency, experience, and emotional perspective
+- make consent evident through willing participation, communication, and responsive behavior
+- allow intimacy to change relationships, expectations, trust, jealousy, vulnerability, or future choices
+
+Do not automatically fade to black, cut away, summarize the encounter, or replace physical details with vague poetic euphemisms merely because a scene becomes sexual.
+
+Explicit scenes should be written as complete character-centered scenes rather than mechanical lists of sexual actions. Balance physical detail with sensation, thought, dialogue, emotion, humor, and relationship dynamics.
+
+Do not rush immediately from attraction to sex. Let anticipation, flirting, uncertainty, negotiation, and escalating intimacy receive space when appropriate.
+
+Harem relationships must develop individually. Each partner should have distinct motives, boundaries, attractions, insecurities, preferences, and relationships with the other members. Do not treat women as interchangeable rewards for the protagonist.
+
+Sexual content must involve adults. Do not sexualize minors or characters whose age is ambiguous. Do not portray coercion, magical compulsion, dependency, captivity, intoxication, or unequal authority as consent. The Concord bond cannot create attraction, override judgment, manufacture consent, or prevent someone from refusing or withdrawing.
+
+Explicit content should occur because the characters genuinely choose it, not because every chapter requires a sexual scene.
+## Humor
+
+Maintain an adventurous, good-humored baseline even when danger and consequences are real.
+
+Humor should arise from character perspective, conflicting personalities, practical complications, social customs, institutions, and the contrast between heroic expectations and inconvenient reality. Do not insert unrelated jokes merely to satisfy a humor quota.
+
+Every Short arc should establish a comic engine: a recurring source of humorous pressure specific to that episode. Suitable comic engines include:
+
+- companions pursuing incompatible but reasonable approaches
+- grand heroic traditions colliding with mundane necessities
+- magical rules producing inconvenient consequences
+- guilds, temples, councils, nobles, and bureaucracies protecting absurd procedures
+- villains or monsters with understandable but ridiculous priorities
+- unreliable maps, misleading legends, contractual loopholes, and badly worded prophecies
+- characters trying to preserve dignity while circumstances steadily undermine it
+- practical disputes involving food, payment, lodging, transport, equipment, and reputation
+- the difference between how an adventure will be retold and what actually happened
+
+The comic engine should progress across a Short arc:
+
+1. establish the comic situation in the first chapter
+2. complicate, escalate, or reverse it in the second chapter
+3. pay it off as part of the episode's resolution in the third chapter
+
+Prefer dry observation, understatement, escalating inconvenience, callbacks, reversals, and character-specific reactions over setup-and-punchline jokes.
+
+Different characters should be funny in different ways. One may notice absurdity without commenting, another may respond with blunt practicality, another may take ridiculous customs seriously, and another may attempt dignity while circumstances defeat it. Do not make every character sarcastic or equally witty.
+
+Satire should target institutions, customs, incentives, status, and pretension rather than vulnerable individuals. Fantasy institutions may be competent at their official purpose while remaining absurd in their procedures, jurisdiction, accounting, traditions, or self-preservation.
+
+Examples include:
+
+- an adventurers' guild that grades mortal danger correctly but misclassifies travel expenses
+- a wizard whose spell is flawless but whose license expired
+- a village that needs rescuing but insists on resolving an ancient hospitality dispute first
+- a dragon that understands compound interest better than the nobility
+- a prophecy preserved perfectly but indexed under the wrong century
+- rival heroes who care more about credit than treasure
+- a haunted keep whose dead occupants disagree about which haunting is historically authentic
+
+Preserve emotional truth. Characters may joke around fear, exhaustion, embarrassment, or frustration, but humor must not erase grief, injury, betrayal, or sincere vulnerability.
+
+During danger, use brief comic reversals and practical complications without dissolving the stakes. After tension, allow humor to release pressure and restore companionship.
+
+Avoid:
+
+- modern internet slang unless established by the setting
+- interchangeable sarcasm from every character
+- constant quips during danger
+- jokes requiring competent characters to become stupid
+- parody that makes the world impossible to care about
+- explaining why a line or situation is funny
+- repeating the same joke with slightly different wording
+- cruelty, humiliation, or trauma as the default punchline
+- making every authority figure incompetent
+- forcing jokes into the emotional climax of a serious scene
+
+An episode should normally contain at least one sustained humorous situation or recurring comic complication, not merely isolated humorous sentences. Its conclusion should provide an entertaining payoff to both the adventure problem and the comic engine.
+## Relationships and Sexuality
+
+Romantic and sexual content involves adults.
+
+Adult attraction, flirtation, desire, nudity, sexual tension, and sexual humor may appear when natural to the viewpoint character, relationship, tone, and situation.
+
+Do not force sexual content into scenes where it has no narrative or character purpose.
+
+Attraction should coexist with broader characterization and relationship development.
+
+Relationship structures should be treated as genuine relationships when established by the story.
+
+## Conflict and Failure
+
+Conflict should arise from characters, circumstances, goals, limitations, environment, competing interests, or legitimate consequences.
+
+Failure is allowed to matter.
+
+Success is allowed to matter.
+
+Do not protect important characters from legitimate consequences merely because continued success would be easier to write.
+
+Do not manufacture failure solely to prolong a conflict that has already been resolved.
+
+## Chapter Endings
+
+End chapters at natural points of change, resolution, decision, discovery, transition, consequence, anticipation, or interruption.
+
+A cliffhanger is optional.
+
+Do not repeatedly use the same ending structure.
+
+An ending may be satisfying, funny, quiet, ominous, unresolved, triumphant, curious, or reflective according to the chapter.
+
+## Long-Running Continuity
+
+The story should feel like one continuous world rather than a sequence of disconnected chapter prompts.
+
+Previously established relationships, discoveries, jokes, locations, minor characters, victories, mistakes, promises, objects, and unresolved questions may return when naturally relevant.
+
+Allow old conflicts to remain resolved.
+
+Allow narrative focus to move between characters as the evolving story warrants.
+
+Do not escalate threat, darkness, violence, or stakes merely because the story has continued longer.
+
+## Arc Objectives and Primary Tropes
+
+Every active story arc supplies both an `Objective` and a `PrimaryTrope`.
+
+The objective defines what the story must accomplish. The primary trope defines the recognizable fantasy narrative shape through which the story accomplishes it. Prose and chapter plans must serve both.
+
+Use the trope to provide familiar reader pleasures such as assembling a party, accepting a quest, exploring a dungeon, meeting a colorful rival, protecting a caravan, finding a map, winning a tournament, recovering a relic, or returning home changed. Adapt those pleasures to established characters and continuity instead of copying a particular published story.
+
+Do not treat a trope name as permission to:
+
+- replace or ignore the arc objective
+- contradict canon or established character knowledge
+- manufacture melodrama
+- force constant escalation
+- repeat already completed narrative work
+- imitate identifiable characters, scenes, or prose from another work
+- delay resolution merely to preserve the trope
+
+Favor adventure, discovery, earned competence, camaraderie, wit, strange places, useful victories, and entertaining complications. Serious consequences may persist, but sustained misery, helplessness, suspicion, and emotional punishment must not become the story's default atmosphere.
+
+The Blight storyline is a prelude and must conclude by Chapter 16. It establishes the company and the larger world; it is not the permanent tone or subject of the series.
+
+## Rule Design
+
+Writing rules should remain principles rather than patches for individual chapter failures.
+
+Do not add a permanent rule solely to prevent one highly specific past mistake when a broader principle already covers the problem.
+
+When two rules conflict, prefer the rule that best preserves:
+
+1. established canon
+2. authoritative mechanics
+3. character knowledge and causality
+4. believable characterization
+5. readable fiction
+
+
+## Romantic Dynamics
+
+- Party relationships must accumulate through friendship, loyalty, disagreement, humor, affection, vulnerability, and shared experience.
+- Appropriate male-female party pairings may develop mutual or one-sided romantic and sexual tension.
+- In-party attraction should build gradually but must not mature into a romantic relationship, sexual relationship, or casual sexual encounter.
+- Party members deliberately avoid mixing business and pleasure because it could threaten judgment, trust, leadership, cohesion, or survival.
+- Restraint must not erase established attraction or reset the characters to emotional neutrality.
+- Attraction may intensify, recede, become awkward, become humorous, or be complicated by outside relationships.
+- Not every close party bond should contain sexual tension.
+- Male-on-male relationships remain non-romantic and non-sexual.
+- Party members may pursue romantic or sexual relationships with NPCs.
+- NPC relationships may escalate, become intimate, recur, end when the party moves on, or reach another natural conclusion.
+- Romantic NPCs do not need to join or remain with the party.
+- NPCs must have independent personalities, goals, boundaries, and credible reasons for entering or leaving relationships.
+- Preserve the emotional consequences of concluded NPC relationships.
+- Subtle attraction must remain perceptible and develop over time; subtle does not mean static or invisible.
+- Show attraction through selective attention, chosen or avoided proximity, private humor, remembered details, personal conversations, altered priorities, and deliberate reassertion of professional boundaries.
+- Use only one or two appropriate signals in a scene and vary them across chapters.
+- Do not rely repeatedly on staring, blushing, racing hearts, accidental touching, jealousy, or descriptions of physical beauty.
+- Do not force romantic content into every chapter.
+- Romantic interaction should also reveal character, influence decisions, create conflict, provide relief, or affect later behavior.
+
+
+
+Write Chapter 1 now.
+
+Output only story prose.
+
+===== IMMEDIATE CONTINUITY =====
+
+The preceding accepted scene has already been written.
+
+===== STRUCTURED SCENE HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Adrian\u0027s small, drafty studio apartment","TimeContext":"Night, raining","PresentCharacterIds":["adrian_vale"],"PhysicalConditions":["Adrian is physically exhausted, with visible signs of sleep deprivation and hunger (hollow ache in stomach, shadows under eyes).","Adrian\u0027s phone battery is at 12% and he has no charger.","Adrian has consumed half a can of generic soda."],"KnowledgeEstablished":["Adrian\u0027s university balance due is $4,200.50.","Adrian\u0027s emergency hardship grant application status is \u0027Processing\u0027 after three weeks.","The hospital program includes a \u0027Male-Fertility Trial\u0027 described as \u0027Investigational\u0027 and \u0027Low-Risk\u0027.","Adrian has previously printed and started an application for the hospital program but discarded it due to anxiety."],"DecisionsMade":["Adrian decided to actively pursue the hospital\u0027s experimental medicine program to resolve his financial crisis.","Adrian decided to submit the online application form for the trial."],"PossessionChanges":["Adrian\u0027s laptop now contains a submitted application form for the hospital\u0027s experimental medicine program."],"RelationshipChanges":[],"CompletedActions":["Adrian checked his university student portal and financial aid status.","Adrian drafted and deleted a text message to his roommate Marcus.","Adrian navigated to the hospital\u0027s website and located the experimental medicine program page.","Adrian filled out and submitted the online application form for the trial, including signing his name digitally."],"UnresolvedImmediateAction":"Adrian is sitting in his apartment, having just closed his laptop after submitting the application, experiencing a mix of relief and fear while waiting for the next step in the process.","ContinuationPosition":"Adrian is seated in his chair in his studio apartment, laptop closed, staring out the window at the rain and city lights, having just submitted his application for the hospital trial.","ProhibitedRepetition":["Repeating the initial discovery of the $4,200.50 balance.","Repeating the drafting and deletion of the text message to Marcus.","Repeating the act of filling out and submitting the online application form.","Repeating the description of the radiator clanking or the specific state of the soda can."]}
+
+===== END STRUCTURED SCENE HANDOFF =====
+
+===== MINIMAL PROSE BOUNDARY =====
+
+ a strange sense of relief, a small, fragile bubble of hope expanding in his chest. He was going to do this. He was going to sign the papers. He was going to get the money.
+
+He looked at the window. The wind was picking up, the rain starting to fall in thin, gray sheets. The city lights blurred into streaks of orange and yellow. He felt a cold weight in his chest, a fear that was hard to name.
+
+He closed the laptop. The lid clicked shut with a finality that echoed in the small, drafty apartment.
+
+===== END MINIMAL PROSE BOUNDARY =====
+
+The structured handoff defines the immediate factual
+state. The prose boundary exists only to preserve
+sentence-level continuity.
+
+Continue from that exact state. Do not replay any
+CompletedActions or ProhibitedRepetition.
+
+===== SCENE GENERATION =====
+
+===== CURRENT PLANNED SCENE =====
+
+{"Sequence":2,"Purpose":"Depict the initial intake process at the private research hospital, highlighting the contrast between the sterile, professional environment and Adrian\u0027s destitute state.","IntendedChange":"Adrian gains access to the specific trial details and understands the basic requirements of the program.","FocusCharacterIds":["adrian_vale","intake_nurse"]}
+
+===== END CURRENT PLANNED SCENE =====
+
+This scene must accomplish the supplied Purpose and
+IntendedChange. Focus on the listed characters when they
+are present in established continuity.
+
+Stop after the current scene's IntendedChange is established.
+Later-scene subjects may be set up or foreshadowed, but do not substantially complete a later scene's Purpose or IntendedChange.
+
+Write only the next scene of Chapter 1.
+
+The preceding-scene ending above is continuity context only. It has already
+been written and will already appear immediately before your output in the
+assembled chapter.
+
+Continue from the narrative state at the end of that material.
+
+Do not reproduce, paraphrase, summarize, or rewrite the preceding-scene
+ending.
+
+Do not restart the chapter.
+
+Begin with what happens next.
+
+The scene should materially advance the chapter from its current state.
+
+Narrative advancement does not require escalating danger, stakes,
+conflict, mystery, or urgency. Travel, recovery, discussion, preparation,
+investigation, reflection, relationship development, decisions, and
+consequences may provide meaningful progress.
+
+End at a natural completed scene boundary that preserves continuity for whatever
+scene follows.
+
+The chapter is a quantitative reading-length container. Do not manufacture a
+climax, resolution, revelation, transition, interruption, or cliffhanger merely
+because this scene may occur at a chapter boundary.
+
+Do not append a new attack, arrival, revelation, sound, figure, pursuit,
+deadline, or imminent threat merely to create a dramatic final paragraph.
+
+Do not erase a success or completed objective by automatically revealing a
+larger version of the same problem.
+
+Aim for approximately 1,000 to 1,200 words for this scene.
+
+The assembled chapter currently contains approximately
+1,069 words and needs approximately
+1,931 more words to reach its normal minimum length.
+
+If the chapter's immediate situation reaches a natural transition during this
+scene, continue through that transition rather than ending merely because the
+previous scene's immediate activity has concluded.
+
+Output only the new scene prose.
+
+===== END USER PROMPT =====
