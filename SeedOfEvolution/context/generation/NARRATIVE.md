@@ -1,4 +1,4 @@
-# Narrative
+﻿# Narrative
 
 ## Story Premise
 
@@ -103,5 +103,17 @@ Adrian will not be able to keep the technology entirely private. But sharing it 
 ## Current Narrative State
 
 The story has not begun.
+
+
+- The story has begun with Adrian Vale's intake into the fertility trial.
+
+
+- Adrian Vale has completed his first day of the trial protocol.
+
+
+- Adrian Vale has decided to prioritize the trial income over his academic schedule by dropping Bio 101.
 
 ## Unresolved Information
+
+
+- The long-term effects of the investigational medication are unknown.

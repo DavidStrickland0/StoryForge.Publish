@@ -1,3 +1,81 @@
 {
-  "Threads": []
+  "Threads": [
+    {
+      "Id": "character-goal-001",
+      "Type": "character_goal",
+      "Status": 0,
+      "IntroducedChapter": 1,
+      "LastAdvancedChapter": 1,
+      "Summary": "Adrian Vale is enrolled in an experimental fertility trial to generate income for tuition and rent, committing to daily clinic visits and bodily sample collection.",
+      "CurrentQuestion": "Will the financial compensation from the trial be sufficient to sustain Adrian\u0027s education and living expenses, or will the demands of the protocol escalate beyond his capacity to cope?",
+      "RequiredContinuity": [
+        "Adrian is 19 years old (DOB Aug 12, 2004).",
+        "Adrian works nights at a diner.",
+        "Adrian is financially destitute, relying on the trial for rent and tuition.",
+        "Adrian has signed a consent form waiving rights to sue and privacy.",
+        "The trial requires daily visits between 8:00 AM and 12:00 PM.",
+        "The trial involves daily administration of an experimental medication and reproductive sample collection.",
+        "Dr. Aris Thorne is the lead investigator and Adrian\u0027s primary point of contact.",
+        "Adrian\u0027s first dose was administered and a baseline sample collected on Day 1."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 1,
+          "Development": "Adrian Vale completed the intake process for an experimental fertility trial, signing a consent form that waives legal rights and privacy. He underwent a physical examination by Dr. Aris Thorne, received his first dose of the experimental medication, and provided a baseline reproductive sample. He received an initial payment that covers immediate needs but is insufficient for full tuition and living expenses, establishing a recurring daily obligation to return to the clinic."
+        }
+      ]
+    },
+    {
+      "Id": "conflict-001",
+      "Type": "conflict",
+      "Status": 0,
+      "IntroducedChapter": 1,
+      "LastAdvancedChapter": 2,
+      "Summary": "Adrian\u0027s physical state has deteriorated significantly due to the combination of poverty and the experimental medication. He is experiencing acute symptoms including shivering, elevated heart rate, skin sensitivity, cognitive impairment (inability to read/study), and tremors. He is actively suppressing these symptoms to avoid removal from the trial, creating a dangerous gap between his actual condition and his reported status.",
+      "CurrentQuestion": "How long can Adrian sustain this level of physical and cognitive degradation while concealing his symptoms, and what will be the consequence when his body finally fails or he is forced to report the side effects?",
+      "RequiredContinuity": [
+        "Adrian is experiencing shivering, elevated heart rate, and skin sensitivity.",
+        "Adrian is experiencing cognitive impairment, including blurred vision and inability to retain information while studying.",
+        "Adrian is experiencing tremors in his hands.",
+        "Adrian has explicitly lied to Dr. Thorne, reporting \u0027no\u0027 side effects despite experiencing nausea, fatigue, and physical distress.",
+        "Adrian is aware that reporting side effects leads to removal from the trial."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 1,
+          "Development": "The chapter establishes Adrian\u0027s baseline state of extreme poverty and physical neglect, highlighting his hunger, fatigue, and anxiety. This internal conflict is juxtaposed against the cold, clinical indifference of the trial staff, creating a tension between his need for survival and the dehumanizing nature of the procedure he must endure daily."
+        },
+        {
+          "ChapterNumber": 2,
+          "Development": "Adrian experienced acute physical symptoms (shivering, elevated heart rate, skin sensitivity) and cognitive impairment (inability to read, tremors) during the day. He concealed these symptoms from Dr. Thorne, explicitly lying on the side effect log to avoid removal from the trial, despite the medication\u0027s visible impact on his ability to function."
+        }
+      ]
+    },
+    {
+      "Id": "mystery-001",
+      "Type": "mystery",
+      "Status": 0,
+      "IntroducedChapter": 1,
+      "LastAdvancedChapter": 2,
+      "Summary": "The experimental medication is causing severe, unlisted side effects including cognitive impairment, tremors, and heightened sensory sensitivity. Dr. Thorne acknowledged that the side effect profile is \u0027still being mapped\u0027 and specifically noted \u0027skin sensitivity\u0027 as a new observation, suggesting the drug\u0027s impact is more profound and unpredictable than initially disclosed.",
+      "CurrentQuestion": "What is the full extent of the medication\u0027s side effect profile, and is Dr. Thorne aware of the severity of the cognitive and neurological symptoms Adrian is experiencing?",
+      "RequiredContinuity": [
+        "The medication is causing cognitive impairment (blurred vision, memory loss, tremors).",
+        "The medication is causing heightened sensory sensitivity (skin feels thin/raw, sounds feel loud).",
+        "Dr. Thorne stated the side effect profile is \u0027still being mapped\u0027.",
+        "Dr. Thorne specifically noted \u0027skin sensitivity\u0027 as a side effect.",
+        "Adrian is concealing the severity of his symptoms from the research team."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 1,
+          "Development": "Adrian was administered the first dose of the experimental medication, which was described as a compound to stimulate reproductive cell production. The text explicitly notes that the long-term effects are unknown and that the medication is not approved for general use, establishing a central mystery regarding its true impact on the participant."
+        },
+        {
+          "ChapterNumber": 2,
+          "Development": "Dr. Thorne acknowledged that the medication\u0027s side effect profile is \u0027still being mapped\u0027 and specifically noted \u0027skin sensitivity\u0027 as a new observation. Adrian experienced severe cognitive impairment and tremors, indicating the drug\u0027s effects are more severe and neurological than the previously listed side effects (nausea, fatigue, libido changes)."
+        }
+      ]
+    }
+  ]
 }

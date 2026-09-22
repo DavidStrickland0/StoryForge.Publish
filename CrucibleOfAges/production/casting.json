@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "bookId": "storyforge-crucibleofages",
+  "assignments": [
+    {
+      "characterId": "chapter-001-the-woman",
+      "voiceId": "voice-070b12697a45f754",
+      "confidence": 0.5,
+      "rationale": "The role requires a female voice. All eligible voices are female with no specific qualities, ages, or accents defined. The first available female voice is selected as there is no metadata to distinguish preference among the identical options.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "kael",
+      "voiceId": "voice-0439e4bc5b2c7934",
+      "confidence": 0.5,
+      "rationale": "Kael is an 18-year-old male Marine. The selected voice is a male English voice. No specific age, accent, or quality metadata is provided for the voice or the character beyond gender and language, so any male voice is technically eligible. This voice is selected as a standard male option suitable for a young adult male character.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "chapter-001-the-child",
+      "voiceId": "voice-8a77e77ae1f7dbff",
+      "confidence": 0.95,
+      "rationale": "Selected a female voice (voice-8a77e77ae1f7dbff) from the allowed list. Since no specific role or quality was requested, a standard female voice was chosen as a neutral default.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "narrator",
+      "voiceId": "voice-3889362671fcb2f7",
+      "confidence": 0.95,
+      "rationale": "The voice is a male English speaker, which aligns with the \u0027male\u0027 presentation and \u0027en\u0027 language requirements. It is a standard, neutral voice suitable for general narration or dialogue, fitting the lack of specific accent or age constraints.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.4,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    }
+  ]
+}

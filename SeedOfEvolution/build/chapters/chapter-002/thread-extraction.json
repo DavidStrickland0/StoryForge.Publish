@@ -1,0 +1,52 @@
+﻿{
+  "Changes": [
+    {
+      "Action": "Advance",
+      "ThreadId": "character-goal-001",
+      "Type": "character_goal",
+      "Summary": "Adrian Vale has accepted that the experimental fertility trial\u0027s daily schedule is incompatible with his academic and work obligations. He has made the explicit decision to drop Bio 101 to preserve his enrollment in Intro to Econ and maintain the income stream required for survival, prioritizing immediate financial stability over his broader educational goals.",
+      "CurrentQuestion": "Will dropping Bio 101 be sufficient to manage the trial\u0027s demands, or will the escalating physical toll of the medication force him to abandon the trial entirely, jeopardizing his financial survival?",
+      "RequiredContinuity": [
+        "Adrian has explicitly decided to drop Bio 101.",
+        "Adrian is still enrolled in Intro to Econ and intends to pass it.",
+        "Adrian works nights at a diner (6:00 PM - 2:00 AM).",
+        "The trial requires daily presence from 8:00 AM to 12:00 PM.",
+        "Adrian has missed two classes this week due to the trial schedule.",
+        "Adrian is financially dependent on the trial payments for rent and tuition."
+      ],
+      "Development": "Adrian realized that his academic schedule (9:00 AM and 1:00 PM classes) and night shift work are incompatible with the trial\u0027s 8:00 AM - 12:00 PM requirement. After missing two classes and facing skepticism from a professor, he explicitly wrote \u0027Drop Bio 101\u0027 in his notebook, choosing to sacrifice one course to maintain his enrollment and income."
+    },
+    {
+      "Action": "Advance",
+      "ThreadId": "conflict-001",
+      "Type": "conflict",
+      "Summary": "Adrian\u0027s physical state has deteriorated significantly due to the combination of poverty and the experimental medication. He is experiencing acute symptoms including shivering, elevated heart rate, skin sensitivity, cognitive impairment (inability to read/study), and tremors. He is actively suppressing these symptoms to avoid removal from the trial, creating a dangerous gap between his actual condition and his reported status.",
+      "CurrentQuestion": "How long can Adrian sustain this level of physical and cognitive degradation while concealing his symptoms, and what will be the consequence when his body finally fails or he is forced to report the side effects?",
+      "RequiredContinuity": [
+        "Adrian is experiencing shivering, elevated heart rate, and skin sensitivity.",
+        "Adrian is experiencing cognitive impairment, including blurred vision and inability to retain information while studying.",
+        "Adrian is experiencing tremors in his hands.",
+        "Adrian has explicitly lied to Dr. Thorne, reporting \u0027no\u0027 side effects despite experiencing nausea, fatigue, and physical distress.",
+        "Adrian is aware that reporting side effects leads to removal from the trial."
+      ],
+      "Development": "Adrian experienced acute physical symptoms (shivering, elevated heart rate, skin sensitivity) and cognitive impairment (inability to read, tremors) during the day. He concealed these symptoms from Dr. Thorne, explicitly lying on the side effect log to avoid removal from the trial, despite the medication\u0027s visible impact on his ability to function."
+    },
+    {
+      "Action": "Advance",
+      "ThreadId": "mystery-001",
+      "Type": "mystery",
+      "Summary": "The experimental medication is causing severe, unlisted side effects including cognitive impairment, tremors, and heightened sensory sensitivity. Dr. Thorne acknowledged that the side effect profile is \u0027still being mapped\u0027 and specifically noted \u0027skin sensitivity\u0027 as a new observation, suggesting the drug\u0027s impact is more profound and unpredictable than initially disclosed.",
+      "CurrentQuestion": "What is the full extent of the medication\u0027s side effect profile, and is Dr. Thorne aware of the severity of the cognitive and neurological symptoms Adrian is experiencing?",
+      "RequiredContinuity": [
+        "The medication is causing cognitive impairment (blurred vision, memory loss, tremors).",
+        "The medication is causing heightened sensory sensitivity (skin feels thin/raw, sounds feel loud).",
+        "Dr. Thorne stated the side effect profile is \u0027still being mapped\u0027.",
+        "Dr. Thorne specifically noted \u0027skin sensitivity\u0027 as a side effect.",
+        "Adrian is concealing the severity of his symptoms from the research team."
+      ],
+      "Development": "Dr. Thorne acknowledged that the medication\u0027s side effect profile is \u0027still being mapped\u0027 and specifically noted \u0027skin sensitivity\u0027 as a new observation. Adrian experienced severe cognitive impairment and tremors, indicating the drug\u0027s effects are more severe and neurological than the previously listed side effects (nausea, fatigue, libido changes)."
+    }
+  ],
+  "Model": "qwen3.8:27b",
+  "Duration": "00:01:54.0453085"
+}
