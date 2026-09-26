@@ -1,0 +1,67 @@
+The walk to the clinic took twenty minutes, a duration that felt both interminable and fleeting given the state of Adrian’s legs. His knees ached with a dull, persistent throb that synced with his heartbeat, a steady rhythm that made it hard to think about anything else. The city lights smeared into long, blurred streaks as he moved, the air thick with the scent of rain that had fallen earlier in the day. He kept his head down, shoulders hunched against the chill, his bag slung heavily over one shoulder. The fabric of his jacket felt abrasive against his skin, a constant, low-grade irritation that he couldn’t shake.
+
+When he reached the building, the glass doors slid open with a soft hiss, releasing a wave of conditioned air that smelled of antiseptic and floor polish. It was a sterile smell, one that had become synonymous with the only source of income that allowed him to keep his apartment. He stepped inside, his shoes squeaking slightly on the polished tile.
+
+The reception area was dimly lit, the overhead fluorescents humming with a frequency that Adrian was beginning to associate with his own headache. The receptionist was seated behind the high counter, her gray eyes scanning a document before lifting to look at him. She didn’t smile. She rarely did. Her gaze flickered over his face, lingering on the pale sheen of sweat at his temples, before she looked down at her screen.
+
+"Adrian Vale," she said, her voice flat and professional. "You're late by three minutes."
+
+"I had a flat tire on the way over," Adrian said. It was a lie, a small, safe one. He had no flat tire. He had simply been too weak to walk any faster. "Sorry."
+
+She didn’t ask for proof. She didn’t need to. The trial’s schedule was rigid, a machine that did not accommodate for human frailty or mechanical failure. She typed something into her keyboard, the sound of the keys clicking sharply in the quiet room. "Dr. Thorne is expecting you. Room 4. The nurse will be bringing you in shortly."
+
+Adrian nodded, moving toward the corridor. His hands trembled slightly as he reached for the door handle, a fine vibration that he had to consciously suppress. He forced his fingers to steady, gripping the metal until the trembling subsided.
+
+The corridor was long and silent, the walls lined with neutral-colored panels that offered no visual interest. Adrian’s reflection stared back at him from a dark window, a pale, hollowed-out version of himself. He looked thinner than he had a week ago, his cheekbones more prominent, his eyes darker. He touched his face, feeling the roughness of stubble he hadn’t had time to shave off.
+
+A door opened ahead of him, and the nurse stepped out. She was a woman of indeterminate age, with kind eyes and a face that suggested a lifetime of patience. She held a clipboard against her chest.
+
+"Adrian? I’m Sarah. I’ll take you to the prep room."
+
+He followed her, his steps careful and measured. The prep room was smaller than the main examination room, a sterile box with a single chair and a counter. A plastic cup sat on the counter, empty and waiting. Adrian knew what was expected of him. The procedure was undignified, invasive, and daily. It was the price of admission.
+
+He sat down, the plastic chair cold against his back. The room smelled of rubbing alcohol. He stared at the cup, his mind wandering to the numbers in his head. The rent was due in five days. The trial payment covered it, but only barely. If he missed a day, if he reported a side effect that led to his removal, the safety net would vanish. He would be back to discount noodles and sleeping on the floor of his studio apartment, the weight of his tuition hanging over him like a guillotine.
+
+The nurse watched him with a professional detachment that was almost comforting. She didn’t ask if he was alright. She didn’t offer reassurance. She simply waited, her pen poised over her clipboard.
+
+Adrian stood up, his legs shaking. He felt the familiar heat in his chest, the drug’s effect pushing through the fog of his exhaustion. It was a strange, contradictory sensation: a physical vitality that felt borrowed, paid for with a clarity of thought he was rapidly losing. He performed the act, the humiliation of it dull and familiar, a routine as mundane as brushing his teeth.
+
+When it was over, he rinsed his hands, the water cold and shocking against his skin. He dried them with a paper towel, his movements precise and controlled. He walked back to the chair, sitting down with a heavy sigh.
+
+Sarah collected the cup, placing it in a biohazard bag with a practiced ease. She checked the time on her watch. "That’s the sample. I’ll bring it to Dr. Thorne. She’ll be with you in a moment."
+
+She left, the door clicking shut behind her. Adrian was alone in the small room. He closed his eyes, leaning his head back against the wall. The silence was heavy, pressing against his eardrums. He thought about the authorization form. He had seen it in the intake packet, a thick document with dense legal text. He hadn’t read it all. He hadn’t had the mental capacity. Now, as the medication’s side effects intensified, the words felt even more distant, like trying to read a book through a cracked lens.
+
+The door opened again, and Dr. Thorne entered. She was tall, her dark hair cut in a sleek bob, her pale eyes scanning the room with a sharp, assessing look. She held a folder, its edges crisp and clean.
+
+"Adrian," she said, her voice calm and even. "Come with me."
+
+He followed her down the corridor, the hum of the fluorescent lights growing louder. They entered Room 4, the main examination room. It was spacious, with a large desk and two chairs. The red emergency button on the desk was visible, a small, bright dot of color in the otherwise gray space.
+
+Dr. Thorne sat down, opening the folder. She placed a pen on the desk, its silver clip catching the light.
+
+"There is one final step in your enrollment process," she said, her tone devoid of emotion. "Before we can finalize your participation in the broader experimental-medicine program, you need to sign the emergency-intervention authorization."
+
+Adrian looked at the folder. His heart rate spiked, a sudden, sharp beat in his chest. He knew what this was. He had read enough to know that this was the part where the control shifted.
+
+"What does it entail?" he asked, his voice sounding hoarse in the quiet room.
+
+Dr. Thorne looked up, her gaze steady. "It grants the medical team the legal authority to administer experimental treatments in the event of a life-threatening emergency. Treatments that have not yet completed human trials."
+
+Adrian’s hand tightened around the back of the chair. The words hung in the air, heavy and final. He thought about the accident he had almost had, the way his body felt like it was slowly unraveling from the inside out. He thought about the money, the rent, the tuition. He thought about the fact that he had no one to turn to, no safety net, no margin for error.
+
+He looked at the red button on the desk. It was a promise of help, but only if he was still alive to press it. And only if they had the right to save him.
+
+He reached for the pen. His hand trembled, but he held it steady. He signed his name, the ink dark and permanent on the white paper.
+
+Dr. Thorne took the folder, closing it with a soft click. "Thank you, Adrian. Your enrollment is now complete."
+
+She stood up, picking up a file from her desk. "I have one more question for you today. Have you experienced any changes in your vision or coordination since your last visit?"
+
+Adrian looked at her, the tremor in his hand still visible. He thought about the blurred edges of the world, the way the words on his textbook had swam before his eyes. He thought about the flat tire lie, the small deception that had kept him in the building.
+
+"No," he said, his voice steady. "I’ve been fine."
+
+Dr. Thorne nodded, making a note on her clipboard. She didn’t look at him as she wrote, her pen moving quickly across the paper. "I’ll see you tomorrow at eight. Same time, same room."
+
+She turned and walked out of the room, the door closing behind her. Adrian was left alone in Room 4, the red button on the desk glowing like a warning. He sat there for a long time, the silence of the clinic pressing in around him, the weight of his signature settling into his bones.

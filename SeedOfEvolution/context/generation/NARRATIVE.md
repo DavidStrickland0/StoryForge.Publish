@@ -113,7 +113,61 @@ The story has not begun.
 
 - Adrian Vale has decided to prioritize the trial income over his academic schedule by dropping Bio 101.
 
+
+- The story has progressed to the third day of Adrian Vale's daily dosage of the investigational medication.
+
+
+- Adrian Vale has signed the emergency-intervention authorization form for the fertility trial.
+
+
+- Adrian Vale has received the final payment for the intake phase of the trial.
+
+
+- Adrian Vale is experiencing significant side effects from the investigational medication, including skin hyperesthesia, tremors, elevated vitals, nausea, and sensory overload.
+
+
+- Adrian Vale is financially struggling, relying on trial payments for rent and food.
+
+
+- Adrian Vale is enrolled in Intro to Econ and works nights at the diner.
+
+
+- Adrian Vale has a cracked phone screen.
+
+
+- Adrian Vale is three days into the daily dosage of the investigational medication.
+
+
+- The fertility trial includes an emergency-intervention authorization that allows the research team to override patient consent in life-threatening situations.
+
+
+- The fertility trial protocol requires participants to bring their own water bottles.
+
+
+- The fertility trial protocol specifies that the specimen collection room is located on the left, past the waiting area.
+
+
+- The fertility trial protocol requires participants to arrive at 8:00 AM sharp every morning.
+
+
+- The fertility trial protocol instructs participants to press the red emergency button if side effects become unmanageable or if they experience severe pain.
+
+
+- The fertility trial protocol states that pushing through severe pain compromises data integrity.
+
+
+- The clinic uses surveillance cameras to monitor patient movement.
+
 ## Unresolved Information
 
 
 - The long-term effects of the investigational medication are unknown.
+
+
+- The specific nature of the 'unapproved therapeutic agents' mentioned in the emergency-intervention authorization is not detailed.
+
+
+- The specific protocols for 'cardiac arrest management' and 'organ stabilization' under the emergency-intervention authorization are not detailed.
+
+
+- The specific criteria for 'complex, experimental physiological states' that justify the use of the emergency-intervention authorization are not detailed.

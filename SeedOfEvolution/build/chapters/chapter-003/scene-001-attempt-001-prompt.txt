@@ -2,7 +2,7 @@
 
 You are the fiction-generation engine for StoryForge Endless.
 
-Write finished story prose only.
+Write finished story prose for one planned scene only.
 
 The supplied Generation Context is authoritative background and constraint material.
 It is not a conversation with you.
@@ -14,7 +14,9 @@ Do not ask for additional information.
 
 Continue the existing fictional story from its current established state.
 
-Output only the completed chapter prose.
+Stop at the current scene's planned ending state. Leave later scene work
+unwritten, even when the current scene feels short or unfinished.
+Output only the current scene's prose.
 
 ===== END SYSTEM PROMPT =====
 
@@ -31,6 +33,19 @@ Do not restart the story.
 Do not replace established events.
 Do not contradict accepted generated prose.
 Do not invent prior events merely to make the chapter easier to write.
+
+Do not write standalone one-word sentences in narration or interior thought.
+Develop the thought in a complete sentence. Natural short spoken dialogue,
+including brief replies and urgent commands, is allowed.
+
+Follow the supplied prose-style rules throughout the chapter. In particular,
+keep the grammatical person required by the Point of View rule in every scene.
+The chapter boundary does not reset that requirement.
+avoid stacks of clipped narrative sentences, repeated explanations of motives
+or meanings already clear from behavior, and habitual "not X, but Y" contrast
+reframing. A character may describe himself inaccurately when his actions
+intentionally reveal the gap; preserve that characterization without repeatedly
+explaining the gap to the reader.
 
 Narrative-thread CompletedDevelopments are established story history.
 
@@ -49,11 +64,29 @@ When a thread contains an unresolved CurrentQuestion, advance the story from the
 state produced by its completed developments rather than replaying the steps that
 created that state.
 
+PREVIOUS ATTEMPT REJECTION:
+
+A previous attempt at this same chapter was rejected for the following reason:
+
+Chapter 3 attempt failed. Chapter attempts: 2/3; failed scene: 2; scene-generation attempts: 3/3; handoff attempts: 0/3. Final failure: Scene 2 failed scene acceptance validation after 3 attempts. Last rejection: it contained a one-word narrative sentence (Thorne.) that could not be corrected
+
+Do not revise, imitate, or reconstruct the rejected solution.
+
+Treat the rejection as evidence that the previous narrative approach was
+fundamentally unsuitable.
+
+Generate a substantially different solution to the chapter's narrative needs.
+
+In particular:
+- do not recreate the rejected practical mechanism
+- do not preserve an action merely by making its description more plausible
+- do not reproduce the same causal sequence with cosmetic changes
+- solve the scene differently when necessary
 
 
 ===== CHAPTER-WIDE CONSTRAINTS =====
 
-{"ViewpointCharacterId":"Adrian Vale","PacingPosture":0,"ProhibitedPatterns":["Do not introduce a new physical side effect or medical complication that was not established in Chapter 2.","Do not have Dr. Thorne offer emotional support, financial advice, or break her clinical detachment.","Do not introduce Lena Reyes, the nanites, or any hint of the future accident.","Do not resolve the conflict regarding Adrian\u0027s academic performance or his diner job; these remain ongoing background pressures.","Do not use the \u0027not X, but Y\u0027 rhetorical structure to describe Adrian\u0027s feelings or the document\u0027s nature."]}
+{"ViewpointCharacterId":"Adrian Vale","PacingPosture":1,"ProhibitedPatterns":["One-word narrative sentences (e.g., \u0027Thorne.\u0027)","Repeating the \u0027not X, but Y\u0027 contrast structure","Introducing a new catastrophic event or threat to end the chapter","Summarizing the side effects instead of showing their immediate physical impact"]}
 
 ===== END CHAPTER-WIDE CONSTRAINTS =====
 
@@ -1306,9 +1339,8 @@ When two rules conflict, prefer the rule that best preserves:
 
 
 
-Write Chapter 3 now.
-
-Output only story prose.
+Chapter 3 is written one planned scene at a time.
+Follow the scene generation instructions below for the current scene only.
 
 ===== IMMEDIATE CONTINUITY =====
 
@@ -1323,7 +1355,7 @@ scene continues through the following validated state handoff.
 
 ===== MINIMAL PREVIOUS CHAPTER PROSE BOUNDARY =====
 
-e was empty.
+pty.
 
 He looked at the clock. 2:15 AM.
 
@@ -1361,9 +1393,19 @@ change, escalation, resolution, or new dramatic phase.
 
 ===== CURRENT PLANNED SCENE =====
 
-{"Sequence":1,"Purpose":"Establish the physical and psychological weight of Adrian\u0027s current state as he arrives at the clinic, highlighting the cumulative exhaustion from the second week of the trial and his diner shifts.","IntendedChange":"Adrian enters the clinic in a state of heightened sensory sensitivity and fatigue, reinforcing the cost of his compliance before the final administrative hurdle is presented.","FocusCharacterIds":["Adrian Vale","Nurse"]}
+{"Sequence":1,"Purpose":"Adrian arrives at the clinic in a state of heightened physical distress, demonstrating the escalating cost of the medication while maintaining his professional facade.","IntendedChange":"Adrian is seated in the waiting area, physically trembling and hyper-aware of his surroundings, having just completed the daily intake procedure and waiting for the final administrative step.","FocusCharacterIds":["Adrian Vale","Receptionist"]}
 
 ===== END CURRENT PLANNED SCENE =====
+
+===== NEXT SCENE BOUNDARY =====
+
+{"Sequence":2,"Purpose":"Dr. Thorne presents the emergency-intervention authorization, explaining the specific loss of bodily autonomy required for the trial\u0027s final phase.","IntendedChange":"Adrian holds the signed authorization document, having read the terms that allow the medical team to override his consent in a life-threatening emergency, and is ready to sign.","FocusCharacterIds":["Adrian Vale","Dr. Aris Thorne (Lead Researcher)"]}
+
+===== END NEXT SCENE BOUNDARY =====
+
+Leave the next scene's Purpose and IntendedChange for the next generation.
+End this scene before the action described there begins. Preserve a plausible
+location and physical state from which the next scene can start immediately.
 
 This scene must accomplish the supplied Purpose and
 IntendedChange. Focus on the listed characters when they
@@ -1394,8 +1436,10 @@ conflict, mystery, or urgency. Travel, recovery, discussion, preparation,
 investigation, reflection, relationship development, decisions, and
 consequences may provide meaningful progress.
 
-End at a natural completed scene boundary that preserves continuity for whatever
-scene follows.
+End when the current planned scene's IntendedChange is established. Preserve
+the next planned scene's Purpose and IntendedChange for that next scene. A
+chapter-level objective or closing state may be completed only in the scene
+assigned to it by the plan.
 
 The chapter is a quantitative reading-length container. Do not manufacture a
 climax, resolution, revelation, transition, interruption, or cliffhanger merely
@@ -1413,9 +1457,7 @@ The assembled chapter currently contains approximately
 0 words and needs approximately
 3,000 more words to reach its normal minimum length.
 
-If the chapter's immediate situation reaches a natural transition during this
-scene, continue through that transition rather than ending merely because the
-previous scene's immediate activity has concluded.
+Do not continue into a later planned scene to meet the chapter word target.
 
 Output only the new scene prose.
 

@@ -1,0 +1,147 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 3.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":3,"ViewpointCharacterId":"Adrian Vale","Objective":"Adrian signs the emergency-intervention authorization, completing his enrollment in the experimental-medicine program and securing his financial lifeline, while confronting the final bureaucratic hurdle of the trial.","IntendedChange":"Adrian signs the emergency-intervention authorization, completing his enrollment in the experimental-medicine program and securing his financial lifeline, while confronting the final bureaucratic hurdle of the trial.","PacingPosture":1,"ProhibitedPatterns":["One-word narrative sentences (e.g., \u0027Thorne.\u0027)","Repeating the \u0027not X, but Y\u0027 contrast structure","Introducing a new catastrophic event or threat to end the chapter","Summarizing the side effects instead of showing their immediate physical impact"],"Scenes":[{"Sequence":1,"Purpose":"Adrian arrives at the clinic in a state of heightened physical distress, demonstrating the escalating cost of the medication while maintaining his professional facade.","IntendedChange":"Adrian is seated in the waiting area, physically trembling and hyper-aware of his surroundings, having just completed the daily intake procedure and waiting for the final administrative step.","FocusCharacterIds":["Adrian Vale","Receptionist"]},{"Sequence":2,"Purpose":"Dr. Thorne presents the emergency-intervention authorization, explaining the specific loss of bodily autonomy required for the trial\u0027s final phase.","IntendedChange":"Adrian holds the signed authorization document, having read the terms that allow the medical team to override his consent in a life-threatening emergency, and is ready to sign.","FocusCharacterIds":["Adrian Vale","Dr. Aris Thorne (Lead Researcher)"]},{"Sequence":3,"Purpose":"Adrian signs the authorization, finalizing his enrollment and securing the full financial commitment, while Thorne processes the completion of his file.","IntendedChange":"Adrian has signed the document, the enrollment is officially complete, and he is dismissed from the clinic with his final payment confirmed, leaving him with the full weight of his new obligations.","FocusCharacterIds":["Adrian Vale","Dr. Aris Thorne (Lead Researcher)"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Adrian signs the authorization, finalizing his enrollment and securing the full financial commitment, while Thorne processes the completion of his file.","IntendedChange":"Adrian has signed the document, the enrollment is officially complete, and he is dismissed from the clinic with his final payment confirmed, leaving him with the full weight of his new obligations.","FocusCharacterIds":["Adrian Vale","Dr. Aris Thorne (Lead Researcher)"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":3,"CompletedSceneSequence":2,"Location":"Room 4, Clinic","TimeContext":"6:42 PM","PresentCharacterIds":["Adrian Vale","Dr. Aris Thorne (Lead Researcher)"],"PhysicalConditions":["Adrian Vale is experiencing skin hyperesthesia (sharp electric stings from touch/wind)","Adrian Vale is physically trembling with uncontrolled muscle twitching in hands","Adrian Vale has a heart rate of 112 bpm and blood pressure of 98/60","Adrian Vale is suffering from acute stress response and hypoglycemia (has not eaten a solid meal in 12 hours)","Adrian Vale is visually impaired by blurred vision and light sensitivity"],"KnowledgeEstablished":["Adrian Vale understands that the emergency-intervention authorization grants the research team full authority to initiate emergency surgical procedures and administer unapproved therapeutic agents in life-threatening conditions","Adrian Vale understands that this authorization overrides his right to refuse treatment if refusal would result in imminent death","Adrian Vale understands that refusing to sign the authorization will result in termination of enrollment and loss of financial support","Adrian Vale understands that withdrawing from the trial now will result in loss of access to the medication currently managing his acute symptoms"],"DecisionsMade":["Adrian Vale decided to proceed with signing the emergency-intervention authorization despite the loss of bodily autonomy"],"PossessionChanges":["Adrian Vale is holding the emergency-intervention authorization document and an uncapped pen"],"RelationshipChanges":["Dr. Aris Thorne (Lead Researcher) has presented the final enrollment requirement and framed the decision as a binary choice between survival and withdrawal"],"CompletedActions":["Dr. Aris Thorne (Lead Researcher) presented the emergency-intervention authorization document to Adrian Vale","Adrian Vale read the terms of the emergency-intervention authorization","Adrian Vale asked Dr. Aris Thorne (Lead Researcher) if he would be considered a patient or a resource","Dr. Aris Thorne (Lead Researcher) clarified that Adrian Vale is a participant and that the outcome is survival","Adrian Vale requested a minute to consider the decision","Adrian Vale uncapped the pen in preparation for signing"],"UnresolvedImmediateAction":"Adrian Vale is about to sign the emergency-intervention authorization document.","ContinuationPosition":"Adrian Vale is seated in the chair opposite Dr. Aris Thorne (Lead Researcher) in Room 4. He is holding the emergency-intervention authorization document with both hands and has just uncapped the pen. Dr. Aris Thorne (Lead Researcher) is standing near the window, watching him. The signature line is visible at the bottom of the document.","ProhibitedRepetition":["Do not re-explain the terms of the emergency-intervention authorization as new information","Do not re-describe the physical symptoms (tremors, hyperesthesia) as new discoveries; they are established current states","Do not have Dr. Thorne re-present the document or re-state the binary choice between survival and withdrawal","Do not have Adrian Vale re-read the document or re-ask if he is a patient or a resource"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The ink flowed in a thin, shaky line, the letters of his name wobbling like heat shimmer over asphalt. Adrian’s hand cramped halfway through the final period, the muscle in his forearm seizing up in a tight, painful knot. He forced the pen down, the tip scraping against the paper with a sound that seemed too loud in the sterile quiet of the room.
+
+He set the pen on the desk. The click of the cap snapping shut felt final, a mechanical seal closing on something he couldn’t open again.
+
+Dr. Thorne moved from the window. Her steps were silent, the soles of her shoes absorbing the sound against the linoleum floor. She did not smile. She did not offer a congratulations. She simply reached out, her fingers closing around the top edge of the document, and lifted it from the desk. She scanned the signature line, her pale eyes moving quickly over the ink, then back to the text above it.
+
+"Good," she said. The word was flat, devoid of warmth. It was a confirmation of data, a checkmark in a ledger.
+
+She turned and walked to the small filing cabinet beside her desk. The drawer slid open with a smooth, oiled glide. She placed the authorization inside, then pulled out a different folder, thinner, yellowed at the edges. She pulled a sheet of paper from it—a payment confirmation—and tucked it into the manila envelope she kept on the desk for this purpose.
+
+"Your final payment for the intake phase has been processed," she said. She held out the envelope. "It will hit your account within twenty-four hours. Check your banking app."
+
+Adrian took the envelope. The paper felt thin and brittle in his trembling fingers. He didn’t open it. He didn’t need to. The number was already burned into his brain, the only thing in his life that currently had a fixed, reliable value. He slid the envelope into the pocket of his jeans, the fabric of his shirt clinging to his sweat-dampened back.
+
+"Are you finished here?" Thorne asked.
+
+Adrian nodded. He stood up, his knees popping audibly. The movement sent a fresh wave of nausea rolling through his stomach, a hollow, grinding lurch that reminded him he hadn’t eaten a solid meal since yesterday afternoon. He gripped the edge of the desk to steady himself, the wood cool against his palm, a grounding pressure that helped push back the spinning room.
+
+Thorne watched him for a moment, her expression unreadable. Then she turned to her computer, her fingers hovering over the keyboard.
+
+"Your schedule is unchanged. Eight a.m. sharp, every morning. Bring your own water bottle. The specimen collection room is on the left, past the waiting area. Do not linger in the hallways. We have other participants coming in."
+
+"I know," Adrian said. His voice sounded raspy, scraped raw.
+
+She didn’t look up. "The side effects you’re experiencing are within the expected range for the first week. If they become unmanageable, you press the red button. Do not try to push through severe pain. It compromises the data."
+
+"I’m not in pain," Adrian lied. The words came out easily, a reflex honed by two days of survival. The truth was a dull, throbbing ache behind his eyes and a vibration in his bones that felt like a radio tuned to the wrong frequency. He was tired. He was hungry. He was afraid. But he was not in pain. Pain was something he could report. Exhaustion was something he had to carry.
+
+Thorne stopped typing. She turned her head slightly, her gaze sharp, cutting through the air between them. She didn’t call him a liar. She didn’t need to. The silence stretched, thin and taut, until Adrian felt the need to fill it.
+
+"I’m managing," he added.
+
+"Good," she said again. She turned back to her screen, the blue light reflecting off her glasses. The conversation was over.
+
+Adrian turned and walked toward the door. His legs felt heavy, leaden, as if his muscles had forgotten how to coordinate the simple act of walking. He pushed the door open, the latch clicking softly behind him. The hallway was bright, the fluorescent lights buzzing with a low, constant hum that drilled into his temples.
+
+He walked to the elevator. The doors slid open, revealing the sterile white interior. He stepped inside and pressed the button for the ground floor. The doors closed, sealing him in the small, moving box. He leaned against the metal wall, closing his eyes. The vibration of the elevator’s movement traveled up through his feet, a subtle tremor that matched the one in his hands.
+
+He thought about the envelope in his pocket. He thought about the rent due on the first. He thought about the empty shelves in his apartment and the silence of his room at night. He had bought himself a few more weeks. A few more months, if he held on. He had sold the right to be cut open, the right to be experimented on, the right to refuse. In exchange, he had bought time.
+
+The elevator dinged. The doors opened.
+
+Adrian stepped out into the lobby. The air conditioning hit him like a physical blow, cold and dry, stripping the moisture from his skin. He pulled his jacket tighter, the fabric rough against his sensitive shoulders.
+
+He walked to the exit, his feet slapping against the tile floor. The automatic doors parted, and the late afternoon sunlight flooded in, blinding and white. He squinted, his vision blurring, the world swimming in a haze of glare and shadow.
+
+He stepped out into the street.
+
+The noise of the city hit him immediately—the roar of traffic, the shouts of pedestrians, the distant wail of a siren. It was a cacophony, a wall of sound that pressed against his eardrums. He blinked, waiting for his eyes to adjust to the brightness, for the static in his nerves to settle.
+
+He pulled out his phone. The screen was cracked, a spiderweb of fractures running across the display, but it still worked. He checked the time. 6:58 PM. He had two hours until his shift at the diner.
+
+He had to eat. He had to find something cheap, something fast, something that wouldn’t make him feel worse. He looked down the street, scanning the storefronts. A fast-food place. A bodega. A laundromat.
+
+He started walking, his steps slow and deliberate. The tremor in his hands was still there, a fine, persistent vibration that he could feel in the soles of his shoes, in the tips of his fingers, in the back of his throat. It was a part of him now, a new rhythm he had to learn to live with.
+
+He had signed the paper. He had made the choice. The money was coming. The trial was starting.
+
+Adrian Vale walked down the street, the sun setting behind him, casting his shadow long and thin across the pavement. He was alone, he was tired, and he was exactly where he needed to be.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate completed action 'Adrian Vale signed the emergency-intervention authorization document' repeats decision from Chapter 3, Scene 2: 'Adrian Vale decided to proceed with signing the emergency-intervention authorization despite the loss of bodily autonomy'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.

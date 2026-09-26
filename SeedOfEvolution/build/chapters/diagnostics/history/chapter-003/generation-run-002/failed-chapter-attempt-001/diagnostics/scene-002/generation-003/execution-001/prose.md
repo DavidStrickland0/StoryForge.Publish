@@ -1,0 +1,75 @@
+Dr. Thorne did not sit immediately. She stood by the desk, her hands clasped behind her back, and looked at Adrian with that same pale, clinical neutrality he had come to recognize as a weapon. It was a gaze that stripped away the person standing in front of it and saw only the data points that remained. The room was quiet, save for the low hum of the ventilation system and the distant, muffled clatter of the intake office down the hall. Adrian’s calves were still trembling, a low-voltage vibration that traveled up his thighs and settled in his hips. He kept his hands at his sides, fingers loose, to keep the tremor from migrating into his hands where she might notice it.
+
+"Good," she said. The word was flat, devoid of warmth. "Then we can proceed with the final documentation."
+
+She turned to her computer, the screen glowing with a spreadsheet of vital signs. Adrian could see his own numbers on the display, a column of digits that represented the last thirty minutes of his existence. His heart rate, elevated beyond the baseline. His reflexes, marked as heightened. The tremors, noted as *fine motor instability*. He watched her cursor move down the list, hovering over the entry for *neurological status*.
+
+"Your vitals today are... interesting," she said, not looking up. "Your heart rate is significantly higher than your baseline from yesterday. Your reflex latency is decreased. And your skin response to the tactile stimuli was atypical."
+
+Adrian’s stomach clenched. The nausea he had felt earlier, a wave of cold dread that had crept up from his gut, intensified. He swallowed it down. He had signed a contract. He had waived his right to sue, waived his privacy, waived his right to walk away once the first dose was in his system. To admit that the drug was making his nervous system feel like it was being fried alive would be an admission of failure. It would be a breach of protocol.
+
+"I've been under a lot of stress," Adrian said, his voice steady. He forced a half-smile, a small, brittle thing that hopefully read as exhaustion rather than fear. "The transition to the college schedule, the work at the diner. It’s a lot to adjust to."
+
+Thorne stopped typing. She turned in her chair, fixing him with that pale stare. "Stress can affect cardiovascular function, Mr. Vale. But it rarely causes hyper-reflexia or the sensory hypersensitivity we observed during your intake."
+
+"Maybe it’s the medication," Adrian offered. "The consent form mentioned it stimulates the system. I guess it’s just... reacting."
+
+"Reaction is a broad term," Thorne said. She stood up and walked around the desk. She moved with a fluid, predatory grace, taking up space in the small room with an ease that made Adrian feel like he was shrinking. She stopped a foot from him, close enough that he could smell the faint, sterile scent of antiseptic and something else—ozone, perhaps, or the dry heat of the printer. "We are still mapping the side-effect profile of the compound. What you are experiencing may be part of that mapping. Or it may be something else."
+
+Adrian’s pulse jumped in his throat. He could feel it hammering against the skin of his neck, a frantic, trapped bird. "Something else," he repeated.
+
+"I’m not here to diagnose you, Adrian." She used his first name, which was a tactic he had learned to recognize. It was a way to bypass the professional distance, to make him feel less like a subject and more like a person, which only made the subsequent clinical detachment more jarring. "I am here to ensure that we have the legal framework in place to handle whatever 'something else' may be."
+
+She reached into the drawer of her desk and pulled out a folder. It was thick, bound in a dark blue cover that looked expensive and heavy. She placed it on the desk between them, the weight of it seeming to displace the air.
+
+"This is the Emergency Intervention Authorization," she said.
+
+Adrian looked at the folder. He had seen it before, in the intake packet, but he had skimmed past it, focusing on the payment schedules and the sample collection protocols. Now, in the silence of Room 4, with the hum of the ventilation system filling the quiet space, the folder felt like a verdict.
+
+"Read it," Thorne said.
+
+Adrian opened the folder. The pages were dense with legal text, the font small and precise. He scanned the first paragraph, but the words blurred together. His cognitive fog was thickening, a heavy blanket settling over his mind. He could feel his thoughts drifting, slipping away from the page and into the haze. He took a deep breath, forcing his eyes to refocus.
+
+*In the event of a medical emergency... including but not limited to cardiac arrest, severe trauma, or neurological collapse... the participant hereby grants the research institution full authorization to administer any experimental treatment deemed necessary by the lead investigator...*
+
+Adrian stopped reading. He looked up at Thorne. Her expression was unreadable, a mask of professional concern that didn’t quite reach her eyes.
+
+"Experimental treatment," Adrian said. "As in... treatments that haven’t been approved yet?"
+
+"Approved for general use?" Thorne clarified. "No. But they are treatments that are available to us here, in this facility, because we are the ones developing them."
+
+Adrian’s mind raced. He tried to pull the thread of the sentence, to follow the logic of the clause, but his brain felt sluggish, like it was moving through water. *Neurological collapse.* The phrase echoed in his head. He looked down at his hands. They were still, but he could feel the tremor underneath, a subtle vibration that he had to actively suppress. If his nervous system failed, if the tremors turned into spasms, if the cognitive fog turned into a black hole of unconsciousness—he would be at the mercy of this institution. They would have the right to put anything into him. Anything.
+
+"Why?" he asked. The word came out sharper than he intended, a raw edge of fear breaking through his composure.
+
+Thorne leaned against the edge of the desk, her arms crossed. "Because if you suffer a catastrophic failure while under the influence of the compound, standard medical protocols may not be sufficient. We need the flexibility to intervene immediately, without waiting for a full review board or external approval. This authorization covers that window."
+
+Adrian felt a cold sweat prickle along his hairline. He thought of the accident that had happened to the guy in the other trial, the one he had heard rumors about in the diner. Broken bones. Internal bleeding. A coma from which he never woke. The rumors said he had refused the experimental treatment. He had insisted on standard care. And he had died.
+
+Adrian looked at the folder again. The legal text was a web of fine print, a trap woven from language. To sign it was to surrender his body. To refuse it was to lose his income, his rent, his tuition, his life. He was nineteen years old, and he was already dying by inches, trading his health for the right to survive another month.
+
+"What happens if I don’t sign?" he asked.
+
+Thorne’s gaze softened, just barely. A flicker of something—pity, perhaps, or the satisfaction of a chess player who has cornered an opponent. "Then we would have to terminate your participation in the trial effective immediately. Your enrollment in the experimental program would be revoked, and your remaining payments would be forfeited."
+
+Forfeited. The word hung in the air, heavy and final. Adrian’s mind flashed to the bank account, the dwindling balance, the rent due in three days. The hunger that was a constant companion, the fatigue that made his bones ache. If he walked out of this room, he would be back to the diner, to the night shifts, to the slow starvation that was eating him alive. He would lose the only thing that was keeping him afloat.
+
+He looked at Thorne. She was waiting. She didn’t push. She didn’t need to. The weight of his desperation was enough to force his hand.
+
+Adrian closed the folder. He didn’t look at her. He picked up the pen from the desk, a sleek, black instrument that felt heavy in his shaking fingers. He flipped to the last page, where the signature line waited.
+
+His hand trembled as he held the pen. The line was straight, but his control was slipping. He could feel the tremor in his wrist, a persistent, annoying buzz that made it difficult to form the letters. He steadied himself, focusing on the tip of the pen, on the paper beneath it. He was signing away his body. He was signing away his future.
+
+He signed his name.
+
+Adrian Vale.
+
+The letters were jagged, imperfect, but they were there. He set the pen down. The click of the cap hitting the desk sounded loud in the quiet room.
+
+Thorne picked up the folder. She checked the date, then the signature. She nodded, once, and slid the folder into the manila envelope.
+
+"Thank you, Adrian," she said. Her voice was calm, professional. "That completes your enrollment in the experimental-medicine program. Your full benefits, including the increased compensation rate, are now active."
+
+Adrian let out a breath he didn’t realize he had been holding. The tension in his shoulders remained, but the immediate pressure lifted. He had done it. He had paid the price.
+
+"The next dose is administered tomorrow at 8:00 AM," Thorne said, turning back to her computer. "Please ensure you are well

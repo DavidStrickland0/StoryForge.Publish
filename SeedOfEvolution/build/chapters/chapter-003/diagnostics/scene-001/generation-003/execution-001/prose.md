@@ -1,0 +1,39 @@
+The walk to the clinic took twelve minutes. Adrian counted his steps because it was easier than counting his heartbeats. The city at 6:30 PM was a blur of grey concrete and sodium-vapor light, the air thick with the smell of exhaust and damp pavement. His hands were inside his bag, fingers curled around the handle, the leather digging into his palms. Every time the wind shifted, the fabric of his jacket brushed against his shoulder, and the sensation flared into a sharp, electric sting that made him flinch.
+
+He told himself it was just sensitivity. A side effect. Dr. Thorne had mentioned it in the intake forms, a small, sterile line in the column of known adverse reactions. *Skin hyperesthesia.* He had read it, nodded, and continued signing. It had felt abstract then, a clinical label for a discomfort that hadn’t yet arrived. Now, three days into the daily dosage, the label had become a physical reality. The world was too loud, too bright, too close. The fluorescent tubes of the diner had hummed at a frequency that seemed to vibrate in his teeth. The clatter of plates had felt like blows. The customer who had asked if he was having a rough day had looked at him with a concern that Adrian had deflected with a tight, practiced smile, the kind he used when he was hungry but couldn’t afford to buy.
+
+He reached the clinic entrance. The glass doors slid open with a pneumatic sigh, letting in a rush of conditioned air that smelled of antiseptic and ozone. It was a relief, cold and clean, a stark contrast to the humid street. Adrian stepped inside and immediately felt the weight of the surveillance. The cameras in the corners of the ceiling tracked his movement, their red lights blinking in a slow, rhythmic pulse. He kept his head down, moving toward the intake office where the receptionist sat behind a curved desk of brushed aluminum.
+
+"Adrian Vale," he said, his voice sounding thin and distant to his own ears.
+
+The receptionist looked up. She had grey eyes that seemed to miss the tremor in his hands, or perhaps she simply chose to ignore it. "Mr. Vale. You’re late."
+
+"I was on shift," Adrian said. He placed his bag on the counter, the sound of it hitting the metal surface sharper than it should have been. "I’m here for the sample."
+
+The receptionist pulled a clipboard from the stack of documents in front of her. Her pen moved across the page with a smooth, mechanical efficiency. "Check-in time: 6:42 PM. Please have a seat. Dr. Thorne will be with you shortly."
+
+Adrian looked at the waiting area. It was sparse, a row of blue plastic chairs bolted to the floor, a magazine rack holding glossy papers that no one read. The lighting was fluorescent, bright and unforgiving. He sat in the first chair, positioning himself so that his back was against the wall, a habit born of a lifetime of watching doorways. His legs were shaking. He pressed his thighs together, forcing the muscles to engage, to stabilize. The effort made his stomach cramp, a hollow, gnawing pain that had been his constant companion since lunch. He hadn’t eaten a solid meal in twelve hours. The food he had taken at the diner, a coffee cake he had bought with his own money because he couldn’t justify stealing it, had turned to dust in his mouth.
+
+He pulled his notebook from his bag. The spiral binding was worn, the pages soft with handling. He opened it to the page where he had written his schedule. The grid of times and obligations stared back at him. 8:00 AM: Clinic. 12:00 PM: Lunch. 1:00 PM: Intro to Econ. 6:00 PM: Diner shift. The entries were neat, his handwriting precise, but the words seemed to swim on the page. He tried to focus on the ink, on the black letters forming the word *obligation*, but the vision blurred. He blinked, hard, until spots of color danced across his sight.
+
+He closed the notebook. The air in the room felt thin, difficult to draw into his lungs. He could hear the hum of the air conditioning system, a low drone that seemed to originate from inside his own skull. The receptionist was typing on her keyboard, the keys clacking in a rapid, staccato rhythm. The sound was grating, a constant reminder of the bureaucracy that governed his life. He was a data point. A subject. A vessel for a compound that was supposed to stimulate reproductive cell production, a phrase that had lost all meaning three days ago.
+
+Adrian looked at his hands. They were pale, the blue veins visible beneath the skin. His fingertips were cold, despite the warmth of the room. He made a fist, then relaxed it, repeating the motion to test the response. The muscles twitched, a fine, rhythmic vibration that he could not stop. He thought about the emergency button on the desk in Room 4. Dr. Thorne had pointed to it, a small red disc no larger than a coin. *Press this if you experience severe or persistent pain, Adrian. Or faintness.*
+
+He had pressed it mentally, a hundred times in the last few days. But he had never actually pressed it. To press it was to acknowledge failure. To press it was to admit that the body was breaking down, that the medication was not just causing discomfort but actively dismantling his ability to function. And if the body broke down, the trial would end. And if the trial ended, the money stopped. And if the money stopped, the roof disappeared.
+
+The door to Room 4 opened. Dr. Thorne stepped out, a tablet in her hand, her expression neutral. She was tall, lean, her dark bob cut sharp and severe. Her pale eyes swept the waiting area, pausing for a fraction of a second on Adrian before moving to the door.
+
+"Mr. Vale," she said.
+
+Adrian stood up. His legs felt like water, the muscles uncooperative, but he forced them to hold him. He followed her into the hallway, the floor tiles cold through the soles of his shoes. The hallway was long, lined with doors that were all identical, white and unmarked. He could feel the heat radiating from his face, a flush that he was sure was visible.
+
+"Your vitals are elevated," Dr. Thorne said as she led him to the room. She did not look at him as she spoke, her gaze fixed on the tablet. "Heart rate is one hundred and twelve. Blood pressure is ninety-eight over sixty. You are showing signs of acute stress response."
+
+"I’m fine," Adrian said. The words felt like a lie, a fragile thing that might shatter if he spoke them too loudly.
+
+Dr. Thorne stopped at the door to Room 4. She turned to him, and for a moment, he saw something flicker behind her pale eyes. Pity, perhaps, or assessment. It was gone before he could identify it.
+
+"Enter," she said. "We need to discuss the final phase of your enrollment."
+
+Adrian stepped into the room. The door clicked shut behind him, the sound final and heavy. He looked at the desk, the red button, the sterile white surfaces. He waited.

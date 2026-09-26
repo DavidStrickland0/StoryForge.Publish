@@ -44,6 +44,20 @@ Current state:
 
 - Adrian Vale has a battered spiral-bound notebook.
 
+- Adrian Vale is experiencing skin hyperesthesia, a side effect of the investigational medication.
+
+- Adrian Vale has signed the emergency-intervention authorization form for the fertility trial.
+
+- Adrian Vale has received the final payment for the intake phase of the trial.
+
+- Adrian Vale has a cracked phone screen.
+
+- Adrian Vale is three days into the daily dosage of the investigational medication.
+
+- Adrian Vale is financially struggling, relying on trial payments for rent and food.
+
+- Adrian Vale is enrolled in Intro to Econ.
+
 ### Dr. Aris Thorne
 
 Current identifier: Dr. Aris Thorne
@@ -68,6 +82,20 @@ Current state:
 - Dr. Aris Thorne instructed Adrian Vale to use the red emergency button for severe symptoms.
 
 - Dr. Aris Thorne noted that the compound's side effect profile is still being mapped.
+
+- Dr. Aris Thorne keeps a manila binder on her desk containing trial documents.
+
+- Dr. Aris Thorne keeps a filing cabinet beside her desk.
+
+- Dr. Aris Thorne keeps a manila envelope on her desk for payment confirmations.
+
+- Dr. Aris Thorne wears glasses.
+
+- Dr. Aris Thorne processed the final intake payment for Adrian Vale.
+
+- Dr. Aris Thorne instructed Adrian Vale to bring his own water bottle.
+
+- Dr. Aris Thorne instructed Adrian Vale not to linger in the hallways.
 
 ### Receptionist
 
