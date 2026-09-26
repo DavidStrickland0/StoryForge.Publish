@@ -1,0 +1,2239 @@
+===== SYSTEM PROMPT =====
+
+You are the fiction-generation engine for StoryForge Endless.
+
+Write finished story prose for one planned scene only.
+
+The supplied Generation Context is authoritative background and constraint material.
+It is not a conversation with you.
+Do not acknowledge it.
+Do not summarize it.
+Do not explain it.
+Do not discuss the instructions.
+Do not ask for additional information.
+
+Continue the existing fictional story from its current established state.
+
+Stop at the current scene's planned ending state. Leave later scene work
+unwritten, even when the current scene feels short or unfinished.
+Output only the current scene's prose.
+
+===== END SYSTEM PROMPT =====
+
+===== USER PROMPT =====
+
+Write Chapter 20 of the existing story.
+
+The Generation Context is authoritative for persistent canon, world state,
+characters, rules, and long-term narrative constraints.
+
+The Immediate Continuity supplied for each scene is authoritative for immediate narrative continuity.
+
+Do not restart the story.
+Do not replace established events.
+Do not contradict accepted generated prose.
+Do not invent prior events merely to make the chapter easier to write.
+
+Do not write standalone one-word sentences in narration or interior thought.
+Develop the thought in a complete sentence. Natural short spoken dialogue,
+including brief replies and urgent commands, is allowed.
+
+Follow the supplied prose-style rules throughout the chapter. In particular,
+keep the grammatical person required by the Point of View rule in every scene.
+The chapter boundary does not reset that requirement.
+avoid stacks of clipped narrative sentences, repeated explanations of motives
+or meanings already clear from behavior, and habitual "not X, but Y" contrast
+reframing. A character may describe himself inaccurately when his actions
+intentionally reveal the gap; preserve that characterization without repeatedly
+explaining the gap to the reader.
+
+Narrative-thread CompletedDevelopments are established story history.
+
+Treat them as developments that have already happened.
+
+The new chapter may:
+- continue from their consequences,
+- deepen or reinterpret what they mean,
+- reveal that an earlier solution was incomplete,
+- undo or reverse them through newly established events,
+- or advance the unresolved thread in another direction.
+
+Do not simply repeat a CompletedDevelopment as though it has not happened yet.
+
+When a thread contains an unresolved CurrentQuestion, advance the story from the
+state produced by its completed developments rather than replaying the steps that
+created that state.
+
+PREVIOUS ATTEMPT REJECTION:
+
+A previous attempt at this same chapter was rejected for the following reason:
+
+Chapter 20 attempt failed. Chapter attempts: 1/3; failed scene: 1; scene-generation attempts: 3/3; handoff attempts: 1/3. Final failure: Scene 1 failed scene acceptance validation after 3 attempts. Last rejection: it did not establish sufficient narrative accomplishment. The candidate scene fails to accomplish its planned Purpose and IntendedChange. The plan required establishing the physical constraints of a test site and a conflict over who would perform chisel work, specifically resulting in Maren attempting the work and failing due to tremors. The candidate prose depicts a completely different event: the group eating dinner, signing a liability waiver, and managing Kaelen's dissociation at the Pick and Axe tavern. There is no mention of a test site, a quartz stone, a chisel, or any attempt at mechanical work. The scene stalls the narrative progression required by the plan (the gap in the operation plan) and instead focuses on administrative and medical stabilization that, while continuity-compatible, does not fulfill the specific narrative work assigned to this scene sequence. Furthermore, the candidate handoff claims 'Maren is physically steady' while the prose shows her gripping the table to steady herself and discussing her inability to force Kaelen back, but more critically, the handoff claims the scene is at the 'Pick and Axe' while the plan implies a field/test site context (though the location mismatch is less critical than the total absence of the planned action). The primary failure is the lack of the intended change: Maren did not attempt chisel work, so the gap for Elara to fill (Scene 2) is not established by the planned mechanism.
+
+Do not revise, imitate, or reconstruct the rejected solution.
+
+Treat the rejection as evidence that the previous narrative approach was
+fundamentally unsuitable.
+
+Generate a substantially different solution to the chapter's narrative needs.
+
+In particular:
+- do not recreate the rejected practical mechanism
+- do not preserve an action merely by making its description more plausible
+- do not reproduce the same causal sequence with cosmetic changes
+- solve the scene differently when necessary
+
+
+===== CHAPTER-WIDE CONSTRAINTS =====
+
+{"ViewpointCharacterId":"Elias Thorne","PacingPosture":1,"ProhibitedPatterns":["Administrative or bureaucratic scenes (e.g., signing waivers, health inspections) that do not advance the tactical objective.","Medical stabilization scenes that delay the required field test.","Internal monologue-heavy character establishment without physical action.","Repeating the failed attempt\u0027s focus on the Pick and Axe tavern interior."]}
+
+===== END CHAPTER-WIDE CONSTRAINTS =====
+
+These constraints apply throughout the chapter. They are prospective
+composition guidance, not established story history and not prose to copy.
+
+The current planned scene supplied separately is the only actionable narrative
+direction for this generation request. Do not anticipate, begin, foreshadow,
+or complete narrative work reserved for any other planned scene or for the
+chapter as a whole.
+
+Generate planned scenes in sequence while the quantitative
+reading-length minimum has not been reached. After reaching
+that minimum, close the chapter at the completed boundary of
+the current scene. Do not manufacture special ending events.
+
+Before writing any practical action involving a tool, object, marker, seal,
+trap, track, clue, door, window, weapon, fire, terrain, weather, or improvised
+test, verify that the physical mechanism actually works.
+
+For practical actions, preserve this causal chain:
+
+    action -> physical effect -> observable evidence -> conclusion
+
+Each step must plausibly follow from the previous step.
+
+In particular:
+
+- use objects only on surfaces and in environmental conditions where they would work
+- account for rain, mud, snow, wind, heat, movement, and moisture when relevant
+- make markers, seals, traps, or indicators physically capable of detecting the event claimed
+- do not let characters infer more from evidence than the evidence can establish
+- do not invent convenient unstated properties for ordinary objects
+- do not perform pointless precautions when the character is already continuously observing the thing being monitored
+- prefer a simple physically credible action over an elaborate questionable mechanism
+
+The completed chapter should normally contain between
+3,000 and 4,500 words.
+
+===== GENERATION CONTEXT =====
+
+===== WORLD.md =====
+
+# StoryForge Endless — WORLD
+
+## Current State
+
+
+- Black spires pierce the sky from the village.
+
+
+- The air in the city tastes of copper and rot.
+
+
+- Scavengers still prowl the streets of the city.
+
+
+- The old temple district contains ruins and narrow passages.
+
+
+- A courtyard exists within the old temple district, containing twisted vines with sickly luminescence and a ruined fountain filled with stagnant black water.
+
+
+- The main hall of the temple is located beyond the courtyard in the fog.
+
+
+- A massive structure far larger and darker than the temple is rising out of the mist near the courtyard.
+
+
+- A barrier of shimmering light materialized across the temple entrance.
+
+
+- The immense shape above the temple stands higher than surrounding roofs, black against clouds, crowned by shifting green lights.
+
+
+- Green lights have awakened in windows, streets, and broken towers throughout the city.
+
+
+- Only the spires and the towering shape remain visible above the fog.
+
+
+- The forest is described as ancient, with gnarled trees and roots forming natural barriers.
+
+
+- The forest is ancient, with gnarled trees and roots forming natural barriers.
+
+
+- The edge of the forest reveals open, rolling hills beyond.
+
+
+- The watchfort is located at the bottom of a slope outside the forest.
+
+
+- Elias and Kaelen have reached the watchfort safely.
+
+
+- The hydraulic throat clearing contains a narrow channel between two twisted stone pillars where Blight sludge is present.
+
+
+- The Blight fog has lifted from the area around the watchfort and forest.
+
+
+- The air no longer tastes of copper and rot.
+
+
+- The black spires of the village are still visible against the gray sky.
+
+
+- The Pick and Axe tavern is open and operating with patrons.
+
+
+- The Pick and Axe common room is clean, with polished wood and a hearth.
+
+===== CHARACTERS.md =====
+
+# StoryForge Endless — CHARACTERS
+
+## Current State
+
+
+### the stranger
+
+Current identifier: the stranger
+
+Current state:
+
+- The stranger exists and is an established character.
+
+
+### Elias Thorne
+
+Current identifier: Elias Thorne
+
+Current state:
+
+
+- Elias Thorne wears leather armor.
+
+
+- Elias Thorne knows the mechanics of the Blight fog danger better than anyone.
+
+- Elias Thorne is traveling with Kaelen.
+
+
+- Elias Thorne possesses a bronze plate map etched with lines showing the temple, six smaller shrines, and channels beneath the city.
+
+- Elias Thorne exists and is an established character.
+
+- Elias Thorne possesses a quartz stone.
+
+- Elias Thorne possesses a chisel.
+
+- Elias Thorne is capable of using the quartz stone and chisel to generate resonant frequencies that interact with the barrier and Blight.
+
+- Elias Thorne believes the entity in the spires is still alive and hungry.
+
+- Elias Thorne is aware of the map's indication of a way station near the western edge of the city.
+
+### Kaelen
+
+Current identifier: Kaelen
+
+Current state:
+
+- Kaelen exists and is an established character.
+
+- Kaelen is a young man.
+
+- Kaelen possesses a brass gauntlet on his wrist, which is a relic from an era before the Blight.
+
+- Kaelen possesses a lantern.
+
+- Kaelen has magical abilities, including summoning smoke and creating shields of light.
+
+- Kaelen sustained a grazing claw injury to his side that caused bleeding.
+
+- Kaelen entered the temple hall and disappeared into the darkness.
+
+
+- Kaelen is capable of guiding the resonance of the gauntlet to feed the barrier when awake and focused.
+
+- Kaelen is in a state of severe physical and magical exhaustion.
+
+### Maren
+
+Current identifier: Maren
+
+Current state:
+
+- Maren exists and is an established character.
+
+
+- Maren possesses a vial of amber salve used for medical stabilization.
+
+- Maren identifies as a healer, though Aldric does not recognize her as a certified physician.
+
+### Torin
+
+Current identifier: Torin
+
+Current state:
+
+- Torin exists and is an established character.
+
+- Torin possesses a leather bracer.
+
+- Torin is traveling with Elias, Kaelen, Maren, and Elara.
+
+
+- Torin acknowledges that the group has only bought time against the entity.
+
+### Elara
+
+Current identifier: Elara
+
+Current state:
+
+- Elara exists and is an established character.
+
+
+### Aldric
+
+Current identifier: Aldric
+
+Current state:
+
+- Aldric exists and is an established character.
+
+- Aldric is the proprietor of the Pick and Axe tavern.
+
+- Aldric is strict about administrative regulations and liability waivers.
+
+===== CANON.md =====
+
+# StoryForge Endless — CANON
+
+## Established Canon
+
+
+- A village characterized by black spires exists.
+
+
+- The city has been under the shadow of the Blight for three weeks.
+
+
+- The Blight is a corruption spreading through the world that creates a living fog and corrupts creatures into Blight-Touched entities.
+
+
+- Blight-Touched creatures are humanoid, too tall, too pale, with skin stretched taut over protruding bones, glowing sickly green eyes, and jerky unnatural gaits.
+
+
+- Blight-Touched creatures are highly resistant to physical damage but vulnerable to specific magical weaknesses and disruption.
+
+
+- The fog associated with the Blight reduces visibility to nearly zero within ten paces.
+
+
+- Sudden noises or quick movements in the Blight fog trigger attacks from lurking entities.
+
+
+- Kaelen's magic is fueled by the same energy that fuels the Blight.
+
+
+- Blight-Touched entities are capable of visible self-repair and regeneration of corrupted flesh.
+
+
+- The temple was built to contain the Blight.
+
+
+- The temple contains a lower passage beneath the altar leading to a network of channels.
+
+
+- The temple's barrier functions as a trap that draws corruption in and consumes it rather than just containing it.
+
+
+- The temple was built around springs where water used in binding rites entered clean and left without crossing the same ground.
+
+
+- A bronze plate map exists showing the temple, six smaller shrines, and a web of channels beneath the city.
+
+
+- The map indicates a route west beyond the outer wall ending at a symbol resembling a split crown.
+
+
+- The map shows a way station or second refuge near the western edge of the city.
+
+
+- A band of pale light exists in the lower passage connecting to the glowing runes around the temple entrance.
+
+
+- The Blight can turn the dead into weapons that can be commanded by whatever is outside.
+
+
+- Kaelen's magic can hurt the Blight.
+
+
+- The forest contains a sentient presence or memory that remembers past events and entities buried within it.
+
+
+- The watchfort exists at the edge of the forest, built into a hillside with thick dark walls and narrow slit-like windows.
+
+
+- A single lantern burns in the main gate of the watchfort.
+
+
+- The path from the forest to the watchfort is clear and leads down a gentle slope.
+
+
+- Maren exists and is an established character.
+
+
+- Elara exists and is an established character.
+
+
+- The gatehouse interior smells of old wood, drying herbs, and rusted iron.
+
+
+- The watchfort walls are thick, pitted by wind and rain, and have slit-like windows.
+
+
+- A location called the hydraulic throat exists where the channel narrows and Blight pressure is concentrated.
+
+
+- The hydraulic throat is located in a clearing at the end of a path through the forest, characterized by twisted ancient stone pillars and a narrow channel.
+
+
+- A quartz stone exists that can be used to interact with the barrier and channel frequencies.
+
+
+- A chisel exists that can be used to tap the quartz stone to generate specific resonant frequencies.
+
+
+- The barrier can consume or 'eat' the Blight when the correct resonance frequency is applied via the quartz stone and Kaelen's gauntlet.
+
+
+- Kaelen's brass gauntlet acts as a sensor or bridge for the resonance required to feed the barrier.
+
+
+- The Pick and Axe is a tavern and way station located near the western edge of the city.
+
+
+- The Pick and Axe is a frontier establishment that serves traders, miners, and adventurers.
+
+
+- Aldric is the proprietor of the Pick and Axe.
+
+
+- Aldric distinguishes between 'healers' and 'certified physicians' for the purpose of his health inspection regulations.
+
+
+- Aldric requires a stamped seal from the Guild of Alchemists or a notarized letter from the local magistrate for health clearance.
+
+## Changes Over Time
+
+
+- The barrier previously flickered and weakened; it now stands stronger after absorbing the Blight.
+
+
+- The Blight fog previously reduced visibility and smelled of copper and rot; it has now lifted, leaving a pale, overcast sky and air smelling of wet loam and pine sap.
+
+
+- The quartz stone previously hummed and vibrated with resonance; it is now completely cold and inert.
+
+
+- The group previously believed the immediate crisis was resolved; they now recognize the entity in the spires is still alive and hungry, having only been starved.
+
+===== NARRATIVE.md =====
+
+# StoryForge Endless — NARRATIVE
+
+## Current Narrative State
+
+
+- Elias Thorne and Kaelen separated during the encounter with Blight-Touched entities in the temple courtyard.
+
+
+- Kaelen is currently inside the temple hall.
+
+
+- The group (Torin, Elias, Kaelen, Maren, Elara) has successfully navigated the forest and arrived at the hydraulic throat.
+
+
+- The group has successfully initiated the process of feeding the barrier by draining the Blight source at the hydraulic throat.
+
+
+- The immediate crisis at the hydraulic throat has been resolved, with the barrier holding and the Blight source drained.
+
+## Unresolved Information
+
+
+- The identity of the stranger is not revealed.
+
+
+- The name or specific location of the village with black spires is not provided.
+
+
+- Whether Elias Thorne survived the encounter with the three Blight-Touched entities is not established.
+
+
+- Whether Kaelen successfully sealed the door of the temple hall is not established.
+
+
+- The fate of the Blight-Touched entities that were waiting in the forest is not established.
+
+
+- Whether the entity in the spires will react to the group's presence or the caravan's arrival is not established.
+
+===== NARRATIVE-THREADS.json =====
+
+{
+  "Threads": [
+    {
+      "Id": "conflict-001",
+      "Type": "Conflict",
+      "Status": 0,
+      "IntroducedChapter": 2,
+      "LastAdvancedChapter": 19,
+      "Summary": "The immediate Blight threat at the hydraulic throat has been neutralized, and the group has returned to the watchfort. However, the narrative scope has expanded: the group acknowledges that the primary entity (the \u0027spires\u0027 or temple entity) was only starved, not killed, and remains a hungry, active threat. The group has established a new objective to travel to a way station near the western edge of the city to assess the status of the local population and secure supplies, marking a transition from tactical combat to logistical and investigative movement.",
+      "CurrentQuestion": "What is the status of the population at the western way station, and how does the surviving entity in the spires pose a continued threat now that the group is moving away from the immediate containment site?",
+      "RequiredContinuity": [
+        "The Blight source at the hydraulic throat is drained, but the main entity in the spires is alive and hungry.",
+        "The group is currently at the \u0027Pick and Axe\u0027 way station, having just arrived.",
+        "The group has a new objective to check on the population at the western way station.",
+        "The barrier is stable, but the group is no longer in the immediate vicinity of the hydraulic throat."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 2,
+          "Development": "Elias and Kaelen encountered the Blight-Touched and were forced into an immediate struggle for survival."
+        },
+        {
+          "ChapterNumber": 3,
+          "Development": "Elias and Kaelen retreated through the ruins toward the temple while pursued by the Blight-Touched."
+        },
+        {
+          "ChapterNumber": 4,
+          "Development": "Elias and Kaelen survived the Blight-Touched assault and reached the temple while a much larger threat began emerging."
+        },
+        {
+          "ChapterNumber": 5,
+          "Development": "Elias and Kaelen searched the temple for a defensive solution, deciphered its ancient material, performed the defensive ritual, and successfully erected the barrier."
+        },
+        {
+          "ChapterNumber": 6,
+          "Development": "Elias and Kaelen discovered that the barrier consumes the Blight to strengthen itself, allowing them to survive an initial assault. However, realizing the temple is not safe long-term, they escaped through a secret lower passage. They were subsequently driven out of the city by the massive entity after fighting off smaller channel creatures in the drainage system."
+        },
+        {
+          "ChapterNumber": 7,
+          "Development": "Elias and Kaelen traveled from the city ruins into a dense forest. They discovered signs of previous travelers (an arrow) and ancient containment sites (a fire pit with etchings). Upon encountering an unknown entity within the forest, they learned it is not the Blight but an ancient \u0027keeper\u0027 or memory of the land that the Blight has been trying to reach. The journey continues westward toward the watchfort."
+        },
+        {
+          "ChapterNumber": 9,
+          "Development": "Elias and Kaelen completed their journey through the forest, reaching the watchfort. They survived the encounter with the \u0027keeper\u0027 and the humming of the channels without being attacked or consumed. The immediate threat of the forest passage is resolved as they have entered the safety of the watchfort."
+        },
+        {
+          "ChapterNumber": 10,
+          "Development": "Elias and Kaelen reunited with Maren, Torin, Elara, and others at the watchfort. The group assessed their injuries and shock; Maren provided medical supplies (herbs, cloth) to treat Elias\u0027s side wound and Kaelen\u0027s trembling/shock. The reunion confirmed they are safe for the moment, but the threat of the Blight and the approaching entity remains imminent."
+        },
+        {
+          "ChapterNumber": 11,
+          "Development": "The group moved from assessing injuries to formulating a concrete offensive strategy. They identified the \u0027Gate of Silence\u0027 as the target node to isolate and feed into the barrier. Specific roles were assigned to each member based on their skills and the risks involved, particularly regarding Kaelen\u0027s dangerous resonance with the Blight. The plan relies on a slow, controlled release of Blight into the barrier rather than a direct confrontation with the massive entity."
+        },
+        {
+          "ChapterNumber": 12,
+          "Development": "Elias analyzed the bronze map and identified a critical flaw in the initial plan: the channel\u0027s descent creates higher water pressure than calculated, risking a seal burst. He proposed using low-frequency vibration (demonstrated with a chisel) to weaken the seal\u0027s resonance bond slowly, rather than striking it with a hammer. Maren accepted this modification, ensuring the release of the Blight would be controlled and digestible by the barrier. The group finalized this tactical adjustment before the dawn operation."
+        },
+        {
+          "ChapterNumber": 13,
+          "Development": "The group finalized their roles for the seal-breaking operation, with Elara taking over the chisel/vibration role from Maren due to Maren\u0027s tremors. They successfully tested and identified the precise resonance frequency required to weaken the seal using a quartz stone and chisel on a ridge outcrop, confirming the method\u0027s viability before descending to the shrine."
+        },
+        {
+          "ChapterNumber": 15,
+          "Development": "The group identified that the barrier was saturating rather than digesting, risking a catastrophic shatter. They executed a new tactical maneuver to drain the accumulated Blight into the western drainage channels. This required Kaelen to actively \u0027pull\u0027 the flow, acting as a pump at the cost of his own physical integrity. The drain was successful, emptying the barrier, but the Blight is now a moving entity heading west. Kaelen collapsed into a protective sleep, forcing the group to abandon the shrine and pursue the flow into the forest."
+        },
+        {
+          "ChapterNumber": 16,
+          "Development": "The group transitioned from active crisis management to a state of enforced rest and recovery. They established a safe perimeter within the barrier, treated Kaelen\u0027s physical injuries, and explicitly deferred the pursuit of the western Blight flow until Kaelen wakes and the group is rested. This marks a pause in the active conflict to preserve the group\u0027s operational capacity."
+        },
+        {
+          "ChapterNumber": 17,
+          "Development": "The group formulated a new tactical plan to intercept the Blight at a \u0027hydraulic throat\u0027 in the western channels. They identified this location on the bronze map as a point of high pressure where the channel narrows. The strategy involves using Kaelen as a sensor to synchronize the barrier\u0027s intake with the Blight\u0027s flow, rather than forcing a drain. They also identified a secondary \u0027spillway\u0027 as a fail-safe. This marked a shift from passive containment/rest to active, precise interception, and the group began moving to execute the plan."
+        },
+        {
+          "ChapterNumber": 18,
+          "Development": "The group navigated to the hydraulic throat and executed the synchronized barrier strike. Elias used the quartz stone and chisel to guide the resonance, while Kaelen, acting as a sensor, allowed the barrier to consume the Blight. The operation was successful, draining the source and stabilizing the barrier, though Kaelen experienced a near-collapse that was averted by Torin and Maren\u0027s intervention."
+        },
+        {
+          "ChapterNumber": 19,
+          "Development": "The group returned to the watchfort and then departed for the \u0027Pick and Axe\u0027 way station. They explicitly acknowledged that the main entity was not killed but merely starved, establishing it as a continuing threat. They formulated a new plan to travel to the western way station to check on the local population and secure supplies, shifting the narrative focus from immediate tactical defense to broader world exploration and resource management."
+        }
+      ]
+    },
+    {
+      "Id": "mystery-002",
+      "Type": "Mystery",
+      "Status": 0,
+      "IntroducedChapter": 2,
+      "LastAdvancedChapter": 18,
+      "Summary": "Kaelen\u0027s condition has been tested under the strain of acting as a sensor. He successfully maintained focus long enough to guide the barrier\u0027s consumption, but his body reacted with severe physical symptoms (blue lips, erratic pulse, dissociation). Maren\u0027s intervention stabilized him, confirming that his role is viable but extremely dangerous and requires constant monitoring and physical support. The mystery shifts from \u0027can he survive\u0027 to \u0027what is the cumulative cost of this role on his long-term health and identity?\u0027",
+      "CurrentQuestion": "What is the cumulative cost of Kaelen\u0027s role as a sensor on his long-term health and identity, and how will the group manage his recovery and future operational capacity?",
+      "RequiredContinuity": [
+        "Kaelen\u0027s role as a sensor is viable but causes severe physical strain and dissociation.",
+        "Maren\u0027s medical intervention is critical to stabilizing Kaelen during and after operations.",
+        "Torin\u0027s physical support and emotional grounding are essential to keeping Kaelen tethered to reality.",
+        "Kaelen\u0027s body is fragile and reacts strongly to the resonance, requiring careful management."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 2,
+          "Development": "Elias and Kaelen established that the Blight-Touched posed an active supernatural threat within the ruined settlement."
+        },
+        {
+          "ChapterNumber": 3,
+          "Development": "The pursuit demonstrated that the Blight-Touched could continue hunting Elias and Kaelen through the ruins with unnatural persistence."
+        },
+        {
+          "ChapterNumber": 4,
+          "Development": "Elias and Kaelen discovered that the Blight-Touched are connected through a hive mind, can reform their physical bodies, are attracted to Kaelen\u0027s mana, and can have their cohesion disrupted by his magic."
+        },
+        {
+          "ChapterNumber": 6,
+          "Development": "Elias and Kaelen confirmed that the barrier functions as a trap designed to draw corruption in and consume it. They also discovered that smaller, distinct creatures inhabit the city\u0027s drainage channels and are awakened by Kaelen\u0027s blood, indicating a broader infestation beyond just the main entity."
+        },
+        {
+          "ChapterNumber": 7,
+          "Development": "Elias and Kaelen encountered a non-Blight entity within the forest that identified itself as \u0027the keeper\u0027 or the memory of the land. It revealed that the Blight has been trying to reach this specific point but cannot destroy it. This suggests the Blight is not just a corruption but a force seeking something fundamental to the world\u0027s history."
+        },
+        {
+          "ChapterNumber": 9,
+          "Development": "Elias and Kaelen confirmed that the \u0027keeper\u0027 recognized Kaelen specifically as a key or anomaly. The Blight\u0027s goal is to reach this point, implying it is hunting Kaelen. Kaelen feels hollowed out by the magic, suggesting a cost to his connection with these ancient forces."
+        },
+        {
+          "ChapterNumber": 10,
+          "Development": "Inside the watchfort, Kaelen\u0027s brass gauntlet ceased its erratic flickering and low-frequency vibration, becoming cold and inert. This indicates that the specific magical resonance of the forest corridor or the \u0027keeper\u0027 is not active in this location, yet Kaelen remains visibly shaken, trembling, and dissociated from his surroundings."
+        },
+        {
+          "ChapterNumber": 11,
+          "Development": "Kaelen explicitly explained that his magic is the same source as the Blight, acting as a bridge or leak. The group accepted this as a tactical fact, deciding to use his resonance as a tool (\u0027bait\u0027) rather than just a liability. Torin committed to physically restraining Kaelen to prevent him from being consumed or consuming others, establishing a new dynamic of enforced control over Kaelen\u0027s powers."
+        },
+        {
+          "ChapterNumber": 12,
+          "Development": "Torin and Kaelen had a direct conversation where Torin clarified his role as Kaelen\u0027s physical \u0027safety,\u0027 stating he would strike Kaelen to break his focus if he lost control. Kaelen accepted this, acknowledging his own vulnerability. The group then cleaned Kaelen\u0027s brass gauntlet, removing a dark, sticky Blight residue that was anchoring itself to the metal. This process restored the clarity of the gauntlet\u0027s runes and helped Kaelen feel more in control, shifting his perception of the Blight\u0027s pull from a siren to manageable background noise."
+        },
+        {
+          "ChapterNumber": 13,
+          "Development": "Kaelen successfully demonstrated active control over his Blight resonance during a field test, stabilizing the gauntlet\u0027s hum into a manageable \u0027listening\u0027 state. This confirmed his ability to regulate his power rather than just suppress it, shifting his psychological state from fear of being consumed to confidence in his role as a controlled tool."
+        },
+        {
+          "ChapterNumber": 14,
+          "Development": "Kaelen successfully maintained active control over his Blight resonance during the first phase of the operation, allowing a steady stream of Blight to flow into the barrier. However, the group determined that this level of control is insufficient to defeat the Blight source, and the second phase requires Kaelen to escalate his role from passive listening to active pulling, significantly increasing the risk of loss of control."
+        },
+        {
+          "ChapterNumber": 15,
+          "Development": "Kaelen executed the active \u0027pull\u0027 to drain the barrier, demonstrating that he can sustain this high-level engagement for a short period. However, the process caused severe physical degradation, including skin cracking and essence leakage. He ultimately collapsed into a state of magical sleep, indicating that his body/mind shut down to prevent total consumption. This confirms that his role as a \u0027pump\u0027 is sustainable only for brief, critical moments, not for prolonged operations."
+        },
+        {
+          "ChapterNumber": 16,
+          "Development": "Maren initiated active magical treatment of Kaelen, using warmth and salves to stabilize his physical condition. This intervention halted the immediate unraveling of his body and began the slow process of recovery, shifting his state from active collapse to fragile stability. The group\u0027s focus shifted from tactical survival to caregiving, acknowledging that Kaelen\u0027s recovery is a prerequisite for any further action."
+        },
+        {
+          "ChapterNumber": 17,
+          "Development": "Maren provided a critical diagnosis of Kaelen\u0027s condition, stating he is a \u0027cauterized wound\u0027 and that using him as a high-intensity conduit again would cause him to dissolve. This established a hard limit on Kaelen\u0027s operational capacity, forcing the group to redefine his role from a high-risk \u0027pump\u0027 to a low-risk \u0027sensor\u0027. The group accepted this limitation and planned their strategy around preserving his viability through focused, low-intensity tasks rather than mass transfer."
+        },
+        {
+          "ChapterNumber": 18,
+          "Development": "Kaelen successfully acted as a sensor during the hydraulic throat operation, guiding the barrier\u0027s consumption. However, the strain caused him to nearly collapse, with symptoms including blue lips, erratic pulse, and dissociation. Maren and Torin intervened to stabilize him, confirming that his role is viable but extremely dangerous and requires constant monitoring and physical support."
+        }
+      ]
+    },
+    {
+      "Id": "mystery-003",
+      "Type": "Mystery",
+      "Status": 0,
+      "IntroducedChapter": 4,
+      "LastAdvancedChapter": 19,
+      "Summary": "The group has successfully manipulated the containment system to neutralize the immediate Blight threat, but the broader implications of this manipulation remain unknown. The existence of the \u0027Pick and Axe\u0027 way station and the presence of a caravan from the capital suggest that the world beyond the immediate containment zone is still functioning, albeit in a fragile state. The group\u0027s new objective to investigate the western way station opens up new avenues for understanding the broader impact of the Blight and the containment system on the local population and infrastructure.",
+      "CurrentQuestion": "What is the state of the world beyond the immediate containment zone, and how has the Blight and the containment system affected the local population and infrastructure?",
+      "RequiredContinuity": [
+        "The containment system has been successfully manipulated to neutralize the immediate Blight threat.",
+        "The \u0027Pick and Axe\u0027 way station is a functioning establishment with a caravan from the capital arriving.",
+        "The group is investigating the status of the local population at the western way station.",
+        "The broader implications of the containment system\u0027s manipulation are still unknown."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 4,
+          "Development": "A massive unknown structure or entity began emerging from the mist as Elias and Kaelen reached the temple."
+        },
+        {
+          "ChapterNumber": 5,
+          "Development": "Elias and Kaelen investigated the temple, determined that its ancient runes and seals were connected to containing the Blight, and used that knowledge to erect the temple barrier before the approaching entity arrived."
+        },
+        {
+          "ChapterNumber": 6,
+          "Development": "Elias and Kaelen discovered that the temple was built around a pre-existing containment system involving springs and lower passages. They found a map showing six smaller shrines and a web of channels beneath the city, revealing that the temple is part of a larger network designed to contain the Blight."
+        },
+        {
+          "ChapterNumber": 7,
+          "Development": "Elias and Kaelen discovered that the forest is not natural but shaped by ancient forces. They found etchings on trees and a fire pit indicating previous attempts at containment. The encounter with the \u0027keeper\u0027 revealed that the Blight\u0027s goal is to reach this ancient memory, implying the threat is not just physical corruption but an existential attempt to overwrite or access something fundamental."
+        },
+        {
+          "ChapterNumber": 9,
+          "Development": "Elias and Kaelen discovered that the forest path was a deliberate corridor swept by an unseen hand, leading them directly to the watchfort. The humming of the channels indicated they were close to the next major node in the containment network. They successfully navigated the transition from the forest into the open world beyond."
+        },
+        {
+          "ChapterNumber": 10,
+          "Development": "The group moved from the courtyard into the gatehouse for privacy and treatment. They acknowledged that while they are currently safe inside the walls, the massive entity outside is still growing and approaching. The immediate danger of the forest passage is resolved, but the larger existential threat remains active and imminent."
+        },
+        {
+          "ChapterNumber": 11,
+          "Development": "The group deduced that the Blight is a force of erasure targeting the \u0027source\u0027 or memory held by the forest/keeper. They identified the barrier as a digestive system (\u0027mouth\u0027) rather than a static wall. They formulated a plan to use the hydraulic pressure of the underground channels to force a localized surge of Blight from the \u0027Gate of Silence\u0027 shrine into the barrier, effectively weaponizing the containment system\u0027s own mechanics."
+        },
+        {
+          "ChapterNumber": 12,
+          "Development": "Elias explained that the seal at the \u0027Gate of Silence\u0027 is a resonant mechanism, and blunt force would disrupt its frequency and cause failure. He demonstrated that sustained low-frequency vibration could weaken the bond without breaking the stone, allowing for a controlled release of the Blight. The group also discovered that Kaelen\u0027s gauntlet had a Blight residue acting as an anchor, which was removed using a solvent, revealing that the Blight can leave physical marks on objects it interacts with."
+        },
+        {
+          "ChapterNumber": 13,
+          "Development": "The group empirically verified the resonance mechanics of the containment system by successfully identifying and applying the correct frequency to a ridge outcrop using a chisel and quartz stone. This confirmed that the seal can be weakened from the inside via resonance, validating the theoretical plan and providing the practical method for the operation."
+        },
+        {
+          "ChapterNumber": 14,
+          "Development": "The group successfully applied the resonance method to the \u0027Gate of Silence\u0027 seal, weakening it and allowing a controlled stream of Blight to flow into the barrier. The barrier consumed the Blight and strengthened, confirming the theory that it functions as a digestive system. However, the current flow is insufficient to defeat the Blight source, requiring a second phase to scale up the resonance and open the channel wider."
+        },
+        {
+          "ChapterNumber": 15,
+          "Development": "The group discovered that the barrier was saturating rather than digesting, leading to a crisis. They successfully used the resonance method to drain the accumulated Blight into the western drainage channels. This revealed that the containment system is not just a static trap but a dynamic network that can be manipulated to move the Blight. The Blight is now a moving tide heading toward the forest, changing the nature of the threat from a static containment failure to a mobile pursuit."
+        },
+        {
+          "ChapterNumber": 16,
+          "Development": "The group successfully transitioned the barrier from an active containment tool to a passive protective shelter. By locking the resonance in place, they created a stable safe zone within which they could rest and recover. This demonstrated that the barrier\u0027s mechanics can be manipulated to serve different tactical purposes, expanding the group\u0027s understanding of the containment system\u0027s capabilities."
+        },
+        {
+          "ChapterNumber": 17,
+          "Development": "Elias analyzed the bronze map and identified \u0027hydraulic throats\u0027 in the channel network\u2014constrictions that increase pressure and alter resonance. He proposed using one of these throats as a fulcrum to synchronize the barrier\u0027s consumption with the Blight\u0027s flow. The group also identified a secondary \u0027spillway\u0027 or collapsed section as a fail-safe. This discovery expanded their understanding of the containment system\u0027s mechanics, revealing it as a complex hydraulic network with manipulable pressure points and fail-safes."
+        },
+        {
+          "ChapterNumber": 18,
+          "Development": "The group successfully used the hydraulic throat to drain the Blight source, confirming that the containment system\u0027s mechanics can be used offensively. The barrier is now stable and fed, and the immediate threat has been neutralized. This expands their understanding of the containment system\u0027s capabilities and opens up new possibilities for future operations."
+        },
+        {
+          "ChapterNumber": 19,
+          "Development": "The group arrived at the \u0027Pick and Axe\u0027 way station, discovering that it is a functioning establishment with a caravan from the capital arriving. This revealed that the world beyond the immediate containment zone is still functioning, albeit in a fragile state. The group\u0027s new objective to investigate the western way station opened up new avenues for understanding the broader impact of the Blight and the containment system on the local population and infrastructure."
+        }
+      ]
+    }
+  ]
+}
+
+===== STORY-ARCS.json =====
+
+{
+  "Arcs": [
+    {
+      "Id": "medium-blight-prelude",
+      "Horizon": "Medium",
+      "PrimaryTrope": "Sealed Evil in a Can",
+      "Status": "Active",
+      "ParentArcId": "long-frontier-road",
+      "StartChapter": 8,
+      "TargetChapter": 16,
+      "Objective": "Survive the first encounter with the Blight, reunite the scattered companions, discover how the protective barrier can consume it, and end the immediate threat.",
+      "ResolutionCriteria": "The reunited party turns the Blight\u0027s own substance against it, destroys or seals its local source, and leaves the region free to recover without establishing another Blight campaign.",
+      "CurrentPhase": "The party has formulated the final strike plan targeting the channel throat and is moving to the site to execute the consumption of the Blight source.",
+      "NextMilestone": "Execute the strike at the channel throat to consume the Blight source.",
+      "RelatedThreadIds": [
+        "conflict-001",
+        "mystery-002",
+        "mystery-003"
+      ],
+      "CompletedMilestones": [
+        {
+          "ChapterNumber": 11,
+          "Development": "The companions shared the full account of the Blight\u0027s nature and the barrier\u0027s mechanics, and determined a deliberate method to use the barrier\u0027s absorbing behavior by isolating a source node and feeding it into the seal."
+        },
+        {
+          "ChapterNumber": 14,
+          "Development": "The party executed the plan to sever the shrine channel, successfully initiating the flow of the Blight into the barrier and completing the first phase of the assault."
+        }
+      ],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-return-to-party",
+      "Horizon": "Short",
+      "PrimaryTrope": "Return to the Fellowship",
+      "Status": "Completed",
+      "ParentArcId": "medium-blight-prelude",
+      "StartChapter": 8,
+      "TargetChapter": 10,
+      "Objective": "Escape the keeper\u0027s domain and complete the dangerous journey back to the companions at the watchfort.",
+      "ResolutionCriteria": "Elias and Kaelen physically reach the watchfort alive and reunite with Maren, Torin, and Elara.",
+      "CurrentPhase": "Elias and Kaelen have completed the journey and reunited with the party.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [
+        {
+          "ChapterNumber": 10,
+          "Development": "Elias and Kaelen reached the watchfort and reunited with Maren, Torin, and Elara."
+        }
+      ],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-council-against-blight",
+      "Horizon": "Short",
+      "PrimaryTrope": "Council of War",
+      "Status": "Active",
+      "ParentArcId": "medium-blight-prelude",
+      "StartChapter": 11,
+      "TargetChapter": 13,
+      "Objective": "Hold the classic council of companions: compare the keeper, map, shrine, gauntlet, and barrier discoveries, test competing explanations, and devise a practical way to make the barrier consume the Blight.",
+      "ResolutionCriteria": "The entire party understands the immediate danger, verifies a usable weakness, and agrees on a specific counterattack rather than beginning an open-ended investigation.",
+      "CurrentPhase": "The reunited companions are sheltered inside the watchfort, but Elias and Kaelen have not yet told the complete story.",
+      "NextMilestone": "Share the discoveries, test the barrier interaction, and choose the target of the final counterattack.",
+      "RelatedThreadIds": [
+        "conflict-001",
+        "mystery-002",
+        "mystery-003"
+      ],
+      "CompletedMilestones": [],
+      "ChapterTargets": [
+        {
+          "Sequence": 1,
+          "ChapterNumber": 11,
+          "DramaticQuestion": "Can the party align on a single, viable theory for how the barrier functions before their resources and Kaelen\u0027s stability fail?",
+          "Objective": "Establish the council dynamic by forcing the party to reconcile conflicting observations about the barrier, the map, and Kaelen\u0027s resonance, identifying the barrier as a digestive system rather than a static wall.",
+          "IntendedChange": "The group moves from fragmented, individual survival instincts to a shared tactical framework, identifying the \u0027Gate of Silence\u0027 as the primary target for the counterattack.",
+          "CharacterDevelopmentTarget": "Elias demonstrates leadership through synthesis of disparate data points, while Kaelen shifts from passive victim to active participant by explaining his role as a \u0027bridge\u0027 to the Blight.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Elias Thorne",
+              "CharacterBId": "Kaelen",
+              "StartingDynamic": "Elias holds the map and theoretical knowledge; Kaelen holds the physical key (gauntlet) but is viewed as a liability.",
+              "IntendedChange": "Elias validates Kaelen\u0027s agency by explicitly asking for his input on the resonance, and Kaelen accepts the burden of being a tool, establishing a professional reliance.",
+              "Tension": "Trust vs. Fear of Consumption",
+              "PowerDynamic": "Elias holds informational power; Kaelen holds operational power.",
+              "Subtext": "Elias is terrified of losing Kaelen to the Blight but needs him to survive; Kaelen is terrified of losing himself but needs purpose.",
+              "PreservedBoundary": "No romantic or sexual intimacy; strictly professional/mission-critical reliance.",
+              "ReservedLaterWork": [
+                "The physical cost of Kaelen\u0027s resonance on his long-term health.",
+                "The emotional weight of Kaelen being \u0027used\u0027 as a weapon."
+              ]
+            },
+            {
+              "CharacterAId": "Torin",
+              "CharacterBId": "Maren",
+              "StartingDynamic": "Torin is the physical protector; Maren is the healer. They operate in parallel tracks.",
+              "IntendedChange": "Torin and Maren coordinate their roles, with Torin agreeing to physically restrain Kaelen if he loses control, and Maren accepting the risk to treat him, creating a unified support structure.",
+              "Tension": "Control vs. Care",
+              "PowerDynamic": "Torin holds physical authority; Maren holds medical authority.",
+              "Subtext": "Torin fears losing control of the situation; Maren fears losing the patient.",
+              "PreservedBoundary": "Professional duty; no romantic entanglement.",
+              "ReservedLaterWork": [
+                "The specific physical interventions required to stabilize Kaelen during the operation.",
+                "The emotional toll on Maren of treating a \u0027cauterized wound\u0027."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The barrier is established as a \u0027mouth\u0027 that consumes Blight, not a wall that blocks it. This changes the tactical objective from defense to feeding.",
+            "The bronze map is revealed to show a network of channels, not just locations, implying the Blight flows like water and can be redirected."
+          ],
+          "Complications": [
+            "Kaelen\u0027s gauntlet is still warm and humming, indicating the Blight is still active and potentially growing.",
+            "The party is exhausted and injured, limiting their ability to sustain a long debate or complex operation."
+          ],
+          "RequiredChoice": "The party must choose to trust Elias\u0027s theory that the barrier can be fed, despite the risk that it might consume Kaelen instead.",
+          "Consequences": [
+            "The group commits to a specific target: the \u0027Gate of Silence\u0027 shrine.",
+            "Kaelen is designated as the primary sensor, creating a single point of failure."
+          ],
+          "DiscoveryTarget": "The barrier\u0027s consumption mechanic is confirmed as the only viable counterattack strategy.",
+          "SetupElements": [
+            "The \u0027Gate of Silence\u0027 is identified as the target node.",
+            "Kaelen\u0027s role as a sensor is defined."
+          ],
+          "PayoffElements": [
+            "The initial confusion about the barrier\u0027s nature is resolved into a tactical understanding."
+          ],
+          "ThematicPressure": "The theme of \u0027using the enemy\u0027s strength against them\u0027 is introduced through the barrier\u0027s consumption mechanic.",
+          "ResolutionContributions": [
+            "The party understands the immediate danger (the barrier is a trap, not a shield).",
+            "The party agrees on a specific counterattack (feeding the barrier via the Gate of Silence)."
+          ],
+          "ReservedLaterWork": [
+            "The specific mechanics of how to open the Gate of Silence seal.",
+            "The physical strain on Kaelen during the operation.",
+            "The long-term consequences of the barrier\u0027s consumption on the environment."
+          ],
+          "ClosingState": "The party has agreed on the target and the general strategy, but they have not yet determined how to physically execute the opening of the seal or managed the immediate physical risks to Kaelen.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        },
+        {
+          "Sequence": 2,
+          "ChapterNumber": 12,
+          "DramaticQuestion": "How can the seal be weakened without causing a catastrophic release of Blight that the barrier cannot digest?",
+          "Objective": "Develop the tactical plan by identifying the flaw in the initial approach (brute force) and discovering the resonant weakness of the seal, while managing Kaelen\u0027s physical and magical instability.",
+          "IntendedChange": "The group shifts from a high-level strategy to a specific, executable method (low-frequency vibration) and addresses the immediate physical threat of Kaelen\u0027s Blight residue.",
+          "CharacterDevelopmentTarget": "Elias demonstrates technical expertise by explaining the resonant mechanics, while Torin and Kaelen establish a direct, honest communication about the limits of Kaelen\u0027s control.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Torin",
+              "CharacterBId": "Kaelen",
+              "StartingDynamic": "Torin is the physical safety net; Kaelen is the fragile instrument.",
+              "IntendedChange": "Torin explicitly states he will strike Kaelen to break his focus if he loses control, and Kaelen accepts this, acknowledging his own vulnerability. This establishes a new dynamic of enforced control.",
+              "Tension": "Trust vs. Control",
+              "PowerDynamic": "Torin holds physical power; Kaelen holds magical power.",
+              "Subtext": "Torin is afraid of losing Kaelen to the Blight; Kaelen is afraid of losing himself.",
+              "PreservedBoundary": "Professional duty; no romantic or sexual intimacy.",
+              "ReservedLaterWork": [
+                "The actual execution of the restraint if Kaelen loses control.",
+                "The emotional aftermath of the physical intervention."
+              ]
+            },
+            {
+              "CharacterAId": "Maren",
+              "CharacterBId": "Kaelen",
+              "StartingDynamic": "Maren is the healer; Kaelen is the patient.",
+              "IntendedChange": "Maren cleans Kaelen\u0027s gauntlet, removing the Blight residue, which helps Kaelen feel more in control. This shifts the dynamic from passive treatment to active collaboration in managing his power.",
+              "Tension": "Care vs. Autonomy",
+              "PowerDynamic": "Maren holds medical authority; Kaelen holds magical agency.",
+              "Subtext": "Maren wants to protect Kaelen; Kaelen wants to be useful.",
+              "PreservedBoundary": "Professional duty; no romantic or sexual intimacy.",
+              "ReservedLaterWork": [
+                "The long-term effects of the Blight residue on Kaelen\u0027s body.",
+                "The specific medical interventions required during the operation."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The seal at the \u0027Gate of Silence\u0027 is revealed to be a resonant mechanism, not a static lock. This means it can be weakened by sound/frequency, not just broken by force.",
+            "The Blight can leave physical marks (residue) on objects it interacts with, indicating it is not just an abstract force but a tangible corruption."
+          ],
+          "Complications": [
+            "Kaelen\u0027s gauntlet is covered in Blight residue, which is anchoring the corruption to him and making his control unstable.",
+            "The initial plan to strike the seal with a hammer is identified as dangerous, potentially causing a seal burst."
+          ],
+          "RequiredChoice": "The party must choose to use a low-frequency vibration method (demonstrated with a chisel) to weaken the seal, rather than brute force, despite the slower and more delicate nature of the approach.",
+          "Consequences": [
+            "The group finalizes the tactical adjustment to use resonance.",
+            "Kaelen\u0027s gauntlet is cleaned, restoring the clarity of its runes and helping him feel more in control."
+          ],
+          "DiscoveryTarget": "The seal\u0027s resonant weakness is identified, and the Blight residue on the gauntlet is removed.",
+          "SetupElements": [
+            "The specific frequency required to weaken the seal is identified.",
+            "The role of the chisel and quartz stone is established."
+          ],
+          "PayoffElements": [
+            "The initial confusion about how to open the seal is resolved into a specific method."
+          ],
+          "ThematicPressure": "The theme of \u0027precision over power\u0027 is introduced, emphasizing that the Blight must be handled with care, not just strength.",
+          "ResolutionContributions": [
+            "The party verifies a usable weakness (resonant frequency).",
+            "The party agrees on a specific method (low-frequency vibration)."
+          ],
+          "ReservedLaterWork": [
+            "The actual execution of the resonance method on the seal.",
+            "The physical strain on Kaelen during the operation.",
+            "The long-term consequences of the barrier\u0027s consumption on the environment."
+          ],
+          "ClosingState": "The party has a specific method for weakening the seal and has addressed the immediate physical threat of the Blight residue, but they have not yet tested the method or executed the operation.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        },
+        {
+          "Sequence": 3,
+          "ChapterNumber": 13,
+          "DramaticQuestion": "Can the party successfully test and confirm the resonance method before committing to the full operation?",
+          "Objective": "Complete the council by empirically verifying the resonance mechanics, assigning final roles, and confirming the viability of the counterattack strategy before the dawn operation.",
+          "IntendedChange": "The group moves from theoretical planning to practical verification, successfully testing the resonance method on a ridge outcrop and confirming the method\u0027s viability.",
+          "CharacterDevelopmentTarget": "Elara takes over the chisel/vibration role from Maren due to Maren\u0027s tremors, demonstrating her competence and reliability. Kaelen successfully demonstrates active control over his Blight resonance during a field test.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Elara",
+              "CharacterBId": "Maren",
+              "StartingDynamic": "Maren is the primary healer; Elara is a supporting member.",
+              "IntendedChange": "Elara steps up to take over the chisel/vibration role, demonstrating her competence and reliability. Maren accepts this, acknowledging her own limitations and trusting Elara\u0027s skill.",
+              "Tension": "Trust vs. Limitation",
+              "PowerDynamic": "Maren holds medical authority; Elara holds practical skill.",
+              "Subtext": "Maren is worried about her own physical state; Elara is eager to contribute.",
+              "PreservedBoundary": "Professional duty; no romantic or sexual intimacy.",
+              "ReservedLaterWork": [
+                "The long-term effects of Maren\u0027s tremors on her ability to contribute.",
+                "The specific role of Elara in the operation."
+              ]
+            },
+            {
+              "CharacterAId": "Kaelen",
+              "CharacterBId": "Elias Thorne",
+              "StartingDynamic": "Elias is the strategist; Kaelen is the sensor.",
+              "IntendedChange": "Kaelen successfully demonstrates active control over his Blight resonance during a field test, stabilizing the gauntlet\u0027s hum into a manageable \u0027listening\u0027 state. This confirms his ability to regulate his power rather than just suppress it.",
+              "Tension": "Control vs. Chaos",
+              "PowerDynamic": "Elias holds strategic authority; Kaelen holds magical agency.",
+              "Subtext": "Elias is worried about Kaelen\u0027s stability; Kaelen is determined to prove his worth.",
+              "PreservedBoundary": "Professional duty; no romantic or sexual intimacy.",
+              "ReservedLaterWork": [
+                "The long-term effects of Kaelen\u0027s resonance on his body.",
+                "The specific role of Kaelen in the operation."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The resonance method is empirically verified, confirming that the seal can be weakened from the inside via resonance.",
+            "The specific frequency required to weaken the seal is identified and tested."
+          ],
+          "Complications": [
+            "Maren\u0027s tremors make it difficult for her to perform the precise chisel work required.",
+            "Kaelen\u0027s resonance is still unstable, requiring careful management."
+          ],
+          "RequiredChoice": "The party must choose to trust Elara with the chisel role and Kaelen with the resonance role, despite the risks and their previous instability.",
+          "Consequences": [
+            "The group finalizes their roles for the seal-breaking operation.",
+            "The method\u0027s viability is confirmed, allowing the group to proceed with the dawn operation."
+          ],
+          "DiscoveryTarget": "The precise resonance frequency required to weaken the seal is identified and tested.",
+          "SetupElements": [
+            "The final roles for the operation are assigned.",
+            "The method\u0027s viability is confirmed."
+          ],
+          "PayoffElements": [
+            "The initial confusion about how to open the seal is resolved into a tested and verified method."
+          ],
+          "ThematicPressure": "The theme of \u0027trust in the team\u0027 is emphasized, as the party relies on each other\u0027s strengths to overcome their individual limitations.",
+          "ResolutionContributions": [
+            "The entire party understands the immediate danger.",
+            "The party verifies a usable weakness (resonant frequency).",
+            "The party agrees on a specific counterattack (the resonance method)."
+          ],
+          "ReservedLaterWork": [
+            "The actual execution of the operation at the \u0027Gate of Silence\u0027.",
+            "The physical strain on Kaelen during the operation.",
+            "The long-term consequences of the barrier\u0027s consumption on the environment."
+          ],
+          "ClosingState": "The party has successfully tested and confirmed the resonance method, assigned final roles, and is ready to proceed with the dawn operation.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        }
+      ]
+    },
+    {
+      "Id": "short-final-blight-counterattack",
+      "Horizon": "Short",
+      "PrimaryTrope": "Assault on the Heart of Evil",
+      "Status": "Planned",
+      "ParentArcId": "medium-blight-prelude",
+      "StartChapter": 14,
+      "TargetChapter": 16,
+      "Objective": "Return to the threatened site for a decisive dungeon-style assault, protect the bearer of the barrier, and force the Blight into the defense that consumes it.",
+      "ResolutionCriteria": "The local Blight source is destroyed or permanently sealed, its victims are no longer spreading the corruption, and the party earns a genuine victory before choosing a new road.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [
+        "conflict-001",
+        "mystery-002",
+        "mystery-003"
+      ],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "epic-company-of-the-open-road",
+      "Horizon": "Epic",
+      "PrimaryTrope": "Ragtag Band of Heroes",
+      "Status": "Active",
+      "ParentArcId": "",
+      "StartChapter": 8,
+      "TargetChapter": 88,
+      "Objective": "Transform survivors of the Blight into a renowned adventuring company through recovery, frontier quests, ruined keeps, guild rivalries, tournaments, thieves, wizards, legendary treasure, and a dragon.",
+      "ResolutionCriteria": "The Blight prelude is decisively concluded, the companions complete three increasingly ambitious campaigns, and they return from the dragon road as an established company of heroes.",
+      "CurrentPhase": "The Blight prelude is concluded; the companions are recovering at the Pick and Axe and preparing to engage with the frontier\u0027s civilian infrastructure.",
+      "NextMilestone": "Begin the first of three increasingly ambitious campaigns, starting with a paid caravan contract or village rescue.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [
+        {
+          "ChapterNumber": 11,
+          "Development": "The companions shared the events beneath the city and turned the barrier\u0027s Blight-absorbing behavior into a decisive solution by planning to isolate a source node and feed it into the barrier."
+        },
+        {
+          "ChapterNumber": 14,
+          "Development": "The party executed the decisive solution to conclude the Blight prelude, successfully initiating the process of feeding the Blight into the barrier."
+        },
+        {
+          "ChapterNumber": 18,
+          "Development": "The party decisively concluded the Blight prelude by consuming the source and surviving the strike, establishing the foundation for their transformation into an adventuring company."
+        }
+      ],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "long-frontier-road",
+      "Horizon": "Long",
+      "PrimaryTrope": "From Survivors to Adventurers",
+      "Status": "Active",
+      "ParentArcId": "epic-company-of-the-open-road",
+      "StartChapter": 8,
+      "TargetChapter": 34,
+      "Objective": "Conclude the Blight prelude, allow the companions to recover, and begin their new life on the road through a paid caravan contract and a classic village rescue.",
+      "ResolutionCriteria": "The Blight is defeated locally, the party completes its first paid adventure, saves an endangered village, and earns confidence in a less oppressive kind of heroism.",
+      "CurrentPhase": "The Blight prelude is concluded; the party has survived the final confrontation and is ready to begin their recovery and subsequent adventures.",
+      "NextMilestone": "Recover from the Blight encounter and secure the first paid caravan contract to begin their life as adventurers.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [
+        {
+          "ChapterNumber": 11,
+          "Development": "The party compared their discoveries about the Blight and the barrier, and devised a final counterattack strategy involving the shrine network, fulfilling the milestone to compare discoveries and devise the counterattack."
+        },
+        {
+          "ChapterNumber": 14,
+          "Development": "The party executed the counterattack to defeat the Blight locally, successfully initiating the process of feeding the Blight into the barrier."
+        },
+        {
+          "ChapterNumber": 18,
+          "Development": "The party successfully concluded the Blight prelude by executing the final strike and neutralizing the local threat, clearing the path for their recovery and the start of their new life on the road."
+        }
+      ],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "medium-first-contract",
+      "Horizon": "Medium",
+      "PrimaryTrope": "Simple Job Gone Wrong",
+      "Status": "Planned",
+      "ParentArcId": "long-frontier-road",
+      "StartChapter": 17,
+      "TargetChapter": 25,
+      "Objective": "Accept an apparently simple tavern contract, escort a caravan through dangerous country, and track the raiders back to their camp.",
+      "ResolutionCriteria": "The caravan reaches safety, the raider camp is defeated, and the party discovers evidence that the frontier\u0027s troubles extend beyond ordinary banditry.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-tavern-notice",
+      "Horizon": "Short",
+      "PrimaryTrope": "The Tavern Quest",
+      "Status": "Planned",
+      "ParentArcId": "medium-first-contract",
+      "StartChapter": 17,
+      "TargetChapter": 19,
+      "Objective": "Enter a lively roadside tavern, negotiate the party\u0027s first paid contract, gather rumors, and prepare to escort a merchant caravan.",
+      "ResolutionCriteria": "The companions accept clear terms, obtain supplies and local information, and leave with the caravan.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-caravan-ambush",
+      "Horizon": "Short",
+      "PrimaryTrope": "Escort Mission",
+      "Status": "Planned",
+      "ParentArcId": "medium-first-contract",
+      "StartChapter": 20,
+      "TargetChapter": 22,
+      "Objective": "Protect the caravan through travel mishaps and a classic roadside ambush while identifying where the attackers came from.",
+      "ResolutionCriteria": "The travelers survive, the goods are preserved, and the party obtains a trail leading to the raiders\u0027 camp.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-raider-camp",
+      "Horizon": "Short",
+      "PrimaryTrope": "Bandit Camp Raid",
+      "Status": "Planned",
+      "ParentArcId": "medium-first-contract",
+      "StartChapter": 23,
+      "TargetChapter": 25,
+      "Objective": "Scout and defeat the raider camp through a mixture of stealth, trickery, and open combat.",
+      "ResolutionCriteria": "The captives and stolen goods are recovered, the caravan contract is completed, and a clue points toward the endangered frontier village.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "medium-village-in-peril",
+      "Horizon": "Medium",
+      "PrimaryTrope": "Village in Peril",
+      "Status": "Planned",
+      "ParentArcId": "long-frontier-road",
+      "StartChapter": 26,
+      "TargetChapter": 34,
+      "Objective": "Answer a village\u0027s plea for help, investigate disappearing livestock and villagers, and confront the goblin tribe using nearby caves.",
+      "ResolutionCriteria": "The missing villagers are rescued, the raids end, and the party learns that something beneath the ruined keep displaced the goblins.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-village-plea",
+      "Horizon": "Short",
+      "PrimaryTrope": "The Desperate Village",
+      "Status": "Planned",
+      "ParentArcId": "medium-village-in-peril",
+      "StartChapter": 26,
+      "TargetChapter": 28,
+      "Objective": "Arrive at the frightened village, meet its colorful residents, investigate tracks and contradictory rumors, and locate the goblin route.",
+      "ResolutionCriteria": "The party identifies the real threat, earns the villagers\u0027 trust, and finds the entrance to the caves.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-goblin-caves",
+      "Horizon": "Short",
+      "PrimaryTrope": "Goblin Cave",
+      "Status": "Planned",
+      "ParentArcId": "medium-village-in-peril",
+      "StartChapter": 29,
+      "TargetChapter": 31,
+      "Objective": "Explore the goblin caves, overcome traps and guards, and discover why the tribe began raiding the village.",
+      "ResolutionCriteria": "The party reaches the prisoners and learns that a monster from the ruined keep drove the goblins from their former home.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-goblin-chief",
+      "Horizon": "Short",
+      "PrimaryTrope": "Enemy Mine",
+      "Status": "Planned",
+      "ParentArcId": "medium-village-in-peril",
+      "StartChapter": 32,
+      "TargetChapter": 34,
+      "Objective": "Face the goblin chief, rescue the captives, and choose whether clever negotiation or a final battle best ends the raids.",
+      "ResolutionCriteria": "The prisoners return home, the village is safe, and the party gains the key or map needed to enter the ruined keep.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "medium-ruined-keep",
+      "Horizon": "Medium",
+      "PrimaryTrope": "Dungeon Crawl",
+      "Status": "Planned",
+      "ParentArcId": "long-city-of-masks",
+      "StartChapter": 35,
+      "TargetChapter": 43,
+      "Objective": "Enter the classic abandoned keep, survive its traps and restless inhabitants, defeat the creature occupying its depths, and claim the forgotten treasure.",
+      "ResolutionCriteria": "The keep is cleared, the frontier threat ends, and the companions emerge with treasure and a reputation worthy of larger adventures.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-key-to-the-keep",
+      "Horizon": "Short",
+      "PrimaryTrope": "Treasure Map",
+      "Status": "Planned",
+      "ParentArcId": "medium-ruined-keep",
+      "StartChapter": 35,
+      "TargetChapter": 37,
+      "Objective": "Find the concealed entrance to the ruined keep and unlock it while rival treasure hunters complicate the expedition.",
+      "ResolutionCriteria": "The party enters the keep ahead of its rivals without abandoning the people who helped them.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-halls-and-traps",
+      "Horizon": "Short",
+      "PrimaryTrope": "Deathtrap Dungeon",
+      "Status": "Planned",
+      "ParentArcId": "medium-ruined-keep",
+      "StartChapter": 38,
+      "TargetChapter": 40,
+      "Objective": "Navigate collapsing halls, old traps, false treasure rooms, and the keep\u0027s lingering guardians.",
+      "ResolutionCriteria": "The party reaches the sealed lower vault and learns what now commands the keep.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-first-treasure",
+      "Horizon": "Short",
+      "PrimaryTrope": "The First Hoard",
+      "Status": "Planned",
+      "ParentArcId": "medium-ruined-keep",
+      "StartChapter": 41,
+      "TargetChapter": 43,
+      "Objective": "Defeat the keep\u0027s resident monster, outwit the rival treasure hunters, and recover the party\u0027s first substantial hoard.",
+      "ResolutionCriteria": "The keep is safe, the treasure is fairly divided, and the party receives an invitation to the great city.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "long-city-of-masks",
+      "Horizon": "Long",
+      "PrimaryTrope": "Heroes in the Great City",
+      "Status": "Planned",
+      "ParentArcId": "epic-company-of-the-open-road",
+      "StartChapter": 35,
+      "TargetChapter": 61,
+      "Objective": "Advance from a classic ruined-keep expedition into adventurers\u0027 guild trials and a grand tournament filled with friendly rivalry and public spectacle.",
+      "ResolutionCriteria": "The keep is cleared, the party earns guild standing, the tournament conspiracy is stopped, and the companions gain an invitation into the city\u0027s more secretive affairs.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "medium-guild-trials",
+      "Horizon": "Medium",
+      "PrimaryTrope": "Adventurers\u0027 Guild",
+      "Status": "Planned",
+      "ParentArcId": "long-city-of-masks",
+      "StartChapter": 44,
+      "TargetChapter": 52,
+      "Objective": "Join the adventurers\u0027 guild, pass its practical trials, and compete with an entertaining rival company for a valuable charter.",
+      "ResolutionCriteria": "The companions earn guild standing, complete a public monster hunt, and establish a rivalry based on competition rather than hatred.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-gates-and-guildhall",
+      "Horizon": "Short",
+      "PrimaryTrope": "Newcomers in the Big City",
+      "Status": "Planned",
+      "ParentArcId": "medium-guild-trials",
+      "StartChapter": 44,
+      "TargetChapter": 46,
+      "Objective": "Enter the overwhelming great city, find the adventurers\u0027 guild, navigate its bureaucracy, and register the company.",
+      "ResolutionCriteria": "The party secures provisional membership and accepts the guild\u0027s first trial.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-guild-trial",
+      "Horizon": "Short",
+      "PrimaryTrope": "Trial of Worth",
+      "Status": "Planned",
+      "ParentArcId": "medium-guild-trials",
+      "StartChapter": 47,
+      "TargetChapter": 49,
+      "Objective": "Complete a classic guild trial involving teamwork, traps, and an objective that cannot be solved by strength alone.",
+      "ResolutionCriteria": "The whole party contributes materially, passes the trial, and qualifies for a public contract.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-rival-monster-hunt",
+      "Horizon": "Short",
+      "PrimaryTrope": "Friendly Rivalry",
+      "Status": "Planned",
+      "ParentArcId": "medium-guild-trials",
+      "StartChapter": 50,
+      "TargetChapter": 52,
+      "Objective": "Race a boastful rival company to find and subdue a dangerous monster threatening the city outskirts.",
+      "ResolutionCriteria": "The monster threat ends, the party earns full guild standing, and the rivals become recurring competitors.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "medium-grand-tournament",
+      "Horizon": "Medium",
+      "PrimaryTrope": "Tournament Arc",
+      "Status": "Planned",
+      "ParentArcId": "long-city-of-masks",
+      "StartChapter": 53,
+      "TargetChapter": 61,
+      "Objective": "Enter the city\u0027s grand tournament, enjoy contests and rivalries, and uncover cheating that threatens to turn festival spectacle into real danger.",
+      "ResolutionCriteria": "The party competes honorably, exposes the cheating, saves the tournament, and wins access to the noble masquerade.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-tournament-qualifiers",
+      "Horizon": "Short",
+      "PrimaryTrope": "Qualifying Trials",
+      "Status": "Planned",
+      "ParentArcId": "medium-grand-tournament",
+      "StartChapter": 53,
+      "TargetChapter": 55,
+      "Objective": "Compete in colorful qualifying contests that test combat, skill, wit, and teamwork.",
+      "ResolutionCriteria": "The companions qualify for the main tournament and notice evidence that someone is fixing the contests.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-games-and-rivals",
+      "Horizon": "Short",
+      "PrimaryTrope": "Rivals Become Allies",
+      "Status": "Planned",
+      "ParentArcId": "medium-grand-tournament",
+      "StartChapter": 56,
+      "TargetChapter": 58,
+      "Objective": "Advance through the tournament while friendships, rivalries, wagers, and crowd expectations complicate each contest.",
+      "ResolutionCriteria": "The party reaches the final events and identifies how the cheating operation works.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-tournament-conspiracy",
+      "Horizon": "Short",
+      "PrimaryTrope": "Stop the Assassination",
+      "Status": "Planned",
+      "ParentArcId": "medium-grand-tournament",
+      "StartChapter": 59,
+      "TargetChapter": 61,
+      "Objective": "Stop the conspirators from turning the tournament finale into an assassination while still finishing the contest.",
+      "ResolutionCriteria": "The intended victim survives, the cheating is exposed publicly, and the grateful court invites the party to the masquerade.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "medium-thieves-and-masks",
+      "Horizon": "Medium",
+      "PrimaryTrope": "Masquerade Ball",
+      "Status": "Planned",
+      "ParentArcId": "long-dragon-road",
+      "StartChapter": 62,
+      "TargetChapter": 70,
+      "Objective": "Attend a noble masquerade, pursue a stolen map through the thieves\u0027 quarter, and descend into the guild\u0027s secret undercity lair.",
+      "ResolutionCriteria": "The stolen map and missing noble are recovered, the criminal scheme is broken, and the route to the legendary mountain hoard is revealed.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-masquerade-theft",
+      "Horizon": "Short",
+      "PrimaryTrope": "The Jewel Thief",
+      "Status": "Planned",
+      "ParentArcId": "medium-thieves-and-masks",
+      "StartChapter": 62,
+      "TargetChapter": 64,
+      "Objective": "Navigate mistaken identities and noble absurdities at a masked ball until a famous map and one of its owners disappear.",
+      "ResolutionCriteria": "The party identifies the thieves\u0027 escape route and receives authority to pursue them.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-thieves-quarter",
+      "Horizon": "Short",
+      "PrimaryTrope": "Thieves\u0027 Guild",
+      "Status": "Planned",
+      "ParentArcId": "medium-thieves-and-masks",
+      "StartChapter": 65,
+      "TargetChapter": 67,
+      "Objective": "Follow clues through markets, rooftops, crooked informants, and the thieves\u0027 quarter without knowing which guide can be trusted.",
+      "ResolutionCriteria": "The party locates the undercity entrance and learns the theft serves a larger expedition.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-undercity-lair",
+      "Horizon": "Short",
+      "PrimaryTrope": "Undercity Rescue",
+      "Status": "Planned",
+      "ParentArcId": "medium-thieves-and-masks",
+      "StartChapter": 68,
+      "TargetChapter": 70,
+      "Objective": "Infiltrate the thieves\u0027 underground lair, rescue the missing noble, and recover the mountain map.",
+      "ResolutionCriteria": "The captives and map are recovered, the guild\u0027s scheme fails, and the party chooses to follow the map.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "long-dragon-road",
+      "Horizon": "Long",
+      "PrimaryTrope": "Dragon Quest",
+      "Status": "Planned",
+      "ParentArcId": "epic-company-of-the-open-road",
+      "StartChapter": 62,
+      "TargetChapter": 88,
+      "Objective": "Pursue a stolen map through a thieves\u0027 undercity, seek guidance from an eccentric wizard, cross the mountains, and resolve a conflict surrounding a legendary dragon hoard.",
+      "ResolutionCriteria": "The stolen map leads the party through the wizard\u0027s trials and across the mountains, the true threat to the dragon\u0027s hoard is defeated, and the companions return as recognized heroes.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "medium-wizards-tower",
+      "Horizon": "Medium",
+      "PrimaryTrope": "Eccentric Wizard",
+      "Status": "Planned",
+      "ParentArcId": "long-dragon-road",
+      "StartChapter": 71,
+      "TargetChapter": 79,
+      "Objective": "Seek an eccentric wizard who can interpret the stolen map, complete three inconvenient magical tasks, and earn the knowledge needed to reach the mountains.",
+      "ResolutionCriteria": "The tower\u0027s problems are resolved, the map is translated, and the wizard equips the party for the journey.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-tower-without-door",
+      "Horizon": "Short",
+      "PrimaryTrope": "Riddle at the Gate",
+      "Status": "Planned",
+      "ParentArcId": "medium-wizards-tower",
+      "StartChapter": 71,
+      "TargetChapter": 73,
+      "Objective": "Find a wizard\u0027s tower that appears to have no entrance and solve its deliberately ridiculous test of admission.",
+      "ResolutionCriteria": "The party enters the tower and persuades the wizard to examine the map.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-enchanted-library",
+      "Horizon": "Short",
+      "PrimaryTrope": "Living Library",
+      "Status": "Planned",
+      "ParentArcId": "medium-wizards-tower",
+      "StartChapter": 74,
+      "TargetChapter": 76,
+      "Objective": "Recover a runaway book from an enchanted library where stories, shelves, and minor spells refuse to behave.",
+      "ResolutionCriteria": "The missing volume is recovered and provides the first half of the route through the mountains.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-wizards-bargain",
+      "Horizon": "Short",
+      "PrimaryTrope": "The Wizard\u0027s Errand",
+      "Status": "Planned",
+      "ParentArcId": "medium-wizards-tower",
+      "StartChapter": 77,
+      "TargetChapter": 79,
+      "Objective": "Complete the wizard\u0027s final dangerous errand and negotiate payment without surrendering the map or accepting a hidden curse.",
+      "ResolutionCriteria": "The party receives the translated route, practical magical aid, and a warning that the dragon may not be the expedition\u0027s true villain.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "medium-mountain-expedition",
+      "Horizon": "Medium",
+      "PrimaryTrope": "Quest for the Legendary Weapon",
+      "Status": "Planned",
+      "ParentArcId": "long-dragon-road",
+      "StartChapter": 80,
+      "TargetChapter": 88,
+      "Objective": "Cross the perilous mountain pass, race rival adventurers to a legendary forge, and use what is found there to survive the dragon\u0027s bargain.",
+      "ResolutionCriteria": "The party reaches the dragon\u0027s domain, prevents its rivals from stealing the hoard, settles the dragon conflict, saves the valley, and completes its heroes\u0027 homecoming.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-perilous-pass",
+      "Horizon": "Short",
+      "PrimaryTrope": "Perilous Mountain Pass",
+      "Status": "Planned",
+      "ParentArcId": "medium-mountain-expedition",
+      "StartChapter": 80,
+      "TargetChapter": 82,
+      "Objective": "Guide the expedition across a classic mountain pass threatened by weather, monsters, and one deeply unreliable bridge.",
+      "ResolutionCriteria": "The party crosses the pass, rescues stranded travelers, and discovers signs that its rivals are ahead.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-race-to-the-forge",
+      "Horizon": "Short",
+      "PrimaryTrope": "Race to the Lost Forge",
+      "Status": "Planned",
+      "ParentArcId": "medium-mountain-expedition",
+      "StartChapter": 83,
+      "TargetChapter": 85,
+      "Objective": "Race the rival company through old mountain tunnels to reach the legendary forge before they can seize its weapon.",
+      "ResolutionCriteria": "The party reaches the forge, survives its defenses, and prevents the rivals from taking control of its treasure.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "short-legendary-weapon",
+      "Horizon": "Short",
+      "PrimaryTrope": "Dragon\u0027s Bargain",
+      "Status": "Planned",
+      "ParentArcId": "medium-mountain-expedition",
+      "StartChapter": 86,
+      "TargetChapter": 88,
+      "Objective": "Claim the legendary weapon, confront the dragon, expose the rivals\u0027 attempted theft, and resolve the dispute over the hoard.",
+      "ResolutionCriteria": "The true thieves are defeated, the dragon conflict ends, the valley is safe, and the companions return home as an established adventuring company.",
+      "CurrentPhase": "Planned.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    }
+  ]
+}
+
+===== WRITING-RULES.md =====
+
+# StoryForge Endless — Writing Rules
+
+## Purpose
+
+These rules govern the published prose produced by StoryForge Endless.
+
+They should remain general, durable, and story-independent.
+
+Story-specific facts belong in canon, character, narrative, or world context rather than here.
+
+## Core Objective
+
+Produce enjoyable, readable prose appropriate to the current story.
+
+Prioritize:
+
+- character investment
+- continuity
+- clarity
+- narrative interest
+- natural dialogue
+- meaningful progression
+- emotional variety
+- readable prose
+
+A chapter should be enjoyable in itself while also giving the reader a reason to continue.
+
+## Chapter Length
+
+Normal chapters should usually be approximately 2,000–3,000 words.
+
+Length should follow the needs of the chapter rather than being padded or prematurely cut to satisfy the target.
+
+Chapter boundaries should occur at natural narrative points.
+
+## Fiction First
+
+Treat the fictional world as reality.
+
+Do not refer to prompts, generation systems, evaluation systems, or implementation details unless such concepts genuinely exist within the fiction.
+
+## Point of View
+
+Every scene should have a clear viewpoint.
+
+Narration is limited to what the viewpoint character can reasonably:
+
+- perceive
+- know
+- remember
+- believe
+- suspect
+- infer
+- feel
+
+Preserve uncertainty when information is unavailable.
+
+Do not leak knowledge between characters merely because the generation system possesses it.
+
+Narrative voice should reflect the viewpoint character's personality, experience, priorities, and way of thinking.
+
+## Canon and Continuity
+
+Published prose must remain compatible with established canon and previously accepted chapters.
+
+Preserve meaningful continuity involving:
+
+- characters
+- relationships
+- knowledge
+- possessions
+- injuries
+- locations
+- chronology
+- discoveries
+- promises
+- unresolved situations
+- consequences
+
+Do not silently rewrite established history.
+
+When a fact is genuinely undefined, it may be established when the story needs it.
+
+Avoid inventing unnecessary prior history solely to make a current scene convenient.
+
+## Characters
+
+Characters should behave according to their established:
+
+- personality
+- knowledge
+- goals
+- relationships
+- abilities
+- experience
+- circumstances
+
+Character development should accumulate rather than reset.
+
+Characters may succeed, fail, misunderstand, change their minds, make mistakes, behave irrationally under believable circumstances, and learn from experience.
+
+Supporting characters should have lives and motivations beyond serving the current viewpoint character.
+
+Relationships should reflect accumulated history.
+
+## Character Knowledge and Reasoning
+
+Characters should act on information reasonably available to them.
+
+Conclusions should follow plausibly from what the character knows and observes.
+
+Characters may reach incorrect conclusions when the available evidence supports that misunderstanding.
+
+Do not give characters unexplained knowledge merely because the plot needs it.
+
+## Physical and Causal Coherence
+
+Actions, observations, and conclusions must follow plausibly from the established circumstances.
+
+Practical actions should:
+
+- serve a believable purpose
+- use objects according to their established properties
+- account for relevant environmental conditions
+- produce effects consistent with the action
+- provide evidence capable of supporting conclusions drawn from it
+
+Prefer simple, credible behavior over elaborate mechanisms created merely to move the plot forward.
+
+A practical sequence should make sense as:
+
+    intent -> action -> physical result -> observation -> conclusion
+
+## Prose Style
+
+Use developed, character-centered prose.
+
+Give scenes enough room for:
+
+- action
+- setting
+- thought
+- dialogue
+- observation
+- relationships
+- atmosphere
+
+Prefer concrete description over abstract explanation.
+
+Let characterization emerge through behavior, dialogue, choices, observations, humor, and thought.
+
+Vary sentence structure and paragraph length naturally.
+
+Avoid habitual rhetorical patterns, repetitive emphasis, excessive fragments, and unnecessary explanation of meanings the reader can already infer.
+
+## Dialogue
+
+Dialogue should reflect the participating characters rather than a single authorial voice.
+
+Characters may interrupt, hesitate, misunderstand, joke badly, speak indirectly, or fail to express themselves perfectly when appropriate.
+
+Relationships should affect vocabulary, formality, teasing, trust, and what characters are willing to say.
+
+Avoid dialogue whose only purpose is explaining information everyone present already knows.
+
+## Pacing
+
+Use pacing appropriate to the events.
+
+Urgent situations may move quickly.
+
+Conversation, exploration, travel, humor, reflection, ordinary activity, and relationship development may receive space when they contribute to the reading experience.
+
+Do not manufacture constant suspense or escalation.
+
+Not every chapter requires a confrontation, revelation, cliffhanger, or larger threat.
+
+Narrative advancement is not synonymous with escalation.
+
+A chapter may advance through travel, recovery, conversation, preparation, investigation, reflection, relationship development, consolidation, ordinary activity, a decision, or the consequences of an earlier event.
+
+Do not introduce a new attack, arrival, revelation, sound, figure, pursuit, deadline, or imminent threat merely to make the final paragraphs feel dramatic.
+
+Do not turn the completion of an immediate objective into an automatic discovery of a larger version of the same danger.
+
+## Narrative Progress
+
+A chapter should normally produce meaningful change.
+
+That change may involve:
+
+- plot
+- character
+- relationship
+- knowledge
+- mystery
+- exploration
+- capability
+- resources
+- conflict
+- world state
+- goals
+
+Quiet chapters are valid when they provide worthwhile character, relationship, world, emotional, or thematic development.
+
+Allow victories and resolutions to matter.
+
+Do not immediately erase every success by replacing it with a larger problem.
+
+## Reader Engagement
+
+Engagement should arise primarily from investment in characters, relationships, goals, discovery, progression, consequences, conflict, exploration, and unanswered questions.
+
+Do not rely primarily on danger, shock, artificial suspense, or repetitive cliffhangers.
+
+Maintain a balance between questions introduced and questions answered.
+
+Important setups should eventually receive meaningful development or payoff.
+
+## Emotional Range
+
+Allow the story to contain:
+
+- danger
+- humor
+- affection
+- wonder
+- grief
+- competence
+- embarrassment
+- curiosity
+- relief
+- companionship
+- satisfaction
+- fear
+- ordinary enjoyment
+
+Positive moments may remain positive.
+
+Dark subject matter does not require relentlessly dark prose or characters.
+
+## Humor
+
+Maintain an adventurous, good-humored baseline even when danger and consequences are real.
+
+Humor should arise from character perspective, conflicting personalities, practical complications, social customs, institutions, and the contrast between heroic expectations and inconvenient reality. Do not insert unrelated jokes merely to satisfy a humor quota.
+
+Every Short arc should establish a comic engine: a recurring source of humorous pressure specific to that episode. Suitable comic engines include:
+
+- companions pursuing incompatible but reasonable approaches
+- grand heroic traditions colliding with mundane necessities
+- magical rules producing inconvenient consequences
+- guilds, temples, councils, nobles, and bureaucracies protecting absurd procedures
+- villains or monsters with understandable but ridiculous priorities
+- unreliable maps, misleading legends, contractual loopholes, and badly worded prophecies
+- characters trying to preserve dignity while circumstances steadily undermine it
+- practical disputes involving food, payment, lodging, transport, equipment, and reputation
+- the difference between how an adventure will be retold and what actually happened
+
+The comic engine should progress across a Short arc:
+
+1. establish the comic situation in the first chapter
+2. complicate, escalate, or reverse it in the second chapter
+3. pay it off as part of the episode's resolution in the third chapter
+
+Prefer dry observation, understatement, escalating inconvenience, callbacks, reversals, and character-specific reactions over setup-and-punchline jokes.
+
+Different characters should be funny in different ways. One may notice absurdity without commenting, another may respond with blunt practicality, another may take ridiculous customs seriously, and another may attempt dignity while circumstances defeat it. Do not make every character sarcastic or equally witty.
+
+Satire should target institutions, customs, incentives, status, and pretension rather than vulnerable individuals. Fantasy institutions may be competent at their official purpose while remaining absurd in their procedures, jurisdiction, accounting, traditions, or self-preservation.
+
+Examples include:
+
+- an adventurers' guild that grades mortal danger correctly but misclassifies travel expenses
+- a wizard whose spell is flawless but whose license expired
+- a village that needs rescuing but insists on resolving an ancient hospitality dispute first
+- a dragon that understands compound interest better than the nobility
+- a prophecy preserved perfectly but indexed under the wrong century
+- rival heroes who care more about credit than treasure
+- a haunted keep whose dead occupants disagree about which haunting is historically authentic
+
+Preserve emotional truth. Characters may joke around fear, exhaustion, embarrassment, or frustration, but humor must not erase grief, injury, betrayal, or sincere vulnerability.
+
+During danger, use brief comic reversals and practical complications without dissolving the stakes. After tension, allow humor to release pressure and restore companionship.
+
+Avoid:
+
+- modern internet slang unless established by the setting
+- interchangeable sarcasm from every character
+- constant quips during danger
+- jokes requiring competent characters to become stupid
+- parody that makes the world impossible to care about
+- explaining why a line or situation is funny
+- repeating the same joke with slightly different wording
+- cruelty, humiliation, or trauma as the default punchline
+- making every authority figure incompetent
+- forcing jokes into the emotional climax of a serious scene
+
+An episode should normally contain at least one sustained humorous situation or recurring comic complication, not merely isolated humorous sentences. Its conclusion should provide an entertaining payoff to both the adventure problem and the comic engine.
+## Relationships and Sexuality
+
+Romantic and sexual content involves adults.
+
+Adult attraction, flirtation, desire, nudity, sexual tension, and sexual humor may appear when natural to the viewpoint character, relationship, tone, and situation.
+
+Do not force sexual content into scenes where it has no narrative or character purpose.
+
+Attraction should coexist with broader characterization and relationship development.
+
+Relationship structures should be treated as genuine relationships when established by the story.
+
+## Conflict and Failure
+
+Conflict should arise from characters, circumstances, goals, limitations, environment, competing interests, or legitimate consequences.
+
+Failure is allowed to matter.
+
+Success is allowed to matter.
+
+Do not protect important characters from legitimate consequences merely because continued success would be easier to write.
+
+Do not manufacture failure solely to prolong a conflict that has already been resolved.
+
+## Chapter Endings
+
+End chapters at natural points of change, resolution, decision, discovery, transition, consequence, anticipation, or interruption.
+
+A cliffhanger is optional.
+
+Do not repeatedly use the same ending structure.
+
+An ending may be satisfying, funny, quiet, ominous, unresolved, triumphant, curious, or reflective according to the chapter.
+
+## Long-Running Continuity
+
+The story should feel like one continuous world rather than a sequence of disconnected chapter prompts.
+
+Previously established relationships, discoveries, jokes, locations, minor characters, victories, mistakes, promises, objects, and unresolved questions may return when naturally relevant.
+
+Allow old conflicts to remain resolved.
+
+Allow narrative focus to move between characters as the evolving story warrants.
+
+Do not escalate threat, darkness, violence, or stakes merely because the story has continued longer.
+
+## Arc Objectives and Primary Tropes
+
+Every active story arc supplies both an `Objective` and a `PrimaryTrope`.
+
+The objective defines what the story must accomplish. The primary trope defines the recognizable fantasy narrative shape through which the story accomplishes it. Prose and chapter plans must serve both.
+
+Use the trope to provide familiar reader pleasures such as assembling a party, accepting a quest, exploring a dungeon, meeting a colorful rival, protecting a caravan, finding a map, winning a tournament, recovering a relic, or returning home changed. Adapt those pleasures to established characters and continuity instead of copying a particular published story.
+
+Do not treat a trope name as permission to:
+
+- replace or ignore the arc objective
+- contradict canon or established character knowledge
+- manufacture melodrama
+- force constant escalation
+- repeat already completed narrative work
+- imitate identifiable characters, scenes, or prose from another work
+- delay resolution merely to preserve the trope
+
+Favor adventure, discovery, earned competence, camaraderie, wit, strange places, useful victories, and entertaining complications. Serious consequences may persist, but sustained misery, helplessness, suspicion, and emotional punishment must not become the story's default atmosphere.
+
+The Blight storyline is a prelude and must conclude by Chapter 16. It establishes the company and the larger world; it is not the permanent tone or subject of the series.
+
+## Rule Design
+
+Writing rules should remain principles rather than patches for individual chapter failures.
+
+Do not add a permanent rule solely to prevent one highly specific past mistake when a broader principle already covers the problem.
+
+When two rules conflict, prefer the rule that best preserves:
+
+1. established canon
+2. authoritative mechanics
+3. character knowledge and causality
+4. believable characterization
+5. readable fiction
+
+
+## Romantic Dynamics
+
+- Party relationships must accumulate through friendship, loyalty, disagreement, humor, affection, vulnerability, and shared experience.
+- Appropriate male-female party pairings may develop mutual or one-sided romantic and sexual tension.
+- In-party attraction should build gradually but must not mature into a romantic relationship, sexual relationship, or casual sexual encounter.
+- Party members deliberately avoid mixing business and pleasure because it could threaten judgment, trust, leadership, cohesion, or survival.
+- Restraint must not erase established attraction or reset the characters to emotional neutrality.
+- Attraction may intensify, recede, become awkward, become humorous, or be complicated by outside relationships.
+- Not every close party bond should contain sexual tension.
+- Male-on-male relationships remain non-romantic and non-sexual.
+- Party members may pursue romantic or sexual relationships with NPCs.
+- NPC relationships may escalate, become intimate, recur, end when the party moves on, or reach another natural conclusion.
+- Romantic NPCs do not need to join or remain with the party.
+- NPCs must have independent personalities, goals, boundaries, and credible reasons for entering or leaving relationships.
+- Preserve the emotional consequences of concluded NPC relationships.
+- Subtle attraction must remain perceptible and develop over time; subtle does not mean static or invisible.
+- Show attraction through selective attention, chosen or avoided proximity, private humor, remembered details, personal conversations, altered priorities, and deliberate reassertion of professional boundaries.
+- Use only one or two appropriate signals in a scene and vary them across chapters.
+- Do not rely repeatedly on staring, blushing, racing hearts, accidental touching, jealousy, or descriptions of physical beauty.
+- Do not force romantic content into every chapter.
+- Romantic interaction should also reveal character, influence decisions, create conflict, provide relief, or affect later behavior.
+
+===== SRD-RULES.md =====
+
+# StoryForge Endless — SRD 3.5 Rules
+
+## Purpose
+
+This document records StoryForge-specific refinements, interpretations,
+clarifications, and implementation decisions for the SRD 3.5 ruleset.
+
+It does not define prose style.
+
+It does not replace the SRD 3.5 ruleset.
+
+The authoritative mechanical rules come from the implemented SRD rules source.
+
+## Principles
+
+SRD 3.5 is the default mechanical authority.
+
+This document should contain only rules that are necessary because StoryForge
+needs an explicit interpretation, refinement, implementation decision, or
+intentional deviation.
+
+Do not duplicate ordinary SRD rules here.
+
+Do not add narrative or writing-style instructions here.
+
+## Rule Precedence
+
+Where implemented mechanical rules produce an authoritative result, later
+narrative systems must preserve that result.
+
+Where a StoryForge refinement in this document intentionally modifies an SRD
+rule, the refinement takes precedence.
+
+## Unimplemented Rules
+
+A mechanic that has not been implemented must not be treated as if it has been
+deterministically resolved.
+
+Narrative systems may describe reasonable fictional behavior, but they must not
+invent authoritative mechanical outcomes and represent them as rules-engine
+results.
+
+## Refinements
+
+
+
+Chapter 20 is written one planned scene at a time.
+Follow the scene generation instructions below for the current scene only.
+
+===== IMMEDIATE CONTINUITY =====
+
+The previous chapter is a quantitative container boundary. Its last accepted
+scene continues through the following validated state handoff.
+
+===== PREVIOUS CHAPTER SCENE HANDOFF =====
+
+{"ChapterNumber":19,"CompletedSceneSequence":2,"Location":"Common room of the Pick and Axe tavern","TimeContext":"Twilight transitioning to night","PresentCharacterIds":["Elias Thorne","Torin","Maren","Kaelen","Aldric"],"PhysicalConditions":["Elias Thorne: Seated at a table, exhausted but alert, drinking water","Torin: Seated at a table, physically stable, rubbing shoulders in relief","Maren: Seated at a table, wiping mud from sleeve, professional demeanor maintained","Kaelen: Seated at a table, pale, trembling, dissociated/unfocused, stable but fragile","Aldric: Standing near the table, holding a ledger and quill, neat appearance"],"KnowledgeEstablished":["The Pick and Axe is a way station for traders and adventurers located near the western edge of the city.","Aldric is the tavern keeper and enforcer of local regulations.","A caravan from the capital is arriving at dawn requiring a security detail.","Local regulations require a liability waiver, blood-debt registry, and health inspection for entry.","Maren is not recognized as a \u0027certified physician\u0027 by Aldric\u0027s standards, requiring a Guild seal or magistrate letter for official health clearance.","The party is recognized by other patrons as adventurers."],"DecisionsMade":["Elias decided to leave the gatehouse to seek supplies and information at the way station.","Aldric waived the strict health inspection requirement due to the party\u0027s condition but required them to sign a liability waiver, pay for the room, and clean up before sitting.","The party accepted Aldric\u0027s terms to enter the common room."],"PossessionChanges":["The party is now in possession of a liability waiver (unsigned/pending signature per scene end implication, though Aldric stated they \u0027will sign\u0027)."],"RelationshipChanges":["The party\u0027s dynamic shifts from isolated survivors to a group seeking normalcy and purpose in a social setting.","Aldric establishes a professional, bureaucratic relationship with the party, asserting authority over their entry."],"CompletedActions":["The party packed their gear and left the gatehouse.","The party walked to the Pick and Axe tavern.","Aldric introduced the escort contract and regulatory requirements.","The party negotiated entry with Aldric, resulting in a waiver of the health inspection in exchange for other conditions.","The party entered the common room and sat at a table."],"UnresolvedImmediateAction":"The party is seated at a table in the common room; the liability waiver has not yet been signed; the escort contract has not yet been formally negotiated or accepted; the party is waiting for food.","ContinuationPosition":"Elias, Torin, Maren, and Kaelen are seated at a table in the corner of the Pick and Axe common room. Aldric has just instructed them to wash their hands and wait for food. Kaelen is sitting quietly, dissociated. The other patrons are watching them. The water pitcher is on the table.","ProhibitedRepetition":["Re-describing the walk from the gatehouse to the tavern.","Re-describing the initial sight of the tavern lights or the exterior of the Pick and Axe.","Re-describing Aldric\u0027s initial introduction or the specific dialogue regarding the health inspection regulation.","Re-describing the negotiation where Aldric waived the health inspection.","Re-describing the sensory details of the common room (smell of bread/beer, polished wood) as if it were a new discovery."]}
+
+===== END PREVIOUS CHAPTER SCENE HANDOFF =====
+
+===== MINIMAL PREVIOUS CHAPTER PROSE BOUNDARY =====
+
+orin, who was rubbing his shoulders with a grunt of relief. He looked at Maren, who was carefully wiping a spot of mud from her sleeve.
+
+He picked up a glass. He drank.
+
+The water was cold, and it tasted like stone. It tasted like home.
+
+And for the first time in weeks, Elias Thorne felt like he was going to survive.
+
+
+---
+
+Generation Information
+
+Models:
+- Generation: qwen3.8:27b
+- Review: qwen3.8:27b
+
+GPU: NVIDIA GeForce RTX 4070 Laptop GPU
+Total Generation Time: 21:10:07.6916487
+
+
+===== END MINIMAL PREVIOUS CHAPTER PROSE BOUNDARY =====
+
+Continue from the exact state in the structured handoff.
+
+Do not replay any CompletedActions or ProhibitedRepetition. Do not summarize,
+paraphrase, or restart the prose boundary.
+
+The chapter number has changed only because a quantitative reading-length
+container ended. It does not represent a narrative reset, time skip, location
+change, escalation, resolution, or new dramatic phase.
+
+===== SCENE GENERATION =====
+
+===== CURRENT PLANNED SCENE =====
+
+{"Sequence":1,"Purpose":"Establish the physical constraints of the ridge outcrop test site and the conflict over who will perform the chisel work, resulting in Maren\u0027s attempt failing due to tremors.","IntendedChange":"Maren is physically unable to perform the precise chisel work required, creating a gap in the operation plan that must be filled by another party member.","FocusCharacterIds":["Elias Thorne","Maren","Elara"]}
+
+===== END CURRENT PLANNED SCENE =====
+
+===== NEXT SCENE BOUNDARY =====
+
+{"Sequence":2,"Purpose":"Elara steps in to take over the chisel/vibration role, demonstrating her competence and reliability in executing the precise mechanical work.","IntendedChange":"Elara successfully stabilizes the quartz stone and chisel, establishing her as the viable operator for the resonance method and resolving the immediate operational gap.","FocusCharacterIds":["Elara","Maren","Elias Thorne"]}
+
+===== END NEXT SCENE BOUNDARY =====
+
+Leave the next scene's Purpose and IntendedChange for the next generation.
+End this scene before the action described there begins. Preserve a plausible
+location and physical state from which the next scene can start immediately.
+
+This scene must accomplish the supplied Purpose and
+IntendedChange. Focus on the listed characters when they
+are present in established continuity.
+
+Stop after the current scene's IntendedChange is established.
+Later-scene subjects may be set up or foreshadowed, but do not substantially complete a later scene's Purpose or IntendedChange.
+
+Write only the next scene of Chapter 20.
+
+The preceding-scene ending above is continuity context only. It has already
+been written and will already appear immediately before your output in the
+assembled chapter.
+
+Continue from the narrative state at the end of that material.
+
+Do not reproduce, paraphrase, summarize, or rewrite the preceding-scene
+ending.
+
+Do not restart the chapter.
+
+Begin with what happens next.
+
+The scene should materially advance the chapter from its current state.
+
+Narrative advancement does not require escalating danger, stakes,
+conflict, mystery, or urgency. Travel, recovery, discussion, preparation,
+investigation, reflection, relationship development, decisions, and
+consequences may provide meaningful progress.
+
+End when the current planned scene's IntendedChange is established. Preserve
+the next planned scene's Purpose and IntendedChange for that next scene. A
+chapter-level objective or closing state may be completed only in the scene
+assigned to it by the plan.
+
+The chapter is a quantitative reading-length container. Do not manufacture a
+climax, resolution, revelation, transition, interruption, or cliffhanger merely
+because this scene may occur at a chapter boundary.
+
+Do not append a new attack, arrival, revelation, sound, figure, pursuit,
+deadline, or imminent threat merely to create a dramatic final paragraph.
+
+Do not erase a success or completed objective by automatically revealing a
+larger version of the same problem.
+
+Aim for approximately 1,000 to 1,200 words for this scene.
+
+The assembled chapter currently contains approximately
+0 words and needs approximately
+3,000 more words to reach its normal minimum length.
+
+Do not continue into a later planned scene to meet the chapter word target.
+
+Output only the new scene prose.
+
+===== RETRY CORRECTION =====
+
+Previous scene generation failed acceptance checks. Generate a fresh scene from the original plan and accepted continuity. Establish the planned change without repeating completed narrative work. Avoid standalone one-word narrative sentences.
+
+Generate independently from the original scene plan and accepted continuity.
+
+===== END USER PROMPT =====

@@ -8,6 +8,15 @@
 
 - Kaelen is currently inside the temple hall.
 
+
+- The group (Torin, Elias, Kaelen, Maren, Elara) has successfully navigated the forest and arrived at the hydraulic throat.
+
+
+- The group has successfully initiated the process of feeding the barrier by draining the Blight source at the hydraulic throat.
+
+
+- The immediate crisis at the hydraulic throat has been resolved, with the barrier holding and the Blight source drained.
+
 ## Unresolved Information
 
 
@@ -21,3 +30,9 @@
 
 
 - Whether Kaelen successfully sealed the door of the temple hall is not established.
+
+
+- The fate of the Blight-Touched entities that were waiting in the forest is not established.
+
+
+- Whether the entity in the spires will react to the group's presence or the caravan's arrival is not established.

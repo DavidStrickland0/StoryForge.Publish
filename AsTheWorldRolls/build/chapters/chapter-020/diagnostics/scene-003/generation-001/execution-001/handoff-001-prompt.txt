@@ -1,0 +1,129 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 20.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":20,"ViewpointCharacterId":"Elias Thorne","Objective":"Verify the resonance method on a ridge outcrop, assign final roles, and confirm the counterattack strategy\u0027s viability before the dawn operation.","IntendedChange":"The group transitions from theoretical planning to practical verification, successfully testing the resonance mechanics and confirming the method\u0027s viability for the dawn operation.","PacingPosture":1,"ProhibitedPatterns":["Administrative or bureaucratic scenes (e.g., signing waivers, health inspections) that do not advance the tactical objective.","Medical stabilization scenes that delay the required field test.","Internal monologue-heavy character establishment without physical action.","Repeating the failed attempt\u0027s focus on the Pick and Axe tavern interior."],"Scenes":[{"Sequence":1,"Purpose":"Establish the physical constraints of the ridge outcrop test site and the conflict over who will perform the chisel work, resulting in Maren\u0027s attempt failing due to tremors.","IntendedChange":"Maren is physically unable to perform the precise chisel work required, creating a gap in the operation plan that must be filled by another party member.","FocusCharacterIds":["Elias Thorne","Maren","Elara"]},{"Sequence":2,"Purpose":"Elara steps in to take over the chisel/vibration role, demonstrating her competence and reliability in executing the precise mechanical work.","IntendedChange":"Elara successfully stabilizes the quartz stone and chisel, establishing her as the viable operator for the resonance method and resolving the immediate operational gap.","FocusCharacterIds":["Elara","Maren","Elias Thorne"]},{"Sequence":3,"Purpose":"Kaelen demonstrates active control over his Blight resonance during the field test, stabilizing the gauntlet\u0027s hum into a manageable \u0027listening\u0027 state to confirm his role.","IntendedChange":"Kaelen successfully regulates his power rather than just suppressing it, confirming his ability to serve as the sensor for the dawn operation and validating the group\u0027s trust in his stability.","FocusCharacterIds":["Kaelen","Elias Thorne","Torin"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Kaelen demonstrates active control over his Blight resonance during the field test, stabilizing the gauntlet\u0027s hum into a manageable \u0027listening\u0027 state to confirm his role.","IntendedChange":"Kaelen successfully regulates his power rather than just suppressing it, confirming his ability to serve as the sensor for the dawn operation and validating the group\u0027s trust in his stability.","FocusCharacterIds":["Kaelen","Elias Thorne","Torin"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":20,"CompletedSceneSequence":2,"Location":"Ridge outcrop in the forest, near a jagged stone formation with a quartz vein","TimeContext":"Night, moon hidden by clouds, stars beginning to appear","PresentCharacterIds":["Elias Thorne","Maren","Elara","Torin"],"PhysicalConditions":["Elias Thorne has a residual ache in his side under his armor","Maren has a subtle tremor in her left hand that has stopped but stiffness remains","Kaelen is pale and quiet","Torin is rubbing his neck","The quartz stone is warm and vibrating slightly in Elias Thorne\u0027s hand"],"KnowledgeEstablished":["Elara is capable of performing the precise chisel work required for the resonance method","The resonance method successfully stabilizes the quartz stone and produces a sustained hum/light when executed by Elara","The quartz stone is ready for the next phase of the operation"],"DecisionsMade":["Elara is assigned as the operator for the chisel/vibration role","The group will proceed with the next steps of the operation"],"PossessionChanges":["Elias Thorne handed the chisel to Elara","Elara set the chisel down on the ground","Elias Thorne picked up the quartz stone from the outcrop"],"RelationshipChanges":["Elara is established as the viable operator for the resonance method, resolving the immediate operational gap","Maren accepted the reassignment of the chisel role to Elara"],"CompletedActions":["The group departed the tavern and traveled to the ridge outcrop","Elias Thorne explained the location and requirements of the test site","Elara challenged Maren\u0027s capability to perform the chisel work","Elias Thorne assigned the chisel role to Elara","Elara positioned the quartz stone and chisel on the outcrop","Elias Thorne stabilized the quartz stone with his hands","Elara executed the chisel work, generating a stable resonance hum and light","Elias Thorne confirmed the success of the test","Elara stopped the chisel work and set the tool down","Elias Thorne retrieved the quartz stone","Maren walked away from the group toward the trees"],"UnresolvedImmediateAction":"The group is preparing to move to the next phase of the operation, with Elias Thorne holding the charged quartz stone and Elara gathering her tools.","ContinuationPosition":"The group is at the ridge outcrop in the forest. Elias Thorne is holding the warm, vibrating quartz stone. Elara is gathering her tools. Maren is walking away toward the trees. Torin is present. They are about to proceed with the next steps of the operation.","ProhibitedRepetition":["Repeating the discussion about the mechanics of the resonance frequency (hum vs strike) and the consequences of angle/rhythm failure","Repeating the debate about Maren\u0027s capability vs. Elara\u0027s safety argument","Repeating the decision to go to the ridge outcrop for testing","Repeating the description of Maren\u0027s tremor as a new discovery","Repeating the successful execution of the chisel work and the resulting resonance hum/light","Repeating the assignment of the chisel role to Elara"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Elias turned to Kaelen, who stood apart from the others, leaning against a gnarled root system that had twisted around a boulder. The young man’s face was pale, the shadows under his eyes deep enough to look bruised. His brass gauntlet sat still on his wrist, the runes etched into the metal dark and dormant.
+
+“Kaelen,” Elias said, his voice low. “It’s your turn.”
+
+Kaelen didn’t answer immediately. He looked at the quartz stone in Elias’s hand, then at the chisel lying on the jagged stone outcrop. He seemed to be calculating the distance between where he stood and the edge of the danger, a habit Elias had learned to recognize but not yet fully understand.
+
+“I can do it,” Kaelen said. His voice was flat, stripped of its usual hesitant lilt. “I just need to know what to listen for.”
+
+Elias stepped closer, holding the quartz stone out. The stone was warm, pulsing with a faint, rhythmic vibration that Elias could feel in his fingertips. “The frequency is stable now. Elara found the resonance. Your job isn’t to push it, Kaelen. It’s to hold it. You’re the bridge. If you try to push, the channel breaks. If you let go, the barrier starves. You have to stay exactly where you are.”
+
+Kaelen took the stone. His fingers were cold, and the contrast seemed to shock him, his breath catching in a short, sharp gasp. He closed his hand around the quartz, and for a moment, his eyes went wide, the pupils dilating until they were black pools.
+
+Then, slowly, the gauntlet on his wrist began to glow.
+
+It wasn’t the sickly green light of the Blight, nor the harsh white of the barrier. It was a soft, amber hum, a color that reminded Elias of old firelight. The light spread from the brass, creeping up the veins of Kaelen’s forearm, tracing the pale map of his blood vessels.
+
+Elias watched Kaelen’s face. The young man’s expression was tense, his jaw clenched, but there was no tremor. No shaking. He was standing perfectly still, as if he had become part of the rock formation behind him.
+
+“Can you hear it?” Elias asked.
+
+Kaelen’s eyes didn’t open. They were closed, his head tilted slightly back. “It’s... quiet,” he murmured. “It’s not screaming. It’s just... waiting.”
+
+Torin stepped forward, his hand resting on the hilt of his sword, though his posture was relaxed. He didn’t take his eyes off Kaelen. “Is he stable?”
+
+Elias nodded. “He’s regulating it. He’s not suppressing it, and he’s not feeding it. He’s just... listening.”
+
+Kaelen’s hand tightened around the quartz stone. The amber light flared brighter, and the air around them began to vibrate, a low, subsonic thrum that Elias felt in his teeth rather than heard with his ears. The quartz stone in his hand began to sing, a clear, crystalline note that harmonized with the hum from the gauntlet.
+
+Elias looked at the stone, then at Kaelen. The resonance was perfect. It was the exact frequency needed to keep the barrier fed without overwhelming it. It was the precise balance they had theorized about in the tavern, but seeing it work, seeing Kaelen hold it with such quiet, terrifying control, was a different thing entirely.
+
+Kaelen’s eyes opened. They were no longer black; they were a clear, steady blue. He looked at Elias, and for the first time since they had entered the forest, his eyes were clear. There was no fear in them. No confusion. Just a focused, almost serene intensity.
+
+“I’m holding it,” Kaelen said. His voice was calm, steady. “I can feel the barrier. It’s... hungry. But it’s satisfied. As long as I keep this frequency, it stays open. It stays fed.”
+
+Elias let out a breath he didn’t realize he had been holding. “How long can you keep this up?”
+
+Kaelen looked down at his gauntlet, where the amber light was now steady, no longer pulsing but sustained. “I don’t know. But I can do it. I can feel where the line is. I won’t cross it.”
+
+Torin let out a long breath, his shoulders dropping. “That’s all we need to know.”
+
+Elias looked at Maren, who was standing a few paces away, her arms crossed over her chest. She wasn’t looking at Kaelen with fear, or even with the wary assessment he had expected. She was looking at him with something like pride. It was a quiet, dangerous thing, that pride. It meant she was beginning to trust him. And trust, in this situation, was a heavy burden to carry.
+
+Kaelen released the quartz stone, and it dropped to the stone outcrop with a sharp clink. The amber light faded from his arm, leaving behind only the faint warmth of the metal. He stood there, breathing slowly, his eyes fixed on the forest floor.
+
+Elias picked up the quartz stone. It was still warm, but the vibration had ceased. It was inert again, waiting for the next time they would need it.
+
+“We’re ready,” Elias said. “We have the method. We have the operator. And we have the sensor.”
+
+He looked at the group. Elara, with her tools packed. Torin, with his hand no longer on his sword. Maren, with her arms still crossed. And Kaelen, standing in the center of the circle, his gauntlet dark and silent.
+
+They had bridged the gap. They had found the balance. And now, they had to decide what to do with it. The dawn was still hours away, but the night was no longer empty. It was full of possibility, and full of danger, and full of the quiet, steady hum of power that had been tamed, if only for a moment.
+
+Elias turned to the others. “We rest. We eat. And then we go.”
+
+No one argued. No one hesitated. They simply nodded, one by one, and began the slow walk back toward the light of the tavern, leaving the ridge outcrop and the silent stone behind them in the dark.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

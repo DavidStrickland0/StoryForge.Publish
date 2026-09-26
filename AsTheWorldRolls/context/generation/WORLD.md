@@ -49,3 +49,21 @@
 
 
 - Elias and Kaelen have reached the watchfort safely.
+
+
+- The hydraulic throat clearing contains a narrow channel between two twisted stone pillars where Blight sludge is present.
+
+
+- The Blight fog has lifted from the area around the watchfort and forest.
+
+
+- The air no longer tastes of copper and rot.
+
+
+- The black spires of the village are still visible against the gray sky.
+
+
+- The Pick and Axe tavern is open and operating with patrons.
+
+
+- The Pick and Axe common room is clean, with polished wood and a hearth.

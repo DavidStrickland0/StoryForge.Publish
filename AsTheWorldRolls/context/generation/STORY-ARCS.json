@@ -26,7 +26,8 @@
           "ChapterNumber": 14,
           "Development": "The party executed the plan to sever the shrine channel, successfully initiating the flow of the Blight into the barrier and completing the first phase of the assault."
         }
-      ]
+      ],
+      "ChapterTargets": []
     },
     {
       "Id": "short-return-to-party",
@@ -46,7 +47,8 @@
           "ChapterNumber": 10,
           "Development": "Elias and Kaelen reached the watchfort and reunited with Maren, Torin, and Elara."
         }
-      ]
+      ],
+      "ChapterTargets": []
     },
     {
       "Id": "short-council-against-blight",
@@ -65,7 +67,229 @@
         "mystery-002",
         "mystery-003"
       ],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": [
+        {
+          "Sequence": 1,
+          "ChapterNumber": 11,
+          "DramaticQuestion": "Can the party align on a single, viable theory for how the barrier functions before their resources and Kaelen\u0027s stability fail?",
+          "Objective": "Establish the council dynamic by forcing the party to reconcile conflicting observations about the barrier, the map, and Kaelen\u0027s resonance, identifying the barrier as a digestive system rather than a static wall.",
+          "IntendedChange": "The group moves from fragmented, individual survival instincts to a shared tactical framework, identifying the \u0027Gate of Silence\u0027 as the primary target for the counterattack.",
+          "CharacterDevelopmentTarget": "Elias demonstrates leadership through synthesis of disparate data points, while Kaelen shifts from passive victim to active participant by explaining his role as a \u0027bridge\u0027 to the Blight.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Elias Thorne",
+              "CharacterBId": "Kaelen",
+              "StartingDynamic": "Elias holds the map and theoretical knowledge; Kaelen holds the physical key (gauntlet) but is viewed as a liability.",
+              "IntendedChange": "Elias validates Kaelen\u0027s agency by explicitly asking for his input on the resonance, and Kaelen accepts the burden of being a tool, establishing a professional reliance.",
+              "Tension": "Trust vs. Fear of Consumption",
+              "PowerDynamic": "Elias holds informational power; Kaelen holds operational power.",
+              "Subtext": "Elias is terrified of losing Kaelen to the Blight but needs him to survive; Kaelen is terrified of losing himself but needs purpose.",
+              "PreservedBoundary": "No romantic or sexual intimacy; strictly professional/mission-critical reliance.",
+              "ReservedLaterWork": [
+                "The physical cost of Kaelen\u0027s resonance on his long-term health.",
+                "The emotional weight of Kaelen being \u0027used\u0027 as a weapon."
+              ]
+            },
+            {
+              "CharacterAId": "Torin",
+              "CharacterBId": "Maren",
+              "StartingDynamic": "Torin is the physical protector; Maren is the healer. They operate in parallel tracks.",
+              "IntendedChange": "Torin and Maren coordinate their roles, with Torin agreeing to physically restrain Kaelen if he loses control, and Maren accepting the risk to treat him, creating a unified support structure.",
+              "Tension": "Control vs. Care",
+              "PowerDynamic": "Torin holds physical authority; Maren holds medical authority.",
+              "Subtext": "Torin fears losing control of the situation; Maren fears losing the patient.",
+              "PreservedBoundary": "Professional duty; no romantic entanglement.",
+              "ReservedLaterWork": [
+                "The specific physical interventions required to stabilize Kaelen during the operation.",
+                "The emotional toll on Maren of treating a \u0027cauterized wound\u0027."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The barrier is established as a \u0027mouth\u0027 that consumes Blight, not a wall that blocks it. This changes the tactical objective from defense to feeding.",
+            "The bronze map is revealed to show a network of channels, not just locations, implying the Blight flows like water and can be redirected."
+          ],
+          "Complications": [
+            "Kaelen\u0027s gauntlet is still warm and humming, indicating the Blight is still active and potentially growing.",
+            "The party is exhausted and injured, limiting their ability to sustain a long debate or complex operation."
+          ],
+          "RequiredChoice": "The party must choose to trust Elias\u0027s theory that the barrier can be fed, despite the risk that it might consume Kaelen instead.",
+          "Consequences": [
+            "The group commits to a specific target: the \u0027Gate of Silence\u0027 shrine.",
+            "Kaelen is designated as the primary sensor, creating a single point of failure."
+          ],
+          "DiscoveryTarget": "The barrier\u0027s consumption mechanic is confirmed as the only viable counterattack strategy.",
+          "SetupElements": [
+            "The \u0027Gate of Silence\u0027 is identified as the target node.",
+            "Kaelen\u0027s role as a sensor is defined."
+          ],
+          "PayoffElements": [
+            "The initial confusion about the barrier\u0027s nature is resolved into a tactical understanding."
+          ],
+          "ThematicPressure": "The theme of \u0027using the enemy\u0027s strength against them\u0027 is introduced through the barrier\u0027s consumption mechanic.",
+          "ResolutionContributions": [
+            "The party understands the immediate danger (the barrier is a trap, not a shield).",
+            "The party agrees on a specific counterattack (feeding the barrier via the Gate of Silence)."
+          ],
+          "ReservedLaterWork": [
+            "The specific mechanics of how to open the Gate of Silence seal.",
+            "The physical strain on Kaelen during the operation.",
+            "The long-term consequences of the barrier\u0027s consumption on the environment."
+          ],
+          "ClosingState": "The party has agreed on the target and the general strategy, but they have not yet determined how to physically execute the opening of the seal or managed the immediate physical risks to Kaelen.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        },
+        {
+          "Sequence": 2,
+          "ChapterNumber": 12,
+          "DramaticQuestion": "How can the seal be weakened without causing a catastrophic release of Blight that the barrier cannot digest?",
+          "Objective": "Develop the tactical plan by identifying the flaw in the initial approach (brute force) and discovering the resonant weakness of the seal, while managing Kaelen\u0027s physical and magical instability.",
+          "IntendedChange": "The group shifts from a high-level strategy to a specific, executable method (low-frequency vibration) and addresses the immediate physical threat of Kaelen\u0027s Blight residue.",
+          "CharacterDevelopmentTarget": "Elias demonstrates technical expertise by explaining the resonant mechanics, while Torin and Kaelen establish a direct, honest communication about the limits of Kaelen\u0027s control.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Torin",
+              "CharacterBId": "Kaelen",
+              "StartingDynamic": "Torin is the physical safety net; Kaelen is the fragile instrument.",
+              "IntendedChange": "Torin explicitly states he will strike Kaelen to break his focus if he loses control, and Kaelen accepts this, acknowledging his own vulnerability. This establishes a new dynamic of enforced control.",
+              "Tension": "Trust vs. Control",
+              "PowerDynamic": "Torin holds physical power; Kaelen holds magical power.",
+              "Subtext": "Torin is afraid of losing Kaelen to the Blight; Kaelen is afraid of losing himself.",
+              "PreservedBoundary": "Professional duty; no romantic or sexual intimacy.",
+              "ReservedLaterWork": [
+                "The actual execution of the restraint if Kaelen loses control.",
+                "The emotional aftermath of the physical intervention."
+              ]
+            },
+            {
+              "CharacterAId": "Maren",
+              "CharacterBId": "Kaelen",
+              "StartingDynamic": "Maren is the healer; Kaelen is the patient.",
+              "IntendedChange": "Maren cleans Kaelen\u0027s gauntlet, removing the Blight residue, which helps Kaelen feel more in control. This shifts the dynamic from passive treatment to active collaboration in managing his power.",
+              "Tension": "Care vs. Autonomy",
+              "PowerDynamic": "Maren holds medical authority; Kaelen holds magical agency.",
+              "Subtext": "Maren wants to protect Kaelen; Kaelen wants to be useful.",
+              "PreservedBoundary": "Professional duty; no romantic or sexual intimacy.",
+              "ReservedLaterWork": [
+                "The long-term effects of the Blight residue on Kaelen\u0027s body.",
+                "The specific medical interventions required during the operation."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The seal at the \u0027Gate of Silence\u0027 is revealed to be a resonant mechanism, not a static lock. This means it can be weakened by sound/frequency, not just broken by force.",
+            "The Blight can leave physical marks (residue) on objects it interacts with, indicating it is not just an abstract force but a tangible corruption."
+          ],
+          "Complications": [
+            "Kaelen\u0027s gauntlet is covered in Blight residue, which is anchoring the corruption to him and making his control unstable.",
+            "The initial plan to strike the seal with a hammer is identified as dangerous, potentially causing a seal burst."
+          ],
+          "RequiredChoice": "The party must choose to use a low-frequency vibration method (demonstrated with a chisel) to weaken the seal, rather than brute force, despite the slower and more delicate nature of the approach.",
+          "Consequences": [
+            "The group finalizes the tactical adjustment to use resonance.",
+            "Kaelen\u0027s gauntlet is cleaned, restoring the clarity of its runes and helping him feel more in control."
+          ],
+          "DiscoveryTarget": "The seal\u0027s resonant weakness is identified, and the Blight residue on the gauntlet is removed.",
+          "SetupElements": [
+            "The specific frequency required to weaken the seal is identified.",
+            "The role of the chisel and quartz stone is established."
+          ],
+          "PayoffElements": [
+            "The initial confusion about how to open the seal is resolved into a specific method."
+          ],
+          "ThematicPressure": "The theme of \u0027precision over power\u0027 is introduced, emphasizing that the Blight must be handled with care, not just strength.",
+          "ResolutionContributions": [
+            "The party verifies a usable weakness (resonant frequency).",
+            "The party agrees on a specific method (low-frequency vibration)."
+          ],
+          "ReservedLaterWork": [
+            "The actual execution of the resonance method on the seal.",
+            "The physical strain on Kaelen during the operation.",
+            "The long-term consequences of the barrier\u0027s consumption on the environment."
+          ],
+          "ClosingState": "The party has a specific method for weakening the seal and has addressed the immediate physical threat of the Blight residue, but they have not yet tested the method or executed the operation.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        },
+        {
+          "Sequence": 3,
+          "ChapterNumber": 13,
+          "DramaticQuestion": "Can the party successfully test and confirm the resonance method before committing to the full operation?",
+          "Objective": "Complete the council by empirically verifying the resonance mechanics, assigning final roles, and confirming the viability of the counterattack strategy before the dawn operation.",
+          "IntendedChange": "The group moves from theoretical planning to practical verification, successfully testing the resonance method on a ridge outcrop and confirming the method\u0027s viability.",
+          "CharacterDevelopmentTarget": "Elara takes over the chisel/vibration role from Maren due to Maren\u0027s tremors, demonstrating her competence and reliability. Kaelen successfully demonstrates active control over his Blight resonance during a field test.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Elara",
+              "CharacterBId": "Maren",
+              "StartingDynamic": "Maren is the primary healer; Elara is a supporting member.",
+              "IntendedChange": "Elara steps up to take over the chisel/vibration role, demonstrating her competence and reliability. Maren accepts this, acknowledging her own limitations and trusting Elara\u0027s skill.",
+              "Tension": "Trust vs. Limitation",
+              "PowerDynamic": "Maren holds medical authority; Elara holds practical skill.",
+              "Subtext": "Maren is worried about her own physical state; Elara is eager to contribute.",
+              "PreservedBoundary": "Professional duty; no romantic or sexual intimacy.",
+              "ReservedLaterWork": [
+                "The long-term effects of Maren\u0027s tremors on her ability to contribute.",
+                "The specific role of Elara in the operation."
+              ]
+            },
+            {
+              "CharacterAId": "Kaelen",
+              "CharacterBId": "Elias Thorne",
+              "StartingDynamic": "Elias is the strategist; Kaelen is the sensor.",
+              "IntendedChange": "Kaelen successfully demonstrates active control over his Blight resonance during a field test, stabilizing the gauntlet\u0027s hum into a manageable \u0027listening\u0027 state. This confirms his ability to regulate his power rather than just suppress it.",
+              "Tension": "Control vs. Chaos",
+              "PowerDynamic": "Elias holds strategic authority; Kaelen holds magical agency.",
+              "Subtext": "Elias is worried about Kaelen\u0027s stability; Kaelen is determined to prove his worth.",
+              "PreservedBoundary": "Professional duty; no romantic or sexual intimacy.",
+              "ReservedLaterWork": [
+                "The long-term effects of Kaelen\u0027s resonance on his body.",
+                "The specific role of Kaelen in the operation."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The resonance method is empirically verified, confirming that the seal can be weakened from the inside via resonance.",
+            "The specific frequency required to weaken the seal is identified and tested."
+          ],
+          "Complications": [
+            "Maren\u0027s tremors make it difficult for her to perform the precise chisel work required.",
+            "Kaelen\u0027s resonance is still unstable, requiring careful management."
+          ],
+          "RequiredChoice": "The party must choose to trust Elara with the chisel role and Kaelen with the resonance role, despite the risks and their previous instability.",
+          "Consequences": [
+            "The group finalizes their roles for the seal-breaking operation.",
+            "The method\u0027s viability is confirmed, allowing the group to proceed with the dawn operation."
+          ],
+          "DiscoveryTarget": "The precise resonance frequency required to weaken the seal is identified and tested.",
+          "SetupElements": [
+            "The final roles for the operation are assigned.",
+            "The method\u0027s viability is confirmed."
+          ],
+          "PayoffElements": [
+            "The initial confusion about how to open the seal is resolved into a tested and verified method."
+          ],
+          "ThematicPressure": "The theme of \u0027trust in the team\u0027 is emphasized, as the party relies on each other\u0027s strengths to overcome their individual limitations.",
+          "ResolutionContributions": [
+            "The entire party understands the immediate danger.",
+            "The party verifies a usable weakness (resonant frequency).",
+            "The party agrees on a specific counterattack (the resonance method)."
+          ],
+          "ReservedLaterWork": [
+            "The actual execution of the operation at the \u0027Gate of Silence\u0027.",
+            "The physical strain on Kaelen during the operation.",
+            "The long-term consequences of the barrier\u0027s consumption on the environment."
+          ],
+          "ClosingState": "The party has successfully tested and confirmed the resonance method, assigned final roles, and is ready to proceed with the dawn operation.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        }
+      ]
     },
     {
       "Id": "short-final-blight-counterattack",
@@ -84,7 +308,8 @@
         "mystery-002",
         "mystery-003"
       ],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "epic-company-of-the-open-road",
@@ -96,8 +321,8 @@
       "TargetChapter": 88,
       "Objective": "Transform survivors of the Blight into a renowned adventuring company through recovery, frontier quests, ruined keeps, guild rivalries, tournaments, thieves, wizards, legendary treasure, and a dragon.",
       "ResolutionCriteria": "The Blight prelude is decisively concluded, the companions complete three increasingly ambitious campaigns, and they return from the dragon road as an established company of heroes.",
-      "CurrentPhase": "The party is executing the final action to conclude the Blight prelude, moving with coordinated purpose toward the strike location.",
-      "NextMilestone": "Complete the consumption of the Blight source to conclude the prelude.",
+      "CurrentPhase": "The Blight prelude is concluded; the companions are recovering at the Pick and Axe and preparing to engage with the frontier\u0027s civilian infrastructure.",
+      "NextMilestone": "Begin the first of three increasingly ambitious campaigns, starting with a paid caravan contract or village rescue.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [
         {
@@ -107,8 +332,13 @@
         {
           "ChapterNumber": 14,
           "Development": "The party executed the decisive solution to conclude the Blight prelude, successfully initiating the process of feeding the Blight into the barrier."
+        },
+        {
+          "ChapterNumber": 18,
+          "Development": "The party decisively concluded the Blight prelude by consuming the source and surviving the strike, establishing the foundation for their transformation into an adventuring company."
         }
-      ]
+      ],
+      "ChapterTargets": []
     },
     {
       "Id": "long-frontier-road",
@@ -120,8 +350,8 @@
       "TargetChapter": 34,
       "Objective": "Conclude the Blight prelude, allow the companions to recover, and begin their new life on the road through a paid caravan contract and a classic village rescue.",
       "ResolutionCriteria": "The Blight is defeated locally, the party completes its first paid adventure, saves an endangered village, and earns confidence in a less oppressive kind of heroism.",
-      "CurrentPhase": "The party is executing the final phase of the Blight prelude by moving to the channel throat to perform the decisive strike.",
-      "NextMilestone": "Complete the consumption of the Blight source to end the immediate threat.",
+      "CurrentPhase": "The Blight prelude is concluded; the party has survived the final confrontation and is ready to begin their recovery and subsequent adventures.",
+      "NextMilestone": "Recover from the Blight encounter and secure the first paid caravan contract to begin their life as adventurers.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [
         {
@@ -131,8 +361,13 @@
         {
           "ChapterNumber": 14,
           "Development": "The party executed the counterattack to defeat the Blight locally, successfully initiating the process of feeding the Blight into the barrier."
+        },
+        {
+          "ChapterNumber": 18,
+          "Development": "The party successfully concluded the Blight prelude by executing the final strike and neutralizing the local threat, clearing the path for their recovery and the start of their new life on the road."
         }
-      ]
+      ],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-first-contract",
@@ -147,7 +382,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-tavern-notice",
@@ -162,7 +398,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-caravan-ambush",
@@ -177,7 +414,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-raider-camp",
@@ -192,7 +430,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-village-in-peril",
@@ -207,7 +446,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-village-plea",
@@ -222,7 +462,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-goblin-caves",
@@ -237,7 +478,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-goblin-chief",
@@ -252,7 +494,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-ruined-keep",
@@ -267,7 +510,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-key-to-the-keep",
@@ -282,7 +526,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-halls-and-traps",
@@ -297,7 +542,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-first-treasure",
@@ -312,7 +558,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "long-city-of-masks",
@@ -327,7 +574,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-guild-trials",
@@ -342,7 +590,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-gates-and-guildhall",
@@ -357,7 +606,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-guild-trial",
@@ -372,7 +622,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-rival-monster-hunt",
@@ -387,7 +638,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-grand-tournament",
@@ -402,7 +654,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-tournament-qualifiers",
@@ -417,7 +670,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-games-and-rivals",
@@ -432,7 +686,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-tournament-conspiracy",
@@ -447,7 +702,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-thieves-and-masks",
@@ -462,7 +718,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-masquerade-theft",
@@ -477,7 +734,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-thieves-quarter",
@@ -492,7 +750,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-undercity-lair",
@@ -507,7 +766,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "long-dragon-road",
@@ -522,7 +782,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-wizards-tower",
@@ -537,7 +798,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-tower-without-door",
@@ -552,7 +814,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-enchanted-library",
@@ -567,7 +830,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-wizards-bargain",
@@ -582,7 +846,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-mountain-expedition",
@@ -597,7 +862,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-perilous-pass",
@@ -612,7 +878,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-race-to-the-forge",
@@ -627,7 +894,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-legendary-weapon",
@@ -642,7 +910,8 @@
       "CurrentPhase": "Planned.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     }
   ]
 }

@@ -83,7 +83,49 @@
 
 - The watchfort walls are thick, pitted by wind and rain, and have slit-like windows.
 
+
+- A location called the hydraulic throat exists where the channel narrows and Blight pressure is concentrated.
+
+
+- The hydraulic throat is located in a clearing at the end of a path through the forest, characterized by twisted ancient stone pillars and a narrow channel.
+
+
+- A quartz stone exists that can be used to interact with the barrier and channel frequencies.
+
+
+- A chisel exists that can be used to tap the quartz stone to generate specific resonant frequencies.
+
+
+- The barrier can consume or 'eat' the Blight when the correct resonance frequency is applied via the quartz stone and Kaelen's gauntlet.
+
+
+- Kaelen's brass gauntlet acts as a sensor or bridge for the resonance required to feed the barrier.
+
+
+- The Pick and Axe is a tavern and way station located near the western edge of the city.
+
+
+- The Pick and Axe is a frontier establishment that serves traders, miners, and adventurers.
+
+
+- Aldric is the proprietor of the Pick and Axe.
+
+
+- Aldric distinguishes between 'healers' and 'certified physicians' for the purpose of his health inspection regulations.
+
+
+- Aldric requires a stamped seal from the Guild of Alchemists or a notarized letter from the local magistrate for health clearance.
+
 ## Changes Over Time
 
 
 - The barrier previously flickered and weakened; it now stands stronger after absorbing the Blight.
+
+
+- The Blight fog previously reduced visibility and smelled of copper and rot; it has now lifted, leaving a pale, overcast sky and air smelling of wet loam and pine sap.
+
+
+- The quartz stone previously hummed and vibrated with resonance; it is now completely cold and inert.
+
+
+- The group previously believed the immediate crisis was resolved; they now recognize the entity in the spires is still alive and hungry, having only been starved.

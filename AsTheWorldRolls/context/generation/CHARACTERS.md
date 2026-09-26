@@ -28,6 +28,18 @@ Current state:
 
 
 - Elias Thorne possesses a bronze plate map etched with lines showing the temple, six smaller shrines, and channels beneath the city.
+
+- Elias Thorne exists and is an established character.
+
+- Elias Thorne possesses a quartz stone.
+
+- Elias Thorne possesses a chisel.
+
+- Elias Thorne is capable of using the quartz stone and chisel to generate resonant frequencies that interact with the barrier and Blight.
+
+- Elias Thorne believes the entity in the spires is still alive and hungry.
+
+- Elias Thorne is aware of the map's indication of a way station near the western edge of the city.
 
 ### Kaelen
 
@@ -49,6 +61,10 @@ Current state:
 
 - Kaelen entered the temple hall and disappeared into the darkness.
 
+
+- Kaelen is capable of guiding the resonance of the gauntlet to feed the barrier when awake and focused.
+
+- Kaelen is in a state of severe physical and magical exhaustion.
 
 ### Maren
 
@@ -57,3 +73,44 @@ Current identifier: Maren
 Current state:
 
 - Maren exists and is an established character.
+
+
+- Maren possesses a vial of amber salve used for medical stabilization.
+
+- Maren identifies as a healer, though Aldric does not recognize her as a certified physician.
+
+### Torin
+
+Current identifier: Torin
+
+Current state:
+
+- Torin exists and is an established character.
+
+- Torin possesses a leather bracer.
+
+- Torin is traveling with Elias, Kaelen, Maren, and Elara.
+
+
+- Torin acknowledges that the group has only bought time against the entity.
+
+### Elara
+
+Current identifier: Elara
+
+Current state:
+
+- Elara exists and is an established character.
+
+
+### Aldric
+
+Current identifier: Aldric
+
+Current state:
+
+- Aldric exists and is an established character.
+
+- Aldric is the proprietor of the Pick and Axe tavern.
+
+- Aldric is strict about administrative regulations and liability waivers.
