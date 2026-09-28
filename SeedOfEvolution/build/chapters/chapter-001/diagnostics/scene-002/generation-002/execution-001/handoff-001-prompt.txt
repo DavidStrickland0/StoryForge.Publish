@@ -1,0 +1,133 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"adrian-vale","Objective":"Adrian confronts the immediate financial crisis of his first week at university, exhausting all conventional options and arriving at the private research hospital\u0027s experimental-medicine program as his only viable path to survival.","IntendedChange":"Adrian transitions from a passive victim of poverty to an active agent seeking a solution, moving from the desperation of his daily routine to the sterile, high-stakes environment of the research hospital where he identifies the male-fertility trial as his only option.","PacingPosture":3,"ProhibitedPatterns":["Introducing a sudden external threat, attack, or supernatural event in the final scene.","Having Adrian sign any legal documents or agreements in this chapter.","Revealing the true nature of the nanites or the accident that will occur later.","Using \u0027not X, but Y\u0027 contrast reframing in dialogue or narration."],"Scenes":[{"Sequence":1,"Purpose":"Establish Adrian\u0027s physical state of exhaustion and hunger while he attempts to secure emergency aid from the university, highlighting the bureaucratic rigidity of the institution.","IntendedChange":"Adrian leaves the financial aid office with a formal denial of emergency funds and a clear understanding that standard university channels will not support his immediate survival needs.","FocusCharacterIds":["adrian-vale","university-financial-aid-officer"]},{"Sequence":2,"Purpose":"Depict Adrian\u0027s search for alternative income sources, demonstrating his refusal to engage in degrading labor or illegal activities despite his desperation.","IntendedChange":"Adrian rejects a high-paying but exploitative gig offer, solidifying his commitment to finding a legitimate, if difficult, solution that preserves his dignity.","FocusCharacterIds":["adrian-vale"]},{"Sequence":3,"Purpose":"Introduce the private research hospital\u0027s experimental-medicine program as a viable financial option, contrasting the sterile corporate environment with Adrian\u0027s physical discomfort.","IntendedChange":"Adrian gathers preliminary information about the trial\u0027s compensation and requirements, identifying it as the only option that meets his financial threshold without violating his moral boundaries.","FocusCharacterIds":["adrian-vale","research-hospital-intake-coordinator"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict Adrian\u0027s search for alternative income sources, demonstrating his refusal to engage in degrading labor or illegal activities despite his desperation.","IntendedChange":"Adrian rejects a high-paying but exploitative gig offer, solidifying his commitment to finding a legitimate, if difficult, solution that preserves his dignity.","FocusCharacterIds":["adrian-vale"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Introduce the private research hospital\u0027s experimental-medicine program as a viable financial option, contrasting the sterile corporate environment with Adrian\u0027s physical discomfort.","IntendedChange":"Adrian gathers preliminary information about the trial\u0027s compensation and requirements, identifying it as the only option that meets his financial threshold without violating his moral boundaries.","FocusCharacterIds":["adrian-vale","research-hospital-intake-coordinator"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Outside the university financial aid building, walking toward the city edge","TimeContext":"Afternoon, Autumn","PresentCharacterIds":["adrian-vale"],"PhysicalConditions":["Severe hunger (no food since a granola bar two days ago)","Extreme exhaustion (sleeping \u003C4 hours/night for 3 weeks)","Physical weakness (dizziness, pale/thin hands, unsteady legs)","Chill from autumn wind"],"KnowledgeEstablished":["University emergency funds are restricted to medical crises, natural disaster housing, or family tragedies; insufficient initial funding is not eligible.","Standard university channels will not provide the immediate financial support Adrian needs.","The university suggests community resource centers, food banks, or reducing course load as alternatives, which Adrian recognizes as insufficient for his rent and tuition obligations."],"DecisionsMade":["Adrian accepts the denial of emergency funds without argument or escalation.","Adrian decides to leave the university campus and seek opportunities in the city."],"PossessionChanges":[],"RelationshipChanges":[],"CompletedActions":["Adrian submitted an emergency hardship application (prior to scene).","Adrian received a formal denial of emergency funds from Ms. Gable.","Adrian exited the financial aid office and walked to the main entrance of the building.","Adrian exited the building and began walking toward the city."],"UnresolvedImmediateAction":"Adrian is walking toward the city to find an alternative source of income or survival strategy before his Friday deadline.","ContinuationPosition":"Adrian is walking on a path outside the university, moving against the flow of campus traffic toward the older, narrower streets of the city, physically exhausted and hungry, with no specific destination yet chosen.","ProhibitedRepetition":["Repeating the conversation with Ms. Gable or the bureaucratic denial process.","Re-describing the physical state of hunger and exhaustion as a new discovery rather than a continuing condition.","Having Adrian return to the financial aid office to argue or appeal the decision."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The campus path sloped downhill, the manicured grass giving way to cracked asphalt and the hum of traffic. Adrian’s stomach gave a low, hollow growl that he had long since stopped trying to ignore. It was a physical presence, a weight in his gut that made his vision swim every time he stopped walking. He adjusted the strap of his backpack, the weight of his textbooks pressing against his shoulder blades, and kept moving. The air smelled of exhaust and wet leaves, a sharp contrast to the sterile, carpet-scented air of the financial aid office.
+
+He had about two hours before the sun dropped behind the city skyline, and he needed to be back at his apartment to avoid the late fee on his internet bill. Two hours to find a way to pay for the week’s groceries, the electricity, and the mounting rent that hung over his head like a guillotine.
+
+His phone buzzed in his pocket. He fished it out, the screen cracked and flickering with the low battery indicator. A text from a number he didn’t recognize.
+
+*Hey Adrian, it’s Marcus from the bar. We’re short-staffed for the weekend. Need a guy to do some heavy lifting for the VIPs. Cash only, good tips. You in?*
+
+Adrian stared at the message. The VIPs at The Gilded Cage weren’t exactly known for their refined tastes. Marcus was a good kid, but the work was degrading in a way that Adrian had tried to avoid. It involved carrying drinks to people who looked at him like he was furniture, or worse, like he was part of the décor. It involved smiling while they made comments about his size, his posture, his eyes. It was money, yes, but it came with a cost that left bruises on his self-esteem that took longer to fade than the physical ones.
+
+He typed back: *Can’t do it this weekend.*
+
+He hit send before he could change his mind. He pocketed the phone and kept walking. His legs felt leaden, the muscles in his calves burning with a dull, persistent ache. He hadn’t slept more than four hours a night for three weeks, and his body was starting to pay the price. His hands were pale, the veins prominent under the thin skin, and he had to stop twice to steady himself against a lamppost when the dizziness hit.
+
+The streets of the city were a maze of brick and glass, of neon signs and storefronts. Adrian passed a recruitment center for a local tech firm. The sign advertised entry-level positions with salaries that would have been a dream six months ago. But the job postings required a degree in computer science or a minimum of two years of experience. Adrian was in his first semester of a general studies program because he couldn’t afford the prerequisites for a specialized major. He didn’t have the time or the money to go back and get a degree in a field that would take him four more years to master. He needed money now.
+
+He turned a corner into a narrower street, lined with small shops and laundromats. A poster was taped to the window of a cleaning supply store. *URGENT HIRING: WAREHOUSE WORKERS. IMMEDIATE START. $18/HR.*
+
+Adrian stopped. Eighteen dollars an hour. It was decent pay, better than most part-time jobs. He looked at the poster, then at the store. The window was dusty, the shelves inside cluttered with bottles of industrial cleaner. He pushed the door open, the bell above it jingling with a cheerful sound that felt out of place in the gray afternoon.
+
+A man behind the counter looked up. He was middle-aged, with a mustache that was slightly longer on one side than the other. He looked Adrian up and down, his eyes lingering on the thin frame and the worn jacket.
+
+"Can I help you?" the man asked.
+
+"I saw the poster," Adrian said, his voice raspy from disuse. "I'm looking for the warehouse job."
+
+The man’s face didn’t change, but his eyes narrowed slightly. "You’re a student, right?"
+
+"I am."
+
+"School starts in a few weeks. You’ll be busy with classes."
+
+"I can work nights and weekends," Adrian said. It was a lie. He didn’t have the energy for nights and weekends. He barely had the energy to get through his lectures without falling asleep. But the need for the money was louder than the truth.
+
+The man picked up a pen and tapped it against the counter. "We need people who can lift heavy crates, up to fifty pounds. Repetitive motion. Long hours on your feet. Are you sure you’re up for it?"
+
+Adrian wanted to say yes. He wanted to say he could lift a hundred pounds, that he could work for twenty hours a day, that he would never complain. But the image of himself in a warehouse, sweating and exhausted, coming home too tired to study, too hungry to eat, was too vivid. He would fail his classes. He would drop out. He would end up exactly where he was now, only with a worse back.
+
+"I’m not sure," Adrian said.
+
+The man nodded, as if he had expected the answer. "It’s a hard job. We have a lot of turnover. Most people last a week or two."
+
+"I understand," Adrian said.
+
+"Go ahead, take a look at the back room if you want."
+
+Adrian followed the man through a side door into a storage area. It was cold and smelled of chemicals. Shelves stretched high into the ceiling, stacked with boxes and crates. The man pointed to a stack of boxes. "See those? That’s what you’ll be moving. Every day."
+
+Adrian looked at the boxes. They were heavy, bulky, and stacked high. He could feel the weight of them in his mind, the strain it would put on his body. He thought about his tuition, his rent, his hunger. He thought about the dignity he was trying to preserve.
+
+"No, thank you," Adrian said. He turned and walked back toward the counter. "I think I’ll keep looking."
+
+The man didn’t say anything. He just watched Adrian leave, the bell jingling behind him.
+
+Adrian stood on the sidewalk, the wind picking up again. He felt a strange mix of relief and despair. He had rejected a job that would have paid him well, but it wasn’t the right kind of work. It wasn’t the kind of work that would allow him to continue his education. He needed something that fit his schedule, something that didn’t require him to sacrifice his health for a paycheck.
+
+He looked down the street. The sun was setting, casting long shadows across the pavement. The city was waking up for the evening, the lights turning on in the windows of the buildings. He had no idea where to go next. He had no plan, no strategy, no safety net. He had only the knowledge that he could not give up.
+
+He started walking again, his feet numb against the cold ground. He passed a pharmacy, a bookstore, a coffee shop. None of them had jobs. None of them had the answer he was looking for. But he kept walking, because stopping felt like surrender. He didn’t know where he was going, but he knew he couldn’t stay still. He had to find a way. He had to find a way to survive.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

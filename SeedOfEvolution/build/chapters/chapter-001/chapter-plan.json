@@ -1,42 +1,40 @@
 ﻿{
   "ChapterNumber": 1,
-  "ViewpointCharacterId": "Adrian Vale",
-  "Objective": "Adrian navigates the initial intake process for the experimental-medicine program, confronting the bureaucratic hurdles and physical demands of the male-fertility trial to secure his enrollment.",
-  "IntendedChange": "Adrian transitions from a state of financial panic to a state of committed obligation, having signed the initial consent forms and completed his first baseline physical examination, establishing the routine that will sustain his college enrollment.",
-  "PacingPosture": "Exploratory",
+  "ViewpointCharacterId": "adrian-vale",
+  "Objective": "Adrian confronts the immediate financial crisis of his first week at university, exhausting all conventional options and arriving at the private research hospital\u0027s experimental-medicine program as his only viable path to survival.",
+  "IntendedChange": "Adrian transitions from a passive victim of poverty to an active agent seeking a solution, moving from the desperation of his daily routine to the sterile, high-stakes environment of the research hospital where he identifies the male-fertility trial as his only option.",
+  "PacingPosture": "Urgent",
   "ProhibitedPatterns": [
-    "Introducing Lena Reyes or any romantic/sexual partner.",
-    "Revealing the existence or purpose of nanites.",
-    "Signing the emergency-intervention authorization (reserved for Chapter 3).",
-    "Experiencing significant drug side effects like increased libido (reserved for Chapter 2).",
-    "Creating a cliffhanger or major confrontation at the chapter end.",
-    "Resolving the financial desperation completely; only the first payment is received."
+    "Introducing a sudden external threat, attack, or supernatural event in the final scene.",
+    "Having Adrian sign any legal documents or agreements in this chapter.",
+    "Revealing the true nature of the nanites or the accident that will occur later.",
+    "Using \u0027not X, but Y\u0027 contrast reframing in dialogue or narration."
   ],
   "Scenes": [
     {
       "Sequence": 1,
-      "Purpose": "Establish Adrian\u0027s baseline financial desperation and the dehumanizing nature of the intake bureaucracy, forcing him to wait and fill out forms while hungry and exhausted.",
-      "IntendedChange": "Adrian moves from external desperation to internal resignation, accepting the loss of time and dignity as the cost of entry.",
+      "Purpose": "Establish Adrian\u0027s physical state of exhaustion and hunger while he attempts to secure emergency aid from the university, highlighting the bureaucratic rigidity of the institution.",
+      "IntendedChange": "Adrian leaves the financial aid office with a formal denial of emergency funds and a clear understanding that standard university channels will not support his immediate survival needs.",
       "FocusCharacterIds": [
-        "Adrian Vale"
+        "adrian-vale",
+        "university-financial-aid-officer"
       ]
     },
     {
       "Sequence": 2,
-      "Purpose": "Introduce Dr. Aris Thorne and establish the power dynamic through the baseline physical examination, highlighting Adrian\u0027s anxious compliance and the researcher\u0027s clinical detachment.",
-      "IntendedChange": "Adrian submits to invasive medical procedures, demonstrating his willingness to commodify his body, while Dr. Thorne maintains strict professional boundaries.",
+      "Purpose": "Depict Adrian\u0027s search for alternative income sources, demonstrating his refusal to engage in degrading labor or illegal activities despite his desperation.",
+      "IntendedChange": "Adrian rejects a high-paying but exploitative gig offer, solidifying his commitment to finding a legitimate, if difficult, solution that preserves his dignity.",
       "FocusCharacterIds": [
-        "Adrian Vale",
-        "Dr. Aris Thorne (Lead Researcher)"
+        "adrian-vale"
       ]
     },
     {
       "Sequence": 3,
-      "Purpose": "Execute the required choice by having Adrian sign the initial consent forms, discover the long-term commitment and penalties, and receive the first payment, securing his enrollment.",
-      "IntendedChange": "Adrian transitions from panic to committed obligation, leaving the clinic with a new routine and immediate financial relief, but bound by contractual dependency.",
+      "Purpose": "Introduce the private research hospital\u0027s experimental-medicine program as a viable financial option, contrasting the sterile corporate environment with Adrian\u0027s physical discomfort.",
+      "IntendedChange": "Adrian gathers preliminary information about the trial\u0027s compensation and requirements, identifying it as the only option that meets his financial threshold without violating his moral boundaries.",
       "FocusCharacterIds": [
-        "Adrian Vale",
-        "Dr. Aris Thorne (Lead Researcher)"
+        "adrian-vale",
+        "research-hospital-intake-coordinator"
       ]
     }
   ]

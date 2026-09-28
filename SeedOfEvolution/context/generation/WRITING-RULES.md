@@ -10,7 +10,7 @@ Story-specific facts belong in canon, character, narrative, or world context rat
 
 ## Core Objective
 
-Produce enjoyable, readable prose for an adult fantasy audience, including explicit language, violence, romance, and consensual sexual content when appropriate to the current story.
+Produce enjoyable, readable prose for an adult contemporary science-fiction superhero audience, including explicit language, violence, romance, and consensual sexual content when appropriate to the current story.
 
 Prioritize:
 
@@ -278,67 +278,17 @@ Do not rush immediately from attraction to sex. Let anticipation, flirting, unce
 
 Harem relationships must develop individually. Each partner should have distinct motives, boundaries, attractions, insecurities, preferences, and relationships with the other members. Do not treat women as interchangeable rewards for the protagonist.
 
-Sexual content must involve adults. Do not sexualize minors or characters whose age is ambiguous. Do not portray coercion, magical compulsion, dependency, captivity, intoxication, or unequal authority as consent. The Concord bond cannot create attraction, override judgment, manufacture consent, or prevent someone from refusing or withdrawing.
+Sexual content must involve adults. Do not sexualize minors or characters whose age is ambiguous. Do not portray coercion, biochemical manipulation, dependency, captivity, intoxication, or unequal authority as consent. Receiving nanites cannot create attraction, override judgment, manufacture consent, or prevent someone from refusing or withdrawing.
 
 Explicit content should occur because the characters genuinely choose it, not because every chapter requires a sexual scene.
 ## Humor
 
-Maintain an adventurous, good-humored baseline even when danger and consequences are real.
+Use humor when it arises naturally from Adrian's perspective, character differences, practical complications, embarrassment, and the collision between ordinary life and extraordinary events. Humor can release tension without dismissing fear, injury, poverty, or vulnerability.
 
-Humor should arise from character perspective, conflicting personalities, practical complications, social customs, institutions, and the contrast between heroic expectations and inconvenient reality. Do not insert unrelated jokes merely to satisfy a humor quota.
+Let recurring jokes and comic situations develop when the story supports them. No chapter or arc requires a joke, a comic subplot, or a fixed comedic structure.
 
-Every Short arc should establish a comic engine: a recurring source of humorous pressure specific to that episode. Suitable comic engines include:
+Avoid interchangeable sarcasm, constant quips during danger, jokes that make capable characters foolish, and explaining why a situation is funny.
 
-- companions pursuing incompatible but reasonable approaches
-- grand heroic traditions colliding with mundane necessities
-- magical rules producing inconvenient consequences
-- guilds, temples, councils, nobles, and bureaucracies protecting absurd procedures
-- villains or monsters with understandable but ridiculous priorities
-- unreliable maps, misleading legends, contractual loopholes, and badly worded prophecies
-- characters trying to preserve dignity while circumstances steadily undermine it
-- practical disputes involving food, payment, lodging, transport, equipment, and reputation
-- the difference between how an adventure will be retold and what actually happened
-
-The comic engine should progress across a Short arc:
-
-1. establish the comic situation in the first chapter
-2. complicate, escalate, or reverse it in the second chapter
-3. pay it off as part of the episode's resolution in the third chapter
-
-Prefer dry observation, understatement, escalating inconvenience, callbacks, reversals, and character-specific reactions over setup-and-punchline jokes.
-
-Different characters should be funny in different ways. One may notice absurdity without commenting, another may respond with blunt practicality, another may take ridiculous customs seriously, and another may attempt dignity while circumstances defeat it. Do not make every character sarcastic or equally witty.
-
-Satire should target institutions, customs, incentives, status, and pretension rather than vulnerable individuals. Fantasy institutions may be competent at their official purpose while remaining absurd in their procedures, jurisdiction, accounting, traditions, or self-preservation.
-
-Examples include:
-
-- an adventurers' guild that grades mortal danger correctly but misclassifies travel expenses
-- a wizard whose spell is flawless but whose license expired
-- a village that needs rescuing but insists on resolving an ancient hospitality dispute first
-- a dragon that understands compound interest better than the nobility
-- a prophecy preserved perfectly but indexed under the wrong century
-- rival heroes who care more about credit than treasure
-- a haunted keep whose dead occupants disagree about which haunting is historically authentic
-
-Preserve emotional truth. Characters may joke around fear, exhaustion, embarrassment, or frustration, but humor must not erase grief, injury, betrayal, or sincere vulnerability.
-
-During danger, use brief comic reversals and practical complications without dissolving the stakes. After tension, allow humor to release pressure and restore companionship.
-
-Avoid:
-
-- modern internet slang unless established by the setting
-- interchangeable sarcasm from every character
-- constant quips during danger
-- jokes requiring competent characters to become stupid
-- parody that makes the world impossible to care about
-- explaining why a line or situation is funny
-- repeating the same joke with slightly different wording
-- cruelty, humiliation, or trauma as the default punchline
-- making every authority figure incompetent
-- forcing jokes into the emotional climax of a serious scene
-
-An episode should normally contain at least one sustained humorous situation or recurring comic complication, not merely isolated humorous sentences. Its conclusion should provide an entertaining payoff to both the adventure problem and the comic engine.
 ## Relationships and Sexuality
 
 Romantic and sexual content involves adults.
@@ -387,25 +337,11 @@ Do not escalate threat, darkness, violence, or stakes merely because the story h
 
 ## Arc Objectives and Primary Tropes
 
-Every active story arc supplies both an `Objective` and a `PrimaryTrope`.
+Every active story arc supplies both an `Objective` and a `PrimaryTrope`. The objective defines what the story must accomplish. The trope helps shape the reader experience, subject to the established premise, setting, and continuity.
 
-The objective defines what the story must accomplish. The primary trope defines the recognizable fantasy narrative shape through which the story accomplishes it. Prose and chapter plans must serve both.
+For this story, draw on contemporary science-fiction, medical experimentation, superhero emergence, secrecy, intimacy, and competing claims over Adrian's body and the nanites. Adapt each trope to the particular characters and circumstances without copying identifiable scenes or prose from another work.
 
-Use the trope to provide familiar reader pleasures such as assembling a party, accepting a quest, exploring a dungeon, meeting a colorful rival, protecting a caravan, finding a map, winning a tournament, recovering a relic, or returning home changed. Adapt those pleasures to established characters and continuity instead of copying a particular published story.
-
-Do not treat a trope name as permission to:
-
-- replace or ignore the arc objective
-- contradict canon or established character knowledge
-- manufacture melodrama
-- force constant escalation
-- repeat already completed narrative work
-- imitate identifiable characters, scenes, or prose from another work
-- delay resolution merely to preserve the trope
-
-Favor adventure, discovery, earned competence, camaraderie, wit, strange places, useful victories, and entertaining complications. Serious consequences may persist, but sustained misery, helplessness, suspicion, and emotional punishment must not become the story's default atmosphere.
-
-The Blight storyline is a prelude and must conclude by Chapter 16. It establishes the company and the larger world; it is not the permanent tone or subject of the series.
+Do not treat a trope name as permission to contradict canon, rush an arc's objective, repeat completed narrative work, or force constant escalation. Preserve space for recovery, discovery, relationships, training, ordinary life, and consequences.
 
 ## Rule Design
 
@@ -424,22 +360,11 @@ When two rules conflict, prefer the rule that best preserves:
 
 ## Romantic Dynamics
 
-- Party relationships must accumulate through friendship, loyalty, disagreement, humor, affection, vulnerability, and shared experience.
-- Appropriate male-female party pairings may develop mutual or one-sided romantic and sexual tension.
-- In-party attraction should build gradually but must not mature into a romantic relationship, sexual relationship, or casual sexual encounter.
-- Party members deliberately avoid mixing business and pleasure because it could threaten judgment, trust, leadership, cohesion, or survival.
-- Restraint must not erase established attraction or reset the characters to emotional neutrality.
+- Adrian's romantic and sexual relationships should follow the premise and develop individually through attraction, shared experience, trust, choices, and consequences.
+- Lena remains his first intimate partner and a distinct character with her own judgment, motives, boundaries, and life beyond Adrian.
+- Later partners retain independent ambitions, loyalties, preferences, disagreements, and relationships with one another.
+- Access to nanites may create dependence and competing interests; portray how the characters recognize and negotiate those pressures without treating access as consent or ownership.
 - Attraction may intensify, recede, become awkward, become humorous, or be complicated by outside relationships.
-- Not every close party bond should contain sexual tension.
-- Male-on-male relationships remain non-romantic and non-sexual.
-- Party members may pursue romantic or sexual relationships with NPCs.
-- NPC relationships may escalate, become intimate, recur, end when the party moves on, or reach another natural conclusion.
-- Romantic NPCs do not need to join or remain with the party.
-- NPCs must have independent personalities, goals, boundaries, and credible reasons for entering or leaving relationships.
-- Preserve the emotional consequences of concluded NPC relationships.
-- Subtle attraction must remain perceptible and develop over time; subtle does not mean static or invisible.
-- Show attraction through selective attention, chosen or avoided proximity, private humor, remembered details, personal conversations, altered priorities, and deliberate reassertion of professional boundaries.
-- Use only one or two appropriate signals in a scene and vary them across chapters.
-- Do not rely repeatedly on staring, blushing, racing hearts, accidental touching, jealousy, or descriptions of physical beauty.
-- Do not force romantic content into every chapter.
-- Romantic interaction should also reveal character, influence decisions, create conflict, provide relief, or affect later behavior.
+- Let established relationships continue to develop rather than reset their intimacy or trust between chapters.
+- Do not force romantic or sexual content into every chapter.
+- Romantic interaction should reveal character, influence decisions, create conflict, provide relief, or affect later behavior.

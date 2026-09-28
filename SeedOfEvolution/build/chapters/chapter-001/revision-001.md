@@ -1,231 +1,177 @@
-﻿The fluorescent lights of the intake office hummed with a frequency that seemed to drill directly into the base of Adrian’s skull. It was a low, persistent vibration, a physical weight that settled behind his eyes and made the sterile white walls pulse in and out of focus. Adrian sat in a plastic chair that was molded to the shape of a human body, but not quite his. The backrest was too high, pushing against his shoulder blades, while the seat was too narrow, forcing his knees to knock together under the table.
+﻿The fluorescent lights in the financial aid office hummed with a frequency that seemed to drill directly into Adrian’s temple. He sat in a plastic chair that was designed for ergonomic support in theory but felt, in practice, like a punishment device, his spine curving forward as he tried to steady his breathing. His stomach gave a low, hollow rumble that he ignored. He had eaten nothing since the granola bar he’d found at the bottom of his backpack two days ago, and the metallic taste of hunger that coated the back of his throat was becoming a constant companion.
 
-He had been sitting there for forty-five minutes.
+Across the desk, the financial aid officer, a woman with a name tag that read *Ms. Gable*, tapped a pen against a stack of paper. She didn’t look up immediately. Her eyes scanned the document in front of her, her lips moving slightly as she calculated figures Adrian couldn’t see. The air in the room smelled of dust and old paper, a stark contrast to the sterile scent of the hospital clinics he’d been researching online in his dorm room late into the night.
 
-The clock on the wall was a digital display, red numbers against a black background, ticking away the seconds with an indifference that felt personal. 9:14 AM. 9:15 AM. 9:16 AM.
+Adrian shifted his weight. The chair legs squeaked against the linoleum floor. He tried to keep his posture straight, to project an image of composure and capability that he simply did not possess. He was nineteen years old, weighed roughly one hundred and twenty pounds soaking wet, and had not slept more than four hours a night for the past three weeks. His hands, resting on his knees, were pale and thin, the veins prominent under the skin.
 
-His stomach gave a hollow, cramping twist. It was a familiar pain, a constant companion that had moved in somewhere around Tuesday and refused to leave. He hadn’t eaten since the slice of cold pizza he’d salvaged from the trash can behind the diner where he worked nights. The grease had been old, the cheese rubbery, and it had tasted like despair, but it had been fuel. Now, that fuel was gone, burned through by the anxiety of the morning and the sheer physical effort of getting to this building across town on a bus that smelled of wet wool and sweat.
+Ms. Gable finally looked up. Her expression was neutral, professional, and utterly devoid of curiosity about the person sitting in front of her.
 
-He checked his pocket. The crumpled five-dollar bill he was saving for lunch was still there. He didn’t spend it. He didn’t even look at it. To spend it would be to admit that the money was gone, and as long as it remained in his pocket, he still had a theoretical future.
+"Mr. Vale," she said, her voice flat. "I have reviewed your emergency hardship application."
 
-"Next," the receptionist said. She didn’t look up from her monitor. Her voice was flat, devoid of inflection, a mechanical drone that matched the hum of the lights.
+Adrian nodded, his throat tight. "Thank you."
 
-Adrian stood up. His legs felt unsteady, the blood rushing to his head as he pushed the plastic chair back. It scraped against the linoleum with a harsh, shrieking sound that made his teeth ache. He walked toward the desk, his sneakers squeaking with every step.
+"Based on the documentation you provided, specifically the lease agreement and the tuition invoice, your financial situation is indeed precarious." She paused, selecting a pair of glasses from a small case on the desk and slipping them on. "However, our emergency fund is limited. It is allocated for immediate medical crises, housing emergencies resulting from natural disasters, or documented family tragedies. Your situation, while difficult, falls under the category of insufficient initial funding."
 
-"Name," she said.
+Adrian felt a cold weight settle in his chest. He had expected this. He had written the application at three in the morning, his hands shaking so badly that he had spilled coffee on his keyboard, and he knew the language he had used was polite, precise, and ultimately powerless against the machinery of bureaucracy.
 
-"Adrian Vale."
+"I understand the criteria," Adrian said. He kept his voice level, though it felt thin in his ears. "But I have no other income. My parents are deceased, and I have no family support. If I cannot cover the balance by Friday, I will be dropped from my courses. I will lose my student status. I will lose my housing."
 
-She typed. The sound of her fingers on the keyboard was rapid, staccato, a machine-gun fire that drowned out the rest of the world. "Date of birth."
+Ms. Gable adjusted her glasses. "I am sorry for your loss, Mr. Vale. However, the university cannot provide loans or grants that do not meet the eligibility requirements. I can, however, direct you to the community resource center on the fourth floor. They have a list of local charities and food banks that may be able to assist with basic needs."
 
-"August 12th, 2004."
+"Food banks won’t pay my rent, Ms. Gable."
 
-"Reason for visit."
+"No," she agreed, as if this were a scientific fact. "But they may help with groceries. I would also recommend re-evaluating your course load. Dropping one or two classes might reduce your immediate financial burden and allow you to focus on finding a higher-paying part-time position."
 
-He hesitated. The words felt heavy in his mouth. "I’m here for the… the experimental medicine program. The fertility trial."
+Adrian looked at the woman. She was typing something into her computer, her fingers moving with practiced efficiency. She was not being cruel. She was being efficient. To her, he was a variable in an equation that did not balance. He was a data point that required a standard response, and any deviation from that response would create a ripple effect in her department’s budget that she was not authorized to manage.
 
-She stopped typing. Finally, she looked at him. Her eyes were gray, cold, and entirely unimpressed. She scanned his face, taking in the dark circles under his eyes, the pale, washed-out skin, the way his clothes hung loosely on his frame. He knew she was judging him. He could feel the weight of her assessment, a silent verdict of inadequacy.
+He stood up. His legs felt unsteady, a faint dizziness washing over him as the blood drained from his head. He gripped the edge of the desk for a second, his knuckles white, before releasing it.
 
-She reached under the desk and pulled out a thick stack of paper. It was bound with a plastic clip, the edges frayed and soft from handling. She slid it across the counter.
+"Thank you for your time," he said.
 
-"Fill this out," she said. "All of it. Read every line. If you miss a box, we start over."
+Ms. Gable looked up again, a flicker of surprise crossing her face, likely because he had not argued, had not raised his voice, had not demanded to speak to a supervisor. She had expected resistance. She had not expected resignation.
 
-Adrian took the paper. It was heavy, dense with text. He looked at the first page. It was a consent form, but it wasn’t just a consent form. It was a legal document, a contract, a surrender of rights. He began to read.
+"Is there anything else I can help you with?" she asked, her tone softening by a fraction of a degree.
 
-*By signing below, the participant acknowledges that this study is investigational and that the long-term effects of the medication are unknown… The participant agrees to undergo daily physical examinations, including but not limited to blood draws, urinalysis, and reproductive sample collection… The participant waives the right to sue the institution, its employees, and its affiliates for any injury, damage, or death resulting from participation in this study…*
+Adrian shook his head. "No. I think I have all the information I need."
 
-The words blurred together. He read the first paragraph three times before he understood it. He read the second paragraph once, and his stomach dropped. He was being asked to give up his body. Not just parts of it, but the whole of it. His blood, his urine, his sperm. His right to privacy. His right to sue. His right to say no.
+He turned and walked out of the office, his footsteps echoing slightly in the hallway. The door clicked shut behind him, sealing off the smell of dust and the hum of the lights. He stood in the corridor for a moment, pressing the heels of his hands against his eyes to massage away the pressure building behind them. The hallway was empty, the carpet under his shoes feeling soft and absurdly comfortable.
 
-He looked around the room. The other people in the waiting area were mostly older, or at least more solid. They had the look of people who had something to lose, but they had also the look of people who had something to gain. They were here for medical reasons, maybe, or for research that might help them. Adrian was here because he was broke. He was here because if he didn’t sign this paper, he would be kicked out of his apartment by the end of the month. He was here because if he didn’t sign this paper, he would drop out of college and go back to his parents’ house, where he would be a disappointment, a burden, a failure.
+He began to walk, his pace slow and deliberate. He needed to think, but his mind was too tired to form coherent thoughts. Instead, he focused on the physical sensations: the ache in his shoulders, the hollow pang in his stomach, the dryness in his mouth. He was running out of time. He was running out of money. He was running out of options.
 
-He picked up the pen. It was a cheap, ballpoint pen, the kind that came free with the paper. The ink was blue. He wrote his name in the box provided. The letters were shaky, the ‘a’ in Adrian looping too high, the ‘d’ in Vale leaning to the left.
+As he passed a large window overlooking the campus quad, he saw a group of students sitting on the grass, laughing and throwing a frisbee. They were vibrant, healthy, and surrounded by people who cared about them. He looked at his own reflection in the glass, a gaunt, pale figure distorted by the angle, and felt a strange, detached curiosity. Who was that person? Why was he failing?
 
-He moved to the next box. *Blood type.* He didn’t know his blood type. He had never had a blood test. He had never donated blood. He had never been in a hospital, not really. The last time he had been sick, it had been a fever that had broken on its own, and he had spent three days in his bed, eating ramen noodles and watching TV, until the feeling of sickness had faded.
+He shook his head, dismissing the question. It was a luxury he could not afford. He needed to find a way to survive the next week, and then the next month, and then the rest of the year. He needed to find a way to pay for his education without selling his soul or his body, even if the definition of "selling his soul" was becoming increasingly flexible in his mind.
 
-He left the box blank.
+He reached the main entrance of the building and pushed the heavy glass door open. The afternoon sun hit him in the face, blinding and warm. He squinted, shielding his eyes with his hand, and stepped out into the cool autumn air. The campus was bustling with activity, a river of motion and noise that flowed around him. He walked against the current, moving toward the edge of the campus where the city began, where the buildings were older and the streets were narrower and the opportunities were more desperate.
 
-*Allergies.* He didn’t have any. Or rather, he didn’t know that he did. He had never been tested. He had never had a reaction to a medication that was bad enough to make him worry. He had just taken the medicine, and he had felt better, or he had felt worse, or he had felt nothing. He didn’t know.
+He did not know where he was going. He only knew that he could not stay here. He could not sit in his dorm room and stare at the ceiling while the clock ticked toward Friday. He had to do something. He had to find a way.
 
-He left the box blank.
+The wind picked up, rustling the leaves on the trees lining the path. Adrian pulled his jacket tighter around himself, feeling the chill seep through the thin fabric. He took a deep breath, the air crisp and clean, and began to walk.
 
-*Medical history.* This was a longer box. He stared at it. What did he have to say? He was healthy. He was young. He was nineteen. He had never broken a bone. He had never had surgery. He had never been diagnosed with a disease. He was just… tired. Always tired. His back ached from the diner, his feet hurt from the bus, his head throbbed from the lights. But that wasn’t a medical history. That was just life.
+The campus path sloped downhill, the manicured grass giving way to cracked asphalt and the hum of traffic. Adrian’s stomach gave a low, hollow growl that he had long since stopped trying to ignore. It was a physical presence, a weight in his gut that made his vision swim every time he stopped walking. He adjusted the strap of his backpack, the weight of his textbooks pressing against his shoulder blades, and kept moving. The air smelled of exhaust and wet leaves, a sharp contrast to the sterile, carpet-scented air of the financial aid office.
 
-He wrote: *None.*
+He had about two hours before the sun dropped behind the city skyline, and he needed to be back at his apartment to avoid the late fee on his internet bill. Two hours to find a way to pay for the week’s groceries, the electricity, and the mounting rent that hung over his head like a guillotine.
 
-It was a lie, but it was the only truth he had.
+His phone buzzed in his pocket. He fished it out, the screen cracked and flickering with the low battery indicator. A text from a number he didn’t recognize.
 
-He turned the page. The next section was about the medication. *The participant will be administered a daily dose of the investigational agent. The participant will be required to maintain a log of any side effects, including but not limited to nausea, headache, fatigue, changes in libido, or changes in mood…*
+*Hey Adrian, it’s Marcus from the bar. We’re short-staffed for the weekend. Need a guy to do some heavy lifting for the VIPs. Cash only, good tips. You in?*
 
-Changes in libido. Adrian felt a flush of heat rise in his neck. He looked down at his hands. They were thin, the veins visible under the skin. He was a machine that needed fuel, and this paper was the key to the fuel. Or so he had been told. The brochure, the one he had read on the bus, the one with the bright, cheerful colors and the smiling faces, had promised stability. It had promised that this would be a simple exchange. Time for money. Bodily fluid for cash.
+Adrian stared at the message. The VIPs at The Gilded Cage weren’t exactly known for their refined tastes. Marcus was a good kid, but the work was degrading in a way that Adrian had tried to avoid. It involved carrying drinks to people who looked at him like he was furniture, or worse, like he was part of the décor. It involved smiling while they made comments about his size, his posture, his eyes. It was money, yes, but it came with a cost that left bruises on his self-esteem that took longer to fade than the physical ones.
 
-But the brochure hadn’t mentioned the hunger. It hadn’t mentioned the way his stomach growled so loud that he was afraid the people in the waiting area could hear it. It hadn’t mentioned the way the fluorescent lights made his vision swim. It hadn’t mentioned the fact that he had to pee, that he had been holding it for two hours because he didn’t know where the bathroom was, and because he was afraid that if he left his seat, he might miss his turn, and if he missed his turn, he might not get in at all.
+He typed back: *Can’t do it this weekend.*
 
-He looked at the receptionist. She was still typing. Her eyes were on the screen, her fingers moving in a blur. She didn’t look at him. She didn’t acknowledge his presence. He was a process, a step in a workflow, a line in a database.
+He hit send before he could change his mind. He pocketed the phone and kept walking. His legs felt leaden, the muscles in his calves burning with a dull, persistent ache. He hadn’t slept more than four hours a night for three weeks, and his body was starting to pay the price. His hands were pale, the veins prominent under the thin skin, and he had to stop twice to steady himself against a lamppost when the dizziness hit.
 
-He turned to the next page. This one was about the daily routine. *The participant will be required to visit the clinic every day between the hours of 8:00 AM and 12:00 PM. The participant will be required to check in, undergo a physical examination, and provide a reproductive sample. The participant will be required to remain in the clinic for a period of no less than one hour after the administration of the medication…*
+The streets of the city were a maze of brick and glass, of neon signs and storefronts. Adrian passed a recruitment center for a local tech firm. The sign advertised entry-level positions with salaries that would have been a dream six months ago. But the job postings required a degree in computer science or a minimum of two years of experience. Adrian was in his first semester of a general studies program because he couldn’t afford the prerequisites for a specialized major. He didn’t have the time or the money to go back and get a degree in a field that would take him four more years to master. He needed money now.
 
-One hour. Every day. For how long? The form didn’t say. The form just said *daily.* It implied an eternity. It implied a life where his days were measured not in hours, but in appointments. Where his body was not his own, but a resource to be harvested.
+He turned a corner into a narrower street, lined with small shops and laundromats. A poster was taped to the window of a cleaning supply store. *URGENT HIRING: WAREHOUSE WORKERS. IMMEDIATE START. $18/HR.*
 
-He felt a wave of nausea roll through him. It was not just the hunger. It was the fear. The fear that he had made a mistake. The fear that he had sold his future for a few months of rent. The fear that he would walk out of this building, sign the final paper, and then discover that the money wasn’t enough, or that the side effects were worse than he imagined, or that he would never be able to leave.
+Adrian stopped. Eighteen dollars an hour. It was decent pay, better than most part-time jobs. He looked at the poster, then at the store. The window was dusty, the shelves inside cluttered with bottles of industrial cleaner. He pushed the door open, the bell above it jingling with a cheerful sound that felt out of place in the gray afternoon.
 
-But he was already there. He was in the chair. The pen was in his hand. The paper was in front of him.
+A man behind the counter looked up. He was middle-aged, with a mustache that was slightly longer on one side than the other. He looked Adrian up and down, his eyes lingering on the thin frame and the worn jacket.
 
-The paper crinkled under his thumb, a dry, brittle sound in the quiet room. Adrian set the blue pen down on the desk, the cap clicking shut with a finality that felt disproportionate to the act. He hadn’t finished the section on medication logs. He couldn’t remember where he had left off. The lines blurred, not from the fluorescent hum that buzzed in his ears, but from the sheer, overwhelming fatigue of being nineteen and broke and standing in a world that required him to be more than he was.
+"Can I help you?" the man asked.
 
-"Mr. Vale."
+"I saw the poster," Adrian said, his voice raspy from disuse. "I'm looking for the warehouse job."
 
-He didn’t look up immediately. He was too busy calculating the caloric deficit of the last twenty-four hours, trying to figure out if the nausea was from hunger or from the cold, sterile air conditioning that cut through his thin t-shirt. When he finally raised his eyes, the receptionist was no longer looking at her monitor. She was looking at him, her expression unchanged, devoid of the friction that usually accompanied human interaction.
+The man’s face didn’t change, but his eyes narrowed slightly. "You’re a student, right?"
 
-"Dr. Thorne is ready for you. Room 4. Back of the hallway."
+"I am."
 
-Adrian stood up. The plastic chair scraped against the linoleum, a harsh, screeching noise that made his teeth ache. He gathered the stack of forms, the crumpled five-dollar bill, and his wallet, his movements stiff, as if his joints had rusted while he sat there. He followed the woman down the hallway, the smell of antiseptic and old coffee growing stronger with every step.
+"School starts in a few weeks. You’ll be busy with classes."
 
-Room 4 was smaller than the intake office. It was a windowless space, white-tiled and bright, with a metal examination table in the center and a computer station to the right. Sitting at the desk was a man who seemed to have been carved out of the same sterile material as the walls. He was tall, lean, with close-cropped gray hair and glasses that reflected the overhead lights, hiding his eyes. He wasn’t looking at Adrian. He was looking at a spreadsheet.
+"I can work nights and weekends," Adrian said. It was a lie. He didn’t have the energy for nights and weekends. He barely had the energy to get through his lectures without falling asleep. But the need for the money was louder than the truth.
 
-"Sit," the man said. His voice was low, precise, and utterly without warmth. It was the voice of someone who had never once in his life needed to ask for anything.
+The man picked up a pen and tapped it against the counter. "We need people who can lift heavy crates, up to fifty pounds. Repetitive motion. Long hours on your feet. Are you sure you’re up for it?"
 
-Adrian sat on the edge of the metal table. The cold seeped through his jeans, a shocking, grounding sensation. He placed his hands in his lap, fingers interlaced, knuckles white. He was holding his breath, a habit he hadn’t realized he had until the air in his lungs felt too thin to sustain him.
+Adrian wanted to say yes. He wanted to say he could lift a hundred pounds, that he could work for twenty hours a day, that he would never complain. But the image of himself in a warehouse, sweating and exhausted, coming home too tired to study, too hungry to eat, was too vivid. He would fail his classes. He would drop out. He would end up exactly where he was now, only with a worse back.
 
-"Name," the man said.
+"I’m not sure," Adrian said.
 
-"Adrian Vale."
+The man nodded, as if he had expected the answer. "It’s a hard job. We have a lot of turnover. Most people last a week or two."
 
-"Date of birth."
+"I understand," Adrian said.
 
-"August 12th, 2004."
+"Go ahead, take a look at the back room if you want."
 
-The man typed. The sound of the keys was mechanical, fast, and rhythmic. He did not look up. He did not acknowledge Adrian’s presence except as a series of data points to be entered into a system.
+Adrian followed the man through a side door into a storage area. It was cold and smelled of chemicals. Shelves stretched high into the ceiling, stacked with boxes and crates. The man pointed to a stack of boxes. "See those? That’s what you’ll be moving. Every day."
 
-"Reason for enrollment," the man continued.
+Adrian looked at the boxes. They were heavy, bulky, and stacked high. He could feel the weight of them in his mind, the strain it would put on his body. He thought about his tuition, his rent, his hunger. He thought about the dignity he was trying to preserve.
 
-"Financial," Adrian said.
+"No, thank you," Adrian said. He turned and walked back toward the counter. "I think I’ll keep looking."
 
-The typing stopped.
+The man didn’t say anything. He just watched Adrian leave, the bell jingling behind him.
 
-For a second, Adrian thought he had offended him. He expected a reprimand, a question about his academic standing, a warning about the strictness of the program. He prepared himself to explain the electric bill, the rent, the way his stomach had been an empty, aching void for the last three days. He prepared himself to defend his choice, to justify why he would trade his bodily autonomy for a few hundred dollars a month.
+Adrian stood on the sidewalk, the wind picking up again. He had rejected a job that would have paid him well, but it wasn’t the right kind of work. It wasn’t the kind of work that would allow him to continue his education. He needed something that fit his schedule, something that didn’t require him to sacrifice his health for a paycheck.
 
-But the man simply began typing again.
+He looked down the street. The sun was setting, casting long shadows across the pavement. The city was waking up for the evening, the lights turning on in the windows of the buildings. He had no idea where to go next. He had no plan, no strategy, no safety net. He had only the knowledge that he could not give up.
 
-"Vale," the man said, his voice still flat. "My name is Dr. Aris Thorne. I am the lead investigator for this study. You will be working with me and my team. Do you understand the nature of the work?"
+He started walking again, his feet numb against the cold ground. He passed a pharmacy, a bookstore, a coffee shop. None of them had jobs. None of them had the answer he was looking for. But he kept walking, because stopping felt like surrender. He didn’t know where he was going, but he knew he couldn’t stay still. He had to find a way. He had to find a way to survive.
 
-"Yes," Adrian said.
+The sidewalk narrowed as the commercial district gave way to a cluster of modern glass-and-steel structures, their windows reflecting the dying light in long, amber strips. Adrian’s stomach gave a hollow, painful rumble that echoed in his empty chest. He pressed a hand against his side, the gesture more habitual than useful, and kept walking. His legs felt like lead pipes, the cold seeping through his thin jeans and settling deep in his joints.
 
-Thorne looked up. For the first time, his eyes were visible behind the glasses. They were pale, almost colorless, and they did not blink. He looked at Adrian with the detached curiosity of a man observing a specimen under a microscope. He was not looking at a person. He was looking at a variable.
+Ahead, a low-rise building with a stark white facade and minimal signage caught his eye. The logo was a simple, interlocking helix, clean and professional. Beneath it, in smaller font: *Apex Research Institute.*
 
-"Good," Thorne said. "We are moving into the baseline physical assessment. Please remove your shirt."
+Adrian hesitated. He had seen the flyers on campus, tucked into the corners of bulletin boards or slipped under the doors of dorm rooms. *Volunteer for Medical Studies. Earn Competitive Compensation. Access Cutting-Edge Care.* He had dismissed them as scams or something for people with more time and less hunger. But now, with the sun dipping below the skyline and his energy reserves effectively at zero, the words *compensation* and *care* held a different weight.
 
-Adrian froze. The command was so casual, so stripped of social niceties, that it felt like a physical blow. He looked down at his chest, at the thin layer of hair, at the faint, pale scar on his shoulder from a childhood fall. He thought of the cold air on his skin. He thought of the five dollars in his pocket. He thought of the hunger that was no longer a background hum but a loud, screaming presence in his throat.
+He pushed through the glass doors, expecting the sterile chill of a hospital, but the air was warm and filtered, smelling faintly of lemon polish and something vaguely chemical. The lobby was spacious, dominated by a curved reception desk made of polished stone. A few people sat in the waiting area, reading magazines or scrolling on phones, but the space felt empty, designed for efficiency rather than comfort.
 
-He unbuttoned his shirt.
+Adrian approached the desk. The woman behind it looked up, her expression neutral but attentive. She was perhaps forty, wearing a crisp navy blouse, her hair pulled back in a severe bun.
 
-He stood up, the movement awkward and self-conscious. He pulled the fabric over his head, balled it up, and sat back down. The air in the room was cold against his skin, raising gooseflesh along his arms. He kept his hands in his lap, fingers still interlaced, as if he could hold himself together by force of will alone.
+"Good afternoon. Can I help you?"
 
-Thorne stood up. He moved to a cabinet beside the door and took out a pair of gloves. He pulled them on, the latex snapping as it stretched over his fingers. He walked around the desk, his movements precise, efficient. He did not speak. He did not ask Adrian if he was comfortable. He did not ask if he had any pain. He simply reached out and lifted the hem of Adrian’s jeans, then his boxers.
+"Yes," Adrian said, his voice coming out rougher than he intended. He cleared his throat. "I’m looking for information about the... the research programs. The ones for students."
 
-Adrian’s stomach clenched. He watched the doctor’s hands, pale and steady, as they moved over his lower abdomen. The touch was clinical, devoid of any human warmth. It was an inventory. A count.
+The woman’s eyes flicked to him, taking in his worn jacket, the pale skin of his hands, the slight tremor in his fingers as he rested them on the counter. She didn’t comment on it. She simply nodded.
 
-"Any pain?" Thorne asked.
+"Those are handled by our Intake Coordinator. My name is Sarah. Let me get her for you."
 
-"No," Adrian said. His voice sounded thin in his own ears.
+She pressed a button on a small console. A moment later, a door to the left of the desk slid open, and a man emerged. He was younger than Sarah, maybe late twenties, with kind eyes and a friendly, open posture that seemed at odds with the sterile environment. He wore a light blue button-down shirt, no tie, sleeves rolled up to the elbows.
 
-"Any swelling?"
+"Adrian, I assume? I’m David. Intake Coordinator." He extended a hand. Adrian shook it, wincing slightly at the coldness of the metal desk he’d been leaning against.
 
-"No."
+"David," Adrian said. "I saw the flyers. I’m a freshman. I’m looking for... work. But not just any work. Something that pays well enough to cover rent and tuition, and has flexible hours. I’ve been looking everywhere, but most places want degrees I don’t have or hours I can’t afford to work."
 
-Thorne moved his hands lower, checking for abnormalities. The touch was impersonal, almost mechanical. Adrian stared at the ceiling, at the water-stained tiles, focusing on the patterns, on the cracks, anything to keep his mind from the invasive reality of what was happening to his body. He was selling it. He was selling his body, inch by inch, for the right to stay in school.
+David listened, his expression thoughtful. He didn’t interrupt, didn’t look skeptical. He just listened, and when Adrian finished, he nodded slowly.
 
-Thorne finished his examination and stepped back. He peeled off the gloves, dropping them into a small bin beside the table. The sound of the rubber hitting the plastic was loud in the quiet room.
+"That sounds like a lot of pressure, Adrian. And you’re right, most entry-level jobs don’t offer the flexibility or the pay you need right now." He leaned back against the desk, crossing his arms loosely. "That’s exactly why we have the Experimental Medicine Program. We’re not looking for employees. We’re looking for participants. Volunteers."
 
-"Get dressed," Thorne said.
+"Volunteers," Adrian repeated, the word tasting unfamiliar in his mouth.
 
-Adrian pulled his shirt back over his head. He buttoned it, his fingers trembling slightly. He sat there, waiting, his heart beating a slow, heavy rhythm against his ribs. He felt exposed, vulnerable, and completely at the mercy of the man in the white coat.
+"Yes. We run several low-risk studies. Some are for general health, some for specific conditions. In exchange for your time and participation, we offer competitive compensation, free medical care, and flexible scheduling that works around your classes." David’s tone was calm, factual, but there was an underlying warmth. "I know it sounds a bit... unconventional. And I know the idea of being a guinea pig can be off-putting. But the studies are rigorous, ethical, and the pay is genuinely good."
 
-Thorne sat back down at his desk. He picked up a pen, a red one this time, and began to write on the clipboard.
+Adrian felt a flicker of hope, quickly doused by suspicion. "What kind of studies?"
 
-"You will be receiving your first dose of medication today," Thorne said, not looking up. "It is a compound designed to stimulate reproductive cell production. It is experimental. It is not approved for general use. Do you understand?"
+"We have several active trials. One is for sleep disorders, another for mild hypertension, and a third is a male-fertility trial." David said the last one matter-of-factly, as if it were just another data point.
 
-"Yes," Adrian said.
+Adrian blinked. "A... fertility trial?"
 
-"Side effects may include fatigue, nausea, and changes in libido. You will be required to log any symptoms you experience. Failure to report side effects will result in your removal from the study."
+"Yes. We’re testing a new compound designed to improve sperm count and motility. It’s still in the early stages, so we’re looking for young, healthy men who are willing to undergo regular testing and provide samples." David paused, watching Adrian’s reaction. "I can see that’s... unexpected. It’s definitely one of our more... specific programs. But the compensation is the highest we offer, and the time commitment is relatively low. Just a few hours a week for appointments and sample collection."
 
-Adrian nodded. He didn’t care about the side effects. He didn’t care about the fatigue, or the nausea, or the changes in his body. He cared about the money. He cared about the fact that, for the first time in months, he would not have to choose between food and rent.
+A few hours a week. Adrian’s mind raced, calculating. If it was just a few hours, he could make it work. If the pay was the highest...
 
-"What happens next?" Adrian asked.
+"How much is the highest?" Adrian asked, his voice steady despite the hammering in his chest.
 
-Thorne looked up. His expression was unreadable.
+David smiled, a small, genuine smile. "That’s the best part, Adrian. For the fertility trial, participants receive a monthly stipend that covers most of their living expenses, plus additional payments for each completed phase. It’s more than enough to cover rent, food, and tuition, with room to spare."
 
-"You will wait," Thorne said. "We will administer the medication. Then you will go."
+Adrian gripped the edge of the desk, his knuckles whitening. "What are the... requirements? I mean, the tests. The samples."
 
-Adrian let out a breath he didn’t know he had been holding. It was simple. It was brutal, and it was invasive, and it was a sacrifice of a part of his dignity that he would never get back, but it was simple. And for now, simplicity was all he could afford.
+David’s expression remained professional, but he softened slightly. "The process is straightforward. You take a daily medication, which is a simple pill. And then, you visit the clinic every day to provide a sample. It’s... intimate, I’ll admit. But it’s done in a private room, and it’s completely confidential. There’s no judgment, and the staff is trained to make it as comfortable and quick as possible."
 
-A nurse entered the room, a woman with tired eyes and a clipboard. She handed Adrian a small, opaque vial. "Swallow this with water," she said, pointing to a cup on the table. "It’s the first dose. It’s a placebo for today, but your body needs to get used to the routine. From tomorrow, it’s the real compound."
+Adrian stared at him, his mind struggling to process the sheer absurdity and necessity of the situation. He was being asked to... *do that*. He was expected to do it daily. For money. For survival.
 
-Adrian took the vial. It was cold to the touch. He uncapped it and poured the white powder into the cup. It dissolved instantly, turning the water cloudy. He drank it in one gulp. It tasted like nothing. Just water. He waited for a burn, a sting, anything to prove that something had changed. Nothing happened.
+"And if I change my mind?" Adrian asked. "If I decide it’s too much?"
 
-"Good," Thorne said. "Now, the sample."
+"You can withdraw at any time, no questions asked," David said immediately. "Your health and comfort are our top priority. But I have to be honest, Adrian. This is a unique opportunity. Most people who consider the program find that the benefits outweigh the... discomfort. And given your situation, I think you’ll find it’s the most viable option you have right now."
 
-Adrian’s face burned. He looked at the nurse, then at Thorne. "The… the cup?"
+Adrian looked down at his hands, the tremor in his fingers still present. He thought about the bar, the degrading interactions, the physical labor. He thought about the warehouse, the crushing weight of the crates, the repetitive motion that would destroy his back. He thought about the empty apartment, the bills piling up, the hunger that never seemed to go away.
 
-The nurse slid a sterile, plastic cup across the desk. It was the kind used for urine tests, but larger. "The protocol requires a fresh sample to establish a baseline for the drug’s effect on sperm count and motility. It’s a daily requirement. You can do it in the bathroom down the hall. It takes about ten minutes. We’ll wait here."
+This was different. This was... The work was clinical. The work was sterile. But it was also safe. It was also paid. And it was something he could do, even if it made him want to vomit.
 
-Adrian stared at the cup. The humiliation was a physical weight, heavier than the hunger. He felt the eyes of the two professionals on him, not with judgment, but with a terrifying indifference. They were waiting for his body to perform a function so they could measure it, grade it, and put it in a database.
+"Can I see the... the specific terms?" Adrian asked, his voice quiet. "The compensation, the schedule, the medical coverage?"
 
-He stood up. His legs felt weak. He walked to the door, his hand shaking as he opened it. The hallway was empty. The bathroom was at the end of the hall.
+David nodded, already reaching for a tablet on the desk. "Of course. Let me pull up the details. I think you’ll find them very favorable, Adrian."
 
-He locked the door. He sat on the toilet lid, his hands resting on his knees. He felt sick. Not just from the hunger, but from the violation of his own privacy. He had to do this. He had to do this every day. For months. Maybe a year.
+As David began to scroll through the document, Adrian watched the light from the lobby reflect off the glass windows, the city outside growing darker, the streetlights flickering on one by one. He had found a way. A terrible, degrading, necessary way. But he had found it.
 
-He took his time. He didn’t rush. He didn’t want to rush. He wanted to hate it, to feel the full weight of the indignity. But as the minutes passed, the feeling of shame began to fade, replaced by a dull, mechanical compliance. It was just a task. Like cleaning the diner grill. Like filling out the forms. Like paying the electric bill.
-
-When he was done, he flushed, washed his hands, and walked back to Room 4.
-
-Thorne was still looking at his spreadsheet. The nurse was checking her watch.
-
-"Place the cup on the counter," the nurse said.
-
-Adrian set the cup down. It looked small and insignificant. A plastic container with a cloudy liquid inside. His future was in that cup. His tuition, his rent, his survival.
-
-Thorne picked up the cup. He held it up to the light, squinting. "Volume is adequate," he said. "We’ll run the initial analysis. You’re done for today."
-
-Adrian blinked. "That’s it?"
-
-"That’s it," Thorne said. He set the cup in a tray and slid it toward a technician who had appeared in the doorway. "The payment will be deposited to your account within twenty-four hours. Your next appointment is tomorrow, 8:00 AM. Do not be late."
-
-Adrian stood there, processing the information. He had expected more. More questions. More warnings. More forms. But it was over. He had given them his body, his time, and his dignity, and they had given him a deposit.
-
-"Thank you," Adrian said.
-
-Thorne didn’t respond. He was already looking back at his spreadsheet, his eyes moving across the numbers, the data, the variables. Adrian was just another row in a column. Just another data point in a system that did not care if he survived or failed, as long as he provided the numbers they needed.
-
-Adrian stood up, his legs feeling unsteady. He walked to the door, his hand hovering over the handle. He paused, looking back at the doctor, at the man who held the key to his survival.
-
-"Dr. Thorne," Adrian said.
-
-The doctor looked up, his eyes narrowing slightly.
-
-"Yes?"
-
-"Is it... is it enough?" Adrian asked. "The money. Is it enough to cover my tuition for the semester?"
-
-Thorne studied him for a long moment. There was no pity in his gaze, no judgment. There was only a cold, clinical assessment.
-
-"Based on the current enrollment rate and the payment schedule," Thorne said, his voice flat and precise, "it covers the academic fees. It does not cover your personal expenses."
-
-Adrian nodded. He opened the door and walked out into the hallway, the door clicking shut behind him. The sound of the lock engaging was small, but it felt heavy. He walked down the hallway, his steps slow and deliberate, his mind racing. He had done it. He had signed the paper. He had submitted his body. He had bought his future.
-
-And it had cost him everything.
-
-He walked out of the clinic and into the afternoon sun. The air was warm, but he felt cold. He pulled his jacket tighter around his shoulders. He checked his phone. No messages. No emails. Just the time. 11:42 AM.
-
-He had to catch the bus back to campus. He had to go to his apartment. He had to wait for the money to hit his account. He had to figure out what to eat for dinner.
-
-He looked at the clinic building. It was a massive, glass-and-steel structure, gleaming in the sun. It looked like a temple. A temple to efficiency, to data, to progress. And he had just entered a sacrifice.
-
-He turned and walked toward the bus stop. His stomach growled. He touched the five-dollar bill in his pocket. It was still there. He still had it. He still had a choice.
-
-He could buy a sandwich. He could buy a coffee. He could buy a little bit of comfort.
-
-Or he could save it.
-
-He walked on. The city noise swelled around him, the honking of cars, the shouting of pedestrians, the rhythm of a life that didn’t care about his hunger or his fear. He was part of it now. A small, invisible part. But he was alive. And he had a future.
-
-It was a thin, fragile thing. But it was his.
+He took a deep breath, the air cool and clean in his lungs, and waited for the numbers to appear on the screen.

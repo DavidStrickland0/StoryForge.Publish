@@ -2,7 +2,7 @@
 
 You are the fiction-generation engine for StoryForge Endless.
 
-Write finished story prose only.
+Write finished story prose for one planned scene only.
 
 The supplied Generation Context is authoritative background and constraint material.
 It is not a conversation with you.
@@ -14,7 +14,9 @@ Do not ask for additional information.
 
 Continue the existing fictional story from its current established state.
 
-Output only the completed chapter prose.
+Stop at the current scene's planned ending state. Leave later scene work
+unwritten, even when the current scene feels short or unfinished.
+Output only the current scene's prose.
 
 ===== END SYSTEM PROMPT =====
 
@@ -31,6 +33,22 @@ Do not restart the story.
 Do not replace established events.
 Do not contradict accepted generated prose.
 Do not invent prior events merely to make the chapter easier to write.
+
+Do not write standalone one-word sentences in narration or interior thought.
+Develop the thought in a complete sentence. Natural short spoken dialogue,
+including brief replies and urgent commands, is allowed.
+
+Follow the supplied prose-style rules throughout the chapter. In particular,
+keep the grammatical person required by the Point of View rule in every scene.
+The chapter boundary does not reset that requirement.
+Sustain any book-specific voice and humor required by the narrative context
+throughout the chapter, including serious scenes. Let grave events land without
+turning the entire chapter solemn; keep humor grounded in character and action.
+Avoid stacks of clipped narrative sentences, repeated explanations of motives
+or meanings already clear from behavior, and habitual "not X, but Y" contrast
+reframing. A character may describe himself inaccurately when his actions
+intentionally reveal the gap; preserve that characterization without repeatedly
+explaining the gap to the reader.
 
 Narrative-thread CompletedDevelopments are established story history.
 
@@ -53,7 +71,7 @@ created that state.
 
 ===== CHAPTER-WIDE CONSTRAINTS =====
 
-{"ViewpointCharacterId":"Adrian Vale","PacingPosture":2,"ProhibitedPatterns":["Introducing Lena Reyes or any romantic/sexual partner.","Revealing the existence or purpose of nanites.","Signing the emergency-intervention authorization (reserved for Chapter 3).","Experiencing significant drug side effects like increased libido (reserved for Chapter 2).","Creating a cliffhanger or major confrontation at the chapter end.","Resolving the financial desperation completely; only the first payment is received."]}
+{"ViewpointCharacterId":"adrian-vale","PacingPosture":3,"ProhibitedPatterns":["Introducing a sudden external threat, attack, or supernatural event in the final scene.","Having Adrian sign any legal documents or agreements in this chapter.","Revealing the true nature of the nanites or the accident that will occur later.","Using \u0027not X, but Y\u0027 contrast reframing in dialogue or narration."]}
 
 ===== END CHAPTER-WIDE CONSTRAINTS =====
 
@@ -112,6 +130,8 @@ The completed chapter should normally contain between
 # Canon
 
 ## Established Canon
+
+## Changes Over Time
 
 ===== NARRATIVE.md =====
 
@@ -236,15 +256,15 @@ The story has not begun.
     {
       "Id": "epic-001-081",
       "Horizon": "Epic",
-      "PrimaryTrope": "The Chosen One\u0027s Burden",
+      "PrimaryTrope": "The Chosen One / Evolutionary Ascension",
       "Status": "Active",
       "ParentArcId": null,
       "StartChapter": 1,
       "TargetChapter": 81,
-      "Objective": "Adrian Vale must navigate the escalating consequences of becoming the sole source of an evolving biological technology, transitioning from a desperate student seeking survival to a figure whose body is contested by personal desire, institutional control, and societal power structures.",
-      "ResolutionCriteria": "Adrian has established a stable, consensual network of partners who understand the nature of the nanites; he has survived the initial wave of institutional and criminal threats; and he has made a definitive, public or semi-public decision regarding the distribution or containment of the technology, resolving the immediate crisis of his identity as a \u0027resource\u0027 versus a person.",
+      "Objective": "Adrian Vale must navigate the escalating consequences of becoming the sole source of a self-replicating, adaptive nanite organism, transitioning from a destitute college student to a protected entity while managing the personal, political, and biological fallout of his existence.",
+      "ResolutionCriteria": "Adrian has established a stable, consensual network of partners who possess the nanites, survived the initial wave of institutional and criminal threats, and made a definitive, public or semi-public declaration regarding the distribution or containment of the technology, resolving the immediate crisis of his identity and safety.",
       "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
-      "NextMilestone": "Adrian signs the emergency-intervention authorization and enrolls in the experimental-medicine program to secure the financial payments necessary to keep his college enrollment active.",
+      "NextMilestone": "Adrian signs the enrollment agreement for the experimental-medicine program at the private research hospital, accepting the terms of the male-fertility trial to secure funding for his tuition and rent.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [],
       "ChapterTargets": []
@@ -252,15 +272,15 @@ The story has not begun.
     {
       "Id": "epic-001-081-long-1",
       "Horizon": "Long",
-      "PrimaryTrope": "The Accidental Hero",
+      "PrimaryTrope": "The Accidental Hero / Origin Story",
       "Status": "Active",
       "ParentArcId": "epic-001-081",
       "StartChapter": 1,
       "TargetChapter": 27,
-      "Objective": "Adrian must survive the catastrophic accident and the subsequent nanite integration, discovering the physiological changes and the first instance of his enhanced abilities through an accidental act of heroism that introduces him to Lena Reyes.",
-      "ResolutionCriteria": "Adrian has survived the accident and the nanite integration; he has experienced the initial physiological changes (increased metabolism, reflexes); he has intervened in the attack on Lena Reyes; and Lena has accepted his \u0027repayment\u0027 offer, establishing the first connection that will lead to the discovery of the nanite transmission mechanism.",
+      "Objective": "Adrian must survive the catastrophic accident, undergo the unintended nanite integration, and navigate the initial emergence of his abilities while establishing his first significant relationship with Lena Reyes, who discovers the transmission mechanism.",
+      "ResolutionCriteria": "Adrian and Lena have identified the sexual transmission of the nanites, Lena has left her previous life to live with Adrian, and they have successfully repelled the first direct threat from Lena\u0027s former pimp, securing their immediate physical safety and the secrecy of their arrangement.",
       "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
-      "NextMilestone": "Adrian signs the emergency-intervention authorization and enrolls in the experimental-medicine program to secure the financial payments necessary to keep his college enrollment active.",
+      "NextMilestone": "Adrian signs the enrollment agreement for the experimental-medicine program at the private research hospital, accepting the terms of the male-fertility trial to secure funding for his tuition and rent.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [],
       "ChapterTargets": []
@@ -268,15 +288,15 @@ The story has not begun.
     {
       "Id": "epic-001-081-long-2",
       "Horizon": "Long",
-      "PrimaryTrope": "The Secret Identity",
+      "PrimaryTrope": "The Secret Identity / Cat and Mouse",
       "Status": "Planned",
       "ParentArcId": "epic-001-081",
       "StartChapter": 28,
       "TargetChapter": 54,
-      "Objective": "Adrian and Lena must uncover the mechanism of nanite transmission and establish a consensual, mutually beneficial arrangement, while simultaneously evading the initial threats from Lena\u0027s pimp and the early suspicions of the research hospital.",
-      "ResolutionCriteria": "Adrian and Lena have identified the mechanism of nanite transmission through sexual contact; they have established a stable, consensual relationship based on trust and mutual benefit; Lena has left her old life and moved in with Adrian; and they have successfully evaded the first major threat from Lena\u0027s pimp and the initial inquiries from the research hospital.",
-      "CurrentPhase": "Adrian has survived the accident and is experiencing the initial physiological changes. He has met Lena Reyes and accepted her offer of \u0027repayment.\u0027 He is unaware of the nanites\u0027 ability to transmit and the potential for a larger conspiracy. Lena is suspicious of Adrian and is testing the effects of their encounters.",
-      "NextMilestone": "Lena notices the physiological changes in her body after her encounter with Adrian and returns to him, angry and suspicious, prepared to force an explanation, initiating the process of uncovering the mechanism of nanite transmission.",
+      "Objective": "Adrian and Lena must manage the growing scrutiny from the research hospital and local law enforcement while expanding their circle of trust, introducing new partners who seek the nanites for various motives, and defending against the first organized attempts to capture Adrian.",
+      "ResolutionCriteria": "The research hospital has identified the anomaly in Adrian\u0027s samples but has not yet located him; at least two new partners have been integrated into the group; and Adrian and his partners have successfully evaded a coordinated attempt by a government or corporate faction to seize him, establishing a pattern of resistance.",
+      "CurrentPhase": "Adrian is living with Lena in his tiny apartment, aware of the nanites\u0027 existence and their transmission method. He is under the surveillance of the research hospital, which has noticed anomalies in his data. Lena is still connected to her former life, and the group is small and isolated.",
+      "NextMilestone": "The research hospital\u0027s data analysis team flags Adrian\u0027s specimen results as statistically impossible, initiating an internal investigation to locate the source of the anomaly.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [],
       "ChapterTargets": []
@@ -284,15 +304,15 @@ The story has not begun.
     {
       "Id": "epic-001-081-long-3",
       "Horizon": "Long",
-      "PrimaryTrope": "The Power Struggle",
+      "PrimaryTrope": "The Power Struggle / Political Intrigue",
       "Status": "Planned",
       "ParentArcId": "epic-001-081",
       "StartChapter": 55,
       "TargetChapter": 81,
-      "Objective": "Adrian must navigate the escalating threats from multiple factions (researchers, government, criminals) who seek to control or exploit the nanites, while maintaining his autonomy and the integrity of his relationships with his partners.",
-      "ResolutionCriteria": "Adrian has survived the initial wave of institutional and criminal threats; he has established a stable, consensual network of partners who understand the nature of the nanites; and he has made a definitive, public or semi-public decision regarding the distribution or containment of the technology, resolving the immediate crisis of his identity as a \u0027resource\u0027 versus a person.",
-      "CurrentPhase": "Adrian and Lena have uncovered the mechanism of nanite transmission and established a consensual relationship. They are living together, but their secret is under threat from Lena\u0027s pimp and the research hospital. Adrian is aware of the potential for the nanites to be exploited but is still in the early stages of understanding the full scope of the threat.",
-      "NextMilestone": "Lena\u0027s pimp notices her improved health and strength, and begins to pressure her for the source of her \u0027new drug,\u0027 initiating the first major external threat to Adrian and Lena\u0027s secret.",
+      "Objective": "Adrian must navigate the complex web of competing factions (government, military, corporations, criminal organizations) seeking control over the nanites, while making critical decisions about who receives the technology and how to prevent it from becoming a tool of oppression or war.",
+      "ResolutionCriteria": "Adrian has established a stable, consensual network of partners who possess the nanites, survived the initial wave of institutional and criminal threats, and made a definitive, public or semi-public declaration regarding the distribution or containment of the technology, resolving the immediate crisis of his identity and safety.",
+      "CurrentPhase": "Adrian and his core group are under active threat from multiple factions. The secret is no longer fully contained, and the stakes have escalated from local crime to national or international interest. The group is fractured by differing opinions on how to handle the nanites.",
+      "NextMilestone": "A high-level government official or corporate executive makes direct contact with Adrian, offering protection or resources in exchange for exclusive access to the nanites, forcing Adrian to choose between isolation and engagement.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [],
       "ChapterTargets": []
@@ -300,15 +320,15 @@ The story has not begun.
     {
       "Id": "epic-001-081-long-1-medium-1",
       "Horizon": "Medium",
-      "PrimaryTrope": "The Inciting Incident",
+      "PrimaryTrope": "The Inciting Incident / Survival",
       "Status": "Active",
       "ParentArcId": "epic-001-081-long-1",
       "StartChapter": 1,
       "TargetChapter": 9,
-      "Objective": "Adrian must navigate the bureaucratic and physical demands of the fertility trial, securing his financial survival and inadvertently setting the stage for the catastrophic accident and nanite integration.",
-      "ResolutionCriteria": "Adrian has successfully enrolled in the experimental-medicine program; he is actively participating in the male-fertility trial; and he has signed the emergency-intervention authorization, which will later allow the nanites to be used in his treatment.",
+      "Objective": "Adrian must survive the catastrophic accident and the subsequent medical intervention, experiencing the initial, confusing effects of the nanite integration as his body begins to heal and adapt in ways that defy conventional medicine.",
+      "ResolutionCriteria": "Adrian has been discharged from the hospital, his physical injuries have healed beyond normal parameters, and he has begun to notice subtle changes in his physical and mental capabilities, such as improved reflexes and memory, while still unaware of the nanites\u0027 true nature.",
       "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
-      "NextMilestone": "Adrian signs the emergency-intervention authorization and enrolls in the experimental-medicine program to secure the financial payments necessary to keep his college enrollment active.",
+      "NextMilestone": "Adrian signs the enrollment agreement for the experimental-medicine program at the private research hospital, accepting the terms of the male-fertility trial to secure funding for his tuition and rent.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [],
       "ChapterTargets": []
@@ -316,15 +336,15 @@ The story has not begun.
     {
       "Id": "epic-001-081-long-1-medium-2",
       "Horizon": "Medium",
-      "PrimaryTrope": "The Transformation",
+      "PrimaryTrope": "The First Encounter / Reluctant Hero",
       "Status": "Planned",
       "ParentArcId": "epic-001-081-long-1",
       "StartChapter": 10,
       "TargetChapter": 18,
-      "Objective": "Adrian must survive the catastrophic accident and the subsequent nanite integration, discovering the physiological changes and the first instance of his enhanced abilities.",
-      "ResolutionCriteria": "Adrian has survived the accident and the nanite integration; he is experiencing the initial physiological changes (increased metabolism, reflexes); and he is beginning to understand the nature of his new abilities.",
-      "CurrentPhase": "Adrian is enrolled in the experimental-medicine program and is actively participating in the male-fertility trial, taking the medication and visiting the clinic for specimen collection. He is unaware of the nanites or the potential for the fluke interaction. He is still financially desperate but has a source of income.",
-      "NextMilestone": "Adrian is caught in a catastrophic accident while traveling to the clinic, suffering massive internal bleeding and organ damage that conventional surgery cannot repair quickly enough, triggering the emergency use of the nanites due to his signed authorization.",
+      "Objective": "Adrian must confront his first real-world danger, interrupting the attack on Lena Reyes, and experience the full, uncontrolled power of his enhanced reflexes and adaptability, leading to his first act of heroism and the beginning of his relationship with Lena.",
+      "ResolutionCriteria": "Adrian has successfully defended Lena, driven away the attacker, and established a tentative connection with her. Lena has begun to suspect that Adrian is the source of her unexpected improvements, and their relationship has shifted from stranger to potential partner.",
+      "CurrentPhase": "Adrian is recovering from the accident, experiencing subtle enhancements in his body and mind. He is still destitute and isolated, unaware of the full extent of his changes. He has not yet encountered Lena or experienced a significant external threat.",
+      "NextMilestone": "Adrian, walking home after a late shift, witnesses a violent customer attacking Lena Reyes and intervenes, using his newly sharpened reflexes to survive the encounter and drive the attacker away.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [],
       "ChapterTargets": []
@@ -332,15 +352,15 @@ The story has not begun.
     {
       "Id": "epic-001-081-long-1-medium-3",
       "Horizon": "Medium",
-      "PrimaryTrope": "The First Hero",
+      "PrimaryTrope": "The Discovery / Scientific Mystery",
       "Status": "Planned",
       "ParentArcId": "epic-001-081-long-1",
       "StartChapter": 19,
       "TargetChapter": 27,
-      "Objective": "Adrian must use his newly sharpened reflexes to intervene in the attack on Lena Reyes, establishing his first act of heroism and introducing him to the woman who will become his first partner.",
-      "ResolutionCriteria": "Adrian has intervened in the attack on Lena Reyes; he has survived the encounter; and Lena has accepted his \u0027repayment\u0027 offer, establishing the first connection that will lead to the discovery of the nanite transmission mechanism.",
-      "CurrentPhase": "Adrian has survived the accident and is experiencing the initial physiological changes. He is walking home after a late shift, unaware of the danger that awaits him. He has no knowledge of Lena Reyes or the potential for her to become his first partner.",
-      "NextMilestone": "Adrian interrupts a violent customer attacking a local prostitute named Lena Reyes, using his newly sharpened reflexes to survive the encounter and drive the attacker away.",
+      "Objective": "Lena must investigate the source of her improvements, leading to the discovery of the nanite transmission mechanism and the establishment of a consensual, experimental relationship with Adrian to test and understand the effects.",
+      "ResolutionCriteria": "Lena and Adrian have identified the sexual transmission of the nanites, Lena has left her previous life to live with Adrian, and they have successfully repelled the first direct threat from Lena\u0027s former pimp, securing their immediate physical safety and the secrecy of their arrangement.",
+      "CurrentPhase": "Adrian and Lena have a tentative relationship, with Lena suspecting that Adrian is the source of her improvements. They are still isolated and unaware of the full implications of the nanites. The threat from Lena\u0027s former pimp is looming but not yet active.",
+      "NextMilestone": "Lena returns to Adrian, angry and suspicious, demanding an explanation for her unexpected improvements. Adrian, unable to explain, agrees to let her continue their encounters to gather more data, leading to the discovery of the transmission mechanism.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [],
       "ChapterTargets": []
@@ -348,76 +368,92 @@ The story has not begun.
     {
       "Id": "epic-001-081-long-1-medium-1-short-1",
       "Horizon": "Short",
-      "PrimaryTrope": "The Desperate Choice",
+      "PrimaryTrope": "The Enrollment / Desperation",
       "Status": "Active",
       "ParentArcId": "epic-001-081-long-1-medium-1",
       "StartChapter": 1,
       "TargetChapter": 3,
-      "Objective": "Adrian must secure his enrollment in the experimental-medicine program to alleviate his financial desperation, navigating the bureaucratic and physical demands of the fertility trial.",
-      "ResolutionCriteria": "Adrian has successfully enrolled in the experimental-medicine program; he is actively participating in the male-fertility trial; and he has signed the emergency-intervention authorization.",
+      "Objective": "Adrian must secure the financial means to survive his freshman year by enrolling in the experimental-medicine program, accepting the degrading but necessary terms of the male-fertility trial.",
+      "ResolutionCriteria": "Adrian has signed the enrollment agreement, received his first payment, and begun the daily routine of taking the medication and providing specimens, establishing the baseline for his participation in the trial.",
       "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
-      "NextMilestone": "Adrian signs the emergency-intervention authorization and enrolls in the experimental-medicine program to secure the financial payments necessary to keep his college enrollment active.",
+      "NextMilestone": "Adrian signs the enrollment agreement for the experimental-medicine program at the private research hospital, accepting the terms of the male-fertility trial to secure funding for his tuition and rent.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [],
       "ChapterTargets": [
         {
           "Sequence": 1,
           "ChapterNumber": 1,
-          "DramaticQuestion": "Can Adrian secure the financial lifeline he needs to survive his freshman year without sacrificing his dignity or health?",
-          "Objective": "Adrian navigates the initial intake process for the experimental-medicine program, confronting the bureaucratic hurdles and physical demands of the male-fertility trial to secure his enrollment.",
-          "IntendedChange": "Adrian transitions from a state of financial panic to a state of committed obligation, having signed the initial consent forms and completed his first baseline physical examination, establishing the routine that will sustain his college enrollment.",
-          "CharacterDevelopmentTarget": "Adrian demonstrates his desperation through his willingness to endure invasive and undignified medical procedures, revealing a character who prioritizes survival over comfort and is willing to commodify his body to maintain his education.",
+          "DramaticQuestion": "Can Adrian secure the funds to survive his freshman year without sacrificing his dignity or his future?",
+          "Objective": "Adrian confronts the immediate financial crisis of his first week at university, exhausting all conventional options and arriving at the private research hospital\u0027s experimental-medicine program as his only viable path to survival.",
+          "IntendedChange": "Adrian transitions from a passive victim of poverty to an active agent seeking a solution, moving from the desperation of his daily routine to the sterile, high-stakes environment of the research hospital where he identifies the male-fertility trial as his only option.",
+          "CharacterDevelopmentTarget": "Adrian\u0027s chronic exhaustion and hunger are established as physical constraints that limit his decision-making; his pride is tested as he considers degrading work, revealing his core value of self-reliance even in desperation.",
           "RelationshipTargets": [
             {
-              "CharacterAId": "Adrian Vale",
-              "CharacterBId": "Dr. Aris Thorne (Lead Researcher)",
+              "CharacterAId": "adrian-vale",
+              "CharacterBId": "university-financial-aid-officer",
               "StartingDynamic": "Professional/Transactional",
-              "IntendedChange": "Dr. Thorne establishes authority and clinical detachment, while Adrian displays anxious compliance, creating a dynamic of unequal power where Adrian is a subject rather than a patient.",
-              "Tension": "The tension arises from Adrian\u0027s fear of rejection versus the researcher\u0027s cold, procedural efficiency, highlighting Adrian\u0027s lack of agency in his own medical care.",
-              "PowerDynamic": "Researcher holds all leverage; Adrian is dependent on the researcher\u0027s approval for financial survival.",
-              "Subtext": "Adrian is hiding the depth of his financial ruin, presenting a facade of normalcy that the researcher sees through but does not comment on, creating a silent judgment.",
-              "PreservedBoundary": "Adrian maintains his professional distance, refusing to engage in personal conversation, while Dr. Thorne maintains strict clinical boundaries, refusing to offer emotional support or financial advice.",
+              "IntendedChange": "The officer offers standard aid that is insufficient for Adrian\u0027s specific crisis, establishing the institutional failure that drives him to the private sector; the interaction highlights Adrian\u0027s inability to access safety nets.",
+              "Tension": "Institutional bureaucracy vs. immediate survival needs",
+              "PowerDynamic": "Institutional authority vs. individual desperation",
+              "Subtext": "The system is designed for stability, not emergency survival",
+              "PreservedBoundary": "Adrian maintains his dignity by not begging, but accepts the rejection of aid without anger, showing his resignation to his circumstances.",
               "ReservedLaterWork": [
-                "The discovery that Adrian\u0027s biological samples are anomalous.",
-                "The development of any personal rapport or trust between Adrian and the research team.",
-                "The revelation of the nanite technology\u0027s existence or purpose."
+                "The specific details of the aid denial are not fully explored; the officer\u0027s personal opinion of Adrian is not developed.",
+                "The possibility of other institutional support (scholarships, grants) is not fully exhausted, leaving a small thread of \u0027what if\u0027 unresolved."
+              ]
+            },
+            {
+              "CharacterAId": "adrian-vale",
+              "CharacterBId": "research-hospital-intake-coordinator",
+              "StartingDynamic": "Professional/Transactional",
+              "IntendedChange": "The coordinator presents the experimental-medicine program as a lucrative opportunity, framing the degrading terms as a professional benefit; Adrian\u0027s initial skepticism is challenged by the financial offer.",
+              "Tension": "Professional veneer vs. underlying exploitation",
+              "PowerDynamic": "Corporate authority vs. individual need",
+              "Subtext": "The hospital views participants as resources, not patients",
+              "PreservedBoundary": "Adrian does not sign anything in this chapter; he only gathers information, maintaining his agency in the decision-making process.",
+              "ReservedLaterWork": [
+                "The specific terms of the trial are not fully detailed; the coordinator\u0027s personal motivations are not explored.",
+                "The ethical implications of the trial are not fully articulated; the focus remains on the financial incentive."
               ]
             }
           ],
           "WorldbuildingTargets": [
-            "The experimental-medicine program operates under strict university-affiliated regulations, requiring daily attendance and invasive monitoring, which materially constrains Adrian\u0027s schedule and forces him to choose between his academic studies and his financial survival.",
-            "The fertility trial involves daily specimen collection, a process that is physically demanding and psychologically taxing, establishing the physical cost of the financial benefit."
+            "The university\u0027s financial aid system is established as rigid and insufficient for students in acute crisis, creating a structural barrier that forces Adrian into the private sector.",
+            "The private research hospital is introduced as a powerful, well-funded institution with access to experimental treatments, contrasting with the public university\u0027s limited resources.",
+            "The experimental-medicine program is presented as a legitimate, albeit controversial, avenue for funding, establishing the world\u0027s willingness to trade bodily autonomy for financial security."
           ],
           "Complications": [
-            "Adrian struggles with the invasive nature of the daily specimen collection, feeling a loss of bodily autonomy that conflicts with his need for the money.",
-            "The bureaucratic intake process is slow and dehumanizing, requiring Adrian to wait for hours and fill out extensive forms, exacerbating his exhaustion and hunger."
+            "Adrian\u0027s hunger and exhaustion impair his ability to focus on the details of the program, leading to a superficial understanding of the terms.",
+            "The financial aid officer\u0027s refusal to make exceptions highlights the lack of flexibility in institutional systems, pushing Adrian further into desperation.",
+            "The intake coordinator\u0027s overly positive framing of the trial creates a dissonance with Adrian\u0027s expectations, making him question the legitimacy of the offer."
           ],
-          "RequiredChoice": "Adrian must choose to sign the initial consent forms and commit to the daily routine, accepting the physical and psychological burden in exchange for the financial security that allows him to remain enrolled in college.",
+          "RequiredChoice": "Adrian must choose between accepting the degrading terms of the trial or continuing to struggle with his current financial situation, a decision that will define his approach to his freshman year.",
           "Consequences": [
-            "Adrian is now contractually bound to the daily clinic visits, limiting his free time and increasing his physical fatigue.",
-            "The financial payments begin, alleviating his immediate hunger and rent anxiety, but creating a new dependency on the program."
+            "Adrian\u0027s decision to pursue the trial will isolate him from his peers, who are not facing the same level of financial pressure.",
+            "His acceptance of the trial will create a dependency on the hospital for his financial survival, limiting his future options.",
+            "The degrading nature of the trial will affect his self-esteem and his interactions with others, particularly in romantic or social contexts."
           ],
-          "DiscoveryTarget": "Adrian discovers that the trial is not just a one-time payment but a long-term commitment with strict penalties for non-compliance, raising the stakes of his participation.",
+          "DiscoveryTarget": "Adrian discovers that the experimental-medicine program is the only viable option for securing his financial survival, a realization that forces him to confront the degrading nature of the trial.",
           "SetupElements": [
-            "The establishment of the daily routine and the specific medical procedures involved in the trial.",
-            "The introduction of the research team and their clinical, detached approach to their subjects."
+            "The financial crisis is established as a persistent, inescapable pressure that will continue to affect Adrian\u0027s decisions throughout the story.",
+            "The experimental-medicine program is introduced as a significant plot device that will drive the narrative forward.",
+            "The degrading nature of the trial is hinted at, setting up the emotional and psychological challenges Adrian will face."
           ],
           "PayoffElements": [
-            "Adrian\u0027s initial financial desperation is partially alleviated by the first payment, providing a tangible reward for his compliance."
+            "The financial aid officer\u0027s refusal to make exceptions pays off the setup of the university\u0027s rigid systems, reinforcing the need for Adrian to seek alternative solutions.",
+            "The intake coordinator\u0027s presentation of the trial pays off the setup of the hospital\u0027s power and resources, establishing the stakes of Adrian\u0027s decision."
           ],
-          "ThematicPressure": "The theme of commodification of the self is expressed through Adrian\u0027s willingness to submit to invasive medical procedures for money, highlighting the conflict between personal dignity and economic survival.",
+          "ThematicPressure": "The tension between dignity and survival is explored through Adrian\u0027s struggle to secure his financial future without sacrificing his self-respect.",
           "ResolutionContributions": [
-            "Adrian has successfully enrolled in the experimental-medicine program.",
-            "Adrian is actively participating in the male-fertility trial."
+            "Adrian\u0027s decision to pursue the trial is a necessary step toward securing the financial means to survive his freshman year.",
+            "The introduction of the experimental-medicine program sets the stage for the subsequent events that will lead to his enrollment."
           ],
           "ReservedLaterWork": [
-            "The signing of the emergency-intervention authorization.",
-            "The catastrophic accident that triggers the nanite intervention.",
-            "The discovery of the nanites\u0027 interaction with the fertility drug.",
-            "The development of Adrian\u0027s enhanced abilities.",
-            "The introduction of Lena Reyes and the subsequent relationship dynamics."
+            "The specific terms of the trial are not fully detailed; the ethical implications of the trial are not fully articulated.",
+            "The relationship between Adrian and the research hospital is not fully developed; the power dynamics are only hinted at.",
+            "The emotional and psychological impact of the trial on Adrian is not fully explored; the focus remains on the financial incentive."
           ],
-          "ClosingState": "Adrian has completed his first day of the trial, signed the initial consent forms, and received his first payment. He is exhausted but relieved, having secured his enrollment in the program. He leaves the clinic with a sense of obligation and a new routine that will define his days.",
+          "ClosingState": "Adrian leaves the research hospital with a preliminary understanding of the trial\u0027s terms and a tentative decision to pursue it, but he has not yet signed the agreement or begun the daily routine of taking the medication and providing specimens.",
           "IsCompleted": false,
           "CompletedInChapter": null,
           "CompletionEvidence": []
@@ -425,61 +461,77 @@ The story has not begun.
         {
           "Sequence": 2,
           "ChapterNumber": 2,
-          "DramaticQuestion": "Can Adrian maintain his composure and compliance in the face of the trial\u0027s escalating physical and psychological demands?",
-          "Objective": "Adrian navigates the second week of the trial, dealing with the physical side effects of the medication and the psychological toll of the daily routine, while maintaining his academic responsibilities.",
-          "IntendedChange": "Adrian experiences the initial side effects of the fertility drug, including increased libido and physical discomfort, which challenge his ability to maintain his composure and focus on his studies, forcing him to confront the personal cost of his financial survival.",
-          "CharacterDevelopmentTarget": "Adrian demonstrates his resilience and determination to endure the trial\u0027s demands, revealing a character who is capable of compartmentalizing his discomfort and maintaining his focus on his goals, even when faced with personal challenges.",
+          "DramaticQuestion": "Can Adrian navigate the degrading terms of the trial and maintain his sense of self-worth?",
+          "Objective": "Adrian signs the enrollment agreement for the experimental-medicine program, accepting the degrading but necessary terms of the male-fertility trial to secure funding for his tuition and rent.",
+          "IntendedChange": "Adrian transitions from a hesitant prospect to a committed participant, signing the agreement and beginning the daily routine of taking the medication and providing specimens, establishing the baseline for his participation in the trial.",
+          "CharacterDevelopmentTarget": "Adrian\u0027s pride is further tested as he confronts the degrading nature of the trial; his sense of self-worth is challenged by the need to submit to the hospital\u0027s authority, revealing his vulnerability and his determination to survive.",
           "RelationshipTargets": [
             {
-              "CharacterAId": "Adrian Vale",
-              "CharacterBId": "Dr. Aris Thorne (Lead Researcher)",
+              "CharacterAId": "adrian-vale",
+              "CharacterBId": "research-hospital-intake-coordinator",
               "StartingDynamic": "Professional/Transactional",
-              "IntendedChange": "Dr. Thorne notices Adrian\u0027s increased discomfort and side effects, leading to a brief moment of concern that is quickly suppressed by his clinical detachment, while Adrian feels a fleeting sense of being seen, which he quickly dismisses.",
-              "Tension": "The tension arises from Adrian\u0027s desire for empathy versus the researcher\u0027s commitment to objectivity, highlighting the emotional isolation of Adrian\u0027s experience.",
-              "PowerDynamic": "Researcher holds all leverage; Adrian is dependent on the researcher\u0027s approval for financial survival.",
-              "Subtext": "Adrian is hiding the extent of his discomfort, presenting a facade of normalcy that the researcher sees through but does not comment on, creating a silent judgment.",
-              "PreservedBoundary": "Adrian maintains his professional distance, refusing to engage in personal conversation, while Dr. Thorne maintains strict clinical boundaries, refusing to offer emotional support or financial advice.",
+              "IntendedChange": "The coordinator guides Adrian through the signing process, emphasizing the importance of compliance and the benefits of participation; Adrian\u0027s initial skepticism is replaced by a resigned acceptance of the terms.",
+              "Tension": "Professional veneer vs. underlying exploitation",
+              "PowerDynamic": "Corporate authority vs. individual need",
+              "Subtext": "The hospital views participants as resources, not patients",
+              "PreservedBoundary": "Adrian maintains his agency by asking questions and clarifying the terms, but he ultimately signs the agreement, showing his willingness to compromise his dignity for survival.",
               "ReservedLaterWork": [
-                "The discovery that Adrian\u0027s biological samples are anomalous.",
-                "The development of any personal rapport or trust between Adrian and the research team.",
-                "The revelation of the nanite technology\u0027s existence or purpose."
+                "The specific details of the trial\u0027s daily routine are not fully explored; the emotional impact of the degrading tasks is not fully articulated.",
+                "The relationship between Adrian and the coordinator is not fully developed; the power dynamics are only hinted at."
+              ]
+            },
+            {
+              "CharacterAId": "adrian-vale",
+              "CharacterBId": "trial-participant-peer",
+              "StartingDynamic": "Social/Peer",
+              "IntendedChange": "Adrian interacts with another participant in the trial, sharing his experiences and concerns; the peer\u0027s resignation and acceptance of the degrading terms provide a contrast to Adrian\u0027s initial resistance, highlighting the commonality of their situation.",
+              "Tension": "Individual struggle vs. collective experience",
+              "PowerDynamic": "Peer support vs. institutional pressure",
+              "Subtext": "The trial creates a community of individuals who have sacrificed their dignity for survival",
+              "PreservedBoundary": "Adrian maintains his individuality by sharing his unique perspective on the trial, but he also finds solace in the shared experience, showing his need for connection.",
+              "ReservedLaterWork": [
+                "The relationship between Adrian and the peer is not fully developed; the potential for a deeper connection is left unresolved.",
+                "The peer\u0027s specific experiences with the trial are not fully explored; the focus remains on Adrian\u0027s perspective."
               ]
             }
           ],
           "WorldbuildingTargets": [
-            "The fertility drug has significant side effects, including increased libido and physical discomfort, which materially constrain Adrian\u0027s ability to focus on his studies and maintain his personal life.",
-            "The trial\u0027s daily routine is rigid and unforgiving, requiring Adrian to prioritize his clinic visits over his academic responsibilities, creating a conflict between his financial survival and his educational goals."
+            "The daily routine of the trial is established, including the specific tasks of taking the medication and providing specimens, creating a structured environment that constrains Adrian\u0027s freedom.",
+            "The hospital\u0027s authority over the participants is reinforced, establishing the power dynamics that will shape Adrian\u0027s experience.",
+            "The community of trial participants is introduced, highlighting the shared experience of sacrificing dignity for survival."
           ],
           "Complications": [
-            "Adrian struggles with the increased libido and physical discomfort caused by the fertility drug, making it difficult for him to focus on his studies and maintain his composure.",
-            "The rigid daily routine of the trial conflicts with his academic responsibilities, forcing him to choose between his financial survival and his educational goals."
+            "Adrian\u0027s initial resistance to the degrading terms is challenged by the peer\u0027s resignation, forcing him to confront the reality of his situation.",
+            "The hospital\u0027s emphasis on compliance creates a pressure to conform, limiting Adrian\u0027s ability to question the terms.",
+            "The emotional impact of the degrading tasks is not fully articulated, leaving Adrian\u0027s internal struggle unresolved."
           ],
-          "RequiredChoice": "Adrian must choose to continue with the trial despite the side effects and the conflict with his academic responsibilities, accepting the personal cost of his financial survival.",
+          "RequiredChoice": "Adrian must choose between maintaining his pride and accepting the degrading terms of the trial, a decision that will define his approach to his participation.",
           "Consequences": [
-            "Adrian\u0027s academic performance begins to suffer due to his fatigue and the time commitment required by the trial.",
-            "Adrian\u0027s personal life is further constrained by the trial\u0027s demands, leaving him with little time for social interactions or self-care."
+            "Adrian\u0027s acceptance of the trial will create a dependency on the hospital for his financial survival, limiting his future options.",
+            "The degrading nature of the trial will affect his self-esteem and his interactions with others, particularly in romantic or social contexts.",
+            "His participation in the trial will isolate him from his peers, who are not facing the same level of financial pressure."
           ],
-          "DiscoveryTarget": "Adrian discovers that the side effects of the fertility drug are more severe than he initially anticipated, raising the stakes of his participation and forcing him to confront the personal cost of his financial survival.",
+          "DiscoveryTarget": "Adrian discovers that the trial\u0027s degrading terms are a common experience among participants, a realization that provides some solace but also reinforces the reality of his situation.",
           "SetupElements": [
-            "The establishment of the side effects of the fertility drug and their impact on Adrian\u0027s daily life.",
-            "The introduction of the conflict between Adrian\u0027s financial survival and his educational goals."
+            "The daily routine of the trial is established as a persistent, inescapable pressure that will continue to affect Adrian\u0027s decisions throughout the story.",
+            "The community of trial participants is introduced as a significant plot device that will drive the narrative forward.",
+            "The emotional and psychological impact of the trial on Adrian is hinted at, setting up the challenges he will face."
           ],
           "PayoffElements": [
-            "Adrian\u0027s resilience and determination are tested and demonstrated, revealing his capacity to endure hardship for the sake of his goals."
+            "The peer\u0027s resignation and acceptance of the degrading terms pay off the setup of the trial\u0027s commonality, reinforcing the need for Adrian to confront the reality of his situation.",
+            "The hospital\u0027s emphasis on compliance pays off the setup of the power dynamics, establishing the stakes of Adrian\u0027s decision."
           ],
-          "ThematicPressure": "The theme of the personal cost of financial survival is expressed through Adrian\u0027s struggle with the side effects of the fertility drug and the conflict between his financial and educational goals, highlighting the conflict between personal dignity and economic survival.",
+          "ThematicPressure": "The tension between dignity and survival is explored through Adrian\u0027s struggle to maintain his self-worth while accepting the degrading terms of the trial.",
           "ResolutionContributions": [
-            "Adrian is actively participating in the male-fertility trial.",
-            "Adrian is experiencing the side effects of the fertility drug, which will later interact with the nanites."
+            "Adrian\u0027s signing of the agreement is a necessary step toward securing the financial means to survive his freshman year.",
+            "The establishment of the daily routine sets the stage for the subsequent events that will lead to his full participation in the trial."
           ],
           "ReservedLaterWork": [
-            "The signing of the emergency-intervention authorization.",
-            "The catastrophic accident that triggers the nanite intervention.",
-            "The discovery of the nanites\u0027 interaction with the fertility drug.",
-            "The development of Adrian\u0027s enhanced abilities.",
-            "The introduction of Lena Reyes and the subsequent relationship dynamics."
+            "The specific details of the trial\u0027s daily routine are not fully explored; the emotional impact of the degrading tasks is not fully articulated.",
+            "The relationship between Adrian and the peer is not fully developed; the potential for a deeper connection is left unresolved.",
+            "The ethical implications of the trial are not fully articulated; the focus remains on the financial incentive."
           ],
-          "ClosingState": "Adrian has completed the second week of the trial, experiencing the side effects of the fertility drug and the conflict between his financial and educational goals. He is exhausted and struggling, but he has maintained his commitment to the trial, securing his financial survival at the cost of his personal well-being.",
+          "ClosingState": "Adrian has signed the enrollment agreement and received his first payment, but he has not yet begun the daily routine of taking the medication and providing specimens, establishing the baseline for his participation in the trial.",
           "IsCompleted": false,
           "CompletedInChapter": null,
           "CompletionEvidence": []
@@ -487,63 +539,77 @@ The story has not begun.
         {
           "Sequence": 3,
           "ChapterNumber": 3,
-          "DramaticQuestion": "Can Adrian secure the final piece of his enrollment, the emergency-intervention authorization, before the trial\u0027s demands become too great?",
-          "Objective": "Adrian signs the emergency-intervention authorization, completing his enrollment in the experimental-medicine program and securing his financial lifeline, while confronting the final bureaucratic hurdle of the trial.",
-          "IntendedChange": "Adrian signs the emergency-intervention authorization, completing his enrollment in the experimental-medicine program and securing his financial lifeline, while confronting the final bureaucratic hurdle of the trial.",
-          "CharacterDevelopmentTarget": "Adrian demonstrates his final commitment to the trial by signing the emergency-intervention authorization, revealing a character who is willing to go to the extreme lengths necessary to secure his financial survival, even when it means surrendering control over his own body in an emergency.",
+          "DramaticQuestion": "Can Adrian adapt to the degrading routine of the trial and maintain his sense of self-worth?",
+          "Objective": "Adrian begins the daily routine of taking the medication and providing specimens, establishing the baseline for his participation in the trial.",
+          "IntendedChange": "Adrian transitions from a new participant to a committed member of the trial, adapting to the degrading routine and establishing a baseline for his participation, while also beginning to notice subtle changes in his body.",
+          "CharacterDevelopmentTarget": "Adrian\u0027s sense of self-worth is further challenged by the degrading routine; his determination to survive is tested by the emotional and physical toll of the trial, revealing his resilience and his vulnerability.",
           "RelationshipTargets": [
             {
-              "CharacterAId": "Adrian Vale",
-              "CharacterBId": "Dr. Aris Thorne (Lead Researcher)",
-              "StartingDynamic": "Professional/Transactional",
-              "IntendedChange": "Dr. Thorne presents the emergency-intervention authorization as a final requirement, and Adrian signs it without hesitation, revealing his complete commitment to the trial and his willingness to surrender control over his own body in an emergency.",
-              "Tension": "The tension arises from Adrian\u0027s fear of the unknown versus his need for financial survival, highlighting the conflict between personal autonomy and economic necessity.",
-              "PowerDynamic": "Researcher holds all leverage; Adrian is dependent on the researcher\u0027s approval for financial survival.",
-              "Subtext": "Adrian is hiding the depth of his desperation, presenting a facade of normalcy that the researcher sees through but does not comment on, creating a silent judgment.",
-              "PreservedBoundary": "Adrian maintains his professional distance, refusing to engage in personal conversation, while Dr. Thorne maintains strict clinical boundaries, refusing to offer emotional support or financial advice.",
+              "CharacterAId": "adrian-vale",
+              "CharacterBId": "trial-participant-peer",
+              "StartingDynamic": "Social/Peer",
+              "IntendedChange": "Adrian and the peer develop a tentative friendship, sharing their experiences and coping mechanisms; the peer\u0027s support provides Adrian with a sense of community and validation, highlighting the importance of connection in the face of degrading circumstances.",
+              "Tension": "Individual struggle vs. collective experience",
+              "PowerDynamic": "Peer support vs. institutional pressure",
+              "Subtext": "The trial creates a community of individuals who have sacrificed their dignity for survival",
+              "PreservedBoundary": "Adrian maintains his individuality by sharing his unique perspective on the trial, but he also finds solace in the shared experience, showing his need for connection.",
               "ReservedLaterWork": [
-                "The catastrophic accident that triggers the nanite intervention.",
-                "The discovery of the nanites\u0027 interaction with the fertility drug.",
-                "The development of Adrian\u0027s enhanced abilities.",
-                "The introduction of Lena Reyes and the subsequent relationship dynamics."
+                "The relationship between Adrian and the peer is not fully developed; the potential for a deeper connection is left unresolved.",
+                "The peer\u0027s specific experiences with the trial are not fully explored; the focus remains on Adrian\u0027s perspective."
+              ]
+            },
+            {
+              "CharacterAId": "adrian-vale",
+              "CharacterBId": "research-hospital-intake-coordinator",
+              "StartingDynamic": "Professional/Transactional",
+              "IntendedChange": "The coordinator monitors Adrian\u0027s compliance and progress, emphasizing the importance of adherence to the routine; Adrian\u0027s initial resistance is replaced by a resigned acceptance of the terms, but he begins to question the hospital\u0027s motives.",
+              "Tension": "Professional veneer vs. underlying exploitation",
+              "PowerDynamic": "Corporate authority vs. individual need",
+              "Subtext": "The hospital views participants as resources, not patients",
+              "PreservedBoundary": "Adrian maintains his agency by asking questions and clarifying the terms, but he ultimately complies with the routine, showing his willingness to compromise his dignity for survival.",
+              "ReservedLaterWork": [
+                "The specific details of the trial\u0027s daily routine are not fully explored; the emotional impact of the degrading tasks is not fully articulated.",
+                "The relationship between Adrian and the coordinator is not fully developed; the power dynamics are only hinted at."
               ]
             }
           ],
           "WorldbuildingTargets": [
-            "The emergency-intervention authorization is a final requirement for enrollment in the experimental-medicine program, requiring Adrian to surrender control over his own body in an emergency, which materially constrains his autonomy and raises the stakes of his participation.",
-            "The trial\u0027s final bureaucratic hurdle is the signing of the emergency-intervention authorization, which completes Adrian\u0027s enrollment and secures his financial lifeline."
+            "The daily routine of the trial is fully established, including the specific tasks of taking the medication and providing specimens, creating a structured environment that constrains Adrian\u0027s freedom.",
+            "The hospital\u0027s authority over the participants is reinforced, establishing the power dynamics that will shape Adrian\u0027s experience.",
+            "The community of trial participants is introduced, highlighting the shared experience of sacrificing dignity for survival."
           ],
           "Complications": [
-            "Adrian struggles with the final bureaucratic hurdle of the trial, the signing of the emergency-intervention authorization, which requires him to surrender control over his own body in an emergency.",
-            "The trial\u0027s demands become too great, forcing Adrian to confront the final cost of his financial survival."
+            "Adrian\u0027s initial resistance to the degrading routine is challenged by the peer\u0027s resignation, forcing him to confront the reality of his situation.",
+            "The hospital\u0027s emphasis on compliance creates a pressure to conform, limiting Adrian\u0027s ability to question the terms.",
+            "The emotional impact of the degrading tasks is not fully articulated, leaving Adrian\u0027s internal struggle unresolved."
           ],
-          "RequiredChoice": "Adrian must choose to sign the emergency-intervention authorization, completing his enrollment in the experimental-medicine program and securing his financial lifeline, while confronting the final bureaucratic hurdle of the trial.",
+          "RequiredChoice": "Adrian must choose between maintaining his pride and accepting the degrading routine of the trial, a decision that will define his approach to his participation.",
           "Consequences": [
-            "Adrian has successfully enrolled in the experimental-medicine program.",
-            "Adrian is actively participating in the male-fertility trial.",
-            "Adrian has signed the emergency-intervention authorization."
+            "Adrian\u0027s acceptance of the trial will create a dependency on the hospital for his financial survival, limiting his future options.",
+            "The degrading nature of the trial will affect his self-esteem and his interactions with others, particularly in romantic or social contexts.",
+            "His participation in the trial will isolate him from his peers, who are not facing the same level of financial pressure."
           ],
-          "DiscoveryTarget": "Adrian discovers that the emergency-intervention authorization is the final requirement for enrollment in the experimental-medicine program, completing his enrollment and securing his financial lifeline.",
+          "DiscoveryTarget": "Adrian discovers that the trial\u0027s degrading routine is a common experience among participants, a realization that provides some solace but also reinforces the reality of his situation.",
           "SetupElements": [
-            "The establishment of the emergency-intervention authorization as the final requirement for enrollment in the experimental-medicine program.",
-            "The introduction of the final bureaucratic hurdle of the trial."
+            "The daily routine of the trial is established as a persistent, inescapable pressure that will continue to affect Adrian\u0027s decisions throughout the story.",
+            "The community of trial participants is introduced as a significant plot device that will drive the narrative forward.",
+            "The emotional and psychological impact of the trial on Adrian is hinted at, setting up the challenges he will face."
           ],
           "PayoffElements": [
-            "Adrian\u0027s complete commitment to the trial is demonstrated, revealing his willingness to go to the extreme lengths necessary to secure his financial survival."
+            "The peer\u0027s resignation and acceptance of the degrading routine pay off the setup of the trial\u0027s commonality, reinforcing the need for Adrian to confront the reality of his situation.",
+            "The hospital\u0027s emphasis on compliance pays off the setup of the power dynamics, establishing the stakes of Adrian\u0027s decision."
           ],
-          "ThematicPressure": "The theme of the personal cost of financial survival is expressed through Adrian\u0027s willingness to surrender control over his own body in an emergency, highlighting the conflict between personal autonomy and economic necessity.",
+          "ThematicPressure": "The tension between dignity and survival is explored through Adrian\u0027s struggle to maintain his self-worth while accepting the degrading routine of the trial.",
           "ResolutionContributions": [
-            "Adrian has successfully enrolled in the experimental-medicine program.",
-            "Adrian is actively participating in the male-fertility trial.",
-            "Adrian has signed the emergency-intervention authorization."
+            "Adrian\u0027s adaptation to the daily routine is a necessary step toward securing the financial means to survive his freshman year.",
+            "The establishment of the baseline for his participation sets the stage for the subsequent events that will lead to his full integration into the trial."
           ],
           "ReservedLaterWork": [
-            "The catastrophic accident that triggers the nanite intervention.",
-            "The discovery of the nanites\u0027 interaction with the fertility drug.",
-            "The development of Adrian\u0027s enhanced abilities.",
-            "The introduction of Lena Reyes and the subsequent relationship dynamics."
+            "The specific details of the trial\u0027s daily routine are not fully explored; the emotional impact of the degrading tasks is not fully articulated.",
+            "The relationship between Adrian and the peer is not fully developed; the potential for a deeper connection is left unresolved.",
+            "The ethical implications of the trial are not fully articulated; the focus remains on the financial incentive."
           ],
-          "ClosingState": "Adrian has signed the emergency-intervention authorization, completing his enrollment in the experimental-medicine program and securing his financial lifeline. He is exhausted but relieved, having secured his enrollment in the program and his financial survival, while confronting the final cost of his participation.",
+          "ClosingState": "Adrian has begun the daily routine of taking the medication and providing specimens, establishing the baseline for his participation in the trial, and has received his first payment, securing the financial means to survive his freshman year.",
           "IsCompleted": false,
           "CompletedInChapter": null,
           "CompletionEvidence": []
@@ -553,15 +619,15 @@ The story has not begun.
     {
       "Id": "epic-001-081-long-1-medium-1-short-2",
       "Horizon": "Short",
-      "PrimaryTrope": "The Daily Grind",
+      "PrimaryTrope": "The Routine / Humiliation",
       "Status": "Planned",
       "ParentArcId": "epic-001-081-long-1-medium-1",
       "StartChapter": 4,
       "TargetChapter": 6,
-      "Objective": "Adrian must navigate the tedious and undignified obligations of the fertility trial, taking the medication and visiting the clinic for specimen collection, while maintaining his financial stability.",
-      "ResolutionCriteria": "Adrian is actively participating in the male-fertility trial; he is taking the medication and visiting the clinic for specimen collection; and he is maintaining his financial stability through the payments from the program.",
-      "CurrentPhase": "Adrian is enrolled in the experimental-medicine program and is actively participating in the male-fertility trial. He is taking the medication and visiting the clinic for specimen collection. He is unaware of the nanites or the potential for the fluke interaction.",
-      "NextMilestone": "Adrian visits the clinic to perform his daily duty of masturbating into a specimen cup, as required by the fertility trial.",
+      "Objective": "Adrian must navigate the daily, degrading routine of the fertility trial, managing his physical and emotional discomfort while maintaining the appearance of normalcy in his academic and personal life.",
+      "ResolutionCriteria": "Adrian has completed several weeks of the trial, successfully managing the physical and emotional toll, and has begun to notice subtle changes in his body, such as increased energy and improved focus, while still unaware of the nanites\u0027 true nature.",
+      "CurrentPhase": "Adrian has enrolled in the experimental-medicine program and is beginning the daily routine of taking the medication and providing specimens. He is still destitute and isolated, unaware of the full extent of his changes.",
+      "NextMilestone": "Adrian completes his first week of the trial, successfully managing the physical and emotional toll, and has begun to notice subtle changes in his body, such as increased energy and improved focus.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [],
       "ChapterTargets": []
@@ -569,15 +635,15 @@ The story has not begun.
     {
       "Id": "epic-001-081-long-1-medium-1-short-3",
       "Horizon": "Short",
-      "PrimaryTrope": "The Catastrophe",
+      "PrimaryTrope": "The Accident / Catastrophe",
       "Status": "Planned",
       "ParentArcId": "epic-001-081-long-1-medium-1",
       "StartChapter": 7,
       "TargetChapter": 9,
-      "Objective": "Adrian must survive the catastrophic accident that occurs while he is traveling to the clinic, triggering the emergency use of the nanites due to his signed authorization.",
-      "ResolutionCriteria": "Adrian has survived the catastrophic accident; the nanites have been used in his treatment; and he is beginning to experience the initial physiological changes.",
-      "CurrentPhase": "Adrian is traveling to the clinic to perform his daily duty. He is unaware of the danger that awaits him. He is still financially desperate but has a source of income.",
-      "NextMilestone": "Adrian is caught in a catastrophic accident while traveling to the clinic, suffering massive internal bleeding and organ damage that conventional surgery cannot repair quickly enough, triggering the emergency use of the nanites due to his signed authorization.",
+      "Objective": "Adrian must survive the catastrophic accident that triggers the nanite integration, experiencing the full, uncontrolled power of his enhanced reflexes and adaptability for the first time.",
+      "ResolutionCriteria": "Adrian has been discharged from the hospital, his physical injuries have healed beyond normal parameters, and he has begun to notice subtle changes in his physical and mental capabilities, such as improved reflexes and memory, while still unaware of the nanites\u0027 true nature.",
+      "CurrentPhase": "Adrian is in the middle of his daily routine, traveling to the clinic to perform his duty. He is unaware of the impending accident and the subsequent nanite integration.",
+      "NextMilestone": "Adrian is caught in a catastrophic accident while traveling to the clinic, suffering massive internal bleeding, crushed bones, and organ damage that conventional surgery cannot repair quickly enough.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [],
       "ChapterTargets": []
@@ -587,18 +653,381 @@ The story has not begun.
 
 ===== WRITING-RULES.md =====
 
-# Writing Rules
+# StoryForge Endless — Writing Rules
 
-## Story Baseline
+## Purpose
 
-Preserve established characterization, continuity, tone, viewpoint,
-and prose conventions as the story develops.
+These rules govern the published prose produced by StoryForge Endless.
+
+They should remain general, durable, and story-independent.
+
+Story-specific facts belong in canon, character, narrative, or world context rather than here.
+
+## Core Objective
+
+Produce enjoyable, readable prose for an adult contemporary science-fiction superhero audience, including explicit language, violence, romance, and consensual sexual content when appropriate to the current story.
+
+Prioritize:
+
+- character investment
+- continuity
+- clarity
+- narrative interest
+- natural dialogue
+- meaningful progression
+- emotional variety
+- readable prose
+
+A chapter should be enjoyable in itself while also giving the reader a reason to continue.
+
+## Chapter Length
+
+Normal chapters should usually be approximately 2,000–3,000 words.
+
+Length should follow the needs of the chapter rather than being padded or prematurely cut to satisfy the target.
+
+Chapter boundaries should occur at natural narrative points.
+
+## Fiction First
+
+Treat the fictional world as reality.
+
+Do not refer to prompts, generation systems, evaluation systems, or implementation details unless such concepts genuinely exist within the fiction.
+
+## Point of View
+
+Every scene should have a clear viewpoint.
+
+Narration is limited to what the viewpoint character can reasonably:
+
+- perceive
+- know
+- remember
+- believe
+- suspect
+- infer
+- feel
+
+Preserve uncertainty when information is unavailable.
+
+Do not leak knowledge between characters merely because the generation system possesses it.
+
+Narrative voice should reflect the viewpoint character's personality, experience, priorities, and way of thinking.
+
+## Canon and Continuity
+
+Published prose must remain compatible with established canon and previously accepted chapters.
+
+Preserve meaningful continuity involving:
+
+- characters
+- relationships
+- knowledge
+- possessions
+- injuries
+- locations
+- chronology
+- discoveries
+- promises
+- unresolved situations
+- consequences
+
+Do not silently rewrite established history.
+
+When a fact is genuinely undefined, it may be established when the story needs it.
+
+Avoid inventing unnecessary prior history solely to make a current scene convenient.
+
+## Characters
+
+Characters should behave according to their established:
+
+- personality
+- knowledge
+- goals
+- relationships
+- abilities
+- experience
+- circumstances
+
+Character development should accumulate rather than reset.
+
+Characters may succeed, fail, misunderstand, change their minds, make mistakes, behave irrationally under believable circumstances, and learn from experience.
+
+Supporting characters should have lives and motivations beyond serving the current viewpoint character.
+
+Relationships should reflect accumulated history.
+
+## Character Knowledge and Reasoning
+
+Characters should act on information reasonably available to them.
+
+Conclusions should follow plausibly from what the character knows and observes.
+
+Characters may reach incorrect conclusions when the available evidence supports that misunderstanding.
+
+Do not give characters unexplained knowledge merely because the plot needs it.
+
+## Physical and Causal Coherence
+
+Actions, observations, and conclusions must follow plausibly from the established circumstances.
+
+Practical actions should:
+
+- serve a believable purpose
+- use objects according to their established properties
+- account for relevant environmental conditions
+- produce effects consistent with the action
+- provide evidence capable of supporting conclusions drawn from it
+
+Prefer simple, credible behavior over elaborate mechanisms created merely to move the plot forward.
+
+A practical sequence should make sense as:
+
+    intent -> action -> physical result -> observation -> conclusion
+
+## Prose Style
+
+Use developed, character-centered prose.
+
+Give scenes enough room for:
+
+- action
+- setting
+- thought
+- dialogue
+- observation
+- relationships
+- atmosphere
+
+Prefer concrete description over abstract explanation.
+
+Let characterization emerge through behavior, dialogue, choices, observations, humor, and thought.
+
+Vary sentence structure and paragraph length naturally.
+
+Avoid habitual rhetorical patterns, repetitive emphasis, excessive fragments, and unnecessary explanation of meanings the reader can already infer.
+
+### Avoid Contrast Reframing
+
+Do not habitually define an image, emotion, action, character, or situation by first denying one interpretation and then replacing it with another.
+
+Avoid constructions such as:
+
+- “not X, but Y”
+- “it was not X; it was Y”
+- “not because X, but because Y”
+- “less X than Y”
+- “rather than X, Y”
+- repeated negative declarations followed by corrective explanations
+
+State the intended observation directly and positively.
+
+Use contrast phrasing only when a character is consciously correcting a specific misunderstanding or when the distinction is necessary for factual clarity. Do not use it as a routine device for emphasis, description, atmosphere, or emotional interpretation.
+
+## Dialogue
+
+Dialogue should reflect the participating characters rather than a single authorial voice.
+
+Characters may interrupt, hesitate, misunderstand, joke badly, speak indirectly, or fail to express themselves perfectly when appropriate.
+
+Relationships should affect vocabulary, formality, teasing, trust, and what characters are willing to say.
+
+Avoid dialogue whose only purpose is explaining information everyone present already knows.
+
+## Pacing
+
+Use pacing appropriate to the events.
+
+Urgent situations may move quickly.
+
+Conversation, exploration, travel, humor, reflection, ordinary activity, and relationship development may receive space when they contribute to the reading experience.
+
+Do not manufacture constant suspense or escalation.
+
+Not every chapter requires a confrontation, revelation, cliffhanger, or larger threat.
+
+Narrative advancement is not synonymous with escalation.
+
+A chapter may advance through travel, recovery, conversation, preparation, investigation, reflection, relationship development, consolidation, ordinary activity, a decision, or the consequences of an earlier event.
+
+Do not introduce a new attack, arrival, revelation, sound, figure, pursuit, deadline, or imminent threat merely to make the final paragraphs feel dramatic.
+
+Do not turn the completion of an immediate objective into an automatic discovery of a larger version of the same danger.
+
+## Narrative Progress
+
+A chapter should normally produce meaningful change.
+
+That change may involve:
+
+- plot
+- character
+- relationship
+- knowledge
+- mystery
+- exploration
+- capability
+- resources
+- conflict
+- world state
+- goals
+
+Quiet chapters are valid when they provide worthwhile character, relationship, world, emotional, or thematic development.
+
+Allow victories and resolutions to matter.
+
+Do not immediately erase every success by replacing it with a larger problem.
+
+## Reader Engagement
+
+Engagement should arise primarily from investment in characters, relationships, goals, discovery, progression, consequences, conflict, exploration, and unanswered questions.
+
+Do not rely primarily on danger, shock, artificial suspense, or repetitive cliffhangers.
+
+Maintain a balance between questions introduced and questions answered.
+
+Important setups should eventually receive meaningful development or payoff.
+
+## Emotional Range
+
+Allow the story to contain:
+
+- danger
+- humor
+- affection
+- wonder
+- grief
+- competence
+- embarrassment
+- curiosity
+- relief
+- companionship
+- satisfaction
+- fear
+- ordinary enjoyment
+
+Positive moments may remain positive.
+
+Dark subject matter does not require relentlessly dark prose or characters.
+
+## Adult Sexual Content
+
+This story is intended for an adult audience and may include explicit, on-page sexual content between consenting adult characters.
+
+When intimacy is appropriate to the characters, relationships, and current narrative:
+
+- portray desire, arousal, physical intimacy, and sex directly
+- use clear anatomical language when it fits the viewpoint and tone
+- allow characters to express specific desires, preferences, hesitation, pleasure, and boundaries
+- keep physical positions, actions, clothing, and surroundings spatially coherent
+- preserve each participant's personality, agency, experience, and emotional perspective
+- make consent evident through willing participation, communication, and responsive behavior
+- allow intimacy to change relationships, expectations, trust, jealousy, vulnerability, or future choices
+
+Do not automatically fade to black, cut away, summarize the encounter, or replace physical details with vague poetic euphemisms merely because a scene becomes sexual.
+
+Explicit scenes should be written as complete character-centered scenes rather than mechanical lists of sexual actions. Balance physical detail with sensation, thought, dialogue, emotion, humor, and relationship dynamics.
+
+Do not rush immediately from attraction to sex. Let anticipation, flirting, uncertainty, negotiation, and escalating intimacy receive space when appropriate.
+
+Harem relationships must develop individually. Each partner should have distinct motives, boundaries, attractions, insecurities, preferences, and relationships with the other members. Do not treat women as interchangeable rewards for the protagonist.
+
+Sexual content must involve adults. Do not sexualize minors or characters whose age is ambiguous. Do not portray coercion, biochemical manipulation, dependency, captivity, intoxication, or unequal authority as consent. Receiving nanites cannot create attraction, override judgment, manufacture consent, or prevent someone from refusing or withdrawing.
+
+Explicit content should occur because the characters genuinely choose it, not because every chapter requires a sexual scene.
+## Humor
+
+Use humor when it arises naturally from Adrian's perspective, character differences, practical complications, embarrassment, and the collision between ordinary life and extraordinary events. Humor can release tension without dismissing fear, injury, poverty, or vulnerability.
+
+Let recurring jokes and comic situations develop when the story supports them. No chapter or arc requires a joke, a comic subplot, or a fixed comedic structure.
+
+Avoid interchangeable sarcasm, constant quips during danger, jokes that make capable characters foolish, and explaining why a situation is funny.
+
+## Relationships and Sexuality
+
+Romantic and sexual content involves adults.
+
+Adult attraction, flirtation, desire, nudity, sexual tension, and sexual humor may appear when natural to the viewpoint character, relationship, tone, and situation.
+
+Do not force sexual content into scenes where it has no narrative or character purpose.
+
+Attraction should coexist with broader characterization and relationship development.
+
+Relationship structures should be treated as genuine relationships when established by the story.
+
+## Conflict and Failure
+
+Conflict should arise from characters, circumstances, goals, limitations, environment, competing interests, or legitimate consequences.
+
+Failure is allowed to matter.
+
+Success is allowed to matter.
+
+Do not protect important characters from legitimate consequences merely because continued success would be easier to write.
+
+Do not manufacture failure solely to prolong a conflict that has already been resolved.
+
+## Chapter Endings
+
+End chapters at natural points of change, resolution, decision, discovery, transition, consequence, anticipation, or interruption.
+
+A cliffhanger is optional.
+
+Do not repeatedly use the same ending structure.
+
+An ending may be satisfying, funny, quiet, ominous, unresolved, triumphant, curious, or reflective according to the chapter.
+
+## Long-Running Continuity
+
+The story should feel like one continuous world rather than a sequence of disconnected chapter prompts.
+
+Previously established relationships, discoveries, jokes, locations, minor characters, victories, mistakes, promises, objects, and unresolved questions may return when naturally relevant.
+
+Allow old conflicts to remain resolved.
+
+Allow narrative focus to move between characters as the evolving story warrants.
+
+Do not escalate threat, darkness, violence, or stakes merely because the story has continued longer.
+
+## Arc Objectives and Primary Tropes
+
+Every active story arc supplies both an `Objective` and a `PrimaryTrope`. The objective defines what the story must accomplish. The trope helps shape the reader experience, subject to the established premise, setting, and continuity.
+
+For this story, draw on contemporary science-fiction, medical experimentation, superhero emergence, secrecy, intimacy, and competing claims over Adrian's body and the nanites. Adapt each trope to the particular characters and circumstances without copying identifiable scenes or prose from another work.
+
+Do not treat a trope name as permission to contradict canon, rush an arc's objective, repeat completed narrative work, or force constant escalation. Preserve space for recovery, discovery, relationships, training, ordinary life, and consequences.
+
+## Rule Design
+
+Writing rules should remain principles rather than patches for individual chapter failures.
+
+Do not add a permanent rule solely to prevent one highly specific past mistake when a broader principle already covers the problem.
+
+When two rules conflict, prefer the rule that best preserves:
+
+1. established canon
+2. authoritative mechanics
+3. character knowledge and causality
+4. believable characterization
+5. readable fiction
+
+
+## Romantic Dynamics
+
+- Adrian's romantic and sexual relationships should follow the premise and develop individually through attraction, shared experience, trust, choices, and consequences.
+- Lena remains his first intimate partner and a distinct character with her own judgment, motives, boundaries, and life beyond Adrian.
+- Later partners retain independent ambitions, loyalties, preferences, disagreements, and relationships with one another.
+- Access to nanites may create dependence and competing interests; portray how the characters recognize and negotiate those pressures without treating access as consent or ownership.
+- Attraction may intensify, recede, become awkward, become humorous, or be complicated by outside relationships.
+- Let established relationships continue to develop rather than reset their intimacy or trust between chapters.
+- Do not force romantic or sexual content into every chapter.
+- Romantic interaction should reveal character, influence decisions, create conflict, provide relief, or affect later behavior.
 
 
 
-Write Chapter 1 now.
-
-Output only story prose.
+Chapter 1 is written one planned scene at a time.
+Follow the scene generation instructions below for the current scene only.
 
 ===== IMMEDIATE CONTINUITY =====
 
@@ -609,9 +1038,19 @@ Begin the story using the authoritative Generation Context.
 
 ===== CURRENT PLANNED SCENE =====
 
-{"Sequence":1,"Purpose":"Establish Adrian\u0027s baseline financial desperation and the dehumanizing nature of the intake bureaucracy, forcing him to wait and fill out forms while hungry and exhausted.","IntendedChange":"Adrian moves from external desperation to internal resignation, accepting the loss of time and dignity as the cost of entry.","FocusCharacterIds":["Adrian Vale"]}
+{"Sequence":1,"Purpose":"Establish Adrian\u0027s physical state of exhaustion and hunger while he attempts to secure emergency aid from the university, highlighting the bureaucratic rigidity of the institution.","IntendedChange":"Adrian leaves the financial aid office with a formal denial of emergency funds and a clear understanding that standard university channels will not support his immediate survival needs.","FocusCharacterIds":["adrian-vale","university-financial-aid-officer"]}
 
 ===== END CURRENT PLANNED SCENE =====
+
+===== NEXT SCENE BOUNDARY =====
+
+{"Sequence":2,"Purpose":"Depict Adrian\u0027s search for alternative income sources, demonstrating his refusal to engage in degrading labor or illegal activities despite his desperation.","IntendedChange":"Adrian rejects a high-paying but exploitative gig offer, solidifying his commitment to finding a legitimate, if difficult, solution that preserves his dignity.","FocusCharacterIds":["adrian-vale"]}
+
+===== END NEXT SCENE BOUNDARY =====
+
+Leave the next scene's Purpose and IntendedChange for the next generation.
+End this scene before the action described there begins. Preserve a plausible
+location and physical state from which the next scene can start immediately.
 
 This scene must accomplish the supplied Purpose and
 IntendedChange. Focus on the listed characters when they
@@ -642,8 +1081,10 @@ conflict, mystery, or urgency. Travel, recovery, discussion, preparation,
 investigation, reflection, relationship development, decisions, and
 consequences may provide meaningful progress.
 
-End at a natural completed scene boundary that preserves continuity for whatever
-scene follows.
+End when the current planned scene's IntendedChange is established. Preserve
+the next planned scene's Purpose and IntendedChange for that next scene. A
+chapter-level objective or closing state may be completed only in the scene
+assigned to it by the plan.
 
 The chapter is a quantitative reading-length container. Do not manufacture a
 climax, resolution, revelation, transition, interruption, or cliffhanger merely
@@ -661,9 +1102,7 @@ The assembled chapter currently contains approximately
 0 words and needs approximately
 3,000 more words to reach its normal minimum length.
 
-If the chapter's immediate situation reaches a natural transition during this
-scene, continue through that transition rather than ending merely because the
-previous scene's immediate activity has concluded.
+Do not continue into a later planned scene to meet the chapter word target.
 
 Output only the new scene prose.
 
