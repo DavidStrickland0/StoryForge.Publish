@@ -1,0 +1,50 @@
+﻿{
+  "ChapterNumber": 1,
+  "ViewpointCharacterId": "protagonist",
+  "Objective": "Establish the protagonist\u0027s selfish, competence-reliant personality and the chaotic breakdown of his unit, culminating in his decision to shield a noncombatant mother.",
+  "IntendedChange": "The protagonist transitions from confident institutional reliance to isolated survival, making the choice to protect the mother over his own safety.",
+  "PacingPosture": "Urgent",
+  "ProhibitedPatterns": [
+    "Contradictory physical states of equipment (e.g., rifle slung vs. raised) without explicit transitional action.",
+    "Abstract moralizing about the meaning of sacrifice or death.",
+    "Instantaneous altruism without the internal conflict of self-preservation.",
+    "Repetitive sensory loops of fear or pain."
+  ],
+  "Scenes": [
+    {
+      "Sequence": 1,
+      "Purpose": "Establish the protagonist\u0027s baseline personality through his tactical assessment and internal monologue during the initial chaos of the battle, revealing his contempt for civilians and reliance on institutional support.",
+      "IntendedChange": "The protagonist is positioned behind cover with his rifle raised and aimed, observing the breakdown of his unit\u0027s formation and dismissing the presence of civilians as irrelevant obstacles to his survival.",
+      "FocusCharacterIds": [
+        "protagonist",
+        "battle_comrades"
+      ]
+    },
+    {
+      "Sequence": 2,
+      "Purpose": "Depict the complete breakdown of the protagonist\u0027s unit, isolating him from institutional support and forcing him to rely solely on his individual skills and instincts.",
+      "IntendedChange": "The protagonist\u0027s comrades are scattered or incapacitated, leaving him alone in his position with no backup, highlighting the fragility of his identity as a Marine and the sudden absence of the structure he depends on.",
+      "FocusCharacterIds": [
+        "protagonist"
+      ]
+    },
+    {
+      "Sequence": 3,
+      "Purpose": "Introduce the noncombatant mother into the line of fire, creating a direct conflict between the protagonist\u0027s training to prioritize self-preservation and an instinctive recognition of the threat to her life.",
+      "IntendedChange": "The protagonist identifies the mother as a target in the crosshairs of an enemy weapon, forcing him to confront the moral weight of the situation and the immediate danger to her, shifting his focus from his own survival to the potential loss of an innocent life.",
+      "FocusCharacterIds": [
+        "protagonist",
+        "noncombatant_mother"
+      ]
+    },
+    {
+      "Sequence": 4,
+      "Purpose": "Resolve the immediate tactical dilemma by having the protagonist choose to shield the mother, overriding his instinct for self-preservation and establishing the act of sacrifice that will define his character.",
+      "IntendedChange": "The protagonist physically positions himself between the mother and the threat, accepting the risk of death to protect her, completing the transition from selfish survival to sacrificial action.",
+      "FocusCharacterIds": [
+        "protagonist",
+        "noncombatant_mother"
+      ]
+    }
+  ]
+}

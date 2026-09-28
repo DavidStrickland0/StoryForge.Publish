@@ -1,0 +1,42 @@
+{
+  "chapterNumber": 1,
+  "viewpointCharacterId": "protagonist",
+  "objective": "Establish the protagonist's baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.",
+  "intendedChange": "The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.",
+  "pacingPosture": "Urgent",
+  "prohibitedPatterns": [
+    "Describing the protagonist's rifle magazine as being in his pocket while the rifle is slung on his back.",
+    "Resolving the protagonist's death or the physical impact of the fatal blow.",
+    "Revealing the System interface or the void.",
+    "Using the phrase 'not X, but Y' for characterization or emphasis."
+  ],
+  "scenes": [
+    {
+      "sequence": 1,
+      "purpose": "Establish the protagonist's self-serving, contemptuous personality and his reliance on institutional support during the initial chaos of the battle.",
+      "intendedChange": "The protagonist is positioned in a defensive line, actively using a wounded comrade as a shield while dismissing the presence of civilians as irrelevant obstacles, maintaining his confidence in his equipment and rank.",
+      "focusCharacterIds": [
+        "protagonist",
+        "battle_comrades"
+      ]
+    },
+    {
+      "sequence": 2,
+      "purpose": "Demonstrate the breakdown of the protagonist's unit and the failure of his standard operating procedures in the face of uncontrolled chaos.",
+      "intendedChange": "The protagonist's immediate support is severed as his comrades are killed or scattered, leaving him isolated and forcing him to rely solely on his own tactical competence and physical equipment.",
+      "focusCharacterIds": [
+        "protagonist",
+        "battle_comrades"
+      ]
+    },
+    {
+      "sequence": 3,
+      "purpose": "Introduce the noncombatant mother into the line of fire and force the protagonist to confront the moral weight of her vulnerability against his instinct for self-preservation.",
+      "intendedChange": "The protagonist is positioned between the mother and the imminent threat, his body physically interposed to shield her, with the decision to protect her overriding his instinct for survival, leaving the outcome suspended.",
+      "focusCharacterIds": [
+        "protagonist",
+        "noncombatant_mother"
+      ]
+    }
+  ]
+}

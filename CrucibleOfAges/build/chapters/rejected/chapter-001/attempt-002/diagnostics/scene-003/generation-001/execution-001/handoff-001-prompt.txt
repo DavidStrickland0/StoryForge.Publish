@@ -1,0 +1,115 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.","IntendedChange":"The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.","PacingPosture":3,"ProhibitedPatterns":["Repetitive clipped narrative sentences or contrast reframing (e.g., \u0027I was useless. I was a liability.\u0027)","Static, unresolved endings where the protagonist is injured and alone without the dramatic consequence of the decision","Surviving the act of shielding the mother (the protagonist must die in Chapter 2, but the decision to shield must be made in Chapter 1)","Revealing the System or metaphysical consequences in this chapter"],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s baseline personality and tactical competence through a chaotic firefight that highlights his selfishness and reliance on institutional support.","IntendedChange":"The protagonist successfully eliminates a threat using his squad\u0027s support, but his internal monologue reveals his contempt for civilians and his view of comrades as tools, setting up his baseline identity before the unit\u0027s breakdown.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit and the isolation of his institutional identity as the battle turns chaotic and uncontrolled.","IntendedChange":"The protagonist\u0027s squad is scattered or incapacitated, leaving him alone in the line of fire, forcing him to rely on his own skills and instincts rather than his rank and equipment.","FocusCharacterIds":["protagonist"]},{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire and force the protagonist to make a split-second decision between self-preservation and shielding her.","IntendedChange":"The protagonist\u0027s perception shifts from indifference to a visceral, instinctive recognition of the mother\u0027s vulnerability, leading him to physically position his body between her and the threat, making the choice to shield her.","FocusCharacterIds":["protagonist","noncombatant_mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire and force the protagonist to make a split-second decision between self-preservation and shielding her.","IntendedChange":"The protagonist\u0027s perception shifts from indifference to a visceral, instinctive recognition of the mother\u0027s vulnerability, leading him to physically position his body between her and the threat, making the choice to shield her.","FocusCharacterIds":["protagonist","noncombatant_mother"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":2,"Location":"Street level at the corner of an intersection, near an overturned car, in a war-torn urban environment with scorched buildings.","TimeContext":"0802 hours, morning, post-artillery barrage.","PresentCharacterIds":["protagonist","battle_comrades"],"PhysicalConditions":["Protagonist is armed with a rifle (8 rounds remaining in magazine) and sidearm, wearing helmet and visor.","Protagonist is physically unharmed.","Sergeant Miller is positioned in the alleyway behind the protagonist, facing away from the hostiles.","Three hostile combatants are crouched behind an overturned car, weapons raised, facing the protagonist.","Environment is damaged: crumbling parapets, blown-out windows, glass and gravel on streets, smoke/haze present."],"KnowledgeEstablished":["Protagonist perceives Sergeant Miller as a \u0027variable\u0027 or tool to be manipulated rather than a partner.","Protagonist has 8 rounds of ammunition remaining in his rifle magazine.","Protagonist is capable of suppressing the \u0027chemical rush\u0027 of combat, experiencing only cold satisfaction."],"DecisionsMade":["Protagonist ordered Sergeant Miller to watch the alley behind them, effectively isolating himself from squad support.","Protagonist chose to engage the three hostiles alone rather than executing Miller\u0027s proposed two-man flanking maneuver."],"PossessionChanges":[],"RelationshipChanges":["Protagonist\u0027s dynamic with Sergeant Miller shifts from command hierarchy to active manipulation, with Miller complying with a tactical order that leaves him exposed."],"CompletedActions":["Protagonist took two steps to the left, narrowly avoiding a bullet that struck the wall behind him.","Protagonist dropped into a crouch and swept his rifle across the street.","Sergeant Miller moved to the protagonist\u0027s position and proposed a two-man flanking plan.","Protagonist ordered Sergeant Miller to watch the alley behind them.","Sergeant Miller turned and moved toward the alleyway, leaving the protagonist alone facing the hostiles."],"UnresolvedImmediateAction":"Protagonist is alone in the line of fire, facing three hostiles behind an overturned car, with his finger on the trigger guard, preparing to engage.","ContinuationPosition":"Protagonist is crouched at the corner of the intersection, rifle raised with finger on the trigger guard, facing three masked hostiles behind an overturned car. Sergeant Miller is in the alleyway behind the protagonist. The immediate threat is the three hostiles.","ProhibitedRepetition":["Repeating the protagonist\u0027s internal monologue about Miller being a \u0027variable\u0027 or \u0027tool\u0027 without new context.","Repeating the specific tactical maneuver of stepping left to avoid the bullet.","Repeating the order for Miller to watch the alley.","Repeating the description of the protagonist\u0027s \u0027cold, clean satisfaction\u0027 without a new trigger."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The first round from the overturned car cracked against the asphalt inches from my boot. The second hissed through the air, a sharp, angry whistle that made the hairs on the back of my neck stand up, even if I refused to let my hands shake. I squeezed the trigger. The rifle bucked, a familiar kick against my shoulder, and the muzzle flash lit up the haze. One of the three figures behind the car slumped, their masked head lolling forward. The other two scrambled, reloading or shifting position, their movements clumsy and panicked.
+
+I was doing fine. I was winning. It was a clean, efficient exchange, the kind that would have earned me a nod from the instructor back at Quantico, or at least a lack of scolding from Sergeant Miller. My mind was a spreadsheet of inputs and outputs: angle of fire, distance, probability of hit, remaining ammunition. Seven rounds left. Three enemies, one down, two active. The math was in my favor. I was in control.
+
+Then I saw her.
+
+She was standing in the middle of the intersection, right in the kill zone I had just cleared. She wasn’t running. She wasn’t hiding. She was just standing there, her arms wrapped around a child who was no longer moving, her eyes wide and fixed on a point somewhere behind me. A woman. Probably thirty, maybe older. Her clothes were torn, dusty, and stained with something dark that I chose not to analyze. She looked like a statue made of ash and exhaustion, planted firmly in the path of the next bullet I was about to fire.
+
+My finger tightened on the trigger guard. The logic of the moment was simple: she was in the line of fire. She was a civilian, a variable, an obstacle. In the tactical playbook, she was a liability. If I fired, I risked hitting her. If I didn’t fire, the two remaining hostiles behind the car would regain their footing and open up on me. I had a split second to decide. I could move, shift my cover, find a better angle. Or I could shoot.
+
+The hostiles were moving. I heard the slide of a bolt action, the sharp click of a hammer being cocked. They were lining up their shots. My eyes flicked to the woman. She was trembling, a fine, high-pitched vibration that seemed to resonate in the air. The child in her arms was limp, heavy with death or unconsciousness. She wasn’t looking at the enemies. She was looking at me. Her gaze was hollow, empty, but it held a weight that pressed against my chest.
+
+Something shifted in the cold, clean architecture of my mind. The spreadsheet glitched. The variables didn’t add up. I looked at the two masked figures huddled behind the car, their weapons rising. I looked at the woman, who was too slow, too terrified, too broken to move out of the way in time. I looked at my rifle, the extension of my will, the tool that kept me alive.
+
+I could kill them. It was the right move. It was the professional move. It was the move that kept me breathing.
+
+But if I killed them, and she fell, and the blood spilled on the street, something in the back of my skull, a place I didn’t usually visit, felt a sudden, sharp ache. It wasn’t guilt. I didn’t have time for guilt. It was a recognition. She was human. She was suffering. And I was holding the thing that could end it.
+
+The third hostile raised his weapon. I saw the glint of the barrel. I saw the woman’s face, frozen in a silent scream.
+
+I didn’t think. Thinking was for the spreadsheet. Thinking was for Miller.
+
+I dropped my rifle.
+
+It clattered on the asphalt, a heavy, final sound. I stepped forward. One step. Two steps. I was moving into the open, into the line of fire, into the space where the bullets would land. I didn’t have time to calculate the angle. I didn’t have time to find cover. I just moved.
+
+The woman flinched, her head snapping toward me, her eyes widening in confusion. I was in the way. I was the obstacle. I was the variable.
+
+The first bullet hit my left shoulder. It punched through my vest, tearing through muscle and bone. The pain was a white-hot lance, explosive and total. I gasped, my knees buckling, but I didn’t stop. I kept moving. I was a wall. I was a shield. I was the thing between her and the end.
+
+The second bullet clipped my hip, spinning me slightly. The third one grazed my leg, hot and searing. I was bleeding. I was breaking. The cold satisfaction was gone, replaced by a roaring, deafening noise in my ears. My vision blurred at the edges.
+
+But she was behind me. She was safe.
+
+I looked back over my shoulder, my blood soaking through my uniform. The woman was staring at me, her mouth open, a sound escaping her lips that was barely a whisper. The two hostiles were still there, their weapons aimed, their hands steady.
+
+I turned back to face them. My body was failing, my muscles screaming, my blood pooling on the street. But I was still standing. I was still in the way.
+
+I didn’t have a weapon. I didn’t have a plan. I didn’t have a future.
+
+I just had her. And I was going to keep her there.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

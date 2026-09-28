@@ -1,0 +1,41 @@
+﻿{
+  "ChapterNumber": 1,
+  "ViewpointCharacterId": "protagonist",
+  "Objective": "Establish the protagonist\u0027s baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.",
+  "IntendedChange": "The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.",
+  "PacingPosture": "Urgent",
+  "ProhibitedPatterns": [
+    "Repetitive clipped narrative sentences or contrast reframing (e.g., \u0027I was useless. I was a liability.\u0027)",
+    "Static, unresolved endings where the protagonist is injured and alone without the dramatic consequence of the decision",
+    "Surviving the act of shielding the mother (the protagonist must die in Chapter 2, but the decision to shield must be made in Chapter 1)",
+    "Revealing the System or metaphysical consequences in this chapter"
+  ],
+  "Scenes": [
+    {
+      "Sequence": 1,
+      "Purpose": "Establish the protagonist\u0027s baseline personality and tactical competence through a chaotic firefight that highlights his selfishness and reliance on institutional support.",
+      "IntendedChange": "The protagonist successfully eliminates a threat using his squad\u0027s support, but his internal monologue reveals his contempt for civilians and his view of comrades as tools, setting up his baseline identity before the unit\u0027s breakdown.",
+      "FocusCharacterIds": [
+        "protagonist",
+        "battle_comrades"
+      ]
+    },
+    {
+      "Sequence": 2,
+      "Purpose": "Depict the breakdown of the protagonist\u0027s unit and the isolation of his institutional identity as the battle turns chaotic and uncontrolled.",
+      "IntendedChange": "The protagonist\u0027s squad is scattered or incapacitated, leaving him alone in the line of fire, forcing him to rely on his own skills and instincts rather than his rank and equipment.",
+      "FocusCharacterIds": [
+        "protagonist"
+      ]
+    },
+    {
+      "Sequence": 3,
+      "Purpose": "Introduce the noncombatant mother in the line of fire and force the protagonist to make a split-second decision between self-preservation and shielding her.",
+      "IntendedChange": "The protagonist\u0027s perception shifts from indifference to a visceral, instinctive recognition of the mother\u0027s vulnerability, leading him to physically position his body between her and the threat, making the choice to shield her.",
+      "FocusCharacterIds": [
+        "protagonist",
+        "noncombatant_mother"
+      ]
+    }
+  ]
+}

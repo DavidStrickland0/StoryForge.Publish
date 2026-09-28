@@ -1,0 +1,51 @@
+﻿{
+  "ValidationProtocolVersion": 2,
+  "HasTechnicalFailures": false,
+  "Validations": [
+    {
+      "FindingIndex": 0,
+      "Disposition": 0,
+      "Evidence": "The text states: \u0027Davis was close behind me... He was twenty-two, a kid from Ohio\u0027. The finding claims the protagonist is described as twenty-two, but the text explicitly attributes the age of twenty-two to Davis, not the protagonist. The protagonist is described elsewhere in the text as eighteen (\u0027I was eighteen\u0027). Therefore, the claimed contradiction does not exist in the supplied text.",
+      "Reason": "The finding misidentifies the character associated with the age of twenty-two. The text clearly assigns this age to Davis, while the protagonist is consistently identified as eighteen. Since the text does not contain the alleged error, the finding is unsupported."
+    },
+    {
+      "FindingIndex": 1,
+      "Disposition": 0,
+      "Evidence": "The chapter explicitly states, \u0022I was eighteen. I had been in the Corps for four months.\u0022 In the United States Marine Corps, the rank of Sergeant (E-5) is a non-commissioned officer rank that requires a minimum of 20 months of service (12 months for enlisted, plus 8 months for NCO) and typically 2-3 years of total service. An eighteen-year-old with only four months of service would hold the rank of Private (E-1) or Private First Class (E-2), not Sergeant. Therefore, the dialogue \u0022Copy, Sergeant\u0022",
+      "Reason": "The finding claims a canon inconsistency regarding rank and tenure. However, the provided story context (NARRATIVE.md, CANON.md, STORY-ARCS.json) does not establish specific military rank rules or canon constraints that prohibit the protagonist from holding the rank of Sergeant. The NARRATIVE.md describes him as an \u0022eighteen-year-old United States Marine\u0022 but does not specify his rank or impose a rule that his rank must be consistent with real-world USMC promotion timelines. The chapter text is "
+    },
+    {
+      "FindingIndex": 2,
+      "Disposition": 2,
+      "Evidence": "The chapter contains multiple instances of the prohibited \u0027not X, but Y\u0027 or negative declaration pattern, including: \u0027Not fear. Not pity. Irritation was the only emotion I felt.\u0027, \u0027It wasn\u0027t a chess match... It was a brawl...\u0027, \u0027It wasn\u0027t fear, exactly. It was something harder.\u0027, \u0027It wasn\u0027t a victory. It wasn\u0027t a tactical success. It was just a moment...\u0027, and \u0027It wasn\u0027t happiness, and it wasn\u0027t sadness. It was just a feeling of rightness...\u0027. WRITING-RULES.md explicitly states: \u0027Do not habitual",
+      "Reason": "The finding correctly identifies a sustained violation of the \u0027Avoid Contrast Reframing\u0027 rule in WRITING-RULES.md. The rule prohibits habitually defining images, emotions, or actions by first denying one interpretation and replacing it with another (e.g., \u0027not X, but Y\u0027). The chapter uses this structure repeatedly to characterize the protagonist\u0027s emotions and the nature of the war, which constitutes a habitual stylistic defect that must be corrected to comply with the explicit writing rules."
+    },
+    {
+      "FindingIndex": 3,
+      "Disposition": 2,
+      "Evidence": "I moved. I didn\u0027t wait. I moved.",
+      "Reason": "The chapter contains numerous instances of clipped narrative sentences (e.g., \u0027I moved.\u0027, \u0027I kept moving.\u0027, \u0027I froze.\u0027, \u0027I moved.\u0027, \u0027I lunged.\u0027, \u0027I stood up.\u0027) used for dramatic emphasis. WRITING-RULES.md explicitly states: \u0027Do not use one-word narrative sentences or fragments for dramatic emphasis. Strongly discourage narrative sentences of four words or fewer; develop the thought naturally instead of stacking clipped statements.\u0027 This is a sustained stylistic violation of an explicit writing\u89C4\u5219"
+    },
+    {
+      "FindingIndex": 4,
+      "Disposition": 1,
+      "Evidence": "The text contains the line: \u0022It was a bad order. I knew it was a bad order. But it was the order that kept me alive, and it was the order that kept the mission on track.\u0022",
+      "Reason": "The finding claims the prose repeatedly explains motives immediately after actions, resulting in redundant exposition. While the specific evidence provided is a single instance of internal monologue that clarifies the protagonist\u0027s conflicting priorities (survival/mission vs. morality), the chapter does contain other instances of similar explanatory narration (e.g., \u0022I felt a flicker of irritation. Not fear. Not pity. Irritation was the only emotion I felt.\u0022). However, these instances are not so"
+    },
+    {
+      "FindingIndex": 5,
+      "Disposition": 1,
+      "Evidence": "I liked the chaos. It was honest. In a classroom or a boardroom, you had to pretend. You had to smile, you had to nod, you had to pretend that the person sitting across from you wasn\u2019t thinking about how to steal your lunch money or your promotion. Out here, the pretense was stripped away. If you were slow, you died. If you were selfish, you survived. And if you were lucky, you got to keep the things you wanted.",
+      "Reason": "The finding claims the chapter repeats the protagonist\u0027s internal justification for selfishness multiple times without advancing the narrative state. While the chapter does contain several instances of the protagonist rationalizing his selfishness (e.g., \u0027If you were selfish, you survived\u0027, \u0027I had a promotion to earn\u0027, \u0027I was an eighteen-year-old Marine... terrified of being the one who got killed first\u0027), these instances serve to establish his baseline character and the tension required for the"
+    },
+    {
+      "FindingIndex": 6,
+      "Disposition": 0,
+      "Evidence": "The chapter explicitly frames the protagonist\u0027s state as ambiguous and subjective: \u0027Or I was dead. I didn\u0027t know which one it was. The pain was so intense that it had become a kind of numbness, a strange, detached calm that settled over my mind.\u0027 The narrative uses this internal perspective to depict the moment of death and the transition to the afterlife/void, rather than asserting a physiological contradiction where a conscious, functioning person survives a fatal wound for an extended period.",
+      "Reason": "The finding claims a contradiction between the \u0027immediate physiological collapse\u0027 and the protagonist\u0027s continued consciousness. However, the text does not claim the protagonist is physiologically \u0027alive\u0027 in a functional sense; it describes the subjective experience of dying. The line \u0027Or I was dead\u0027 directly addresses the ambiguity of his state. The subsequent internal monologue is a narrative device to convey the character\u0027s final thoughts and the thematic shift (Sacrifice), not a claim of def"
+    }
+  ],
+  "Model": "qwen3.8:27b",
+  "Duration": "00:05:10.7163884",
+  "HasBlockingFindings": true
+}

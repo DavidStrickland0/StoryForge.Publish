@@ -1,0 +1,30 @@
+{
+  "Assessment": {
+    "MeetsQualityStandard": false,
+    "Summary": "The scene establishes the protagonist\u0027s decision to shield the mother with clear intent, but it suffers from significant prose defects. The internal monologue relies heavily on the prohibited \u0027not X, but Y\u0027 contrast structure and repetitive negative declarations to explain his character, which violates the writing rules and creates a redundant, expository tone. Additionally, the pacing of the enemy\u0027s approach is inconsistent, jumping from 10 meters to 5 meters within a single sentence without accounting for the time required for the protagonist to stop shooting and move, which disrupts the causal coherence of the action.",
+    "Findings": [
+      {
+        "Dimension": 4,
+        "Severity": 1,
+        "Explanation": "The prose repeatedly explains the protagonist\u0027s internal state and character traits through negative declarations and contrast reframing (\u0027It wasn\u0027t bravery. It wasn\u0027t duty.\u0027, \u0027I didn\u0027t save people. I didn\u0027t care about people.\u0027, \u0027I didn\u0027t know why. I was...\u0027). This violates the specific writing rule against habitual contrast refring and negative declarations. Instead of showing the character\u0027s conflict through action or specific thought, the narrator explicitly lists what he is not and what he is, resulting in a didactic and repetitive explanation of his selfishness and sudden change of heart that the reader can infer from the context and his actions.",
+        "RevisionGuidance": "Remove the explicit negative declarations and contrast structures. Convey the protagonist\u0027s conflict and the weight of his decision through his physical reactions, specific memories, or the immediate sensory experience of the moment, allowing the reader to understand his character shift without the narrator explicitly defining it through a list of negations.",
+        "EvidenceQuotes": [
+          "I didn\u2019t know why. I was an eighteen-year-old Marine who had joined the service because I wanted to feel important, because I wanted to escape the smallness of my life, because I wanted to be someone who could make other people afraid. I was selfish. I was ambitious. I was willing to use weakness for personal benefit. I had spent my whole life calculating the cost of every action, the return on every investment. I didn\u2019t save people. I didn\u2019t care about people. I cared about myself.",
+          "But looking at her, I felt a surge of something that didn\u2019t fit. It wasn\u2019t bravery. It wasn\u2019t duty. It was a cold, hard certainty that if I let her die, I would never be able to look at myself in the mirror again. And I hated myself for feeling it. I hated that my instinct was to protect, to shield, to sacrifice. I hated that my body was already moving before my mind had finished the thought."
+        ]
+      },
+      {
+        "Dimension": 0,
+        "Severity": 0,
+        "Explanation": "The transition from the enemy being 10 meters away to 5 meters away occurs within a single sentence (E10) immediately after the protagonist stops shooting (E9). Given that the protagonist then has to sling his rifle and step out of the trench (E11), the time elapsed for the enemy to close that distance seems compressed or inconsistent with the physical actions described. The pacing of the enemy\u0027s approach does not align logically with the time required for the protagonist\u0027s deliberate movements.",
+        "RevisionGuidance": "Adjust the distance markers or the pacing of the enemy\u0027s advance to better reflect the time it takes for the protagonist to stop firing, sling his rifle, and move out of the trench. Ensure the physical actions and the enemy\u0027s movement are temporally consistent.",
+        "EvidenceQuotes": [
+          "The enemy was closer now. Ten meters. The enemy was five meters away. I could see their faces. They were young, too. Older than me, maybe, but young enough that they looked scared. They didn\u2019t look like monsters. They looked like people. And that made it worse.",
+          "I put my rifle on my back. It felt heavy, like it was made of lead and regret. I stepped out of the trench. The mud sucked at my boots, trying to hold me down. I ignored it. I walked toward the enemy, toward the line of fire, toward the woman who was watching me with those detached, curious eyes."
+        ]
+      }
+    ]
+  },
+  "Model": "qwen3.8:27b",
+  "Duration": "00:02:32.5858178"
+}
