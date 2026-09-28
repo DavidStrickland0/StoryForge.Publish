@@ -1,0 +1,35 @@
+{
+  "chapterNumber": 1,
+  "viewpointCharacterId": "protagonist",
+  "objective": "Establish the protagonist's baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.",
+  "intendedChange": "The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.",
+  "pacingPosture": "Urgent",
+  "prohibitedPatterns": [
+    "Using one-word narrative sentences or fragments for dramatic effect (e.g., 'I moved.', 'Vance was gone.').",
+    "Choppy, staccato rhythm in combat scenes that undermines visceral immediacy.",
+    "Resolving the protagonist's death or the physical act of shielding the mother; the chapter must end with the choice made and the body positioned, but before the fatal impact.",
+    "Introducing the System interface, the void, or any metaphysical elements.",
+    "Romantic or intimate characterization of the noncombatant mother.",
+    "Deep personal bonding or betrayal with battle comrades; relationships must remain professional and transactional."
+  ],
+  "scenes": [
+    {
+      "sequence": 1,
+      "purpose": "Establish the protagonist's self-serving, competent persona and the initial tactical confidence of the unit during the chaotic battle, highlighting his reliance on institutional support and his contempt for civilian presence.",
+      "intendedChange": "The protagonist is actively engaged in combat, using his position and equipment to maintain control, while observing the breakdown of the unit's cohesion and the presence of noncombatants in the zone, setting the stage for his isolation.",
+      "focusCharacterIds": [
+        "protagonist",
+        "battle_comrades"
+      ]
+    },
+    {
+      "sequence": 2,
+      "purpose": "Depict the complete breakdown of the protagonist's unit and institutional support, leaving him isolated and forcing him to rely solely on his own skills and instincts in a chaotic, uncontrolled environment.",
+      "intendedChange": "The protagonist is alone in the line of fire, his standard operating procedures failing against the reality of the battlefield, and he is forced to make a split-second decision to shield the noncombatant mother from an imminent threat.",
+      "focusCharacterIds": [
+        "protagonist",
+        "noncombatant_mother"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.","IntendedChange":"The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.","PacingPosture":3,"ProhibitedPatterns":["Using one-word narrative sentences or fragments for dramatic effect (e.g., \u0027I moved.\u0027, \u0027Vance was gone.\u0027).","Choppy, staccato rhythm in combat scenes that undermines visceral immediacy.","Resolving the protagonist\u0027s death or the physical act of shielding the mother; the chapter must end with the choice made and the body positioned, but before the fatal impact.","Introducing the System interface, the void, or any metaphysical elements.","Romantic or intimate characterization of the noncombatant mother.","Deep personal bonding or betrayal with battle comrades; relationships must remain professional and transactional."],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s self-serving, competent persona and the initial tactical confidence of the unit during the chaotic battle, highlighting his reliance on institutional support and his contempt for civilian presence.","IntendedChange":"The protagonist is actively engaged in combat, using his position and equipment to maintain control, while observing the breakdown of the unit\u0027s cohesion and the presence of noncombatants in the zone, setting the stage for his isolation.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Depict the complete breakdown of the protagonist\u0027s unit and institutional support, leaving him isolated and forcing him to rely solely on his own skills and instincts in a chaotic, uncontrolled environment.","IntendedChange":"The protagonist is alone in the line of fire, his standard operating procedures failing against the reality of the battlefield, and he is forced to make a split-second decision to shield the noncombatant mother from an imminent threat.","FocusCharacterIds":["protagonist","noncombatant_mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the complete breakdown of the protagonist\u0027s unit and institutional support, leaving him isolated and forcing him to rely solely on his own skills and instincts in a chaotic, uncontrolled environment.","IntendedChange":"The protagonist is alone in the line of fire, his standard operating procedures failing against the reality of the battlefield, and he is forced to make a split-second decision to shield the noncombatant mother from an imminent threat.","FocusCharacterIds":["protagonist","noncombatant_mother"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Trench system and adjacent street sector in an active combat zone","TimeContext":"Daytime, during active combat operations","PresentCharacterIds":["protagonist","battle_comrades","noncombatant_mother"],"PhysicalConditions":["Protagonist has 3 rounds remaining in M4 magazine","Vance\u0027s rifle was jammed/empty but has been cleared and reloaded","Environment is dusty, with debris and broken glass on the street","Noncombatant mother is crouched behind debris, trembling, wearing a torn shawl"],"KnowledgeEstablished":["Protagonist views noncombatants as liabilities and inefficiencies rather than people to be saved","Protagonist values reliability and procedural competence over loyalty or emotional connection","Vance possesses a moral conscience that conflicts with the protagonist\u0027s utilitarian approach","The enemy has temporarily ceased fire, creating a dangerous silence","The unit\u0027s flanks are open and the tactical situation is unstable"],"DecisionsMade":["Protagonist ordered Vance to return to the trench, refusing to evacuate the noncombatant mother","Protagonist decided to prioritize his own survival and tactical position over the safety of the civilian"],"PossessionChanges":["Vance\u0027s rifle is now loaded and functional","Protagonist\u0027s M4 magazine is down to 3 rounds"],"RelationshipChanges":["Vance displays visible disappointment and judgment toward the protagonist for dismissing the civilian"],"CompletedActions":["Protagonist killed an enemy combatant carrying an RPG","Protagonist and Vance moved from the trench to the street corner","Protagonist identified the noncombatant mother and ordered her to stay down","Protagonist ordered Vance to retreat to the trench"],"UnresolvedImmediateAction":"Protagonist is positioned in the open street with low ammunition, facing a sudden silence after enemy fire, while the noncombatant mother remains exposed nearby and Vance is retreating to the trench.","ContinuationPosition":"Protagonist is standing in the open street, having just turned away from Vance and the noncombatant mother, checking his low-ammunition magazine while the enemy fire has suddenly stopped.","ProhibitedRepetition":["Re-establishing the protagonist\u0027s contempt for civilians or his utilitarian mindset","Re-describing the initial jam in Vance\u0027s rifle or the act of clearing it","Re-describing the kill of the RPG carrier","Re-introducing the noncombatant mother as a new discovery"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The silence didn’t hold. It snapped like a dry twig under a boot, shattered by the high-pitched whine of a projectile slicing through the air.
+
+My head snapped up, eyes tracking the sound, but the source was already gone, swallowed by the smoke and the chaos of the street. I didn’t think. Thinking was a luxury for people with more than three rounds in their magazine and a support team that wasn’t currently trying to save their own skins. My body moved on muscle memory, a reflex drilled into me at Parris Island and sharpened in the field. I dropped, hitting the dirt with a heavy thud that vibrated through my chest plate.
+
+I was flat on my back, staring up at a sky choked with grey dust and the distant, indifferent sun. The woman was three meters to my left. I could see the hem of her torn shawl, the dust coating her hands as she pressed them over her ears. She was frozen. Not hiding, not running, just frozen, a statue made of flesh and terror.
+
+The whine got louder. The whine got closer.
+
+I had three options. I could stay where I was, exposed on the open street, and hope the round missed. I could scramble for the trench, a distance that felt like a mile in the heat of the moment, and hope I got there before the impact. Or I could do the stupid, stupid thing that my training screamed at me to avoid and my gut, that primitive, animal part of me that still remembered what it felt like to be a child, suggested.
+
+I rolled.
+
+It wasn’t a tactical maneuver. It was a desperate, ugly scramble, my boots churning up the dirt and broken glass. I moved toward the debris pile where the woman was crouched, my rifle clutched tight against my chest, the three rounds in the magazine feeling like a promise I couldn’t keep. I didn’t look at her. I couldn’t afford to. I focused on the space between her and the open street, the gap where the threat was coming from.
+
+I hit the pile of rubble and collapsed over her.
+
+It was a clumsy thing, my helmet striking the concrete, my shoulder taking the brunt of the impact. I was on my back, my legs tangled with hers, my rifle pointing at the sky. I was a shield. A human, clumsy, expensive shield.
+
+The whine peaked.
+
+Then the world exploded.
+
+The impact was not a sound. It was a force. A physical blow that hit me in the center of my back, driving the air from my lungs and slamming me into the dirt. The concrete beside my head disintegrated, shards of stone and rebar spraying outward in a shower of deadly debris. Dust billowed up, thick and choking, filling my mouth, my nose, my eyes.
+
+I coughed, a dry, hacking spasm that tore at my throat. My vision was blurred, red-rimmed and distorted. I tried to move, to check the woman, to see if she was alive, but my body wouldn’t listen. My muscles were locked in a rigid spasm, my nerves firing off warning signals that drowned out everything else.
+
+The pain was intense.
+
+It started as a dull ache in my shoulder, then bloomed into a searing, white-hot fire that raced down my arm and into my chest. I gasped, the air scraping against my raw throat. I was alive. I was still alive. The thought was absurd, a joke told in a language I didn’t understand.
+
+I shifted, wincing as the movement pulled at the injury. My hand found the woman’s arm. It was cold, limp, but it moved. She was breathing. I could feel the faint, ragged rise and fall of her chest against my side.
+
+I lay there, my head throbbing, my body screaming in protest, and I listened.
+
+The whine was gone. The explosion was gone. The silence returned, but this time it was different. It was heavy, oppressive, a weight that pressed down on my chest. The dust settled, slowly, coating everything in a fine, grey powder.
+
+I checked my rifle. The magazine was still in place. I had three rounds. I had a broken shoulder, a concussion, and a civilian tangled in my limbs. I was useless. I was a liability. I was exactly what Vance had been looking at when he had turned away from me.
+
+I tried to push myself up, but my arm gave way. I fell back against the rubble, my breathing shallow and labored. I closed my eyes, not out of defeat, but out of necessity. I needed to think. I needed to process. I needed to understand why I had done what I had done.
+
+I had no answer.
+
+The only thing I knew for certain was that I was still here. And I was still alone.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

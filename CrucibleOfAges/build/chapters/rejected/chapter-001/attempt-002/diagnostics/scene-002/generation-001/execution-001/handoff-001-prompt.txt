@@ -1,0 +1,123 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.","IntendedChange":"The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.","PacingPosture":3,"ProhibitedPatterns":["Repetitive clipped narrative sentences or contrast reframing (e.g., \u0027I was useless. I was a liability.\u0027)","Static, unresolved endings where the protagonist is injured and alone without the dramatic consequence of the decision","Surviving the act of shielding the mother (the protagonist must die in Chapter 2, but the decision to shield must be made in Chapter 1)","Revealing the System or metaphysical consequences in this chapter"],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s baseline personality and tactical competence through a chaotic firefight that highlights his selfishness and reliance on institutional support.","IntendedChange":"The protagonist successfully eliminates a threat using his squad\u0027s support, but his internal monologue reveals his contempt for civilians and his view of comrades as tools, setting up his baseline identity before the unit\u0027s breakdown.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit and the isolation of his institutional identity as the battle turns chaotic and uncontrolled.","IntendedChange":"The protagonist\u0027s squad is scattered or incapacitated, leaving him alone in the line of fire, forcing him to rely on his own skills and instincts rather than his rank and equipment.","FocusCharacterIds":["protagonist"]},{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire and force the protagonist to make a split-second decision between self-preservation and shielding her.","IntendedChange":"The protagonist\u0027s perception shifts from indifference to a visceral, instinctive recognition of the mother\u0027s vulnerability, leading him to physically position his body between her and the threat, making the choice to shield her.","FocusCharacterIds":["protagonist","noncombatant_mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit and the isolation of his institutional identity as the battle turns chaotic and uncontrolled.","IntendedChange":"The protagonist\u0027s squad is scattered or incapacitated, leaving him alone in the line of fire, forcing him to rely on his own skills and instincts rather than his rank and equipment.","FocusCharacterIds":["protagonist"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire and force the protagonist to make a split-second decision between self-preservation and shielding her.","IntendedChange":"The protagonist\u0027s perception shifts from indifference to a visceral, instinctive recognition of the mother\u0027s vulnerability, leading him to physically position his body between her and the threat, making the choice to shield her.","FocusCharacterIds":["protagonist","noncombatant_mother"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Street level at the corner of an intersection, near an overturned car, in a war-torn urban environment with scorched buildings.","TimeContext":"0802 hours, morning, post-artillery barrage.","PresentCharacterIds":["protagonist","battle_comrades","noncombatant_mother"],"PhysicalConditions":["Protagonist is armed with a rifle (magazine full) and sidearm, wearing helmet and visor.","Protagonist is physically unharmed.","Environment is damaged: crumbling parapets, blown-out windows, glass and gravel on streets, smoke/haze present.","Three hostile combatants are crouched behind an overturned car, weapons raised, facing the protagonist."],"KnowledgeEstablished":["Protagonist views civilians as obstacles/variables to be removed if they do not fit tactical results.","Protagonist views comrades (specifically Sergeant Miller) as useful tools for executing violence.","Protagonist derives a chemical rush of competence from killing and tactical efficiency.","Protagonist is currently engaged in a firefight with three masked hostiles."],"DecisionsMade":["Protagonist ordered the neutralization of two civilians (one carrying a child) in an alley, overriding Miller\u0027s hesitation.","Protagonist chose to step around a praying woman in the road rather than engage or protect her.","Protagonist initiated fire upon encountering three hostiles behind an overturned car."],"PossessionChanges":[],"RelationshipChanges":["Protagonist\u0027s dynamic with Sergeant Miller is defined by strict command hierarchy and Miller\u0027s compliance with lethal orders against civilians."],"CompletedActions":["Protagonist coordinated with Sergeant Miller to eliminate a target at 2 o\u0027clock.","Protagonist ordered and witnessed the execution of two civilians in an alley.","Protagonist moved from a water tower parapet to street level.","Protagonist passed a praying woman in the road.","Protagonist engaged three hostiles behind an overturned car with rifle fire."],"UnresolvedImmediateAction":"Protagonist is in active combat with three hostiles behind an overturned car; the outcome of this immediate exchange is undetermined.","ContinuationPosition":"Protagonist is standing at the corner of the intersection, rifle raised, having just fired at three masked hostiles crouched behind an overturned car. Sergeant Miller is moving to the protagonist\u0027s position. The immediate threat is the three hostiles.","ProhibitedRepetition":["Repeating the internal monologue about civilians being \u0027obstacles\u0027 or \u0027variables\u0027 without new context.","Repeating the specific interaction with the praying woman in the road.","Repeating the order to kill the civilians in the alley.","Repeating the description of the protagonist\u0027s \u0027chemical rush\u0027 from killing without new trigger."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The first shot cracked off the car’s roof, showering sparks that died instantly in the haze. I didn’t flinch. I’d been in firefights before, usually the ones where the other side was stupid enough to let me hear them breathing. These three were different. They were fast. One of them rolled behind the bumper, disappearing into the undercarriage shadows, while the other two kept their heads low, firing in disciplined bursts. *Pop-pop. Pop-pop.* Rhythmic. Their fire was disciplined and trained.
+
+My magazine had eight rounds left. I could count them in my head, a habit from the range that felt more comforting than it had any right to be. Eight rounds, three targets, and a street full of broken glass that made every movement a potential trip hazard. I shifted my weight, feeling the gravel bite through the sole of my boot, and let the rifle settle into the hollow of my shoulder. The stock was warm from the previous burst, the metal slick with a thin film of moisture that wasn’t rain. It was always like that in the cities. The air tasted of copper and burnt plastic, a flavor that coated the back of my throat and refused to leave.
+
+Miller was moving toward me, his silhouette cutting through the grey dust. He was close enough now that I could hear the rattle of his gear, the heavy clank of his ammunition pouches swinging against his thigh. He was efficient. He was useful. And he was about to be a problem, because he had a way of looking at a situation and trying to fix it with a speech instead of a bullet.
+
+"Hostiles at the vehicle!" Miller shouted, his voice strained but controlled. "They’re suppressing! I need a window!"
+
+I didn’t answer. I raised my head, scanning the gap between the car and the crumbling wall of the building to my left. There was a doorway there, half-collapsed, the frame warped by the earlier blast. If I moved left, I could flank them. It was a clean maneuver. It was a clean, textbook maneuver. The kind of thing that got written up in after-action reports with little stars next to the officer’s name.
+
+I took two steps to the left. The gravel crunched.
+
+A bullet tore through the air where my head had been a second before, striking the concrete wall behind me. Dust puffed out, a white cloud that obscured my vision for a heartbeat. I dropped into a crouch, my rifle sweeping across the street. The three hostiles were still there, but they weren’t firing anymore. They were watching me. They were waiting for me to make a mistake.
+
+Miller reached my position, sliding in from the right. He was out of breath, his face a mask of sweat and grime. "You okay?" he asked, though the question was rhetorical. He was checking his magazine, clicking the bolt to ensure a round was seated. A small, mechanical sound in the chaos.
+
+"I’m fine," I said. My voice sounded flat, even. I was fine. I was in control. The situation was contained, provided I could keep it contained.
+
+"Can you cover the driver’s side?" Miller asked, already moving to my right, positioning himself to engage the hostiles from a new angle. "I’ll take the passenger side. We pin them down and flush them out."
+
+It was a good plan. It was the kind of plan that worked when you had enough firepower to apply pressure, when you had enough people to fill the gaps. I had eight rounds. Miller had whatever was in his clip, probably full, probably more than he needed. We were a team. We were a unit. We were the best thing this battalion had produced in months, according to the briefing slides that had been projected onto a wall that no longer existed.
+
+I looked at Miller. He was watching the car, his eyes narrowed, calculating. He was expecting me to follow his lead. He was expecting the standard operating procedure to hold.
+
+"Miller," I said.
+
+He glanced at me. "Yeah?"
+
+"Stay here. Watch the alley behind us."
+
+His brow furrowed. "The alley? What’s in the alley?"
+
+"Nothing. I’m watching the alley. You watch the car."
+
+He hesitated. For a second, I saw the confusion in his eyes, the slight pause where his brain tried to reconcile my order with the tactical reality. It was a small thing. A micro-expression. But I saw it, and I knew that in that moment, he was no longer a partner. He was a variable. A piece of the puzzle that I could move, or leave, depending on what the board required.
+
+"Got it," he said, his voice dropping an octave, the compliance slipping in. He turned, moving toward the alleyway, his back to the hostiles.
+
+I waited. One second. Two seconds passed. The hostiles didn’t move. They were still crouched behind the car, their weapons raised, their eyes fixed on me. I was alone now. Just me, the rifle, and the eight rounds of ammunition that represented my entire tactical advantage.
+
+The street was quiet. The smoke curled around the overturned car, drifting lazily in the still air. The smell of cordite was fading, replaced by the sharper, cleaner scent of ozone and wet concrete. I could hear my own breathing, steady and slow. I could hear the blood rushing in my ears, a low hum that filled the silence.
+
+I was ready. I had the high ground, the better position, the clearer line of sight. They were trapped. They were waiting for me to make a mistake. They were waiting for Miller to come back and provide the cover fire that I had promised.
+
+But Miller wasn’t coming back. Not yet. And I didn’t need him.
+
+I raised my rifle, my finger resting on the trigger guard. The metal was cool against my skin, a familiar comfort. I was going to kill them. It was simple. It was efficient. It was what I was good at.
+
+And for the first time in a long time, I felt no rush. No chemical spike of adrenaline. Just the cold, clean satisfaction of a job to be done.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

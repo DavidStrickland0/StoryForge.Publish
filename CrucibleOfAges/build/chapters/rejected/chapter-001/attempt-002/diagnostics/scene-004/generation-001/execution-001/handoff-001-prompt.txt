@@ -1,0 +1,103 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 4 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.","IntendedChange":"The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.","PacingPosture":3,"ProhibitedPatterns":["Repetitive clipped narrative sentences or contrast reframing (e.g., \u0027I was useless. I was a liability.\u0027)","Static, unresolved endings where the protagonist is injured and alone without the dramatic consequence of the decision","Surviving the act of shielding the mother (the protagonist must die in Chapter 2, but the decision to shield must be made in Chapter 1)","Revealing the System or metaphysical consequences in this chapter"],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s baseline personality and tactical competence through a chaotic firefight that highlights his selfishness and reliance on institutional support.","IntendedChange":"The protagonist successfully eliminates a threat using his squad\u0027s support, but his internal monologue reveals his contempt for civilians and his view of comrades as tools, setting up his baseline identity before the unit\u0027s breakdown.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit and the isolation of his institutional identity as the battle turns chaotic and uncontrolled.","IntendedChange":"The protagonist\u0027s squad is scattered or incapacitated, leaving him alone in the line of fire, forcing him to rely on his own skills and instincts rather than his rank and equipment.","FocusCharacterIds":["protagonist"]},{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire and force the protagonist to make a split-second decision between self-preservation and shielding her.","IntendedChange":"The protagonist\u0027s perception shifts from indifference to a visceral, instinctive recognition of the mother\u0027s vulnerability, leading him to physically position his body between her and the threat, making the choice to shield her.","FocusCharacterIds":["protagonist","noncombatant_mother"]},{"Sequence":4,"Purpose":"Capture the immediate, visceral aftermath of the protagonist\u0027s decision to shield the mother, focusing on the physical reality of his injuries and the sudden, disorienting silence that follows the exchange of fire, while maintaining the tension of the unresolved standoff.","IntendedChange":"The protagonist\u0027s focus shifts from active combat to a state of suspended animation, where his body\u0027s failing physical state contrasts with his heightened, raw awareness of the mother\u0027s presence behind him, solidifying the weight of his choice without resolving the immediate threat.","FocusCharacterIds":["protagonist","noncombatant_mother"]},{"Sequence":5,"Purpose":"Depict the final, definitive moment of the protagonist\u0027s death as the remaining hostiles fire, ensuring the narrative closes on the act of sacrifice rather than a cliffhanger, and providing the necessary reading length to meet the chapter minimum.","IntendedChange":"The protagonist experiences the cessation of life as a final, clear moment of intent fulfilled, transitioning from the chaotic noise of battle to a profound, internal stillness that marks the end of his first life and the initialization of the System, without explicitly revealing the metaphysical mechanics.","FocusCharacterIds":["protagonist"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":4,"Purpose":"Capture the immediate, visceral aftermath of the protagonist\u0027s decision to shield the mother, focusing on the physical reality of his injuries and the sudden, disorienting silence that follows the exchange of fire, while maintaining the tension of the unresolved standoff.","IntendedChange":"The protagonist\u0027s focus shifts from active combat to a state of suspended animation, where his body\u0027s failing physical state contrasts with his heightened, raw awareness of the mother\u0027s presence behind him, solidifying the weight of his choice without resolving the immediate threat.","FocusCharacterIds":["protagonist","noncombatant_mother"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":5,"Purpose":"Depict the final, definitive moment of the protagonist\u0027s death as the remaining hostiles fire, ensuring the narrative closes on the act of sacrifice rather than a cliffhanger, and providing the necessary reading length to meet the chapter minimum.","IntendedChange":"The protagonist experiences the cessation of life as a final, clear moment of intent fulfilled, transitioning from the chaotic noise of battle to a profound, internal stillness that marks the end of his first life and the initialization of the System, without explicitly revealing the metaphysical mechanics.","FocusCharacterIds":["protagonist"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":3,"Location":"Street level in the middle of the intersection, directly in the line of fire between the protagonist and the hostiles behind the overturned car.","TimeContext":"0802 hours, morning, post-artillery barrage.","PresentCharacterIds":["protagonist","noncombatant_mother","hostile_combatants"],"PhysicalConditions":["Protagonist is unarmed; rifle dropped on the asphalt.","Protagonist is wounded: bullet through left shoulder (punched through vest, muscle, and bone), bullet clipped hip, bullet grazed leg.","Protagonist is bleeding heavily, vision blurred, muscles failing, but still standing.","Noncombatant mother is standing behind the protagonist, holding a limp child (dead or unconscious).","Two hostile combatants are active behind the overturned car, weapons aimed at the protagonist.","One hostile combatant is down/slumped behind the overturned car."],"KnowledgeEstablished":["Protagonist recognizes the noncombatant mother as a human being suffering, breaking his previous view of civilians as \u0027variables\u0027 or \u0027liabilities\u0027.","Protagonist perceives that his standard tactical calculations (\u0027spreadsheet\u0027) failed to account for the moral weight of the situation.","Protagonist has 7 rounds remaining in his rifle magazine (though the rifle is now dropped)."],"DecisionsMade":["Protagonist chose to shield the noncombatant mother with his body rather than eliminate the remaining hostiles to ensure his own survival.","Protagonist dropped his rifle to physically move into the line of fire."],"PossessionChanges":["Protagonist relinquished possession of his rifle, dropping it on the asphalt."],"RelationshipChanges":["Protagonist\u0027s internal dynamic shifts from contempt/indifference toward the noncombatant mother to a visceral, protective instinct, viewing her as the sole priority (\u0027I just had her\u0027)."],"CompletedActions":["Protagonist fired one round, killing one of the three hostiles.","Protagonist observed the noncombatant mother standing in the kill zone holding a limp child.","Protagonist dropped his rifle.","Protagonist stepped forward into the open line of fire.","Protagonist absorbed three bullets (left shoulder, hip, leg) while shielding the mother.","Protagonist turned back to face the two remaining hostiles while wounded and unarmed."],"UnresolvedImmediateAction":"Protagonist is standing unarmed and heavily wounded in the open, facing two armed hostiles, maintaining his position as a shield for the mother behind him.","ContinuationPosition":"Protagonist is standing in the middle of the intersection, bleeding from wounds to his shoulder, hip, and leg, with his rifle dropped on the ground. He is facing two masked hostiles behind an overturned car who are aiming their weapons at him. The noncombatant mother is standing directly behind him, safe from the immediate line of fire.","ProhibitedRepetition":["Repeating the protagonist\u0027s internal monologue about the \u0027spreadsheet\u0027 or \u0027inputs and outputs\u0027 without new context.","Repeating the specific act of dropping the rifle.","Repeating the description of the first bullet hitting the shoulder.","Repeating the protagonist\u0027s initial perception of the mother as a \u0027statue\u0027 or \u0027variable\u0027.","Repeating the tactical calculation of \u00277 rounds left\u0027 as a current asset, since the rifle is dropped."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The silence that followed wasn’t empty. It was heavy, filled with the wet, rhythmic dripping of my own blood hitting the asphalt and the high-pitched whine of my ears ringing in a frequency that had nothing to do with the world anymore. I could feel the heat radiating off the pavement, baking the back of my knees, a stark contrast to the cold spreading through my shoulder and hip. The two men behind the overturned car hadn’t moved. Their rifles were still leveled at my chest, their eyes visible as dark holes in their tactical masks. They were waiting. They were calculating. I knew what they were thinking because I had been thinking it a second ago: *he’s broken, he’s bleeding, he’s done.*
+
+But they didn’t fire.
+
+I didn’t know why. Maybe they were afraid I’d grab a weapon I didn’t have. Maybe they were confused by the fact that a man with three holes in him was still standing, still blocking the path to the only civilian in the kill zone. Or maybe they were just as stunned as I was, caught in the same loop of disbelief that had frozen the rest of the world.
+
+Behind me, I could hear her breathing. It was shallow, ragged, the sound of someone trying to keep their heart beating while their mind tried to process the impossibility of the moment. She was holding the child. I could feel the weight of her presence through my own back, a solid, terrifying anchor in the middle of the chaos. She wasn't screaming. She wasn't running. She was just standing there, trusting that the meat and bone and bullet-riddled vest in front of her was enough to stop the next round.
+
+I wanted to tell her to run. I wanted to scream at her to get behind the car, to get away from me, to save the child. But my throat was a tight knot of blood and muscle, and my legs were trembling so violently I had to lock my knees just to stay upright. Every time I tried to push air into my lungs, a coughing fit racked my body, spraying a mist of red onto the gray street. The pain was a white, blinding flare that made my vision blur and then sharpen again, the edges of the world fraying into static.
+
+I looked at the man on the left. He adjusted his grip on the rifle. I saw the glint of the scope, the cold, mechanical precision of it. He was a professional. He didn't have the hesitation of the other one. He was waiting for me to fall. He was waiting for the inevitable.
+
+And I was waiting for him to fire.
+
+Because if I fell, she would be exposed. If I turned, she would be exposed. If I did anything other than stand here, bleeding and breathing and refusing to die, she would be dead in three seconds flat. The math was simple. The physics were undeniable. I was the only thing between her and the muzzle flash.
+
+My hand drifted down to my side, my fingers brushing the cold, wet fabric of my uniform. I was reaching for nothing. There was no knife. There was no grenade. There was no miracle. There was just me, and the two of them, and the woman who had become the entire center of my universe in the span of a heartbeat.
+
+The man on the right shifted his weight. I heard the faint click of a safety being released. Or maybe it was just the sound of a joint popping, a small, human noise in the middle of this surreal tableau. Either way, the tension in the air spiked, a taut wire ready to snap.
+
+I closed my eyes for a fraction of a second. It was a mistake, a tactical error that my brain screamed at me to correct, but I did it anyway. I needed a moment of darkness, a moment where I couldn't see the barrels of their guns, where I couldn't see the fear in the woman's posture behind me. I needed a moment where I wasn't a Marine, wasn't a target, wasn't a variable in someone else's equation.
+
+When I opened them, the world was sharper. The sun was glaring off the chrome bumper of the overturned car. A bird was singing, impossibly loud, somewhere in the distance. It was a mocking, beautiful sound, completely out of place in the middle of a firefight.
+
+I took a step forward.
+
+My boot crunched on a piece of broken glass. The sound was small, insignificant, but it seemed to break the spell. The man on the left’s finger tightened on the trigger. I felt the pressure of the moment, the weight of the choice I had made, settle into my bones. I was going to die. I knew that with a clarity that cut through the pain, the fear, the confusion. I was going to die here, on this street, for a stranger and her child.
+
+And for the first time in my life, I didn't care.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

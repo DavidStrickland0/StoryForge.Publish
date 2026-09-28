@@ -1,0 +1,161 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.","IntendedChange":"The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.","PacingPosture":3,"ProhibitedPatterns":["Introducing a new, active mortar threat or escalation that contradicts the established environmental condition of distant, rhythmic thuds.","Using one-word narrative sentences or fragments for dramatic emphasis (e.g., \u0027Static.\u0027, \u0027Nothing there.\u0027).","Resolving the protagonist\u0027s death, the initialization of the System, or the transition into the void.","Depicting the physical act of shielding the mother from a fatal blow or the resulting impact.","Forming a romantic or intimate connection with the noncombatant mother.","Establishing deep personal bonds or betrayals with battle comrades beyond professional transactional dynamics."],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s baseline personality through his tactical decisions and internal monologue during the chaotic battle, revealing his selfishness, ambition, and contempt for weakness while demonstrating his competence in combat.","IntendedChange":"The protagonist is actively engaged in combat, relying on his institutional support and equipment, and has just issued a command to his unit that prioritizes his own safety over the well-being of a subordinate, establishing his self-serving nature.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit and the loss of institutional support, forcing him to act alone and revealing the fragility of his identity as a Marine.","IntendedChange":"The protagonist is isolated from his unit, his radio is silent, and he is forced to navigate the battlefield alone, his standard operating procedures failing against the chaotic reality of the situation.","FocusCharacterIds":["protagonist"]},{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire, forcing the protagonist to make a split-second decision between self-preservation and her safety, and revealing his internal conflict between his self-serving identity and a deeper, unacknowledged capacity for sacrifice.","IntendedChange":"The protagonist is in the process of shielding the noncombatant mother, his body positioned between her and the threat, his decision to protect her overriding his instinct for self-preservation, with the moment suspended and the outcome unknown.","FocusCharacterIds":["protagonist","noncombatant_mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit and the loss of institutional support, forcing him to act alone and revealing the fragility of his identity as a Marine.","IntendedChange":"The protagonist is isolated from his unit, his radio is silent, and he is forced to navigate the battlefield alone, his standard operating procedures failing against the chaotic reality of the situation.","FocusCharacterIds":["protagonist"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire, forcing the protagonist to make a split-second decision between self-preservation and her safety, and revealing his internal conflict between his self-serving identity and a deeper, unacknowledged capacity for sacrifice.","IntendedChange":"The protagonist is in the process of shielding the noncombatant mother, his body positioned between her and the threat, his decision to protect her overriding his instinct for self-preservation, with the moment suspended and the outcome unknown.","FocusCharacterIds":["protagonist","noncombatant_mother"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Interior of a building, specifically a hallway adjacent to a cleared room and a second room containing a noncombatant woman and child; a window in the second room is visible.","TimeContext":"Active combat operation; distant, rhythmic mortar fire ongoing in the background.","PresentCharacterIds":["protagonist","battle_comrades","noncombatant_mother","child"],"PhysicalConditions":["Protagonist is armed with a rifle (14 rounds in magazine at scene start, status unchanged by end) and wearing a mask.","Environment is dusty, with broken glass, twisted rebar, and debris.","Noncombatant mother is seated on the floor against a wall, holding a sleeping child.","A shadow moved in the window at the very end of the scene."],"KnowledgeEstablished":["Protagonist\u0027s baseline personality: selfish, ambitious, contemptuous of weakness, views subordinates as tools, prioritizes self-preservation and mission efficiency over human life.","Diaz is a young, competent subordinate who follows orders but shows hesitation and moral conflict regarding noncombatants.","The presence of a noncombatant mother and child in the operational area.","The protagonist\u0027s internal conflict: a suppressed discomfort with his own cruelty, which he dismisses as a luxury.","A potential threat or movement was observed in the window at the scene\u0027s conclusion."],"DecisionsMade":["Protagonist ordered Diaz to clear the first room.","Protagonist ordered Diaz to remove the noncombatant mother and child from the area immediately.","Protagonist authorized lethal force against the noncombatant if she was hostile.","Protagonist decided to continue the operation once the noncombatants were removed."],"PossessionChanges":[],"RelationshipChanges":["Protagonist-Diaz: Established as a transactional, hierarchical relationship where the protagonist uses fear and efficiency to drive Diaz, while Diaz respects the protagonist\u0027s competence but is unsettled by his ruthlessness."],"CompletedActions":["Protagonist checked magazine count.","Protagonist issued tactical commands to Diaz via radio and in person.","Diaz cleared the first room (found empty).","Protagonist moved to the second room.","Protagonist identified the noncombatant mother and child.","Protagonist ordered Diaz to remove the noncombatants.","Diaz approached the noncombatant and spoke to her in a foreign language.","Protagonist observed a shadow move in the window."],"UnresolvedImmediateAction":"The protagonist is paused, observing the shadow that moved in the window, with the noncombatant mother and child still present in the room and Diaz positioned nearby.","ContinuationPosition":"The protagonist is standing in the second room, rifle lowered slightly but ready, eyes fixed on the window where a shadow just moved. Diaz is in the room with the noncombatant mother and child, who are still seated on the floor. The immediate tactical situation is suspended pending the protagonist\u0027s reaction to the window movement.","ProhibitedRepetition":["Re-establishing the protagonist\u0027s baseline personality through similar internal monologues about selfishness or contempt for weakness.","Repeating the specific dialogue exchange where the protagonist orders Diaz to remove the noncombatant and justifies it with \u0027rules\u0027 or \u0027efficiency\u0027.","Re-describing the initial discovery of the noncombatant mother and child in the room.","Re-introducing the distant, rhythmic mortar fire as a new environmental detail.","Depicting the protagonist shielding the mother or the resulting impact (reserved for Scene 3).","Forming a romantic or intimate connection with the noncombatant mother."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The shadow in the window was a trick of the light, or maybe a piece of torn plaster shifting in the draft. My eyes tracked it for a second, waiting for it to move again, but the glass remained dark and still. I let out a breath I didn’t realize I’d been holding, my shoulders dropping a fraction of an inch.
+
+"Done?" I asked, my voice flat.
+
+Diaz didn’t answer. He was standing by the door, his helmet slightly askew, his eyes wide and fixed on something just above my head. He looked like a kid who’d just realized the teacher was actually listening to his lie.
+
+"Diaz," I repeated, louder this time. "Did you finish the sweep?"
+
+He swallowed. The sound was audible in the quiet room, a dry click in his throat. "Sir, the radio is... it's dead."
+
+My first thought was annoyance. Not fear, not concern, just the pure, irritating friction of a tool failing me when I needed it. I tapped the side of my helmet. "I heard you. The radio is dead. Do you have a spare battery?"
+
+"I checked. It’s gone, sir. No signal."
+
+I frowned, tilting my head. "No signal? We’re on the net. We’ve been on the net for two hours. If you say there’s no signal, you’re lying, and if you’re lying, I’m going to have to reconsider your usefulness to me."
+
+Diaz flinched. It was a small movement, barely noticeable, but I saw it. He hated me. I could see it in the way he held his rifle, gripping it too tightly, his knuckles white. He was terrified of me, and he was terrified of the world outside that window. Those two fears were keeping him in line, but they were also eating away at him.
+
+"I’m not lying, sir," he said, his voice tight. "The comms officer went down in the hallway. I saw him. He didn’t get up. And the channel... it’s just static. Or silence. I can’t tell the difference anymore."
+
+I looked at him for a long moment. I wanted to believe him. It would be easier to believe him than to accept the implication. If the comms were down, if the support was gone, then we were alone. And I did not like being alone. I liked the structure, the chain of command, the clear lines of authority that told me exactly what to do and exactly who was responsible for my safety. Being alone meant I had to make the calls myself, and I wasn’t sure I was built for that.
+
+I lowered my rifle to my hip, the weight of it a familiar comfort against my leg. "Stay here. Keep your eyes on the door. If anything moves, you shoot it. If anything talks, you listen. If anything looks like it might be a problem, you shoot it first and worry about the details later. Understood?"
+
+Diaz nodded, his face pale. "Understood, sir."
+
+I moved toward the window, keeping my back to the wall. The glass was cracked, a web of fractures spreading from the center. I pressed my eye to the gap, looking out into the street.
+
+The street was empty.
+
+That was the problem. It was too empty. The mortar fire had stopped, or at least, the rhythmic thumping had faded into a distant, muffled buzz. The dust was settling, creating a gray haze that hung in the air. I could see the twisted rebar of a collapsed building across the street, and the shattered remains of a car that had been parked under a tree. The tree was gone. Only the stump remained, charred and black.
+
+I looked down the block. There were no Marines. No movement. No sound.
+
+I pulled back from the window and turned to Diaz. "How long have you been here?"
+
+"Since we came in, sir. About twenty minutes."
+
+"Twenty minutes," I muttered. "And no one has moved. No one has made contact. No one has reported."
+
+Diaz looked at the floor. "I don’t know, sir."
+
+I walked to the door, checking my magazine one more time. Fourteen rounds. That was plenty of ammunition. I had plenty of time, plenty of skill, plenty of luck. I had all the things that mattered.
+
+I pushed the door open and stepped into the hallway.
+
+The hallway was dark. The lights had been shattered, leaving only the dim glow of the streetlight filtering through the broken windows at the end. The floor was covered in debris, glass, and dust. I could see the blood on the tiles, dark and dried. I recognized the pattern. It was the comms officer.
+
+I walked over to the body. He was slumped against the wall, his helmet hanging off his head. His face was twisted in a silent scream. I looked at his radio. It was shattered, the casing cracked, the wires exposed.
+
+I felt a cold knot in my stomach.
+
+I turned back to the door, where Diaz was waiting. He was holding his rifle with both hands, his eyes wide and wet. He looked like he was about to cry.
+
+"We’re alone," I said. It wasn’t a question.
+
+Diaz nodded. "We’re alone, sir."
+
+I looked at him, really looked at him. I saw the fear in his eyes, the uncertainty, the lack of faith. He was a good soldier. He was obedient. He was useful. But he was weak. And in a situation like this, weakness was a liability.
+
+I raised my rifle and pointed it at him.
+
+Diaz froze. His eyes widened, his mouth opening in a silent gasp.
+
+"Put the rifle down," I said, my voice calm and steady.
+
+"Sir, I..."
+
+"Put. The. Rifle. Down."
+
+His hands shook as he lowered the weapon. He set it on the floor, the sound of metal on concrete echoing in the silent hallway. He looked at me, his face a mask of terror.
+
+I kept my rifle pointed at him. I didn’t know what I was doing. I didn’t know why I was doing it. I just knew that I couldn’t trust him. I couldn’t trust anyone. The only thing I could trust was the rifle in my hand and the instinct to survive that lived in my bones.
+
+"Stay there," I said. "Don’t move."
+
+I turned and walked back into the room with the noncombatant mother and child. I didn’t look at them. I didn’t need to. I knew they were there. I knew they were a problem. I knew they were a distraction.
+
+I sat down on the floor, my back against the wall, my rifle across my knees. I closed my eyes.
+
+I was alone.
+
+The silence was heavy. It pressed against my eardrums, a physical weight. I could hear the distant hum of the city, the faint ringing in my ears, the slow beating of my own heart.
+
+I was alone.
+
+And for the first time in my life, I didn’t know what to do.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

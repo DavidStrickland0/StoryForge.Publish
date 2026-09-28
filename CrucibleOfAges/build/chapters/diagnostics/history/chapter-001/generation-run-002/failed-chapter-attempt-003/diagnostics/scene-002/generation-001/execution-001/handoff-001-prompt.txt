@@ -1,0 +1,147 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s selfish, competence-reliant personality and the chaotic breakdown of his unit, culminating in his decision to shield a noncombatant mother.","IntendedChange":"The protagonist transitions from confident institutional reliance to isolated survival, making the choice to protect the mother over his own safety.","PacingPosture":3,"ProhibitedPatterns":["Contradictory physical states of equipment (e.g., rifle slung vs. raised) without explicit transitional action.","Abstract moralizing about the meaning of sacrifice or death.","Instantaneous altruism without the internal conflict of self-preservation.","Repetitive sensory loops of fear or pain."],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s baseline personality through his tactical assessment and internal monologue during the initial chaos of the battle, revealing his contempt for civilians and reliance on institutional support.","IntendedChange":"The protagonist is positioned behind cover with his rifle raised and aimed, observing the breakdown of his unit\u0027s formation and dismissing the presence of civilians as irrelevant obstacles to his survival.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Depict the complete breakdown of the protagonist\u0027s unit, isolating him from institutional support and forcing him to rely solely on his individual skills and instincts.","IntendedChange":"The protagonist\u0027s comrades are scattered or incapacitated, leaving him alone in his position with no backup, highlighting the fragility of his identity as a Marine and the sudden absence of the structure he depends on.","FocusCharacterIds":["protagonist"]},{"Sequence":3,"Purpose":"Introduce the noncombatant mother into the line of fire, creating a direct conflict between the protagonist\u0027s training to prioritize self-preservation and an instinctive recognition of the threat to her life.","IntendedChange":"The protagonist identifies the mother as a target in the crosshairs of an enemy weapon, forcing him to confront the moral weight of the situation and the immediate danger to her, shifting his focus from his own survival to the potential loss of an innocent life.","FocusCharacterIds":["protagonist","noncombatant_mother"]},{"Sequence":4,"Purpose":"Resolve the immediate tactical dilemma by having the protagonist choose to shield the mother, overriding his instinct for self-preservation and establishing the act of sacrifice that will define his character.","IntendedChange":"The protagonist physically positions himself between the mother and the threat, accepting the risk of death to protect her, completing the transition from selfish survival to sacrificial action.","FocusCharacterIds":["protagonist","noncombatant_mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the complete breakdown of the protagonist\u0027s unit, isolating him from institutional support and forcing him to rely solely on his individual skills and instincts.","IntendedChange":"The protagonist\u0027s comrades are scattered or incapacitated, leaving him alone in his position with no backup, highlighting the fragility of his identity as a Marine and the sudden absence of the structure he depends on.","FocusCharacterIds":["protagonist"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Introduce the noncombatant mother into the line of fire, creating a direct conflict between the protagonist\u0027s training to prioritize self-preservation and an instinctive recognition of the threat to her life.","IntendedChange":"The protagonist identifies the mother as a target in the crosshairs of an enemy weapon, forcing him to confront the moral weight of the situation and the immediate danger to her, shifting his focus from his own survival to the potential loss of an innocent life.","FocusCharacterIds":["protagonist","noncombatant_mother"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Behind hastily stacked sandbag barriers on packed earth, near a treeline where enemy forces are massing","TimeContext":"14:02, clear blue sky","PresentCharacterIds":["protagonist","Sergeant_Miller","Private_Vance","Corporal_Diaz","Corporal_OMalley"],"PhysicalConditions":["Protagonist is behind cover, rifle raised and aimed at the treeline, magazine full","Private_Vance is on his knees, vomiting, helmet hanging off side, pale and shaking","Sergeant_Miller is holding position, gripping rifle with white knuckles, shouting orders","Corporal_Diaz and Corporal_OMalley are arguing, O\u0027Malley pointing with a trembling finger","Sandbags are damp with wet clay and old sweat"],"KnowledgeEstablished":["Protagonist believes the battle is already lost and the unit\u0027s formation is breaking down","Protagonist views institutional support and rank as a failing system he is detached from","Protagonist identifies his role as a \u0027survivor\u0027 and \u0027problem solver\u0027 rather than a team member","Protagonist has dismissed the presence of civilians as irrelevant obstacles (implied by his focus on survival and lack of mention of them in the immediate tactical assessment, consistent with the scene purpose)"],"DecisionsMade":["Protagonist decided to prioritize personal survival over holding the position","Protagonist decided to reject Sergeant Miller\u0027s order to hold the line","Protagonist decided to instruct Private Vance to stay down and wait for orders to run, refusing to lead him out immediately"],"PossessionChanges":["Protagonist fired three rounds from his rifle (one hit a branch, one hit earth, one hit an enemy shadow)"],"RelationshipChanges":["Protagonist established a dismissive and authoritative dynamic with Private Vance, rejecting his attempt to follow"],"CompletedActions":["Protagonist assessed the tactical situation and the breakdown of the squad","Protagonist engaged and eliminated one enemy combatant in the treeline","Protagonist verbally refused to fall back with the squad or lead Vance out"],"UnresolvedImmediateAction":"Protagonist is waiting for the unit to realize the battle is lost, maintaining his aim on the treeline while the squad continues to argue and panic around him.","ContinuationPosition":"Protagonist is behind the sandbags, rifle aimed at the treeline, watching Sergeant Miller shout and Private Vance kneel, having just fired three shots and told Vance to stay down.","ProhibitedRepetition":["Re-describing the initial shock of the battle or the dampness of the sandbags","Repeating the argument between Diaz and O\u0027Malley about the left flank","Repeating the protagonist\u0027s internal monologue about the \u0027system\u0027 failing or his detachment from the mission","Repeating the specific exchange where Vance asks to go and the protagonist says \u0027No\u0027"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The treeline held its breath.
+
+I kept my eye on the gap where the enemy sniper had been, the crosshair resting on a patch of dry grass that smelled of crushed weeds and old rain. My finger lay on the trigger guard, relaxed but ready, waiting for the world to make sense. It wasn’t making sense. The radio crackled with static and fragments of commands that no longer applied to my sector. I could hear the distinct, rhythmic *thud-thud-thud* of small arms fire from somewhere to the east, a sound that felt distant, like a movie playing in another room.
+
+"Miller!" I shouted, my voice flat, devoid of the panic I saw in their faces. "Squad is breaking. Fall back to the treeline. Now."
+
+Sergeant Miller didn’t look at me. He was staring at the dirt, his jaw working as if he were chewing on the orders he’d received. His knuckles were white on his rifle, and he was shaking, a fine tremor that ran through his arms and into the weapon. He was a good soldier. He was also useless.
+
+"Vance," I said, turning my head just enough to see the private. He was still on his knees, his helmet hanging off the side of his head, revealing a face that looked like it had been washed out by fear. He looked like a child who had forgotten how to breathe. "Stay down. Don’t move until I tell you to."
+
+He nodded, a jerky, mechanical motion. He wasn’t listening. He was looking at me with the desperate hope of a man waiting for a miracle. I gave him the only thing I had left: indifference.
+
+I turned back to the treeline.
+
+The breakdown wasn’t sudden. It was a slow erosion, a leaking of structure into the mud. One by one, the sounds of cohesion stopped. The coordinated volleys became sporadic pops. The commands became shouts, then screams, then silence. I watched Sergeant Miller finally lift his head. He looked at me, and for a second, I saw the calculation in his eyes. He was trying to figure out if I was a threat or a savior. Then he saw the fear in my eyes, or maybe the lack of it, and he turned away.
+
+He pulled his rifle from his shoulder, checked the chamber, and began to walk. Not run. He walked instead of running. He moved toward the tree line with the slow, deliberate gait of a man who had already decided he was going to die, or maybe just wanted to be somewhere else when he did. He disappeared into the brush, his uniform blending into the green and brown chaos of the forest floor.
+
+"Miller is gone," Diaz said. His voice was thin, reedy. He was standing up, his rifle held loosely by his side. He looked at O’Malley, who was still arguing with the air. "Sergeant is gone."
+
+O’Malley stopped pointing. He looked at Miller’s empty space, then at me. His face was a mask of confusion, the anger drained out of it, leaving behind a hollow, gray fatigue. "We hold the line," he whispered, as if repeating the words might make them true.
+
+"There is no line," I said.
+
+The words hung in the air, heavy and final. I watched Diaz’s shoulders slump. He looked at his rifle, then at the ground, and then he sat down. He didn’t stand up again. He just sat there, his back against the sandbags, his head in his hands. O’Malley looked at me, then at Vance, who was still kneeling, still waiting for a command that wasn’t coming. O’Malley’s hand drifted to his holster, then dropped. He turned and walked away, his boots crunching on the gravel, disappearing into the same brush where Miller had vanished.
+
+I was alone.
+
+Not alone in the way of a ghost, invisible and harmless. I was alone in the way of a sniper, a single point of contact between two worlds that wanted to destroy each other. The sandbags were still there, damp and heavy. The sky was still blue. The enemy was still out there, beyond the trees, waiting for me to make a mistake.
+
+I checked my magazine again. The magazine was full. I checked my watch. 14:03.
+
+I looked at Vance. He was watching me, his eyes wide, his lips moving silently. I looked at the treeline. I looked at the sky.
+
+The system was gone. The rank, the chain of command, the institutional support, the shared purpose—it had all evaporated in the last ten minutes. What was left was just me, a gun, and the knowledge that I was the only one here who knew how to keep breathing.
+
+I didn’t feel triumphant. I didn’t feel brave. I felt light. The weight of responsibility for other people’s lives was gone, and in its place was the simple, cold clarity of survival. I was no longer a Marine. I was a problem solver. And the problem was the enemy in the treeline.
+
+I adjusted my position, shifting my weight to find a better angle. The sandbags were damp, the wet clay sticking to my boots. I ignored it. I focused on the gap in the trees, on the subtle shifts in the shadows, on the faint rustle of leaves that might be wind, or might be a boot.
+
+I was ready.
+
+The silence stretched, thin and taut. I could hear my own heartbeat, a steady drum in my ears. I could hear the distant sound of fire, the crackle of branches, the whisper of the wind. And I could hear Vance, breathing rapidly, his chest heaving under his flak jacket.
+
+He was a liability. A dead weight. A reason for me to be here.
+
+I looked at him, then back at the treeline.
+
+I didn’t tell him to stay down. I didn’t tell him to run. I didn’t tell him anything.
+
+I just waited.
+
+The enemy sniper was still out there. I knew it because I had seen the muzzle flash, heard the crack of the rifle, and felt the bullet pass through the air inches from my ear. He was good. He was patient. He was waiting for me to move, to make a mistake, to show my hand.
+
+I would not move.
+
+I would not make a mistake.
+
+I would wait.
+
+The minutes ticked by. The sun moved slightly across the sky, casting long shadows across the sandbags. The light changed, turning the dust motes into gold. I watched them dance in the air, suspended in the stillness.
+
+Vance was still kneeling. His eyes were fixed on me, pleading for an answer, for a command, for anything that would tell him he was not alone.
+
+I looked at him, and I felt a strange, cold detachment. I was not his leader. I was not his savior. I was just a man with a gun, standing between him and the enemy.
+
+And I was the only one who knew what that meant.
+
+I checked my magazine one last time.
+
+The container was full.
+
+I was ready.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
