@@ -1,0 +1,51 @@
+Ethan Vale adjusted the strap of his messenger bag until it settled comfortably against his shoulder, the weight offering a familiar anchor against the chaotic energy pulsing through the bar's ventilation shafts. The air smelled of stale beer, floor wax, and something sharper, like ozone that hadn't fully dissipated from the last incident outside. It was Tuesday night, a day usually reserved for grading papers or fixing the leak in the basement, but he'd found himself drawn here by the hum of public attention surrounding the city's most recent celebrity sighting.
+
+The bar was packed, a sea of denim and polyester that swallowed the individual voices into a low, vibrating murmur. Ethan navigated the crowd with practiced economy, keeping his head down and his eyes scanning rather than locking on faces. He knew the rules of this town better than he knew the layout of his own apartment. In a world where superheroes were celebrities and assets, normalcy was a privilege granted by distance or invisibility. To be seen was to be cataloged; to be cataloged was to be vulnerable.
+
+He sought the corner booth near the back, a spot he'd identified earlier as offering the best vantage point for observation without drawing attention. It was a good strategy for an observer. He found it empty and pulled out a chair, sliding into place with a quiet scuff of rubber against linoleum. The table was scratched from years of use, its surface scarred by spilled drinks and dropped plates. Ethan set his wallet down, the leather creaking softly, then opened his notebook to a fresh page. He didn't write anything yet. Observation came first.
+
+From the corner where he sat, the bar unfolded like a living map of social hierarchies. At the center of the room, near the main bar counter and surrounded by a cluster of tables, stood a figure that immediately commanded attention without uttering a word. He was tall—easily six-foot-four—and broad enough that his presence seemed to warp the space around him. His skin held a faint, unnatural sheen under the fluorescent lights, and the way he moved suggested a density that made him seem less like a man and more like an object of significant mass.
+
+That was the first indicator: the crowd parted instinctively when he walked through, creating a silent vacuum in his wake. Patrons didn't just avoid him; they looked away. Ethan had seen this before at other venues, at press events, even on the streets. It wasn't fear, not exactly. It was a mixture of awe and resentment, a recognition that some forces operated beyond normal laws. He watched as another patron hesitated to make eye contact when the man passed near, while others whispered in tones that suggested they were discussing something sacred or dangerous.
+
+The second indicator came from the way the man interacted with his surroundings. He wasn't just occupying space; he was testing it. Every few minutes, he'd flex a hand or shift his weight, and those nearby would recoil as if reacting to an invisible pressure. The bar's structural integrity seemed negligible in comparison to his strength. Ethan noted these details not out of fascination but out of necessity. In a city ruled by the powerful, knowing what they could do was the only defense against being overwhelmed.
+
+A waitress approached him with a tray, her movements stiff and hurried. She set down two beers and a bottle of water before stepping back, her gaze darting toward the center of the room whenever she caught Ethan's eye. Her eyes were wide, filled with a nervous energy that suggested she'd been avoiding this confrontation for some time.
+
+"Table four," she said quickly, barely looking at him. "Just... just keep quiet, yeah?"
+
+Ethan nodded without speaking, taking his beer and sipping to mask the awkwardness of her retreat. He wasn't going to make a scene; that was the point. Making a scene meant drawing attention, and attention meant risk in this city. He'd learned that lesson years ago when a minor hero had caused a stampede at a stadium because someone shouted too loudly.
+
+His eyes drifted back to the man in the center of the room. The figure was now leaning casually against a table, arms crossed over his chest. His posture was relaxed, but it radiated an aura of dominance that made even the bravest patrons shrink away. Around him, a small circle of people stood frozen, their expressions ranging from awe to fear.
+
+Ethan took another sip of his beer, watching as the man's shadow stretched across the room like a dark curtain. The way he held himself suggested confidence born of absolute power, not just physical strength but an awareness that no one dared challenge him. It was a terrifying kind of normalcy, where the strongest person in the room could treat others with casual cruelty and still expect to be revered.
+
+A young woman near the bar counter caught the man's eye. She was holding a tray of drinks, her movements jerky as she tried to avoid his gaze. When their eyes met, she flinched so hard that one of the glasses rattled against the table. The man didn't react. Instead, he stepped forward and took the tray from her hands, setting it down with a thud that knocked over several bottles.
+
+The woman stared at him, tears welling in her eyes, but she said nothing. Around them, the crowd shifted uneasily, some moving closer while others backed away. The man turned to face the room again, his expression unreadable but his presence commanding absolute attention.
+
+Ethan watched as the dynamic played out, noting how the woman's fear was mirrored in the way other patrons avoided eye contact with her. It wasn't that she was weak; it was that she'd been made small by someone whose power made everyone else feel inadequate. The man hadn't even spoken yet, but his presence alone had reduced an entire bar to a collection of trembling observers.
+
+He closed his notebook and set it aside, taking another sip of his beer. The taste was bitter, almost metallic. He wondered if anyone in this room knew what it felt like to be powerless. Most didn't think about it; they just accepted that some things were beyond their control. But Ethan had spent enough time watching the world from the sidelines to know exactly how fragile normalcy really was.
+
+From his corner booth, he watched as the man in the center of the room began to interact with another patron—a woman who seemed to be trying desperately to hold her ground despite the overwhelming pressure radiating from him. The way she stood, stiff and rigid, suggested she'd been trained to endure such encounters, but even she couldn't shake the tremor that ran through her voice when she spoke.
+
+Ethan took a moment to observe the details: the way the man's shadow seemed to stretch across the room, how the air around him felt heavier than it should have been, and the way the crowd reacted with instinctive fear rather than anger. It was a lesson in power dynamics that would stick with him for years.
+
+The woman at the bar counter had managed to deliver her drinks without spilling anything, though she'd stumbled slightly on her way back to the kitchen. The man watched her leave, his expression unchanged, as if he hadn't noticed her fear at all. Then he turned his attention to another group of patrons who were gathered near the stage, where a small screen showed highlights from recent superhero appearances.
+
+Ethan closed his eyes for a moment, listening to the low hum of conversation that seemed to stop whenever the man moved. The bar was alive with tension, a kind of electric charge that made it difficult to breathe. He sipped his beer again, watching as the woman who'd just left returned with a fresh tray, her movements stiff and precise.
+
+The man in the center of the room had now begun to flex his arms, displaying muscles that seemed carved from granite. The way he held himself suggested confidence born of absolute power, not just physical strength but an awareness that no one dared challenge him. It was a terrifying kind of normalcy, where the strongest person in the room could treat others with casual cruelty and still expect to be revered.
+
+Ethan watched as the man's shadow stretched across the room like a dark curtain, noting how the patrons avoided eye contact whenever he moved. The air around him felt heavier than it should have been, and the way he held himself suggested confidence born of absolute power, not just physical strength but an awareness that no one dared challenge him.
+
+He closed his notebook and set it aside, taking another sip of his beer. The taste was bitter, almost metallic. He wondered if anyone in this room knew what it felt like to be powerless. Most didn't think about it; they just accepted that some things were beyond their control. But Ethan had spent enough time watching the world from the sidelines to know exactly how fragile normalcy really was.
+
+From his corner booth, he watched as the man in the center of the room began to interact with another patron—a woman who seemed to be trying desperately to hold her ground despite the overwhelming pressure radiating from him. The way she stood, stiff and rigid, suggested she'd been trained to endure such encounters, but even she couldn't shake the tremor that ran through her voice when she spoke.
+
+Ethan took a moment to observe the details: the way the man's shadow seemed to stretch across the room, how the air around him felt heavier than it should have been, and the way the crowd reacted with instinctive fear rather than anger. It was a lesson in power dynamics that would stick with him for years.
+
+The woman at the bar counter had managed to deliver her drinks without spilling anything, though she'd stumbled slightly on her way back to the kitchen. The man watched her leave, his expression unchanged, as if he hadn't noticed her fear at all. Then he turned his attention to another group of patrons who were gathered near the stage, where a small screen showed highlights from recent superhero appearances.
+
+Ethan closed his eyes for

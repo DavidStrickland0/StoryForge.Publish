@@ -1,0 +1,17 @@
+The bartender was wiping down the counter, oblivious to the way the air grew thick and suffocating as a shadow fell across the room. It wasn't just darkness; it was the kind of heavy presence that made the hair on Ethan's arms stand up without him touching his skin. He watched from his corner table as the man stepped into the light, towering over the nearest booth with a casual arrogance that felt like an insult to everyone within ten feet.
+
+He wore a suit that cost more than Ethan’s annual rent, and the way he moved suggested gravity was merely a suggestion rather than a law. The woman sitting across from him didn't look terrified yet; she looked confused, her hands pressed together on the table as if pleading for a reality check that wasn't coming.
+
+Ethan kept his eyes fixed on the jukebox spinning through its current playlist, pretending to be absorbed in a song that had nothing to do with the situation unfolding next door. His fingers tightened around the glass, knuckles pale against the dim lighting. He knew what was going to happen before it even started. The way the super leaned in, his voice dropping to a low murmur that carried over the bass and the chatter of other patrons, told him everything he needed to know.
+
+He had seen this dynamic too many times in movies where normal people were reduced to props for the entertainment of the powerful. But this wasn't fiction; there was no script to protect them, no hero coming to save her because the laws of physics didn't apply when a man like that decided to enforce his own version of order.
+
+The woman flinched as he reached out, his hand brushing against her shoulder with enough force to knock her breath away. Ethan could see the panic rising in her eyes now, the realization that she was trapped not just physically but socially and legally. If this man wanted to hurt someone, no amount of screaming would change anything. The patrons around them were too afraid to intervene, too used to accepting that supers operated outside the rules that bound ordinary citizens.
+
+Ethan pushed his drink away from the edge of the table and stood up slowly. His heart hammered against his ribs, a frantic rhythm that made his palms sweat inside his jacket pockets. He didn't think about whether he could do anything; he thought only about how much better it would be if he was already gone.
+
+The distance between his table and the booth where the confrontation was playing out felt impossibly wide, yet closing in on him with every second that passed. He needed to leave, not just for her sake but for his own sanity. There had to be a way out, somewhere around the perimeter where he could slip away without drawing attention to himself.
+
+He scanned the room quickly, noting the exits and the people who might notice if someone suddenly decided to bolt. The bar was crowded, which meant there would be plenty of obstacles in his path, but also plenty of distractions to use against anyone who noticed his departure.
+
+The super had already turned his attention back to the woman, who was now trembling visibly under his gaze. Ethan could hear snippets of their conversation over the music, though most of it was drowned out by the ambient noise of the bar. He took a deep breath and made up his mind; staying here was no longer an option.

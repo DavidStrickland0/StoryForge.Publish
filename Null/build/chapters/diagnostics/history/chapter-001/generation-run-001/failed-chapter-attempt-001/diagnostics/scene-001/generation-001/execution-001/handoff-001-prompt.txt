@@ -1,0 +1,113 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Establish Ethan\u0027s ordinary life and his cautious, observational attitude toward the superhuman class, culminating in his decision to avoid a dangerous confrontation at a bar.","IntendedChange":"Ethan moves from a passive observer of the superhuman world to an active participant in a specific, high-stakes social conflict, making a consequential choice to prioritize his own safety over intervention.","PacingPosture":1,"ProhibitedPatterns":["Do not reveal that Ethan\u0027s presence suppresses the super\u0027s powers.","Do not have the super lose strength or the victim escape in this chapter.","Do not introduce Aurora or any other major character.","Do not resolve the confrontation or have Ethan intervene physically."],"Scenes":[{"Sequence":1,"Purpose":"Establish Ethan\u0027s ordinary routine and his cautious, observational attitude toward the superhuman class by showing him navigating a crowded bar where a famous super is present, highlighting the social hierarchy and his awareness of the power imbalance.","IntendedChange":"Ethan is seated at a bar, observing the super\u0027s casual cruelty and the bystanders\u0027 fear, reinforcing his belief that normal people are at the mercy of the powerful and establishing his position relative to the super and the victim.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":2,"Purpose":"Develop the tension as the super\u0027s aggression escalates toward the victim, forcing Ethan to assess the threat and the social expectation to intervene, while the crowded bar environment limits his ability to escape without drawing attention.","IntendedChange":"Ethan experiences a physical hesitation and internal justification for leaving, prioritizing his own safety over the victim\u0027s immediate distress, and begins to move toward the exit.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Resolve the immediate scene by showing Ethan successfully leaving the bar, feeling a mix of guilt and relief, while remaining unaware that his presence has just altered the outcome of the confrontation.","IntendedChange":"Ethan is outside the bar, his heart rate dropping as he moves away from the threat, having made a consequential choice to disengage and establish his boundary of not engaging with supers in hostile contexts.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Establish Ethan\u0027s ordinary routine and his cautious, observational attitude toward the superhuman class by showing him navigating a crowded bar where a famous super is present, highlighting the social hierarchy and his awareness of the power imbalance.","IntendedChange":"Ethan is seated at a bar, observing the super\u0027s casual cruelty and the bystanders\u0027 fear, reinforcing his belief that normal people are at the mercy of the powerful and establishing his position relative to the super and the victim.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Develop the tension as the super\u0027s aggression escalates toward the victim, forcing Ethan to assess the threat and the social expectation to intervene, while the crowded bar environment limits his ability to escape without drawing attention.","IntendedChange":"Ethan experiences a physical hesitation and internal justification for leaving, prioritizing his own safety over the victim\u0027s immediate distress, and begins to move toward the exit.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The neon sign above the door of *The Gilded Cage* buzzed with a low, persistent hum, a sound that seemed to vibrate in Ethan’s teeth as he stepped inside. The air was thick with the scent of stale beer, expensive cologne, and the underlying metallic tang of anxiety that always permeated establishments where the divide between the ordinary and the extraordinary was so sharp it could cut glass. Ethan pulled his jacket tighter around his shoulders, his eyes adjusting to the dim, amber lighting that did little to hide the stark reality of the room’s social hierarchy.
+
+He had come here for a drink, a simple attempt to decompress after a long week of data entry and quiet, unremarkable existence. He had not expected to be confronted with the full, crushing weight of what it meant to be ordinary in a world that had moved on to something else entirely.
+
+At the far end of the bar, separated from the rest of the patrons by an invisible but heavily guarded perimeter of empty stools, sat a man who did not look like he belonged in a local dive. He was massive, his shoulders broad enough to block out the light from the overhead fixtures, his skin a dull, grayish bronze that seemed to absorb the shadows rather than reflect them. This was Kaelen, one of the mid-tier supers who had made a name for himself in corporate security and the occasional, highly publicized rescue. His presence was a physical imposition, a reminder that the laws of physics and the social contracts of the city were merely suggestions that could be overridden by the strength of a single arm.
+
+Kaelen was laughing, a deep, resonant sound that carried across the bar with an ease that defied the distance. Beside him, a woman sat with her hands wrapped tightly around a glass of water, her knuckles white. She was small, dressed in a simple blouse that looked frayed at the edges, her posture hunched as if trying to make herself disappear into the barstool. Ethan watched as Kaelen reached over, his hand moving with a casual, predatory grace, and placed his palm flat against her shoulder. He did not squeeze; he simply rested there, a heavy, dominant weight that forced her spine to curve further under the pressure.
+
+The woman flinched, a subtle, involuntary jerk that was immediately visible to anyone watching. Kaelen’s smile widened, a slow, satisfied expression that held no malice, only a profound, casual enjoyment of the power differential. He leaned in, speaking in a low voice that Ethan couldn’t quite catch, but the effect was immediate. The woman’s head dropped, her shoulders slumping as if the air had been sucked out of the room.
+
+Around them, the other patrons of *The Gilded Cage* maintained a careful, respectful distance. A few men near the pool tables had stopped their games, their cues resting in their laps, their eyes darting between the super and the woman with a mixture of fascination and fear. A bartender stood behind the counter, his arms crossed, his expression one of practiced neutrality. He was not looking at the woman; he was looking at the door, calculating the cost of intervention against the likelihood of his establishment being crushed into a pile of rubble.
+
+Ethan felt a tightness in his chest, a familiar, dull ache that he had learned to manage by keeping his distance. He took a sip of his beer, the cold liquid offering little comfort against the heat of the situation. He watched the woman’s hand tremble as she tried to shift in her seat, her movements small and careful, as if she were afraid that any sudden motion would provoke a reaction. Kaelen did not move his hand. He simply watched her, his dark eyes reflecting the neon light, his expression one of absolute, unchallenged control.
+
+This was the world Ethan lived in. A world where a man with the strength to lift a car could treat a human being like a toy, and where the only recourse for the toy was to hope that the man’s attention would wander elsewhere. There were no cops who could do anything about it; the last time a police officer had attempted to approach a super of Kaelen’s caliber, the officer’s badge had been snapped in half and tossed into the trash like a piece of candy wrapper. There were no laws that could be enforced against a man who could shatter a concrete wall with a backhand. There was only the hope, fragile and ill-founded, that the super’s mood would remain pleasant.
+
+Ethan set his glass down on the sticky surface of the bar. The sound was sharp in the sudden quiet that had fallen over the immediate area. He looked at the woman again, really looked at her, seeing the way her eyes were fixed on a point somewhere in the middle distance, her face a mask of terrified endurance. She was not crying, but the tightness in her jaw spoke of a pain that was far deeper than physical discomfort. It was the pain of being seen as less than human, of being reduced to a prop in someone else’s display of dominance.
+
+A young man at the end of the bar, a college student with a hoodie pulled low over his head, had started to stand up. His chair scraped against the floor, a harsh, grating noise that cut through the air. He took a step forward, his face pale, his hands clenched into fists at his sides. He was young, maybe twenty, with the kind of idealism that usually survived only as long as it took for the world to break it.
+
+Kaelen’s head turned, his gaze locking onto the young man with the precision of a targeting system. The movement was slow, deliberate, and utterly terrifying. The young man froze, his foot hovering in the air, his eyes widening as he realized the magnitude of the mistake he was making. Kaelen did not stand up, did not raise his hand, did not say a word. He simply watched the boy with an expression of mild curiosity, as if he were observing a bug that had wandered onto his path.
+
+The boy’s face drained of color. His hand, which had been reaching for a bottle of beer on the counter, retracted slowly, his fingers trembling. He looked around the room, seeking help, seeking an ally, but found only the averted eyes of the other patrons. The bartender had stepped back, his hands raised in a gesture of surrender. The woman beside Kaelen had stopped breathing, her chest frozen in a state of suspended animation.
+
+Ethan felt his own heart rate spike, a sudden, frantic rhythm that echoed in his ears. He looked at the boy, who was now slowly sinking back into his chair, his shoulders slumping in defeat. He looked at Kaelen, who was now turning his attention back to the woman, his hand sliding around her waist with a casual, possessive ease. The woman did not resist. She could not.
+
+Ethan felt a surge of anger, hot and sharp, rising in his throat. It was a feeling he had learned to suppress, to keep locked away in the back of his mind where it could not cause him trouble. But right now, in this moment, as he watched the boy’s spirit being broken by the simple act of being looked at, the anger felt like a physical weight, pressing down on his chest, making it hard to breathe.
+
+He looked at his own hands. They were steady. They were ordinary. They were the hands of a man who could do nothing, who had no power, who was entirely at the mercy of the world that had moved on to something else. He thought about the boy, who had tried to do the right thing and had been punished for it. He thought about the woman, who had been reduced to a thing, a plaything, a prop. He thought about the bartender, who had chosen survival over justice.
+
+And then he thought about himself. About the quiet, unremarkable life he had built for himself. About the safety of his apartment, the predictability of his work, the comfort of his mediocrity. He was safe. He was invisible. He was ordinary. And in a world like this, that was the only thing that kept him alive.
+
+The anger did not leave. It settled in his stomach, a cold, heavy stone that he would have to carry with him for the rest of the night. But he did not move. He did not stand up. He did not say a word. He simply sat there, watching the scene unfold, his eyes fixed on the woman’s trembling hand, his mind a whirlwind of conflicting emotions.
+
+The moment stretched, taut and fragile, a wire pulled to its limit. Kaelen’s hand tightened slightly on the woman’s waist, a small, almost imperceptible pressure that was enough to make her gasp. The boy at the end of the bar put his head in his hands, his shoulders shaking. The bartender looked at the ceiling, his eyes closed, his lips moving in a silent prayer.
+
+Ethan took a deep breath, the air tasting of dust and fear. He looked at the door, the exit, the path to safety. He looked at the woman, the victim, the thing. And for the first time in a long time, he felt the full, crushing weight of his own insignificance. He was a speck of dust in a world of giants. He was a leaf in a storm. He was nothing.
+
+And yet, as he watched Kaelen’s hand rest on the woman’s shoulder, he felt something else stir in the depths of his being. A spark. A flicker. A question that he had never dared to ask, a doubt that he had never allowed to surface. If he was nothing, then why did he feel so angry? If he was so small, so insignificant, so powerless, then why did the sight of that woman’s suffering feel like
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

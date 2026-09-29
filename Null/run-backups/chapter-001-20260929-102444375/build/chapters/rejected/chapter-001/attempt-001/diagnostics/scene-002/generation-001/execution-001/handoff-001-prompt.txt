@@ -1,0 +1,117 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Establish Ethan\u0027s ordinary life and his cautious, observational attitude toward the superhuman class, culminating in his decision to avoid a dangerous confrontation at a bar.","IntendedChange":"Ethan moves from a passive observer of the superhuman world to an active participant in a specific, high-stakes social conflict, making a consequential choice to prioritize his own safety over intervention.","PacingPosture":1,"ProhibitedPatterns":["Re-entering the bar or lingering in the doorway after the decision to leave has been made.","Reaffirming an existing decision to leave rather than depicting the initial hesitation and justification during the escalation.","Resolving the super\u0027s power loss or the victim\u0027s escape in this chapter.","Introducing Aurora or any other major character from later arcs."],"Scenes":[{"Sequence":1,"Purpose":"Establish Ethan\u0027s ordinary evening routine and his internal framework for navigating a world where supers hold disproportionate social and legal power, using his arrival at the bar as a low-stakes entry point.","IntendedChange":"Ethan is seated at the bar, observing the environment, with a clear understanding of the social hierarchy and his own vulnerability as a normal person.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"Introduce the aggressive super and the victim, escalating the tension as the super\u0027s physical dominance becomes undeniable, forcing Ethan to confront the gap between social expectation and physical reality.","IntendedChange":"Ethan is physically frozen by fear, assessing the threat level, and beginning to mentally calculate the path of least resistance to exit the bar.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Execute Ethan\u0027s decision to leave, depicting the physical act of disengaging and the immediate emotional aftermath of prioritizing his own survival over the victim\u0027s distress.","IntendedChange":"Ethan has exited the bar and is walking away, feeling a mix of guilt and relief, unaware that his presence has just altered the outcome of the confrontation.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Introduce the aggressive super and the victim, escalating the tension as the super\u0027s physical dominance becomes undeniable, forcing Ethan to confront the gap between social expectation and physical reality.","IntendedChange":"Ethan is physically frozen by fear, assessing the threat level, and beginning to mentally calculate the path of least resistance to exit the bar.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Execute Ethan\u0027s decision to leave, depicting the physical act of disengaging and the immediate emotional aftermath of prioritizing his own survival over the victim\u0027s distress.","IntendedChange":"Ethan has exited the bar and is walking away, feeling a mix of guilt and relief, unaware that his presence has just altered the outcome of the confrontation.","FocusCharacterIds":["ethan_vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"The Anchor (bar), seated at the end of the bar near the restrooms","TimeContext":"Tuesday evening, dusk transitioning to night","PresentCharacterIds":["ethan_vale","bartender","woman_in_suit","couple_in_corner","group_of_young_men"],"PhysicalConditions":["ethan_vale: Seated, holding a dark beer, finished a pretzel, calm and physically relaxed","bartender: Standing behind the bar, wiping a glass","woman_in_suit: Standing, gathering belongings, exiting the bar"],"KnowledgeEstablished":["ethan_vale: Recognizes the social hierarchy where supers hold disproportionate power and legal flexibility regarding collateral damage","ethan_vale: Identifies his own vulnerability as a normal person in a world of supers","ethan_vale: Observes that the woman in the suit moves with a confidence suggesting she is a super or someone accustomed to supers\u0027 convenience"],"DecisionsMade":["ethan_vale: Chose to sit at the end of the bar near the restrooms to observe without intruding","ethan_vale: Decided to maintain a passive, observational stance rather than engaging with the environment"],"PossessionChanges":["ethan_vale: Consumed a pretzel","ethan_vale: Consumed sips of a dark beer","woman_in_suit: Paid for her drink and left the bar"],"RelationshipChanges":[],"CompletedActions":["ethan_vale: Arrived at The Anchor and seated himself","ethan_vale: Ordered a dark beer and a pretzel","ethan_vale: Observed the woman in the suit and other patrons","ethan_vale: Reflected on his ordinary life and the social contract regarding supers","woman_in_suit: Finished her drink, paid, and exited the bar"],"UnresolvedImmediateAction":"ethan_vale is seated at the bar, observing the quiet environment and contemplating his work, waiting for the next event or patron to enter.","ContinuationPosition":"ethan_vale is seated at the end of the bar, holding his beer, watching the door and the remaining patrons in the quiet, dimly lit establishment.","ProhibitedRepetition":["Re-describing the initial arrival and ordering process","Re-establishing the general social hierarchy of supers without new specific context","Re-describing the woman in the suit\u0027s exit"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The front door chimed, a bright, brassy note that cut through the low hum of the refrigerator and the distant rain against the windows. Ethan didn’t look up immediately. He took a slow sip of his beer, letting the cold bitterness settle on his tongue, and watched the reflection of the bar in the darkened mirror behind the taps. The door opened again, wider this time, and the smell of wet wool and ozone drifted in before the figure did.
+
+He was large. That was the first thing that registered, a simple fact of geometry that seemed to displace the air in the room. He wore a tailored charcoal suit that strained at the shoulders, the fabric pulled taut across a chest that looked like it had been carved from granite. His hair was slicked back, dark and severe, and his eyes were a pale, washed-out blue that seemed to scan the room with the detached efficiency of a predator checking for prey. He didn’t look at the bartender. He didn’t look at the couple in the corner, who were suddenly very quiet, their conversation dissolving into a shared, uncomfortable silence.
+
+Ethan felt a prickle of unease at the base of his neck, a low-level alarm that had no logical trigger. He was just a man sitting in a bar. He had a job, a modest apartment, and a life that moved at the speed of walking. This man, however, moved with the heavy, deliberate grace of someone who had never been told he could not do something. He walked to the center of the room, his footsteps silent on the polished wood, and stopped.
+
+The woman in the corner, the one who had been nursing a gin and tonic with a look of polite detachment, was still there. She had set her glass down, her hand resting on the table, her fingers drumming a nervous, irregular rhythm against the wood. She was small, unremarkable in her grey blazer, and she was looking at the man with a mixture of fear and a desperate, clinging hope that he might simply walk away.
+
+He didn’t walk away. He pulled out the chair opposite her and sat down, the movement so smooth it looked like liquid. He didn’t speak. He just looked at her, his pale eyes fixed on her face, and waited.
+
+The bartender, a burly man with a thick beard, wiped a glass with a rag that was already clean. He glanced at Ethan, then at the man in the suit, then back at the glass. He didn’t ask for an ID. He didn’t check the time. He simply slid a fresh ice pitcher onto the table in front of the large man, the sound of the cubes clinking like a tiny, sharp warning.
+
+Ethan’s heart began to beat faster, a steady thud against his ribs that he could feel in his fingertips. He watched the woman’s hand. It was trembling. The man reached out, not to touch her, but to pick up the ice pitcher and pour himself a drink of water. He drank it in one long, steady pull, his throat moving in a rhythmic, hypnotic pulse. When he set the glass down, he wiped his mouth with the back of his hand, a gesture of casual, absolute dominance.
+
+The social contract of the bar, the unspoken rules of where you could sit and who you could talk to, seemed to evaporate. The couple in the corner had stopped talking entirely. The bartender had turned his back, pretending to organize the taps, but his shoulders were hunched, his movements stiff. The air in the room had grown thick, charged with a static electricity that made the hairs on Ethan’s arms stand up.
+
+Ethan looked at the door. It was ten feet away. He could get up. He could walk to the door, step out into the rain, and be gone in less than a minute. He could be safe. He could be home by the time the man in the suit finished his second drink. The thought was simple, logical, and immediately accompanied by a sharp, hot flash of shame.
+
+The woman was still sitting there. She had picked up her glass and was holding it with both hands, her knuckles white. She was trying to be brave, or perhaps she was just too terrified to move. She looked like a normal person, a person who had a job and a life and a right to sit in a bar without being treated like a piece of furniture to be inspected by a god.
+
+Ethan’s hand tightened on his beer bottle. The glass creaked under the pressure, a small, fragile sound that seemed to hang in the air. He could feel the weight of the room on him, the collective holding of breath, the unspoken plea for someone to do something. Everyone in the bar was watching the man in the suit, waiting to see what he would do next, waiting to see if he would break something, or someone, or the world itself.
+
+He was a normal person. He knew that. He knew that if he stood up, if he said a word, if he made a move, the man in the suit would look at him with those pale, empty eyes and he would be nothing. He would be a bug. He would be erased. The laws of the land, the police, the courts, they were all just paper and ink, useless against a man who could crush a tank with his bare hands.
+
+The man in the suit set his glass down. He leaned forward, his elbows on the table, his face inches from the woman’s. He didn’t smile. He didn’t sneer. He just looked at her, his expression one of mild, curious interest, like a child watching an insect crawl across a pavement.
+
+Ethan’s breath caught in his throat. His hand was still gripping the bottle, his knuckles white, his muscles tense. He could feel the heat rising in his face, a flush of anger and fear that burned in his chest. He wanted to stand up. He wanted to throw the bottle. He wanted to do something, anything, to break the spell of his own paralysis.
+
+But he didn’t move. He sat there, frozen, his eyes fixed on the door, his mind racing through the geometry of escape. He could go left, through the kitchen, where the bartender was standing. He could go right, through the crowd, where the couple was sitting. Or he could go straight, through the front door, where the man in the suit was sitting.
+
+Every path seemed blocked. Every option seemed to lead to the same place: the man in the suit, and the terrible, crushing weight of his power. Ethan swallowed, his throat dry, his heart pounding in his ears. He was trapped in his own body, a prisoner of his own caution, watching a normal woman be dismantled by a superhuman, and doing nothing.
+
+The man in the suit reached out and placed his hand on the table, between them. His fingers were long, elegant, and utterly still. He didn’t touch her. He didn’t need to. The space between them was enough. The silence was enough.
+
+Ethan looked down at his beer. The liquid was dark, almost black, and it trembled slightly in the glass, a subtle vibration that he couldn’t quite place. He looked up again, and for a second, the man in the suit’s eyes flickered, just for a moment, toward the door.
+
+Ethan’s hand moved. It wasn’t a conscious decision. It was a reflex, a primal urge to survive that overrode every other thought, every social expectation, every shred of pride. He stood up, his chair scraping against the floor, a harsh, jarring sound that cut through the heavy air.
+
+The man in the suit didn’t look up. The woman didn’t look up. The bartender didn’t look up.
+
+Ethan walked toward the door. His legs felt weak, his knees trembling, but he kept moving. He pushed through the crowd, his shoulder brushing against a table, his eyes fixed on the exit. He was going to leave. He was going to get out. He was going to be safe.
+
+And as he stepped through the door, the heavy, oppressive weight in the room seemed to shift, just slightly, just enough to let him breathe.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

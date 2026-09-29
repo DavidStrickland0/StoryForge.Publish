@@ -1,0 +1,99 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Establish Ethan\u0027s ordinary life and his cautious, observational attitude toward the superhuman class, culminating in his decision to avoid a dangerous confrontation at a bar.","IntendedChange":"Ethan moves from a passive observer of the superhuman world to an active participant in a specific, high-stakes social conflict, making a consequential choice to prioritize his own safety over intervention.","PacingPosture":1,"ProhibitedPatterns":["Using mundane sensory details (e.g., cold door handles) as illogical plot points or existential realizations.","Ethan making decisions based on irrational hesitation or forced literary devices rather than rational self-preservation.","Resolving the super\u0027s power loss or the victim\u0027s escape in this chapter.","Introducing Aurora or any other major character.","Ethan confronting the super or intervening physically."],"Scenes":[{"Sequence":1,"Purpose":"Establish Ethan\u0027s ordinary routine and his specific, cautious strategy for navigating public spaces in a world where supers hold disproportionate social and physical power.","IntendedChange":"Ethan enters a crowded bar, having already assessed the exit routes and the location of the super, demonstrating his habit of prioritizing safety over social engagement.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"Present the specific incident of a super harassing a normal woman, highlighting the bystanders\u0027 fear and the legal/social powerlessness of normal people to intervene.","IntendedChange":"Ethan witnesses the super\u0027s casual cruelty and the victim\u0027s distress, reinforcing his belief that normal people are at the mercy of the powerful and that intervention is suicidal for him.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Depict Ethan\u0027s internal conflict and the physical sensation of his decision to leave, prioritizing his own safety over the victim\u0027s immediate distress.","IntendedChange":"Ethan chooses to disengage and retreat, establishing his boundary of not engaging with supers in hostile contexts and leaving the bar with a mix of guilt and relief.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Present the specific incident of a super harassing a normal woman, highlighting the bystanders\u0027 fear and the legal/social powerlessness of normal people to intervene.","IntendedChange":"Ethan witnesses the super\u0027s casual cruelty and the victim\u0027s distress, reinforcing his belief that normal people are at the mercy of the powerful and that intervention is suicidal for him.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Depict Ethan\u0027s internal conflict and the physical sensation of his decision to leave, prioritizing his own safety over the victim\u0027s immediate distress.","IntendedChange":"Ethan chooses to disengage and retreat, establishing his boundary of not engaging with supers in hostile contexts and leaving the bar with a mix of guilt and relief.","FocusCharacterIds":["ethan_vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Sidewalk, one block away from The Rusty Anchor","TimeContext":"7:22 PM, Tuesday, raining","PresentCharacterIds":["ethan_vale"],"PhysicalConditions":["Ethan is wearing a jacket with the hood up","Ethan is wet from the rain","Ethan is walking away from the bar"],"KnowledgeEstablished":["Ethan identifies the man in the booth as a super based on his physical presence and demeanor","Ethan identifies the woman in the booth as a victim of intimidation based on her body language","Ethan confirms that The Rusty Anchor does not employ supers for security","Ethan confirms the exit route from his booth to the door was clear"],"DecisionsMade":["Ethan decided to leave the bar immediately upon assessing the interaction between the super and the woman","Ethan decided not to intervene or engage with the super","Ethan decided to prioritize his own safety and anonymity over social engagement"],"PossessionChanges":["Ethan left a five-dollar bill on the table at The Rusty Anchor"],"RelationshipChanges":["Ethan established a non-verbal acknowledgment of the \u0027don\u0027t cause trouble\u0027 social norm with the bartender"],"CompletedActions":["Ethan entered The Rusty Anchor and assessed the exit and room layout","Ethan observed the super and the woman in the booth across from him","Ethan finished his beer","Ethan paid for his drink","Ethan exited The Rusty Anchor","Ethan walked one block away from the bar into the rain"],"UnresolvedImmediateAction":"Ethan is walking away from the bar, moving through the rainy city streets, having just disengaged from the social conflict.","ContinuationPosition":"Ethan is walking on the sidewalk, hood up, moving away from The Rusty Anchor. He has just turned a corner and is checking his phone to confirm he is still on schedule. The rain is falling in earnest.","ProhibitedRepetition":["Re-describing the initial entry into the bar or the assessment of the exit route","Re-describing the specific physical appearance of the super or the woman in the booth","Re-describing the act of leaving the bar or the transaction with the bartender","Re-describing the rain starting or the sensation of the cold air upon exiting"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The rain tasted of iron and city grime, a metallic tang that coated Ethan’s tongue even as he pulled the collar of his jacket tighter. He walked with a steady, deliberate pace, the rhythm of his boots striking the wet pavement serving as a metronome for the anxiety he was trying to suppress. The streetlights bled into the slick asphalt, creating elongated pools of amber and grey that reflected the towering glass facades of the surrounding office blocks. In this part of the city, the architecture was a monument to efficiency and height, designed by and for people who could afford to look down on the world.
+
+Ethan kept his eyes forward, focusing on a patch of concrete a few feet ahead of him. This was a habit he had developed years ago, a way to keep his heart rate from spiking in public spaces where he felt small. Here, in the shadow of the skyscrapers, the feeling was acute. The air hummed with a low-frequency vibration, the ambient energy of the city’s most powerful citizens who lived and worked above the clouds. He could feel the weight of their presence even when they were invisible, a psychological gravity that made normal people feel like they were walking on a stretched rubber band, always one careless step away from snapping.
+
+His phone buzzed in his pocket, a sharp vibration against his thigh. He ignored it. He had checked the time, 7:22 PM, and the notification was likely just a work reminder or a calendar alert for tomorrow’s shift. He didn’t need the distraction. His mind was already drifting back to the bar, to the specific, suffocating memory of the booth in the corner.
+
+The man had been sitting there with a posture that demanded space. It wasn’t just that he was large, though he was certainly that, broad-shouldered and thick-necked in a way that spoke of enhanced muscle density. It was the ease with which he occupied the environment. He didn’t shift when the waiter approached; he didn’t lean forward when he spoke to the woman. He simply existed, a static point of absolute authority around which the other patrons seemed to orbit with careful, fearful precision. The woman beside him had been shrinking, her shoulders drawn up toward her ears, her hands wrapped tightly around a glass of water that she hadn’t taken a sip from. She had flinched when he reached for the menu, a tiny, involuntary twitch of the shoulders that told Ethan everything he needed to know.
+
+Ethan had watched from across the room, nursing his beer, calculating the odds. He knew the rules of this world better than most. Supers didn’t go to jail for assault, at least not the kind that happened in private, away from the cameras. The legal system was a labyrinth designed for people like him, people who could afford to be patient, to file reports, to wait for investigations that would never lead to arrest. For a super, a complaint was an inconvenience, a headache to be managed by a team of lawyers, while for a normal person, it was a risk of retaliation. The power imbalance wasn’t just physical; it was systemic, baked into the very fabric of society.
+
+He had felt the pull to act, a hot, irritating prickle in his chest. It was a stupid, human reaction, a desire to fix the unfairness, to step in and say, *Hey, that’s not okay.* But Ethan was not stupid. He was a junior data analyst, a man who spent his days organizing spreadsheets and his nights trying to fit his life into a manageable grid of responsibilities. He did not have the superhuman durability to take a punch from a man who could bench press a car. He did not have the social capital to back down a celebrity hero’s boyfriend, or whatever the man was. He had assessed the situation, calculated the risk, and chosen the only logical path: survival.
+
+He had left his five-dollar bill on the table, a small, unnecessary kindness to the bartender who had been too afraid to make a scene. He had walked out, his boots splashing in the rain, the cold air hitting his face like a slap. And now, here he was, walking away, the guilt settling into his bones like a slow ache.
+
+The guilt was the worst part. It was not the fear of the man; the fear had been sharp, adrenaline-fueled, and had faded as he put distance between them. The guilt was a dull, persistent throb. He was a coward. That was the word that echoed in his head, simple and damning. He had seen someone in distress, he had the capability to help, even if only by calling the police, and he had chosen to save himself. It was rational. It was sane. And it made him feel like a piece of rotten fruit, something that had been left out too long and was now soft to the touch.
+
+He turned the corner onto a quieter street, the noise of the main avenue fading into a distant hum. The rain had intensified, the drops hammering against the hood of his jacket, creating a constant, white-noise backdrop that muffled his own thoughts. He passed a bakery with its lights on, the warm glow spilling out onto the sidewalk, the smell of fresh bread mingling with the wet air. The contrast was painful. Inside that shop, people were talking, laughing, buying pastries for their families. They were living their lives, unaware of the invisible hierarchy that dictated who had power and who had to yield to it.
+
+Ethan stopped for a moment, leaning against a brick wall to catch his breath. His heart was still beating fast, a frantic drumming against his ribs. He closed his eyes and tried to remember the face of the woman in the bar. He could see the way her eyes had darted around the room, searching for an exit, for a hero, for anyone who would do something. She had looked at him, briefly, a quick, desperate glance that he had missed. If he had looked back, if he had acknowledged her, would it have been different? Would he have had the courage to step in?
+
+The answer was a hard, cold no. He would have felt the same fear, the same overwhelming sense of inadequacy. He was ordinary. In a world of gods, he was just a man in a jacket, and that was all. The realization was both a relief and a tragedy. He didn’t have to worry about the weight of the world on his shoulders, but he also didn’t have the power to change it. He was a spectator, forever watching from the sidelines, his hands tied, his voice muted.
+
+He pushed off the wall and continued walking. The street was empty, the rain providing a temporary shield from the rest of the city. He felt a strange, hollow calm as he moved, the rhythm of his steps syncing with the falling water. The guilt was still there, but it was quieter now, buried under the practical need to go home, to change out of his wet clothes, to eat something, to sleep. The incident at the bar was over. It had happened, and it had ended, and he was the only one who knew the full extent of his own failure.
+
+He checked his phone again. A text from his sister, asking if he wanted to join them for dinner. He stared at the screen, the bright light reflecting off the wet glass. He didn’t type a response. He put the phone back in his pocket and kept walking, the city continuing its endless, indifferent churn around him. He was safe. He was ordinary. And for now, that was enough.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

@@ -1,0 +1,21 @@
+The neon sign for *The Apex* buzzed with a low, persistent hum that vibrated in Ethan’s molars. He sat in a corner booth upholstered in peeling red vinyl, a half-empty glass of IPA sweating condensation onto the sticky table. The beer was decent, cold, and tasted faintly of copper, a small comfort in a city that had become increasingly loud.
+
+Outside, a streak of blue light arced across the night sky, followed by the distant, muffled thud of a sonic boom. Ethan didn’t look up. He didn’t have to. Everyone in the bar turned toward the window, their faces illuminated by the fading afterglow of the passing superhero. It was a regular occurrence now, a nightly reminder of who held the actual reins of power in this city.
+
+He watched the reaction with the detached fatigue of someone who had grown up watching it happen. The patrons sighed, some with awe, others with a weary resignation. A waiter froze mid-step, a tray of empty glasses trembling in his hands. The bouncer near the door, a man with arms like tree trunks and a badge that clearly didn’t matter, straightened his posture as if expecting a reprimand.
+
+Ethan took a slow sip of his beer. The bitterness grounded him. He was twenty-six, an actuary for a mid-sized insurance firm, a profession that required him to calculate the likelihood of disaster. In this world, the math was simple: if you were a super, you were a god. If you were everyone else, you were collateral damage. The laws existed, on paper, but they were written by people who couldn’t lift a car, and enforced by judges who flinched when someone with eyes like lasers walked into the courtroom.
+
+He felt a strange, heavy stillness in his chest, a quietness that felt disproportionate to the noisy, chaotic room. It was a comfort he hadn’t named, a sense of safety that seemed to radiate from his own skin, though he dismissed it as the calming effect of the alcohol. He liked the corner booth. It was private, shadowed, and removed from the center of the room where the supers usually gathered to drink and discuss their deeds.
+
+The jukebox played a slow, melancholic jazz track. Ethan traced the rim of his glass with one finger, watching the droplets slide down the side. He was thinking about his apartment, about the stack of spreadsheets waiting for him on his desk, about the mundane, predictable safety of a life where nothing happened. He wanted nothing more than to be invisible, to be part of the furniture, to navigate the world without drawing the attention of beings who could accidentally level a city block while sneezing.
+
+The bar was crowded, a mix of ordinary workers and the occasional minor super, the kind with powers that were more novelty than threat—people who could light their fingertips on fire or change the color of their hair. They mingled with the normals, though there was always a subtle distance, a magnetic field of superiority that kept the two groups separate even in a shared space.
+
+Ethan finished his beer and signaled for another. The waiter arrived, looking nervous, his eyes darting to the window every few seconds. Ethan ordered another IPA, paying in cash, a small act of autonomy in a world that increasingly operated on credit and influence.
+
+He settled back into the booth, crossing his legs. The hum of the neon sign continued. The jazz played on. For the first time in a long while, Ethan felt truly at ease. He was just a man in a bar, drinking beer, watching the world go by. He didn’t know that the air around him was thick with an invisible, dormant force, a field of potential energy that had no name and no owner. He didn’t know that his presence was a quiet anomaly in a world built on spectacle.
+
+He just felt safe. He closed his eyes for a moment, letting the dark behind his eyelids soothe the tension in his shoulders. The bar was loud, but his thoughts were quiet. He was waiting for the next song to start, for the waiter to bring his drink, for the night to pass in its usual, unremarkable way.
+
+The scene was still. The world was loud. And Ethan, sitting in his corner, remained perfectly, innocently still.

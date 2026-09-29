@@ -1,0 +1,93 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Establish Ethan\u0027s ordinary life and his cautious, observational attitude toward the superhuman class, culminating in his decision to avoid a dangerous confrontation at a bar.","IntendedChange":"Ethan moves from a passive observer of the superhuman world to an active participant in a specific, high-stakes social conflict, making a consequential choice to prioritize his own safety over intervention.","PacingPosture":1,"ProhibitedPatterns":["Repeating the observation of the super vibrating the table as a distinct narrative beat after it has already been established in the scene\u0027s opening.","Resolving the super\u0027s power loss or the victim\u0027s escape within this chapter, as these are reserved for Chapter 2.","Introducing Aurora or any other major character from later arcs."],"Scenes":[{"Sequence":1,"Purpose":"Establish Ethan\u0027s ordinary evening routine and his internal framework for navigating a world where supers hold social and legal power, using his arrival at a crowded bar to demonstrate his observational caution.","IntendedChange":"Ethan is seated at a table in the bar, having assessed the environment and identified the aggressive super as a potential threat, establishing his baseline of passive observation.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"Depict the escalating confrontation between the aggressive super and a normal woman, highlighting the bystanders\u0027 fear and the super\u0027s casual cruelty to reinforce the power imbalance.","IntendedChange":"Ethan witnesses the super physically dominating the woman and the crowd\u0027s inability to intervene, solidifying his belief that normal people are at the mercy of the powerful and increasing his personal anxiety.","FocusCharacterIds":["ethan_vale","aggressive_super"]},{"Sequence":3,"Purpose":"Show Ethan\u0027s internal conflict between social expectation to intervene and his rational survival instinct, leading to his decision to leave the bar to prioritize his own safety.","IntendedChange":"Ethan physically disengages from the confrontation and begins moving toward the exit, making a consequential choice to retreat rather than confront the super, leaving the victim trapped but unaware of his departure.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the escalating confrontation between the aggressive super and a normal woman, highlighting the bystanders\u0027 fear and the super\u0027s casual cruelty to reinforce the power imbalance.","IntendedChange":"Ethan witnesses the super physically dominating the woman and the crowd\u0027s inability to intervene, solidifying his belief that normal people are at the mercy of the powerful and increasing his personal anxiety.","FocusCharacterIds":["ethan_vale","aggressive_super"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Show Ethan\u0027s internal conflict between social expectation to intervene and his rational survival instinct, leading to his decision to leave the bar to prioritize his own safety.","IntendedChange":"Ethan physically disengages from the confrontation and begins moving toward the exit, making a consequential choice to retreat rather than confront the super, leaving the victim trapped but unaware of his departure.","FocusCharacterIds":["ethan_vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Crowded bar near the back wall","TimeContext":"Evening","PresentCharacterIds":["ethan_vale"],"PhysicalConditions":["Humid air","Crowded room with dim light","Aggressive super present at adjacent table","Victim seated and trembling at adjacent table","Other patrons observing silently","At least three other supers present in the bar but inactive"],"KnowledgeEstablished":["Ethan has established a baseline of passive observation.","Supers hold absolute social hierarchy over normal people.","The law is toothless against superhuman strength.","Intervention by normal people usually makes things worse.","Aurora\u0027s recent fall and the public\u0027s shift from concern to speculation regarding her image are known.","The aggressive super exists with effortless dominance and casual cruelty."],"DecisionsMade":["Ethan chose to remain seated rather than leave immediately.","Ethan decided not to intervene despite witnessing the victim\u0027s distress.","Ethan prioritized his own safety and avoidance of confrontation over helping the victim."],"PossessionChanges":[],"RelationshipChanges":["Ethan views the aggressive super as a potential threat to be avoided.","Ethan views the victim with detached curiosity but feels unable to help."],"CompletedActions":["Ethan adjusted his jacket collar.","Ethan slid into an empty stool at the back table.","Ethan scrolled through his phone and replied to a friend.","Ethan observed the super\u0027s physical dominance over the victim.","Ethan watched the super dismissively wave away patrons.","Ethan sipped his drink.","Ethan read news headlines about Aurora on his phone.","Ethan set his phone down and continued watching the scene."],"UnresolvedImmediateAction":"Ethan is waiting and watching the dynamic between the super and the victim, realizing something is about to go wrong.","ContinuationPosition":"Ethan is seated at a table in the back of the bar, having assessed the environment and identified the aggressive super as a threat. He has decided to remain passive and observe rather than intervene or leave immediately.","ProhibitedRepetition":["Observing the super vibrating the table (if established previously).","Resolving the victim\u0027s escape or the super\u0027s power loss.","Introducing Aurora as a physical presence in this scene."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The tension in the room felt heavy, pressing against Ethan’s eardrums until he could taste copper in the back of his throat. He watched as the super took a sip from his glass, the liquid sliding down with a casual indifference that made the violence of his previous moments look even more calculated. The victim kept her head down, shoulders hunched as if trying to shrink into the floorboards beneath her shoes. She was trembling now, not just from fear but from the sheer physical exhaustion of holding herself together while someone this large and strong treated her like furniture.
+
+Ethan adjusted his jacket collar for the third time in a minute. The fabric felt scratchy against his neck, but he couldn’t stop moving it, unable to look directly at the woman who had paid for a drink that was now sitting untouched on the table beside him. The news headlines about Aurora still dominated his phone screen when he last checked, the bold typeface declaring her status as both savior and celebrity, yet here she wasn’t. Here, the power structure remained raw and unfiltered.
+
+The aggressive super leaned forward, elbows resting on the sticky surface of the table. He didn’t need to shout anymore; his voice was a low rumble that seemed to vibrate through the floorboards and into the soles of the boots he wore, though Ethan couldn’t see them clearly. “You think you can walk away from me,” the super said, gesturing with one hand as if swatting away a fly, “like I’m some inconvenience in your little world.” The victim didn’t respond. She stared at the table, her eyes dry, her expression blank as if she had already accepted that anything could happen next.
+
+Ethan felt the weight of the room settling around him like dust motes suspended in slow motion. The other patrons hadn’t moved; they sat with their drinks untouched, watching silently, their faces pale and unreadable. There were at least three supers in the bar tonight, all sitting at tables near the front where the lighting was brighter, none of them intervening. Their inaction confirmed what Ethan had already suspected without ever being able to name it: laws meant for ordinary people didn’t apply when strength and size tipped the scales. The law was toothless against something that could shatter concrete with a single punch.
+
+The super laughed then, a dry sound that barely registered as humor but carried more weight than most threats he’d heard in his life. He reached across the table again, this time pressing a palm flat against the victim’s cheek, not to hurt her but to demonstrate how little effort it took to control her body. She didn’t flinch, didn’t pull away, didn’t even blink. Her skin was cool beneath his fingers, normal and human in a way that seemed alien to someone who could lift cars with one hand.
+
+Ethan tried to tell himself that he should be getting up now, sliding out from behind the empty stool he’d chosen as his vantage point, walking toward the door before whatever happened next pulled him back into danger. But something held him in place. Maybe it was the drink he’d paid for, maybe it was the fact that he’d already sat down and watched too long to leave without looking foolish. Or maybe it was just the strange comfort of observation, the way the world seemed to pause around him when he stopped moving.
+
+The super pulled his hand back from the victim’s face with a dismissive wave, leaving her sitting there like an object that had lost its purpose in someone else’s game. “I’m not done,” he said, standing now and looming over her. The crowd of patrons didn’t stir. They didn’t breathe louder or quieter than before. They existed in the same suspended space as Ethan, watching but not acting, afraid to do anything that might make them targets themselves.
+
+Ethan shifted his weight on the stool, wincing slightly when the leg of the chair scraped against the floor. He knew he should be getting up, walking out, putting distance between himself and the bar that had become a cage. But something kept him rooted in place, some quiet part of him believing that if he left now, he’d never understand what was about to happen. Or maybe he didn’t want to understand it at all, just wanted to see what would break first when this went wrong.
+
+The victim finally spoke, her voice barely rising above the hum of the refrigerator in the kitchen behind the bar. “Please,” she said, not looking up from the table, “I’m going home.” The super didn’t answer immediately. He walked around her chair and placed another hand on her shoulder, this one heavier, pressing down just enough to make her gasp for air. She made no sound but her posture tightened, muscles flexing under skin that had already begun to sweat despite the coolness of the room.
+
+Ethan watched as the dynamic settled into a rhythm that made his stomach turn. The super was enjoying this not out of anger or malice, but because it gave him purpose, a chance to remind everyone in the room of where they stood in the hierarchy. No one would stop him. No one could help her. And yet, Ethan sat there, paying attention to every twitch of muscle and shift of weight, trying to remember that he was still a person, not just another observer who had decided to watch things happen because staying put felt easier than doing anything about them.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

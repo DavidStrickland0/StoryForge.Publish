@@ -1,0 +1,48 @@
+{
+  "chapterNumber": 1,
+  "viewpointCharacterId": "ethan_vale",
+  "objective": "Ethan observes a super assault a civilian executive in a bar, decides to leave rather than intervene, and unknowingly suppresses the super's powers while passing close to the table, allowing the executive to escape. Ethan exits the bar without recognizing his role in the power loss.",
+  "intendedChange": "The executive escapes the super's assault due to the sudden loss of his powers, which is causally linked to Ethan's proximity during his exit. Ethan leaves the bar unaware that he caused the reversal, while the super remains powerless and the executive is free.",
+  "pacingPosture": "Urgent",
+  "prohibitedPatterns": [
+    "Ethan physically confronting, fighting, or physically stopping the super.",
+    "Ethan explicitly recognizing, suspecting, or understanding that his presence caused the super's power loss.",
+    "The executive or super identifying Ethan as the cause of the power loss.",
+    "Ethan remaining seated after deciding to leave.",
+    "The super retaining his powers while Ethan is within close proximity to the table.",
+    "Developing the immediate aftermath, reactions, or consequences of the escape beyond the moment of Ethan's departure.",
+    "Introducing Aurora or any other super who investigates the incident in this chapter."
+  ],
+  "scenes": [
+    {
+      "sequence": 1,
+      "purpose": "Establish the bar's social hierarchy and Ethan's caution by observing the executive's domineering behavior and her sycophant's flattery, while Ethan remains seated and assesses the danger of intervening.",
+      "intendedChange": "Ethan is seated at his table, observing the executive and her companion from a distance, having decided that intervening would be dangerous but not yet having decided to leave.",
+      "focusCharacterIds": [
+        "ethan_vale",
+        "victim",
+        "male_sycophant"
+      ]
+    },
+    {
+      "sequence": 2,
+      "purpose": "Show the super's irritation with the executive leading to his decision to humiliate her, and Ethan's rational decision to leave rather than intervene, while the super remains powered and Ethan has not yet passed the table.",
+      "intendedChange": "The super has begun his assault on the executive, and Ethan has decided to leave but is still seated, having not yet moved to the exit.",
+      "focusCharacterIds": [
+        "ethan_vale",
+        "aggressive_super",
+        "victim"
+      ]
+    },
+    {
+      "sequence": 3,
+      "purpose": "Depict Ethan's passage close to the table causing the super's powers to fail, allowing the executive to escape, and Ethan exiting the bar without recognizing his role in the power loss.",
+      "intendedChange": "Ethan is outside the bar, the executive has escaped the super, and the super is powerless, with Ethan unaware that his proximity caused the suppression.",
+      "focusCharacterIds": [
+        "ethan_vale",
+        "aggressive_super",
+        "victim"
+      ]
+    }
+  ]
+}

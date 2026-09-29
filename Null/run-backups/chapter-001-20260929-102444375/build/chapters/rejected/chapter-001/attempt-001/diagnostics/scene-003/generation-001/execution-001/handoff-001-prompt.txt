@@ -1,0 +1,127 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Establish Ethan\u0027s ordinary life and his cautious, observational attitude toward the superhuman class, culminating in his decision to avoid a dangerous confrontation at a bar.","IntendedChange":"Ethan moves from a passive observer of the superhuman world to an active participant in a specific, high-stakes social conflict, making a consequential choice to prioritize his own safety over intervention.","PacingPosture":1,"ProhibitedPatterns":["Re-entering the bar or lingering in the doorway after the decision to leave has been made.","Reaffirming an existing decision to leave rather than depicting the initial hesitation and justification during the escalation.","Resolving the super\u0027s power loss or the victim\u0027s escape in this chapter.","Introducing Aurora or any other major character from later arcs."],"Scenes":[{"Sequence":1,"Purpose":"Establish Ethan\u0027s ordinary evening routine and his internal framework for navigating a world where supers hold disproportionate social and legal power, using his arrival at the bar as a low-stakes entry point.","IntendedChange":"Ethan is seated at the bar, observing the environment, with a clear understanding of the social hierarchy and his own vulnerability as a normal person.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"Introduce the aggressive super and the victim, escalating the tension as the super\u0027s physical dominance becomes undeniable, forcing Ethan to confront the gap between social expectation and physical reality.","IntendedChange":"Ethan is physically frozen by fear, assessing the threat level, and beginning to mentally calculate the path of least resistance to exit the bar.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Execute Ethan\u0027s decision to leave, depicting the physical act of disengaging and the immediate emotional aftermath of prioritizing his own survival over the victim\u0027s distress.","IntendedChange":"Ethan has exited the bar and is walking away, feeling a mix of guilt and relief, unaware that his presence has just altered the outcome of the confrontation.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Execute Ethan\u0027s decision to leave, depicting the physical act of disengaging and the immediate emotional aftermath of prioritizing his own survival over the victim\u0027s distress.","IntendedChange":"Ethan has exited the bar and is walking away, feeling a mix of guilt and relief, unaware that his presence has just altered the outcome of the confrontation.","FocusCharacterIds":["ethan_vale"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":2,"Location":"The Anchor (bar), exiting through the front door","TimeContext":"Tuesday evening, night, raining outside","PresentCharacterIds":["ethan_vale","aggressive_super","victim","bartender","couple_in_corner"],"PhysicalConditions":["ethan_vale: Standing, walking toward the exit, legs trembling, knuckles white from gripping beer bottle, heart pounding, flushed with anger and fear","aggressive_super: Seated at a table, leaning forward, hand placed on table, expression of mild curiosity, physically dominant and still","victim: Seated opposite aggressive_super, holding glass with both hands, knuckles white, trembling, terrified","bartender: Standing behind bar, back turned, shoulders hunched, movements stiff","couple_in_corner: Seated, silent, uncomfortable"],"KnowledgeEstablished":["ethan_vale: Recognizes the aggressive_super\u0027s physical dominance and the futility of legal or social intervention against such power","ethan_vale: Identifies the victim as a normal person in a vulnerable position","ethan_vale: Calculates that all escape paths (kitchen, crowd, front door) feel blocked by the super\u0027s presence","ethan_vale: Experiences a primal survival reflex overriding social expectation and pride"],"DecisionsMade":["ethan_vale: Decided to leave the bar to prioritize his own safety over intervening in the confrontation"],"PossessionChanges":["ethan_vale: Still holding the dark beer bottle (gripped tightly)"],"RelationshipChanges":["ethan_vale: Feels a sharp flash of shame and guilt for prioritizing his own safety over the victim\u0027s distress"],"CompletedActions":["aggressive_super: Entered the bar, sat down opposite the victim, poured and drank water, leaned forward, placed hand on table","victim: Sat opposite the aggressive_super, held her glass with both hands, trembled","bartender: Slid an ice pitcher to the aggressive_super, turned his back to organize taps","ethan_vale: Observed the confrontation, felt fear and paralysis, calculated escape routes, stood up, walked to the door, and stepped through the exit"],"UnresolvedImmediateAction":"ethan_vale is in the process of exiting the bar, having just stepped through the door, with the physical act of disengaging and the immediate emotional aftermath still unfolding.","ContinuationPosition":"ethan_vale has just stepped through the front door of The Anchor, moving away from the interior where the aggressive_super and victim remain seated, feeling a mix of guilt and relief as he begins to walk away into the rain.","ProhibitedRepetition":["Re-describing the aggressive_super\u0027s entrance and initial seating","Re-establishing the victim\u0027s initial state of fear and hope","Re-describing the bartender\u0027s passive reaction and the couple\u0027s silence","Reaffirming the decision to leave rather than depicting the initial hesitation and justification during the escalation","Resolving the super\u0027s power loss or the victim\u0027s escape in this chapter","Introducing Aurora or any other major character from later arcs"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The rain hit his face before the door clicked shut behind him.
+
+The cold seeped into the fibers of his jacket and settled in his bones. The cold was soaking. The kind of cold that seeped into the fibers of his jacket and settled in his bones, a sharp, physical reminder that he was alive, that his skin still registered the world’s texture, that he was a body and not just a pair of eyes watching from the safety of a stool. He didn’t wipe it from his eyes. He let it run down his cheeks, mixing with the heat that was still flushed across his skin, a confusing, miserable cocktail of adrenaline and shame.
+
+He turned his back on The Anchor.
+
+The neon sign buzzed overhead, casting a sickly red glow onto the wet pavement. Through the glass, he could see the shapes of the patrons, blurred and static. The man in the suit was still there. The woman was still there. The tableau hadn’t broken. For a second, a morbid part of his brain wanted to turn around, to check if the air had shifted, if the tension in the room had snapped, if the heavy, oppressive weight he’d felt pressing against his chest had lifted.
+
+He didn’t turn around.
+
+Instead, he walked.
+
+His legs felt like they were moving through water, sluggish and uncooperative. The beer bottle in his hand was a cold, hard anchor, the only real thing he had left. He gripped it until his knuckles ached, a dull, grounding pain that kept him tethered to the present moment. He didn’t throw it. He didn’t crush it. He just held it, a useless, heavy thing that reminded him he was still solid, still here.
+
+The street was empty. It was late, and the rain had driven everyone indoors, leaving the city streets slick and reflective. The sound of the rain was a constant, rhythmic drumming against his hood, a white noise that drowned out the thoughts he was trying to suppress.
+
+*You left her.*
+
+The thought was simple, brutal, and accurate. He had looked at a woman who was terrified, who was cornered, who was about to be hurt by a man who could bench press a car, and he had chosen himself. He had chosen his pulse. He had chosen the beating of his heart and the steady rhythm of his breathing. He had chosen survival.
+
+It was the right choice. He knew it was the right choice. Everyone knew it was the right choice. You didn’t intervene against a super. You didn’t step in when a god was angry. You watched, you recorded, you prayed, and you left. That was the social contract. That was the law of the world. Supers were the weather; you didn’t argue with a hurricane. You got out of the way.
+
+But getting out of the way felt like a betrayal.
+
+He walked faster. The pavement was slick, and he had to be careful not to slip, his shoes losing their grip on the wet concrete. He kept his eyes on the ground, on the puddles that reflected the city lights in distorted, dancing shapes. He needed to keep moving. If he stopped, the guilt would catch up to him. It was already there, a heavy stone in his stomach, but movement kept it at bay.
+
+He passed a row of closed shops, their windows dark and silent. A stray cat darted out from under a parked car, hissing at the rain, and disappeared into the shadows. Ethan watched it go, envying its instinct, its simple, direct connection to the world. It didn’t have to calculate. It didn’t have to weigh the odds. It just reacted.
+
+He reached the corner of 5th and Main. The traffic light was red. He stood at the curb, the rain pouring down on him, the bottle still in his hand. Cars splashed through the intersection, their headlights cutting through the downpour, blinding and bright. He waited for the light to change, for the cars to pass, for the world to keep moving without him.
+
+When the light turned green, he crossed the street.
+
+The other side was quieter. The buildings were taller, older, their facades stained with age and grime. He walked toward the apartment complex where he lived, a small, unassuming brick building that felt like a shell, a protection against the world outside. He didn’t know why he was going there. He didn’t know why he was walking at all. His body was moving on autopilot, driven by a need to be somewhere safe, somewhere private, somewhere where he could take off his jacket and feel the weight of the bottle and the weight of the guilt and the weight of the rain.
+
+He reached the entrance. The door was heavy, made of thick oak, and it took all his strength to push it open. The lobby was dimly lit, the air stale and warm. He could smell the dust, the old carpet, the faint scent of the cleaning products the manager used. It was a smell that was entirely human, entirely ordinary, and it grounded him.
+
+He took the stairs.
+
+One flight. Two flights. Three flights.
+
+His legs burned. His breath came in short, sharp gasps. The beer bottle was sweating in his hand, the condensation mixing with the rain on his skin. He reached his apartment, fumbled for his keys, and finally, after a few frustrating moments, the lock clicked open.
+
+He stepped inside.
+
+The apartment was small, sparse, and quiet. The rain was muffled by the walls, a distant, soft hum. He closed the door behind him and leaned against it, the bottle still in his hand. He looked at the room, at the simple furniture, the unmade bed, the stack of books on the desk. It was a life. A small, ordinary, fragile life.
+
+He didn’t throw the bottle away. He didn’t turn on the lights. He just stood there, in the dark, in the rain, in the silence, feeling the weight of the choice he had made.
+
+He had left her.
+
+And he had survived.
+
+And that was enough.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

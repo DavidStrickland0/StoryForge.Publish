@@ -1,0 +1,113 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Establish Ethan\u0027s ordinary life and cautious attitude toward the superhuman hierarchy, culminating in his decision to leave a bar where a super is harassing a normal woman.","IntendedChange":"Ethan transitions from passive observation of the social hierarchy to active self-preservation, choosing to disengage from a dangerous confrontation rather than intervene, thereby establishing his core trait of rational caution.","PacingPosture":1,"ProhibitedPatterns":["Ethan drinking alcohol while working at a bar","Ethan being a bartender or staff member","Ethan confronting the super physically","Ethan recognizing his own power or field","The super losing power in this chapter","The victim escaping in this chapter","Aurora appearing or investigating"],"Scenes":[{"Sequence":1,"Purpose":"Establish Ethan\u0027s ordinary evening routine and his observational awareness of the social hierarchy where supers are untouchable celebrities.","IntendedChange":"Ethan arrives at a crowded bar, observing the deference patrons show to a known super, reinforcing his belief in the power imbalance.","FocusCharacterIds":["ethan_vale","aggressive_super"]},{"Sequence":2,"Purpose":"Depict the specific incident of harassment, highlighting the victim\u0027s distress and the bystanders\u0027 fearful inaction due to legal and social constraints.","IntendedChange":"Ethan witnesses the super physically imposing himself on a normal woman, observing the casual cruelty and the crowd\u0027s paralysis, which solidifies his assessment of the threat.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Execute Ethan\u0027s required choice to prioritize his safety over intervention, navigating the crowded bar to exit without drawing attention.","IntendedChange":"Ethan physically disengages and leaves the bar, experiencing a mix of guilt and relief as his heart rate drops, unaware that his departure is altering the outcome.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the specific incident of harassment, highlighting the victim\u0027s distress and the bystanders\u0027 fearful inaction due to legal and social constraints.","IntendedChange":"Ethan witnesses the super physically imposing himself on a normal woman, observing the casual cruelty and the crowd\u0027s paralysis, which solidifies his assessment of the threat.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Execute Ethan\u0027s required choice to prioritize his safety over intervention, navigating the crowded bar to exit without drawing attention.","IntendedChange":"Ethan physically disengages and leaves the bar, experiencing a mix of guilt and relief as his heart rate drops, unaware that his departure is altering the outcome.","FocusCharacterIds":["ethan_vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Outside The Rusty Anchor bar, on the street","TimeContext":"Friday evening, 8:42 PM","PresentCharacterIds":["ethan_vale"],"PhysicalConditions":["Ethan is standing outside in the cool night air","Ethan\u0027s heart is beating fast","Ethan is holding his messenger bag"],"KnowledgeEstablished":["Kael is a Class-A Strength and Durability super","Kael possesses invulnerability that causes a pearlescent sheen to his skin","Kael can crack laminate tables with a two-finger tap","Patrons and staff exhibit deference and fear toward Kael due to social and legal constraints","The social hierarchy treats supers as untouchable celebrities or strategic assets","Ethan perceives the superhuman hierarchy as a system where normal people are \u0027background noise\u0027"],"DecisionsMade":["Ethan decided to leave the bar to avoid the uncomfortable atmosphere and assert his own normalcy"],"PossessionChanges":[],"RelationshipChanges":[],"CompletedActions":["Ethan arrived at The Rusty Anchor bar","Ethan observed Kael and the deference shown by patrons and staff","Ethan sat at a table for twenty minutes without eating","Ethan stood up and walked out of the bar","Ethan exited the building into the street"],"UnresolvedImmediateAction":"Ethan is standing outside the bar, having just left, with no immediate physical threat present but emotionally unsettled.","ContinuationPosition":"Ethan is standing on the street outside The Rusty Anchor, having just pushed through the heavy glass door. He is facing away from the entrance, breathing the cool night air, with his heart still racing from the tension inside.","ProhibitedRepetition":["Ethan drinking alcohol","Ethan working as a bartender or staff member","Ethan physically confronting Kael","Ethan recognizing his own superhuman power or field","Kael losing his powers","A victim escaping the situation","Aurora appearing or investigating","Re-describing the initial arrival at the bar","Re-describing the specific act of Kael cracking the table"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+I stepped into the street. The cool air hit my face, a sharp contrast to the humid, stale air of the bar. My heart was still hammering against my ribs, a frantic rhythm that didn’t match the quiet evening. I walked briskly, my boots slapping against the pavement, needing to put distance between myself and The Rusty Anchor.
+
+The city buzzed around me. Neon signs flickered, advertising everything from cheap protein shakes to flight training for the less privileged. A bus hissed to a stop three blocks down, its doors sliding open with a mechanical sigh. I kept moving, my hands shoved deep into my pockets, fingers drumming against my thighs.
+
+I needed to go home. I needed a shower, a glass of water, and maybe to stare at the ceiling until the image of Kael’s pearlescent skin faded from my mind. The way he had tapped the table, the way the laminate had cracked like dry ice under a heavy foot. It wasn’t just strength; it was a display. A reminder.
+
+I turned onto 4th Street, the wind picking up slightly, carrying the scent of rain and exhaust. A group of teenagers walked ahead of me, laughing, their voices echoing off the brick buildings. They looked like they had nothing to worry about. Normal people. Background noise.
+
+That was the thing about the hierarchy. You weren't even aware of the supers' presence unless they acknowledged you. And when they did, it was usually to remind you of where you stood.
+
+I reached my apartment building, a modest structure on the east side of the city. I fished my keys out of my pocket, my hands trembling slightly. I unlocked the door and stepped inside, the heavy click of the lock providing a small, satisfying comfort.
+
+My apartment was small, a single room with a kitchenette and a bathroom. It was tidy, clean, and entirely mine. I tossed my bag onto the sofa and walked to the window, looking out at the city lights.
+
+A figure flew overhead, a streak of silver against the dark sky. That was Aurora. I watched her glide past, effortless and graceful. She was a celebrity, a symbol of what supers could be. Powerful, beautiful, untouchable.
+
+I wondered if she knew what it was like to be ordinary. To be afraid. To have to calculate every move, every interaction, to ensure you didn't offend or provoke.
+
+I turned away from the window and walked to the kitchen. I filled a glass with water and drank it slowly, the cool liquid soothing my throat. I felt a strange sense of relief, mixed with a deep, gnawing guilt.
+
+I had left. I had left a woman trapped with a man who could crush her like a bug. I had chosen safety over justice, self-preservation over empathy.
+
+Was that who I was? A coward? Or just a human being, trying to survive in a world that had no place for people like me?
+
+I didn't have an answer. All I had was the silence of my apartment, the hum of the refrigerator, and the distant sound of the city, continuing its endless, indifferent rhythm.
+
+I sat down on the sofa, the leather creaking under my weight. I stared at the blank wall, my mind racing.
+
+I had to be more careful. I had to be smarter. I had to find a way to navigate this world without getting hurt, without getting involved.
+
+But how?
+
+The question hung in the air, unanswered.
+
+I closed my eyes and tried to sleep, but the image of Kael’s face, twisted in that moment of casual cruelty, kept intruding.
+
+I wasn't ready for this. I wasn't ready for any of it.
+
+But here I was.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

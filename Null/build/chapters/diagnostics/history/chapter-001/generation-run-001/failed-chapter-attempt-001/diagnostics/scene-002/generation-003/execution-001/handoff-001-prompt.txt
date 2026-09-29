@@ -1,0 +1,121 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Establish Ethan\u0027s ordinary life and his cautious, observational attitude toward the superhuman class, culminating in his decision to avoid a dangerous confrontation at a bar.","IntendedChange":"Ethan moves from a passive observer of the superhuman world to an active participant in a specific, high-stakes social conflict, making a consequential choice to prioritize his own safety over intervention.","PacingPosture":1,"ProhibitedPatterns":["Do not reveal that Ethan\u0027s presence suppresses the super\u0027s powers.","Do not have the super lose strength or the victim escape in this chapter.","Do not introduce Aurora or any other major character.","Do not resolve the confrontation or have Ethan intervene physically."],"Scenes":[{"Sequence":1,"Purpose":"Establish Ethan\u0027s ordinary routine and his cautious, observational attitude toward the superhuman class by showing him navigating a crowded bar where a famous super is present, highlighting the social hierarchy and his awareness of the power imbalance.","IntendedChange":"Ethan is seated at a bar, observing the super\u0027s casual cruelty and the bystanders\u0027 fear, reinforcing his belief that normal people are at the mercy of the powerful and establishing his position relative to the super and the victim.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":2,"Purpose":"Develop the tension as the super\u0027s aggression escalates toward the victim, forcing Ethan to assess the threat and the social expectation to intervene, while the crowded bar environment limits his ability to escape without drawing attention.","IntendedChange":"Ethan experiences a physical hesitation and internal justification for leaving, prioritizing his own safety over the victim\u0027s immediate distress, and begins to move toward the exit.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Resolve the immediate scene by showing Ethan successfully leaving the bar, feeling a mix of guilt and relief, while remaining unaware that his presence has just altered the outcome of the confrontation.","IntendedChange":"Ethan is outside the bar, his heart rate dropping as he moves away from the threat, having made a consequential choice to disengage and establish his boundary of not engaging with supers in hostile contexts.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Develop the tension as the super\u0027s aggression escalates toward the victim, forcing Ethan to assess the threat and the social expectation to intervene, while the crowded bar environment limits his ability to escape without drawing attention.","IntendedChange":"Ethan experiences a physical hesitation and internal justification for leaving, prioritizing his own safety over the victim\u0027s immediate distress, and begins to move toward the exit.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Resolve the immediate scene by showing Ethan successfully leaving the bar, feeling a mix of guilt and relief, while remaining unaware that his presence has just altered the outcome of the confrontation.","IntendedChange":"Ethan is outside the bar, his heart rate dropping as he moves away from the threat, having made a consequential choice to disengage and establish his boundary of not engaging with supers in hostile contexts.","FocusCharacterIds":["ethan_vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Street outside The Gilded Cage","TimeContext":"Tuesday night","PresentCharacterIds":["ethan_vale"],"PhysicalConditions":["Ethan is walking down the street, blending into the crowd","Ethan\u0027s heart rate is dropping and tension in his shoulders is easing","Ethan is carrying a bag with the strap adjusted on his shoulder"],"KnowledgeEstablished":["Kaelen is a top-tier super with granite-like skin and brute force","Kaelen is currently in The Gilded Cage with a female victim","Kaelen has damaged the bar table and is verbally abusing the victim","The social hierarchy dictates that normal people do not engage with supers in hostile contexts","Ethan\u0027s presence or potential intervention was noticed by Kaelen, who mocked him as a \u0027little mouse\u0027"],"DecisionsMade":["Ethan decided to leave the bar rather than intervene","Ethan prioritized his own safety and his \u0027small, predictable\u0027 life over the victim\u0027s distress"],"PossessionChanges":[],"RelationshipChanges":["Kaelen is aware of Ethan\u0027s presence and has mocked him","The victim is aware of Ethan\u0027s presence and his decision to leave"],"CompletedActions":["Ethan observed Kaelen\u0027s cruelty toward the victim","Ethan stood up from the bar","Ethan navigated through the crowded bar to the exit","Ethan exited The Gilded Cage","Ethan began walking down the street away from the bar"],"UnresolvedImmediateAction":"Ethan is walking away from the bar, processing his decision to disengage and observing the city/sky.","ContinuationPosition":"Ethan is walking down a busy street outside The Gilded Cage, having just exited the bar. He is moving away from the establishment, blending into the crowd of ordinary people, with the night air and city lights surrounding him.","ProhibitedRepetition":["Do not have Ethan re-enter the bar","Do not have Ethan intervene physically with Kaelen","Do not reveal that Ethan\u0027s presence suppresses Kaelen\u0027s powers","Do not have the victim escape or Kaelen lose strength","Do not introduce Aurora or other major characters"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The cold bit into his cheeks, sharper than the indoor air had been, carrying the scent of rain that hadn’t quite fallen. Ethan pulled his jacket tighter, the wool scratching against his skin in a way that felt oddly grounding. The street was a river of sound, a low hum of engines, distant laughter, and the rustle of coats moving in the dark. He let his gaze drift upward, catching the blue streak of a patrol drone sweeping overhead, its lights washing over the wet pavement before vanishing into the clouds. A signature. A reminder.
+
+He adjusted the strap of his bag on his shoulder, the fabric creaking softly under the tension. The movement was small, mechanical, a way to occupy his hands while his mind churned. The night was crisp, the air clean in that specific urban way that smelled of ozone and exhaust, and for a few seconds, the world felt contained. The world felt contained and manageable.
+
+Then he saw the news feed on the large digital board above the intersection.
+
+The screen was dominated by a breaking news ticker, the text scrolling in urgent red. *SUPERHUMAN INCIDENT REPORTED IN SECTOR 4. VICTIM HOSPITALIZED.*
+
+Ethan stopped walking. His heart gave a single, heavy thud against his ribs. He stared at the board, his eyes tracking the words until the blur of motion resolved into sharp, undeniable text. Sector 4 was three blocks away. It was near the bar he had just left.
+
+He told himself it was a coincidence. A different super. A different incident. The city was full of them, and the news cycle was a relentless grinder that chewed up every minor conflict and spat it out for public consumption. He looked around, searching for the context, for the details that would explain the timing.
+
+There were no details. Just the headline.
+
+The guilt hit him before the fear did. It was a cold, sharp stone settling in his stomach, heavier than the bag on his shoulder. He had left. He had walked past the scene of a crisis because he was afraid of being hurt. The thought was so obvious, so damning, that he almost wanted to laugh at the absurdity of his own rationalization. He was safe. He was alive. And somewhere in the shadows of that bar, a woman was lying on the floor, unable to get up, while the man who had broken her was likely walking away, unscathed.
+
+He turned back toward the entrance of The Gilded Cage. The neon sign buzzed, casting a pink and purple glow over the wet sidewalk. The door was open, and the warmth of the interior spilled out, carrying with it the scent of spilled drinks and stale beer.
+
+Ethan didn’t want to go back in. Every instinct screaming inside his head told him to keep walking, to disappear into the crowd, to go home and lock his door and pretend the world was a series of disconnected, harmless moments. He was a small, predictable man in a world of giants. To re-enter the bar was to acknowledge that his choices had consequences, that his safety was not a default setting that the universe would protect simply because he was afraid.
+
+But the image of the woman’s face, frozen in a mask of shock and pain, played on a loop in his mind. It wasn't a dramatic scene. It was mundane. Terrifyingly mundane. The way she had looked at him, not with anger, but with a desperate, silent question. *Why are you doing this?*
+
+He had done nothing. He had done the only thing that made sense for a normal person. And yet, the emptiness in his chest felt like a hollow space where a conscience should have been.
+
+He took a step forward. Then another.
+
+The air near the bar was different. It was thicker, charged with the residual energy of the confrontation. He could hear the muffled sounds of voices inside, the clink of glasses, the low thrum of music that was just loud enough to cover up the quiet, sharp intake of breath from someone in pain.
+
+Ethan stood in the doorway, his hand resting on the doorframe. The wood was cool and damp. He looked inside. The bar was crowded, a maze of bodies and dim lights. He could see the back of a man’s head, the broad shoulders of a bartender, the glint of a glass catching the neon light. He couldn't see the woman. He couldn't see the super.
+
+He was just a silhouette in the doorway. A little mouse in the dark.
+
+The realization that he was watching, that he was choosing to watch, made his skin prickle. He wasn't intervening. He wasn't stopping anything. He was just... He was just present. And yet, the presence of the threat was so heavy, so oppressive, that the air seemed to vibrate around him.
+
+He pulled his hand back from the doorframe. His fingers were trembling. He clenched them into a fist, feeling the nails dig into his palm. It was a small, sharp pain, a reminder that he was flesh and bone, that he could be broken.
+
+He looked at the street again. The blue streak of the patrol drone was still visible in the distance, a distant, indifferent eye. The city was moving around him, indifferent to his fear, indifferent to his guilt.
+
+Ethan turned away from the bar.
+
+He didn't run. He didn't hurry. He walked with a steady, deliberate pace, his bag swinging gently against his leg. He told himself that he was going home. He told himself that he had done the right thing, that he had preserved his life, that the world would continue to turn without him saving it.
+
+He walked into the crowd, blending into the flow of ordinary people who walked, talked, and lived in the spaces between the giants. The night was young, and the air was crisp. For now, the world felt safe.
+
+But as he turned the corner, putting the neon glow of The Gilded Cage behind him, he felt the weight of the decision settle over his shoulders. It was a heavy, invisible cloak, and he knew, with a cold certainty that settled into his bones, that he would carry it for a long time.
+
+He kept walking.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

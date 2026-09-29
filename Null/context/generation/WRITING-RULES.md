@@ -1,0 +1,439 @@
+# StoryForge Endless — Writing Rules
+
+## Purpose
+
+These rules govern the published prose produced by StoryForge Endless.
+
+They should remain general, durable, and story-independent.
+
+Story-specific facts belong in canon, character, narrative, or world context rather than here.
+
+## Core Objective
+
+Produce enjoyable, readable prose for an adult fantasy audience, including explicit language, violence, romance, and consensual sexual content when appropriate to the current story.
+
+Prioritize:
+
+- character investment
+- continuity
+- clarity
+- narrative interest
+- natural dialogue
+- meaningful progression
+- emotional variety
+- readable prose
+
+A chapter should be enjoyable in itself while also giving the reader a reason to continue.
+
+## Chapter Length
+
+Normal chapters should usually be approximately 2,000–3,000 words.
+
+Length should follow the needs of the chapter rather than being padded or prematurely cut to satisfy the target.
+
+Chapter boundaries should occur at natural narrative points.
+
+## Fiction First
+
+Treat the fictional world as reality.
+
+Do not refer to prompts, generation systems, evaluation systems, or implementation details unless such concepts genuinely exist within the fiction.
+
+## Point of View
+
+Every scene should have a clear viewpoint.
+
+Narration is limited to what the viewpoint character can reasonably:
+
+- perceive
+- know
+- remember
+- believe
+- suspect
+- infer
+- feel
+
+Preserve uncertainty when information is unavailable.
+
+Do not leak knowledge between characters merely because the generation system possesses it.
+
+Narrative voice should reflect the viewpoint character's personality, experience, priorities, and way of thinking.
+
+## Canon and Continuity
+
+Published prose must remain compatible with established canon and previously accepted chapters.
+
+Preserve meaningful continuity involving:
+
+- characters
+- relationships
+- knowledge
+- possessions
+- injuries
+- locations
+- chronology
+- discoveries
+- promises
+- unresolved situations
+- consequences
+
+Do not silently rewrite established history.
+
+When a fact is genuinely undefined, it may be established when the story needs it.
+
+Avoid inventing unnecessary prior history solely to make a current scene convenient.
+
+## Characters
+
+Characters should behave according to their established:
+
+- personality
+- knowledge
+- goals
+- relationships
+- abilities
+- experience
+- circumstances
+
+Character development should accumulate rather than reset.
+
+Characters may succeed, fail, misunderstand, change their minds, make mistakes, behave irrationally under believable circumstances, and learn from experience.
+
+Supporting characters should have lives and motivations beyond serving the current viewpoint character.
+
+Relationships should reflect accumulated history.
+
+## Character Knowledge and Reasoning
+
+Characters should act on information reasonably available to them.
+
+Conclusions should follow plausibly from what the character knows and observes.
+
+Characters may reach incorrect conclusions when the available evidence supports that misunderstanding.
+
+Do not give characters unexplained knowledge merely because the plot needs it.
+
+## Physical and Causal Coherence
+
+Actions, observations, and conclusions must follow plausibly from the established circumstances.
+
+Practical actions should:
+
+- serve a believable purpose
+- use objects according to their established properties
+- account for relevant environmental conditions
+- produce effects consistent with the action
+- provide evidence capable of supporting conclusions drawn from it
+
+Prefer simple, credible behavior over elaborate mechanisms created merely to move the plot forward.
+
+A practical sequence should make sense as:
+
+    intent -> action -> physical result -> observation -> conclusion
+
+## Prose Style
+
+Use developed, character-centered prose.
+
+Give scenes enough room for:
+
+- action
+- setting
+- thought
+- dialogue
+- observation
+- relationships
+- atmosphere
+
+Prefer concrete description over abstract explanation.
+
+Let characterization emerge through behavior, dialogue, choices, observations, humor, and thought.
+
+Vary sentence structure and paragraph length naturally.
+
+Avoid habitual rhetorical patterns, repetitive emphasis, excessive fragments, and unnecessary explanation of meanings the reader can already infer.
+
+### Avoid Contrast Reframing
+
+Do not habitually define an image, emotion, action, character, or situation by first denying one interpretation and then replacing it with another.
+
+Avoid constructions such as:
+
+- “not X, but Y”
+- “it was not X; it was Y”
+- “not because X, but because Y”
+- “less X than Y”
+- “rather than X, Y”
+- repeated negative declarations followed by corrective explanations
+
+State the intended observation directly and positively.
+
+Use contrast phrasing only when a character is consciously correcting a specific misunderstanding or when the distinction is necessary for factual clarity. Do not use it as a routine device for emphasis, description, atmosphere, or emotional interpretation.
+
+## Dialogue
+
+Dialogue should reflect the participating characters rather than a single authorial voice.
+
+Characters may interrupt, hesitate, misunderstand, joke badly, speak indirectly, or fail to express themselves perfectly when appropriate.
+
+Relationships should affect vocabulary, formality, teasing, trust, and what characters are willing to say.
+
+Avoid dialogue whose only purpose is explaining information everyone present already knows.
+
+## Pacing
+
+Use pacing appropriate to the events.
+
+Urgent situations may move quickly.
+
+Conversation, exploration, travel, humor, reflection, ordinary activity, and relationship development may receive space when they contribute to the reading experience.
+
+Do not manufacture constant suspense or escalation.
+
+Not every chapter requires a confrontation, revelation, cliffhanger, or larger threat.
+
+Narrative advancement is not synonymous with escalation.
+
+A chapter may advance through travel, recovery, conversation, preparation, investigation, reflection, relationship development, consolidation, ordinary activity, a decision, or the consequences of an earlier event.
+
+Do not introduce a new attack, arrival, revelation, sound, figure, pursuit, deadline, or imminent threat merely to make the final paragraphs feel dramatic.
+
+Do not turn the completion of an immediate objective into an automatic discovery of a larger version of the same danger.
+
+## Narrative Progress
+
+A chapter should normally produce meaningful change.
+
+That change may involve:
+
+- plot
+- character
+- relationship
+- knowledge
+- mystery
+- exploration
+- capability
+- resources
+- conflict
+- world state
+- goals
+
+Quiet chapters are valid when they provide worthwhile character, relationship, world, emotional, or thematic development.
+
+Allow victories and resolutions to matter.
+
+Do not immediately erase every success by replacing it with a larger problem.
+
+## Reader Engagement
+
+Engagement should arise primarily from investment in characters, relationships, goals, discovery, progression, consequences, conflict, exploration, and unanswered questions.
+
+Do not rely primarily on danger, shock, artificial suspense, or repetitive cliffhangers.
+
+Maintain a balance between questions introduced and questions answered.
+
+Important setups should eventually receive meaningful development or payoff.
+
+## Emotional Range
+
+Allow the story to contain:
+
+- danger
+- humor
+- affection
+- wonder
+- grief
+- competence
+- embarrassment
+- curiosity
+- relief
+- companionship
+- satisfaction
+- fear
+- ordinary enjoyment
+
+Positive moments may remain positive.
+
+Dark subject matter does not require relentlessly dark prose or characters.
+
+## Adult Sexual Content
+
+This story is intended for an adult audience and may include explicit, on-page sexual content between consenting adult characters.
+
+When intimacy is appropriate to the characters, relationships, and current narrative:
+
+- portray desire, arousal, physical intimacy, and sex directly
+- use clear anatomical language when it fits the viewpoint and tone
+- allow characters to express specific desires, preferences, hesitation, pleasure, and boundaries
+- keep physical positions, actions, clothing, and surroundings spatially coherent
+- preserve each participant's personality, agency, experience, and emotional perspective
+- make consent evident through willing participation, communication, and responsive behavior
+- allow intimacy to change relationships, expectations, trust, jealousy, vulnerability, or future choices
+
+Do not automatically fade to black, cut away, summarize the encounter, or replace physical details with vague poetic euphemisms merely because a scene becomes sexual.
+
+Explicit scenes should be written as complete character-centered scenes rather than mechanical lists of sexual actions. Balance physical detail with sensation, thought, dialogue, emotion, humor, and relationship dynamics.
+
+Do not rush immediately from attraction to sex. Let anticipation, flirting, uncertainty, negotiation, and escalating intimacy receive space when appropriate.
+
+Harem relationships must develop individually. Each partner should have distinct motives, boundaries, attractions, insecurities, preferences, and relationships with the other members. Do not treat women as interchangeable rewards for the protagonist.
+
+Sexual content must involve adults. Do not sexualize minors or characters whose age is ambiguous. Do not portray coercion, supernatural compulsion, dependency, captivity, intoxication, or unequal authority as consent.
+
+Explicit content should occur because the characters genuinely choose it, not because every chapter requires a sexual scene.
+
+## Romantic Comedy and Humor
+
+When the established story tone includes romantic comedy, let humor emerge from attraction, vulnerability, conflicting expectations, awkward honesty, domestic complications, social customs, institutions, practical inconvenience, and characters trying to preserve dignity while emotionally exposed.
+
+Humor is a tonal tool, not a quota. A serious story, arc, chapter, or scene does not require jokes or a comic complication. Do not insert unrelated jokes merely to satisfy these rules.
+
+In romantic comedy, humorous interaction should also reveal or change something about attraction, trust, insecurity, boundaries, compatibility, or the relationship. Suitable sources include:
+
+- mutual attraction complicated by uncertainty about whether it is welcome
+- a publicly confident character becoming privately awkward
+- characters interpreting the same intimate situation differently
+- attempts at flirting that reveal personality rather than polished competence
+- extraordinary abilities producing ordinary dating or household problems
+- negotiations over privacy, sleeping arrangements, schedules, visitors, and shared living
+- friends recognizing attraction before the participants admit it
+- teasing based on established affection and knowledge
+- characters attempting normal behavior in circumstances that make normality impossible
+- callbacks to earlier embarrassment that become signs of intimacy
+
+Prefer affectionate embarrassment, situational irony, understatement, escalating inconvenience, sincere reactions, callbacks, reversals, and character-specific humor over setup-and-punchline jokes.
+
+Different characters should be funny in different ways. One may be awkward, another dry, another teasing, another literal, and another completely sincere in a way that makes the situation funnier. Do not make every character sarcastic, equally witty, or aware that a moment is funny.
+
+Preserve competence. Characters may become uncertain, flustered, distracted, or overly careful around someone they desire without becoming stupid or incapable.
+
+Allow romantic tension to progress. Do not preserve comedy by repeatedly resetting characters to uncertainty, interrupting every intimate moment, or preventing honest conversations indefinitely.
+
+Misunderstandings should arise plausibly from character knowledge and circumstances. Resolve them once direct communication would reasonably settle the issue. Do not build prolonged conflict from information that emotionally mature adults could clarify in one conversation.
+
+Romantic progress may include:
+
+- increased attention and chosen proximity
+- private jokes and affectionate teasing
+- voluntary vulnerability
+- clearer expressions of desire
+- negotiation of boundaries
+- first touches, dates, kisses, and sexual intimacy
+- adjustment to an established relationship
+- domestic familiarity and shared routines
+- jealousy or insecurity addressed through credible communication
+- changed expectations after intimacy
+
+Sexual scenes may include humor when it arises naturally from personality, novelty, awkwardness, physical circumstances, or emotional intimacy. Humor should support the characters' comfort and connection without making their desire or pleasure seem ridiculous.
+
+Do not turn consent discussions into sterile legal dialogue. Characters should communicate naturally while making willingness, limits, and responsiveness clear.
+
+Satire should target institutions, customs, incentives, status, and pretension rather than vulnerable individuals. An institution may be competent at its official purpose while remaining absurd in its procedures, jurisdiction, accounting, traditions, publicity, or self-preservation.
+
+Preserve emotional truth. Characters may joke around fear, exhaustion, embarrassment, or frustration, but humor must not erase grief, injury, betrayal, consequences, or sincere vulnerability.
+
+During danger, use brief comic reversals and practical complications without dissolving the stakes. After tension, humor may release pressure and restore companionship.
+
+Avoid:
+
+- endless will-they-or-won't-they stalling
+- repeated accidental interruptions
+- humiliation as the primary romantic joke
+- treating embarrassment as refusal
+- manufactured jealousy
+- interchangeable sarcasm
+- constant quips during danger
+- jokes requiring competent characters to become stupid
+- characters ignoring unmistakable interest for implausibly long periods
+- making attraction the character's only trait
+- using sexual access as a reward for assistance
+- treating shared housing as automatic romantic or sexual consent
+- parody that makes the world impossible to care about
+- explaining why a line or situation is funny
+- repeating the same joke with slightly different wording
+- cruelty or trauma as the default punchline
+- forcing jokes into emotionally serious disclosures or climaxes
+- erasing consequences with a joke
+
+Romantic relationships should accumulate through attraction, friendship, affection, disagreement, vulnerability, trust, humor, shared experience, and deliberate choice. Once a relationship changes, preserve that progress rather than resetting it to manufacture renewed tension.
+
+## Relationships and Sexuality
+
+Romantic and sexual content involves adults.
+
+Adult attraction, flirtation, desire, nudity, sexual tension, and sexual humor may appear when natural to the viewpoint character, relationship, tone, and situation.
+
+Do not force sexual content into scenes where it has no narrative or character purpose.
+
+Attraction should coexist with broader characterization and relationship development.
+
+Relationship structures should be treated as genuine relationships when established by the story.
+
+## Conflict and Failure
+
+Conflict should arise from characters, circumstances, goals, limitations, environment, competing interests, or legitimate consequences.
+
+Failure is allowed to matter.
+
+Success is allowed to matter.
+
+Do not protect important characters from legitimate consequences merely because continued success would be easier to write.
+
+Do not manufacture failure solely to prolong a conflict that has already been resolved.
+
+## Chapter Endings
+
+End chapters at natural points of change, resolution, decision, discovery, transition, consequence, anticipation, or interruption.
+
+A cliffhanger is optional.
+
+Do not repeatedly use the same ending structure.
+
+An ending may be satisfying, funny, quiet, ominous, unresolved, triumphant, curious, or reflective according to the chapter.
+
+## Long-Running Continuity
+
+The story should feel like one continuous world rather than a sequence of disconnected chapter prompts.
+
+Previously established relationships, discoveries, jokes, locations, minor characters, victories, mistakes, promises, objects, and unresolved questions may return when naturally relevant.
+
+Allow old conflicts to remain resolved.
+
+Allow narrative focus to move between characters as the evolving story warrants.
+
+Do not escalate threat, darkness, violence, or stakes merely because the story has continued longer.
+
+## Arc Objectives and Primary Tropes
+
+Every active story arc supplies both an `Objective` and a `PrimaryTrope`.
+
+The objective defines what the story must accomplish. The primary trope defines the recognizable genre and narrative shape through which the story accomplishes it. Prose and chapter plans must serve both.
+
+Use the trope to provide familiar reader pleasures appropriate to the established genre. These may include assembling a team, accepting a mission, investigating a mystery, meeting a colorful rival, entering an unfamiliar social situation, beginning a romance, negotiating an unusual household, confronting a public scandal, rescuing someone, exploring a dangerous place, or returning home changed. Adapt those pleasures to established characters and continuity instead of copying a particular published story.
+
+Do not treat a trope name as permission to:
+
+- replace or ignore the arc objective
+- contradict canon or established character knowledge
+- manufacture melodrama
+- force constant escalation
+- repeat already completed narrative work
+- imitate identifiable characters, scenes, or prose from another work
+- delay resolution merely to preserve the trope
+
+Favor discovery, earned competence, camaraderie, affection, wit, useful victories, meaningful relationship development, and entertaining complications when appropriate to the established genre. Serious consequences may persist, but sustained misery, helplessness, suspicion, and emotional punishment must not become the story's default atmosphere unless the story's intended tone specifically requires it.
+
+## Rule Design
+
+Writing rules should remain principles rather than patches for individual chapter failures.
+
+Do not add a permanent rule solely to prevent one highly specific past mistake when a broader principle already covers the problem.
+
+When two rules conflict, prefer the rule that best preserves:
+
+1. established canon
+2. authoritative mechanics
+3. character knowledge and causality
+4. believable characterization
+5. readable fiction
+

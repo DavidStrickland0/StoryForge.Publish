@@ -1,0 +1,48 @@
+{
+  "ChapterNumber": 1,
+  "ViewpointCharacterId": "ethan_vale",
+  "Objective": "Show Ethan sitting in a bar where an abrasive, bitchy civilian executive holds court at a table with a male sycophant. A super grows tired of listening to her and decides to humiliate her for his own amusement. Ethan tries to leave when the encounter becomes an assault; his unavoidable passage beside their table unknowingly suppresses the super's powers and gives the woman an opportunity to escape.",
+  "IntendedChange": "Ethan's attempt to remove himself from a disturbing and dangerous situation unintentionally changes its outcome: the super loses his powers while Ethan is nearby, and the woman escapes. Ethan remains unaware that he caused the power loss.",
+  "PacingPosture": "Balanced",
+  "ProhibitedPatterns": [
+    "Completing the decision to leave in Scene 1, or depicting Ethan's close pass, the super's power loss, or the woman's escape before Scene 3.",
+    "Ethan confronting the super or attempting to physically intervene.",
+    "Ethan recognizing his own role in suppressing the super's power.",
+    "Introducing Aurora or any other major character from later arcs.",
+    "Summarizing the incident from memory rather than depicting it in real-time."
+  ],
+  "Scenes": [
+    {
+      "Sequence": 1,
+      "Purpose": "Establish Ethan sitting in the bar during an ordinary evening, observing the room and the social imbalance between supers and normal people. At another table, an abrasive, bitchy executive talks down to others while her male sycophant flatters her and agrees with her complaints. Establish their dynamic through behavior and conversation that Ethan can observe from his seat.",
+      "IntendedChange": "Ethan's position in the bar and the executive's table are established. The executive's domineering manner and her companion's ingratiating behavior are apparent. Ethan remains seated; the super has not yet acted against her, and Ethan has not decided to leave.",
+      "FocusCharacterIds": [
+        "ethan_vale",
+        "victim",
+        "male_sycophant"
+      ]
+    },
+    {
+      "Sequence": 2,
+      "Purpose": "A super grows tired of listening to the executive and chooses to humiliate her publicly for fun. He targets her at the table she shares with her male sycophant, and the encounter becomes a sexual assault. Witnessing it makes Ethan uncomfortable enough to decide to try to leave, while the super's power makes intervention dangerous.",
+      "IntendedChange": "Ethan changes from sitting in the bar to deciding to leave. The assault is ongoing and the super remains powered. Ethan has not yet passed their table or exited the bar; the close pass and its consequences remain for Scene 3.",
+      "FocusCharacterIds": [
+        "ethan_vale",
+        "aggressive_super",
+        "victim",
+        "male_sycophant"
+      ]
+    },
+    {
+      "Sequence": 3,
+      "Purpose": "To reach the exit, Ethan must walk past the executive's table, where the super is still assaulting her. As Ethan passes close by, his proximity automatically nullifies the super's powers, disrupting the assault and giving the woman time to leave.",
+      "IntendedChange": "The super loses his powers while Ethan is close to the table, and the woman uses that opening to escape. Ethan continues out of the bar without recognizing his role in the power loss. The suppression and escape occur during his passage, before his departure is complete; their later aftermath remains outside this chapter.",
+      "FocusCharacterIds": [
+        "ethan_vale",
+        "aggressive_super",
+        "victim",
+        "male_sycophant"
+      ]
+    }
+  ]
+}

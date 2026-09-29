@@ -1,0 +1,91 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Show Ethan sitting in a bar, witnessing a super assault a randomly chosen civilian woman, and trying to leave. His unavoidable passage beside their table unknowingly suppresses the super\u0027s powers and gives the woman an opportunity to escape.","IntendedChange":"Ethan\u0027s attempt to remove himself from a disturbing and dangerous situation unintentionally changes its outcome: the super loses his powers while Ethan is nearby, and the woman escapes. Ethan remains unaware that he caused the power loss.","PacingPosture":1,"ProhibitedPatterns":["Completing the decision to leave in Scene 1, or depicting Ethan\u0027s close pass, the super\u0027s power loss, or the woman\u0027s escape before Scene 3.","Ethan confronting the super or attempting to physically intervene.","Ethan recognizing his own role in suppressing the super\u0027s power.","Introducing Aurora or any other major character from later arcs.","Summarizing the incident from memory rather than depicting it in real-time."],"Scenes":[{"Sequence":1,"Purpose":"Establish Ethan sitting in the bar during an ordinary evening, observing the room and the social imbalance between supers and normal people. Ground the scene in his immediate experience at his seat.","IntendedChange":"Ethan and his position in the bar are established. He remains seated; the central assault has not begun, and he has not decided to leave.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"A super selects a random civilian woman in the bar and publicly rapes her at a table. Witnessing the assault makes Ethan uncomfortable enough to decide to try to leave, while the super\u0027s power makes intervention dangerous.","IntendedChange":"Ethan changes from sitting in the bar to deciding to leave. The assault is ongoing and the super remains powered. Ethan has not yet passed their table or exited the bar; the close pass and its consequences remain for Scene 3.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"To reach the exit, Ethan must walk past the table where the super is still assaulting the civilian woman. As Ethan passes close by, his proximity automatically nullifies the super\u0027s powers, disrupting the assault and giving the woman time to leave.","IntendedChange":"The super loses his powers while Ethan is close to the table, and the woman uses that opening to escape. Ethan continues out of the bar without recognizing his role in the power loss. The suppression and escape occur during his passage, before his departure is complete; their later aftermath remains outside this chapter.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"A super selects a random civilian woman in the bar and publicly rapes her at a table. Witnessing the assault makes Ethan uncomfortable enough to decide to try to leave, while the super\u0027s power makes intervention dangerous.","IntendedChange":"Ethan changes from sitting in the bar to deciding to leave. The assault is ongoing and the super remains powered. Ethan has not yet passed their table or exited the bar; the close pass and its consequences remain for Scene 3.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"To reach the exit, Ethan must walk past the table where the super is still assaulting the civilian woman. As Ethan passes close by, his proximity automatically nullifies the super\u0027s powers, disrupting the assault and giving the woman time to leave.","IntendedChange":"The super loses his powers while Ethan is close to the table, and the woman uses that opening to escape. Ethan continues out of the bar without recognizing his role in the power loss. The suppression and escape occur during his passage, before his departure is complete; their later aftermath remains outside this chapter.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Outside The Rusty Anchor, on the street","TimeContext":"Thursday night","PresentCharacterIds":["ethan_vale"],"PhysicalConditions":["Ethan is sober and physically unharmed","Ethan has finished his drink and paid the tab"],"KnowledgeEstablished":["Supers are treated as celebrities and strategic assets who often escape significant legal consequences for collateral damage","The social contract is weaker for supers due to their physical power differential","Ethan perceives himself as vulnerable and \u0027broke\u0027 in a society where strength is the primary currency"],"DecisionsMade":["Ethan decided to leave the bar early to avoid proximity to the supers present"],"PossessionChanges":["Ethan paid for his beer and tab"],"RelationshipChanges":[],"CompletedActions":["Ethan observed the three supers in the bar (obsidian-skinned woman, gravity-defying hair man, heat-shimmering man)","Ethan finished his beer and paid the bartender (Gary)","Ethan exited The Rusty Anchor and began walking toward the street"],"UnresolvedImmediateAction":"Ethan is walking briskly away from the bar toward the street, heading toward his apartment.","ContinuationPosition":"Ethan is on the street outside The Rusty Anchor, walking away from the entrance, with the bar door closed behind him.","ProhibitedRepetition":["Re-describing the initial entry into the bar or the first observation of the supers","Repeating the conversation with Gary about the tab","Re-describing the act of pushing the door open and stepping outside"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The bar was loud, a low hum of conversation and clinking glass that Ethan had long since learned to tune out. He sat at the far end of the counter, his back to the wall, his beer half-finished. The air smelled of stale hops and cheap cleaning solution. Around him, the patrons shifted and spoke, a mundane tapestry of ordinary life that felt fragile, like paper held up against a gale.
+
+Across the room, near the booth that usually reserved for the regulars, a commotion had begun. It was subtle at first, a shift in the ambient noise. The laughter around a specific table died down, replaced by a tense, breathless silence that rippled outward. Ethan didn’t look. He had a rule about that, a survival instinct forged in a world where the strong could break the weak without a second thought. He kept his eyes on the liquid in his glass, watching the condensation slide down the surface.
+
+But the sound carried. A sharp, stifled gasp, followed by the wet, heavy thud of a body being shoved against the back of a chair. The wood creaked, a sound that was far too loud for the size of the room. Ethan’s stomach turned over, a cold knot tightening in his gut. He could feel the heat of the moment, the raw, unfiltered aggression that permeated the air. It wasn’t just noise; it was a physical weight, pressing against his eardrums, a reminder of the disparity that defined their society.
+
+He thought of the woman’s face, glimpsed for a split second before he looked away. Her eyes were wide, filled with a terror that was so primal it made his own fear of it feel distant and abstract. She was just a person, sitting in her chair, and someone with the power to crush stone was treating her like an object. The injustice of it was a physical ache, a bruise on his soul that wouldn’t heal.
+
+Ethan took a sip of his beer, the cold liquid doing nothing to soothe the heat in his chest. He looked at the man at the table. He was broad, his shoulders hunched with a kind of casual, predatory confidence. He didn’t even seem to notice the woman’s distress, or perhaps he did, and simply didn’t care. That was the terrifying part. It wasn’t malice, necessarily; it was indifference. A super could do what they wanted, to whom they wanted, and the world would turn a blind eye because the cost of accountability was too high.
+
+Ethan pushed his chair back. The legs scraped against the floor, a harsh, grating sound that cut through the tense quiet. He didn’t mean to make a scene, but his body was moving before his mind had fully caught up. He needed to be out of here. He needed to be somewhere the air wasn’t so thick with the scent of helplessness. He reached for his wallet, his fingers trembling slightly, and pulled out a few bills. He placed them on the counter, enough to cover the tab and then some.
+
+Gary, the bartender, looked up, his eyes narrowing as he noticed the empty glass and the cash. "Leaving early, Ethan?" he asked, his voice low.
+
+"Just a headache," Ethan said, his voice sounding rougher to his own ears than he intended. He grabbed his jacket from the hook by the door, his movements sharp and deliberate. He didn't look back at the table. He didn't want to see the man’s face, didn't want to see the woman’s expression. He wanted to be gone, to be safe, to be somewhere where the weight of the world didn't press down on his shoulders so heavily.
+
+He walked toward the door, his heart pounding in his chest, a frantic, irregular rhythm that echoed in his ears. He was leaving. He was doing the right thing, wasn't he? He wasn't a hero. He was just a guy who knew when to run. The door was only a few feet away, a sliver of night air and freedom waiting on the other side. He reached for the handle, his fingers closing around the cold metal, ready to pull himself out of the suffocating atmosphere and into the safety of the street.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

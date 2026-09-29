@@ -1,0 +1,87 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Establish Ethan\u0027s ordinary life and his cautious, observational attitude toward the superhuman class, culminating in his decision to avoid a dangerous confrontation at a bar.","IntendedChange":"Ethan moves from a passive observer of the superhuman world to an active participant in a specific, high-stakes social conflict, making a consequential choice to prioritize his own safety over intervention.","PacingPosture":0,"ProhibitedPatterns":["Repeating the action \u0027Ethan adjusted his jacket collar\u0027 from Scene 1 of previous attempts.","Forcing a confrontation or resolution that does not exist in the arc objective.","Introducing Aurora or the victim before the bar incident is established."],"Scenes":[{"Sequence":1,"Purpose":"Ethan navigates a crowded bar, observing the social hierarchy where superhuman celebrities command deference while normal people remain invisible and vulnerable.","IntendedChange":"The reader understands the setting\u0027s power dynamics and Ethan\u0027s internal discomfort at being a powerless bystander in a space dominated by those who can ignore laws.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"A physically imposing super harasses a normal woman near the bar\u0027s exit, creating an immediate threat that Ethan assesses as too dangerous to intervene in directly.","IntendedChange":"Ethan recognizes the lethal power imbalance and decides that his only viable option is to retreat rather than risk physical harm or legal consequences.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Ethan turns away from the scene and leaves the bar, feeling a mix of guilt for his inaction and relief at escaping the immediate danger.","IntendedChange":"The chapter concludes with Ethan outside the establishment, having successfully avoided confrontation but leaving the victim\u0027s fate unresolved and unknown to him.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Ethan navigates a crowded bar, observing the social hierarchy where superhuman celebrities command deference while normal people remain invisible and vulnerable.","IntendedChange":"The reader understands the setting\u0027s power dynamics and Ethan\u0027s internal discomfort at being a powerless bystander in a space dominated by those who can ignore laws.","FocusCharacterIds":["ethan_vale"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"A physically imposing super harasses a normal woman near the bar\u0027s exit, creating an immediate threat that Ethan assesses as too dangerous to intervene in directly.","IntendedChange":"Ethan recognizes the lethal power imbalance and decides that his only viable option is to retreat rather than risk physical harm or legal consequences.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The air inside *Neon & Nitro* smelled of synthetic lime and expensive cologne, a scent that felt heavy against the skin. Ethan Vale pulled his collar up slightly, trying to make himself smaller in a crowd where size was currency. It wasn't just physical bigness; it was the kind of presence that bent reality itself. He watched as a man with hair dyed the color of a bruised sky walked through the room, and everyone else simply parted like water around a stone. No one spoke to him. No one looked at him directly. They acknowledged his shadow, but they never engaged with the person inside it.
+
+Ethan shifted his weight from one foot to the other near the bar's edge. He held his drink with both hands, the condensation cold against his palms. It was a small comfort in a place where power dictated the only laws that mattered. He knew the rules here better than anyone who didn't belong to the upper echelon: if a super wanted something, they took it. If they decided you were beneath notice, you ceased to exist until they changed their mind.
+
+He scanned the room again, looking for an exit that didn't feel like surrendering to a giant's whim. The music was too loud to carry a conversation across even ten feet, but he could still hear snippets of the conversations drifting in from the center of the dance floor where the real celebrities gathered. A woman with skin that shimmered like oil on water laughed at something a man said without blinking. Another group, three women who looked identical except for the colors of their neon tattoos, were arguing about which new hero was most likely to fly into the atmosphere tomorrow morning.
+
+Ethan felt the familiar tightness in his chest. He wasn't dangerous. He didn't have powers. He didn't own a jet or a fortress. He was just a guy who worked data entry and liked to read fantasy novels he couldn't afford to buy at the local store. But here, that ordinary life made him vulnerable. He could see the way the patrons treated the supers, not as people, but as celebrities they were allowed to admire from a safe distance or ignore entirely if their attention wasn't requested.
+
+He turned toward the door again, stepping back into the stream of bodies moving toward it. The noise was deafening, a wall of bass that vibrated through his boots and up into his teeth. He kept his eyes on the exit, watching how the crowd flowed out like a river finding its channel. It felt strange to be an observer in a world where everyone else operated by different physics.
+
+He paused near the doorway, checking his phone for the time. The bar’s schedule was packed with events that he knew nothing about—charity galas, launch parties, press junkets. He had been drawn here by curiosity, wanting to see if the rumors were true, but the moment he stepped in, the reality of the situation settled over him like a heavy coat.
+
+There was no point staying for another hour. He needed air that didn't smell like expensive perfume and ozone from someone’s personal field generator. He took another step toward the door, feeling the pull of the crowd behind him, and then he saw it.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

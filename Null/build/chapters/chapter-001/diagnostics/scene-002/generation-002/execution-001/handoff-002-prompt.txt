@@ -1,0 +1,97 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Ethan observes a super assault a civilian executive in a bar, decides to leave rather than intervene, and unknowingly suppresses the super\u0027s powers while passing close to the table, allowing the executive to escape. Ethan exits the bar without recognizing his role in the power loss.","IntendedChange":"The executive escapes the super\u0027s assault due to the sudden loss of his powers, which is causally linked to Ethan\u0027s proximity during his exit. Ethan leaves the bar unaware that he caused the reversal, while the super remains powerless and the executive is free.","PacingPosture":3,"ProhibitedPatterns":["Ethan physically confronting, fighting, or physically stopping the super.","Ethan explicitly recognizing, suspecting, or understanding that his presence caused the super\u0027s power loss.","The executive or super identifying Ethan as the cause of the power loss.","Ethan remaining seated after deciding to leave.","The super retaining his powers while Ethan is within close proximity to the table.","Developing the immediate aftermath, reactions, or consequences of the escape beyond the moment of Ethan\u0027s departure.","Introducing Aurora or any other super who investigates the incident in this chapter."],"Scenes":[{"Sequence":1,"Purpose":"Establish the bar\u0027s social hierarchy and Ethan\u0027s caution by observing the executive\u0027s domineering behavior and her sycophant\u0027s flattery, while Ethan remains seated and assesses the danger of intervening.","IntendedChange":"Ethan is seated at his table, observing the executive and her companion from a distance, having decided that intervening would be dangerous but not yet having decided to leave.","FocusCharacterIds":["ethan_vale","victim","male_sycophant"]},{"Sequence":2,"Purpose":"Show the super\u0027s irritation with the executive leading to his decision to humiliate her, and Ethan\u0027s rational decision to leave rather than intervene, while the super remains powered and Ethan has not yet passed the table.","IntendedChange":"The super has begun his assault on the executive, and Ethan has decided to leave but is still seated, having not yet moved to the exit.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Depict Ethan\u0027s passage close to the table causing the super\u0027s powers to fail, allowing the executive to escape, and Ethan exiting the bar without recognizing his role in the power loss.","IntendedChange":"Ethan is outside the bar, the executive has escaped the super, and the super is powerless, with Ethan unaware that his proximity caused the suppression.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Show the super\u0027s irritation with the executive leading to his decision to humiliate her, and Ethan\u0027s rational decision to leave rather than intervene, while the super remains powered and Ethan has not yet passed the table.","IntendedChange":"The super has begun his assault on the executive, and Ethan has decided to leave but is still seated, having not yet moved to the exit.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Depict Ethan\u0027s passage close to the table causing the super\u0027s powers to fail, allowing the executive to escape, and Ethan exiting the bar without recognizing his role in the power loss.","IntendedChange":"Ethan is outside the bar, the executive has escaped the super, and the super is powerless, with Ethan unaware that his proximity caused the suppression.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"The Gilded Cage bar, Ethan in the farthest booth from the main floor; Elena and David at a table near the private dining section; the super standing near the entrance.","TimeContext":"Night, during the bar\u0027s operating hours.","PresentCharacterIds":["ethan_vale","victim","male_sycophant","aggressive_super"],"PhysicalConditions":["Ethan is seated in a booth with a warm beer.","Elena is seated at a table with a glass of red wine.","David is seated next to Elena.","The super is standing near the entrance, not drinking or talking."],"KnowledgeEstablished":["Ethan recognizes the super as a powerful entity who operates outside normal legal constraints.","Ethan assesses that intervening to protect Elena would be physically impossible and dangerous for him.","Ethan identifies the social dynamic between Elena (dominant) and David (subservient).","Ethan perceives the super\u0027s current demeanor as one of bored irritation directed at Elena."],"DecisionsMade":["Ethan decides not to intervene in the interaction between the super and Elena.","Ethan decides to remain seated and observe rather than leave immediately."],"PossessionChanges":[],"RelationshipChanges":[],"CompletedActions":["Ethan observed the interaction between Elena and David.","Ethan observed the super\u0027s posture and gaze toward Elena.","Ethan assessed the risk of intervening and concluded it was not viable.","Ethan took sips of his beer while waiting."],"UnresolvedImmediateAction":"Ethan is waiting to see if the super initiates an assault on Elena, having decided to stay seated for now but aware that leaving would require passing near the super.","ContinuationPosition":"Ethan is seated in his booth, having just taken a sip of his beer, watching the super who is standing still near the entrance with his eyes fixed on Elena.","ProhibitedRepetition":["Re-establishing the bar\u0027s social hierarchy or the dynamic between Elena and David from scratch.","Re-describing the super\u0027s initial entrance or posture as if it is new information.","Ethan physically confronting or fighting the super.","Ethan explicitly recognizing or suspecting that his presence causes power loss.","The executive or super identifying Ethan as the cause of any power loss.","Ethan remaining seated after deciding to leave (in future scenes).","The super retaining his powers while Ethan is within close proximity to the table (in future scenes).","Developing the immediate aftermath of the escape beyond the moment of Ethan\u0027s departure (in future scenes).","Introducing Aurora or any other super who investigates the incident in this chapter."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The silence in the bar stretched, thick and suffocating under the low hum of the bass. Ethan’s knuckles whitened around his glass. The super shifted his weight, the leather of his jacket creaking as he began to move. He didn’t walk so much as glide across the carpet, his eyes locked on Elena with the detached, predatory focus of a man choosing which piece of furniture to break next. David stood up immediately, his chair scraping back against the floor with a harsh shriek. He moved to the super’s side, his face a mask of eager, servile agreement, ready to do whatever was required.
+
+Elena didn’t rise. She didn’t reach for her purse or check the exit. She just sat there, her wine glass trembling slightly in her hand, her jaw set in a rigid line that spoke of pure, adrenaline-fueled defiance. The super reached out and pinched her chin, his thumb pressing hard into her jawline, tilting her head back so he could look down at her with open, mocking amusement. The other patrons in the bar had stopped talking, the music seeming to fade into a distant, muffled drone. Everyone was watching. Everyone was terrified. No one was moving.
+
+Ethan felt a hot, acidic burn in his gut. He looked at the super’s hand, then at his own. He was a twenty-six-year-old office worker with a bad knee and a history of minor sports injuries. The man in front of him had once been shown on the news casually lifting a city bus off a family. If Ethan tried to intervene, he would end up in a hospital, or worse, and the super would not even register the effort. The social contract of the world clearly did not apply to him.
+
+Ethan looked at the exit. It was across the room, blocked by the super’s broad frame and the magnetic pull of his attention. But if he stayed, he was complicit in the helplessness of the room. He was just another bystander watching a predator play with its food. He couldn’t save her. He knew that with a clarity that cut through the fear. The only thing he could do was leave. He needed to be out of there, out of the blast radius of whatever violence the super decided to unleash.
+
+Ethan pushed his chair back. The legs dragged against the wooden floor, a loud, deliberate scrape that cut through the ambient noise of the bar. He didn’t look at the super, but he felt the shift in the room’s energy, the sudden, sharp intake of breath from the patrons as the super’s gaze flicked toward the sound. Ethan stood up, his heart hammering against his ribs. He didn’t run. Running would make him a target, a fly buzzing around a bat. He kept his movements slow, deliberate, and casual. He grabbed his jacket from the back of his chair, his fingers shaking, and began the long walk toward the exit. He had to pass right by the super. He had to pass right by the table. He had no choice but to walk through the danger zone.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate decision 'Ethan decides to leave the bar rather than intervene or remain seated.' repeats decision from Chapter 1, Scene 1: 'Ethan decides to remain seated and observe rather than leave immediately.'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.

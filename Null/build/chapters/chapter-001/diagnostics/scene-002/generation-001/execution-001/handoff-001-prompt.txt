@@ -1,0 +1,103 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Ethan observes a super assault a civilian executive in a bar, decides to leave rather than intervene, and unknowingly suppresses the super\u0027s powers while passing close to the table, allowing the executive to escape. Ethan exits the bar without recognizing his role in the power loss.","IntendedChange":"The executive escapes the super\u0027s assault due to the sudden loss of his powers, which is causally linked to Ethan\u0027s proximity during his exit. Ethan leaves the bar unaware that he caused the reversal, while the super remains powerless and the executive is free.","PacingPosture":3,"ProhibitedPatterns":["Ethan physically confronting, fighting, or physically stopping the super.","Ethan explicitly recognizing, suspecting, or understanding that his presence caused the super\u0027s power loss.","The executive or super identifying Ethan as the cause of the power loss.","Ethan remaining seated after deciding to leave.","The super retaining his powers while Ethan is within close proximity to the table.","Developing the immediate aftermath, reactions, or consequences of the escape beyond the moment of Ethan\u0027s departure.","Introducing Aurora or any other super who investigates the incident in this chapter."],"Scenes":[{"Sequence":1,"Purpose":"Establish the bar\u0027s social hierarchy and Ethan\u0027s caution by observing the executive\u0027s domineering behavior and her sycophant\u0027s flattery, while Ethan remains seated and assesses the danger of intervening.","IntendedChange":"Ethan is seated at his table, observing the executive and her companion from a distance, having decided that intervening would be dangerous but not yet having decided to leave.","FocusCharacterIds":["ethan_vale","victim","male_sycophant"]},{"Sequence":2,"Purpose":"Show the super\u0027s irritation with the executive leading to his decision to humiliate her, and Ethan\u0027s rational decision to leave rather than intervene, while the super remains powered and Ethan has not yet passed the table.","IntendedChange":"The super has begun his assault on the executive, and Ethan has decided to leave but is still seated, having not yet moved to the exit.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Depict Ethan\u0027s passage close to the table causing the super\u0027s powers to fail, allowing the executive to escape, and Ethan exiting the bar without recognizing his role in the power loss.","IntendedChange":"Ethan is outside the bar, the executive has escaped the super, and the super is powerless, with Ethan unaware that his proximity caused the suppression.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Show the super\u0027s irritation with the executive leading to his decision to humiliate her, and Ethan\u0027s rational decision to leave rather than intervene, while the super remains powered and Ethan has not yet passed the table.","IntendedChange":"The super has begun his assault on the executive, and Ethan has decided to leave but is still seated, having not yet moved to the exit.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Depict Ethan\u0027s passage close to the table causing the super\u0027s powers to fail, allowing the executive to escape, and Ethan exiting the bar without recognizing his role in the power loss.","IntendedChange":"Ethan is outside the bar, the executive has escaped the super, and the super is powerless, with Ethan unaware that his proximity caused the suppression.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"The Gilded Cage bar, Ethan in the farthest booth from the main floor; Elena and David at a table near the private dining section; the super standing near the entrance.","TimeContext":"Night, during the bar\u0027s operating hours.","PresentCharacterIds":["ethan_vale","victim","male_sycophant","aggressive_super"],"PhysicalConditions":["Ethan is seated in a booth with a warm beer.","Elena is seated at a table with a glass of red wine.","David is seated next to Elena.","The super is standing near the entrance, not drinking or talking."],"KnowledgeEstablished":["Ethan recognizes the super as a powerful entity who operates outside normal legal constraints.","Ethan assesses that intervening to protect Elena would be physically impossible and dangerous for him.","Ethan identifies the social dynamic between Elena (dominant) and David (subservient).","Ethan perceives the super\u0027s current demeanor as one of bored irritation directed at Elena."],"DecisionsMade":["Ethan decides not to intervene in the interaction between the super and Elena.","Ethan decides to remain seated and observe rather than leave immediately."],"PossessionChanges":[],"RelationshipChanges":[],"CompletedActions":["Ethan observed the interaction between Elena and David.","Ethan observed the super\u0027s posture and gaze toward Elena.","Ethan assessed the risk of intervening and concluded it was not viable.","Ethan took sips of his beer while waiting."],"UnresolvedImmediateAction":"Ethan is waiting to see if the super initiates an assault on Elena, having decided to stay seated for now but aware that leaving would require passing near the super.","ContinuationPosition":"Ethan is seated in his booth, having just taken a sip of his beer, watching the super who is standing still near the entrance with his eyes fixed on Elena.","ProhibitedRepetition":["Re-establishing the bar\u0027s social hierarchy or the dynamic between Elena and David from scratch.","Re-describing the super\u0027s initial entrance or posture as if it is new information.","Ethan physically confronting or fighting the super.","Ethan explicitly recognizing or suspecting that his presence causes power loss.","The executive or super identifying Ethan as the cause of any power loss.","Ethan remaining seated after deciding to leave (in future scenes).","The super retaining his powers while Ethan is within close proximity to the table (in future scenes).","Developing the immediate aftermath of the escape beyond the moment of Ethan\u0027s departure (in future scenes).","Introducing Aurora or any other super who investigates the incident in this chapter."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The tension in the booth was a physical weight, pressing against Ethan’s chest. He watched the super’s hand drift toward the back of Elena’s neck, fingers curling with a casual, predatory grace. The air in the bar seemed to thicken, the ambient noise of the crowd fading into a dull roar as the super leaned in, his voice dropping to a register that only the three of them could hear.
+
+"Tell me again," the super said, his tone dripping with a slow, venomous amusement. "Who is the boss here?"
+
+Elena’s jaw tightened, her eyes hard. She did not flinch, though her fingers white-knuckled the rim of her wine glass. David, seated beside her, had gone completely rigid, his eyes darting between the two figures like a trapped animal. He looked as if he might faint, or perhaps simply vanish into the floorboards.
+
+Ethan’s knuckles were white where he gripped his beer bottle. He knew the physics of the situation better than anyone else in that room. The super was a class-five entity, a walking fortress of muscle and invulnerability. Ethan was a thirty-year-old accountant who got winded climbing the stairs to his apartment. If he stood up now, if he tried to interpose his body between that massive hand and Elena’s throat, he would be a red mist on the floor before the super even registered the interruption.
+
+It was a simple, cold calculation. Intervention meant death. Observation meant shame.
+
+Ethan pushed the chair back. The legs scraped against the wooden floor, a sharp, grating sound that cut through the heavy silence. The super didn’t turn his head, but his eyes shifted, tracking the movement with the lazy precision of a hawk spotting a mouse.
+
+Ethan stood, his heart hammering against his ribs. He didn’t look at Elena. He didn’t look at David. He looked straight ahead, his gaze fixed on the exit, which was a nightmare of obstacles. The path to the door was a straight line, but it required him to walk directly past the table where the super stood.
+
+He had to pass within arm's reach.
+
+The super’s hand was still resting on Elena’s shoulder, his thumb tracing a slow, deliberate circle on the fabric of her blazer. He was waiting for a reaction, for a display of dominance, for the world to acknowledge his superiority.
+
+Ethan took a breath that tasted of stale beer and fear. He began to walk.
+
+His steps were measured, steady. He could feel the super’s gaze on his back, a hot, physical presence that prickled his skin. He was ten feet away. Five feet. He was three feet away.
+
+The super watched him approach, a smirk playing on his lips. He didn’t move. He didn’t need to. He was a god among insects, and Ethan was just another insect trying to scurry away.
+
+Ethan reached the table. He could smell the expensive cologne the super wore, a cloying mix of sandalwood and something metallic. He could see the tension in Elena’s face, the desperate hope in her eyes as she watched this ordinary man walk past her.
+
+Ethan kept his eyes forward. He kept his hands at his sides. He walked through the space between them, his body brushing against the edge of the table, his shoulder inches from the super’s bicep.
+
+And then, he was past them.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

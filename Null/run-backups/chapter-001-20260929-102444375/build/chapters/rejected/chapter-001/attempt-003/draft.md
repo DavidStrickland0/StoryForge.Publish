@@ -1,0 +1,43 @@
+﻿The bass thumped through the floorboards, vibrating in Ethan’s chest like a slow, rhythmic warning. He kept his eyes on the jukebox, letting the light show spin behind his eyelids to avoid looking directly at anyone else. It was easier that way. The lights and the noise did a good job of blurring the edges of things he didn’t want to focus on.
+
+He adjusted his jacket collar, feeling the rough weave against his skin before remembering not to do it again. He had made that same movement three times in the last twenty minutes. It was a nervous habit he couldn’t seem to break, a physical tic born from the tension of being an ordinary man in a world ruled by people who didn’t follow laws designed for humans.
+
+The bar smelled of cheap beer, stale tobacco, and perfume money couldn’t buy. It was crowded with two distinct kinds of patrons: those who knew how to stand near the supers and those who knew better. The first group hovered around the edges of the room, offering nervous congratulations or awkward pleasantries whenever a celebrity entered. The second group kept their heads down, filling orders quickly and disappearing into back corners before anyone could get too comfortable.
+
+Ethan belonged firmly to the second category. He had spent most of his life studying this dynamic from afar, watching how the world tilted toward power whenever a superhero walked through a door. It wasn’t about admiration anymore; it was survival. Supers were celebrities now, strategic assets that governments couldn’t quite control and corporations paid premium wages to protect or exploit. They could walk into a courtroom and leave before a judge finished speaking, their immunity absolute and unassailable.
+
+Ethan’s own life felt small against that backdrop. He worked at a data entry firm where his only value lay in his ability to type without error and submit reports on schedule. If he failed to meet those expectations, he would be let go like any other employee. If someone powerful walked into his workplace, no one would question their behavior; if they chose to intimidate him or demand favors, Ethan had to decide whether to comply or risk losing everything.
+
+The jukebox changed songs every few minutes, but Ethan barely noticed the lyrics anymore. He just listened for footsteps that sounded different from the others—the heavy boots of a soldier-type hero, the light tread of someone who could run at high speeds, the distinct echo of flight suits hitting the floor. When he heard those sounds, his heart would start beating faster. It wasn’t fear exactly; it was vigilance. A constant low-level alert that kept him from doing something stupid.
+
+He watched a group of patrons near the entrance laugh too loudly as someone in a cape passed them on his way to the bathroom. They were laughing at themselves for being nervous, which felt cruelly ironic given how they would react if the same person had walked into their homes unannounced. Ethan turned away before he could see who they were looking at. He didn’t want to know the names of people who might decide to visit his apartment next week without knocking.
+
+A waitress came by with a refill, and he thanked her quickly. She smiled at him in that way servers trained to be pleasant around anyone. Her smile was warm enough for strangers, but not as deep as it would have been if Ethan had known her personally. He appreciated the gesture, though part of him wished she’d treated him differently based on who she thought he was.
+
+The music shifted again, and Ethan found himself humming along silently under his breath. The melody was simple enough that anyone could pick it up without needing to be a musician. He liked songs like this because they didn’t demand attention or require interpretation. They just were. That felt right in a world where too much seemed engineered for people who didn’t exist anymore.
+
+He glanced toward the exit, checking his watch against the digital clock on the wall. It wasn’t time to leave yet. The shift manager had warned him about overtime pay if he cut it short tonight, and Ethan wanted to earn that extra money. But he also knew when to pull back before someone noticed he was getting restless.
+
+The bar’s atmosphere felt thick enough to chew, saturated with laughter that wasn’t quite reaching anyone’s ears and a quiet desperation from people who knew they had nowhere else to go. It was a good place to hide if you could afford the tab. Ethan checked his pockets for cash just in case he needed to slip out before someone realized he was lingering too long.
+
+He took a sip of his drink, letting the bitterness settle in his mouth. Something about tonight felt heavier than usual, like everyone around him was waiting for something to happen that none of them could name.
+
+The air near the jukebox felt thick, almost pressurized by the weight of other people’s fear. Ethan kept his eyes on the ceiling tiles, counting the faint cracks in the acoustic plaster, trying to make himself small enough to fit into the background noise without being noticed. The bar was loud enough that nobody really listened anyway, but he preferred not to be heard when the conversation turned toward supers.
+
+He took another sip of his drink, letting the cheap bitter beer slide down his throat and settle in his stomach. He had decided early on that tonight would end before anyone got hurt or anyone noticed him lingering too long. He checked his pockets again, feeling the weight of the bills he’d been saving for a week, just in case he needed to slip out without drawing attention from the wrong kind of people.
+
+Outside the bar’s main entrance stood a man who didn’t belong in any story Ethan had ever read or imagined. He wore a suit that cost more than Ethan made in six months, and his posture was relaxed in a way that suggested he owned the space around him. His muscles were visible beneath expensive fabric, broad shoulders that seemed to push against the air as if gravity only applied to ordinary people. He was talking to someone who couldn’t be heard over the music. The woman on his arm looked like she wanted to leave but was too afraid to move.
+
+Ethan shifted in his seat, trying not to make any sudden movements. The man hadn’t noticed him yet, probably because he didn’t need to pay attention to things that small. But Ethan could tell something was wrong from the way the woman’s hands were pressed together at her sides, the way she kept glancing toward the door without making eye contact with anyone but the super.
+
+The man laughed, a low sound that rolled through the room like thunder. He reached out and touched the woman’s shoulder, his hand large enough to cover half her body. She didn’t pull away; she froze instead. That was when Ethan realized what was happening. The man wasn’t just flirting—he was making it clear that leaving wasn’t an option.
+
+Ethan looked at his watch, then back toward the exit. He knew he couldn’t stay here anymore. Not if the woman had any chance of getting out alive. But staying meant confronting a man who could probably throw him across the room before anyone could scream loud enough to draw attention. And even if he tried to run, there were too many eyes on the scene for him to slip away unnoticed.
+
+He took one more drink, then set the glass down with a deliberate clink against the table. It wasn’t much of an act, but it gave him something to do with his hands while he thought about what came next. He stood up slowly, making sure not to make any sudden movements that might alert someone else to what was happening. The super hadn’t noticed yet, and Ethan hoped that didn’t change soon.
+
+The woman’s eyes were wide, darting between the man and the door behind her. She wanted out, but she couldn’t move without risking everything. Ethan kept his breathing steady, his heart rate low enough that it wouldn’t show in his face if anyone looked too closely. He was going to leave now, whether the super liked it or not.
+
+The room around him seemed to hold its breath for a moment, then resumed the usual noise of people talking and laughing as if nothing unusual had happened. But Ethan knew better. He stepped away from the table, moving toward the door with careful, deliberate steps that didn’t draw attention. His plan was simple: get out before anyone noticed what was going on inside, and let the woman find another way to escape when she could.
+
+It was the best he could do in a world where some people had powers that made them untouchable by law or fear. And if that meant letting something terrible happen because he chose to walk away, then so be it. He wasn’t here to save everyone.

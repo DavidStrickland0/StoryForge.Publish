@@ -1,0 +1,87 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Show Ethan sitting in a bar where an abrasive, bitchy civilian executive holds court at a table with a male sycophant. A super grows tired of listening to her and decides to humiliate her for his own amusement. Ethan tries to leave when the encounter becomes an assault; his unavoidable passage beside their table unknowingly suppresses the super\u0027s powers and gives the woman an opportunity to escape.","IntendedChange":"Ethan\u0027s attempt to remove himself from a disturbing and dangerous situation unintentionally changes its outcome: the super loses his powers while Ethan is nearby, and the woman escapes. Ethan remains unaware that he caused the power loss.","PacingPosture":1,"ProhibitedPatterns":["Completing the decision to leave in Scene 1, or depicting Ethan\u0027s close pass, the super\u0027s power loss, or the woman\u0027s escape before Scene 3.","Ethan confronting the super or attempting to physically intervene.","Ethan recognizing his own role in suppressing the super\u0027s power.","Introducing Aurora or any other major character from later arcs.","Summarizing the incident from memory rather than depicting it in real-time."],"Scenes":[{"Sequence":1,"Purpose":"Establish Ethan sitting in the bar during an ordinary evening, observing the room and the social imbalance between supers and normal people. At another table, an abrasive, bitchy executive talks down to others while her male sycophant flatters her and agrees with her complaints. Establish their dynamic through behavior and conversation that Ethan can observe from his seat.","IntendedChange":"Ethan\u0027s position in the bar and the executive\u0027s table are established. The executive\u0027s domineering manner and her companion\u0027s ingratiating behavior are apparent. Ethan remains seated; the super has not yet acted against her, and Ethan has not decided to leave.","FocusCharacterIds":["ethan_vale","victim","male_sycophant"]},{"Sequence":2,"Purpose":"A super grows tired of listening to the executive and chooses to humiliate her publicly for fun. He targets her at the table she shares with her male sycophant, and the encounter becomes a sexual assault. Witnessing it makes Ethan uncomfortable enough to decide to try to leave, while the super\u0027s power makes intervention dangerous.","IntendedChange":"Ethan changes from sitting in the bar to deciding to leave. The assault is ongoing and the super remains powered. Ethan has not yet passed their table or exited the bar; the close pass and its consequences remain for Scene 3.","FocusCharacterIds":["ethan_vale","aggressive_super","victim","male_sycophant"]},{"Sequence":3,"Purpose":"To reach the exit, Ethan must walk past the executive\u0027s table, where the super is still assaulting her. As Ethan passes close by, his proximity automatically nullifies the super\u0027s powers, disrupting the assault and giving the woman time to leave.","IntendedChange":"The super loses his powers while Ethan is close to the table, and the woman uses that opening to escape. Ethan continues out of the bar without recognizing his role in the power loss. The suppression and escape occur during his passage, before his departure is complete; their later aftermath remains outside this chapter.","FocusCharacterIds":["ethan_vale","aggressive_super","victim","male_sycophant"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Establish Ethan sitting in the bar during an ordinary evening, observing the room and the social imbalance between supers and normal people. At another table, an abrasive, bitchy executive talks down to others while her male sycophant flatters her and agrees with her complaints. Establish their dynamic through behavior and conversation that Ethan can observe from his seat.","IntendedChange":"Ethan\u0027s position in the bar and the executive\u0027s table are established. The executive\u0027s domineering manner and her companion\u0027s ingratiating behavior are apparent. Ethan remains seated; the super has not yet acted against her, and Ethan has not decided to leave.","FocusCharacterIds":["ethan_vale","victim","male_sycophant"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"A super grows tired of listening to the executive and chooses to humiliate her publicly for fun. He targets her at the table she shares with her male sycophant, and the encounter becomes a sexual assault. Witnessing it makes Ethan uncomfortable enough to decide to try to leave, while the super\u0027s power makes intervention dangerous.","IntendedChange":"Ethan changes from sitting in the bar to deciding to leave. The assault is ongoing and the super remains powered. Ethan has not yet passed their table or exited the bar; the close pass and its consequences remain for Scene 3.","FocusCharacterIds":["ethan_vale","aggressive_super","victim","male_sycophant"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Ethan Vale nursed a half-empty glass of stout, watching the room with the detached curiosity of a man who had long since accepted that he was invisible. The bar, a cramped local establishment tucked away on a side street, was crowded with the usual mix of tired workers and bored students, all of whom seemed to treat the space as their own. But at the far end of the room, near the window, the social hierarchy of the city was on full display.
+
+A woman in a sharp, expensive suit sat at a high-top table, her posture rigid and commanding. Her companion, a man with a slicked-back haircut and a smile that didn’t reach his eyes, leaned in close, nodding emphatically as she spoke. Ethan couldn’t hear the words, but the body language was loud enough. She made a dismissive wave with one hand, and the man immediately adjusted his posture, straightening his tie and offering a deferential grin. She was a super, that much was obvious. The way the air seemed to bend around her, the subtle hum of energy that occasionally flickered at the tips of her fingers, and the way the other patrons gave the table a wide berth all pointed to it.
+
+Ethan took a sip of his beer, his mind drifting back to the news clips he’d watched that morning. A city council meeting had been disrupted by a strength-type super who had thrown a microphone across the room after being criticized for his voting record. The footage had gone viral, and the comments section was a mess of anger and fear. Most people were outraged, but Ethan felt a different kind of unease. He remembered the time he’d been mugged by two normal guys outside a convenience store. He’d been lucky; they’d wanted money, not a fight. But what if one of them had been a super? What if one of them had simply decided that Ethan was in the way?
+
+He looked back at the table. The man, the sycophant, was laughing at something the woman had said, though his laughter sounded forced, like a recording played at the wrong speed. The woman, meanwhile, was checking her phone, her thumb scrolling rapidly. She looked bored, or perhaps impatient. It was the look of someone who was used to getting exactly what she wanted, exactly when she wanted it. Ethan felt a pang of irritation, a low-grade annoyance that he couldn’t quite place. It wasn’t fear, exactly. It was the sensation of being a minor inconvenience in someone else’s grand plan.
+
+He finished his beer and set the glass down. The bartender, a lanky guy with a beard, wiped down the counter and nodded at him. Ethan didn’t ask for another drink. He just watched the man at the table lean in even closer, his face a mask of eager agreement. The woman rolled her eyes, a gesture of mild contempt, but she didn’t push him away. She seemed to enjoy the attention, the constant validation of her own importance.
+
+Ethan shifted in his seat, his leg bouncing slightly. He felt restless, a physical manifestation of the mental tension he’d been carrying all evening. He needed to get out of there, to clear his head. He stood up, buttoning his jacket, and glanced at the table one last time. The man was still talking, his hands moving in animated gestures. The woman was still on her phone. Nothing was happening. No one was in danger. It was just two people, one powerful and one compliant, existing in a bubble of their own making.
+
+Ethan turned and walked toward the exit, his footsteps echoing softly on the wooden floor. He pushed open the door and stepped out into the cool night air, the sounds of the bar fading behind him. He breathed in deeply, the crisp air filling his lungs, and for a moment, the tension in his shoulders eased. He was safe. He was ordinary. And he was free.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

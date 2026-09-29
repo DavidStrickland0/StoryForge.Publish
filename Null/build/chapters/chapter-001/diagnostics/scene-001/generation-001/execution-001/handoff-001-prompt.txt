@@ -1,0 +1,101 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Ethan observes a super assault a civilian executive in a bar, decides to leave rather than intervene, and unknowingly suppresses the super\u0027s powers while passing close to the table, allowing the executive to escape. Ethan exits the bar without recognizing his role in the power loss.","IntendedChange":"The executive escapes the super\u0027s assault due to the sudden loss of his powers, which is causally linked to Ethan\u0027s proximity during his exit. Ethan leaves the bar unaware that he caused the reversal, while the super remains powerless and the executive is free.","PacingPosture":3,"ProhibitedPatterns":["Ethan physically confronting, fighting, or physically stopping the super.","Ethan explicitly recognizing, suspecting, or understanding that his presence caused the super\u0027s power loss.","The executive or super identifying Ethan as the cause of the power loss.","Ethan remaining seated after deciding to leave.","The super retaining his powers while Ethan is within close proximity to the table.","Developing the immediate aftermath, reactions, or consequences of the escape beyond the moment of Ethan\u0027s departure.","Introducing Aurora or any other super who investigates the incident in this chapter."],"Scenes":[{"Sequence":1,"Purpose":"Establish the bar\u0027s social hierarchy and Ethan\u0027s caution by observing the executive\u0027s domineering behavior and her sycophant\u0027s flattery, while Ethan remains seated and assesses the danger of intervening.","IntendedChange":"Ethan is seated at his table, observing the executive and her companion from a distance, having decided that intervening would be dangerous but not yet having decided to leave.","FocusCharacterIds":["ethan_vale","victim","male_sycophant"]},{"Sequence":2,"Purpose":"Show the super\u0027s irritation with the executive leading to his decision to humiliate her, and Ethan\u0027s rational decision to leave rather than intervene, while the super remains powered and Ethan has not yet passed the table.","IntendedChange":"The super has begun his assault on the executive, and Ethan has decided to leave but is still seated, having not yet moved to the exit.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Depict Ethan\u0027s passage close to the table causing the super\u0027s powers to fail, allowing the executive to escape, and Ethan exiting the bar without recognizing his role in the power loss.","IntendedChange":"Ethan is outside the bar, the executive has escaped the super, and the super is powerless, with Ethan unaware that his proximity caused the suppression.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Establish the bar\u0027s social hierarchy and Ethan\u0027s caution by observing the executive\u0027s domineering behavior and her sycophant\u0027s flattery, while Ethan remains seated and assesses the danger of intervening.","IntendedChange":"Ethan is seated at his table, observing the executive and her companion from a distance, having decided that intervening would be dangerous but not yet having decided to leave.","FocusCharacterIds":["ethan_vale","victim","male_sycophant"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Show the super\u0027s irritation with the executive leading to his decision to humiliate her, and Ethan\u0027s rational decision to leave rather than intervene, while the super remains powered and Ethan has not yet passed the table.","IntendedChange":"The super has begun his assault on the executive, and Ethan has decided to leave but is still seated, having not yet moved to the exit.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The neon sign for *The Gilded Cage* buzzed with a low, irritating hum that seemed to vibrate in Ethan’s molars. He sat in the booth farthest from the main floor, his back against the vinyl, nursing a beer that had gone warm twenty minutes ago. He wasn’t drinking; he was observing. It was a habit born of necessity, or at least of the particular brand of caution that came with living in a city where the strongest people in the room were not the ones who wrote the laws.
+
+Across the bar, near the private dining section, a woman commanded a table as if she owned the building, the staff, and the air molecules trapped between the chairs. She was large, in the way of powerful executives who had been told their opinions were worth more than their bodies, and she wore a suit that cost more than Ethan’s monthly rent. Her voice carried easily over the ambient noise of the bar, a sharp, clipped cadence that left no room for disagreement.
+
+“…and I don’t care if the board says otherwise,” she said, gesturing with a glass of red wine that didn’t spill a drop. Her companion, a man with a smile that looked like it had been purchased and fitted to his face, nodded rapidly. “The merger holds. You know that, David. You know that because I made you know it.”
+
+David, the sycophant, leaned forward, his eyes bright with the specific adoration of a man who had built his career on being the echo chamber of someone more important. “Of course, Elena. Your vision is… it’s the only one that matters. I just thought the legal team might have concerns, but that’s why you’re here. To handle the concerns.”
+
+Elena smirked, a thin, predatory expression that suggested she found his existence both useful and mildly amusing. “The legal team can handle the paperwork. I handle the reality. There’s a difference, David. A significant one. You should try to understand it before the next quarterly review.”
+
+Ethan took a slow sip of his beer, his gaze dropping to the ice cubes swirling in his glass. He knew this dynamic. It was the social hierarchy of the city, distilled into two people at a table. Elena was the apex predator of the corporate world, a civilian who used money and influence as her weapons. David was the prey who had mistaken his servitude for safety. But they were both civilians. They were both bound by the same fragile, paper-thin laws that kept the rest of the population in check.
+
+Or so they believed.
+
+Ethan’s eyes drifted past them, toward the entrance where a figure stood with the casual, arrogant posture of someone who knew that no law applied to them. He was tall, broad-shouldered, and dressed in a suit that fit his muscular frame with a tension that suggested the fabric was holding on by a thread. He wasn’t drinking. He wasn’t talking. He was just standing there, watching Elena with a stillness that felt heavy, like the air before a storm.
+
+Ethan felt a cold prickle of unease crawl up his neck. He had seen that look before, in the news clips, in the documentaries about the “heroes” who protected the city. It was the look of a man who could crush a car door with one hand and felt no moral obligation to ask permission first. The super was a celebrity, a strategic asset, a god in a tailored jacket. And he was looking at Elena with the bored irritation of a cat watching a mouse that had made a noise.
+
+Ethan set his beer down. His hand was steady, but his heart was beating a little faster than it should have. He told himself it was just the beer. He told himself it was just the atmosphere. But every instinct he had, every rational calculation he had made in his quiet, ordinary life, screamed at him to stay in his booth and keep his head down.
+
+He couldn’t intervene. He was just a guy. He had no powers, no connections, no leverage. If he walked over there, if he tried to stand up for Elena, he would be a civilian confronting a super. The odds were not just against him; they were nonexistent. The super would break him, and no one would stop him. The police would be too slow, the lawyers too late. That was the reality of the city. The strong did what they wanted, and the rest of them tried to survive.
+
+Elena was still talking, her voice rising in pitch, her words becoming a blur of corporate jargon and threats. David was still nodding, his smile widening as he absorbed her every syllable. And the super was still standing there, his eyes fixed on Elena’s face, the corner of his mouth twitching in a way that promised trouble.
+
+Ethan looked at the exit. It was behind him, past the bar, past the dance floor, and past the table where the super stood. To leave, he would have to walk right through the zone of danger. To stay, he would have to watch what happened next.
+
+He took another sip of his beer, the taste metallic and stale. He waited.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

@@ -1,0 +1,47 @@
+The neon sign for *The Rusty Anchor* buzzed with a low, persistent hum that seemed to vibrate in Ethan’s teeth. He stepped inside, shaking the last of the October chill from his jacket, and was immediately hit by the thick, humid scent of stale beer, citrus cleaner, and warm body heat. The bar was packed. It was Friday night, and the crowd was a dense tapestry of denim, leather, and the occasional flash of spandex or iridescent skin that marked a super.
+
+Ethan kept his head down, navigating the narrow aisle between the booths. He had a specific reason for being here, or rather, a very specific reason for *not* being the center of attention. He was twenty-six, a junior data analyst for a mid-tier logistics firm, and his life was a series of carefully managed, unremarkable routines. Pay rent. Eat lunch. Work. Go to the bar on Fridays to watch the world happen without participating in it. It was a strategy that had kept him safe, unharmed, and largely invisible for the last four years.
+
+He found a spot at the far end of the bar, near the corner where the lighting was dimmest and the noise was a constant, muffled roar. He ordered a bourbon, neat, and slid onto the stool. The wood was worn smooth by decades of elbows, a comforting texture against his palms.
+
+From this vantage point, Ethan had a good view of the room. He watched a woman with skin like hammered copper laugh as her boyfriend, a man whose arms were thick with visible muscle fibers that shifted like living rope, lifted a table to set down a tray of drinks. The super’s strength was casual, effortless. He didn’t even look at the table as he lifted it; it was just another object in his environment, one that responded to his will. The woman’s laugh was bright, genuine, and she leaned into his side with a familiarity that spoke of years of shared gravity.
+
+Ethan took a sip of his bourbon. The burn in his throat was a grounding reality. He felt a familiar, low-level resentment, the kind that had settled into his bones over the last few years. It wasn’t hatred, exactly. It was more like the quiet fury of watching someone play a video game with a cheat code enabled. The world had rules, laws, social contracts. Supers operated in a different layer of reality, one where those rules were suggestions. He saw it often: a super breaking a table, and the bartender just sweeping up the shards without a second glance, or a flight of stairs being bypassed by someone who could simply float to the top floor. The hierarchy was invisible until you were on the wrong side of it, and then it was a wall of glass you couldn’t see but couldn’t pass through.
+
+A younger man, clearly a regular, was trying to get the copper-skinned woman’s attention. He was loud, slapping the table, using the kind of aggressive charm that usually worked in a place like this. The super-boyfriend turned his head, his eyes narrowing. He didn’t raise his voice. He just looked at the young man, and the young man stopped talking, his hand hovering over the table, his face draining of color. He backed off, muttering an apology, and the tension dissipated as quickly as it had formed.
+
+Ethan watched the exchange with a detached clarity. He knew, with a certainty that didn’t need justification, that if he had tried to intervene, the outcome would have been different. He was a man who weighed options, who calculated risk, and who knew his own physical limitations. The super was a mountain; Ethan was a pebble. The pebble could roll out of the way, but it could not stop the mountain from shifting.
+
+He finished his drink and signaled for another. The bartender, a heavyset man with a mustache that looked like it had been sculpted from wood shavings, poured without a word. He had seen too many bars to care about the small dramas that played out over the counter. He was part of the ecosystem, a piece of furniture that the supers interacted with but didn’t have to acknowledge.
+
+Ethan’s mind drifted to his work. He was currently helping to optimize a supply chain for a client that manufactured medical equipment. It was tedious, frustrating work, full of spreadsheets and emails that never seemed to end. But it was work that made sense. It was work where if he made a mistake, the consequence was a delayed shipment, a lost bonus, a headache. It was a world where cause and effect were linear, where his actions had a direct and measurable impact.
+
+Here, in the bar, cause and effect were fluid. A super could destroy a building and face a fine. A normal person could destroy a building and face a prison sentence. The difference wasn’t in the action; it was in the person. And that, Ethan thought, sipping his second bourbon, was the fundamental unfairness of it all. He wasn’t angry at the supers. He was angry at the system that allowed them to exist in this unregulated, unchecked way. He was angry at the laws that were written by people who were afraid of the very people they were trying to regulate.
+
+He looked at the crowd again. A group of college students were playing a drinking game, their laughter echoing off the walls. A couple was arguing in the corner, their voices low but sharp. A super with the ability to manipulate light was sitting at the bar, his body flickering in and out of existence, a party trick he was using to impress a group of friends. The friends were laughing, clapping, genuinely impressed.
+
+Ethan felt a pang of envy, a sharp, sudden ache in his chest. He wanted to feel that kind of freedom, that kind of power. He wanted to be able to walk through a wall, to fly over the traffic, to be untouchable. He wanted to be someone who didn’t have to calculate the risk of every interaction, who didn’t have to worry about being crushed by the weight of the world.
+
+But he knew, deep down, that he would never be that person. He was Ethan Vale. He was ordinary. And in a world of supers, being ordinary meant being prey.
+
+He stood up, sliding off the stool. He had a specific exit route in mind. The front door was crowded, the exit through the kitchen was blocked by a line of servers, but there was a side door near the restrooms that led to the alleyway. It was a narrow, poorly lit path, but it was quiet, and it led directly to the parking lot.
+
+He moved through the crowd, his body low, his gaze fixed on the door. He passed a table where a group of women were laughing, their voices high and melodic. He passed a man who was sleeping at the bar, his head resting on his arms, a super who had probably drunk too much and passed out, his power dormant.
+
+Ethan reached the side door. He pushed it open, the cool night air hitting his face, a welcome relief from the stifling heat of the bar. He stepped into the alley, the sound of the music fading behind him. He turned and locked the door, a small, meaningless gesture, but one that gave him a sense of control.
+
+He walked to the parking lot, his footsteps echoing on the wet pavement. The city was alive around him, the lights of the skyscrapers blinking in the distance, the hum of traffic a constant background noise. He felt small, insignificant, a speck of dust in a vast, indifferent universe.
+
+But he was alive. And he was safe.
+
+For now, that was enough.
+
+He got into his car, a modest sedan that was just reliable enough to get him where he needed to go. He started the engine, the vibration of the engine a familiar comfort. He put the car in drive and pulled out of the lot, merging into the flow of traffic.
+
+As he drove, he watched the other cars, the other people. They were all just trying to get home, just trying to survive the night. They were all just like him, ordinary, vulnerable, and afraid.
+
+And maybe, just maybe, that was the point. Maybe the point wasn’t to be a super. Maybe the point was to be human. To feel the fear, the hope, the love, and the loss. To be part of the world, not above it.
+
+Ethan smiled, a small, private smile, as he merged onto the highway. The road stretched out before him, a long, dark line in the night. He had a long way to go, but he was ready.
+
+He was Ethan Vale. And he was going home.

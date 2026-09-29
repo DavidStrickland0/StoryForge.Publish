@@ -1,0 +1,111 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Establish Ethan\u0027s ordinary life and his cautious, observational attitude toward the superhuman class, culminating in his decision to avoid a dangerous confrontation at a bar.","IntendedChange":"Ethan moves from a passive observer of the superhuman world to an active participant in a specific, high-stakes social conflict, making a consequential choice to prioritize his own safety over intervention.","PacingPosture":1,"ProhibitedPatterns":["Using mundane sensory details (e.g., cold door handles) as illogical plot points or existential realizations.","Ethan making decisions based on irrational hesitation or forced literary devices rather than rational self-preservation.","Resolving the super\u0027s power loss or the victim\u0027s escape in this chapter.","Introducing Aurora or any other major character.","Ethan confronting the super or intervening physically."],"Scenes":[{"Sequence":1,"Purpose":"Establish Ethan\u0027s ordinary routine and his specific, cautious strategy for navigating public spaces in a world where supers hold disproportionate social and physical power.","IntendedChange":"Ethan enters a crowded bar, having already assessed the exit routes and the location of the super, demonstrating his habit of prioritizing safety over social engagement.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"Present the specific incident of a super harassing a normal woman, highlighting the bystanders\u0027 fear and the legal/social powerlessness of normal people to intervene.","IntendedChange":"Ethan witnesses the super\u0027s casual cruelty and the victim\u0027s distress, reinforcing his belief that normal people are at the mercy of the powerful and that intervention is suicidal for him.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Depict Ethan\u0027s internal conflict and the physical sensation of his decision to leave, prioritizing his own safety over the victim\u0027s immediate distress.","IntendedChange":"Ethan chooses to disengage and retreat, establishing his boundary of not engaging with supers in hostile contexts and leaving the bar with a mix of guilt and relief.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Establish Ethan\u0027s ordinary routine and his specific, cautious strategy for navigating public spaces in a world where supers hold disproportionate social and physical power.","IntendedChange":"Ethan enters a crowded bar, having already assessed the exit routes and the location of the super, demonstrating his habit of prioritizing safety over social engagement.","FocusCharacterIds":["ethan_vale"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Present the specific incident of a super harassing a normal woman, highlighting the bystanders\u0027 fear and the legal/social powerlessness of normal people to intervene.","IntendedChange":"Ethan witnesses the super\u0027s casual cruelty and the victim\u0027s distress, reinforcing his belief that normal people are at the mercy of the powerful and that intervention is suicidal for him.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The first thing Ethan noted was the exit.
+
+It wasn’t a dramatic realization or a sudden spike of adrenaline. It was simply the first data point in the checklist he ran through whenever he entered a space crowded with strangers. The door was glass, heavy and thick, leading out to the sidewalk where the rain still slicked the pavement. It wasn’t locked. The handle was brass, smooth and unobtrusive. From his current position near the back booth, the path to that door was clear, unobstructed by tables, servers, or the low-hanging neon sign buzzing above the bar.
+
+He took a sip of his beer. It was warm, flat, and tasted faintly of the aluminum can it had been poured from, but he drank it anyway. The main reason he was in The Rusty Anchor, a dive bar that smelled of stale hops and industrial cleaner, was because it was the only establishment in the district that didn’t advertise its security measures with the gleaming, predatory confidence of a chrome-plated weapon. Most bars in the city had supers on staff—people who could bench-press a sedan or see through walls. Those places felt like walking into a lion’s den wearing a vest of zebra print. Here, the bouncer was a tired man in his fifties with a bad knee and a clipboard. The patrons were mostly locals, people who kept their heads down and their voices low.
+
+Ethan checked his phone. 7:14 PM. He had planned to be home by eight. His apartment was quiet, the walls thin enough that he could hear the muffled thump of bass from the neighbors’ speakers, but it was his. In his apartment, he didn’t have to calculate the trajectory of a fist or the likelihood of a ceiling panel being punched through by a drunk super who thought the furniture was an insult to his intelligence.
+
+He put the phone away and watched the room.
+
+It was a Tuesday, so the crowd was sparse. There were maybe twenty people in the place. A few couples huddled together over cheap plates of nachos. A group of students laughing loudly at something on a screen. A solitary man in the corner nursing a whiskey that had probably gone flat an hour ago. None of them were supers. Ethan had learned to spot them, or rather, to spot the *lack* of them. Supers moved with a certain weight, a subtle assertion of space that ordinary people didn’t have. They didn’t duck when someone walked past them. They didn’t flinch when a glass clinked too loudly. They occupied the room as if they owned it, because in many ways, they did.
+
+The man in the booth across from Ethan was the only exception.
+
+He was large. That was the first thing. Not just tall, but broad in a way that seemed to defy the limits of the booth’s cushioning. He was wearing a suit that cost more than Ethan’s car, the fabric cutting diagonally across his chest to show off the muscle beneath. His hair was slicked back, perfect, as if he had just stepped out of a wind tunnel. He was talking to a woman who sat on the other side of the table, her hands wrapped around a glass of water, her shoulders hunched forward.
+
+Ethan didn’t know them. He didn’t know their names, their stories, or their reasons for being there. He knew, however, that the woman’s body language was screaming. Her gaze was fixed on the table, but her eyes were darting, calculating. Her hands were trembling, the glass rattling slightly against the coaster. The man, on the other hand, was relaxed. He was leaning back, one arm draped over the back of his chair, his elbow resting on the headrest of the seat behind him. He was smiling. It was a polite, practiced smile, the kind used by politicians and salesmen, but it didn’t reach his eyes.
+
+Ethan watched the man’s hand rest on the table. He didn’t touch the woman. He didn’t need to. His presence was enough. The air around them seemed to thicken, the ambient noise of the bar fading into a dull hum. Ethan could see the tension in the woman’s jaw, the way she held her breath. It was a familiar dynamic. He had seen it in the news, on the street, in the quiet desperation of people trying to navigate a world where strength was the ultimate currency.
+
+He turned his chair back toward the wall. He finished the rest of his beer, the taste of the metal now sharp on his tongue. He left a five-dollar bill on the table, enough for the beer and a tip that would make the server smile for a few minutes. He didn’t look back at the couple in the booth. He didn’t need to. He had already assessed the situation, and the conclusion was clear: this was not his fight. He was not a hero. He was not a sidekick. He was a twenty-four-year-old graphic designer who liked his coffee black and his weekends quiet.
+
+He stood up, smoothed the front of his jeans, and walked toward the exit.
+
+The path was clear. He moved quickly, but without urgency. He didn’t want to draw attention. He kept his head down, his hands in his pockets, his steps steady. As he passed the bar, he caught the eye of the bartender, a woman with a tattoo of a snake wrapped around her neck. She nodded at him, a brief acknowledgment of the unspoken rule: *don’t cause trouble, don’t get involved, don’t be a problem.*
+
+He nodded back.
+
+The door was heavy when he pushed it open. The cool air of the night hit his face, carrying the scent of wet asphalt and distant exhaust. He stepped out onto the sidewalk, the rain beginning to fall in earnest, a fine mist that soaked into his jacket. He pulled his hood up, the fabric darkening instantly under the downpour.
+
+He walked.
+
+He didn’t know where he was going, exactly. He just kept moving, away from the bar, away from the man in the booth, away from the woman who was still sitting there, probably still waiting for the rain to stop, or for the man to leave, or for someone to help. Ethan didn’t look back. He couldn’t afford to. If he looked back, he might see something that would make him feel guilty, and guilt was a luxury he couldn’t afford.
+
+He turned the corner, the sound of the rain growing louder, the city noise fading into a dull roar. He checked his phone again. 7:22 PM. He was still on schedule. He was safe. He was ordinary.
+
+And for now, that was enough.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

@@ -1,0 +1,87 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Establish Ethan\u0027s ordinary life and his cautious, observational attitude toward the superhuman class, culminating in his decision to avoid a dangerous confrontation at a bar.","IntendedChange":"Ethan moves from a passive observer of the superhuman world to an active participant in a specific, high-stakes social conflict, making a consequential choice to prioritize his own safety over intervention.","PacingPosture":0,"ProhibitedPatterns":["Repeating the action \u0027Ethan adjusted his jacket collar\u0027 from Scene 1 of previous attempts.","Forcing a confrontation or resolution that does not exist in the arc objective.","Introducing Aurora or the victim before the bar incident is established."],"Scenes":[{"Sequence":1,"Purpose":"Ethan navigates a crowded bar, observing the social hierarchy where superhuman celebrities command deference while normal people remain invisible and vulnerable.","IntendedChange":"The reader understands the setting\u0027s power dynamics and Ethan\u0027s internal discomfort at being a powerless bystander in a space dominated by those who can ignore laws.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"A physically imposing super harasses a normal woman near the bar\u0027s exit, after the super publically exposes her and is obviously intending to publically rape her Ethan is to uncomfortable and decides to leave.","IntendedChange":"Ethan recognizes the lethal power imbalance and decides that his only viable option is to retreat rather than risk physical harm or legal consequences.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Ethan goes to leave the bar passing uncomfortably close to the Super and the rape he is attemptingRr hoping he\u0027s distracted enough not to notice.","IntendedChange":"The chapter concludes with Ethan outside the establishment, having halped beat the crap out of the super that suddenly un explainably lost his powers leaving the victim\u0027s safe but unknown to him.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"A physically imposing super harasses a normal woman near the bar\u0027s exit, after the super publically exposes her and is obviously intending to publically rape her Ethan is to uncomfortable and decides to leave.","IntendedChange":"Ethan recognizes the lethal power imbalance and decides that his only viable option is to retreat rather than risk physical harm or legal consequences.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Ethan goes to leave the bar passing uncomfortably close to the Super and the rape he is attemptingRr hoping he\u0027s distracted enough not to notice.","IntendedChange":"The chapter concludes with Ethan outside the establishment, having halped beat the crap out of the super that suddenly un explainably lost his powers leaving the victim\u0027s safe but unknown to him.","FocusCharacterIds":["ethan_vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Neon \u0026 Nitro bar","TimeContext":"Night, waiting for the midnight bus","PresentCharacterIds":["ethan_vale"],"PhysicalConditions":["Crowded interior with loud music and bass vibrations","Ethan standing near the kitchen entrance/exit area","Woman sitting at a small table near the corner","Aggressive super standing beside the woman"],"KnowledgeEstablished":["The bar is dominated by wealthy superhuman celebrities who command deference","Normal people are invisible and vulnerable in this environment","A specific woman is present, appearing young, ordinary, and fearful","An aggressive super with shimmering skin and an expensive suit is present","The super has publicly exposed the woman and is intending to harass her","The woman is unable or unwilling to resist the super\u0027s advances","Ethan recognizes the lethal power imbalance between normal people and supers"],"DecisionsMade":["Ethan decides not to intervene in the harassment","Ethan chooses self-preservation over heroism or moral obligation","Ethan resolves to leave the bar immediately"],"PossessionChanges":[],"RelationshipChanges":["Ethan feels a sense of shame and discomfort regarding his inability to help the woman","The super asserts dominance over the woman, creating a hostile dynamic"],"CompletedActions":["Ethan scanned the bar perimeter for threats","Ethan observed Vortex performing on stage","Ethan identified the vulnerable woman and the aggressive super near the exit","The super touched the woman\u0027s arm and spoke to her possessively","Ethan turned away from the scene to avoid being complicit by watching","Ethan began moving toward the exit"],"UnresolvedImmediateAction":"Ethan is walking toward the bar\u0027s exit, attempting to leave while keeping his head down and avoiding notice.","ContinuationPosition":"Ethan is stepping out of the main bar area into the dim light near the door, moving away from the woman and the super who are still at a table near the corner.","ProhibitedRepetition":["The action \u0027Ethan adjusted his jacket collar\u0027","Describing the bar\u0027s atmosphere as merely loud without specific sensory details like bass vibrations","Introducing Aurora or the victim before the bar incident is established"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Ethan stepped out of the main bar area into the dim light near the door, moving away from the woman and the super who were still at a table near the corner. The bass from the stage vibrated through the floorboards, rattling in his chest, but he kept his gaze fixed on the pavement outside where he could see the rain beginning to fall. He didn't look back to check if the man had followed him or to see how the woman was reacting to the situation. Self-preservation meant knowing when to walk away from things that weren't yours to fix.
+
+He started moving again, heading for the exit on the opposite side of the establishment, his steps quiet and careful against the slick concrete. The music seemed louder now, drowning out everything else except the sound of his own breathing. He could feel the weight of the woman's fear pressing against him like a physical thing, as if the universe itself was trying to tell him something he wasn't ready to hear yet. But there was nothing more he could do but keep walking.
+
+The bar felt too small for the violence that had just happened inside it, yet every corner seemed to hold another potential threat. Ethan kept his head down, scanning the perimeter for anyone who might follow him outside. He knew better than to make eye contact with people like that. Supers were celebrities in this city; they owned the streets and the laws that protected them. Normal people were invisible and vulnerable, existing only to serve as background noise or disposable collateral if things went wrong.
+
+He reached the door and pushed it open, stepping into the cool night air. The rain felt refreshing against his skin, washing away some of the sweat from his earlier anxiety. He didn't stop to look back at the bar one more time. There was no point in checking on the woman or finding out what had happened inside. His only priority was getting home before anyone else decided to follow him.
+
+As he walked down the street, he tried to convince himself that he hadn't just witnessed something terrible and done nothing about it. He told himself it wasn't his place to interfere with situations involving supers. He reminded himself that normal people didn't have any power in a world like this. But even as he repeated these rationalizations to himself, he felt the cold water of doubt seeping into his thoughts.
+
+The street was mostly empty except for a few other pedestrians hurrying under their umbrellas or into nearby storefronts. He kept his pace steady, avoiding eye contact with anyone who might be watching him too closely. The rain continued to fall steadily now, mixing with the neon reflections on the pavement. He wondered how long it would take before someone noticed that he was missing from the bar, and then what would happen when they realized where he had been.
+
+He didn't want to think about those questions yet. He just wanted to get home and pretend that nothing had happened at all.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

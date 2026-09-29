@@ -1,0 +1,107 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"ethan_vale","Objective":"Establish Ethan\u0027s ordinary life and cautious attitude toward the superhuman class, culminating in his decision to avoid a dangerous confrontation at a bar.","IntendedChange":"Ethan moves from a passive observer of the superhuman world to an active participant in a specific, high-stakes social conflict, making a consequential choice to prioritize his own safety over intervention.","PacingPosture":1,"ProhibitedPatterns":["Depicting the super\u0027s power loss or the victim\u0027s escape, as these are reserved for Chapter 2.","Ethan confronting the super or attempting to physically intervene.","Ethan recognizing his own role in suppressing the super\u0027s power.","Introducing Aurora or any other major character from later arcs.","Summarizing the incident from memory rather than depicting it in real-time."],"Scenes":[{"Sequence":1,"Purpose":"Establish Ethan\u0027s ordinary life and his cautious, observational attitude toward the superhuman class by showing his routine and his awareness of the power imbalance that makes normal people vulnerable.","IntendedChange":"Ethan is established as a normal person in a world where supers are celebrities and strategic assets, often escaping consequences that bind normal people, and he is positioned in a bar setting where he is a passive observer of the superhuman world.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"Depict the specific incident of harassment, highlighting the victim\u0027s distress and the bystanders\u0027 fearful inaction, with Ethan witnessing this to solidify his threat assessment.","IntendedChange":"Ethan observes the super\u0027s casual cruelty and the bystanders\u0027 fear, reinforcing his belief that normal people are at the mercy of the powerful, and he is positioned in the bar relative to the super and the victim, with the specific moment of his decision to leave established.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Execute Ethan\u0027s choice to leave the bar and navigate to safety, showing his internal justification for leaving and the physical sensation of his heart rate dropping as he moves away from the threat.","IntendedChange":"Ethan leaves the bar, feeling a mix of guilt and relief, unaware that his presence has just altered the outcome of the confrontation, and he is outside the bar, having made a consequential choice to prioritize his own safety over intervention.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the specific incident of harassment, highlighting the victim\u0027s distress and the bystanders\u0027 fearful inaction, with Ethan witnessing this to solidify his threat assessment.","IntendedChange":"Ethan observes the super\u0027s casual cruelty and the bystanders\u0027 fear, reinforcing his belief that normal people are at the mercy of the powerful, and he is positioned in the bar relative to the super and the victim, with the specific moment of his decision to leave established.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Execute Ethan\u0027s choice to leave the bar and navigate to safety, showing his internal justification for leaving and the physical sensation of his heart rate dropping as he moves away from the threat.","IntendedChange":"Ethan leaves the bar, feeling a mix of guilt and relief, unaware that his presence has just altered the outcome of the confrontation, and he is outside the bar, having made a consequential choice to prioritize his own safety over intervention.","FocusCharacterIds":["ethan_vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Outside The Rusty Anchor, on the street","TimeContext":"Thursday night","PresentCharacterIds":["ethan_vale"],"PhysicalConditions":["Ethan is sober and physically unharmed","Ethan has finished his drink and paid the tab"],"KnowledgeEstablished":["Supers are treated as celebrities and strategic assets who often escape significant legal consequences for collateral damage","The social contract is weaker for supers due to their physical power differential","Ethan perceives himself as vulnerable and \u0027broke\u0027 in a society where strength is the primary currency"],"DecisionsMade":["Ethan decided to leave the bar early to avoid proximity to the supers present"],"PossessionChanges":["Ethan paid for his beer and tab"],"RelationshipChanges":[],"CompletedActions":["Ethan observed the three supers in the bar (obsidian-skinned woman, gravity-defying hair man, heat-shimmering man)","Ethan finished his beer and paid the bartender (Gary)","Ethan exited The Rusty Anchor and began walking toward the street"],"UnresolvedImmediateAction":"Ethan is walking briskly away from the bar toward the street, heading toward his apartment.","ContinuationPosition":"Ethan is on the street outside The Rusty Anchor, walking away from the entrance, with the bar door closed behind him.","ProhibitedRepetition":["Re-describing the initial entry into the bar or the first observation of the supers","Repeating the conversation with Gary about the tab","Re-describing the act of pushing the door open and stepping outside"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The heavy wood of the door swung shut behind him with a solid, reassuring thud, cutting off the low hum of conversation and the clink of glass. Ethan didn’t look back. He didn’t need to. He knew exactly where he was, who he was, and precisely how much of a target he represented in a city where strength was the primary currency.
+
+He walked briskly toward the street, his mind already turning to the warm, safe chaos of his own apartment. He left the world of the powerful to its own heavy, glittering gravity, closing the distance between himself and the bar’s entrance with every step. The air outside was cooler, thinner, and carried the faint scent of rain on pavement. It was a relief, a tangible boundary that marked the end of the immediate danger zone.
+
+As he reached the corner, his foot caught on a slight rise in the sidewalk, and he stumbled, his shoulder hitting the brick wall of the adjacent building. The pain was sharp and immediate, a grounding reminder of his own fragility. He froze, his heart hammering against his ribs, not from fear of the super, but from the sudden, visceral realization of how easily he could be broken.
+
+He turned his head slowly, glancing back toward the bar. Through the foggy glass, he could see the silhouettes of the patrons. One figure stood out, a massive shape looming over a smaller one near the bar. The super was leaning in, his voice low, his body language a wall of unyielding force. The victim was barely visible, a shadow swallowed by the super’s dominance.
+
+Ethan watched, his breath shallow. He could see the super’s hand resting on the back of a stool, the wood creaking under the pressure. He could see the way the victim’s shoulders hunched, her head bowed, her entire posture a surrender to the sheer physical disparity between them. The bystanders around them were still, frozen in a collective paralysis, their eyes fixed on the floor, their phones in their hands, recording nothing.
+
+Ethan felt a cold knot tighten in his stomach. He knew what it felt like to be that small, that vulnerable, in the face of such power. He knew that no amount of moral outrage or social expectation would change the fact that he was just a man in a world of gods. He had a job to get to, a life to live, and a body that could be crushed without a second thought.
+
+He turned away from the window, his back to the bar, and continued walking. The streetlights flickered overhead, casting long, distorted shadows on the wet pavement. He kept his head down, his hands in his pockets, his eyes fixed on the ground. He was not a hero. He was not a symbol. He was just Ethan, and he was going home.
+
+The super’s voice was muffled by the glass, but Ethan could feel the weight of it, the sheer force of his presence. He could feel the victim’s distress, the way it radiated outward, invisible but undeniable. He could feel the fear of the bystanders, the way it permeated the air, thick and suffocating.
+
+He kept walking. He did not look back. He did not stop. He did not save anyone. He simply walked, his steps steady, his breath slow, his mind already turning to the safety of his own home. The world of the powerful was not his world. It was a place of glittering gravity, of heavy, unyielding force, and he was not strong enough to stand in it.
+
+He reached the street corner, turned, and disappeared into the night, leaving the bar, the super, and the victim behind. He left them to their own heavy, glittering gravity, and he left himself to the quiet, safe chaos of his own life.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate completed action 'Ethan observed the three supers in the bar (obsidian-skinned woman, gravity-defying hair man, heat-shimmering man)' repeats completed action from Chapter 1, Scene 1: 'Ethan observed the three supers in the bar (obsidian-skinned woman, gravity-defying hair man, heat-shimmering man)'; candidate completed action 'Ethan finished his beer and paid the bartender (Gary)' repeats completed action from Chapter 1, Scene 1: 'Ethan finished his beer and paid the bartender (Gary)'; candidate completed action 'Ethan exited The Rusty Anchor and began walking toward the street' repeats completed action from Chapter 1, Scene 1: 'Ethan exited The Rusty Anchor and began walking toward the street'; candidate decision 'Ethan decided to leave the bar early to avoid proximity to the supers present' repeats decision from Chapter 1, Scene 1: 'Ethan decided to leave the bar early to avoid proximity to the supers present'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.
