@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "runId": "20260928-215529-031-incremental-chapter-001-dda719c4",
+  "bookPath": "/books",
+  "voiceLibraryPath": "/voices",
+  "chapterId": "chapter-001",
+  "startedUtc": "2026-09-28T22:15:55.730231+00:00",
+  "completedUtc": "2026-09-28T22:18:28.484926+00:00",
+  "status": "failed",
+  "failedStage": "synthesis",
+  "settings": {
+    "whisperModel": "small.en",
+    "pauseSeconds": 0.18,
+    "maxSegmentAttempts": 3
+  },
+  "segmentVerificationAttempts": [],
+  "stageCheckpoints": {},
+  "resumeCount": 3,
+  "resumeHistory": [
+    {
+      "resumedUtc": "2026-09-28T22:17:29.079571+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "synthesis",
+      "previousVerificationAttempts": []
+    },
+    {
+      "resumedUtc": "2026-09-28T22:17:54.356393+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "synthesis",
+      "previousVerificationAttempts": []
+    },
+    {
+      "resumedUtc": "2026-09-28T22:18:18.997691+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "synthesis",
+      "previousVerificationAttempts": []
+    }
+  ],
+  "lastResumedUtc": "2026-09-28T22:18:18.997691+00:00",
+  "chapterDirectory": "/books/output/20260928-215529-031-incremental-chapter-001-dda719c4/chapter-001",
+  "masteredAudioPath": null
+}

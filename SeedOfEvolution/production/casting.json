@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "bookId": "storyforge-seedofevolution",
+  "assignments": [
+    {
+      "characterId": "narrator",
+      "voiceId": "voice-3889362671fcb2f7",
+      "confidence": 0.95,
+      "rationale": "The voice is explicitly marked as NarratorSuitable, which is the primary requirement for the narrator role. It is a male voice, suitable for general narration.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.4,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "adrian",
+      "voiceId": "voice-0439e4bc5b2c7934",
+      "confidence": 0.6,
+      "rationale": "Adrian is a young male. The voice is a male presentation. Since no specific age or quality metadata is provided for the voices, any distinct male voice is eligible. This voice is selected as a distinct male option for a major male character.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "david",
+      "voiceId": "voice-05bfeebc7a75d6c3",
+      "confidence": 0.6,
+      "rationale": "David is a young male. The voice is a male presentation. It is distinct from the voice assigned to Adrian, ensuring unique voice assignment for major characters.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "chapter-001-store-clerk",
+      "voiceId": "voice-0f891912f8fa78f2",
+      "confidence": 0.5,
+      "rationale": "The Store Clerk is a middle-aged male. The voice is a male presentation. It is distinct from other assigned male voices.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "marcus",
+      "voiceId": "voice-12aed946f8e7cd9d",
+      "confidence": 0.5,
+      "rationale": "Marcus is a male. The voice is a male presentation. It is distinct from other assigned male voices.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "ms-gable",
+      "voiceId": "voice-070b12697a45f754",
+      "confidence": 0.6,
+      "rationale": "Ms. Gable is a female. The voice is a female presentation. It is distinct from other assigned female voices.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "sarah",
+      "voiceId": "voice-07bcd4b3227d6b12",
+      "confidence": 0.6,
+      "rationale": "Sarah is a female. The voice is a female presentation. It is distinct from other assigned female voices.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    }
+  ]
+}

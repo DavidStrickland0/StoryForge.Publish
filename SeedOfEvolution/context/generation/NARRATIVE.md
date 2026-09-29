@@ -1,4 +1,4 @@
-# Narrative
+﻿# Narrative
 
 ## Story Premise
 
@@ -103,5 +103,17 @@ Adrian will not be able to keep the technology entirely private. But sharing it 
 ## Current Narrative State
 
 The story has not begun.
+
+
+- The story has begun with Adrian Vale facing a financial crisis and seeking income.
+
+
+- Adrian Vale has been introduced to the Experimental Medicine Program at Apex Research Institute.
+
+
+- Adrian Vale is considering enrolling in the male-fertility trial to secure funding.
 
 ## Unresolved Information
+
+
+- Whether Adrian Vale will formally enroll in the male-fertility trial.
