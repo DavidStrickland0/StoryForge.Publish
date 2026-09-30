@@ -116,6 +116,15 @@
 
 - Aldric requires a stamped seal from the Guild of Alchemists or a notarized letter from the local magistrate for health clearance.
 
+
+- Elara possesses the mechanical skill and steady hands required to perform chisel work on quartz stone.
+
+
+- The ridge outcrop is a location with loose shale, fractured quartz, and a vein of white quartz suitable for resonance testing.
+
+
+- The group has successfully tested the resonance method at the ridge outcrop before proceeding to the hydraulic throat.
+
 ## Changes Over Time
 
 

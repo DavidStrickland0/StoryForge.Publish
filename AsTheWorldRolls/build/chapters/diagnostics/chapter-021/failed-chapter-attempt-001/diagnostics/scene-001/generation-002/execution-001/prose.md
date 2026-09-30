@@ -1,0 +1,71 @@
+The path back to the tavern was little more than a beaten track through ancient woods, hemmed in by gnarled trunks that seemed to lean inward, as if guarding secrets older than the Blight itself. Moonlight filtered weakly through the canopy, casting long, distorted shadows that stretched and twisted with every shift of wind or footfall. The air had changed; the copper tang of corruption was gone, replaced by the scent of wet loam, pine resin, and the damp earth of a forest waking from a long sleep. It was a relief, but Elias kept his hand resting lightly on the hilt of his blade, not out of fear of the Blight-Touched—which had lifted like a tide receding—but because the transition from combat zone to safety often brought a strange, brittle clarity. The threat hadn't vanished entirely; it had merely been moved, and their destination was still a way station in an uneasy world.
+
+They walked in a loose formation, Torin bringing up the rear with Maren close beside him, while Elias, Kaelen, and Elara formed a line ahead. The silence wasn’t oppressive, but it was heavy with the quiet understanding that had settled over them after the ridge. There were no grand declarations of victory, only the practical acknowledgment of what they could do now that the immediate crisis at the hydraulic throat had passed.
+
+Maren’s left hand trembled slightly as she adjusted her belt pouches, a small, involuntary jerk that betrayed the stiffness in her joints. She hadn’t noticed it until Elias glanced over his shoulder and pointed out the irregular motion with a barely perceptible tilt of his head. The gesture was clinical, devoid of alarm, but it carried weight.
+
+"I’ve been holding too much tension," she murmured, more to herself than to them. "It’s not just fatigue."
+
+Elias paused near a twisted oak whose roots clawed at the ground like grasping fingers. He looked at her hand—steady for moments, then shuddering again as she reached for the vial of amber salve tucked into her sash.
+
+"You can set it down," he said calmly. "Torin will hold your arm if you need to rest."
+
+"No," Maren said quickly, though she didn’t pull back from Elias’s gaze. "I know what I’m doing. It’s fine."
+
+"It isn’t fine right now," Elias replied. "You just demonstrated instability with a mechanical task that requires precision. You’re not the only one with hands that shake under pressure, but this is a chisel and quartz stone we’re talking about. One slip means the wrong frequency, or worse."
+
+Maren flinched slightly at the mention of the tool. She had been the one who first noticed Maren’s tremors after the collapse in Chapter 16, and she’d tried to downplay them as minor side effects of healing trauma. But now, with Kaelen’s resonance stable and verified, the group could afford to be honest about the physical costs each member carried—and which ones might hinder them during the dawn operation.
+
+"Elara," Elias said, turning forward. "Do you think you could take Maren’s place with the chisel?"
+
+Elara didn’t look back, but her voice came clear and steady from ahead. "I’ve been using a chisel since I was ten. I know how to feel for resonance in stone. If Maren needs rest or recalibration time, I can handle the vibration work."
+
+Maren hesitated. She had assumed Elara would be content to stay in support roles, handling traps and minor repairs. But the girl had spent years mastering mechanics while others fought or fled; she possessed a quiet competence that had earned her respect in the group long before anyone gave her formal credit for it.
+
+"I’d rather not make you do something outside your usual scope," Maren offered hesitantly.
+
+Elara finally turned, brushing dust from her tunic with one hand while gripping her own chisel tightly with the other. "My hands are steady enough to carve a name into granite before breakfast. Let me show you what I mean."
+
+She stepped aside without waiting for further permission and moved closer to Elias’s side, where he had placed the inert quartz stone on his belt loop. Her expression wasn’t eager so much as determined—a quiet pride in her ability to contribute meaningfully when it mattered most.
+
+Elias picked up the stone again. It felt cold now, no longer humming with residual resonance. He could still sense faint echoes of Kaelen’s earlier work along its surface, but those vibrations had died down completely. The group needed to verify whether that frequency could be replicated under real conditions, not just theoretical ones. That was the next step—testing the method at a controlled site before committing to the full operation at the Gate of Silence shrine.
+
+They reached the edge of the forest where the ground flattened into rolling hills covered in dry grass and scattered stones. From here, the silhouette of the Pick and Axe tavern loomed against the darkening sky, its single lantern burning like a beacon in the gloom. It was close enough to hear voices drifting from the common room—laughter, clinking tankards, the occasional argument over dice rolls—but not so close that they felt exposed. The barrier still held firm around them, though no one dared speak of it aloud as if naming it might weaken its grip.
+
+Inside the tavern’s courtyard, Elara knelt beside a small outcrop of fractured quartz embedded in the earth. She had selected this spot deliberately: loose shale made it easy to tap without destabilizing surrounding rock, and the vein of white quartz ran cleanly through the formation, untouched by Blight residue or structural stress.
+
+"Alright," she said, raising her chisel. "I’ll start with a low-frequency hum. Just enough to wake up the stone’s natural resonance."
+
+She tapped once—soft, rhythmic. The sound was barely audible, but Elias felt it in his teeth before he heard it. Kaelen stood nearby, watching Elara with a calmness that belied his earlier exhaustion. His brass gauntlet remained dark and silent now, no longer glowing or vibrating. He had learned to listen—not just hear, but feel—the difference between raw corruption and controlled resonance.
+
+"Maren," Elias said gently, "you can step back for now. Rest your hands."
+
+Maren nodded without protest. She moved away, leaving Torin to guard the perimeter. Elara began her work again, tapping the stone in a steady cadence. Each strike created a faint ripple through the quartz, building momentum until the entire formation seemed to hum softly—a low B-flat that resonated through the ground and into Elias’s chest.
+
+Kaelen stepped closer, placing a hand on Elara’s shoulder. "That’s the frequency," he said quietly. "It matches what I felt when I was bridging the seal."
+
+Elias studied the stone. The quartz grain shifted subtly under his gaze, aligning with the resonance like tiny gears turning in unison. He could almost see the invisible lines of vibration weaving through the material, forming a bridge between the barrier’s demand and the Blight’s flow.
+
+"If we maintain this rhythm," he said, "we can weaken any seal without breaking its structural integrity. That’s the key—slow erosion, not force."
+
+Elara nodded, her eyes focused on the stone. "We’ll need to practice maintaining the frequency while moving. The terrain changes, the wind shifts, and Kaelen’s resonance will fluctuate depending on his state of mind."
+
+"Exactly," Elias replied. "That’s why we’re testing this now. We can’t rely on perfect conditions at the shrine. We need to know how stable the method is when things go wrong."
+
+Kaelen stepped forward and took the chisel from Elara’s hand. His grip was firm, but not rigid—he could feel the vibration through his fingertips, adjusting his own focus to match the stone’s natural pitch. With a light tap of his thumb against the handle, he introduced a subtle pulse that deepened the hum until it stabilized at a higher octave.
+
+"I can hold this," he said. "As long as I stay focused."
+
+"For how long?" Maren asked from behind them. Her voice was quiet, but her eyes betrayed a mix of concern and pride. She hadn’t been watching closely, letting Elara and Elias take the lead, but she had noticed Kaelen’s posture relax as he engaged with the resonance. He wasn’t trembling anymore. He wasn’t suppressing anything—he was channeling it deliberately, like water flowing through a pipe rather than spilling from a cracked vessel.
+
+"As long as I need to," Kaelen answered simply. "But I won’t be able to keep this up forever. There’s a limit."
+
+"How much?" Elias asked.
+
+Kaelen hesitated before answering. "Enough for the test. Maybe more if we rest afterward. But not indefinitely. My body knows when it’s reaching its edge."
+
+Elias nodded. That was acceptable for now. They weren’t trying to push him beyond his limits—they were learning how to work within them. The goal wasn’t to force Kaelen into a state of constant activation, but to teach the group how to manage his capacity efficiently, minimizing risk while maximizing utility.
+
+Elara stepped back and took the chisel again. "Let’s finish testing this spot," she said. "Once we’ve confirmed the frequency holds under movement and variable conditions, we’ll head in."
+
+They spent another hour calibrating the resonance, trying different rhythms and adjusting for environmental factors like wind or ground moisture. Each trial brought small improvements—Elara learned how to compensate for Kaelen’s subtle fluctuations, and Karen developed a better sense of how long he could maintain focus before needing a break. By the time they finished, the quartz stone remained warm in

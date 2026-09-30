@@ -102,6 +102,8 @@ Current state:
 
 - Elara exists and is an established character.
 
+
+- Elara has been chiseling stone since she was ten years old.
 
 ### Aldric
 

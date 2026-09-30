@@ -1,0 +1,141 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 21.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":21,"ViewpointCharacterId":"Elias Thorne","Objective":"Verify the resonance method\u0027s practical viability by testing the chisel/quartz mechanism on a ridge outcrop, resolving the physical limitation of Maren\u0027s tremors by assigning Elara to the precision role, and confirming Kaelen\u0027s ability to sustain a controlled \u0027listening\u0027 state, thereby finalizing the operational roles for the dawn strike.","IntendedChange":"The group transitions from theoretical agreement to practical confirmation: Elara successfully executes the chisel strike to identify the resonant frequency, Kaelen stabilizes the gauntlet\u0027s output to match it, and the party formally assigns these roles, leaving them prepared for the final approach to the Gate of Silence.","PacingPosture":1,"ProhibitedPatterns":["Depicting Maren walking unassisted or performing fine motor tasks despite established active tremors.","Resolving the long-term health consequences of Kaelen\u0027s resonance or the environmental impact of the barrier\u0027s consumption.","Executing the final seal-breaking operation at the Gate of Silence.","Introducing a new external threat, ambush, or cliffhanger to force a transition."],"Scenes":[{"Sequence":1,"Purpose":"Address the immediate physical limitation of Maren\u0027s tremors by transferring the chisel role to Elara, establishing the team\u0027s reliance on each other\u0027s specific competencies.","IntendedChange":"Maren acknowledges her inability to perform the precise chisel work required, and Elara accepts the responsibility, demonstrating her steady hand and mechanical skill in preparation for the test.","FocusCharacterIds":["Maren","Elara","Elias Thorne"]},{"Sequence":2,"Purpose":"Empirically test the resonance mechanics on a ridge outcrop, verifying that the specific frequency can be generated and sustained without catastrophic failure.","IntendedChange":"Elara successfully taps the quartz stone to produce the target frequency, and Kaelen stabilizes the gauntlet\u0027s hum to match it, confirming the method\u0027s viability and identifying the precise resonance required.","FocusCharacterIds":["Elara","Kaelen","Elias Thorne"]},{"Sequence":3,"Purpose":"Formalize the operational roles and confirm the group\u0027s readiness for the dawn operation, consolidating the strategic plan into a concrete execution protocol.","IntendedChange":"The party assigns final roles based on the successful test, with Elara as the chisel operator and Kaelen as the resonance regulator, and they prepare to move toward the Gate of Silence.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Elara","Kaelen"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Empirically test the resonance mechanics on a ridge outcrop, verifying that the specific frequency can be generated and sustained without catastrophic failure.","IntendedChange":"Elara successfully taps the quartz stone to produce the target frequency, and Kaelen stabilizes the gauntlet\u0027s hum to match it, confirming the method\u0027s viability and identifying the precise resonance required.","FocusCharacterIds":["Elara","Kaelen","Elias Thorne"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Formalize the operational roles and confirm the group\u0027s readiness for the dawn operation, consolidating the strategic plan into a concrete execution protocol.","IntendedChange":"The party assigns final roles based on the successful test, with Elara as the chisel operator and Kaelen as the resonance regulator, and they prepare to move toward the Gate of Silence.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Elara","Kaelen"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":21,"CompletedSceneSequence":1,"Location":"Tavern common room","TimeContext":"Night, after returning from the ridge outcrop","PresentCharacterIds":["Elias Thorne","Maren","Elara","Torin","Kaelen","Aldric"],"PhysicalConditions":["Maren\u0027s left wrist exhibits active tremors and stiffness, preventing fine motor tasks like chisel work.","The group is resting inside the tavern with food and drinks ordered."],"KnowledgeEstablished":["Maren cannot perform the precise chisel work required for the resonance test due to her tremors.","Elara possesses steady hands and mechanical skill, having sharpened rocks since age ten, making her suitable for the chisel role.","Kaelen can sense the barrier\u0027s hum without the gauntlet glowing, confirming his ability to act as a sensor.","The group has decided to postpone the resonance test until morning when they are rested."],"DecisionsMade":["Elara accepts responsibility for operating the chisel.","Maren agrees to rest her wrist and accept assistance from Torin.","Kaelen is assigned the role of sensor for the upcoming operation.","The group formally consolidates their operational roles based on current capabilities."],"PossessionChanges":["Elias handed a chisel to Elara, who set it aside on a nearby table."],"RelationshipChanges":["Maren accepted help from Torin without protest, alleviating her feelings of failure.","The group dynamic shifted from theoretical agreement to practical reliance on specific competencies."],"CompletedActions":["Maren admitted her inability to use the chisel.","Elara volunteered and demonstrated her skill with the chisel.","Torin offered his arm to support Maren.","Kaelen confirmed his ability to sense the barrier\u0027s hum.","The group ordered food and drinks in the tavern."],"UnresolvedImmediateAction":"The group is settling into the tavern, discussing their findings and preparing for rest before the dawn strike.","ContinuationPosition":"Inside the tavern common room; Maren is resting with Torin\u0027s support, Elara has inspected the chisel and set it aside, Kaelen has confirmed his sensing ability, and Elias is coordinating the plan for the next morning.","ProhibitedRepetition":["Depicting Maren walking unassisted or performing fine motor tasks despite established active tremors.","Resolving the long-term health consequences of Kaelen\u0027s resonance or the environmental impact of the barrier\u0027s consumption.","Executing the final seal-breaking operation at the Gate of Silence.","Introducing a new external threat, ambush, or cliffhanger to force a transition."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The common room of the Pick and Axe smelled of roasted meat, woodsmoke, and the faint, lingering scent of rain that had washed the air clean a half-day ago. Torin sat on a bench near the hearth, one arm draped comfortably over Maren’s shoulders, holding her upright against the back of his chair while she stared into the bowl of stew in front of them. The steam rose in lazy coils, warming the draftiness that usually plagued frontier taverns after a storm.
+
+Elara stood by the table where Elias had set the bronze plate map, though the paper itself lay folded and protected from spilled ale. She ran a thumb along the rim of her chisel, which now rested on a cloth to keep its cutting edge from scratching the rough-hewn wood of the table. The tool was simple enough—iron blade, stone handle—but it represented the difference between a plan and an execution.
+
+Kaelen sat in the corner, legs drawn up against the wall, his brass gauntlet resting on his knee. He hadn’t worn it since leaving the ridge outcrop, having laid it aside to let its warmth fade into the coolness of the night. The hum that usually accompanied it was gone; he reported feeling only a faint, distant vibration in his own bones, like standing near a waterfall without seeing the water. It was a stable sensation, and Elias had nodded approvingly when Kaelen described the shift from chaotic static to something more like a held breath before a song began.
+
+The group had returned from the ridge outcrop just hours ago, carrying with them not only physical exhaustion but also a critical piece of data that would define the next phase of their mission. The ridge itself had been an exposed patch of shale and fractured stone, far less fortified than the temple or watchfort, yet it held exactly what they needed: a natural vein of quartz. It wasn’t massive, perhaps no more than a fist-width across where they’d struck it with Elias’s chisel, but it was pure enough to resonate at the frequency required to weaken the seal without shattering it.
+
+Elias spoke first, his voice low enough not to disturb the other patrons but clear enough for his companions to hear every syllable. “We tested the method on the ridge,” he said, leaning forward in his chair, eyes bright with focus rather than fatigue. “Elara handled the chisel—Maren couldn’t hold it steady enough—and Kaelen confirmed that the frequency matches what we need at the Gate of Silence.”
+
+Torin nodded once, his hand tightening slightly on Maren’s shoulder before he relaxed again. “And?” he asked, keeping his tone neutral but clearly eager for confirmation.
+
+“Elara produced the exact same resonance we identified earlier,” Elias replied, gesturing toward where his companion stood with the chisel now set aside. “She tapped it three times in a rhythm Kaelen recognized immediately. The first strike created a low hum, barely audible above the tavern’s chatter, and by the third, the quartz stone warmed beneath her palm enough to make her skin prickle. That’s the correct frequency—the one that interacts with the barrier’s intake rather than shattering it.”
+
+Kaelen spoke next, his voice soft but firm. “I felt it,” he said, glancing at Elias and then at Maren. “It wasn’t painful, just… present. Like the hum I’ve been feeling since we left the temple was finally tuned to match what I need it to be. The gauntlet stopped flickering entirely when she hit that third rhythm.”
+
+Maren exhaled slowly, her posture relaxing for the first time since arriving at the tavern. She looked down into her stew, steam curling around her face as if trying to hide from the weight of the moment. “So we don’t need me anymore?” she asked, more statement than question. Her voice carried a hint of disbelief, though Torin’s continued hold on her shoulder suggested otherwise.
+
+“No,” Elias said quickly, before anyone else could answer. “You’re still part of the team. You’re our healer, our medic, our eyes on the group’s well-being. But for this specific operation—the resonance work—Elara has shown she can do it better than you right now.” He paused, then added, almost gently, “That doesn’t mean anything about your value or your skill. It just means she has steadier hands at this moment.”
+
+Maren nodded once, a small dip of her chin that might have been pride if someone hadn’t noticed the way Torin kept his hand resting lightly on hers. She accepted the role shift without protest, which was more than Elias had expected in any given situation. The group dynamic had shifted from theoretical agreement to practical reliance on specific competencies, and while it felt like a necessary adjustment rather than an elevation of status, it was precisely that kind of honesty that would keep them alive when things went wrong.
+
+Elara set the chisel down gently on the table and wiped her hands on a scrap of cloth before sitting beside Kaelen. She hadn’t said much during the return trip from the ridge, preferring to let her actions speak for themselves. Now she leaned forward, her eyes bright with quiet satisfaction. “The quartz stone warmed up,” she said, tapping her fingers against her knees. “Not too hot—just enough to feel like someone breathing on your skin. And when Kaelen matched that frequency with his gauntlet humming along, the whole room felt quieter somehow.”
+
+Kaelen chuckled softly, shaking his head as if amused by her dramatic understatement. “It didn’t quiet down,” he corrected, though there was warmth in his tone. “But the resonance stabilized. That’s what matters.”
+
+The conversation drifted then, naturally enough, into jokes about Elara’s mechanical skill and Torin’s protective instincts. The humor wasn’t forced or contrived—it arose from the reality of their situation, where survival had required them to lean on each other in ways that sometimes felt awkward but always essential. Elias took a sip of his ale, watching as Maren finally looked up from her bowl to smile at him.
+
+“Thank you,” she said simply, reaching out to take Torin’s hand off her shoulder and resting it in hers instead. “I know this isn’t easy for either of us.”
+
+Torin shook his head once, his expression unreadable but kind. “You did fine,” he said. “Just rest tonight. We’ll handle the work before dawn.”
+
+Outside the tavern, the air smelled of wet loam and pine sap, a stark contrast to the copper and rot that had plagued them for weeks. Inside, the fire crackled steadily in the hearth, casting dancing shadows across the polished wood benches and the group’s worn faces. The barrier was stable; the Blight source at the hydraulic throat had been drained; and while the main entity in the spires remained hungry, they now knew exactly how to feed the barrier without losing control.
+
+Elias folded the bronze plate map once more, tucking it into his leather satchel where he’d kept it throughout the journey. The map showed the temple, six smaller shrines, and a web of channels beneath the city, but now it also carried new annotations in Elara’s handwriting: *Frequency Verified*, *Resonance Matched*, *Elara = Chisel Operator*. It wasn’t just data—it was proof that their plan could work.
+
+Torin stood then, helping Maren rise from her chair as he guided her toward the stairs leading to the upper rooms where they’d taken lodging earlier in the day. “Rest tonight,” he said, his voice steady and reassuring. “We’ll talk more about roles tomorrow if you want.”
+
+Maren nodded again, accepting his help without hesitation. As they ascended the stairs, she glanced back over her shoulder at Elias and Elara, who were still seated around the table, discussing the final details of their morning strike. Kaelen watched them go, his eyes tracking their movements before turning back to Elias.
+
+“Do you think we’ll make it?” he asked quietly, though the question wasn’t directed at any particular person. He was thinking about the barrier’s hunger, about the entity in the spires, about how long they’d have before the next crisis forced them into motion again.
+
+Elias stood as well, gathering the remaining supplies from the table—empty bowls, used cloth napkins, a half-empty bottle of ale—and tossing them into a basket near the hearth for Aldric to clear later. “We’ve tested the method,” he said. “We’ve confirmed Kaelen’s role as sensor. We’ve agreed on who handles the chisel. That leaves only one thing left to do: execute it.”
+
+Kaelen nodded, though his expression remained thoughtful. “And if we can’t get there in time?”
+
+“Then we adapt,” Elias said. “We’ve always adapted. That’s what keeps us alive.”
+
+They spent the rest of the evening reviewing their supplies, packing light rations for the road ahead, and ensuring everyone had the gear they’d need for the operation. There were no dramatic moments, no sudden revelations, no new threats emerging from the shadows outside the tavern windows. Just methodical preparation, quiet conversation, and the steady rhythm of a group that had learned to trust each other enough to admit when someone else could do something better than them.
+
+As night deepened and the fire burned low, Elias sat back down at the table with his ale in hand. The map lay open before him again, annotated with Elara’s handwriting and Kaelen’s notes on resonance frequencies. He traced the line marked *Gate of Silence*, the symbol resembling a split crown that indicated the way station near the western edge of the city where they planned to check on the local population and secure supplies after completing their current mission.
+
+“Tomorrow,” Elias said softly, more to himself than anyone else
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate relationship change 'Maren accepted help from Torin and the role shift without protest.' repeats relationship change from Chapter 21, Scene 1: 'Maren accepted help from Torin without protest, alleviating her feelings of failure.'; candidate relationship change 'The group dynamic shifted from theoretical agreement to practical reliance on specific competencies (Elara for precision, Kaelen for sensing).' repeats relationship change from Chapter 21, Scene 1: 'The group dynamic shifted from theoretical agreement to practical reliance on specific competencies.'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.
