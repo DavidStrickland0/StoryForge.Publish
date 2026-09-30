@@ -1,0 +1,137 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 17.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":17,"ViewpointCharacterId":"Maren","Objective":"Establish the high-stakes tension of Kaelen\u0027s magical sleep and the group\u0027s desperate, divided efforts to stabilize him within the barrier, highlighting the physical cost of his \u0027pump\u0027 role.","IntendedChange":"The group transitions from tactical planning to active, desperate caregiving. Maren commits her own magical reserves to stabilize Kaelen, creating a visible strain on her, while the others debate the futility of their position as the Blight\u0027s westward movement is felt as a growing pressure.","PacingPosture":0,"ProhibitedPatterns":["Copying verbatim prose from previous chapters or failed attempts.","Resolving Kaelen\u0027s awakening or the group\u0027s final decision to stay/move.","Escalating the conflict into physical violence between Torin and Elias.","Introducing new external threats or attacks during the caregiving scene."],"Scenes":[{"Sequence":1,"Purpose":"Maren assesses Kaelen\u0027s critical condition and initiates sustained magical intervention, revealing the physical toll of her healing magic.","IntendedChange":"Maren\u0027s hands are locked on Kaelen\u0027s chest, channeling warmth that visibly drains her strength, while Kaelen\u0027s translucent skin remains unstable and his breathing shallow.","FocusCharacterIds":["Maren","Kaelen"]},{"Sequence":2,"Purpose":"Torin and Elias clash over the tactical viability of staying, with Torin\u0027s protective rigidity contrasting Elias\u0027s pragmatic calculation of their dwindling resources.","IntendedChange":"The debate reaches a stalemate where neither yields, leaving the group\u0027s tactical stance unresolved and the air thick with unspoken fear and frustration.","FocusCharacterIds":["Torin","Elias"]},{"Sequence":3,"Purpose":"The barrier flickers in response to the Blight\u0027s westward pressure, forcing the group to confront the fragility of their shelter and the immediacy of the threat.","IntendedChange":"The barrier dims and the air grows colder, confirming the external pressure is increasing, while Maren\u0027s magical reserves are critically low and Kaelen remains unconscious.","FocusCharacterIds":["Maren","Elara","Torin","Elias"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Maren assesses Kaelen\u0027s critical condition and initiates sustained magical intervention, revealing the physical toll of her healing magic.","IntendedChange":"Maren\u0027s hands are locked on Kaelen\u0027s chest, channeling warmth that visibly drains her strength, while Kaelen\u0027s translucent skin remains unstable and his breathing shallow.","FocusCharacterIds":["Maren","Kaelen"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Torin and Elias clash over the tactical viability of staying, with Torin\u0027s protective rigidity contrasting Elias\u0027s pragmatic calculation of their dwindling resources.","IntendedChange":"The debate reaches a stalemate where neither yields, leaving the group\u0027s tactical stance unresolved and the air thick with unspoken fear and frustration.","FocusCharacterIds":["Torin","Elias"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The warmth Maren poured into Kaelen did not feel like heat so much as it felt like a slow, deliberate theft of her own vitality. Her fingers sank into the fabric of his tunic, pressing against the hollow of his chest where the frantic rhythm of his heart was barely audible beneath the blanket of sleep. She closed her eyes and focused, pushing the golden light from her palms down through his ribs, trying to fill the cavernous void left by the draining of his essence.
+
+Kaelen’s skin had been translucent, a map of dark veins pulsing with sickly green luminescence that threatened to consume him entirely. Now, under Maren’s steady pressure, the translucency was receding, but the process was agonizingly slow. The green light in his arms had dimmed to a faint bruise, and the jagged scars on his forearms were no longer weeping mist, yet they remained open cracks in a vessel that refused to hold water. He was hollowed out, Maren realized with a sharp spike of fear that made her own breath catch.
+
+She could feel the drain radiating outward from him, a cold vacuum that threatened to pull her own warmth away before she could even replenish his. It was not magic in the way Elias taught—no precise incantation or rune-geometry—but a raw, biological necessity. To keep Kaelen from slipping back into the Blight’s grip, she had to give him every spark of her own fire.
+
+“Hold on,” she whispered, though there was no one else awake to hear her but the silence of the barrier and the rustle of the wind against the outside world. “Just hold on.”
+
+Her arms trembled slightly as she maintained the contact. The magical feedback was a physical weight, pressing against her shoulders. She could feel the cold seeping in from the edges of her magic, where her reserves were running thin. The barrier surrounding them hummed with a low, contented vibration, a stark contrast to the frantic energy Maren was expending. Inside this sphere of safety, time seemed to stretch and warp; minutes felt like hours, and the darkness outside felt less like an approaching night and more like a deep, suffocating ocean waiting to swallow them if they stopped moving.
+
+Elias had closed his eyes against the stone, but Maren knew he was still awake. He never slept fully in these situations. Torin sat by the fire, his large frame rigid as a statue, watching the flames die down into orange and red embers. Elara held her journal open on her knees, though she hadn’t written anything since the last entry. She had stopped speaking hours ago, her voice drained from the effort of maintaining the group’s morale while they were all so exhausted.
+
+Maren shifted her grip, trying to find a different angle for the warmth. The leather of her cloak felt stiff against her back, but she ignored it. All she could think about was Kaelen’s chest rising and falling in shallow, irregular drafts. He was breathing through his mouth now, a dry, rattling sound that made her stomach turn.
+
+“Maren,” Elara called out softly, her voice cracking with fatigue. “His skin… the green is still there.”
+
+“It’s fading,” Maren replied, not taking her eyes off Kaelen’s face. She could see the faint trace of the luminescence in his eyelids, a ghostly reflection of the corruption that had once been a part of him. “It’s just a matter of time.”
+
+“A matter of how much time?” Elara asked, her tone sharp with worry. “We don’t have much food left, and Elias is barely holding himself together. If we stay here too long, we might starve before he wakes up.”
+
+“He will wake up,” Maren said, her voice steady despite the trembling in her hands. She increased the pressure on his chest, feeling a sudden wave of dizziness wash over her as if she had been hit with a physical blow. Her own body felt heavy, sluggish, as if she were wading through water that wasn’t there. “He is not gone. He is just… sleeping.”
+
+“Sleeping like this?” Torin muttered from the fire. He didn’t look up, though his voice was low and rough. “He’s bleeding out, Maren. Not in blood, but in something else. You can see it in the way he looks at you when you’re not looking back.”
+
+Maren ignored him. She felt the cold creeping into her own bones, a sensation that had nothing to do with the night air. Her magic was a resource she could afford to spend only once, and every second she spent on Kaelen was a second she took away from herself. But she couldn’t stop. If she stopped now, the vacuum would take him back, and there would be no waking him up again.
+
+She reached into her pack and pulled out a small clay pot containing an amber-colored salve that smelled of beeswax and dried lavender. The scent was faint in the stale air of the clearing, but it grounded her. She dipped a finger into the jar and smeared a thin layer over his cracked skin. The salve had been made from herbs gathered near the old temple district, a mixture that could seal wounds and draw out corruption, but it would do nothing without the warmth to activate its properties.
+
+Kaelen’s skin twitched slightly as she touched him, his fingers curling reflexively in the air before relaxing again. A drop of clear fluid leaked from one of the scars on his forearm, sliding down his wrist and disappearing into the fabric of his sleeve. It wasn’t blood; it was essence, a residue of the magic that fueled him and now drained away into nothingness.
+
+Maren watched the drop fall, her heart hammering against her ribs like a trapped bird. She could feel the barrier humming around them, a silent guardian that held back the Blight outside. But the barrier was not enough. It could only hold so long before it saturated, and then it would fail. And if the barrier failed, they would all be exposed to the corruption that swarmed the ruins beyond.
+
+She pressed her hands harder against his chest, forcing more warmth into him. The effort made her vision blur at the edges. She could hear the wind howling outside, a sound that had been muted by the barrier but now seemed closer, as if the world beyond was pressing against the glass of their safety.
+
+“Maren,” Elara whispered again, this time with a note of desperation in her voice. “You’re fading too.”
+
+“I’m fine,” Maren lied. She could feel the cold spreading through her limbs, a numbness that started at her fingertips and worked its way up her arms. Her vision was darkening, but she kept her eyes on Kaelen’s face. He looked so young, even with the scars and the exhaustion etched into his features. He looked like a boy who had been given too much to carry for too long, and now he was breaking under the weight of it all.
+
+Torin stood up suddenly, his chair scraping against the stone floor. The sound echoed in the clearing, startling them all. He walked over to Maren and placed a heavy hand on her shoulder. His grip was firm, grounding.
+
+“Stop,” he said simply. “You can’t keep doing this.”
+
+“I have to,” Maren replied, her voice weak but resolute. She tried to push him away, but his strength held hers back.
+
+“You’re draining yourself dry,” Torin insisted. “If you pass out now, he dies too. You hear me? He needs you awake. If you fall asleep, the warmth stops, and then the cold takes him.”
+
+Maren looked at him, her eyes glassy with exhaustion. She could feel the weight of his hand on her shoulder, a physical reminder that she was failing. She had been trained to be a soldier, to be strong, to be able to endure anything. But this… this was different. This was not something she could fight with steel or fire. This was something she had to give pieces of herself for, and every piece she gave away made her weaker, until there was nothing left but the hollow shell of a woman who had given everything she had to keep one boy alive.
+
+“I can’t stop,” she whispered. “If I stop, he goes back.”
+
+“Then let me help,” Torin said. He reached into his pack and pulled out a small vial of water. “Drink this. You need hydration.”
+
+Maren shook her head. “I’m not thirsty.”
+
+“You are dehydrated,” Torin corrected. “You’re losing more than just heat. You’re losing fluid too. Drink.”
+
+She looked at the vial, then at Kaelen’s face. She could see the faint green light in his eyes, flickering like a dying candle. If she stopped now, he would slip back into the darkness, and there would be no waking him up again. But if she drank, she might lose the strength to keep him warm.
+
+“Give it here,” she said softly. She took the vial from Torin’s hand and drank in one swallow. The water tasted metallic, like iron and ash. It did nothing for her thirst, but it gave her a momentary boost of clarity.
+
+Maren placed the empty vial back into Torin’s pack and resumed her work on Kaelen’s chest. Her hands were shaking again, but she forced them to steady. She could feel the cold creeping in from the edges of her magic, a sensation that made her teeth chatter and her muscles stiffen. But she kept going.
+
+She could hear the wind howling outside, a sound that had been muted by the barrier but now seemed closer, as if the
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
