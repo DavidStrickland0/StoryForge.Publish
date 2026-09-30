@@ -113,7 +113,13 @@ The story has not begun.
 
 - Adrian Vale is considering enrolling in the male-fertility trial to secure funding.
 
+
+- Adrian Vale has moved from considering enrollment to agreeing to proceed with the enrollment process for the male-fertility trial.
+
 ## Unresolved Information
 
 
 - Whether Adrian Vale will formally enroll in the male-fertility trial.
+
+
+- The specific reason for Mr. Henderson's withdrawal is stated only as 'personal reasons' and remains unspecified.
