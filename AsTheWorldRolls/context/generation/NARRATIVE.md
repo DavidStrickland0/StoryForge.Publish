@@ -1,4 +1,4 @@
-﻿# StoryForge Endless — NARRATIVE
+﻿# Narrative
 
 ## Current Narrative State
 
@@ -9,13 +9,37 @@
 - Kaelen is currently inside the temple hall.
 
 
-- The group (Torin, Elias, Kaelen, Maren, Elara) has successfully navigated the forest and arrived at the hydraulic throat.
+- The group has transitioned from passive survival in the watchfort to active strategic planning to defeat the Blight source.
 
 
-- The group has successfully initiated the process of feeding the barrier by draining the Blight source at the hydraulic throat.
+- The group has agreed on a specific tactical plan: enter the drainage channels at the western outflow, sever the channel at 'The Gate of Silence', and direct the resulting Blight surge into the temple barrier.
 
 
-- The immediate crisis at the hydraulic throat has been resolved, with the barrier holding and the Blight source drained.
+- The group has assigned specific roles for the operation: Maren and Elara to sever the shrine channel, Torin to restrain Kaelen, Kaelen to act as bait, and Elias to monitor the barrier.
+
+
+- The group has established a plan to weaken the seal at the Gate of Silence using sustained low-frequency vibration rather than blunt force.
+
+
+- The group is preparing to depart the watchfort at first light to travel to the Gate of Silence.
+
+
+- The group has formulated a plan to travel to the ridge to locate stone-lined drainage ditches leading to the channel entrance at the Gate of Silence.
+
+
+- The group has successfully tested and stabilized Kaelen's gauntlet, confirming it is 'regulated' and not actively pulling.
+
+
+- The group has reached the Gate of Silence.
+
+
+- The first phase of the resonance mechanism has been completed, weakening the seal and initiating the flow of the Blight into the barrier.
+
+
+- The second phase of the resonance mechanism has begun, requiring Kaelen to pull the Blight rather than just listen.
+
+
+- The immediate threat of the barrier shattering has been resolved.
 
 ## Unresolved Information
 
@@ -32,7 +56,16 @@
 - Whether Kaelen successfully sealed the door of the temple hall is not established.
 
 
-- The fate of the Blight-Touched entities that were waiting in the forest is not established.
+- The specific method for containing or using Kaelen's resonance to prevent him from being consumed by the Blight is not yet determined.
 
 
-- Whether the entity in the spires will react to the group's presence or the caravan's arrival is not established.
+- Whether the stone-lined drainage ditches are still intact and navigable after three weeks of Blight corruption.
+
+
+- Whether the channel entrance at the Gate of Silence is exposed or buried due to the river shifting.
+
+
+- The outcome of the second phase of the resonance mechanism is not established.
+
+
+- The specific method to make the barrier push instead of pull has not yet been executed.
