@@ -1,4 +1,4 @@
-# Narrative
+﻿# Narrative
 
 ## Story Premise
 
@@ -196,3 +196,9 @@ Each later book should pair a contained mission or connected field campaign with
 The story has not begun.
 
 ## Unresolved Information
+
+
+- The identity of the super at the bar is unknown.
+
+
+- The specific nature of the super's powers beyond strength and invulnerability is unknown.

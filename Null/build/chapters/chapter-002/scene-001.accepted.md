@@ -1,0 +1,15 @@
+The night air hit Ethan’s face with a shock of cold that was almost violent after the stifling, cigarette-scented humidity of the bar. He stepped onto the sidewalk, his shoes crunching on the gravel and cigarette butts, and leaned back against the brick wall of the building. His hands were shaking. He pressed them flat against his thighs, forcing his fingers to unclench, watching the skin of his knuckles whiten under the pressure.
+
+He was alive. He was whole. He had no broken bones, no missing teeth, and no super’s fist embedded in his ribcage. The realization that he had simply walked out—slowly, deliberately, like a man trying not to startle a horse—felt surreal. He had expected to be terrified. He had expected his heart to be hammering so hard he’d need to sit down on the curb. Instead, a strange, hollow calm had settled over him, a detached observation of his own survival.
+
+Through the large plate-glass window to his left, the interior of The Gilded Cage was a blur of warm light and moving shapes. He could see the silhouette of the super still standing near the table. The man was large, broad-shouldered, and utterly still. He was looking down at the table, his head tilted as if he were listening to something only he could hear.
+
+Ethan scanned the street. It was empty. No cars had stopped. No one had rushed out of the bar to help. The executive, Elena, was gone. He hadn’t seen her leave. Had she run? Had she walked out with her head high? Or had she simply vanished into the crowd before the commotion even peaked? He didn’t know. He didn’t care. She was safe. That was the only fact that mattered.
+
+He looked back through the glass. The super was still there. He was frowning, his brow furrowed in deep concentration. He reached out a hand, his fingers twitching, and then withdrew it. He looked at his own arm, turning it over, studying the muscle and the skin with a baffled intensity. For a moment, the man looked less like a god and more like a confused child who had lost a toy.
+
+Ethan shifted his weight, his back sliding slightly down the brick. He took a deep breath, the cold air filling his lungs. He checked his pockets. His wallet was there. His phone was there. His keys were there. Everything was in its place. He was just a man standing on a street corner, shaking because of adrenaline, not because he was broken.
+
+The super in the window raised his head and looked directly at Ethan. Their eyes met through the glass. The man’s expression was unreadable, a mask of polite indifference that didn’t match the confusion Ethan had seen moments before. He didn’t wave. He didn’t shout. He simply stared, his gaze heavy and assessing.
+
+Ethan held the look for a second, his heart giving a single, sharp thump against his ribs. Then he looked away. He pulled his jacket tighter around his shoulders, the wool rough against his neck. He began to walk down the sidewalk, his steps measured and steady. He didn’t look back. He kept his eyes on the street, on the shadows between the parked cars, on the distant hum of the city. He was going home. He was going to make a cup of tea. He was going to exist.

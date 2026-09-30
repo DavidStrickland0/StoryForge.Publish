@@ -1,0 +1,83 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 2.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":2,"ViewpointCharacterId":"ethan_vale","Objective":"Develop the immediate aftermath of the bar incident from Ethan\u0027s perspective, focusing on his physical and emotional reaction to the event, his observation of the super\u0027s confused state, and his decision to leave the scene without engaging, while preserving the mystery of the power loss.","IntendedChange":"Ethan processes the shock of the incident, observes the super\u0027s disoriented reaction to his lost powers, and exits the bar to return to his ordinary life, leaving the cause of the suppression unexplained.","PacingPosture":0,"ProhibitedPatterns":["Replaying the assault, suppression, or escape actions from Chapter 1.","Introducing a new confrontation, revelation, or larger threat.","Identifying Ethan as the cause of the power loss.","Ethan confronting the super or the executive directly."],"Scenes":[{"Sequence":1,"Purpose":"Ethan stands outside the bar, physically shaken and processing the adrenaline of the escape, while observing the chaotic aftermath inside through the window.","IntendedChange":"Ethan stabilizes his breathing and shifts from panic to a detached observation of the scene, establishing his physical distance from the immediate danger.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"Ethan observes the super\u0027s confused and frustrated reaction to his lost powers and the executive\u0027s calm departure, highlighting the shift in power dynamics without Ethan intervening.","IntendedChange":"The super\u0027s inability to regain his powers and the executive\u0027s unimpeded exit confirm the incident is over, leaving the super isolated and the mystery of the power loss unresolved.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Ethan makes the conscious choice to leave the area and return to his ordinary life, refusing to engage with the super or the executive, and walks away into the night.","IntendedChange":"Ethan physically removes himself from the scene, solidifying his decision to move on and leaving the immediate aftermath to the other participants.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Ethan observes the super\u0027s confused and frustrated reaction to his lost powers and the executive\u0027s calm departure, highlighting the shift in power dynamics without Ethan intervening.","IntendedChange":"The super\u0027s inability to regain his powers and the executive\u0027s unimpeded exit confirm the incident is over, leaving the super isolated and the mystery of the power loss unresolved.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Ethan makes the conscious choice to leave the area and return to his ordinary life, refusing to engage with the super or the executive, and walks away into the night.","IntendedChange":"Ethan physically removes himself from the scene, solidifying his decision to move on and leaving the immediate aftermath to the other participants.","FocusCharacterIds":["ethan_vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":2,"CompletedSceneSequence":1,"Location":"Street corner near a closed laundromat, three blocks from the Gilded Cage bar","TimeContext":"Night","PresentCharacterIds":["ethan_vale"],"PhysicalConditions":["Ethan is physically shaken, trembling, and experiencing residual adrenaline and exhaustion","Ethan is standing outside in the cold air","Ethan has pulled his jacket tighter around himself"],"KnowledgeEstablished":["Ethan observed the super standing in the center of the bar, appearing confused, small, and hesitant","Ethan observed the super flexing his fingers and moving with a lack of fluid grace, suggesting a loss of power","Ethan observed Elena (victim) leaving the bar with deliberate dignity and David (victim) following her","Ethan observed the other patrons had scattered, leaving the bar in disarray","Ethan confirmed the super was unable to stop Elena from leaving"],"DecisionsMade":["Ethan decided to turn away from the window and leave the area","Ethan decided to return home to his ordinary life"],"PossessionChanges":[],"RelationshipChanges":[],"CompletedActions":["Ethan walked three blocks from the bar to a corner near a laundromat","Ethan leaned against a brick wall to stabilize his breathing","Ethan observed the aftermath inside the bar through the window","Ethan watched Elena and David exit the bar","Ethan turned away from the window and began walking home"],"UnresolvedImmediateAction":"Ethan is walking away from the bar area, heading home to process the incident privately.","ContinuationPosition":"Ethan is walking down the street, moving away from the Gilded Cage, with the city noise returning around him as he heads toward his home.","ProhibitedRepetition":["Replaying the specific assault or escape actions from Chapter 1","Ethan re-entering the bar or confronting the super/executive","Identifying Ethan as the cause of the power loss","Introducing a new confrontation or larger threat"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The silence in the bar had a weight to it, thick and sudden after the earlier chaos. Ethan kept his back against the cool brick of the laundromat, his hands buried deep in his jacket pockets to stop them from shaking. He watched the glass, his breath fogging the pane slightly before dissipating in the cold night air. Inside, the super stood in the middle of the room, completely still. The man was large, broad-shouldered, with the kind of muscular frame that usually suggested something more than human, but right now he looked trapped in his own body. He flexed his fingers, then clenched them into fists, his face a mask of baffled frustration. He was waiting for something. Waiting for the strength to return, for the invulnerability to kick in, for the world to realign itself so that his physical dominance was absolute again. It didn’t happen.
+
+Elena stood near the entrance, her posture rigid but composed. She had pulled her blazer straight, smoothing the wrinkles with a deliberate, practiced grace that spoke of a woman who refused to be ruffled, even when her life had just been threatened. David hovered a step behind her, his eyes darting between the super and the exit. He looked terrified, his earlier sycophancy stripped away by sheer survival instinct, but he didn't move to comfort Elena. He just waited, his hand hovering near the door handle, ready to bolt the moment she gave the signal.
+
+The super took a step forward, his movements stiff and awkward. He was moving like a man who had forgotten how to coordinate his limbs, his center of gravity off, his steps heavy and clunky. He was no longer a god; he was just a large, angry man in a room full of broken glass and spilled drinks. The power dynamic had shifted so violently that the air in the bar seemed to crackle with the tension of it. The patrons who had scattered were beginning to return, their faces pale, their eyes wide. They didn't look at the super with fear anymore; they looked at him with a detached, horrified curiosity, as if he were a malfunctioning appliance.
+
+Elena caught Ethan’s eye through the glass. For a second, their gazes locked. Her expression wasn't one of gratitude or recognition; it was a cold, calculating assessment. She saw a stranger, a witness, a variable in the equation of her survival. Then she turned her attention back to the super, her chin lifting in a challenge that seemed almost trivial, almost petty, in the face of the violence that had just occurred. She wasn't afraid of him. She was waiting for him to realize that he was no longer the apex predator in the room.
+
+The super let out a sound, a low, guttural growl that lacked its usual thunderous resonance. He tried to flex his bicep, to show off the muscle, to reassert his dominance, but the movement looked pathetic, a weak spasm of flesh and bone. He was isolated, cut off from the source of his power, and the silence of the bar was amplifying his helplessness. Ethan watched, his heart still hammering against his ribs, the adrenaline fading into a dull ache in his muscles. He didn't understand what had happened. He didn't know why the super was powerless, or why the world had stopped to let a civilian executive stand up to a superhero. He only knew that the super was trapped, and the executive was free.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

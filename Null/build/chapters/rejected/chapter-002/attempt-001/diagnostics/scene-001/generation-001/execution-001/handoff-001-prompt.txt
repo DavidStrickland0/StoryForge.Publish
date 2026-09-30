@@ -1,0 +1,129 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 2.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":2,"ViewpointCharacterId":"ethan_vale","Objective":"Develop the immediate aftermath of the bar incident through the reactions of the executive, her sycophant, and the super, while maintaining Ethan\u0027s unawareness of his role and leaving the cause of the power loss unexplained.","IntendedChange":"The participants process the completed encounter through distinct choices and reactions; the executive asserts control over the narrative, the sycophant seeks to preserve his position, and the super reacts to his unexplained vulnerability, all while Ethan observes from a distance without connecting his presence to the event.","PacingPosture":0,"ProhibitedPatterns":["Replaying the assault, suppression, or escape sequence from Chapter 1.","Identifying Ethan as the cause of the power loss or revealing his field mechanics.","Introducing Aurora or any other super to investigate the incident in this chapter.","Resolving the mystery of the power loss or providing a scientific explanation for it.","Having Ethan intervene, confront the super, or attempt to help the executive again."],"Scenes":[{"Sequence":1,"Purpose":"Show the executive and her sycophant reasserting their social dynamic in the immediate wake of the incident, focusing on their need to control the narrative and protect their status.","IntendedChange":"Elena and David are seen regrouping near the bar, with Elena directing David to manage the situation while she assesses her own state, establishing their codependent power structure even in crisis.","FocusCharacterIds":["victim","male_sycophant"]},{"Sequence":2,"Purpose":"Depict the super\u0027s reaction to his unexplained loss of dominance and the social consequences of his public humiliation, highlighting his confusion and frustration rather than his power.","IntendedChange":"The super is shown isolated and disoriented, struggling to reconcile his physical invulnerability with the sudden, unexplained weakness he experienced, while witnesses avoid him, leaving him without a clear explanation for the event.","FocusCharacterIds":["aggressive_super"]},{"Sequence":3,"Purpose":"Convey Ethan\u0027s perspective as he observes the aftermath from a safe distance, reinforcing his unawareness of his role and his decision to disengage from the situation entirely.","IntendedChange":"Ethan watches the separate reactions of the executive, the sycophant, and the super, feeling a mix of relief and confusion, and chooses to leave the bar area, solidifying his return to ordinary life without understanding the cause of the power loss.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Show the executive and her sycophant reasserting their social dynamic in the immediate wake of the incident, focusing on their need to control the narrative and protect their status.","IntendedChange":"Elena and David are seen regrouping near the bar, with Elena directing David to manage the situation while she assesses her own state, establishing their codependent power structure even in crisis.","FocusCharacterIds":["victim","male_sycophant"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the super\u0027s reaction to his unexplained loss of dominance and the social consequences of his public humiliation, highlighting his confusion and frustration rather than his power.","IntendedChange":"The super is shown isolated and disoriented, struggling to reconcile his physical invulnerability with the sudden, unexplained weakness he experienced, while witnesses avoid him, leaving him without a clear explanation for the event.","FocusCharacterIds":["aggressive_super"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The heavy oak door hissed shut behind Ethan, sealing the bar’s low hum and the smell of spilled wine back inside. Outside, the night air was cool and dry, a sharp contrast to the stifling heat of the room. Ethan paused on the sidewalk, his hand still gripping the lapels of his jacket, his breath coming in short, controlled bursts. He had made it out. That was the important part. He had not been the one in the table, and he had not been the one standing up. He was free.
+
+He didn't look back at the window. He didn't need to. He knew what was happening in there. He knew how these things ended. He simply walked, his steps quickening until they became a brisk pace, then a run, merging into the stream of pedestrians who had the good sense to keep to the center of the pavement. The city lights blurred into streaks of neon and gold around him, the only thing separating him from the memory of the super’s thumb digging into Elena’s jaw.
+
+Inside The Gilded Cage, the silence that followed the door’s closing was heavier than the noise that had preceded it.
+
+Elena remained seated, her hand still trembling around the stem of her wine glass. The liquid inside sloshed gently, a small, mocking ripple. She stared at the man’s receding figure, at the way his broad shoulders filled the frame of the open door, until the darkness swallowed him. Only when the last trace of his silhouette had vanished into the night did she allow her fingers to unclench.
+
+She looked down at her hand. The tremor had stopped, replaced by a dull, throbbing ache in her knuckles. She flexed her fingers slowly, watching the joints move, testing the reality of her own limbs. She was whole. She was unharmed.
+
+Across the table, David was still standing. He looked as though he had been struck by a physical blow, his face pale and slick with sweat. His eyes were wide, fixed on the closed door, his mouth slightly open as if he were trying to form a word that didn’t exist. He looked like a man who had just witnessed a ghost.
+
+Elena turned her gaze to him. Her expression was hard, her eyes sharp and assessing. She did not look relieved. She did not look grateful. She looked dangerous.
+
+"David," she said. Her voice was low, steady, and utterly devoid of the warmth that had been present in her conversation with the super moments before.
+
+David blinked, his gaze snapping to her. The sound of her name seemed to snap him back to the present, to the reality of the table, the glass, and the woman who sat across from it. He straightened his posture, his hands clenching and unclenching at his sides.
+
+"Ms. Vance," he whispered, his voice rough.
+
+"Sit down," she commanded.
+
+David hesitated for a fraction of a second, his eyes darting to the closed door again, then back to her. He lowered himself into his chair, the leather creaking softly under his weight. He sat rigid, his hands resting on the table, his knuckles white.
+
+Elena reached for her wine glass. She took a slow sip, the cool liquid sliding down her throat, grounding her. She set the glass down with a precise click against the wooden surface.
+
+"Did you see that?" she asked. Her tone was conversational, almost casual, but her eyes were locked on David’s face, searching for the crack in his composure.
+
+David swallowed hard. "I... I saw him leave, Ms. Vance."
+
+"No," she said, a thin smile playing on her lips. "You saw what happened. You saw how he looked when he realized he couldn't break me."
+
+David’s jaw tightened. He looked away, his eyes fixing on a point on the table somewhere between them. "It was... unexpected."
+
+"Unexpected," she repeated, tasting the word. "Is that what you call it? A super, the kind who can crush a car with his bare hands, suddenly deciding to walk away because a woman in a cocktail dress told him to stop?"
+
+She leaned forward, her elbows on the table, her chin resting on her interlaced fingers. "He didn't walk away because I was brave, David. He walked away because something was wrong. Something was very, very wrong."
+
+David’s eyes flickered to her, a flicker of fear in his dark pupils. "Ms. Vance, I don't understand."
+
+"You don't need to understand," she said, her voice dropping to a whisper that carried more weight than a shout. "You need to remember. And you need to be very, very careful about what you tell anyone about tonight. About me. About this table. About the fact that I was sitting here, drinking my wine, and talking to a god who suddenly decided to become a man."
+
+She sat back, her posture perfect, her face a mask of serene confidence. But her eyes, dark and intelligent, remained fixed on David, demanding his compliance, demanding his silence.
+
+David nodded, his throat working as he swallowed. "Yes, Ms. Vance. I will be careful."
+
+"Good," she said. She picked up her wine glass again, raising it in a small, silent toast to the empty air. "Now. Let’s talk about what we are going to do about the fact that I am still sitting here, and he is still out there. And that I am not entirely sure that he will not come back."
+
+David looked at her, his face a mixture of relief and dread. He had survived the encounter. He had kept his job. But he had also seen the edge of a blade he could not see, a power he could not name. And he knew, with a cold certainty that settled in his stomach, that Elena Vance was the only thing standing between him and the unknown.
+
+He reached for the check, his hand steady now, his face a mask of professional indifference. "I’ll take care of the bill, Ms. Vance. We can discuss the next steps in your office tomorrow."
+
+Elena studied him for a long moment, her eyes unreadable. Then she gave a small, sharp nod.
+
+"Tomorrow," she agreed.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

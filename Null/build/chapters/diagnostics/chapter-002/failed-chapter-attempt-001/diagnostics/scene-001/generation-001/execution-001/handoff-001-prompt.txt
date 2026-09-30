@@ -1,0 +1,95 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 2.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":2,"ViewpointCharacterId":"ethan_vale","Objective":"Develop the immediate aftermath of the bar incident from Ethan\u0027s perspective, focusing on his physical and emotional reaction to the event, his observation of the super\u0027s confused state, and his decision to leave the scene without engaging, while preserving the mystery of the power loss.","IntendedChange":"Ethan processes the shock of the incident, observes the super\u0027s disoriented reaction to his lost powers, and exits the bar to return to his ordinary life, leaving the cause of the suppression unexplained.","PacingPosture":0,"ProhibitedPatterns":["Replaying the assault, suppression, or escape actions from Chapter 1.","Introducing a new confrontation, revelation, or larger threat.","Identifying Ethan as the cause of the power loss.","Ethan confronting the super or the executive directly."],"Scenes":[{"Sequence":1,"Purpose":"Ethan stands outside the bar, physically shaken and processing the adrenaline of the escape, while observing the chaotic aftermath inside through the window.","IntendedChange":"Ethan stabilizes his breathing and shifts from panic to a detached observation of the scene, establishing his physical distance from the immediate danger.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"Ethan observes the super\u0027s confused and frustrated reaction to his lost powers and the executive\u0027s calm departure, highlighting the shift in power dynamics without Ethan intervening.","IntendedChange":"The super\u0027s inability to regain his powers and the executive\u0027s unimpeded exit confirm the incident is over, leaving the super isolated and the mystery of the power loss unresolved.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":3,"Purpose":"Ethan makes the conscious choice to leave the area and return to his ordinary life, refusing to engage with the super or the executive, and walks away into the night.","IntendedChange":"Ethan physically removes himself from the scene, solidifying his decision to move on and leaving the immediate aftermath to the other participants.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Ethan stands outside the bar, physically shaken and processing the adrenaline of the escape, while observing the chaotic aftermath inside through the window.","IntendedChange":"Ethan stabilizes his breathing and shifts from panic to a detached observation of the scene, establishing his physical distance from the immediate danger.","FocusCharacterIds":["ethan_vale"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Ethan observes the super\u0027s confused and frustrated reaction to his lost powers and the executive\u0027s calm departure, highlighting the shift in power dynamics without Ethan intervening.","IntendedChange":"The super\u0027s inability to regain his powers and the executive\u0027s unimpeded exit confirm the incident is over, leaving the super isolated and the mystery of the power loss unresolved.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The cold air hit Ethan’s face like a slap, sharp and clean, stripping away the stale cocktail scent of the Gilded Cage. He didn’t stop walking until he was three blocks down, turning a corner that offered nothing but the wet reflection of neon signs on the asphalt. His legs felt like they belonged to someone else, heavy and trembling with a residual energy that had no source. He leaned against the brick wall of a closed laundromat, his chest heaving as if he had just run a marathon rather than a short sprint.
+
+Ethan pressed the heels of his hands into his eyes, trying to push back the image of the super’s hand clamped around Elena’s jaw. The memory was vivid, unbidden, and nauseating. He could still hear the wet click of the stiletto finding its target, a sound that had cut through the bar’s low thrumming bass with a clarity that felt violent in its own right. He had left. That was the only fact that mattered. He was alive, he was free, and he was far away from the kind of man who could break a person in public without a shred of legal consequence.
+
+But as the adrenaline began to recede, replaced by a cold, hollow exhaustion, Ethan found himself turning back.
+
+He didn’t go back inside. He didn’t want to be in that room again. Instead, he stood on the opposite side of the street, beneath the dull hum of a streetlamp, and watched the Gilded Cage through the darkened glass. The bar was a rectangle of amber light in the night, a glowing eye staring back at the empty street.
+
+Inside, the chaos had settled into a strange, suspended silence. Ethan watched the figures moving in the dim interior. The super stood near the center of the room, his shoulders hunched, his hands hanging loosely at his sides. He looked confused. He looked, for the first time since he had entered the bar, small. There was no one around him to bow or flinch. The other patrons had scattered, leaving tables and chairs in disarray, a tableau of interrupted conversations and abandoned drinks.
+
+Elena was by the door. She wasn’t running. She was walking with a deliberate, measured pace, her head high, her spine straight. She moved with the rigid dignity of a woman who had just survived a disaster and decided, in that split second, to leave it behind rather than let it consume her. David followed a few steps behind her, his face a mask of shock, his eyes darting toward the super and then quickly away, as if he couldn’t decide which was more dangerous.
+
+Elena paused at the threshold, her hand on the doorframe. She didn’t look back at the super. She didn’t look at the bartender, who was wiping down the counter with aggressive, jerky motions, pretending to be busy. She simply stepped out into the night, the door swinging shut behind her with a soft, final click.
+
+Ethan watched her disappear into the shadows of the sidewalk, her figure swallowed by the darkness before he could tell if she was heading for a car, a cab, or simply away. He felt a strange, distant pang of relief, though he couldn’t quite name why. It wasn’t that he cared about her, specifically. It was the principle of it. The fact that she had escaped. That the super, for whatever reason, had been unable to stop her.
+
+The super remained in the center of the bar. He raised a hand, flexing his fingers, looking at them as if they were foreign objects. He took a step toward the exit, but his movement was hesitant, lacking the fluid grace he had possessed moments before. He looked like a man who had suddenly realized his car wouldn’t start, stranded on the side of a highway with no map and no idea of where he was.
+
+Ethan turned away from the window. The mystery of it—the sudden, inexplicable loss of power, the silence that followed—hung in the air, unresolved and heavy. He didn’t understand it. He didn’t want to understand it. He wanted to go home, take a hot shower, and pretend that the last hour had been a bad dream that would dissolve with the morning light.
+
+He pulled his jacket tighter around himself, the fabric rough against his skin, and began to walk. The city noise rushed back in, the distant wail of a siren, the rumble of a late-night delivery truck, the ordinary symphony of a world that continued to turn, indifferent to the small, violent disruptions that occurred in its corners. Ethan was just another shadow moving through the streets, a civilian in a city of gods, walking home to a life that felt, for the first time in a long time, both fragile and precious.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

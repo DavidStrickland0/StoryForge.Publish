@@ -1,0 +1,81 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 2.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":2,"ViewpointCharacterId":"ethan_vale","Objective":"Develop the immediate aftermath of the bar incident through the reactions of the executive, her sycophant, and the super, while maintaining Ethan\u0027s unawareness of his role and leaving the cause of the power loss unexplained.","IntendedChange":"The participants process the completed encounter through distinct choices and reactions; the executive asserts control over the narrative, the sycophant seeks to preserve his position, and the super reacts to his unexplained vulnerability, all while Ethan observes from a distance without connecting his presence to the event.","PacingPosture":0,"ProhibitedPatterns":["Replaying the assault, suppression, or escape sequence from Chapter 1.","Identifying Ethan as the cause of the power loss or revealing his field mechanics.","Introducing Aurora or any other super to investigate the incident in this chapter.","Resolving the mystery of the power loss or providing a scientific explanation for it.","Having Ethan intervene, confront the super, or attempt to help the executive again."],"Scenes":[{"Sequence":1,"Purpose":"Show the executive and her sycophant reasserting their social dynamic in the immediate wake of the incident, focusing on their need to control the narrative and protect their status.","IntendedChange":"Elena and David are seen regrouping near the bar, with Elena directing David to manage the situation while she assesses her own state, establishing their codependent power structure even in crisis.","FocusCharacterIds":["victim","male_sycophant"]},{"Sequence":2,"Purpose":"Depict the super\u0027s reaction to his unexplained loss of dominance and the social consequences of his public humiliation, highlighting his confusion and frustration rather than his power.","IntendedChange":"The super is shown isolated and disoriented, struggling to reconcile his physical invulnerability with the sudden, unexplained weakness he experienced, while witnesses avoid him, leaving him without a clear explanation for the event.","FocusCharacterIds":["aggressive_super"]},{"Sequence":3,"Purpose":"Convey Ethan\u0027s perspective as he observes the aftermath from a safe distance, reinforcing his unawareness of his role and his decision to disengage from the situation entirely.","IntendedChange":"Ethan watches the separate reactions of the executive, the sycophant, and the super, feeling a mix of relief and confusion, and chooses to leave the bar area, solidifying his return to ordinary life without understanding the cause of the power loss.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the super\u0027s reaction to his unexplained loss of dominance and the social consequences of his public humiliation, highlighting his confusion and frustration rather than his power.","IntendedChange":"The super is shown isolated and disoriented, struggling to reconcile his physical invulnerability with the sudden, unexplained weakness he experienced, while witnesses avoid him, leaving him without a clear explanation for the event.","FocusCharacterIds":["aggressive_super"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Convey Ethan\u0027s perspective as he observes the aftermath from a safe distance, reinforcing his unawareness of his role and his decision to disengage from the situation entirely.","IntendedChange":"Ethan watches the separate reactions of the executive, the sycophant, and the super, feeling a mix of relief and confusion, and chooses to leave the bar area, solidifying his return to ordinary life without understanding the cause of the power loss.","FocusCharacterIds":["ethan_vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":2,"CompletedSceneSequence":1,"Location":"The Gilded Cage (bar interior); adjacent sidewalk (exterior)","TimeContext":"Night, immediately following the departure of the aggressive super","PresentCharacterIds":["ethan_vale","victim","male_sycophant"],"PhysicalConditions":["ethan_vale: Running on the sidewalk, breathing in short controlled bursts, gripping jacket lapels","victim: Seated at the bar table, hand trembling then flexing, dull throbbing ache in knuckles, holding wine glass","male_sycophant: Seated rigidly at the bar table, pale, sweating, knuckles white, reaching for the check"],"KnowledgeEstablished":["victim believes the super left because something was wrong with him, not because of her bravery","victim instructs male_sycophant to maintain strict silence about the incident and her presence","male_sycophant acknowledges the super\u0027s unexplained weakness and his own vulnerability in the situation","ethan_vale is unaware of the specific cause of the super\u0027s departure and does not connect his presence to the event"],"DecisionsMade":["victim decides to control the narrative and protect her status by commanding male_sycophant\u0027s silence","victim decides to defer discussion of next steps to the following day","male_sycophant decides to pay the bill and leave the immediate confrontation","ethan_vale decides to leave the bar area and merge into the pedestrian stream"],"PossessionChanges":["male_sycophant takes possession of the bill/check"],"RelationshipChanges":["victim asserts dominance and control over male_sycophant, reinforcing their codependent power structure","male_sycophant demonstrates fear and reliance on victim for protection and direction"],"CompletedActions":["ethan_vale exits the bar and runs away down the sidewalk","victim observes the super\u0027s departure and assesses her physical state","victim commands male_sycophant to sit down and maintain silence","victim and male_sycophant discuss the nature of the super\u0027s departure","male_sycophant agrees to pay the bill and defer further discussion to the next day"],"UnresolvedImmediateAction":"The executive and sycophant are preparing to leave the bar after settling the bill, while the executive remains concerned about the super potentially returning.","ContinuationPosition":"Inside The Gilded Cage, Elena Vance and David are seated at the table; David is holding the check and preparing to pay, while Elena watches him with unreadable intensity, having just agreed to discuss next steps tomorrow.","ProhibitedRepetition":["Replaying the assault, suppression, or escape sequence from Chapter 1","Identifying Ethan as the cause of the power loss or revealing his field mechanics","Introducing Aurora or any other super to investigate the incident","Resolving the mystery of the power loss or providing a scientific explanation","Having Ethan intervene, confront the super, or attempt to help the executive again","Repeating the conversation where Elena instructs David to keep silent about the incident","Repeating the moment where David agrees to pay the bill"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The silence in the bar was heavy, punctuated only by the low hum of the refrigerator behind the counter and the faint clink of ice settling in a glass. At the far end of the room, near the restrooms, the large man stood perfectly still. His shoulders were hunched, and his hands were tucked deep into the pockets of his jacket, fingers twitching as if trying to find an object that wasn’t there. He kept looking down at his palms, flexing them, then releasing them into fists. The motion was repetitive, mechanical, a man checking for a battery that had died in the middle of a critical moment.
+
+He had tried to lift a chair, just to test the weight, just to feel the familiar resistance of steel yielding to his grip. Instead, the leg had slipped, and the chair had crashed to the floor, splintering under his own clumsy weight. The sound had been sharp and final, a small, ordinary failure that echoed in his chest more loudly than any shout he could have made. Now, the patrons of The Gilded Cage moved around him like water around a stone. No one looked at him directly. No one spoke to him. The bartender had wiped down the counter with aggressive efficiency, avoiding eye contact, and the few couples at the tables had shifted their conversation to a volume that was almost a whisper, their eyes fixed on their drinks as if the liquid held answers to the sudden, inexplicable shift in the room’s atmosphere.
+
+The man ran a hand over his face, feeling the coarse grit of stubble against his palm. The sensation was mundane, irritating, and utterly real. He had expected the world to continue, expected the strength to be a constant, a bedrock he could stand on even when he was tired or bored or angry. Instead, he felt hollowed out, a vessel with the contents suddenly drained. He opened his mouth, perhaps to call out, perhaps to demand an explanation from the universe, but no sound came. The air in the room felt thinner, less supportive, as if the very atmosphere had withdrawn its recognition of his presence. He was just a man in a loud bar, standing in the middle of a room full of people who had just decided, collectively, that he was a problem to be ignored rather than a force to be reckoned with.
+
+He took a step toward the door, his movements stiff and deliberate. The floorboards creaked beneath his weight, a sound that felt exaggeratedly loud in the quiet. He paused, looking back toward the table where the executive and her companion were sitting. They were still, both of them, their faces turned slightly away, as if the air between their table and his position was contaminated. He couldn't read their expressions, couldn't tell if they were afraid, confused, or simply done with him. The uncertainty was worse than the fear. He turned away, his back to them, and walked toward the exit. His steps were heavy, each one a small concession to the gravity that had suddenly reclaimed its hold on him. The door to the bar swung open with a squeak, and the cool night air rushed in, carrying the smell of rain and distant traffic. He stepped out into the street, the neon lights of the sign reflecting off the wet pavement, blurring the world into streaks of red and blue. He stood there for a moment, breathing in the cold, trying to find the strength to keep walking, but it felt like a memory, something he had once had but had now lost.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

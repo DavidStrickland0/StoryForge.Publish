@@ -1,0 +1,97 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 2.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":2,"ViewpointCharacterId":"ethan_vale","Objective":"Develop the immediate aftermath of the bar incident from Ethan\u0027s perspective, focusing on his shock, the social fallout for the executive and her companion, and the super\u0027s confused reaction to his lost power, while keeping the cause of the suppression unknown.","IntendedChange":"Ethan processes the event from a safe distance, observing the executive\u0027s reassertion of control and the super\u0027s public humiliation, while the mystery of the power loss remains unresolved.","PacingPosture":0,"ProhibitedPatterns":["Ethan returning to the bar to confront the super or the executive.","Ethan deducing or suspecting that his proximity caused the power loss.","The super regaining his powers and resuming the assault.","Aurora or any other investigator appearing at the scene.","Replaying the specific physical actions of the assault or escape from Chapter 1."],"Scenes":[{"Sequence":1,"Purpose":"Ethan stands on the sidewalk outside the bar, physically safe but emotionally shaken, observing the chaotic scene through the glass as the super struggles with his sudden weakness and the executive begins to assert her authority.","IntendedChange":"Ethan establishes his position as a detached observer, confirming his safety while witnessing the immediate social reversal where the executive\u0027s status begins to override the super\u0027s physical dominance.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]},{"Sequence":2,"Purpose":"David, the sycophant, moves from passive fear to active support, helping the executive regain her composure and using her social standing to demand the super\u0027s removal, highlighting the contrast between physical power and social consequence.","IntendedChange":"The dynamic between the executive and her companion shifts from sycophantic flattery to protective alliance, demonstrating how their established relationship functions under stress and reinforcing the executive\u0027s agency in the aftermath.","FocusCharacterIds":["victim","male_sycophant","aggressive_super"]},{"Sequence":3,"Purpose":"The super, confused by his lack of strength and unable to comprehend why he is being treated as a common criminal, attempts to assert his identity and power, but is physically restrained by the bar staff and witnesses who are emboldened by his temporary weakness.","IntendedChange":"The super\u0027s public dominance is fully dismantled by the collective action of the civilians, establishing the social consequences of his abuse and leaving him powerless and confused, while the cause of his weakness remains a mystery to all present.","FocusCharacterIds":["aggressive_super","victim","ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Ethan stands on the sidewalk outside the bar, physically safe but emotionally shaken, observing the chaotic scene through the glass as the super struggles with his sudden weakness and the executive begins to assert her authority.","IntendedChange":"Ethan establishes his position as a detached observer, confirming his safety while witnessing the immediate social reversal where the executive\u0027s status begins to override the super\u0027s physical dominance.","FocusCharacterIds":["ethan_vale","aggressive_super","victim"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"David, the sycophant, moves from passive fear to active support, helping the executive regain her composure and using her social standing to demand the super\u0027s removal, highlighting the contrast between physical power and social consequence.","IntendedChange":"The dynamic between the executive and her companion shifts from sycophantic flattery to protective alliance, demonstrating how their established relationship functions under stress and reinforcing the executive\u0027s agency in the aftermath.","FocusCharacterIds":["victim","male_sycophant","aggressive_super"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Ethan stopped on the sidewalk, his back against the cool brick of the adjacent building. The night air bit at his face, a sharp, cold contrast to the stifling, beer-scented heat he had just left behind. His heart was hammering against his ribs, a frantic, irregular drumbeat that seemed to echo in his ears. He adjusted the grip on his jacket, the fabric damp with sweat in places that had nothing to do with the weather.
+
+Through the large, plate-glass window of The Gilded Cage, the interior was a blur of motion and shouting. The chaos inside was muffled by the glass and the distance, but the sight was clear enough. The super, the man who had been towering over Elena moments before, was now on his knees. He was struggling to stand, his legs buckling under a weight that shouldn't have been there. His face was twisted in confusion, perhaps even pain, as he pressed his palms flat against the floor, trying to find leverage.
+
+Elena was standing.
+
+The image stopped Ethan’s breathing for a second. She was no longer pinned to the table. She was standing in the center of the small clearing the commotion had created, her posture rigid, her face a mask of controlled fury. Her wine glass was gone, likely shattered on the floor or discarded, but her hands were steady. She was looking down at the super with an expression of cold, absolute disdain. It was the same look she had worn all evening, directed at David and the rest of the room, but now it was focused entirely on the man who had tried to break her.
+
+The super looked up, his eyes wide and frantic. He reached out a hand, his fingers splayed, as if trying to grasp at the air or perhaps at Elena’s sleeve. But his arm trembled violently. The effortless, crushing strength that had allowed him to pinch her chin without effort was gone. He was just a man now. A large, dangerous-looking man, but just a man.
+
+Elena took a step forward. Then another. Her movements were precise, deliberate. She didn’t run. She didn’t scream. She simply walked toward him, her heels clicking sharply on the tiled floor. The sound was rhythmic, almost hypnotic, cutting through the noise of the bar patrons who were now gathered at a safe distance, their phones raised, recording the spectacle.
+
+Ethan watched, his hands still clutching his jacket. He should have left. He had left. He was safe. But his feet didn’t move. He was rooted to the spot, drawn by the sheer, unexpected power of the scene. It was a reversal so complete, so sudden, that it felt surreal. One minute, the super had been the apex predator, and the next, he was prey. And Elena, the woman who had been trembling, was now the hunter.
+
+The super tried to speak, his mouth opening and closing, but no sound seemed to come out. Or perhaps his voice was lost in the rising murmur of the crowd. Elena stopped directly in front of him. She looked down, her chin lifted, her eyes hard and unblinking.
+
+"Get up," she said. Her voice was not loud, but it carried a weight that silenced the immediate area.
+
+The super blinked, his confusion giving way to a dawning, horrified realization. He tried to push himself up, but his arms shook. He collapsed back onto the floor, his head hanging low.
+
+Ethan turned away from the window, his back to the bar. He took a deep breath, the cold air filling his lungs. His hands were still shaking. He looked down at them, flexing his fingers. They were just hands. Ordinary, human hands. He didn't know why the super had fallen. He didn't know why the power had vanished. He only knew that he was alive, and that the woman inside had her freedom back.
+
+He began to walk down the sidewalk, his steps quickening. The cold night air was a comfort, a reminder of his own fragility and, somehow, his own strength. He didn't look back.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
