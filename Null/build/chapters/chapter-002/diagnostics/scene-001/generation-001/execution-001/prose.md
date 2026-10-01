@@ -1,15 +1,31 @@
-The night air hit Ethan’s face with a shock of cold that was almost violent after the stifling, cigarette-scented humidity of the bar. He stepped onto the sidewalk, his shoes crunching on the gravel and cigarette butts, and leaned back against the brick wall of the building. His hands were shaking. He pressed them flat against his thighs, forcing his fingers to unclench, watching the skin of his knuckles whiten under the pressure.
+The super’s hand had dropped.
 
-He was alive. He was whole. He had no broken bones, no missing teeth, and no super’s fist embedded in his ribcage. The realization that he had simply walked out—slowly, deliberately, like a man trying not to startle a horse—felt surreal. He had expected to be terrified. He had expected his heart to be hammering so hard he’d need to sit down on the curb. Instead, a strange, hollow calm had settled over him, a detached observation of his own survival.
+He stood there, chest heaving, staring at his own knuckles with the bewildered expression of a man who had just been told his bank account was empty. The air in the bar seemed to thicken around him, the ambient noise of clinking glasses and low conversation suddenly piercingly loud. He tried to straighten, to reassert the physical dominance that had defined his presence only seconds before, but his shoulders slumped. Without the dense, unbreakable tension of his skin and muscles, he was just a large, sweating man in a wrinkled dress shirt.
 
-Through the large plate-glass window to his left, the interior of The Gilded Cage was a blur of warm light and moving shapes. He could see the silhouette of the super still standing near the table. The man was large, broad-shouldered, and utterly still. He was looking down at the table, his head tilted as if he were listening to something only he could hear.
+Elena didn’t move to leave immediately. She sat rigid in her chair, her hand still gripping her wine glass so tightly her knuckles were white. Her eyes, however, were shifting. The fear that had frozen her into stillness was being replaced by a colder, more calculating assessment. She looked at the super, then at the door, and finally at David, who was still hovering awkwardly beside the table, his face a mask of confused deference.
 
-Ethan scanned the street. It was empty. No cars had stopped. No one had rushed out of the bar to help. The executive, Elena, was gone. He hadn’t seen her leave. Had she run? Had she walked out with her head high? Or had she simply vanished into the crowd before the commotion even peaked? He didn’t know. He didn’t care. She was safe. That was the only fact that mattered.
+The super turned his head slowly, his gaze sweeping the room. He looked for an ally, a witness, a way to reclaim the narrative. He found only the bartender, who was pretending to scrub a glass with frantic intensity, and Ethan, who was now standing near the exit, his jacket half-on, his back partially to the group.
 
-He looked back through the glass. The super was still there. He was frowning, his brow furrowed in deep concentration. He reached out a hand, his fingers twitching, and then withdrew it. He looked at his own arm, turning it over, studying the muscle and the skin with a baffled intensity. For a moment, the man looked less like a god and more like a confused child who had lost a toy.
+Ethan felt the weight of the super’s attention even before he turned. It was a heavy, accusatory stare, the kind that said *you saw this, you are part of this, you will pay for it*. Ethan kept his eyes on the door handle, his fingers curling around the cool metal. He didn't look back. He knew, with a visceral certainty born of survival instinct, that looking back would be an invitation. It would be an acknowledgment. And he had no idea what he had done, only that the monster was suddenly, inconveniently, mortal.
 
-Ethan shifted his weight, his back sliding slightly down the brick. He took a deep breath, the cold air filling his lungs. He checked his pockets. His wallet was there. His phone was there. His keys were there. Everything was in its place. He was just a man standing on a street corner, shaking because of adrenaline, not because he was broken.
+A sound from the table cut through the tension. It was a sharp, wet snap, followed by the distinct clatter of ceramic shattering on the floor.
 
-The super in the window raised his head and looked directly at Ethan. Their eyes met through the glass. The man’s expression was unreadable, a mask of polite indifference that didn’t match the confusion Ethan had seen moments before. He didn’t wave. He didn’t shout. He simply stared, his gaze heavy and assessing.
+Ethan glanced over his shoulder just in time to see Elena stand up. She didn’t look at the super. She looked at David.
 
-Ethan held the look for a second, his heart giving a single, sharp thump against his ribs. Then he looked away. He pulled his jacket tighter around his shoulders, the wool rough against his neck. He began to walk down the sidewalk, his steps measured and steady. He didn’t look back. He kept his eyes on the street, on the shadows between the parked cars, on the distant hum of the city. He was going home. He was going to make a cup of tea. He was going to exist.
+"David," she said. Her voice was steady, though her hands were still trembling slightly. "Get the check."
+
+David blinked, his mouth opening and closing. "The... the check, Ms. Vance?"
+
+"Yes, David. And then we leave."
+
+The super took a step forward, his foot scuffing against the sticky bar floor. "You can't just walk out," he said. His voice cracked, lacking the resonant boom he had used when he had grabbed her chin. It sounded thin, pathetic. "I haven't even finished."
+
+Elena turned then, her gaze sliding over the super like she was inspecting a stain on a carpet. She didn't raise her voice. She didn't need to. The shift in the room’s atmosphere was palpable. The other patrons, who had been frozen in a mix of horror and fascination, began to stir. A man at the far end of the bar raised his phone, the camera lens catching the light. A woman near the entrance was filming with her phone propped up on a napkin.
+
+The super looked at the phones. He looked at Elena. He looked at his own hands, which were now visibly shaking.
+
+"Ms. Vance," David said, stepping forward, his posture shifting from subservient to protective. He didn't touch the super, but he positioned himself slightly between the table and the exit. "Perhaps we should discuss this another time. Or perhaps not at all."
+
+The super’s face twisted. It was a complex expression, one that mixed rage with a dawning, humiliating realization that the rules of the room had changed. He was no longer the predator. He was just a man who had been caught making a scene, and now there were witnesses.
+
+Ethan turned back to the door. He pushed it open, the cool night air rushing in to meet him. He didn't look back to see if the super tried to follow, or if Elena spoke again. He stepped out onto the sidewalk, the noise of the city washing over him, replacing the suffocating silence of the bar. He pulled his jacket on, buttoning it up to his chin, and began to walk.

@@ -1,43 +1,45 @@
 ﻿{
   "ChapterNumber": 2,
   "ViewpointCharacterId": "ethan_vale",
-  "Objective": "Develop the immediate aftermath of the bar incident from Ethan\u0027s perspective, focusing on the executive\u0027s and sycophant\u0027s reactions to the super\u0027s unexplained power loss, while preserving the mystery of the cause.",
-  "IntendedChange": "Ethan observes the social and physical fallout of the super\u0027s sudden weakness, establishing the executive\u0027s agency in her escape and the super\u0027s confusion, without revealing the source of the suppression.",
+  "Objective": "Develop the immediate aftermath of the bar incident from Ethan\u0027s perspective, focusing on the social and physical consequences for the executive, her sycophant, and the super, while maintaining the mystery of the power loss.",
+  "IntendedChange": "Ethan witnesses the super\u0027s humiliation and the executive\u0027s reassertion of control, establishing the social fallout of the incident without revealing the cause of the suppression.",
   "PacingPosture": "Quiet",
   "ProhibitedPatterns": [
-    "Replaying the specific actions of the assault, the stiletto injury, or the escape sequence from Chapter 1.",
-    "Ethan consciously deciding to suppress the super or recognizing his own role in the power loss.",
-    "Introducing Aurora, police, or other external authorities to resolve the immediate scene.",
-    "The super regaining his powers while still in the bar before the scene concludes."
+    "Replaying the assault or escape sequence from Chapter 1",
+    "Describing the super as being in two different locations simultaneously",
+    "Focusing primarily on Ethan\u0027s internal trauma or fear rather than the external reactions of the other characters",
+    "Revealing Ethan as the cause of the power loss",
+    "Introducing a new threat or confrontation to force escalation"
   ],
   "Scenes": [
     {
       "Sequence": 1,
-      "Purpose": "Ethan exits the bar and pauses on the street to assess his physical state and the immediate safety of the area, establishing his relief and the public visibility of the incident.",
-      "IntendedChange": "Ethan is outside the bar, physically unharmed but shaken, observing the super still inside the window and the executive\u0027s absence from the immediate vicinity.",
+      "Purpose": "Ethan observes the super\u0027s immediate reaction to his sudden loss of power and the physical vulnerability that now exposes him to the consequences of his actions.",
+      "IntendedChange": "The super is left standing in the bar, powerless and humiliated, while the executive and her companion begin to reassert their social dominance over him.",
       "FocusCharacterIds": [
         "ethan_vale",
-        "aggressive_super"
+        "aggressive_super",
+        "victim",
+        "male_sycophant"
       ]
     },
     {
       "Sequence": 2,
-      "Purpose": "Ethan watches the super\u0027s reaction to his lost strength as he attempts to interact with the environment, highlighting the super\u0027s confusion and the lack of public accountability for his actions.",
-      "IntendedChange": "The super is visibly frustrated and powerless in a public setting, while Ethan observes the disconnect between the super\u0027s status and his current physical limitations.",
-      "FocusCharacterIds": [
-        "ethan_vale",
-        "aggressive_super"
-      ]
-    },
-    {
-      "Sequence": 3,
-      "Purpose": "Elena and David emerge from the bar, and their interaction with the super and each other reveals their shifting power dynamic and the executive\u0027s decision to leave the situation entirely.",
-      "IntendedChange": "Elena and David are outside, having chosen to disengage from the super, with Elena asserting her departure and David supporting her, while the super remains isolated and powerless.",
+      "Purpose": "Ethan witnesses the executive and her sycophant manage the social fallout, using their status to dictate the terms of the super\u0027s departure and protect their own reputations.",
+      "IntendedChange": "The executive and her companion establish their control over the situation, forcing the super to leave the bar under their terms rather than his own, highlighting the shift in power dynamics.",
       "FocusCharacterIds": [
         "ethan_vale",
         "victim",
         "male_sycophant",
         "aggressive_super"
+      ]
+    },
+    {
+      "Sequence": 3,
+      "Purpose": "Ethan leaves the bar and reflects on the incident, noting the super\u0027s unexplained weakness and the executive\u0027s unscathed status, while remaining unaware of his own role in the events.",
+      "IntendedChange": "Ethan exits the bar and returns to the street, carrying the memory of the super\u0027s sudden power loss as an unexplained anomaly, setting the stage for his return to ordinary life in Chapter 3.",
+      "FocusCharacterIds": [
+        "ethan_vale"
       ]
     }
   ]
