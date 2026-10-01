@@ -1,35 +1,54 @@
 {
   "Threads": [
     {
+      "Id": "mystery-001",
+      "Type": "Mystery",
+      "Status": 0,
+      "IntroducedChapter": 1,
+      "LastAdvancedChapter": 1,
+      "Summary": "A stranger has arrived at the gate of a mysterious village characterized by black spires and persistent mist. The identity, origin, and purpose of this stranger are currently unknown.",
+      "CurrentQuestion": "Who is the stranger, and what is their reason for arriving at this ominous village?",
+      "RequiredContinuity": [
+        "The setting is a village with black spires shrouded in mist.",
+        "The protagonist/observer is referred to as \u0027the stranger\u0027."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 1,
+          "Development": "A stranger has arrived at the gate of a mysterious village characterized by black spires and persistent mist. The identity, origin, and purpose of this stranger are currently unknown."
+        }
+      ]
+    },
+    {
       "Id": "conflict-001",
       "Type": "Conflict",
       "Status": 0,
       "IntroducedChapter": 2,
-      "LastAdvancedChapter": 19,
-      "Summary": "The immediate Blight threat at the hydraulic throat has been neutralized, and the group has returned to the watchfort. However, the narrative scope has expanded: the group acknowledges that the primary entity (the \u0027spires\u0027 or temple entity) was only starved, not killed, and remains a hungry, active threat. The group has established a new objective to travel to a way station near the western edge of the city to assess the status of the local population and secure supplies, marking a transition from tactical combat to logistical and investigative movement.",
-      "CurrentQuestion": "What is the status of the population at the western way station, and how does the surviving entity in the spires pose a continued threat now that the group is moving away from the immediate containment site?",
+      "LastAdvancedChapter": 17,
+      "Summary": "The immediate crisis of Kaelen\u0027s collapse has been managed through Maren\u0027s sacrifice, but the larger conflict regarding the Blight flow remains active and escalating. The barrier is now under increasing pressure from the west as the drained Blight moves toward the forest. The group must transition from static defense to a mobile offensive to sever the channel at the Gate of Silence before the surge destroys the seal.",
+      "CurrentQuestion": "Can the group reach the second node in the drainage system and manually redirect the flow before the pressure differential shatters the barrier\u0027s seal?",
       "RequiredContinuity": [
-        "The Blight source at the hydraulic throat is drained, but the main entity in the spires is alive and hungry.",
-        "The group is currently at the \u0027Pick and Axe\u0027 way station, having just arrived.",
-        "The group has a new objective to check on the population at the western way station.",
-        "The barrier is stable, but the group is no longer in the immediate vicinity of the hydraulic throat."
+        "The Blight is moving westward through underground channels.",
+        "The barrier at the Gate of Silence is stable but under increasing suction/pressure from the moving tide.",
+        "Kaelen is incapacitated and cannot act as a pump again until he recovers.",
+        "Maren is exhausted and requires rest before she can assist with the next phase."
       ],
       "CompletedDevelopments": [
         {
           "ChapterNumber": 2,
-          "Development": "Elias and Kaelen encountered the Blight-Touched and were forced into an immediate struggle for survival."
+          "Development": "Elias Thorne and Kaelen are actively hunted by Blight-Touched creatures in the ruined city. These entities are physically resistant to steel but vulnerable to magical disruption. The protagonists have survived an initial encounter through a combination of Elias\u0027s combat skills and Kaelen\u0027s unstable magic, but they remain trapped in a hostile environment where visibility is compromised by the living fog."
         },
         {
           "ChapterNumber": 3,
-          "Development": "Elias and Kaelen retreated through the ruins toward the temple while pursued by the Blight-Touched."
+          "Development": "Elias and Kaelen have reached the ruins of a temple within the corrupted city. During an ambush by three Blight-Touched creatures, Elias engaged them in melee combat to buy time while Kaelen used a reserve mana vial to create a magical shockwave that temporarily repelled the enemies. The creatures demonstrated rapid self-repair capabilities after being hit by magic. Elias successfully forced Kaelen into the temple hall for safety, but Elias himself remains outside, alone and surrounded by the recovering Blight-Touched creatures, facing immediate mortal danger."
         },
         {
           "ChapterNumber": 4,
-          "Development": "Elias and Kaelen survived the Blight-Touched assault and reached the temple while a much larger threat began emerging."
+          "Development": "Elias and Kaelen have successfully repelled the immediate ambush by the Blight-Touched hive mind. The primary threat (the three creatures) has been neutralized, with Elias acting as a physical shield to protect Kaelen while Kaelen utilized his staff\u0027s mana to destabilize and destroy the central entity. Both survivors are now exhausted and wounded but alive, having retreated into the temple hall. The immediate mortal danger has passed."
         },
         {
           "ChapterNumber": 5,
-          "Development": "Elias and Kaelen searched the temple for a defensive solution, deciphered its ancient material, performed the defensive ritual, and successfully erected the barrier."
+          "Development": "Elias and Kaelen have successfully activated ancient magic within the temple to erect a shimmering barrier at the entrance, temporarily sealing off the immediate threat. Both survivors are exhausted and wounded but alive, huddled together inside the fortified temple as they prepare for the arrival of the massive emerging structure."
         },
         {
           "ChapterNumber": 6,
@@ -38,6 +57,10 @@
         {
           "ChapterNumber": 7,
           "Development": "Elias and Kaelen traveled from the city ruins into a dense forest. They discovered signs of previous travelers (an arrow) and ancient containment sites (a fire pit with etchings). Upon encountering an unknown entity within the forest, they learned it is not the Blight but an ancient \u0027keeper\u0027 or memory of the land that the Blight has been trying to reach. The journey continues westward toward the watchfort."
+        },
+        {
+          "ChapterNumber": 8,
+          "Development": "The protagonists encountered the \u0027keeper\u0027 entity again, which tested their compatibility with the land rather than attacking them. Upon passing this test, the forest physically altered its terrain to create a clear, directed path for them, effectively herding them toward a specific goal while closing off other options."
         },
         {
           "ChapterNumber": 9,
@@ -60,52 +83,69 @@
           "Development": "The group finalized their roles for the seal-breaking operation, with Elara taking over the chisel/vibration role from Maren due to Maren\u0027s tremors. They successfully tested and identified the precise resonance frequency required to weaken the seal using a quartz stone and chisel on a ridge outcrop, confirming the method\u0027s viability before descending to the shrine."
         },
         {
+          "ChapterNumber": 14,
+          "Development": "The group reached the \u0027Gate of Silence\u0027 and executed the first phase of the plan. Elara tapped the chisel against the quartz stone, initiating a resonance that weakened the seal. A controlled stream of Blight began flowing from the shrine into the barrier, which consumed it and strengthened. The group confirmed the mechanism works but determined the current flow is insufficient to defeat the Blight source, necessitating a second phase where Kaelen must actively pull the Blight."
+        },
+        {
           "ChapterNumber": 15,
           "Development": "The group identified that the barrier was saturating rather than digesting, risking a catastrophic shatter. They executed a new tactical maneuver to drain the accumulated Blight into the western drainage channels. This required Kaelen to actively \u0027pull\u0027 the flow, acting as a pump at the cost of his own physical integrity. The drain was successful, emptying the barrier, but the Blight is now a moving entity heading west. Kaelen collapsed into a protective sleep, forcing the group to abandon the shrine and pursue the flow into the forest."
         },
         {
-          "ChapterNumber": 16,
-          "Development": "The group transitioned from active crisis management to a state of enforced rest and recovery. They established a safe perimeter within the barrier, treated Kaelen\u0027s physical injuries, and explicitly deferred the pursuit of the western Blight flow until Kaelen wakes and the group is rested. This marks a pause in the active conflict to preserve the group\u0027s operational capacity."
-        },
-        {
           "ChapterNumber": 17,
-          "Development": "The group formulated a new tactical plan to intercept the Blight at a \u0027hydraulic throat\u0027 in the western channels. They identified this location on the bronze map as a point of high pressure where the channel narrows. The strategy involves using Kaelen as a sensor to synchronize the barrier\u0027s intake with the Blight\u0027s flow, rather than forcing a drain. They also identified a secondary \u0027spillway\u0027 as a fail-safe. This marked a shift from passive containment/rest to active, precise interception, and the group began moving to execute the plan."
+          "Development": "The group has identified that the current containment strategy (static defense) is failing due to increasing pressure from the moving Blight. Elias has proposed a new tactical maneuver: reaching the second node in the drainage system to manually redirect the flow, rather than relying on Kaelen or the barrier\u0027s digestion capacity. The group has agreed to move west immediately after Maren recovers."
+        }
+      ]
+    },
+    {
+      "Id": "character-goal-001",
+      "Type": "Character Goal",
+      "Status": 0,
+      "IntroducedChapter": 2,
+      "LastAdvancedChapter": 8,
+      "Summary": "Elias and Kaelen are continuing their journey westward toward the watchfort, but their route is now dictated by the sentient forest. Their immediate goal has shifted from simple survival to navigating a guided path that leads them deeper into the ancient system.",
+      "CurrentQuestion": "Will they successfully reach the watchfort before the Blight breaches the defenses or consumes the land? Can they maintain their friendship and resolve under the pressure of this guided journey?",
+      "RequiredContinuity": [
+        "They are traveling together.",
+        "They possess a map of underground shrines.",
+        "They are wounded and exhausted."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 2,
+          "Development": "Elias and Kaelen are attempting to navigate through the dangerous ruins of the old temple district while avoiding detection by scavengers and Blight-Touched creatures. Their immediate objective is survival and escape from the current threat."
         },
         {
-          "ChapterNumber": 18,
-          "Development": "The group navigated to the hydraulic throat and executed the synchronized barrier strike. Elias used the quartz stone and chisel to guide the resonance, while Kaelen, acting as a sensor, allowed the barrier to consume the Blight. The operation was successful, draining the source and stabilizing the barrier, though Kaelen experienced a near-collapse that was averted by Torin and Maren\u0027s intervention."
-        },
-        {
-          "ChapterNumber": 19,
-          "Development": "The group returned to the watchfort and then departed for the \u0027Pick and Axe\u0027 way station. They explicitly acknowledged that the main entity was not killed but merely starved, establishing it as a continuing threat. They formulated a new plan to travel to the western way station to check on the local population and secure supplies, shifting the narrative focus from immediate tactical defense to broader world exploration and resource management."
+          "ChapterNumber": 8,
+          "Development": "After a moment of respite where they bonded over memories of the past, the situation escalated when the \u0027keeper\u0027 tested them. Upon passing, the forest altered their path, forcing them to move quickly toward a new destination while maintaining their physical wounds and exhaustion."
         }
       ]
     },
     {
       "Id": "mystery-002",
-      "Type": "Mystery",
+      "Type": "Character Goal",
       "Status": 0,
       "IntroducedChapter": 2,
-      "LastAdvancedChapter": 20,
-      "Summary": "The mystery of Kaelen\u0027s operational capacity has shifted from \u0027can he survive\u0027 to \u0027how long can he sustain this new state\u0027. The chapter confirms that Kaelen can now actively regulate the resonance as a \u0027bridge\u0027, but the duration of this state remains unknown. Maren\u0027s observation of his stability suggests a potential breakthrough in managing his condition, yet the underlying cost of this sustained connection remains an open question regarding his long-term health and identity.",
-      "CurrentQuestion": "How long can Kaelen sustain this new active \u0027bridge\u0027 state without degradation, and what are the cumulative costs of this sustained resonance on his physical and mental stability?",
+      "LastAdvancedChapter": 17,
+      "Summary": "Maren\u0027s active magical intervention to stabilize Kaelen has reached a critical threshold of depletion. Her reserves are exhausted, and she is physically failing (cold, trembling), yet she refuses to stop as the only one who can maintain his frequency. Torin has intervened to force her to rest, establishing a new dynamic where the group must manage her exhaustion while preventing Kaelen\u0027s collapse.",
+      "CurrentQuestion": "Can Maren recover enough strength to continue stabilizing Kaelen without dying herself, and will the group successfully execute the plan to redirect the Blight flow before the pressure shatters the barrier?",
       "RequiredContinuity": [
-        "Kaelen\u0027s role has shifted from passive sensor to active bridge.",
-        "Maren is monitoring Kaelen\u0027s condition closely.",
-        "The group is preparing for a mission that will likely require Kaelen to utilize this new capacity."
+        "Maren is exhausted and her magic reserves are depleted.",
+        "Kaelen is stable but critically dependent on Maren\u0027s active warmth/magic.",
+        "The barrier is under increasing external pressure (suction) due to the moving Blight flow.",
+        "Torin has taken charge of managing Maren\u0027s rest, preventing her from burning out completely."
       ],
       "CompletedDevelopments": [
         {
           "ChapterNumber": 2,
-          "Development": "Elias and Kaelen established that the Blight-Touched posed an active supernatural threat within the ruined settlement."
+          "Development": "The nature of the \u0027Blight\u0027 and its connection to Kaelen\u0027s magic is partially revealed. The Blight-Touched creatures are corrupted by the same energy that fuels Kaelen\u0027s magic, suggesting a deeper link between the protagonist\u0027s abilities and the environmental corruption."
         },
         {
           "ChapterNumber": 3,
-          "Development": "The pursuit demonstrated that the Blight-Touched could continue hunting Elias and Kaelen through the ruins with unnatural persistence."
+          "Development": "The connection between the Blight and Kaelen\u0027s magic is further evidenced by the reaction of the environment and creatures to his power. When Kaelen shattered the mana vial, the living fog recoiled and burned away, and the Blight-Touched creatures were blinded and repelled, screeching in pain. However, the creatures also demonstrated a terrifying ability to rapidly repair the damage caused by this magical energy, suggesting that while they are vulnerable to the magic\u0027s immediate impact, their corruption allows them to withstand or heal from it quickly."
         },
         {
           "ChapterNumber": 4,
-          "Development": "Elias and Kaelen discovered that the Blight-Touched are connected through a hive mind, can reform their physical bodies, are attracted to Kaelen\u0027s mana, and can have their cohesion disrupted by his magic."
+          "Development": "The nature of the Blight\u0027s resilience is further clarified: the creatures are not merely regenerating but are part of a single hive mind capable of reformulating its physical form (shedding limbs to strike multiple times) and dissolving into smoke before reforming. Kaelen\u0027s mana acts as a beacon that attracts them, and his magic disrupts their cohesion rather than killing them instantly, causing them to destabilize when overwhelmed."
         },
         {
           "ChapterNumber": 6,
@@ -114,6 +154,10 @@
         {
           "ChapterNumber": 7,
           "Development": "Elias and Kaelen encountered a non-Blight entity within the forest that identified itself as \u0027the keeper\u0027 or the memory of the land. It revealed that the Blight has been trying to reach this specific point but cannot destroy it. This suggests the Blight is not just a corruption but a force seeking something fundamental to the world\u0027s history."
+        },
+        {
+          "ChapterNumber": 8,
+          "Development": "The \u0027keeper\u0027 explicitly stated it was testing Elias and Kaelen to see if they were part of the system it protects or the thing that breaks it. The entity confirmed the gauntlet is a key, not just magic, and demonstrated its ability to judge travelers\u0027 compatibility with the land."
         },
         {
           "ChapterNumber": 9,
@@ -149,15 +193,7 @@
         },
         {
           "ChapterNumber": 17,
-          "Development": "Maren provided a critical diagnosis of Kaelen\u0027s condition, stating he is a \u0027cauterized wound\u0027 and that using him as a high-intensity conduit again would cause him to dissolve. This established a hard limit on Kaelen\u0027s operational capacity, forcing the group to redefine his role from a high-risk \u0027pump\u0027 to a low-risk \u0027sensor\u0027. The group accepted this limitation and planned their strategy around preserving his viability through focused, low-intensity tasks rather than mass transfer."
-        },
-        {
-          "ChapterNumber": 18,
-          "Development": "Kaelen successfully acted as a sensor during the hydraulic throat operation, guiding the barrier\u0027s consumption. However, the strain caused him to nearly collapse, with symptoms including blue lips, erratic pulse, and dissociation. Maren and Torin intervened to stabilize him, confirming that his role is viable but extremely dangerous and requires constant monitoring and physical support."
-        },
-        {
-          "ChapterNumber": 20,
-          "Development": "Kaelen successfully demonstrated the ability to actively regulate his resonance as a \u0027bridge\u0027, sustaining the flow without collapsing or losing control. His eyes cleared, and he reported feeling the barrier\u0027s hunger being satisfied by his connection. However, when asked how long he can maintain this state, he admitted uncertainty, indicating that while the capability exists, the duration and cumulative cost of this new mode of operation remain unresolved."
+          "Development": "Maren\u0027s magic reserves have been fully drained by stabilizing Kaelen. Torin physically intervened to force her to stop and rest, acknowledging that she cannot channel magic while her own body is failing. The group has shifted from a passive waiting state to an active planning phase regarding redirecting the Blight flow via the drainage channels before dawn."
         }
       ]
     },
@@ -166,22 +202,22 @@
       "Type": "Mystery",
       "Status": 0,
       "IntroducedChapter": 4,
-      "LastAdvancedChapter": 20,
-      "Summary": "The group has moved from theoretical planning to practical verification of their containment system\u0027s mechanics. By testing the resonance frequency at the ridge outcrop, they have confirmed that the seal can be manipulated by a steady hand and precise rhythm, regardless of the operator\u0027s medical background. This advances their understanding of the world beyond the immediate threat, revealing that the containment system relies on specific mechanical frequencies rather than just raw power, and that the local population (represented by the way station) is still functioning despite the Blight.",
-      "CurrentQuestion": "What are the broader implications of this verified resonance mechanic for future operations against the main entity, and how does the group\u0027s ability to manipulate these frequencies affect their relationship with the local infrastructure and population?",
+      "LastAdvancedChapter": 17,
+      "Summary": "The barrier\u0027s stability is no longer guaranteed. The resonance has shifted from a steady hum to a discordant groan, and the dome is pulsing with a bruised violet hue as external pressure increases. The mystery of how long the barrier can hold against the moving tide without active maintenance or redirection is becoming urgent.",
+      "CurrentQuestion": "Will the increasing pressure from the west cause the barrier to shatter before the group can reach the second node and redirect the flow?",
       "RequiredContinuity": [
-        "The containment system relies on specific mechanical frequencies.",
-        "The group has verified the method for manipulating the seal.",
-        "The western way station is a functioning establishment."
+        "The barrier is currently acting as a shelter but is under stress.",
+        "The resonance frequency has shifted, causing the barrier to \u0027eat\u0027 faster than it can digest.",
+        "The seal at the Gate of Silence is weakening due to the pressure differential."
       ],
       "CompletedDevelopments": [
         {
           "ChapterNumber": 4,
-          "Development": "A massive unknown structure or entity began emerging from the mist as Elias and Kaelen reached the temple."
+          "Development": "A new, colossal entity or structure has emerged from the mist near the temple. It is described as larger and darker than anything seen before, rising like a jagged tooth, accompanied by heavy footsteps echoing from within the earth itself. Its identity, origin, and purpose are currently unknown."
         },
         {
           "ChapterNumber": 5,
-          "Development": "Elias and Kaelen investigated the temple, determined that its ancient runes and seals were connected to containing the Blight, and used that knowledge to erect the temple barrier before the approaching entity arrived."
+          "Development": "The massive emerging structure has not yet breached the barrier. Elias and Kaelen have identified the temple\u0027s purpose as containing the Blight and are utilizing ancient runes to reinforce defenses against this specific entity. The immediate question shifts from \u0027what is it\u0027 to \u0027how do we survive its arrival\u0027."
         },
         {
           "ChapterNumber": 6,
@@ -190,6 +226,10 @@
         {
           "ChapterNumber": 7,
           "Development": "Elias and Kaelen discovered that the forest is not natural but shaped by ancient forces. They found etchings on trees and a fire pit indicating previous attempts at containment. The encounter with the \u0027keeper\u0027 revealed that the Blight\u0027s goal is to reach this ancient memory, implying the threat is not just physical corruption but an existential attempt to overwrite or access something fundamental."
+        },
+        {
+          "ChapterNumber": 8,
+          "Development": "The encounter with the \u0027keeper\u0027 confirmed that the forest itself is a functional part of the containment system, capable of physically reshaping its environment (creating a clear corridor) to guide or restrict movement based on the travelers\u0027 status within the system."
         },
         {
           "ChapterNumber": 9,
@@ -225,19 +265,7 @@
         },
         {
           "ChapterNumber": 17,
-          "Development": "Elias analyzed the bronze map and identified \u0027hydraulic throats\u0027 in the channel network\u2014constrictions that increase pressure and alter resonance. He proposed using one of these throats as a fulcrum to synchronize the barrier\u0027s consumption with the Blight\u0027s flow. The group also identified a secondary \u0027spillway\u0027 or collapsed section as a fail-safe. This discovery expanded their understanding of the containment system\u0027s mechanics, revealing it as a complex hydraulic network with manipulable pressure points and fail-safes."
-        },
-        {
-          "ChapterNumber": 18,
-          "Development": "The group successfully used the hydraulic throat to drain the Blight source, confirming that the containment system\u0027s mechanics can be used offensively. The barrier is now stable and fed, and the immediate threat has been neutralized. This expands their understanding of the containment system\u0027s capabilities and opens up new possibilities for future operations."
-        },
-        {
-          "ChapterNumber": 19,
-          "Development": "The group arrived at the \u0027Pick and Axe\u0027 way station, discovering that it is a functioning establishment with a caravan from the capital arriving. This revealed that the world beyond the immediate containment zone is still functioning, albeit in a fragile state. The group\u0027s new objective to investigate the western way station opened up new avenues for understanding the broader impact of the Blight and the containment system on the local population and infrastructure."
-        },
-        {
-          "ChapterNumber": 20,
-          "Development": "The group conducted a field test at the ridge outcrop, empirically verifying that the seal can be manipulated by a steady hand and precise rhythm. Elara successfully demonstrated this capability, proving that the containment system\u0027s mechanics are accessible through specific techniques rather than just raw power. This confirmation expands their understanding of the world\u0027s infrastructure and prepares them for the upcoming mission to the western way station."
+          "Development": "The barrier\u0027s state has deteriorated from stable containment to active distress. The external pressure (suction) is increasing, causing the dome to pulse and the resonance to become discordant. The group realizes that the current flow velocity is unsustainable, necessitating immediate action to redirect the Blight rather than just containing it."
         }
       ]
     }

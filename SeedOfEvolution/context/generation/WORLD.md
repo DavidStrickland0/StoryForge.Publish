@@ -10,3 +10,9 @@
 
 
 - Apex Research Institute is actively recruiting participants for its Experimental Medicine Program.
+
+
+- Apex Research Institute's male-fertility trial has fourteen active participants.
+
+
+- The male-fertility trial is at capacity and does not accept new applications unless a slot opens.

@@ -50,4 +50,40 @@
 
 - Participants in the male-fertility trial can withdraw at any time without questions.
 
+
+- The male-fertility trial stipend is $4,200.00 per month.
+
+
+- The stipend is paid on the first of the month via direct deposit.
+
+
+- The trial duration is twelve weeks.
+
+
+- Participants must take one oral tablet with a full glass of water daily within a two-hour window.
+
+
+- Participants must provide a semen sample daily in a designated clinical room.
+
+
+- The sample collection process must be completed within thirty minutes of entering the room.
+
+
+- If a participant fails to complete the process within thirty minutes, they are asked to leave and the day's stipend is forfeited.
+
+
+- The trial is currently at capacity with fourteen active participants.
+
+
+- New applications are not accepted unless a current participant withdraws.
+
+
+- A participant named Mr. Henderson withdrew from the trial last week for personal reasons.
+
+
+- The collection room is open from 8:00 AM to 8:00 PM.
+
+
+- The collection process normally takes approximately fifteen to twenty minutes, including preparation.
+
 ## Changes Over Time
