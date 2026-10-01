@@ -41,6 +41,15 @@
 
 - The immediate threat of the barrier shattering has been resolved.
 
+
+- Maren's magic is draining faster than she can replenish it.
+
+
+- The resonance is shifting. The seal at the Gate of Silence isn't holding the flow back anymore. The pressure differential is increasing the velocity.
+
+
+- The barrier is eating faster than it can digest.
+
 ## Unresolved Information
 
 

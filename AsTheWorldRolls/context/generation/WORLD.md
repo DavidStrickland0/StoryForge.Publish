@@ -85,3 +85,12 @@
 
 
 - The barrier surrounding the clearing is stable and functioning as a shelter.
+
+
+- The resonance is shifting. The seal at the Gate of Silence isn't holding the flow back anymore. The pressure differential is increasing the velocity.
+
+
+- The barrier is eating faster than it can digest.
+
+
+- If we don't stabilize the flow, the surge will shatter the seal and flood this room.
