@@ -1,35 +1,47 @@
-The waiting did not last as long as he expected, nor did it last as long as he feared. In the void, time was a suggestion rather than a law, stretching and compressing like taffy pulled by an unseen hand. One moment, Caelen was standing rigid, his eyes closed, listening to the silent hum of the blue interface. The next, he was sitting.
+The stillness held. It was a heavy, textured quiet, the kind that settles into the bones of a house after the last guest has left and the doors have been latched against the wind. Caelen drifted in it, his consciousness suspended in the gray luminescence, the two columns of the digit *1* hovering in the periphery of his mind. They were static, unmoving, and utterly silent. They did not pulse. They did not glow. They simply were, like a crack in a dry riverbed or a scratch on a table surface: a permanent feature of the landscape he now inhabited.
 
-He did not remember deciding to sit. The landscape around him had shifted, the floating shards of memory coalescing into something resembling a low stone bench, rough-hewn and familiar. It was the bench from the back room of the motor pool, the one he and Davis used to lean against while pretending to inspect a vehicle that needed no inspection. The wood was cold, but the cold was distant, a concept rather than a sensation.
+He tried to look at them directly.
 
-Caelen opened his eyes. The interface still hovered before him, unchanged. *DOMINION: 1. SACRIFICE: 1.*
+The effort felt strange, like trying to turn his head to look at his own ear. The numbers didn’t shift in response to his intent. They remained fixed in the corner of his awareness, indifferent to his curiosity. He could feel them there, a cold weight in the back of his skull, but they offered no explanation, no context, and no voice. They were data without a narrative. They were a receipt without a store.
 
-The numbers were static. They did not blink. They did not pulse with energy. They simply existed, as inevitable and unremarkable as the gravity that kept his feet planted on the ground of his own mind.
+Caelen let out a breath he didn’t have.
 
-He looked at his hands again. They were smooth, unlined, and utterly uninteresting. The calluses that had been his armor in life were gone. The scars from the shrapnel in Fallujah, the burn from the welding torch in the shop, the nick above his eyebrow from a stray shell casing—none of them were here. This body was a blank slate, a draft waiting to be edited. He flexed his fingers, expecting the resistance of tendons and muscle, but found only a fluid, weightless responsiveness. It was like moving through water that offered no drag.
+It was a purely mental reflex, a ghost of the physical act that had defined his existence for eighteen years. In the void, breath was just another concept, a memory of a necessity that no longer applied. He floated in the absence of gravity, the absence of air, the absence of the constant, low-level hum of pain that had been his companion since the bullet struck his chest. The pain was gone. The fear was gone. The smell of cordite and wet concrete was gone. All that remained was the gray light and the two ones.
 
-He turned his attention back to the interface. He tried to speak, to demand an explanation, a manual, a contact number. The sound that came out of his throat was less a voice and more a vibration, a ripple in the air that dispersed before it could form a word. The interface did not react. It did not offer a help screen. It did not apologize for its lack of user-friendly design.
+He focused on the first one.
 
-It was, Caelen realized with a detached, almost amused clarity, the most efficient piece of software he had ever encountered. It told him exactly what it was, and nothing else. It did not flatter him. It did not judge him. It simply recorded.
+It sat in a column on the left side of his perception. It was sharp, angular, and definitive. He tried to associate it with something. He looked for a label, a name, a description. *What is this?* he asked the silence. *What did I buy? What did I do?*
 
-*Dominion: 1.*
+Nothing answered.
 
-He thought of the way he had talked Davis into taking the extra shift, how he had positioned himself to receive the commendation for the vehicle maintenance report he hadn’t written. He had done it because it was easy, because it worked, because the world was a machine that rewarded those who knew how to turn the gears. The System had looked at that, weighed it, and given him a point. One. A single, atomic unit of self-interest.
+He tried to manipulate it. He pushed against it with his will, trying to make it move, to make it expand, to make it do something. The number remained rigid. It did not respond to his frustration. It did not respond to his command. It simply existed, a single, immutable unit of value. He had been a Marine. He had been a leader, a weapon, a tool. He had been used to things responding to his pressure, his voice, his intent. This did not.
 
-*Sacrifice: 1.*
+He turned his attention to the second one.
 
-He thought of the mother in the courtyard. The way she had clutched the bundle to her chest. The way the infant’s face had been still, peaceful, and utterly devoid of the complexity that defined his own existence. He had thrown himself into the line of fire not because he was noble, but because the alternative—watching her die—was a geometry he could not solve. He had chosen the path of least resistance, and that path had led to his death. The System had looked at that, weighed it, and given him a point. One. A single, atomic unit of surrender.
+It sat in a column on the right side of his perception. It was identical to the first. Same shape, same weight, same indifference. Two ones. A pair. A balance.
 
-The symmetry was eerie. One for the man who used others. One for the man who gave himself. They were equal. They were balanced. And they meant nothing to him, yet they defined everything he was.
+Caelen stared at them. Or rather, he allowed them to stare back at him. The duality was strange. In his previous life, things had been binary in a different way. Friend or enemy. Alive or dead. Win or lose. There was no in-between, no middle ground where both sides held equal weight. He had always been on one side of the equation, usually the side that held the gun. Now, he was holding two identical pieces of something he couldn’t name.
 
-Caelen leaned back against the stone bench. The memory-shards around him began to drift closer, coalescing into a faint, hazy mist. He could see fragments of his life flickering at the edges of his vision: the smell of gun oil, the taste of cheap coffee, the sound of Miller’s voice barking orders. They were not painful. They were just data. Experience.
+He tried to calculate.
 
-He had been afraid that this would be a punishment. That the silence would be a void of emptiness, a hell of its own making. Instead, it was a library. A vast, quiet archive of everything he had ever been, preserved in perfect, unchanging detail.
+He was a Marine. He was good at math. He was good at logistics, at ammunition counts, at casualty ratios. He tried to apply those frameworks to the numbers. If one represented strength, did the other represent weakness? If one was life, was the other death? If one was good, was the other evil?
 
-He looked at the interface one last time. The blue light was steady, reliable. It was a promise. It said that his actions had weight. That they mattered. That he was not just a body moving through the world, but a soul accumulating consequence.
+He discarded those ideas. They felt too simple, too neat, too much like a textbook answer to a question he hadn’t asked. The numbers didn’t feel like moral judgments. They felt like inventory. They felt like a ledger.
 
-Caelen closed his eyes. The waiting was no longer a burden. It was a state. A suspension. He was a seed in the dark, waiting for the rain. He did not know when it would come, or where it would fall, but he knew that when it did, he would be ready. Or perhaps he would not be. That was the point. The crucible did not care about his readiness. It only cared about his choice.
+He remembered the courtyard. He remembered the mother. He remembered the dead infant in her arms. He remembered the sound of Miller’s rifle, the hot spray of blood on his face, the way the world had tilted and then stopped. He remembered the sudden, inexplicable decision to move, to throw his body into the path of the bullets, to accept the end because the other option was worse.
 
-And for the first time in his life, Caelen was not afraid of the choice. He was curious.
+He had not done it for glory. He had not done it for a medal. He had not done it because he was a hero. He had done it because he was there, and she was there, and the bullet was coming, and he had chosen to be the thing that stopped it. It was a transaction. A trade. His life for hers.
 
-The mist settled around him, soft and cool. The interface hummed its silent, blue song. And Caelen waited.
+And now, here he was, holding two ones.
+
+He didn’t know what they meant. He didn’t know how to spend them. He didn’t know if they were an asset or a liability. He didn’t know if they were a reward or a debt. He only knew that they were his, and they were equal, and they were silent.
+
+He let his mind drift back to the gray light. It was soothing, in a way. It was the absence of demand. In the void, there was nothing to do. There was no mission to accomplish, no enemy to neutralize, no superior to impress. There was only the waiting.
+
+Caelen settled deeper into the stillness. He stopped trying to force the numbers to make sense. He stopped trying to extract a meaning from them. He let them be what they were: two points of light in the darkness, two marks on a page that he would read later, when he was ready, when the story had moved to a chapter where the words made sense.
+
+For now, the silence was enough.
+
+He was a soul, suspended in time, carrying a secret that no one else could see and no one else could verify. He was waiting. And for the first time in his life, the waiting did not feel like a loss of control. It felt like a pause. A rest between movements in a song he hadn’t finished hearing.
+
+The gray light pulsed around him, slow and steady. Caelen drifted, the numbers hovering in the periphery of his consciousness, a silent, neutral witness to his existence. He was still. He was waiting. And in the vast, indifferent quiet of the void, he began to settle into the shape of his own rest.
