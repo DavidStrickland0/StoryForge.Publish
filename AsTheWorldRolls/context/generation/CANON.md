@@ -212,6 +212,12 @@
 
 - Kaelen's magic usage caused his skin to become translucent with visible dark veins and resulted in fissures on his forearms that leaked greenish mist.
 
+
+- The watchfort contains an opening in the floor that connects the hearth to the room.
+
+
+- The group has agreed to wait until Kaelen responds before moving him.
+
 ## Changes Over Time
 
 
@@ -234,3 +240,9 @@
 
 
 - The fissures on Kaelen's forearms were previously leaking greenish mist; they have now dried into jagged scars and the leaking has stopped.
+
+
+- Kaelen's gauntlet was previously cold and inert; it is now warm and stable under the group's combined efforts.
+
+
+- The barrier was previously flickering faintly; it is now pulsing with a rhythm that feels less like a steady beat and more like a slow, heavy thrumming.

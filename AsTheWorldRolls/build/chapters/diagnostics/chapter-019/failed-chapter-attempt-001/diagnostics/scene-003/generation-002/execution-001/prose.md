@@ -1,0 +1,49 @@
+The frost on the windowpanes had melted, leaving behind streaks of water that ran slowly down the cold glass. The dampness that had clung to the air inside the room receded as Kaelen’s magic pulsed through his gauntlet, a steady, rhythmic thrumming that felt less like a violent shudder and more like a deep, resonant hum vibrating in the floorboards beneath their feet. The warmth radiating from him was not the desperate, frantic heat of Maren’s fading magic; it was stable, controlled, and sufficient to keep the frost at bay without pushing the barrier’s resonance into a dangerous overload.
+
+Maren stood near the hearth, her hands wrapped around the small water skin she had just filled. The cloth around her mouth hung loosely now that she had pulled it away, revealing lips cracked by thirst and exhaustion but no longer trembling. She did not speak of her own condition; she simply nodded once, a sharp, decisive gesture, and turned toward the crate near the hearth where supplies lay scattered—a small water skin half full, a roll of bandages, and Elias’s bronze map case. She began gathering them with mechanical precision, avoiding the look of fear that had haunted the room until moments ago.
+
+Elias stood by the table, his fingers tracing the lines on the bronze plate map. The heat extraction system he had rigged from the hearth stones and iron pot was active, a low hiss of escaping steam that kept the air around Maren warm without depleting her magic reserves. He glanced up as Torin stepped fully inside the room, closing the heavy oak door against the wind and the encroaching darkness outside. The doorway was now a solid barrier of wood, sealing out the fog that pressed insistently against the watchfort’s walls.
+
+“Torin,” Elias said, his voice low and practical. “The drainage ditch route is clearable within ten minutes.”
+
+Torin crossed his arms over his chest, the scarred muscles of his shoulders shifting beneath his leather armor. He had moved from the doorway to stand with the rest of them in the center of the room, though he kept his distance, hovering near Maren as if her presence was a liability he needed to monitor. “The western flow is moving too fast for us to wait for dawn,” Torin said. “If we don’t move before the seal at the Gate of Silence fails completely, we won’t have any choice but to run.”
+
+Elias nodded, tapping a finger against the map. “The pressure differential will increase the velocity by the time we’re ready. If Kaelen channels now instead of pulling later, we can push the surge through the barrier before it becomes unmanageable. But once the seal breaks, the Blight won’t wait for us to catch up.”
+
+Kaelen sat on his cot, his back against the rough wooden slats. He had managed to sit up without assistance, a small victory that spoke of his improving stability even if he remained physically drained. His skin was still pale and translucent, the dark veins beneath fading but not gone. The jagged scars on his forearms were dry, no longer leaking mist, though they felt raw against the cool air of the room. He held his gauntlet out before him, watching the runes shift from a dull grey to a faint, pulsing violet as he regulated the flow. It was a delicate balance; too little magic and the barrier would lose its grip, but too much and he would collapse again.
+
+“I’m ready,” Kaelen said, his voice quiet but steady. He didn’t speak of feeling weak or tired; he simply stated the fact, as if his exhaustion were irrelevant to the immediate task at hand.
+
+Torin looked at him, then at Elias, then back at Kaelen. “You’re sure you can handle this?” Torin asked. The question was directed not just at Kaelen, but also at the group’s collective resolve. They had agreed on a course of action, but the weight of moving west with Kaelen still depleted hung heavily in the air.
+
+“I’m sure,” Elias replied, his tone leaving no room for doubt. “The resonance is shifting. If we don’t act now, the seal will burst regardless of whether we’re ready. And if it bursts, there’s nowhere to run.”
+
+Torin grunted, a sound that might have been approval or resignation depending on the listener’s interpretation. He stepped closer to Kaelen, his large hands resting near the young man’s shoulders in a gesture that was both supportive and protective. “Get dressed,” Torin ordered. “We’re moving in five minutes.”
+
+Maren pulled the cloth away from her mouth completely, revealing lips that were cracked and dry. She didn’t say anything about her own state; she simply nodded and turned toward the crate near the hearth where supplies lay scattered—a small water skin half full, a roll of bandages, and Elias’s bronze map case. She began gathering them with mechanical precision, avoiding the look of fear that had haunted the room until moments ago. Her movements were efficient, each action calculated to minimize waste and maximize readiness.
+
+Kaelen stood up slowly, his legs stiff from hours of inactivity. He adjusted his clothes without complaint, the fabric rough against his skin but familiar enough to require no adjustment. The gauntlet felt heavy on his wrist, a reminder of the burden he carried, but it was stable under his control now. He took a deep breath, tasting the copper and rot that still lingered in the air, and nodded once more to Torin.
+
+“Good,” Elias said, closing the map case with a firm click. “Let’s go before the pressure builds further.”
+
+The group moved toward the door, their steps synchronized by habit rather than urgency. They passed through the threshold into the corridor beyond, the watchfort’s interior giving way to the open slope that led down to the forest edge. The path was clear, though the ground was slick with mud and black water where the Blight had altered the local water table. Torin took point, his sword drawn but not raised, scanning the dark for signs of movement or disturbance.
+
+Behind him, Maren carried the supplies she had gathered, her cloak wrapped tightly around her shoulders despite the warmth radiating from Kaelen. Elias followed with the map case tucked under his arm, ready to consult it if the terrain proved more treacherous than expected. Elara brought up the rear, her notebook closed but within reach, though she said nothing about reading or studying. The group was united now, not by shared hope or comfort, but by a common purpose that demanded action before the situation escalated beyond their control.
+
+The barrier outside pulsed with a slow, heavy thrumming that felt less like a steady beat and more like a heartbeat, its violet hue deepening as it consumed the Blight flowing through it. The structure beyond the temple entrance remained visible in the distance, a black spire rising into the clouds, crowned by shifting green lights that pulsed in time with the barrier’s rhythm. It was a reminder of what they were fighting against, and yet, despite the threat it represented, the group pressed forward without hesitation.
+
+Kaelen walked beside Torin, his steps measured and steady despite the exhaustion that pulled at every muscle. He focused on maintaining the warmth he generated, ensuring that the frost receded as they moved but without overloading his reserves. The air around them remained clear of fog, a narrow strip of safety carved out by their collective effort.
+
+As they descended the slope, the forest loomed ahead, its ancient trees forming natural barriers that seemed to shift subtly in response to their presence. The ground beneath their feet was stable enough for now, though the roots and soil still bore signs of recent corruption. Torin kept his senses alert, his large hands gripping his sword hilt as he scanned the undergrowth for any sign of movement or disturbance.
+
+Maren glanced back at Kaelen, her eyes catching the faint violet light that emanated from him. She didn’t speak of it; she simply acknowledged his presence with a nod, a silent acknowledgment of the sacrifice he had made and the role he still needed to play. Elias fell into step beside her, offering a brief comment about the drainage ditch they were approaching, his voice low and practical as he explained the route they would take once they reached the shrine.
+
+Elara stayed quiet, her sharp eyes scanning the forest for any sign of danger or opportunity. She carried herself with a scholar’s detachment, though there was a quiet intensity in her gaze that suggested she was listening to something beyond the sounds of wind and water. The group moved as a single unit, each member aware of their role and responsibilities without needing explicit instruction.
+
+They reached the edge of the drainage ditch where the channel entrance lay hidden beneath the surface of the mud and black water. Torin signaled for them to pause, his hand gesturing toward the fissure in the stone that emitted a faint green glow. The quartz stone fitted precisely into the groove carved into the fissure, ready for Elara to tap it with a chisel and initiate the resonance mechanism needed to weaken the seal further.
+
+“Hold your positions,” Torin ordered. “Elias, monitor the barrier’s stability. Maren, keep Kaelen focused.”
+
+Kaelen nodded once, his hands resting on his gauntlet as he prepared to channel magic again. The group stood ready, united in their decision to move west immediately rather than wait for dawn. The air was still, the only sound coming from the distant thrumming of the barrier and the soft rustle of leaves above them.
+
+They waited a moment, letting the silence settle around them before Torin gave the signal to proceed. Elara stepped forward with her chisel and quartz stone, tapping the crystal against the groove with a precise strike that produced a low-frequency vibration that traveled through the stone and

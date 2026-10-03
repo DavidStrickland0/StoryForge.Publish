@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "bookId": "storyforge-seed-of-evolution",
+  "assignments": [
+    {
+      "characterId": "chapter-001-receptionist-01",
+      "voiceId": "voice-070b12697a45f754",
+      "confidence": 0.5,
+      "rationale": "Selected a female voice from the available options to match the character description of a middle-aged woman receptionist. No specific voice traits or accent requirements were specified in the metadata, so a neutral female voice is appropriate for this minor role.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "adrian-vale",
+      "voiceId": "voice-3889362671fcb2f7",
+      "confidence": 0.7,
+      "rationale": "Selected voice-3889362671fcb2f7 as it\u0027s marked narratorSuitable, which is preferred for sustained narration. The role of Adrian Vale is a major character who will require significant voice time. While the voice metadata doesn\u0027t specify apparent age or qualities that directly match a college freshman, the narratorSuitable flag makes this the best choice among available options. No other voices provide clear matching characteristics for this role.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "dr-aris-thorne",
+      "voiceId": "voice-0439e4bc5b2c7934",
+      "confidence": 0.5,
+      "rationale": "Selected a male voice as the character is Dr. Aris Thorne who is male. No specific voice traits or age are specified in the character description, so a neutral male voice is appropriate. The clinical and detached demeanor suggests a professional, measured tone which this voice can provide.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "narrator",
+      "voiceId": "voice-8a77e77ae1f7dbff",
+      "confidence": 0.95,
+      "rationale": "Selected voice-8a77e77ae1f7dbff as it best matches the requirements for a female narrator with clear articulation and professional presentation quality.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.4,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    }
+  ]
+}

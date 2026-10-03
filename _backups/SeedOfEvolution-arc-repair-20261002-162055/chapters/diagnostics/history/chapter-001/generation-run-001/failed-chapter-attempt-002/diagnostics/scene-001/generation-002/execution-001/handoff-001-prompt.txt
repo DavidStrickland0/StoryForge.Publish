@@ -1,0 +1,109 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"adrian-vale","Objective":"Adrian intervenes in the attack on Lena, survives the physical confrontation through instinctive reflexes rather than skill, and drives the attacker away, leaving both parties shaken and the immediate threat neutralized.","IntendedChange":"The status quo of Adrian\u0027s passive, exhausted existence is broken by a violent event that forces his body to act before his mind can process the danger, establishing the physical reality of his enhanced reflexes and the immediate aftermath of the encounter.","PacingPosture":3,"ProhibitedPatterns":["Resolving the physical struggle and the subsequent aftermath/debt establishment in a single scene.","Depicting the attacker as \u0027crumpled to the ground\u0027 or \u0027out of the fight\u0027 before the dedicated struggle scene concludes.","Having Adrian assess injuries or assist Lena in the same scene where the attacker is neutralized.","Using \u0027not X, but Y\u0027 contrast reframing in narration.","Constant quips or sarcasm during the violent confrontation."],"Scenes":[{"Sequence":1,"Purpose":"Adrian witnesses the attack on Lena and makes the conscious choice to intervene despite his fear and lack of fighting experience, establishing the societal failure of the urban environment and his poverty-driven hesitation.","IntendedChange":"Adrian moves from a passive observer to an active participant, closing the distance to the attacker and initiating the physical confrontation.","FocusCharacterIds":["adrian-vale","lena-reyes"]},{"Sequence":2,"Purpose":"Adrian engages in a chaotic, inefficient physical struggle where his enhanced reflexes compensate for his lack of skill, allowing him to survive blows that should incapacitate him and drive the attacker away.","IntendedChange":"The attacker is driven away and the immediate threat is neutralized, leaving Adrian physically present but shaken and aware of his body\u0027s abnormal reaction speed.","FocusCharacterIds":["adrian-vale","lena-reyes"]},{"Sequence":3,"Purpose":"Adrian assesses the immediate aftermath, checks on Lena\u0027s safety, and gives her his limited cash for transportation before departing, establishing the one-sided debt and his confusion over his own physical state.","IntendedChange":"Lena is left physically safe but suspicious and indebted, while Adrian begins walking home, injured and processing the cognitive dissonance of his accidental heroism.","FocusCharacterIds":["adrian-vale","lena-reyes"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Adrian witnesses the attack on Lena and makes the conscious choice to intervene despite his fear and lack of fighting experience, establishing the societal failure of the urban environment and his poverty-driven hesitation.","IntendedChange":"Adrian moves from a passive observer to an active participant, closing the distance to the attacker and initiating the physical confrontation.","FocusCharacterIds":["adrian-vale","lena-reyes"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Adrian engages in a chaotic, inefficient physical struggle where his enhanced reflexes compensate for his lack of skill, allowing him to survive blows that should incapacitate him and drive the attacker away.","IntendedChange":"The attacker is driven away and the immediate threat is neutralized, leaving Adrian physically present but shaken and aware of his body\u0027s abnormal reaction speed.","FocusCharacterIds":["adrian-vale","lena-reyes"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Chapter 1
+
+Adrian Vale trudged through the damp streets, the chill of the autumn evening seeping into his bones. His part-time job barely paid enough to cover his rent, let alone food. Nineteen years old and already struggling to stay afloat in a sea of bills and responsibilities, he knew his future was uncertain at best.
+
+As he walked, the glow of neon lights flickered like promises on the horizon, siren calls to desperate souls. Adrian knew the dangers that lurked in those dimly lit corners, but he needed the money—every crumpled dollar was a lifeline.
+
+He turned a corner, and the sounds of the city swirled around him. The distant hum of traffic, the chatter of the nightlife, and then—the unmistakable sound of violence. A man's shout cut through the cool air, chilling and raw.
+
+Adrian's heart pounded in his chest, a traitorous rhythm of fear and adrenaline. He hesitated, his eyes scanning the darkening alley for a glimpse of the attacker or his victim. It wasn't his fight; he knew that. His stomach growled with hunger, a reminder of his many debts.
+
+The sound of a scuffle drew him in, refusing to be ignored. He bit his lip, a silent prayer for safety mingling with the desperation of his situation. Then, he saw her—Lena Reyes, a prostitute who worked these very streets, now backed into a corner by a towering figure of menace.
+
+For a moment, Adrian considered turning away. His body screamed for self-preservation, but his conscience demanded action. The attacker's rage-filled tirade reached his ears, and something snapped within him. He stepped forward, his feet carrying him into the fray without permission from his cautious mind.
+
+"Hey! Leave her alone!" Adrian's voice was a cracked plea, barely audible over the escalating conflict. He didn't have a plan, didn't know how to fight, but he couldn't stand idly by.
+
+The attacker, surprised by Adrian's sudden intrusion, turned his wrath towards him. A heavy fist connected with Adrian's face, sending him reeling. Pain exploded across his cheek, his vision blurred, and the concrete seemed to rush up to meet him.
+
+Through the haze of his pain, Adrian saw Lena crumple to the ground, her eyes wide with fear. A white-hot surge of protective fury coursed through him, overriding his own terror. He scrambled to his feet, a feral determination fueling his limbs.
+
+The attacker advanced, a towering monolith of malice. Adrian knew he'd never be able to match the man's strength, but something in his core refused to yield. He danced backward, dodging blows with an agility he didn't know he possessed, his mind racing to keep up with his body's reflexes.
+
+A fist grazed his ribs, another clipped his shoulder, but he didn't fall. Somehow, he didn't fall. The attacker's face twisted in confusion, his own strength faltering against this unexpected resistance.
+
+"Get... off her," Adrian panted, the words more breath than command. The attacker's eyes narrowed, his next strike glancing off Adrian's raised forearm. With a sudden, desperate lunge, Adrian drove his elbow into the attacker's solar plexus, a blow that should have ended him.
+
+The man doubled over, wheezing, his grip on Lena slackening. She took advantage of the moment, crawling away from the fray. Adrian didn't chase her; he was already backing away, his energy spent.
+
+The attacker straightened, his face a dark blur of rage as he aimed a final, retaliatory blow at Adrian's retreating form. But the blow never landed. A swift kick sent the man stumbling back, his equilibrium lost, and he collapsed to the ground, momentarily out of the fight.
+
+Adrian stood there, panting, the adrenaline's rush beginning to ebb. His injuries ached, his ribs sore, his face stung, but he'd protected Lena. He'd done what he never thought he could.
+
+Lena looked up at him from the ground, her expression unreadable. "Thank you," she said quietly, the words a whispered acknowledgment of his bravery. "You... you should go."
+
+Adrian nodded, not trusting himself to speak. He turned and began to walk away, his heart heavy with the knowledge of what he'd done. He'd moved from the shadows of the city into the light of action, and he'd never be the same again.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

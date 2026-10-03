@@ -1,0 +1,103 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"adrian-vale","Objective":"Adrian intervenes in the attack on Lena, survives the physical confrontation through instinctive reflexes rather than skill, and drives the attacker away, leaving both parties shaken and the immediate threat neutralized.","IntendedChange":"The status quo of Adrian\u0027s passive, exhausted existence is broken by a violent event that forces his body to act before his mind can process the danger, establishing the physical reality of his enhanced reflexes and the immediate aftermath of the encounter.","PacingPosture":3,"ProhibitedPatterns":["Adrian displaying martial arts skill or clean technique","Lena expressing immediate romantic interest or gratitude without suspicion","Adrian fully understanding the source of his abilities","The attacker being killed or permanently incapacitated","Police arriving to resolve the situation"],"Scenes":[{"Sequence":1,"Purpose":"Establish Adrian\u0027s exhaustion and poverty as he walks home, and depict the initial moment of the attack on Lena where his body reacts before his conscious mind processes the threat.","IntendedChange":"Adrian is physically present at the scene of the attack, his body has already initiated a defensive response, and the attacker is momentarily disoriented by Adrian\u0027s unexpected speed.","FocusCharacterIds":["adrian-vale","lena-reyes"]},{"Sequence":2,"Purpose":"Depict the chaotic, inefficient physical struggle where Adrian\u0027s enhanced reflexes compensate for his lack of strength and skill, resulting in the attacker being driven away and Adrian sustaining injuries.","IntendedChange":"The attacker is driven away, Lena is physically safe but shaken, and Adrian is left injured and confused by the speed of his own movements.","FocusCharacterIds":["adrian-vale","lena-reyes"]},{"Sequence":3,"Purpose":"Show the immediate aftermath where Adrian assesses his injuries, gives Lena his remaining cash for transport, and begins walking home, establishing the debt and his confusion.","IntendedChange":"Lena is left with cash and a bruise, Adrian is walking home injured and confused, and the immediate threat is neutralized but the consequences are just beginning.","FocusCharacterIds":["adrian-vale","lena-reyes"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Establish Adrian\u0027s exhaustion and poverty as he walks home, and depict the initial moment of the attack on Lena where his body reacts before his conscious mind processes the threat.","IntendedChange":"Adrian is physically present at the scene of the attack, his body has already initiated a defensive response, and the attacker is momentarily disoriented by Adrian\u0027s unexpected speed.","FocusCharacterIds":["adrian-vale","lena-reyes"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the chaotic, inefficient physical struggle where Adrian\u0027s enhanced reflexes compensate for his lack of strength and skill, resulting in the attacker being driven away and Adrian sustaining injuries.","IntendedChange":"The attacker is driven away, Lena is physically safe but shaken, and Adrian is left injured and confused by the speed of his own movements.","FocusCharacterIds":["adrian-vale","lena-reyes"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Chapter 1: The Evening Shift
+
+Adrian Vale trudged down the dimly lit sidewalk, his footsteps heavy with the weight of exhaustion. The sky above was painted in shades of orange and purple, a stark contrast to the gloominess that clung to him like a shroud. Another long day at the part-time job had drained him, leaving him with barely enough for the bus fare and a few discount noodles to sustain him through the night.
+
+As he walked, the distant hum of the city grew louder, and the sounds of nightlife began to seep into his weary senses. The university campus was a distant memory, a reminder of the mountain of debt he faced, towering higher than any wall he'd ever scaled. Tuition was a ravenous beast, consuming nearly everything he earned, leaving him with scraps to scrape by.
+
+Adrian's thoughts were interrupted by the sudden, harsh sound of a scuffle nearby. His instincts, honed by too many nights watching the city's shadows, told him to move quickly. A figure, shrouded in the dim light, lunged forward, and another stumbled back, hands raised defensively.
+
+Adrian's body reacted before his mind could catch up. His legs pumped furiously, carrying him forward with an unexpected swiftness. The world around him blurred into a chaotic mess of shapes and sounds. The air filled with the scent of fear and adrenaline.
+
+The attacker, taken aback by the sudden, fierce appearance of the small, thin figure before them, faltered. Adrian's hands, though untrained in combat, found their way to the attacker's wrists, twisting them painfully behind their back. The attacker's initial advantage in size and strength was no match for the desperate ferocity of Adrian's improvised defense.
+
+"Lena," the attacker growled, the words dripping with malice, "you owe me."
+
+Adrian, his breath coming in ragged gasps, tightened his grip. "I don't owe you anything," he gritted out, his body protesting the unaccustomed exertion.
+
+The attacker's eyes widened in disbelief, and for a moment, they locked gazes. It was enough for Lena, the victim, to gather her wits and deliver a sharp kick to the attacker's knee, sending them crumpling to the ground.
+
+Adrian, his own muscles screaming for respite, allowed himself a moment of triumph, however fleeting, before concern for Lena's safety pulled at his resolve. "You need to get out of here," he managed to say, his voice carrying the weight of his exhaustion.
+
+Lena, looking up at him with an expression that balanced gratitude with suspicion, nodded curtly. She didn't bother with words, simply pushing herself up and hurrying away from the scene, leaving Adrian with the fallen attacker and the weight of his own confusion.
+
+As the attacker struggled to their feet, casting a glare of resentment and envy in Adrian's direction, Adrian felt a strange sensation, as if his body had betrayed him. His heart pounded in his chest, his breaths coming in short, sharp bursts. He looked down at his hands, still clenched into fists, and felt a growing sense of unease.
+
+What had just happened? His body had moved with a speed and strength he hadn't known he possessed. Yet, the exhaustion that had been his constant companion for so long remained, a heavy anchor that refused to be shaken.
+
+Adrian turned to follow the path Lena had taken, his mind a whirlwind of questions and fears. He needed to find out what was happening to him, why his body had reacted with such unexpected ferocity. And there was Lena, a woman he knew only as a victim of the very system that had left him broken and barely scraping by.
+
+He took a deep breath and began to move, his feet carrying him forward with a sense of determination he hadn't felt in a long time. Little did he know that his journey down this path, a path fraught with danger and secrets, had only just begun.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

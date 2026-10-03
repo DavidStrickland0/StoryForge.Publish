@@ -1,0 +1,47 @@
+Kaelen’s eyelids fluttered with a resistance that felt like lifting lead weights. The darkness behind his eyes did not recede so much as it fractured, revealing the slow, deliberate return of sensation. It was not a sudden snap of consciousness, but a dragging ascent from the bottom of a deep well. He opened his mouth to inhale, and the first conscious breath tore through him with the friction of a sandstone slide.
+
+The air tasted of copper and old wood, a sharp, metallic tang that coated the back of his throat. It was the taste of the city, but filtered through the watchfort’s thick stone walls and the barrier’s dampening presence. He expected to feel light-headed, the way one felt after rising too quickly from a dark room, or perhaps the hollow ache of a stomach turned inside out by hunger. Instead, he felt heavy. His limbs were not merely tired; they were filled with a leaden inertia that made simple movements like shifting his weight seem like lifting stone blocks.
+
+He tried to focus on his surroundings, but the edges of his vision remained blurred for a heartbeat before snapping into clarity. The room was small and cramped, the kind of space designed for defense rather than comfort. His cot occupied one corner, the mattress thin and matted with dried dust and old straw. Near the far wall, a hearth burned low, the fire reduced to a few embers that glowed like dying coals under a heavy iron grate. Elias was crouched there, his hands moving methodically over the kindling, adjusting the grate until the blue flame settled into a steady, low hum.
+
+To the left, Maren sat in a chair that looked uncomfortable and ill-fitting for her broad frame, but she had not shifted position since Kaelen had collapsed. She held his hand in both of hers, her grip firm enough to anchor him against the pull of gravity or dizziness, but gentle enough not to bruise the skin beneath her fingers. Her face was pale, the same translucent hue that marked Kaelen’s own arms, though less severe. Dark circles shadowed the hollows under her eyes, and a fine sheen of sweat clung to her hairline despite the chill in the room. She did not speak, merely watching him with eyes that held a mixture of professional assessment and something else—something he was not yet prepared to name.
+
+Beside Maren, Elara sat cross-legged on the floor next to Kaelen’s cot, her small book closed against her knee. Her hands rested idly on his shoulder, her fingers tracing the jagged lines of the scars that mapped his forearms. The ink-stained pages of her journal had been open moments before, filled with charcoal sketches and frantic notes about resonance frequencies and seal integrity. Now, the notebook lay still, its cover worn smooth by repeated use. She did not look away when Kaelen’s eyes met hers; instead, she nodded once, a brief acknowledgment that served as both permission to wake and confirmation of his return.
+
+Torin stood at the doorway, his silhouette framed against the blackness beyond. He had not moved since the last time Kaelen had closed his eyes, his sword resting lightly against the wall behind him. The man’s presence was silent but heavy, a constant reminder that the outside world remained hostile and dangerous even within the safety of the watchfort’s walls.
+
+The barrier itself dominated the far end of the room, its surface shimmering with a bruised violet hue that pulsed in time with Kaelen’s own heartbeat. It had been stable earlier, but now it flickered, the light beneath it wavering like a candle caught in an unseen wind. The sound of its presence was no longer just a hum; it was a low, discordant groan that vibrated through the floorboards and into Kaelen’s bones. He could feel the pressure differential building behind his eyes, the same sensation he had felt when the seal at the Gate of Silence began to fail.
+
+He tried to sit up, but his muscles refused him. The effort required to lift his torso sent a jolt of pain through his side, where the wound from the Blight-Touched creature still throbbed beneath the bandage. He gritted his teeth against it, forcing himself to push back against the mattress until he was upright. Maren’s hand tightened on his wrist, not restraining him, but steadying him as his equilibrium wavered.
+
+“Easy,” she said, her voice low and raspy, lacking the authority of a soldier addressing a recruit. “You’re still drained.”
+
+“I know,” Kaelen replied, though the words felt clumsy in his mouth. His tongue seemed thick, coated with the taste of old iron and stale air. He cleared his throat again, trying to find the right pitch for his voice, but it came out hoarse and thin, like a rope frayed by friction.
+
+Maren nodded, her gaze dropping to the floor as if she were embarrassed by the sound he made. She did not apologize, nor did she offer encouragement; she simply held him steady while he adjusted himself against the cot’s frame. Her thumb pressed lightly against his pulse point, checking the rhythm of his heart. It was slow and irregular, skipping beats that felt like missed appointments in a schedule he had never learned to keep.
+
+Elara shifted her position, leaning closer so that her face was level with his ear. “The barrier is groaning again,” she said quietly, almost to herself. “It’s not holding the pressure. If we don’t act soon…”
+
+Kaelen turned his head toward her, squinting through the dim light. The violet glow from the barrier cast long shadows across the room, making it difficult to see clearly. He could make out the shapes of the others: Maren’s broad shoulders hunched over him, Elara’s small frame leaning forward with concern, Torin’s rigid stance at the door, Elias’s hands moving steadily around the hearth. But their faces remained indistinct, blurred by the flickering light and the haze that seemed to cling to his vision like smoke.
+
+“I see it,” Kaelen said, his voice gaining a fraction of its strength. “I can feel the flow changing.” He lifted his hand, raising it slowly in front of him. The brass gauntlet on his wrist hummed faintly, a vibration that traveled through his skin and into his bones. It was not the erratic, sickening thrum he had felt before, but a steady, controlled resonance that felt like holding a tuning fork against a chest wall. The runes etched into the metal glowed with a faint, pale light, barely visible in the gloom.
+
+Maren released his wrist and reached for her cloak, pulling the heavy wool fabric over her shoulders. “Then you’re ready to help,” she said, though there was no triumph in her tone, only resignation. “But don’t push yourself too hard.”
+
+“I won’t,” Kaelen promised, though he wasn’t sure he could keep that promise if the barrier continued to groan like a dying animal. He looked at Maren’s face again, studying the way her jaw set and her eyes darted toward the door. She was waiting for something, or perhaps someone. He had no idea what it was, but he felt the weight of her expectation pressing down on him like a physical force.
+
+Elara stepped back from the cot, closing the distance between herself and Maren with a single stride. She placed her hand on Maren’s arm, not to comfort her, but to steady her. “Elias,” she said, her voice sharp and commanding despite her small stature. “We need to talk about the barrier.”
+
+Elias paused in his work at the hearth, turning his head to look at her. His expression remained neutral, though his eyes betrayed a flicker of surprise that he quickly masked. He did not interrupt her, nor did he offer an explanation; he simply waited for her to speak.
+
+“The seal is failing,” Elara said, her voice rising slightly as she emphasized the point. “We’ve been waiting for Kaelen to wake up because we thought his magic could stabilize it, but he’s still too weak to do more than listen. If we don’t act now, the surge will break through and flood the room.”
+
+Maren nodded once, her grip on Elias’s arm tightening as she pulled him closer. “Then what do we do?” she asked, her voice barely audible over the groan of the barrier. “We can’t move him without destabilizing the resonance protocol, and staying here means waiting for something that might not come.”
+
+Elias stepped forward, his hands moving quickly to gather a handful of kindling from the embers. He dropped it into the fire, watching as the flames caught and spread across the wood. “We don’t wait,” he said, his voice calm and measured, though there was an edge of urgency beneath the surface. “We reinforce the seal manually.”
+
+“Manually?” Torin asked, stepping away from the door to join them. His sword was drawn now, the steel gleaming faintly in the violet light. “How do you reinforce a seal with your hands?”
+
+Elias ignored him, focusing instead on the hearth and the fire. “By changing the frequency,” he explained, his words coming out in a rush as if he were afraid they might be stolen away by the wind. “We use Kaelen’s gauntlet to shift the resonance, not to pull the flow, but to push it back into the channel. Maren can apply warmth to stabilize the seal while Elias and Elara adjust the frequency with their tools.”
+
+Maren shook her head, pulling her cloak tighter around herself as if the words themselves were cold. “That’s too risky,” she said, her voice firm despite her exhaustion. “If we

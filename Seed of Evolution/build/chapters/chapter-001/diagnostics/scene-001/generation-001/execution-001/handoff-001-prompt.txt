@@ -1,0 +1,147 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"Adrian Vale","Objective":"Adrian navigates the bureaucratic and psychological hurdles of enrolling in the experimental-medicine program, culminating in the signing of the consent forms for the male-fertility trial.","IntendedChange":"Adrian transitions from a passive victim of financial desperation to an active participant in a high-stakes medical experiment, establishing the baseline of his compromised autonomy and the specific, undignified nature of his new obligation.","PacingPosture":1,"ProhibitedPatterns":["Completing the administrative intake, consent signing, or payment receipt in the first scene.","Introducing Nurse Elena or other trial staff beyond Dr. Thorne.","Depicting the first daily testing session or physical specimen collection.","Resolving the financial crisis before the consent forms are signed.","Using internal monologue to explain Adrian\u0027s desperation instead of showing it through action and environment."],"Scenes":[{"Sequence":1,"Purpose":"Establish Adrian\u0027s physical state and financial desperation through the sterile, high-efficiency environment of the hospital waiting area, where he checks in and waits for his appointment.","IntendedChange":"Adrian is physically present in the waiting area, having completed the initial check-in, and is waiting for Dr. Thorne to call him in.","FocusCharacterIds":["Adrian Vale"]},{"Sequence":2,"Purpose":"Dr. Thorne conducts the administrative intake, presenting the trial\u0027s terms with clinical detachment and establishing the power dynamic where Adrian\u0027s consent is treated as a transactional necessity.","IntendedChange":"Adrian has reviewed the trial\u0027s requirements and payment structure, and is now holding the consent forms, ready to sign.","FocusCharacterIds":["Adrian Vale","Dr. Aris Thorne (Trial Coordinator)"]},{"Sequence":3,"Purpose":"Adrian signs the consent forms, accepting the invasive daily requirements and the financial penalty for non-compliance, and receives his first payment.","IntendedChange":"Adrian is legally bound to the trial, has received his first payment, and is leaving the office with the specific terms of his new obligation.","FocusCharacterIds":["Adrian Vale","Dr. Aris Thorne (Trial Coordinator)"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Establish Adrian\u0027s physical state and financial desperation through the sterile, high-efficiency environment of the hospital waiting area, where he checks in and waits for his appointment.","IntendedChange":"Adrian is physically present in the waiting area, having completed the initial check-in, and is waiting for Dr. Thorne to call him in.","FocusCharacterIds":["Adrian Vale"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Dr. Thorne conducts the administrative intake, presenting the trial\u0027s terms with clinical detachment and establishing the power dynamic where Adrian\u0027s consent is treated as a transactional necessity.","IntendedChange":"Adrian has reviewed the trial\u0027s requirements and payment structure, and is now holding the consent forms, ready to sign.","FocusCharacterIds":["Adrian Vale","Dr. Aris Thorne (Trial Coordinator)"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+# Chapter 1
+
+The waiting room smelled of antiseptic and fluorescent lights. Adrian sat on the hard plastic chair, his backpack heavy on his shoulders, and tried to ignore the gnawing hunger in his stomach. He'd skipped breakfast to afford the bus fare to the hospital, and now the empty space in his gut was making itself known with increasing insistence.
+
+He checked his phone for the third time in as many minutes. 2:47 PM. His appointment was at 3:00. Twenty-three minutes until he could start the process of securing the money he desperately needed.
+
+The waiting area was sterile and efficient, with its white walls, beige chairs, and the constant hum of the air conditioning. A receptionist sat behind a curved desk, her attention divided between a computer screen and the occasional patient who shuffled in. The whole environment screamed institutional indifference—a place where people came to be processed, not cared for.
+
+Adrian shifted in his seat, feeling the thin fabric of his shirt against his spine. He'd lost weight again. His jeans hung looser than they had last month, and his jacket, which had fit comfortably in high school, now felt like it was designed for someone larger. The mirror in his dorm room had confirmed what he already knew: he looked exhausted. Dark circles under his eyes, hollow cheeks, shoulders that seemed perpetually hunched from carrying the weight of his financial desperation.
+
+But the money from this trial would fix that. At least, it would fix the immediate problem. Tuition was due in a week, and his landlord had already sent him a reminder about next month's rent. The part-time job at the campus bookstore barely covered his food, and he'd already burned through his meager savings on supplies for his first semester of classes.
+
+The door to the waiting room opened, and a woman in a white coat stepped through. She carried a clipboard and moved with the kind of purpose that made people notice. Her eyes swept the room, landing briefly on each person before moving on. When her gaze reached Adrian, she stopped.
+
+"Adrian Vale?" she asked, her voice crisp and professional.
+
+He stood, his legs feeling stiff from sitting too long. "Yes."
+
+"Dr. Thorne will see you now. Follow me."
+
+Adrian grabbed his backpack and followed her through a set of double doors and down a narrow corridor. The walls here were the same sterile white, illuminated by the same harsh fluorescent lighting. They passed several closed doors before stopping at the third one on the right.
+
+The woman knocked once, then opened the door without waiting for a response.
+
+"Mr. Vale is here, Doctor."
+
+Dr. Thorne looked up from behind a desk cluttered with papers and medical equipment. He was a middle-aged man with graying hair and a face that suggested he'd seen every variation of human desperation and had long since stopped being moved by it. He gestured to the chair across from him.
+
+"Please, sit."
+
+Adrian sat, placing his backpack on the floor beside his feet. He tried to make himself smaller, less noticeable, as though somehow minimizing his physical presence might make the transaction about to occur more palatable.
+
+Dr. Thorne didn't waste time on pleasantries. "I've reviewed your application for the experimental-medicine program. You meet the basic criteria: male, between eighteen and twenty-five, no significant pre-existing conditions, and financially motivated." He paused, his eyes meeting Adrian's. "I assume you understand what the program entails?"
+
+Adrian nodded. "I'll be participating in a fertility trial."
+
+"The male-fertility trial, specifically," Thorne corrected. "You'll be taking an experimental medication designed to increase sperm production and motility. In exchange, you'll receive a stipend of four hundred dollars per week, paid biweekly, and access to our medical facilities at no cost. You'll also be required to provide daily specimens for analysis and report any side effects immediately."
+
+The words hung in the air between them, clinical and detached. Adrian felt his stomach clench. He'd known this was what he was signing up for, had read the materials carefully, but hearing it stated so baldly made the reality of what he was about to do hit him with renewed force.
+
+"I understand," he said quietly.
+
+Dr. Thorne slid a stack of papers across the desk. "These are the consent forms. Read them carefully. They outline your obligations, the potential risks, and the legal consequences of non-compliance. Once you sign, you'll be bound by the terms for the duration of the trial, which is currently scheduled for six months but may be extended depending on the results."
+
+Adrian reached for the papers, his hands slightly trembling. The first page was a summary of the trial's purpose and his compensation. The second page detailed the daily requirements: he would need to arrive at the clinic between 8:00 AM and 10:00 AM each day, provide a semen sample, take his medication, and submit to brief physical examinations. The third page was a list of potential side effects, ranging from mild (headaches, nausea, increased libido) to severe (allergic reactions, testicular pain, hormonal imbalances).
+
+The fourth page was the actual consent form, with a line at the bottom for his signature.
+
+"I need to sign now?" Adrian asked, his voice barely above a whisper.
+
+Dr. Thorne's expression didn't change. "You can take them with you if you prefer, but I'll need them back by tomorrow morning. The trial has specific enrollment quotas, and spots are filled on a first-come, first-served basis."
+
+Adrian looked down at the papers in his hands, feeling the weight of the choice he was about to make. He thought about his empty stomach, his overdue rent, the tuition payment that loomed like an insurmountable obstacle. He thought about his meager savings, his part-time job, the sleepless nights he'd spent worrying about how he would survive his freshman year.
+
+He thought about the alternative: dropping out, going home in defeat, admitting that he couldn't make it on his own.
+
+He couldn't do that. Not when he was so close to everything he'd worked for.
+
+Adrian picked up the pen Dr. Thorne had placed beside the forms and began to sign.
+
+His hand moved across the page, the ink marking his consent to a transaction that would define the next several months of his life. The signature was shaky, uncertain, but it was there. The contract was now legally binding. The contract was now legally binding.
+
+Dr. Thorne took the papers back, examined the signature briefly, and nodded. "Excellent. Your first payment will be processed tomorrow. You'll receive the medication and your daily testing schedule at that time as well."
+
+He stood, extending his hand. Adrian shook it, the gesture feeling oddly formal given what had just transpired.
+
+"Welcome to the program, Mr. Vale. I expect to see you tomorrow morning at eight o'clock sharp."
+
+Adrian left the office, the door closing behind him with a soft click that seemed to finalize the arrangement. He walked back down the corridor, through the double doors, and into the waiting room, where he retrieved his backpack and headed for the exit.
+
+The afternoon sun hit him as he stepped outside, and for a moment, he just stood there, letting the warmth wash over him. He'd done it. He'd secured the money he needed. He'd made the deal.
+
+He just hoped he wouldn't regret it.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

@@ -109,6 +109,10 @@ Current state:
 
 - Kaelen has jagged scars on his forearms where fissures previously leaked mist.
 
+- Kaelen's skin is pale and nearly translucent with visible dark veins mapping his arms.
+
+- Kaelen's brass gauntlet is warm and stable, no longer cold and inert.
+
 ### Maren
 
 Current identifier: Maren
