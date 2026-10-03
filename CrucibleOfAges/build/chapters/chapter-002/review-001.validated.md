@@ -4,15 +4,31 @@
 
 Category: Style
 
-Sustained use of contrast reframing ("not X, but Y") and negative declarations to define states, violating the rule against habitual rhetorical patterns.
+Sustained pattern of contrast reframing violates writing rules by habitually defining states through negation rather than direct description.
 
-Validation: The WRITING-RULES.md explicitly prohibits 'habitual rhetorical patterns' and 'Avoid Contrast Reframing,' specifically listing constructions like 'not X, but Y' and 'repeated negative declarations followed by corrective explanations.' The chapter uses this structure repeatedly (over 10 instances) to define the void, the interface, and Caelen's emotional state. This constitutes a sustained violation of an explicit writing rule, which requires a Blocking disposition.
+Validation: WRITING-RULES.md explicitly states: 'Avoid Contrast Reframing... Do not habitually define an image, emotion, action, character, or situation by first denying one interpretation and then replacing it with another.' The finding correctly identifies a sustained pattern of this specific rhetorical device throughout the chapter, which violates the explicit writing rule.
 
 ## Blocking
 
 Category: Style
 
-Repeated clipped narrative sentences and fragments used for emphasis, violating the rule against stacking short statements instead of developing thought naturally.
+Repeated use of clipped narrative sentences and fragments for dramatic emphasis violates the rule against one-word or four-word narrative statements.
 
-Validation: The WRITING-RULES.md explicitly states: 'Do not use one-word narrative sentences or fragments for dramatic emphasis. Strongly discourage narrative sentences of four words or fewer; develop the thought naturally instead of stacking clipped statements.' The provided evidence ('He looked at the left column. He looked at the left column, which was labeled Dominion. The path of control. The path of using weakness.') is a clear instance of this prohibited style. Furthermore, the chapter exhibits this
+Validation: The finding correctly identifies a sustained violation of the explicit writing rule prohibiting clipped narrative sentences and fragments for dramatic emphasis. The text repeatedly uses short, declarative sentences (e.g., 'He was light. He was empty.', 'He was safe. He was still. He was waiting.') to create atmosphere and emphasis, which is explicitly forbidden by the 'Prose Style' section of WRITING-RULES.md. Since this is a repeated pattern rather than a single localized lapse, it constitutesa
+
+## NonBlocking
+
+Category: Style
+
+Excessive explanation of character motives and meanings immediately after actions already make them clear, violating the rule against unnecessary explanation.
+
+Validation: The finding correctly identifies a passage where the narrative explicitly explains the character's internal motivations and reframes his actions, which aligns with the WRITING-RULES.md prohibition against "unnecessary explanation of meanings the reader can already infer" and "habitual contrast reframing." The text uses a series of negative declarations ("He had not wanted to save her") followed by corrective explanations ("He had wanted the chaos to stop") to define his character. While this is
+
+## Blocking
+
+Category: Style
+
+Habitual use of rhetorical patterns and repetitive emphasis creates a monotonous narrative voice that lacks natural variation.
+
+Validation: The finding is supported by the text. The WRITING-RULES.md explicitly prohibits 'habitual rhetorical patterns' and 'Avoid Contrast Reframing' (defining an image/emotion by denying one interpretation and replacing it with another, e.g., 'not X, but Y'). The chapter uses this structure repeatedly (at least 8-10 instances) as a primary descriptive device, rather than using it sparingly for specific corrections. This constitutes a repeated violation of an explicit writing rule, which mandates a 'Non
 
