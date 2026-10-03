@@ -3,6 +3,28 @@
   "bookId": "storyforge-crucibleofages",
   "characters": [
     {
+      "id": "caelen",
+      "displayName": "Caelen",
+      "aliases": [
+        "The Marine",
+        "The Rookie",
+        "The Shooter",
+        "The Monster",
+        "The Soldier",
+        "The Narrator"
+      ],
+      "description": "A disciplined and ruthless Marine who initially views the situation through a tactical and self-preserving lens. He is driven by a desire to prove his superiority and complete his \u0027story.\u0027 In a moment of crisis, he overrides his training and self-preservation instincts to protect a civilian, accepting a fatal wound to ensure her survival. He is characterized by his internal conflict between cold tactical assessment and a sudden, unexplained impulse to act as a human shield.",
+      "voiceTraits": [
+        "controlled",
+        "flat",
+        "steady"
+      ],
+      "voicePresentation": "male",
+      "isNamed": true,
+      "importance": "major",
+      "isNarrator": true
+    },
+    {
       "id": "chapter-001-child",
       "displayName": "The Child",
       "aliases": [
@@ -140,6 +162,59 @@
       "isNarrator": false
     },
     {
+      "id": "chapter-001-the-child",
+      "displayName": "The Child",
+      "aliases": [
+        "The Baby",
+        "The Infant",
+        "The Bundle"
+      ],
+      "description": "The mother\u0027s infant, wrapped in blankets. The child is a source of distress for the mother and a key factor in the protagonist\u0027s decision to protect her. The child\u0027s crying is a constant auditory presence that underscores the stakes of the situation. The child survives the incident.",
+      "voiceTraits": [
+        "high-pitched",
+        "thin",
+        "crying"
+      ],
+      "voicePresentation": "unspecified",
+      "isNamed": false,
+      "importance": "minor",
+      "isNarrator": false
+    },
+    {
+      "id": "chapter-001-the-mother",
+      "displayName": "The Mother",
+      "aliases": [
+        "The Woman",
+        "The Civilian",
+        "The Target"
+      ],
+      "description": "A terrified civilian cowering in the dirt with her child. She is the object of the protagonist\u0027s protection. Her fear is the catalyst for the protagonist\u0027s change in behavior. She is depicted as vulnerable, trembling, and ultimately saved by the protagonist\u0027s sacrifice. Her reaction shifts from terror to a raw, personal horror at the protagonist\u0027s presence, and finally to relief and grief as he dies.",
+      "voiceTraits": [
+        "gasping",
+        "trembling",
+        "crying"
+      ],
+      "voicePresentation": "female",
+      "isNamed": false,
+      "importance": "major",
+      "isNarrator": false
+    },
+    {
+      "id": "chapter-001-the-shooter",
+      "displayName": "The Shooter",
+      "aliases": [
+        "The Sniper",
+        "The Enemy",
+        "The Figure"
+      ],
+      "description": "An unseen antagonist positioned behind a truck or in an upper window. He is described as a trained killer with a scoped rifle. He is the immediate threat to the mother and the protagonist. His actions are limited to adjusting his position, aligning his scope, and firing the fatal shot. He is a symbol of the chaos and violence the protagonist is fighting against.",
+      "voiceTraits": [],
+      "voicePresentation": "unspecified",
+      "isNamed": false,
+      "importance": "minor",
+      "isNarrator": false
+    },
+    {
       "id": "chapter-002-child",
       "displayName": "The Child",
       "aliases": [],
@@ -242,10 +317,48 @@
       "isNamed": false,
       "importance": "minor",
       "isNarrator": false
+    },
+    {
+      "id": "private-davis",
+      "displayName": "Private Davis",
+      "aliases": [
+        "Davis"
+      ],
+      "description": "A young soldier covering the rear. He is depicted as pale, drawn, and shaking, with a voice that cracks under pressure. He represents the fear and weakness that Caelen initially despises but later recognizes as a shared human condition.",
+      "voiceTraits": [
+        "cracking",
+        "desperate",
+        "unsteady",
+        "shaking"
+      ],
+      "voicePresentation": "male",
+      "isNamed": true,
+      "importance": "minor",
+      "isNarrator": false
+    },
+    {
+      "id": "sergeant-miller",
+      "displayName": "Sergeant Miller",
+      "aliases": [
+        "Miller",
+        "The Sergeant"
+      ],
+      "description": "A superior officer commanding the squad. He is sharp, barking, and authoritative, issuing direct orders to neutralize threats. He views Caelen\u0027s hesitation as a violation of orders and a loss of control, representing the rigid tactical hierarchy Caelen is rebelling against.",
+      "voiceTraits": [
+        "sharp",
+        "barking",
+        "cold",
+        "hard",
+        "authoritative"
+      ],
+      "voicePresentation": "male",
+      "isNamed": true,
+      "importance": "major",
+      "isNarrator": false
     }
   ],
   "processedChapterHashes": {
-    "chapter-001": "e68b5221fa86884f2b3638bb3a09af6317b2c34756351460540eb07ac86c32c2",
+    "chapter-001": "df7fc9f88ebd5c29af5a3d94a441f614856fb9274cc7690cd254eb1bd8fec864",
     "chapter-002": "63df639deef67d4ca8f96bfa18081b85867e6e87b863b2cc2210e1a5796230b6"
   }
 }

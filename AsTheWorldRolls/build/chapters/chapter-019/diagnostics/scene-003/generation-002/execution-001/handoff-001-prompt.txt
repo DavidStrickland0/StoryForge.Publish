@@ -1,0 +1,133 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 19.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":19,"ViewpointCharacterId":"Kaelen","Objective":"Kaelen wakes from his magical sleep, stabilizes the barrier and his companions using his remaining magic, and the group reaches a tentative consensus to continue their journey west together.","IntendedChange":"Kaelen is conscious and aware. The barrier is stable. Maren and Elias are physically stabilized. The group is united in their decision to move forward, though Kaelen\u0027s magical reserves are critically depleted.","PacingPosture":0,"ProhibitedPatterns":["Do not repeat the specific dialogue exchanges or physical descriptions of Maren holding Kaelen\u0027s chest from Chapter 17.","Do not re-argue the tactical merits of staying vs. moving in a circular debate; the decision must be made and accepted.","Do not introduce a new external threat, Blight-Touched entity, or barrier breach in this chapter.","Do not have Kaelen fully recover his magical strength; he must remain depleted."],"Scenes":[{"Sequence":1,"Purpose":"Kaelen regains consciousness and perceives the immediate physical reality of the watchfort, realizing the group has been waiting for him.","IntendedChange":"Kaelen is awake and aware of his surroundings, with Maren, Torin, Elias, and Elara present and attentive.","FocusCharacterIds":["Kaelen","Maren","Torin"]},{"Sequence":2,"Purpose":"Kaelen assesses the barrier\u0027s instability and the physical depletion of Maren and Elias, deciding to use his remaining magic to stabilize them and the shelter.","IntendedChange":"Kaelen actively channels his magic to reinforce the barrier and warm Maren and Elias, visibly straining his own body in the process.","FocusCharacterIds":["Kaelen","Maren","Elias"]},{"Sequence":3,"Purpose":"The group discusses the cost of Kaelen\u0027s intervention and the state of the Blight\u0027s westward movement, leading to a decision on their next step.","IntendedChange":"The group acknowledges Kaelen\u0027s depleted state and agrees to proceed west together, accepting the risk of his limited magical capacity.","FocusCharacterIds":["Kaelen","Elias","Elara","Torin"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The group discusses the cost of Kaelen\u0027s intervention and the state of the Blight\u0027s westward movement, leading to a decision on their next step.","IntendedChange":"The group acknowledges Kaelen\u0027s depleted state and agrees to proceed west together, accepting the risk of his limited magical capacity.","FocusCharacterIds":["Kaelen","Elias","Elara","Torin"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":19,"CompletedSceneSequence":2,"Location":"Watchfort interior (stone room with hearth and barrier)","TimeContext":"Post-midnight; active magical intervention underway","PresentCharacterIds":["Kaelen","Maren","Elias","Torin"],"PhysicalConditions":["Kaelen is conscious, sitting up in bed, actively channeling magic through his gauntlet.","Kaelen\u0027s skin is translucent with visible dark veins; he is visibly straining under the magical load but holding steady.","Maren is physically cold and exhausted but stabilized by Elias\u0027s heat extraction system and Kaelen\u0027s directed warmth.","Elias is standing, tending the iron pot grate to maximize thermal output for Maren.","Torin is standing near the doorway with his hand on Kaelen\u0027s shoulder, ready to intervene if Kaelen slips.","The barrier is pulsing with intensified violet light, humming steadily as it consumes the Blight\u0027s tide.","The room air is heavy with static and ozone."],"KnowledgeEstablished":["Kaelen can channel magic through his gauntlet to stabilize the barrier without fully recovering his reserves.","Elias successfully operates a crude mechanical heat extraction system to siphon thermal energy from stone foundations.","Torin has explicitly authorized physical intervention (striking) if Kaelen loses control.","The group consensus is reached: they will not wait for dawn; they will push the barrier and move immediately after stabilization.","Kaelen\u0027s fissures are sealed enough to handle a temporary surge of pressure."],"DecisionsMade":["Kaelen decides to channel magic immediately despite Maren\u0027s warning about cracking his veins.","Maren accepts Kaelen\u0027s intervention and agrees to the plan to move before dawn.","Elias commits to maintaining maximum heat output for Maren during the surge.","Torin assumes the role of active enforcer/safety mechanism.","The group abandons the strategy of waiting for dawn in favor of immediate action."],"PossessionChanges":[],"RelationshipChanges":["Maren and Kaelen share a dynamic of urgent trust; she accepts his sacrifice while worrying about his physical cost.","Torin\u0027s relationship with Kaelen shifts from passive guard to active safety enforcer.","Elias and Maren coordinate non-magically to support Kaelen\u0027s magical effort."],"CompletedActions":["Kaelen channeled magic through his gauntlet to reinforce the barrier.","The barrier\u0027s resonance stabilized from a groaning state to a steady hum.","Elias adjusted the grate and increased heat flow to Maren.","Torin stepped forward and placed a hand on Kaelen\u0027s shoulder.","Maren leaned back against the bedpost as her body temperature returned.","Kaelen directed a fraction of his energy to warm Maren\u0027s hands.","The group verbally agreed to proceed west immediately after stabilization."],"UnresolvedImmediateAction":"Kaelen is maintaining the magical flow through his gauntlet, balancing the strain on his body against the need to stabilize the barrier before moving. Torin holds him in place, monitoring for signs of collapse.","ContinuationPosition":"Kaelen sits upright in bed, eyes closed or focused inward, channeling magic. Maren leans against the bedpost beside him, warming up. Elias stands by the hearth managing the heat source. Torin stands close to Kaelen\u0027s shoulder, hand resting on him. The barrier glows violet around them.","ProhibitedRepetition":["Do not repeat the specific dialogue exchanges or physical descriptions of Maren holding Kaelen\u0027s chest from Chapter 17.","Do not re-argue the tactical merits of staying vs. moving in a circular debate; the decision must be made and accepted.","Do not introduce a new external threat, Blight-Touched entity, or barrier breach in this chapter.","Do not have Kaelen fully recover his magical strength; he must remain depleted."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Kaelen did not look up when Torin placed his hand on the boy's shoulder, though the grip was steady, anchored by a soldier’s certainty rather than fear. The warmth of the iron gauntlet bled into the air between them, a tangible heat that smelled faintly of ozone and wet stone. It was not the clean burn of a hearth fire; it carried the scent of the Blight, metallic and sweet, but filtered through the barrier’s digestion until it tasted only of survival.
+
+Elias moved around the table, his movements economical as he adjusted the grate beneath the iron pot that had been set up against the hearth. The system hummed with a low mechanical whine, siphoning heat from the thick floor stones and directing it into the room where Maren leaned against the bedpost. She was no longer trembling violently, her skin regaining a color that looked like clay rather than ash, but she remained pale, her eyes tracking the gauntlet with a mixture of awe and exhaustion.
+
+"You are pulling the tide through your own veins," Elias said, his voice low and practical. He did not sound accusatory; he was simply stating physics, checking the math of their survival against the cost. "Your skin is translucent enough to show the black work happening inside you."
+
+Kaelen’s jaw tightened, a muscle jumping beneath the pale expanse of flesh that mapped his arms. Dark veins pulsed there, dark rivers under clear water, and he felt them shift with every pulse of magic he forced through the conduit. "I can hold it," he said. The words came out flat, stripped of panic. "If I stop now, the pressure spikes again. If I keep going, we move."
+
+Maren stepped forward, her mace hanging loose at her hip, the heavy hammer wrapped in cloth slung over her shoulder. She reached out and took Elias’s arm, grounding him without breaking his focus on the grate. "Elias," she said softly. "The heat is steady. I can take more of the thermal load."
+
+"Your reserves are drained," Elias replied, though he did not argue with the facts. He was calculating distances now, measuring how much thermal energy remained in the stones versus how much Kaelen could safely output before his own circulatory system shattered under the strain. "You cannot channel magic and draw thermal energy simultaneously without risking a feedback loop. You will burn out."
+
+"I am not channeling," she corrected, her voice steady despite the cold that still seeped into her bones. She touched Kaelen’s forearm, feeling the vibration of his magic travel through the metal and into the flesh beneath it. "I am standing in the path of the heat he generates. I am a radiator, not a generator."
+
+Torin let go of Kaelen’s shoulder to step back, giving him space but keeping his sword hand visible at his side. He was the safety net, the enforcer who would strike if the bridge collapsed. "Kaelen," Torin said, his voice rough with the gravel of border skirmishes and old wounds. "If your skin cracks again, I will hit you. No argument."
+
+Kaelen nodded once. The acknowledgement cost him more energy than a shout, and he felt it drain from his limbs like water leaking through a fissure. "I know," he said. "I am listening to the resonance. It is not pulling me anymore; it is pushing back against the flow."
+
+Elias crossed his arms over his chest, the bronze plate of his armor creaking softly as he shifted his weight. He glanced at the barrier, which now pulsed with a steady, bruised violet light that matched the rhythm of Kaelen’s magic. The Blight was no longer a chaotic tide outside; it was being digested, absorbed into the barrier’s structure like water into a sponge, strengthening the walls that kept them from suffocation in the fog.
+
+"The resonance has stabilized," Elias said, tapping the bronze map on the table with a finger stained by charcoal and soot. "The flow is moving west as planned. The seal at the Gate of Silence is weakened enough to let the surge pass without bursting. We have bought time."
+
+"But not forever," Maren added, her voice dropping to a whisper that carried across the room like smoke. "If we do not move within the hour, the pressure will build again. The barrier is only holding because Kaelen is pumping the flow through himself."
+
+"Then we move," Torin said. He turned toward the doorway, where the thick stone wall met the narrow slit window that looked out over the watchfort’s edge. "Pack the supplies. Leave nothing behind but the heat source."
+
+Elias hesitated, his hand resting on the map. "The ridge is only a mile west," he noted. "But the road has turned to slurry. We will need to climb."
+
+"And if we walk through the channels instead?" Elara asked from the corner of the room. She was small and unassuming, her dark hair tied back with a strip of leather that had once been part of a scavenger’s belt. She held a chisel in one hand and a piece of clear quartz in the other, looking at the barrier with sharp, observant eyes. "The channels are dry enough to walk on. We can bypass the road entirely."
+
+"That would be faster," Elias conceded. He picked up his dagger and checked the edge for nicks, then set it back down. "But the forest is not a straight line anymore. The trees have shifted since we left the last node. We will need guidance."
+
+Kaelen pushed himself upright in the bed, his legs shaking but holding steady under his own volition. He felt the weight of his own body as a burden he could barely lift, yet he stood because standing was part of the plan. "I can walk," he said. "If you stay with me."
+
+"We will," Torin said, already moving toward the door to check on the perimeter. "No one leaves this room until we have gone through the first gate."
+
+Elias watched Kaelen stand, his hands resting on the bed’s edge as if it were an anchor he needed to hold onto. The boy’s skin was translucent, dark veins mapping the inside of his arms like a map of a city that had burned down and been rebuilt in stone. The magic flowed through him, visible in the way the air around him shimmered slightly, bending light into faint green ripples that died as soon as they touched the floor.
+
+"Your gauntlet is warm," Elias said, stepping closer. "It should be cold enough to handle the surge."
+
+"It is regulated," Kaelen replied. He closed his eyes for a moment, listening to the hum of the barrier outside the room. It was no longer a discordant groan; it was a steady thrumming that felt less like a heartbeat and more like a drumbeat marking time. "It listens now."
+
+"Good," Maren said, standing up to join him. She took his hand, feeling the pulse under her palm, fast and irregular but controlled. "Then we move when Torin gives the word."
+
+Torin returned from the doorway, his face scarred and unreadable in the dim light of the lantern. He held a small clay pot containing an amber-colored salve that smelled of beeswax and dried lavender. "Maren," he said, handing her the pot without looking at it. "For your hands."
+
+She nodded, accepting it with a grimace of gratitude. She did not need to explain why her hands were important; everyone knew that magic flowed through touch, and if her skin cracked before they reached the ridge, they would lose the thermal link entirely.
+
+Elias checked the hearth again, ensuring the iron pot remained hot enough to sustain Maren’s warmth without burning out. "We leave in ten minutes," he said. "Elara, you take point with Kaelen. Torin and I will cover the rear."
+
+"And if we encounter something?" Elara asked, her voice quiet but sharp. She held the quartz stone up to the light, watching it glow faintly as the barrier’s resonance passed through it. "If the forest moves again?"
+
+"Then we move with it," Torin said. He adjusted his sword on his back, the leather straps creaking softly. "We do not fight the land anymore. We follow its will."
+
+Kaelen closed his eyes again, feeling the weight of their trust settle over him like a blanket. It was heavy, but it was also warm. The magic in his veins felt less like a threat and more like a current he could ride, guiding him westward toward whatever lay beyond the forest’s edge. He did not know what waited there—the source of the Blight, or something else entirely—but he knew that they were ready to face it together.
+
+"Ready," Elias said, checking his map one last time. "Let us go."
+
+The group moved toward the door, stepping carefully over the threshold into the night. The barrier hummed behind them, a steady pulse that marked their presence in the world beyond. They walked not as survivors of a disaster, but as agents of a plan that had just begun to unfold. The road ahead was uncertain, but for now, they had the time and the strength to take it.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

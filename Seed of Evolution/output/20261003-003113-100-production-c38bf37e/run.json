@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261003-003113-100-production-c38bf37e",
+  "bookPath": "/books",
+  "voiceLibraryPath": "/voices",
+  "chapterId": "chapter-001",
+  "startedUtc": "2026-10-03T00:31:13.101736+00:00",
+  "completedUtc": "2026-10-03T00:40:35.041614+00:00",
+  "status": "failed",
+  "failedStage": "segment verification",
+  "settings": {
+    "whisperModel": "small.en",
+    "pauseSeconds": 0.18,
+    "maxSegmentAttempts": 3
+  },
+  "segmentVerificationAttempts": [
+    {
+      "attempt": 1,
+      "verificationPath": "/books/output/20261003-003113-100-production-c38bf37e/chapter-001/verification-attempt-1.json",
+      "passed": 93,
+      "review": 3,
+      "failed": 3,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 5,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 6,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 57,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 71,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 78,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 79,
+          "chunkIndex": 4
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "verificationPath": "/books/output/20261003-003113-100-production-c38bf37e/chapter-001/verification-attempt-2.json",
+      "passed": 96,
+      "review": 1,
+      "failed": 2,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 5,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 71,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 79,
+          "chunkIndex": 4
+        }
+      ]
+    },
+    {
+      "attempt": 3,
+      "verificationPath": "/books/output/20261003-003113-100-production-c38bf37e/chapter-001/verification-attempt-3.json",
+      "passed": 96,
+      "review": 2,
+      "failed": 1,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 5,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 71,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 79,
+          "chunkIndex": 4
+        }
+      ]
+    }
+  ],
+  "stageCheckpoints": {},
+  "resumeCount": 0,
+  "resumeHistory": [],
+  "lastResumedUtc": null,
+  "chapterDirectory": "/books/output/20261003-003113-100-production-c38bf37e/chapter-001",
+  "masteredAudioPath": null
+}

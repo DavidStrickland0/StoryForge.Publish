@@ -94,3 +94,6 @@
 
 
 - If we don't stabilize the flow, the surge will shatter the seal and flood this room.
+
+
+- The group has found a fragile peace within the bounds of the watchfort.

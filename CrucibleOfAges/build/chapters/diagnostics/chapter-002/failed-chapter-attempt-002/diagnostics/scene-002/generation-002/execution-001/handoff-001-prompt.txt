@@ -1,0 +1,143 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 2.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":2,"ViewpointCharacterId":"Caelen","Objective":"Depict the protagonist\u0027s experience in the void, including the initialization of the System and his entry into a state of suspended animation with one level in each path.","IntendedChange":"The protagonist transitions from a dying human consciousness to a soul in the void, experiencing the initialization of the System and the establishment of his dual-path progression (Dominion Level 1, Sacrifice Level 1).","PacingPosture":0,"ProhibitedPatterns":["Re-enacting the physical act of shielding the mother or the sensation of the bullets hitting his body.","Repeating the decision to accept the System\u0027s passive existence or the transition into suspended animation as a new event, as this state was established in the failed previous attempt\u0027s context and must be the result, not the process, of the scene.","Introducing external voices, gods, or other souls in the void.","Resolving the protagonist\u0027s identity crisis or fully understanding the moral implications of his actions."],"Scenes":[{"Sequence":1,"Purpose":"Establish the sensory and psychological nature of the void as a space of suspended time and memory processing, distinct from the physical battlefield.","IntendedChange":"Caelen perceives the absence of physical pain and the presence of a dream-like environment composed of fragmented memories, realizing he is no longer in a physical body.","FocusCharacterIds":["Caelen"]},{"Sequence":2,"Purpose":"Depict the initialization of the System interface as a neutral, mechanical overlay that appears in response to his specific death condition, contrasting with his expectation of judgment or reward.","IntendedChange":"Caelen observes the appearance of the System interface, recognizing it as a functional tool rather than a benevolent guide, and perceives the dual-path progression structure for the first time.","FocusCharacterIds":["Caelen"]},{"Sequence":3,"Purpose":"Show Caelen\u0027s interaction with the interface to understand his specific status, revealing the unique consequence of his sacrifice and establishing his current progression levels.","IntendedChange":"Caelen confirms his Dominion Level 1 and Sacrifice Level 1 status, realizing that his act of sacrifice has granted him a unique capability to see and direct his progression, and he settles into a state of waiting with this new knowledge.","FocusCharacterIds":["Caelen"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the initialization of the System interface as a neutral, mechanical overlay that appears in response to his specific death condition, contrasting with his expectation of judgment or reward.","IntendedChange":"Caelen observes the appearance of the System interface, recognizing it as a functional tool rather than a benevolent guide, and perceives the dual-path progression structure for the first time.","FocusCharacterIds":["Caelen"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Show Caelen\u0027s interaction with the interface to understand his specific status, revealing the unique consequence of his sacrifice and establishing his current progression levels.","IntendedChange":"Caelen confirms his Dominion Level 1 and Sacrifice Level 1 status, realizing that his act of sacrifice has granted him a unique capability to see and direct his progression, and he settles into a state of waiting with this new knowledge.","FocusCharacterIds":["Caelen"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":2,"CompletedSceneSequence":1,"Location":"The Void (a non-physical space of gray mist and fragmented memory constructs)","TimeContext":"Suspended time; non-linear perception of past events","PresentCharacterIds":["Caelen"],"PhysicalConditions":["Caelen exists as a disembodied consciousness without a physical body","Absence of physical pain or injury","Movement is achieved through intent rather than physical locomotion"],"KnowledgeEstablished":["Caelen is no longer in a physical body and exists in a void of suspended time","Memories in the void are non-linear and accessible as data points without associated trauma","The void functions as a processing chamber for his consciousness","Caelen recognizes his final act of shielding the mother as a deviation from his usual power-driven behavior"],"DecisionsMade":["Caelen chose to allow his thoughts to slow and settle into the mist rather than fighting the sensation of dissolution"],"PossessionChanges":[],"RelationshipChanges":[],"CompletedActions":["Caelen perceived the absence of physical pain and the loss of his physical body","Caelen interacted with memory fragments (gun oil, M4, childhood bedroom) within the void","Caelen reflected on the irony of his sacrificial act compared to his past life of manipulation","Caelen observed distant pulsing lights in the mist"],"UnresolvedImmediateAction":"Caelen is settling into a state of stillness and waiting as the distant pulsing lights begin to shift and rearrange into a pattern.","ContinuationPosition":"Caelen is suspended in the gray mist of the void, in a state of deep fatigue and stillness, observing the distant pulsing lights as they begin to rearrange themselves into a recognizable pattern.","ProhibitedRepetition":["Re-enacting the physical act of shielding the mother or the sensation of the bullets hitting his body","Repeating the realization of being disembodied or the absence of pain as a new discovery","Introducing external voices, gods, or other souls in the void","Resolving the protagonist\u0027s identity crisis or fully understanding the moral implications of his actions"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The lights did not resolve into a face, or a hand, or a halo of judgment. They snapped into alignment with the abrupt, mechanical precision of a locking mechanism.
+
+The gray mist around Caelen didn’t clear, but it organized. The chaotic, drifting fragments of his memory—the smell of gun oil, the grit of sand in his teeth, the weight of the dead infant in the mother’s arms—stopped tumbling like debris in a storm. They froze in place, suspended in the void like insects trapped in amber, and then, behind them, a structure emerged.
+
+It was not a voice. There was no booming resonance, no celestial choir, no gentle whisper promising that his suffering had meaning. It was a grid.
+
+It hung in the air before him, translucent and cold, composed of sharp lines and hard angles that felt less like divine architecture and more like the interior of a high-end weapon system. The interface was sterile. It offered no comfort. It simply existed, an overlay on the fabric of his consciousness, demanding his attention without asking for it.
+
+Caelen stared at it. His first instinct, the one that had served him well from the moment he enlisted in the Marines, was to assess the threat. Was it a trap? A hallucination brought on by blood loss before the final shutdown? He tried to reach out with his mind, to touch the edges of the grid, but there was nothing to grab. It wasn’t a door he could kick down. It wasn’t a button he could press. It was a display.
+
+And then, the text resolved.
+
+The characters were not words in any language he had ever spoken or read. They were concepts, stripped of cultural context and stripped of emotion. They presented themselves as data points, neutral and absolute.
+
+On the left side of the grid, a vertical bar stretched upward, filled to the very bottom. The label above it was a single, heavy concept: *Dominion*.
+
+On the right, an identical bar mirrored it, also filled to the bottom. The label above it was: *Sacrifice*.
+
+Caelen blinked, or rather, he performed the mental equivalent of blinking, trying to force his perception to adjust. The numbers were stark. Below the Dominion bar, a single digit pulsed with a faint, reddish hue: *1*. Below the Sacrifice bar, the same single digit glowed with a soft, white light: *1*.
+
+There was only one. There was only one.
+
+He felt a surge of confusion that was almost physical in its intensity. This was not how it was supposed to work. In his mind, in the stories he had half-read and the vague, inherited superstitions that clung to his family like cobwebs, salvation was supposed to be a transaction. You suffered, you bled, you died for a cause, and in return, you were elevated. You were made special. You were given a purpose.
+
+This was none of those things. This was an accounting.
+
+He looked at the *Dominion* bar again. Level 1. He knew, with a sickening, visceral certainty, what had bought that level. It wasn’t the bullet that killed him. It was the years before it. It was the times he had looked at his squad mates and seen resources rather than people. It was the way he had manipulated Private Davis’s fear to get the better watch rotation. It was the cold, calculated satisfaction he had felt when he used his position to sideline a rival, taking the credit for their work while letting them take the blame for their mistakes. He had built his identity on being the most efficient tool in the room, and this interface was showing him the receipt.
+
+Then he looked at the *Sacrifice* bar. Level 1.
+
+The memory of the courtyard hit him, not with the visceral pain of the bullets, but with the cold clarity of a recorded event. The mother’s face. The dead baby. The way he had thrown himself forward, not because he loved her, not because he understood the weight of her grief, but because the alternative—watching her die—had felt wrong in a way that cut against every instinct of self-preservation he had ever possessed.
+
+It was a single point. One level.
+
+He had spent eighteen years accumulating one point of Dominion through a dozen small, selfish acts. He had spent one second accumulating one point of Sacrifice.
+
+The efficiency was staggering, and yet, it felt hollow. The interface did not congratulate him. It did not pity him. It simply held the two bars up to his consciousness and let him see the balance. He was, in the eyes of whatever force had created this, perfectly, terrifyingly average.
+
+Caelen tried to dismiss the grid. He focused on the memory of his mother’s voice, the way she had called his name before he left for the base. He tried to drown out the sterile light of the interface with the warmth of that memory. But the grid remained, unblinking and absolute. It did not fade. It did not react to his emotional state. It was a tool, and tools did not care about the hands that held them.
+
+He realized, with a growing sense of unease, that he had no instructions. There was no tutorial. No “Welcome, User” message. No explanation of what these levels meant, or how they could be increased, or what, if anything, they were for. He had the keys to a car, but he did not know where the car was, or where it was going, or how to start the engine.
+
+The grid flickered, just slightly, as if acknowledging his frustration, and then it stabilized. The two bars, equal in height, equal in weight, hung in the gray void.
+
+Caelen felt a strange, heavy fatigue settle into his bones, or the memory of his bones. It was not the exhaustion of a long march, but a deeper, more fundamental weariness. The war in his head, the constant calculation of advantage and disadvantage, had paused.
+
+He looked at the Dominion bar. He looked at the Sacrifice bar.
+
+There was only one. There was only one.
+
+He did not know what to do with them. He did not know who had given them to him. He did not know if he would ever see anything but this gray mist and these two glowing numbers.
+
+But for the first time since he had died, he was not thinking about how to win. He was not thinking about how to protect his squad, or how to protect his rank, or how to protect himself. He was just looking.
+
+The interface waited.
+
+It was a neutral, mechanical overlay, a window into a system he did not understand. It held his power and his goodness in equal measure, suspended in the dark.
+
+Caelen let the grid hang there. He did not try to analyze it further. He did not try to force a meaning onto it. He simply existed in the presence of the data, feeling the strange, cold weight of his own soul’s ledger.
+
+The mist around him remained gray. The lights in the distance had stopped shifting. They were still, fixed in their pattern, a constellation of unknown significance.
+
+Caelen was alone with his numbers.
+
+He closed his eyes, or the mental equivalent of closing them, and let the silence of the void fill the space where his thoughts used to be.
+
+The interface remained.
+
+It would, he suspected, remain for a very long time.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
