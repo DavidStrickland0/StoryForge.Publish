@@ -1,0 +1,1594 @@
+{
+  "schemaVersion": 1,
+  "settings": {
+    "maxAttemptsPerWording": 3,
+    "maxFragmentRewrites": 3,
+    "totalAttempts": 12
+  },
+  "attempt": 3,
+  "pendingAction": "verify",
+  "unresolvedSegmentIndexes": [],
+  "rewriteCounts": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 0,
+    "26": 0,
+    "27": 0,
+    "28": 0,
+    "29": 0,
+    "30": 0,
+    "31": 0,
+    "32": 0,
+    "33": 0,
+    "34": 0,
+    "35": 0,
+    "36": 0,
+    "37": 0,
+    "38": 0,
+    "39": 0,
+    "40": 0,
+    "41": 0,
+    "42": 0,
+    "43": 0,
+    "44": 0,
+    "45": 0,
+    "46": 0,
+    "47": 0,
+    "48": 0,
+    "49": 0,
+    "50": 0,
+    "51": 0,
+    "52": 0,
+    "53": 0,
+    "54": 0,
+    "55": 0,
+    "56": 0,
+    "57": 0,
+    "58": 0,
+    "59": 0,
+    "60": 0,
+    "61": 0,
+    "62": 0,
+    "63": 0,
+    "64": 0,
+    "65": 0,
+    "66": 0,
+    "67": 0,
+    "68": 0,
+    "69": 0,
+    "70": 0,
+    "71": 0,
+    "72": 0,
+    "73": 0,
+    "74": 0,
+    "75": 0,
+    "76": 0,
+    "77": 0,
+    "78": 0,
+    "79": 0
+  },
+  "bestCandidates": {
+    "1": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0001-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Adrian Vale?\"",
+            "transcription": "Adrienne Vale",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0001-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 1,
+            "chunkIndex": 0,
+            "speakerId": "chapter-001-receptionist-01",
+            "voiceId": "voice-070b12697a45f754"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 1,
+        "speakerId": "chapter-001-receptionist-01",
+        "voiceId": "voice-070b12697a45f754",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Adrian Vale?\"",
+        "expectedText": "\"Adrian Vale?\"",
+        "spokenText": "\"Adrian Vale?\"",
+        "wasRewritten": false,
+        "transcription": "Adrienne Vale",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0001.wav"
+      }
+    },
+    "3": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0003-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Yes.",
+            "transcription": "Yes.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0003-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 3,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 3,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Yes.\"",
+        "expectedText": "\"Yes.\"",
+        "spokenText": "\"Yes.\"",
+        "wasRewritten": false,
+        "transcription": "Yes.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0003.wav"
+      }
+    },
+    "7": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0007-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Come in.\"",
+            "transcription": "Come in.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0007-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 7,
+            "chunkIndex": 0,
+            "speakerId": "dr-aris-thorne",
+            "voiceId": "voice-0439e4bc5b2c7934"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 7,
+        "speakerId": "dr-aris-thorne",
+        "voiceId": "voice-0439e4bc5b2c7934",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Come in.\"",
+        "expectedText": "\"Come in.\"",
+        "spokenText": "\"Come in.\"",
+        "wasRewritten": false,
+        "transcription": "Come in.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0007.wav"
+      }
+    },
+    "9": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0009-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Mr. Vale. Please, sit.\"",
+            "transcription": "Mr. Vale, please, sit.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0009-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.16
+            },
+            "segmentIndex": 9,
+            "chunkIndex": 0,
+            "speakerId": "dr-aris-thorne",
+            "voiceId": "voice-0439e4bc5b2c7934"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 9,
+        "speakerId": "dr-aris-thorne",
+        "voiceId": "voice-0439e4bc5b2c7934",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Mr. Vale. Please, sit.\"",
+        "expectedText": "\"Mr. Vale. Please, sit.\"",
+        "spokenText": "\"Mr. Vale. Please, sit.\"",
+        "wasRewritten": false,
+        "transcription": "Mr. Vale, please, sit.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0009.wav"
+      }
+    },
+    "12": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0012-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Yes, sir.\"",
+            "transcription": "Yes, sir.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0012-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 12,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 12,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Yes, sir.\"",
+        "expectedText": "\"Yes, sir.\"",
+        "spokenText": "\"Yes, sir.\"",
+        "wasRewritten": false,
+        "transcription": "Yes, sir.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0012.wav"
+      }
+    },
+    "15": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0015-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Yes, sir.\"",
+            "transcription": "Yes, sir.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0015-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 15,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 15,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Yes, sir.\"\n\n",
+        "expectedText": "\"Yes, sir.\"\n\n",
+        "spokenText": "\"Yes, sir.\"\n\n",
+        "wasRewritten": false,
+        "transcription": "Yes, sir.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0015.wav"
+      }
+    },
+    "18": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0018-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"It pays well,\"",
+            "transcription": "it pays well.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0018-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 18,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 18,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"It pays well,\"",
+        "expectedText": "\"It pays well,\"",
+        "spokenText": "\"It pays well,\"",
+        "wasRewritten": false,
+        "transcription": "it pays well.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0018.wav"
+      }
+    },
+    "21": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0021-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"I read the materials.\"",
+            "transcription": "I read the materials.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0021-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 21,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 21,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"I read the materials.\"\n\n",
+        "expectedText": "\"I read the materials.\"\n\n",
+        "spokenText": "\"I read the materials.\"\n\n",
+        "wasRewritten": false,
+        "transcription": "I read the materials.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0021.wav"
+      }
+    },
+    "25": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0025-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"How long?\"",
+            "transcription": "How long?",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0025-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.11
+            },
+            "segmentIndex": 25,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 25,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"How long?\"\n\n",
+        "expectedText": "\"How long?\"\n\n",
+        "spokenText": "\"How long?\"\n\n",
+        "wasRewritten": false,
+        "transcription": "How long?",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0025.wav"
+      }
+    },
+    "28": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0028-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"And the daily visits?\"",
+            "transcription": "and the daily visits.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0028-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.09
+            },
+            "segmentIndex": 28,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 28,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"And the daily visits?\"",
+        "expectedText": "\"And the daily visits?\"",
+        "spokenText": "\"And the daily visits?\"",
+        "wasRewritten": false,
+        "transcription": "and the daily visits.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0028.wav"
+      }
+    },
+    "29": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0029-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "he asked.",
+            "transcription": "He asked.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0029-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.08
+            },
+            "segmentIndex": 29,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voice-8a77e77ae1f7dbff"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 29,
+        "speakerId": "narrator",
+        "voiceId": "voice-8a77e77ae1f7dbff",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " he asked. ",
+        "expectedText": " he asked. ",
+        "spokenText": " he asked. ",
+        "wasRewritten": false,
+        "transcription": "He asked.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0029.wav"
+      }
+    },
+    "30": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0030-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"What do they involve?\"",
+            "transcription": "What do they involve?",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0030-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 30,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 30,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"What do they involve?\"",
+        "expectedText": "\"What do they involve?\"",
+        "spokenText": "\"What do they involve?\"",
+        "wasRewritten": false,
+        "transcription": "What do they involve?",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0030.wav"
+      }
+    },
+    "31": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0031-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Thorne's expression didn't change.",
+            "transcription": "Thorne's expression didn't change.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0031-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.1
+            },
+            "segmentIndex": 31,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voice-8a77e77ae1f7dbff"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 31,
+        "speakerId": "narrator",
+        "voiceId": "voice-8a77e77ae1f7dbff",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\n\nThorne's expression didn't change. ",
+        "expectedText": "\n\nThorne's expression didn't change. ",
+        "spokenText": "\n\nThorne's expression didn't change. ",
+        "wasRewritten": false,
+        "transcription": "Thorne's expression didn't change.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0031.wav"
+      }
+    },
+    "35": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0035-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Adrian asked.",
+            "transcription": "Adrian asked.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0035-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.08
+            },
+            "segmentIndex": 35,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voice-8a77e77ae1f7dbff"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 35,
+        "speakerId": "narrator",
+        "voiceId": "voice-8a77e77ae1f7dbff",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Adrian asked. ",
+        "expectedText": " Adrian asked. ",
+        "spokenText": " Adrian asked. ",
+        "wasRewritten": false,
+        "transcription": "Adrian asked.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0035.wav"
+      }
+    },
+    "36": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0036-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Any risks?\"",
+            "transcription": "any risks.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0036-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 36,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 36,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Any risks?\"\n\n",
+        "expectedText": "\"Any risks?\"\n\n",
+        "spokenText": "\"Any risks?\"\n\n",
+        "wasRewritten": false,
+        "transcription": "any risks.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0036.wav"
+      }
+    },
+    "41": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0041-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 5,
+            "transcribedWordCount": 5,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"You should read it thoroughly,\"",
+            "transcription": "You should read it thoroughly.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0041-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.06
+            },
+            "segmentIndex": 41,
+            "chunkIndex": 0,
+            "speakerId": "dr-aris-thorne",
+            "voiceId": "voice-0439e4bc5b2c7934"
+          }
+        ],
+        "expectedWordCount": 5,
+        "transcribedWordCount": 5,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 41,
+        "speakerId": "dr-aris-thorne",
+        "voiceId": "voice-0439e4bc5b2c7934",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"You should read it thoroughly,\"",
+        "expectedText": "\"You should read it thoroughly,\"",
+        "spokenText": "\"You should read it thoroughly,\"",
+        "wasRewritten": false,
+        "transcription": "You should read it thoroughly.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0041.wav"
+      }
+    },
+    "42": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0042-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Thorne said.",
+            "transcription": "Thorn said.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0042-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 42,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voice-8a77e77ae1f7dbff"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 42,
+        "speakerId": "narrator",
+        "voiceId": "voice-8a77e77ae1f7dbff",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Thorne said. ",
+        "expectedText": " Thorne said. ",
+        "spokenText": " Thorne said. ",
+        "wasRewritten": false,
+        "transcription": "Thorn said.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0042.wav"
+      }
+    },
+    "45": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0045-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"I've read it,\"",
+            "transcription": "I've read it.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0045-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.04
+            },
+            "segmentIndex": 45,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 45,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"I've read it,\"",
+        "expectedText": "\"I've read it,\"",
+        "spokenText": "\"I've read it,\"",
+        "wasRewritten": false,
+        "transcription": "I've read it.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0045.wav"
+      }
+    },
+    "46": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0046-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Adrian said.",
+            "transcription": "Adrian said.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0046-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 46,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voice-8a77e77ae1f7dbff"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 46,
+        "speakerId": "narrator",
+        "voiceId": "voice-8a77e77ae1f7dbff",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Adrian said. ",
+        "expectedText": " Adrian said. ",
+        "spokenText": " Adrian said. ",
+        "wasRewritten": false,
+        "transcription": "Adrian said.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0046.wav"
+      }
+    },
+    "47": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0047-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"I have questions.\"",
+            "transcription": "I have questions.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0047-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 47,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 47,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"I have questions.\"\n\n",
+        "expectedText": "\"I have questions.\"\n\n",
+        "spokenText": "\"I have questions.\"\n\n",
+        "wasRewritten": false,
+        "transcription": "I have questions.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0047.wav"
+      }
+    },
+    "48": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0048-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Of course.\"",
+            "transcription": "Of course.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0048-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 48,
+            "chunkIndex": 0,
+            "speakerId": "dr-aris-thorne",
+            "voiceId": "voice-0439e4bc5b2c7934"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 48,
+        "speakerId": "dr-aris-thorne",
+        "voiceId": "voice-0439e4bc5b2c7934",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Of course.\"",
+        "expectedText": "\"Of course.\"",
+        "spokenText": "\"Of course.\"",
+        "wasRewritten": false,
+        "transcription": "Of course.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0048.wav"
+      }
+    },
+    "52": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0052-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Thorne's expression remained neutral.",
+            "transcription": "Thorne's expression remained neutral.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0052-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.13
+            },
+            "segmentIndex": 52,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voice-8a77e77ae1f7dbff"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 52,
+        "speakerId": "narrator",
+        "voiceId": "voice-8a77e77ae1f7dbff",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\n\nThorne's expression remained neutral. ",
+        "expectedText": "\n\nThorne's expression remained neutral. ",
+        "spokenText": "\n\nThorne's expression remained neutral. ",
+        "wasRewritten": false,
+        "transcription": "Thorne's expression remained neutral.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0052.wav"
+      }
+    },
+    "57": {
+      "attempt": 2,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0057-attempt-02.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 5,
+            "transcribedWordCount": 5,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Can I think about it?\"",
+            "transcription": "Can I think about it?",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0057-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 57,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 5,
+        "transcribedWordCount": 5,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 57,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Can I think about it?\"",
+        "expectedText": "\"Can I think about it?\"",
+        "spokenText": "\"Can I think about it?\"",
+        "wasRewritten": false,
+        "transcription": "Can I think about it?",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0057.wav"
+      }
+    },
+    "58": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0058-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Adrian asked.",
+            "transcription": "Adrian asked.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0058-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.1
+            },
+            "segmentIndex": 58,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voice-8a77e77ae1f7dbff"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 58,
+        "speakerId": "narrator",
+        "voiceId": "voice-8a77e77ae1f7dbff",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Adrian asked. ",
+        "expectedText": " Adrian asked. ",
+        "spokenText": " Adrian asked. ",
+        "wasRewritten": false,
+        "transcription": "Adrian asked.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0058.wav"
+      }
+    },
+    "59": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0059-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Come back tomorrow?\"",
+            "transcription": "Come back tomorrow.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0059-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 59,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 59,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Come back tomorrow?\"",
+        "expectedText": "\"Come back tomorrow?\"",
+        "spokenText": "\"Come back tomorrow?\"",
+        "wasRewritten": false,
+        "transcription": "Come back tomorrow.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0059.wav"
+      }
+    },
+    "63": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0063-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Okay.",
+            "transcription": "Okay.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0063-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 63,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 63,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Okay,\"",
+        "expectedText": "\"Okay,\"",
+        "spokenText": "\"Okay,\"",
+        "wasRewritten": false,
+        "transcription": "Okay.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0063.wav"
+      }
+    },
+    "64": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0064-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Adrian said.",
+            "transcription": "Adrian said.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0064-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 64,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voice-8a77e77ae1f7dbff"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 64,
+        "speakerId": "narrator",
+        "voiceId": "voice-8a77e77ae1f7dbff",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Adrian said. ",
+        "expectedText": " Adrian said. ",
+        "spokenText": " Adrian said. ",
+        "wasRewritten": false,
+        "transcription": "Adrian said.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0064.wav"
+      }
+    },
+    "65": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0065-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"I'll do it.\"",
+            "transcription": "I'll do it.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0065-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.04
+            },
+            "segmentIndex": 65,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 65,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"I'll do it.\"",
+        "expectedText": "\"I'll do it.\"",
+        "spokenText": "\"I'll do it.\"",
+        "wasRewritten": false,
+        "transcription": "I'll do it.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0065.wav"
+      }
+    },
+    "72": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0072-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Thank you,\"",
+            "transcription": "Thank you.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0072-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.05
+            },
+            "segmentIndex": 72,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 72,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Thank you,\"",
+        "expectedText": "\"Thank you,\"",
+        "spokenText": "\"Thank you,\"",
+        "wasRewritten": false,
+        "transcription": "Thank you.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0072.wav"
+      }
+    },
+    "74": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0074-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"One more thing.\"",
+            "transcription": "One more thing.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0074-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "segmentIndex": 74,
+            "chunkIndex": 0,
+            "speakerId": "dr-aris-thorne",
+            "voiceId": "voice-0439e4bc5b2c7934"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 74,
+        "speakerId": "dr-aris-thorne",
+        "voiceId": "voice-0439e4bc5b2c7934",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"One more thing.\"",
+        "expectedText": "\"One more thing.\"",
+        "spokenText": "\"One more thing.\"",
+        "wasRewritten": false,
+        "transcription": "One more thing.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0074.wav"
+      }
+    },
+    "78": {
+      "attempt": 2,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/short-utterance-candidates/segment-0078-attempt-02.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Thank you,\"",
+            "transcription": "Thank you.",
+            "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0078-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.15
+            },
+            "segmentIndex": 78,
+            "chunkIndex": 0,
+            "speakerId": "adrian-vale",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 78,
+        "speakerId": "adrian-vale",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Thank you,\"",
+        "expectedText": "\"Thank you,\"",
+        "spokenText": "\"Thank you,\"",
+        "wasRewritten": false,
+        "transcription": "Thank you.",
+        "audioPath": "/books/output/20261003-004813-402-incremental-chapter-001-ef271655/chapter-001/segment-0078.wav"
+      }
+    }
+  },
+  "completed": false,
+  "unresolvedChunks": [
+    [
+      5,
+      0
+    ],
+    [
+      71,
+      0
+    ]
+  ]
+}

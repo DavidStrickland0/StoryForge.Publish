@@ -1,0 +1,27 @@
+Chapter 1: Collision
+
+Adrian Vale was a thin, wiry figure, more often found slouched against the wall in the dimly lit corridors of the university's late-night study areas than striding confidently through the crowds of students bustling towards the next shift at the diner. This evening was no different; he was tired, the weight of his meager backpack dragging at him as he made the long trek home, the promise of a cold, solitary apartment waiting in the darkness. Nineteen years old, on the cusp of the adult world, and already buried under the twin mountains of tuition fees and rent, with the promise of no reprieve in sight. This was his life as a freshman—surviving on scraps, dreaming of a safety net that never appeared.
+
+Tonight, however, the exhaustion that normally dulled his senses to the world around him was cut through with a sharp crack of violence. The cacophony of a scuffle, the dull thud of a body hitting the pavement, brought his weary head up and directed his stumbling feet towards the disturbance. The night was dark and the shadows deep, but in the brief, flickering glow of a streetlight, Adrian glimpsed the violent tableau of a man, larger and more menacing than any he had ever dared to confront, raining blows down on a woman curled into a defensive ball on the sidewalk.
+
+Something primal and inhuman stirred within him, pushing aside the fog of fatigue and launching him into the fray. His own body, heavy with the inertia of exhaustion, moved with a speed and precision that belied its condition, his limbs light and fluid as he danced between the rain of fists and the looming figure of the attacker. The woman, Lena Reyes, was a blur of disheveled hair and torn clothing, but Adrian's gaze was drawn back to her with an urgency he couldn't understand.
+
+Their movements were a chaotic tangle—Adrian's enhanced reflexes struggling against his body's ingrained need to collapse from fatigue, his strikes wild and desperate but still somehow managing to keep the larger man at bay. The scene was a blur of motion and the stench of fear and adrenaline hung heavy in the air, a potent mix that seemed to fuel Adrian's frantic attempts to protect this stranger.
+
+It was a messy, ugly dance, the kind that would leave both parties bruised and disheveled. But in the end, it was Adrian's body that found an unexpected rhythm, his movements gaining a clarity and purpose that belied his own shock. The attacker, momentarily stunned by the ferocity of the resistance he hadn't expected, stumbled back, giving Adrian the breath he desperately needed.
+
+The violence of the assault was momentarily stayed, but at a cost. Adrian could feel his own body protesting, the ache of bruises and the dull throb of unknown injuries making their presence known. Lena, too, was a mess of cuts and bruises, her eyes wide and uncomprehending as she stared up at the man she'd thought was beyond salvation, now standing between her and her would-be killer.
+
+The attacker, regaining his bearings, snarled something unintelligible and lunged forward once more. Adrian could feel his energy flagging, his body crying out for the respite it so desperately needed. But as their gazes met—a brief, electric connection in the midst of chaos—Adrian felt something stir within him, a spark of something he couldn't explain, a force that drove him to stand his ground despite every logical reason to retreat.
+
+This time, his movements were no longer the frantic dance of a man fighting against his own exhaustion. With a clarity he couldn't understand, he sidestepped the incoming blow, his own body moving with a speed and precision that left the attacker baffled. The momentum carried them both off balance, and as they stumbled, Adrian saw his opportunity. A swift jab to the man's jaw, enough force to disorient him, and the assailant crumpled to the ground, momentarily out of the fight.
+
+Breathless and panting, Adrian turned his attention to Lena, still curled on the ground but now watching him with a mixture of fear and something else—something that looked almost like gratitude. He knelt beside her, concern overriding the exhaustion that threatened to engulf him.
+
+"Lena," he managed to gasp out, his voice rough from disuse. "You're safe now. Are you hurt?"
+
+Lena's gaze lingered on him, searching for something, and for a moment, Adrian felt a jolt of uncertainty. He wasn't sure what she could see in him, what she might be grateful for. But as her hand reached out, hesitantly touching his bruised cheek, he knew he had no words to explain what had just happened. All he could do was offer what little he had—to help her to her feet, to steady her as the world seemed to spin around her.
+
+As he assisted her, a stark realization washed over him. His body, this mysterious, alien force that had driven him to fight against all odds, had saved a life tonight. But at what cost? The weight of his fatigue, the throbbing in his muscles, the pounding in his head—it all bore witness to the price of this newfound power, a testament to the transformation that was taking place within him, beneath the surface of his tired, ordinary world.
+
+And as he looked into Lena's eyes, Adrian Vale, the broke college student on the brink of collapse, felt the stirrings of something far more complex, far more powerful, than mere survival. A seed of heroism, planted in the darkness of the night, already beginning to grow.

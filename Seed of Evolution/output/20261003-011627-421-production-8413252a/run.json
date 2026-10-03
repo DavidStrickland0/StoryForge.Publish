@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261003-011627-421-production-8413252a",
+  "bookPath": "/books",
+  "voiceLibraryPath": "/voices",
+  "chapterId": "chapter-001",
+  "startedUtc": "2026-10-03T01:16:27.423216+00:00",
+  "completedUtc": "2026-10-03T01:24:57.239922+00:00",
+  "status": "failed",
+  "failedStage": "segment verification",
+  "settings": {
+    "whisperModel": "small.en",
+    "pauseSeconds": 0.18,
+    "maxSegmentAttempts": 3
+  },
+  "segmentVerificationAttempts": [
+    {
+      "attempt": 1,
+      "verificationPath": "/books/output/20261003-011627-421-production-8413252a/chapter-001/verification-attempt-1.json",
+      "passed": 96,
+      "review": 2,
+      "failed": 1,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 57,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 71,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 78,
+          "chunkIndex": 0
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "verificationPath": "/books/output/20261003-011627-421-production-8413252a/chapter-001/verification-attempt-2.json",
+      "passed": 98,
+      "review": 1,
+      "failed": 0,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 71,
+          "chunkIndex": 0
+        }
+      ]
+    },
+    {
+      "attempt": 3,
+      "verificationPath": "/books/output/20261003-011627-421-production-8413252a/chapter-001/verification-attempt-3.json",
+      "passed": 98,
+      "review": 1,
+      "failed": 0,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 71,
+          "chunkIndex": 0
+        }
+      ]
+    }
+  ],
+  "stageCheckpoints": {},
+  "resumeCount": 0,
+  "resumeHistory": [],
+  "lastResumedUtc": null,
+  "chapterDirectory": "/books/output/20261003-011627-421-production-8413252a/chapter-001",
+  "masteredAudioPath": null
+}
