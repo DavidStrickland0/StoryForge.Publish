@@ -92,6 +92,27 @@
 
 - Elastic body hair is a known variant of a skill.
 
+
+- Aurora exists and is an established character.
+
+
+- Aurora possesses the ability to fly.
+
+
+- Ray exists and is an established character.
+
+
+- Ray is a doorman at Ethan Vale's apartment building.
+
+
+- Ray holds a Security Level 4 badge.
+
+
+- Ethan Vale has known Ray for several years.
+
+
+- Ethan Vale has admired Aurora since he was a teenager.
+
 ## Changes Over Time
 
 

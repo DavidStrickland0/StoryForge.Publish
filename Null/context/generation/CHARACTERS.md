@@ -26,6 +26,8 @@ Current state:
 
 - Ethan Vale possesses a blue mug that belonged to Mara.
 
+- Ethan Vale has admired Aurora since he was a teenager.
+
 ### Elena
 
 Current identifier: Elena
@@ -113,3 +115,29 @@ Current state:
 - Ben has stopped communicating with Ethan Vale.
 
 - Ben repaired Ethan's kitchen drawer runner in the past.
+
+
+### Aurora
+
+Current identifier: Aurora
+
+Current state:
+
+- Aurora exists and is an established character.
+
+- Aurora possesses the ability to fly.
+
+
+### Ray
+
+Current identifier: Ray
+
+Current state:
+
+- Ray exists and is an established character.
+
+- Ray is a doorman at Ethan Vale's apartment building.
+
+- Ray holds a Security Level 4 badge.
+
+- Ray knows Ethan Vale by name.
