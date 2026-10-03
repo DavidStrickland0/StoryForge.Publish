@@ -1,0 +1,501 @@
+# Chapter 2: The Daily Grind
+
+Adrian's alarm went off at 7 AM, the shrill beeping cutting through his exhausted sleep. He'd barely managed four hours, but that was better than most nights. He sat up slowly, the cheap mattress springs groaning beneath him, and looked around his tiny apartment.
+
+The space was barely large enough for a single person. A studio efficiency, really—just one room that served as bedroom, kitchen, and living area, with a separate bathroom that was barely larger than a closet. The walls were stained, the carpet threadbare, but it was all he could afford.
+
+He walked to the bathroom and turned on the faucet, waiting for the water to run hot. It never did, not really. The building's heating system was ancient, and the hot water was lukewarm at best. He splashed his face with the cold water anyway, trying to shake off the grogginess.
+
+After dressing in the same worn jeans and faded t-shirt he wore most days, Adrian made his way to the kitchenette. He had two choices for breakfast: a handful of cheap oatmeal or the last of his instant noodles. He chose the oatmeal, eating it dry since he'd run out of milk three days ago.
+
+As he chewed the bland, tasteless cereal, he thought about the money in his backpack. Four hundred dollars. Enough to cover his rent for the month, which was due in a week. That was the most important thing.
+
+But it had cost him something. Yesterday, he'd signed away his body, his privacy, his dignity. All for the chance to survive his freshman year.
+
+He finished his breakfast, rinsed out the bowl, and headed out the door. The walk to the university-affiliated hospital took about twenty minutes. The morning air was crisp, the sky still dark. He'd left early, not wanting to be late for his first appointment.
+
+The hospital loomed before him, a massive concrete structure that seemed to dwarf everything around it. He'd been here before, for his initial screening, but today felt different. Today, he was officially a participant in the trial.
+
+He walked through the sliding glass doors into the sterile lobby. The walls were white, the floors polished tile. Everything smelled like disinfectant. He approached the reception desk, where a middle-aged woman sat typing on her computer.
+
+"Hi," he said. "I'm here for the experimental medicine program. First day."
+
+She looked up at him, her expression neutral. "Name?"
+
+"Adrian Vale."
+
+She typed something on her keyboard, then nodded. "ID and insurance card."
+
+Adrian handed her his university ID and the insurance card the program had provided. She made copies, handed them back, and pointed down a hallway.
+
+"Third floor. Take the elevator on the left. They're expecting you."
+
+"Thanks."
+
+He rode the elevator up in silence, his stomach churning with anxiety. When the doors opened, he found himself in a narrow hallway with white walls and fluorescent lighting. At the end of the hall, there was a door labeled "Specimen Collection Room."
+
+He pushed it open and found himself in a small waiting area. The walls were covered with posters about health and wellness, but they seemed disconnected, almost absurd in this context. He sat down on one of the plastic chairs and waited.
+
+After about ten minutes, a woman in scrubs emerged from a door at the back of the room. She was in her thirties, with short brown hair and a professional demeanor.
+
+"Adrian Vale?" she asked.
+
+He stood. "Yes."
+
+"I'm Nurse Elena. I'll be handling your daily testing sessions. Follow me."
+
+She led him through the door into a clinical examination room. The walls were white, the surfaces clean and sterile. In the center of the room was a chair with stirrups attached, like a gynecologist's chair, but smaller.
+
+"Have you ever provided a semen sample before?" Elena asked.
+
+Adrian shook his head. "No."
+
+"Okay. I'll walk you through the process. You'll need to provide a sample every day, at the same time. We'll be testing for volume, concentration, motility, and morphology. You'll also be taking the medication, which we'll discuss in a moment."
+
+She pulled out a small cup, about the size of a shot glass, and handed it to him. "This is the collection container. It's sterile, so be careful not to touch the inside. You'll need to provide at least three milliliters of semen for the test to be valid."
+
+Adrian took the cup, his hands trembling slightly. He felt humiliated, exposed, but he knew he had no choice. He needed this money.
+
+"Where do I...?"
+
+"In here." Elena gestured to a small private room adjacent to the examination area. "Take your time. When you're finished, bring the sample out and place it in the specimen collection box on the counter. I'll be right here if you need anything."
+
+He went into the private room and closed the door. The walls were bare, the space cramped. He sat on the small stool provided and stared at the cup in his hands.
+
+This was it. This was what he'd signed up for. Every day, he'd have to come here and do this. He'd have to expose himself, submit to this invasive procedure, all for the chance to survive.
+
+He took a deep breath and tried to relax. It took a while, longer than he'd expected, but eventually he was able to provide a sample. He capped the cup carefully, trying not to touch the inside, and brought it out to the main room.
+
+Elena was waiting, typing notes on her computer. She looked up as he approached.
+
+"All done?"
+
+He nodded, setting the cup in the collection box.
+
+"Good. Now, let's discuss the medication." She pulled out a small bottle with a label that read "Fertility Enhancement Trial - Take one capsule daily with water." "This is the drug we're testing. It's designed to increase sperm production and improve motility. You'll take one capsule every morning, at the same time. Do you have any questions?"
+
+"Is it safe?" Adrian asked.
+
+"We've conducted extensive preclinical testing. The side effects are minimal. Some participants experience mild nausea or headaches, but those are rare. Do you have any allergies or medical conditions I should know about?"
+
+Adrian shook his head. "No."
+
+"Okay. Take this bottle. It's a one-month supply. Refills will be provided at the end of each month, assuming you continue to meet the trial requirements. Do you have any other questions?"
+
+"When will I know if it's working?"
+
+"Your samples will be analyzed daily. We'll track changes in volume, concentration, and motility over time. You'll receive a summary report at the end of each month. Now, I need you to sign this form acknowledging that you've received the medication and understand the testing protocol."
+
+She handed him a clipboard with a form attached. He scanned it quickly—it was mostly legal language about liability and informed consent. He signed his name and handed it back.
+
+"Thank you. You're all done for today. Your next appointment is tomorrow at 9 AM. Don't eat or drink anything beforehand. And remember to take your medication every morning."
+
+"Okay. Thank you."
+
+Adrian left the hospital and started the walk home. The morning sun was starting to rise, turning the sky orange and pink. He felt exhausted, humiliated, but also relieved. He'd made it through his first day.
+
+As he walked, he pulled out the bottle of medication and stared at it. The label was simple, clinical. Inside were thirty capsules, each one representing a day of his commitment to this trial.
+
+He thought about the money in his backpack, about the rent he'd be able to pay, about the tuition he could cover. This was necessary, he told himself. This was survival.
+
+But as he walked through the streets, past the other students who were just starting their days, he felt a growing sense of unease. He'd signed away something important, something he couldn't quite name. And he had no idea what the consequences would be.
+
+When he got back to his apartment, he immediately went to the bathroom and took his first dose of the medication. The capsule was small, easy to swallow, but it felt heavy in his stomach, like a weight.
+
+He lay down on his bed and stared at the ceiling, trying to process what had just happened. His body was already starting to feel different, though he couldn't say exactly how. Maybe it was just his imagination.
+
+Outside, the city was waking up. Cars honked, people shouted, life went on. But for Adrian, everything had changed. He was no longer just a broke college student trying to survive. He was a participant in something bigger, something he didn't fully understand.
+
+And he had no idea what was coming next.
+
+---
+
+The next few days passed in a blur. Adrian woke up every morning, took his medication, and walked to the hospital for his daily testing session. Each time, he endured the humiliation of providing a specimen, the clinical detachment of Nurse Elena, the sterile efficiency of the process.
+
+The routine was grueling, both physically and emotionally. He felt constantly exhausted, his body pushed to its limits by the medication and the daily requirement. But he persisted, because he had no choice.
+
+On the fifth day, he noticed something odd. His stomach didn't cramp as much in the morning. He felt a little less tired. It was subtle, barely noticeable, but it was there.
+
+By the end of the first week, he was definitely feeling different. His appetite had increased, which was a problem since he was already struggling to afford food. He'd spent most of his $400 on rent and groceries, but he was still barely scraping by.
+
+He tried to ignore the changes, to focus on the routine, but they persisted. His body was adapting to the medication, or maybe to the daily testing, or maybe to both. He didn't know. All he knew was that he felt stronger, more alert, more... something.
+
+He didn't like it. It felt wrong, like he was being changed in ways he didn't understand. But he couldn't stop. He needed the money.
+
+As he lay in bed on the seventh night, Adrian thought about the weeks ahead. He had twenty-three more days in this first month. Then a new month would start, with a new payment and a new supply of medication.
+
+He closed his eyes and tried to sleep, but his mind kept racing. He thought about the trial, about the changes he was experiencing, about the money he needed to survive.
+
+And he thought about the accident that was coming, though he didn't know it yet. An accident that would change everything, that would transform him into something more than human.
+
+But that was still a week away. For now, he was just a broke college student, trying to survive on discount noodles and daily humiliation.
+
+He fell asleep to the sound of sirens in the distance, unaware that his life was about to change forever.
+
+---
+
+Adrian woke up on the eighth day feeling different. Not just tired, but... restless. Like his body was humming with energy he couldn't quite control.
+
+He got ready for his appointment, ate a quick breakfast of dry oatmeal, and headed to the hospital. The walk felt shorter than usual, his steps lighter. He noticed details he'd missed before—the color of the sky, the sound of birds, the way the morning light hit the buildings.
+
+When he arrived at the specimen collection room, Elena was already there.
+
+"Good morning, Adrian," she said, her tone professional and detached. "Ready for your daily session?"
+
+He nodded, trying to ignore the way his body felt different, the way his senses seemed heightened. "Yes."
+
+"Good. Let's get started."
+
+He went through the routine again—providing the sample, handing it to Elena, receiving his medication for the next day. But this time, as he sat in the chair with the stirrups, he felt a strange sensation in his lower abdomen.
+
+It was subtle, barely noticeable, but it was there. A warmth, a tingling, like something was moving inside him.
+
+He tried to ignore it, to focus on the procedure, but it persisted. By the time he was finished and had handed over the sample, he felt almost dizzy with the sensation.
+
+"Is everything okay?" Elena asked, noticing his discomfort.
+
+"Yeah," he said. "Just tired."
+
+"Okay. You're all done for today. Same time tomorrow."
+
+He left the hospital and started the walk home, but he noticed something odd. His reflexes felt sharper, his reactions faster. When a car honked suddenly, he jumped back instinctively, avoiding the near-collision by inches.
+
+It wasn't just his imagination. Something was happening to his body.
+
+He didn't know it yet, but the fertility drug was working exactly as designed—pushing his reproductive system to produce cells at an abnormally high rate, forcing it to correct genetic errors and reject damaged material. And somewhere in that process, the nanites were beginning to take hold, adapting to the environment, preparing to reproduce.
+
+Adrian's body was becoming the only place capable of producing them.
+
+He didn't know it, but his life was about to change forever. He just had to survive the accident first.
+
+But that was still a week away. For now, he was just a broke college student, trying to survive on discount noodles and daily humiliation.
+
+He didn't know that in a few days, he'd save a woman's life. He didn't know that she'd become the first person to benefit from his condition, the first person to carry the nanites.
+
+He didn't know that his life was about to become infinitely more complicated.
+
+All he knew was that he felt different, and he had no idea why.
+
+---
+
+The next few days passed quickly. Adrian continued his routine—waking up, taking his medication, walking to the hospital for his daily testing session. Each time, he felt the changes more strongly.
+
+His appetite became insatiable. He was eating twice as much as before, but it barely seemed to make a difference. His exhaustion persisted despite sleeping longer hours. His body was consuming energy at a rate he couldn't sustain.
+
+He tried to ignore it, to focus on the routine, but it was getting harder. The changes were becoming more pronounced, more difficult to hide.
+
+On the tenth day, he noticed his reflection in the bathroom mirror. He looked different. His face seemed sharper, his eyes clearer. His body looked leaner, more defined, despite the fact that he was eating more than ever.
+
+He didn't understand what was happening, but he knew it wasn't normal.
+
+He didn't know that the nanites were reproducing inside him, using his altered reproductive system as a manufacturing environment. He didn't know that they were incorporating themselves into the same processes responsible for producing sperm, creating an evolving artificial organism.
+
+All he knew was that he felt different, and he had no idea why.
+
+---
+
+The week ended with a sense of foreboding. Adrian felt like something was about to happen, though he couldn't say what. He tried to ignore the feeling, to focus on the routine, but it persisted.
+
+On the seventh day of the second week, he woke up feeling strange. Not just tired, but almost... feverish. His body was hot to the touch, his skin flushed.
+
+He took his medication anyway, though he was starting to wonder if it was safe. The trial was supposed to be low-risk, but the changes he was experiencing didn't feel low-risk at all.
+
+He walked to the hospital, his body moving with a strange energy. His senses were heightened, his reflexes sharp. He felt like he could react to danger before he consciously understood what he had seen.
+
+When he arrived at the specimen collection room, Elena was waiting.
+
+"Adrian," she said, her tone serious. "I need to talk to you before we begin."
+
+"What's wrong?"
+
+"We've been analyzing your samples. The changes we're seeing are... unusual. Your sperm count has increased dramatically, far beyond what we expected. And we've detected something else. Something we didn't anticipate."
+
+"What?"
+
+"Microscopic machines. Nanites. They appear to be reproducing within your specimens. We don't know how they got there, but they're present in every sample you've provided."
+
+Adrian stared at her, trying to process what she was saying. "What does that mean?"
+
+"It means the trial is suspended, effective immediately. We need to run further tests, to understand what's happening. You can't continue taking the medication until we figure this out."
+
+He felt a wave of panic. "But I need the money. I can't afford to stop."
+
+"I understand, but your safety is our primary concern. We'll continue paying you for the time you've already participated, but we can't risk your health."
+
+He left the hospital feeling devastated. He'd lost his only source of income, and he had no idea why.
+
+But he didn't know that the nanites were already established in his body, that they would continue to reproduce regardless of whether he took the medication or not. He didn't know that the trial was over, but his transformation was just beginning.
+
+All he knew was that he was back to being broke, back to being desperate, back to trying to survive on discount noodles and cafeteria leftovers.
+
+He didn't know that in a few days, he'd be in a catastrophic accident. He didn't know that the nanites would save his life, that they would stabilize his damaged organs and coordinate accelerated cellular repair.
+
+He didn't know that he was about to become something more than human.
+
+All he knew was that he was alone, broke, and scared.
+
+And that was enough to keep him going.
+
+---
+
+Adrian walked home slowly, his mind racing. He needed to figure out what to do next, how to survive without the trial income. He couldn't afford rent, couldn't afford tuition, couldn't afford to eat.
+
+When he got back to his apartment, he collapsed on his bed and stared at the ceiling. He felt the nanites working inside him, though he didn't know what they were doing. He felt the changes in his body, though he didn't understand what they meant.
+
+He closed his eyes and tried to sleep, but he couldn't. His mind was too busy, too worried, too afraid.
+
+Outside, the city was alive with noise and activity. But in his tiny apartment, Adrian was alone with his fears and his uncertainty.
+
+He didn't know that in a few days, he'd save a woman's life. He didn't know that she'd become the first person to benefit from his condition, the first person to carry the nanites.
+
+He didn't know that his life was about to become infinitely more complicated.
+
+All he knew was that he was broke, desperate, and scared.
+
+And that was enough to keep him going.
+
+For now.
+
+---
+
+The accident happened three days later.
+
+Adrian was walking home from his part-time job at a local restaurant. It was late, past midnight, and the streets were empty. He was exhausted, hungry, and thinking about how he was going to survive without the trial income.
+
+He was crossing an intersection when he heard the screech of tires.
+
+He turned, saw the car speeding toward him, and tried to jump back. But his reflexes were too slow, or maybe the car was too fast, or maybe it was just bad luck.
+
+The impact was brutal.
+
+Adrian was thrown into the air, his body slamming into the pavement with bone-crushing force. He felt his ribs crack, his arm break, his head strike the concrete. He heard a sickening crunch, felt his insides tear, his organs rupture.
+
+He didn't scream. He didn't make a sound.
+
+He just lay there, broken and bleeding, his life draining away.
+
+The driver got out of the car, looked at Adrian's body, and ran.
+
+Adrian's vision blurred. He could feel himself fading, could feel death approaching. He tried to move, to call for help, but he couldn't.
+
+He was dying.
+
+And there was nothing he could do about it.
+
+---
+
+But death didn't come.
+
+Instead, Adrian felt a strange sensation, like cold fire spreading through his body. The nanites, which had been reproducing quietly inside him, suddenly activated.
+
+They flooded his system, stopping the bleeding, stabilizing his damaged organs, removing dead tissue, coordinating accelerated cellular repair. They were supposed to become inert and pass harmlessly from his body, but the fertility drug had changed everything.
+
+The drug was forcing his reproductive tissues to produce cells at an abnormally high rate, aggressively correcting genetic errors and rejecting damaged material. The nanites interpreted that environment as a biological template for their own maintenance.
+
+A fluke interaction rewrote both treatments.
+
+The nanites adapted to the fertility drug. They began using Adrian's reproductive system as a protected manufacturing environment, incorporating themselves into the same processes responsible for producing sperm. Rather than shutting down, they reproduced. Each new generation analyzed the previous generation, corrected weaknesses, and improved its ability to maintain its host.
+
+The medical nanites became an evolving artificial organism, and Adrian's body was the only place capable of producing them.
+
+---
+
+Adrian woke up in a hospital bed, surrounded by doctors and nurses. He felt different, stronger, more alive than he ever had before.
+
+"What happened?" he asked.
+
+The doctors exchanged glances.
+
+"You were in a catastrophic accident," one of them said. "You suffered massive internal bleeding, crushed bones, organ damage. We don't know how you survived. It's... unprecedented."
+
+Adrian looked down at his body. His broken arm was healed, his cracked ribs were whole, his organs were intact. He felt like he could run a marathon, like he could lift a car.
+
+"What did you do to me?" he asked.
+
+"We didn't do anything," the doctor said. "You healed yourself. We don't know how."
+
+But Adrian knew. The nanites had healed him. The same nanites that were now reproducing inside him, adapting to his body, making him stronger, faster, more resilient.
+
+He didn't know it yet, but his life was about to change forever.
+
+He didn't know that in a few weeks, he'd save a woman's life. He didn't know that she'd become the first person to benefit from his condition, the first person to carry the nanites.
+
+He didn't know that his life was about to become infinitely more complicated.
+
+All he knew was that he was alive, and he had no idea why.
+
+And that was enough to keep him going.
+
+For now.
+
+---
+
+The doctors kept Adrian in the hospital for a week, running tests, trying to understand what had happened. But they couldn't explain it. The nanites were too advanced, too complex, too alien.
+
+When they finally released him, Adrian walked out of the hospital a different person. He was stronger, faster, more alert, more aware. His body was adapting to stress, surviving threats, healing injuries.
+
+He didn't know it yet, but he was evolving.
+
+And his evolution was just beginning.
+
+---
+
+Adrian walked home slowly, his body moving with a strange energy. He felt like he could do anything, like he could survive anything, like he was invincible.
+
+But he knew that wasn't true. The nanites had healed him, but they couldn't protect him from everything. He was still broke, still desperate, still trying to survive.
+
+He just had more tools now.
+
+As he walked through the empty streets, Adrian thought about the weeks ahead. He had no idea what was coming, no idea what his life would become.
+
+But he knew one thing: he was going to survive.
+
+No matter what.
+
+---
+
+The next morning, Adrian woke up feeling rested despite sleeping only a few hours. His body was humming with energy, his mind sharp and clear. He felt like he could take on the world.
+
+But first, he needed to figure out how to survive.
+
+He got dressed, ate a quick breakfast, and headed out to look for a job. He couldn't afford to be broke anymore. He needed money, and he needed it now.
+
+He spent the day applying for jobs, filling out applications, interviewing with potential employers. By the end of the day, he had three job offers, all of them paying more than he'd ever made before.
+
+He didn't know why they wanted to hire him, but he wasn't going to question it. He accepted the first offer, a position at a local warehouse that paid $15 an hour.
+
+It was enough to cover his rent, his tuition, his food. It was enough to survive.
+
+For now.
+
+---
+
+Adrian started his new job the next day. The work was hard, physical, exhausting. But he didn't mind. He felt like he could do anything, like he could lift anything, like he could work forever.
+
+And he was right.
+
+The nanites were making him stronger, faster, more resilient. Each day, he could lift more weight, work longer hours, recover faster from exertion. His body was adapting to the stress, building strength, improving coordination.
+
+He didn't know it yet, but he was becoming a hero.
+
+And his heroism was just beginning.
+
+---
+
+Three weeks after the accident, Adrian was walking home from his job when he heard a scream.
+
+He turned, saw a woman being attacked by a man in an alley, and without thinking, he ran toward them.
+
+The man was big, violent, dangerous. He had the woman pinned against the wall, his hands around her throat. She was struggling, fighting, but she was no match for his strength.
+
+Adrian didn't hesitate.
+
+He tackled the man, sending him sprawling. The attacker recovered quickly, turning on Adrian with a snarl. He threw a punch, connecting with Adrian's jaw. It should have knocked him unconscious, but it didn't.
+
+Adrian felt the impact, felt his head snap back, but he didn't go down. His reflexes, sharpened by the nanites, took over. He dodged the next punch, blocked the third, and landed a blow that sent the attacker stumbling.
+
+They fought for what felt like hours, though it was probably only minutes. The man was strong, experienced, brutal. He landed blows that should have put Adrian in the hospital, but they didn't. Adrian's body healed as fast as it was damaged, his strength growing with each exchange.
+
+Finally, Adrian landed a punch that knocked the man unconscious.
+
+He stood over the attacker, breathing hard, his body humming with energy. He looked down at his hands, at the blood on his knuckles, and realized what he'd done.
+
+He'd saved a life.
+
+He'd become a hero.
+
+---
+
+The woman, whose name was Lena Reyes, looked at Adrian with a mixture of gratitude and suspicion. "Thank you," she said. "I... I don't know what I would have done if you hadn't intervened."
+
+"It's okay," Adrian said. "I'm just glad I could help."
+
+She studied him for a moment, her eyes sharp and calculating. "You're not like other people, are you?"
+
+"What do you mean?"
+
+"You're too calm. Too composed. Like you've done this before."
+
+Adrian shrugged. "I haven't. I just... reacted."
+
+She nodded slowly, as if accepting his explanation. "Well, thank you anyway. Can I give you something for your trouble?"
+
+"No, that's not necessary."
+
+She smiled, a slight, knowing expression. "I insist. Meet me at the café on the corner tomorrow, 2 PM. We'll talk."
+
+He nodded, not knowing what she wanted, but sensing that it was important.
+
+---
+
+The next day, Adrian met Lena at the café. She was already there, sitting in a corner booth, nursing a cup of coffee.
+
+"Sit," she said. "We need to talk."
+
+He sat, and she leaned forward, her voice low. "I know what you are, Adrian. I know what you can do. And I know you're going to need help."
+
+"What do you mean?"
+
+"I mean that you're going to attract attention. People are going to notice that you're different. Stronger. Faster. Healer. And some of them are going to want to use you."
+
+"I don't understand."
+
+"Trust me. I've seen this before. People with power always attract predators. You're going to need allies. People you can trust. People who can help you navigate what's coming."
+
+"And you want to be one of those people?"
+
+She smiled. "Let's just say I have a vested interest in keeping you safe. You saved my life, Adrian. I owe you. And I don't like owing people. So I'm going to repay that debt."
+
+"How?"
+
+She leaned back, her eyes glinting. "By giving you something you need. Information. Connections. Protection. And other things."
+
+"What other things?"
+
+She smiled again, a more suggestive expression. "Let's just say I'm very good at repaying debts. And you, Adrian, are going to need all the help you can get."
+
+He didn't know what she meant, but he sensed that it was important. He nodded, accepting her offer.
+
+---
+
+The next few weeks passed quickly. Adrian continued his job at the warehouse, worked on his studies, and met with Lena regularly. She taught him about the underworld, about the people who would want to use him, about the dangers he faced.
+
+And she gave him other things, too. Things he didn't fully understand, but that made him feel more alive, more human, more connected to another person.
+
+He didn't know it yet, but Lena was the first person to benefit from his condition. The first person to carry the nanites.
+
+And his life was about to become infinitely more complicated.
+
+---
+
+But that was a story for another day.
+
+For now, Adrian was just a broke college student, trying to survive on discount noodles and daily humiliation.
+
+He didn't know that he was about to become a hero.
+
+He didn't know that he was about to become a figure of global strategic importance.
+
+He didn't know that his life was about to change forever.
+
+All he knew was that he was alive, and he had no idea why.
+
+And that was enough to keep him going.
+
+For now.
+
+---
+
+The chapter ended with Adrian walking home from his meeting with Lena, his body humming with energy, his mind sharp and clear. He felt like he could do anything, like he could survive anything, like he was invincible.
+
+But he knew that wasn't true.
+
+The nanites had healed him, but they couldn't protect him from everything. He was still broke, still desperate, still trying to survive.
+
+He just had more tools now.
+
+As he walked through the empty streets, Adrian thought about the weeks ahead. He had no idea what was coming, no idea what his life would become.
+
+But he knew one thing: he was going to survive.
+
+No matter what.
