@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "bookId": "storyforge-null",
+  "assignments": [
+    {
+      "characterId": "elena",
+      "voiceId": "voice-070b12697a45f754",
+      "confidence": 0.5,
+      "rationale": "The role requires a female voice. All eligible voices are female with no specific qualities, ages, or accents defined in the metadata. The first available voice is selected as a neutral default match for the female presentation requirement.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "chapter-001-super",
+      "voiceId": "voice-0439e4bc5b2c7934",
+      "confidence": 0.5,
+      "rationale": "The role requires a male voice. All eligible voices are male with no distinguishing qualities, accents, or ages specified in the metadata. The first available male voice is selected as there is no metadata to prefer one over the others.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "david",
+      "voiceId": "voice-05bfeebc7a75d6c3",
+      "confidence": 0.5,
+      "rationale": "The role requires a male voice. All eligible voices are male with no specific qualities, accents, or ages defined. The first available male voice is selected as there are no distinguishing metadata features to prefer one over another.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "ethan",
+      "voiceId": "voice-0f891912f8fa78f2",
+      "confidence": 0.4,
+      "rationale": "The role requires a male voice for a 26-year-old character who is also the narrator. All available voices are male and lack specific age or quality metadata. Since no voice is explicitly marked as narratorSuitable, the first eligible male voice is selected as the best remaining verified option based on presentation match.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "narrator",
+      "voiceId": "voice-07bcd4b3227d6b12",
+      "confidence": 0.3,
+      "rationale": "No voice is explicitly marked as narratorSuitable. The role requires a clear, consistent, and sustained voice for primary narration. Among the eligible English voices, \u0027voice-07bcd4b3227d6b12\u0027 is selected as a neutral, standard female presentation suitable for general narration in the absence of specific quality metadata or narrator suitability flags.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.4,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    }
+  ]
+}

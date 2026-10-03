@@ -195,6 +195,9 @@ Each later book should pair a contained mission or connected field campaign with
 
 The story has not begun.
 
+
+- Ethan Vale has sent a message to Ben asking to talk.
+
 ## Unresolved Information
 
 
@@ -202,3 +205,15 @@ The story has not begun.
 
 
 - The specific nature of the super's powers beyond strength and invulnerability is unknown.
+
+
+- The specific mechanism or cause that neutralized FireMan's skills is unknown to the characters, though Ethan suspects something was 'off' in the bar.
+
+
+- The outcome of the police investigation is unknown.
+
+
+- The reason for Ben's disappearance or cessation of contact is unknown.
+
+
+- The specific mechanism or cause that neutralized FireMan's skills is unknown to the characters.
