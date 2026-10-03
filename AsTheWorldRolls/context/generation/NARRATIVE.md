@@ -50,6 +50,12 @@
 
 - The barrier is eating faster than it can digest.
 
+
+- The group has reached a state of tense uncertainty regarding whether to move west or stay at the watchfort.
+
+
+- The decision on their next move is left hanging in the air as they wait for Kaelen to respond.
+
 ## Unresolved Information
 
 
