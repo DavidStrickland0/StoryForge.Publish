@@ -1,0 +1,135 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 20.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":20,"ViewpointCharacterId":"Elias Thorne","Objective":"The group must navigate the shifting forest to reach the second node of the containment network, managing Kaelen\u2019s physical limits and the forest\u2019s active hostility while maintaining the fragile stability of their equipment and personnel.","IntendedChange":"The group successfully navigates the first major obstacle in the shifting forest, establishing a new tactical understanding of the environment\u0027s sentience and securing a temporary safe haven at the edge of the open hills, while Kaelen\u2019s condition stabilizes slightly due to the change in ambient magical pressure.","PacingPosture":3,"ProhibitedPatterns":["Immediate attack by Blight-Touched entities upon exiting the watchfort","Kaelen losing control of his magic and requiring rescue","The forest physically attacking the group with vines or roots","Revealing the identity of the \u0027stranger\u0027 from Chapter 1","Elias using his dagger in combat","Maren using magic to heal Kaelen","Torin striking Kaelen","The barrier shattering","The group getting lost and wandering aimlessly for more than a few paragraphs","Introducing a new major character or NPC","Romantic or sexual tension between party members","Humor based on modern slang or internet culture"],"Scenes":[{"Sequence":1,"Purpose":"Transition from the watchfort to the forest edge, establishing the immediate environmental shift and the group\u0027s readiness.","IntendedChange":"The group exits the watchfort and enters the forest, observing the first signs of the terrain\u0027s unnatural stability and the absence of the \u0027keeper\u0027 entity.","FocusCharacterIds":["Elias Thorne","Kaelen","Torin"]},{"Sequence":2,"Purpose":"Navigate the first major obstacle in the shifting forest, requiring cooperation and specific skill application.","IntendedChange":"The group successfully crosses a section of the forest where the ground has liquefied into a slurry, using Elias\u0027s knowledge of the drainage channels and Kaelen\u0027s subtle magic to create a temporary bridge or path, demonstrating their competence and the forest\u0027s passive hostility.","FocusCharacterIds":["Elias Thorne","Kaelen","Elara"]},{"Sequence":3,"Purpose":"Reach the edge of the forest and the open hills, assessing the next stage of their journey and the state of the Blight\u0027s flow.","IntendedChange":"The group emerges from the forest into the open hills, observing the distant movement of the Blight tide and confirming their route to the second node, establishing a new tactical baseline for the next phase of the operation.","FocusCharacterIds":["Elias Thorne","Maren","Torin"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Navigate the first major obstacle in the shifting forest, requiring cooperation and specific skill application.","IntendedChange":"The group successfully crosses a section of the forest where the ground has liquefied into a slurry, using Elias\u0027s knowledge of the drainage channels and Kaelen\u0027s subtle magic to create a temporary bridge or path, demonstrating their competence and the forest\u0027s passive hostility.","FocusCharacterIds":["Elias Thorne","Kaelen","Elara"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Reach the edge of the forest and the open hills, assessing the next stage of their journey and the state of the Blight\u0027s flow.","IntendedChange":"The group emerges from the forest into the open hills, observing the distant movement of the Blight tide and confirming their route to the second node, establishing a new tactical baseline for the next phase of the operation.","FocusCharacterIds":["Elias Thorne","Maren","Torin"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":20,"CompletedSceneSequence":1,"Location":"The edge of the watchfort transitioning into a narrow, dry drainage channel within the shifting forest","TimeContext":"Daytime, shortly after exiting the watchfort","PresentCharacterIds":["Elias Thorne","Kaelen","Torin","Elara","Maren"],"PhysicalConditions":["The group is walking single-file or side-by-side within a dry, cracked earth channel surrounded by blackened trees with exposed, twisted root systems.","Kaelen\u0027s gauntlet is warm and regulated, providing a stable but fragile magical beacon; he feels the forest\u0027s attention as a subtle pressure.","The barrier left behind in the watchfort hums steadily.","Maren has applied salve to her hands and is physically supporting Kaelen.","The air smells of damp earth, rotting wood, and a strange, suffocating neutrality rather than decay or ozone."],"KnowledgeEstablished":["The forest terrain is sentient and actively hostile but currently passive/observant.","The \u0027path\u0027 is not random; it consists of deliberate drainage channels kept clear by an unknown agent (or the forest itself) to exclude Blight.","The trees in the channel have root systems that spread sideways into the air rather than digging down.","Elara perceives the environment\u0027s resonance as \u0027listening\u0027 to the group and each other.","Kaelen feels a specific pull from the forest inviting him to look up/understand the Blight, which he resists by following the channel.","The group has successfully exited the watchfort without immediate attack or loss of stability."],"DecisionsMade":["Elias directs the group to follow the specific drainage channels rather than standard paths.","Torin keeps his blade ready but does not draw it, relying on visual confirmation of threats.","Kaelen chooses to walk forward without fighting the forest\u0027s pull, accepting the guidance of the path.","Maren enforces a policy of moving forward without stopping to analyze the supernatural pressure."],"PossessionChanges":[],"RelationshipChanges":["Maren and Kaelen maintain physical contact (hand on arm/shoulder) for stability and reassurance.","The group operates with heightened mutual awareness of being \u0027watched\u0027 or \u0027listened to\u0027 by the environment."],"CompletedActions":["Exiting the watchfort structure.","Observing the transition from ozone-heavy air to neutral forest air.","Identifying and stepping into the dry drainage channels.","Examining the twisted root systems of the channel trees.","Walking several steps down the channel, feeling the ground ripple and the forest\u0027s attention.","Reaching the first bend in the channel where the path narrows further."],"UnresolvedImmediateAction":"The group is currently walking deeper into the narrowing drainage channel, approaching the next bend where the view of the forest beyond opens up slightly.","ContinuationPosition":"The characters are mid-stride within the dry, narrow earth channel. Elias is inspecting the ground ahead while Kaelen walks with focused attention on the path\u0027s pull. Torin scans the tree line. Elara monitors the changing resonance at the rear. Maren supports Kaelen. They have not yet reached the next bend or encountered a new obstacle.","ProhibitedRepetition":["Immediate attack by Blight-Touched entities upon exiting the watchfort","Kaelen losing control of his magic and requiring rescue","The forest physically attacking the group with vines or roots","Revealing the identity of the \u0027stranger\u0027 from Chapter 1","Elias using his dagger in combat","Maren using magic to heal Kaelen","Torin striking Kaelen","The barrier shattering","The group getting lost and wandering aimlessly for more than a few paragraphs","Introducing a new major character or NPC","Romantic or sexual tension between party members","Humor based on modern slang or internet culture"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+It was not a clearing; it was just a wider gap in the trees, a place where the blackened trunks had been pushed back by the sheer volume of water that had once flowed here. The channel ended abruptly at a precipice.
+
+Below them, the dry earth gave way to a churning expanse of grey-brown slurry. It looked like wet clay, thick and heavy, but it moved with a slow, viscous rhythm, lapping against the roots of the trees that hung over the edge. The smell was distinct here: not the damp neutrality of the forest floor, but a cloying, metallic sweetness, like old blood mixed with iron filings.
+
+Elias crouched at the edge, his boots finding purchase on the solid rim. He peered down. The slurry was deep, easily three feet, and it seemed to have no bottom visible in the gloom. If they stepped in, they would sink. If they sank, they would not be able to climb out.
+
+"The channel is broken," Elias said, his voice flat. He ran a hand over the rough bark of the nearest tree, checking for any structural integrity. There was none. The wood was brittle, ready to snap under weight.
+
+Torin stepped up beside him, his hand resting on the hilt of his blade. He looked at the slurry, then at the far side of the chasm, where the channel resumed on the other bank, barely twenty feet away. It was a narrow strip of dry earth, no wider than a man’s shoulders, suspended over the void.
+
+"We can jump," Torin said.
+
+"From here?" Elias looked at the distance, then at Kaelen, who was standing a few feet back, leaning heavily on Maren’s arm. Kaelen’s face was pale, his eyes fixed on the slurry with a detached intensity. The gauntlet on his left hand hummed, a low, vibrating note that seemed to synchronize with the slow churn of the mud below.
+
+"Kaelen cannot jump," Maren said. Her voice was tight, strained. She adjusted her grip on his arm, her fingers digging into his sleeve. "And if the ground shifts, we all fall."
+
+Elias stood up and brushed the dirt from his knees. He looked at Elara, who was standing at the rear of the group, her hands clasped tightly in front of her. She was watching the slurry, her brow furrowed.
+
+"The resonance," Elara said quietly. "It’s not random. The water that flows in these channels carries the memory of the path. The slurry is… stagnant. It’s the part of the forest that has forgotten how to move."
+
+Elias turned to her. "How do we make it remember?"
+
+Elara looked at Kaelen, then at the gauntlet. "The magic is a beacon. It’s loud. The forest is listening. If we can give it a direction, a purpose, it might clear the way. But it requires a bridge. Not of stone, but of intent."
+
+Kaelen shifted his weight. The motion was small, but it cost him effort. He looked at Elias, his eyes dark and weary. "I can push," he said. His voice was rough, unused. "But I cannot hold it long."
+
+Elias nodded. He looked at Torin. "Torin, you’re the strongest. You need to get across first. Find a foothold on the other side. If Kaelen’s magic creates a surface, you need to be the anchor. If it fails, you need to be able to pull us out, or at least keep the line."
+
+Torin didn’t argue. He simply nodded, his jaw tightening. He moved to the edge, testing the weight of the earth with his boot. It held.
+
+"Kaelen," Elias said, turning back to the mage. "You need to focus on the water. Not the mud. The water that *was* there. Make it solid enough to walk on, then let it go."
+
+Kaelen closed his eyes. The humming of the gauntlet grew louder, a pitch that Elias could feel in his teeth. The slurry below them began to slow its churning. The grey-brown surface smoothed out, the ripples flattening until the liquid looked like a sheet of polished slate.
+
+"Go," Elias said.
+
+Torin stepped forward. He moved with a careful, deliberate grace, his boots finding purchase on the surface that was rapidly hardening. As he crossed, the surface beneath his feet turned from liquid to stone, then back to liquid as he passed. It was a narrow band of solidification, moving with him.
+
+Kaelen’s face twisted in pain. His knuckles were white as he gripped Maren’s arm. The air around him shimmered, the heat from the gauntlet rising in visible waves.
+
+"Keep it steady," Elara whispered, her eyes wide. She was watching the edges of the solidified path, where it met the churning slurry. The boundary was jagged, unstable.
+
+Torin reached the other side. He planted his feet firmly, his hands on his knees to steady his breathing. He turned back, his eyes locked on the others.
+
+"Next," he said.
+
+Maren supported Kaelen as he stepped onto the solidifying path. He moved slowly, his legs trembling. The surface beneath him was warm, almost hot. He could feel the magic draining from him, a physical pull in his chest.
+
+Elias followed. As he stepped, he felt the weight of the forest’s attention on his back. It was not hostile, exactly. It was curious. It was waiting to see if they were strong enough to cross.
+
+Elara was last. She stepped onto the path, her eyes on the slurry. As she crossed, she murmured a few words, a low, rhythmic chant that seemed to match the pulse of Kaelen’s magic. The path held.
+
+When the last of them was across, Kaelen collapsed to his knees. The gauntlet’s hum faded to a whisper. The slurry began to churn again, the surface rippling as the solidification receded, leaving only the wet, heavy mud.
+
+Elias looked at Kaelen. The mage was breathing heavily, his face grey with exhaustion. But he was alive. He was stable.
+
+"Move," Elias said, his voice quiet. "Before it decides to change its mind."
+
+They walked on, the channel narrowing again, the trees pressing in closer. The air was still, thick with the scent of iron and old water. Behind them, the chasm was gone, the slurry settling back into its slow, indifferent churn. They had crossed. They were still together.
+
+But the forest was watching. And it was not done.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
