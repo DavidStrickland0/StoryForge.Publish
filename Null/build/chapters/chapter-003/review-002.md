@@ -1,0 +1,25 @@
+﻿# Chapter Review
+
+## Overall Assessment
+
+The chapter effectively establishes Ethan's ordinary life and internal state, adhering to the required first-person perspective and maintaining continuity with previous events. However, it introduces a significant continuity error regarding the timeline of the 'supers' phenomenon relative to established canon, and it fails to advance the active Short arc's required milestone for Chapter 3, which demands a concrete resumption of daily routine rather than just reflection.
+
+## Findings
+
+- [Canon] The chapter states supers started appearing 'back before the supers started showing up' relative to Mara's relationship, implying a long history. However, canon and previous chapters establish the phenomenon is recent ('last couple of years'), creating a timeline contradiction regarding when the relationship began versus the emergence of powers.
+  Evidence: She'd bought it at a street market during the first summer they were together, back before the supers started showing up.
+- [NarrativeDirection] The active Short arc requires Ethan to 'resume ordinary life' in Chapter 3. While the chapter depicts domestic routine, it lacks the concrete forward momentum or decision-making required to close the arc, instead lingering in reflection without establishing a new status quo or next step beyond passive waiting.
+  Evidence: He had work in the morning, lunch waiting in the refrigerator, and a drawer that ought to survive another week.
+- [Style] The narrative repeatedly explains the emotional significance of Ethan's actions or memories immediately after describing them, violating the rule against unnecessary explanation of meanings the reader can infer from the context and character behavior.
+  Evidence: He could admit, alone in his kitchen, that the lease had been an excuse. He'd liked having Mara there.
+
+## Engagement Findings
+
+- The chapter relies heavily on internal monologue and static reflection, which may reduce reader engagement compared to the active conflict and immediate aftermath of the previous chapter, though it serves the character development goal.
+
+## Revision Guidance
+
+- Adjust the timeline reference to align with the 'last couple of years' canon, ensuring the relationship duration is consistent with the recent emergence of supers.
+- Add a concrete action or decision that signals Ethan's active resumption of daily life, such as preparing for work or making a specific plan, to satisfy the Short arc's completion criteria.
+- Remove explanatory sentences that restate the emotional weight of Ethan's memories, allowing the actions and objects to convey the sentiment directly.
+

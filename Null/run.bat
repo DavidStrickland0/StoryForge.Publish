@@ -1,8 +1,6 @@
 @echo off
 setlocal
-git pull
-title Null - draft review and audio
-set "STORYFORGE_OLLAMA_MODEL=qwen3.8:27b"
+title Null - chapter generation, review and audio
 set "STORYCAST_REPOSITORY_ROOT=C:\Repos\SRD\StoryCast"
 set "STORYCAST_VOICE_LIBRARY=C:\Users\David\Documents\StoryCast\voices"
 set "STORY_ROOT=%~dp0"

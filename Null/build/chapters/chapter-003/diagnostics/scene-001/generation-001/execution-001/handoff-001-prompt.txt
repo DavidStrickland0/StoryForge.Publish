@@ -1,0 +1,89 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 3.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":3,"ViewpointCharacterId":"ethan_vale","Objective":"Complete the Short arc by showing Ethan\u0027s return to his ordinary life, his lack of awareness of his role in the suppression, and the unresolved mystery of the super\u0027s power loss.","IntendedChange":"Ethan resumes his daily routine, unaware that he has inadvertently changed the outcome of a dangerous confrontation, leaving the mystery of the super\u0027s power loss unresolved.","PacingPosture":0,"ProhibitedPatterns":["Replaying the bar assault or the moment of suppression.","Introducing Aurora or any character investigating the incident.","Ethan consciously attempting to test or control his field.","A new confrontation or threat arising from the bar incident.","Ethan identifying himself as the cause of the power loss."],"Scenes":[{"Sequence":1,"Purpose":"Ethan arrives at his apartment and physically disengages from the stress of the bar incident, establishing his desire to return to normalcy.","IntendedChange":"Ethan is inside his apartment, having removed his outerwear and shut off the navigation Lens, with the immediate physical environment of the bar no longer influencing his sensory input.","FocusCharacterIds":["ethan_vale"]},{"Sequence":2,"Purpose":"Ethan reviews the incident through the lens of his existing knowledge of super \u0027skills,\u0027 rationalizing the anomaly as a temporary physiological failure rather than a violation of physical laws.","IntendedChange":"Ethan has settled on a plausible, mundane explanation for FireMan\u0027s weakness, allowing him to mentally close the file on the event and reduce his anxiety about the situation.","FocusCharacterIds":["ethan_vale"]},{"Sequence":3,"Purpose":"Ethan engages in a routine domestic task, such as preparing a meal or organizing his workspace, to reinforce his ordinary identity and separate himself from the extraordinary world of supers.","IntendedChange":"Ethan is engaged in a focused, mundane activity that requires his full attention, demonstrating his successful psychological transition back to his daily routine.","FocusCharacterIds":["ethan_vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Ethan arrives at his apartment and physically disengages from the stress of the bar incident, establishing his desire to return to normalcy.","IntendedChange":"Ethan is inside his apartment, having removed his outerwear and shut off the navigation Lens, with the immediate physical environment of the bar no longer influencing his sensory input.","FocusCharacterIds":["ethan_vale"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Ethan reviews the incident through the lens of his existing knowledge of super \u0027skills,\u0027 rationalizing the anomaly as a temporary physiological failure rather than a violation of physical laws.","IntendedChange":"Ethan has settled on a plausible, mundane explanation for FireMan\u0027s weakness, allowing him to mentally close the file on the event and reduce his anxiety about the situation.","FocusCharacterIds":["ethan_vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The key card beeped against the reader, a small, reassuring chirp that cut through the ambient hum of the city outside. The magnetic lock disengaged with a heavy thud, and Ethan stepped inside, pulling the door shut behind him. The click of the deadbolt was the first normal sound he’d heard in an hour.
+
+He stood in the entryway for a moment, letting the silence of the apartment settle around him. The air was still and cool, smelling faintly of the lavender detergent he used for his towels. The chaos of the bar—the clinking glasses, the low roar of conversation, the specific, heavy tension that had hung over Elena’s table—faded into the background noise of the street, muffled by the double-paned glass and the solid oak of the door.
+
+Ethan unbuttoned his jacket. It was a dark, practical thing, designed to blend into the crowd rather than stand out, but right now it felt like armor he hadn’t asked for. He slid it off his shoulders and hung it on the hook by the door, the metal clinking softly against the nail. Beneath it, he wore a simple grey henley, soft from years of washing. He peeled off his shoes, setting them neatly by the mat, and stretched his legs out in the socks he wore underneath. The floor was hardwood, warm under his feet, a stark contrast to the cold, wet pavement he had been walking on.
+
+He walked to the small kitchen, the light from the hallway spilling in to illuminate the counter. The coffee maker was empty, a testament to his habit of finishing the last cup before leaving the house. He poured a glass of water instead, taking a long drink that cooled his throat and settled his stomach. The water was clean, tasting of nothing in particular, which was exactly what he needed.
+
+On the counter, his Lens sat in its charging dock. The device was a sleek, unobtrusive band that fit over the ear, projecting navigation cues and local data into his visual field. It had been guiding him away from the bar, suggesting routes that avoided the immediate vicinity of the incident. Now that he was home, the need for its constant, subtle guidance vanished.
+
+He picked up the Lens and set it on the table, powering it down. The faint blue light that had been pulsing at the edge of his vision winked out, leaving his eyes to adjust to the dim, warm lighting of his apartment. The world outside, with its supers and its unexplained anomalies and its dangerous social dynamics, receded behind the glass. Here, in this small, quiet space, he was just a man with a job and a routine.
+
+Ethan moved to the living area, a single room that served as his bedroom, workspace, and lounge. He sat down on the edge of the bed, the mattress dipping slightly under his weight. He looked out the window, past the blinds, toward the distant glow of the city skyline. Somewhere out there, in a penthouse or a bar, a super was probably trying to figure out what had just happened to him. Somewhere, Elena was filing a report, and David was calculating the reputational damage.
+
+But here, Ethan was safe. He was ordinary. And for now, that was enough. He lay back on the bed, staring at the ceiling, letting the quiet of the apartment wrap around him. The memory of the bar was still there, a sharp edge in the back of his mind, but it was distant. It was something that had happened to someone else, in a place he didn’t want to be. He closed his eyes, listening to the hum of the refrigerator in the kitchen, and waited for sleep to come.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

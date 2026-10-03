@@ -1,0 +1,87 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 4.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":4,"ViewpointCharacterId":"Ethan Vale","Objective":"Ethan decides to attend Aurora\u0027s public appearance despite his anxiety, navigates the crowd dynamics of a superhero-dominated society, and positions himself in the venue without revealing his presence or intent.","IntendedChange":"Ethan transitions from isolated avoidance to active participation in the public sphere, establishing his motivation (admiration/curiosity) and the immediate physical setting for the inciting incident.","PacingPosture":0,"ProhibitedPatterns":["Do not have Ethan interact directly with Aurora or any other super.","Do not have Ethan\u0027s powers activate or cause any physical effect on another person.","Do not resolve the mystery of the bar incident.","Do not have Ethan leave the venue or change his mind about attending."],"Scenes":[{"Sequence":1,"Purpose":"Ethan stands outside the venue, wrestling with the urge to leave, and decides to stay based on a mix of curiosity and a desire to see if the world is as safe as it claims to be.","IntendedChange":"Ethan commits to entering the venue, moving from passive avoidance to active participation.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":2,"Purpose":"Ethan navigates the security checkpoints and crowd control barriers, observing the casual normalization of super-powered security and the hierarchy of access.","IntendedChange":"Ethan enters the main viewing area, establishing his physical position relative to the stage and the flight path.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":3,"Purpose":"Ethan finds a spot in the crowd, experiencing sensory overload and the intense energy of the fans, while observing the distant figure of Aurora on the stage.","IntendedChange":"Ethan settles into his position, feeling a mix of awe and anxiety, and becomes fully present in the environment where the incident will occur.","FocusCharacterIds":["Ethan Vale","Aurora"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Ethan finds a spot in the crowd, experiencing sensory overload and the intense energy of the fans, while observing the distant figure of Aurora on the stage.","IntendedChange":"Ethan settles into his position, feeling a mix of awe and anxiety, and becomes fully present in the environment where the incident will occur.","FocusCharacterIds":["Ethan Vale","Aurora"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":4,"CompletedSceneSequence":2,"Location":"Main viewing area entrance, immediately after passing the security checkpoints and crowd control barriers","TimeContext":"Morning","PresentCharacterIds":["Ethan Vale"],"PhysicalConditions":["Ethan Vale is wearing a grey henley, socks, and a jacket.","Ethan Vale is not carrying the Lens device.","Ethan Vale is physically healthy but appears tired with shadowed eyes and slumped posture."],"KnowledgeEstablished":["Ethan Vale observes the casual normalization of super-powered security, noting the doorman Ray\u0027s \u0027Security: Level 4\u0027 badge and his assessment of Ethan as a civilian threat.","Ethan Vale witnesses a super-powered figure (blue and gold streak) flying overhead, reinforcing the hierarchy of access and the distance between ordinary citizens and supers.","Ethan Vale perceives the venue as a \u0027cathedral to human achievement\u0027 and the barriers as designed to keep the ordinary from the extraordinary."],"DecisionsMade":["Ethan Vale proceeds to enter the main viewing area, joining the flow of people toward the entrance."],"PossessionChanges":[],"RelationshipChanges":[],"CompletedActions":["Ethan Vale exited his apartment building via the elevator and lobby, acknowledging the doorman Ray.","Ethan Vale walked three blocks to the venue through the morning crowd.","Ethan Vale observed a super-powered figure flying overhead.","Ethan Vale navigated the security checkpoints and crowd control barriers to enter the main viewing area."],"UnresolvedImmediateAction":"Ethan Vale is in the main viewing area, having just entered, and is moving through the crowd to find a specific spot.","ContinuationPosition":"Ethan Vale is inside the main viewing area, moving with the flow of the crowd toward the stage, feeling isolated and excluded from the energy of the fans.","ProhibitedRepetition":["Do not repeat the decision to attend the event.","Do not repeat the action of leaving the apartment.","Do not repeat the observation of the super-powered figure flying overhead.","Do not have Ethan interact with Aurora or other supers.","Do not have Ethan\u0027s powers activate.","Do not resolve the mystery of the bar incident.","Do not have Ethan leave the venue or change his mind about attending."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The crowd was a living thing, a dense, breathing organism that swallowed him whole. The air here was thick, recycled and warm, smelling of stale coffee, cheap cologne, and the metallic tang of electricity from the massive speakers lining the perimeter. It pressed against Ethan’s skin, a physical weight that made his shoulders slump further. He moved with the flow, his feet finding a rhythm on the concrete, his hands shoved deep into the pockets of his jacket to keep them from trembling.
+
+To his left, a woman in a hoodie the color of electric blue was holding a phone up with both hands, recording the stage. To his right, a man in a worn leather jacket muttered something under his breath, his eyes fixed on the sky with an intensity that bordered on religious fervor. They were all watching. They were all waiting. The energy was a low-frequency hum that vibrated in Ethan’s teeth, a constant, anxious thrum that had nothing to do with the music and everything to do with the sheer, crushing magnitude of the anticipation.
+
+He stopped when the current of bodies slowed, pushed forward by someone’s elbow, pulled back by someone else’s shoulder. He was standing now, or rather, he was being held in place by the collective mass of the crowd. He looked up.
+
+The stage was a monolith of light and steel, raised high above the heads of the thousands. It was an architectural marvel, a cathedral to human achievement, designed to make the ordinary feel small and the extraordinary feel infinite. And there, suspended in the center of it, was Aurora.
+
+She was a speck, a distant point of white and gold against the darkened sky. She wasn’t moving, not yet. She was just there, a figure of impossible grace, framed by the massive digital screens that flanked the stage. The screens were displaying her face, a close-up that filled the entire side of the venue. Her eyes, wide and bright, looked out over the sea of people with a calm, detached serenity. She smiled, and the crowd erupted. The sound was a physical blow, a wave of noise that hit Ethan in the chest and rattled his ribs.
+
+He felt a strange, hollow ache in his stomach. It was a mix of awe and anxiety, a knot of emotions he couldn’t quite untangle. He wanted to be part of this, to feel the surge of power that seemed to flow from her to the people around him. But he was just a body in the stream, invisible, unremarkable, and utterly alone. He looked down at his hands, pale and trembling in the pocket of his grey henley. He was a civilian. He was a threat level zero. He was nothing.
+
+The hum of the crowd rose again, a crescendo of voices that blurred into a single, deafening roar. Ethan closed his eyes for a second, breathing in the dust and the anticipation, feeling the weight of the moment settle over him like a heavy cloak. He was here. He was present. And for the first time in days, the isolation of his apartment felt like a distant memory, replaced by the overwhelming, terrifying reality of being part of something much larger than himself.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

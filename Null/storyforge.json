@@ -2,6 +2,11 @@
   "SchemaVersion": 1,
   "StoryName": "super-null",
   "RulesProfile": "None",
+  "Models": {
+    "Generation": "hf.co/TheDrummer/Cydonia-24B-v4.3-GGUF:Q4_K_M",
+    "Planning": "qwen3.8:27b"
+  },
+  "GenerationMode": "Chapters",
   "Length": {
     "SceneMinimumWords": 400,
     "SceneMaximumWords": 600,
