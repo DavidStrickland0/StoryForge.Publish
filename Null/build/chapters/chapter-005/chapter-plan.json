@@ -5,18 +5,17 @@
   "IntendedChange": "The inciting incident occurs: Aurora falls, is injured, and is treated while powerless, establishing the physical reality of Ethan\u0027s field and the immediate danger to both characters.",
   "PacingPosture": "Urgent",
   "ProhibitedPatterns": [
-    "Ethan physically intervening to catch or stop Aurora",
-    "Ethan speaking to Aurora or revealing his presence",
-    "Aurora\u0027s powers returning before the ambulance departs the venue",
-    "Paramedics successfully treating the injury with standard protocols without confusion",
-    "Ethan leaving the venue or the crowd dispersing before the ambulance loads",
-    "A direct confrontation or accusation from security or the public toward Ethan"
+    "Ethan explicitly believing he caused the fall",
+    "Ethan intervening physically to save Aurora",
+    "Aurora communicating with Ethan during the fall",
+    "Aurora\u0027s powers returning before the ambulance leaves the venue",
+    "Aurora\u0027s injuries healing automatically"
   ],
   "Scenes": [
     {
       "Sequence": 1,
-      "Purpose": "Aurora descends from the stage to fly over the crowd, and as she passes directly above Ethan, her flight fails and she plummets, landing heavily on the concrete near his feet.",
-      "IntendedChange": "Aurora is on the ground, unconscious or semi-conscious, with visible signs of trauma (blood, broken limb), and the crowd is in immediate panic.",
+      "Purpose": "Aurora descends from the stage to fly over the crowd, and Ethan observes her lose altitude and crash into the pavement near his position.",
+      "IntendedChange": "Aurora is lying unconscious on the ground with visible injuries, and the crowd is in a state of panic and silence.",
       "FocusCharacterIds": [
         "Ethan Vale",
         "Aurora"
@@ -24,28 +23,19 @@
     },
     {
       "Sequence": 2,
-      "Purpose": "Ethan is frozen by shock and a sudden, visceral realization that his proximity caused the fall, observing the crowd\u0027s chaotic reaction and the lack of immediate medical response due to confusion over her status.",
-      "IntendedChange": "Ethan remains rooted in place, paralyzed by fear and guilt, while the crowd begins to part around the injured Aurora, creating a tense, silent space between them.",
+      "Purpose": "Paramedics arrive and attempt to treat Aurora, discovering her invulnerability is gone as she bleeds and her bones are broken, causing confusion and delay in their response.",
+      "IntendedChange": "Aurora is stabilized with splints and bandages, her injuries confirmed as ordinary human trauma, and the medical team is preparing to transport her.",
       "FocusCharacterIds": [
-        "Ethan Vale"
+        "Ethan Vale",
+        "Aurora"
       ]
     },
     {
       "Sequence": 3,
-      "Purpose": "Paramedics arrive and attempt to treat Aurora, but their standard protocols fail because she is not healing or resisting pain as expected, leading to visible confusion and delayed stabilization.",
-      "IntendedChange": "Aurora is stabilized with basic trauma care (splint, bandages) but remains in severe pain and unable to move, while the paramedics express uncertainty about her condition.",
+      "Purpose": "Ethan remains frozen in the crowd, watching Aurora being loaded into the ambulance, and realizes his presence is the only variable that changed, but he is too terrified to move or explain.",
+      "IntendedChange": "The ambulance departs with Aurora, and Ethan is left standing alone in the chaotic venue, burdened by the secret of his proximity and the fear of being identified.",
       "FocusCharacterIds": [
-        "Aurora",
         "Ethan Vale"
-      ]
-    },
-    {
-      "Sequence": 4,
-      "Purpose": "Aurora is loaded into the ambulance, and as the vehicle begins to move, Ethan watches her being taken away, realizing the incident is now a public event and that he is the only one who knows he was present.",
-      "IntendedChange": "The ambulance departs with Aurora, leaving Ethan standing alone in the crowd, surrounded by the aftermath and the weight of his secret.",
-      "FocusCharacterIds": [
-        "Ethan Vale",
-        "Aurora"
       ]
     }
   ]
