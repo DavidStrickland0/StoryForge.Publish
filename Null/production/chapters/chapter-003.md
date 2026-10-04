@@ -1,5 +1,3 @@
-# Chapter 3: The Blue Mug
-
 The key card took two attempts before the reader accepted it. Ethan held it against the panel until the light turned green, pushed through the door, and waited for the deadbolt to engage behind him. Somewhere down the corridor a television was playing loudly enough to carry through a neighbor's door. He could hear an audience laughing, followed by a man's indignant reply and another round of laughter.
 
 He stood there longer than he needed to, with his keys still in his hand.
@@ -125,15 +123,3 @@ He had work in the morning, lunch waiting in the refrigerator, and a drawer that
 For once Ethan had given him something to answer.
 
 He rolled over and left the dock where it was.
-
-
----
-
-Generation Information
-
-Models:
-- Generation: qwen3.8:27b
-- Review: qwen3.8:27b
-
-GPU: NVIDIA GeForce RTX 4070 Laptop GPU
-Total Generation Time: 01:04:47.8329729

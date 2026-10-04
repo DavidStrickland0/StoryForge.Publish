@@ -1,4 +1,4 @@
-﻿# Narrative
+# Narrative
 
 ## Story Premise
 
@@ -102,24 +102,12 @@ Adrian will not be able to keep the technology entirely private. But sharing it 
 
 ## Current Narrative State
 
-The story has not begun.
-
-
-- The story has begun with Adrian Vale completing his first day of the male-fertility trial.
-
-
-- The story has progressed to Adrian Vale completing his second day of the male-fertility trial.
-
-
-- Adrian Vale has begun to notice physical and sensory changes in his body that he does not yet understand.
+- Chapter 2 completed the first testing session and established the daily routine. This first encounter must not be replayed.
+- Chapter 3 contains the catastrophic accident and emergency nanite treatment. Adrian survived and is recovering in a hospital bed.
+- Adrian already knows the experimental nanites interacted with the fertility drug, reproduced and evolved inside him, and are changing his body. This revelation must not be delayed to a later arc.
+- Dr. Sarah Chen is the nanite lead researcher; David Miller is from hospital administration. Both met Adrian in Chapter 3.
+- Adrian agreed to continued trial participation and additional monitoring, including physical examination, blood work and a genetic panel. These tests are pending.
+- Hospital administration offered increased compensation for the unusual circumstances but did not specify a new amount. Do not invent a replacement rate.
+- The nanites accelerate his healing and metabolism; he needs additional food and rest and is not fully recovered.
 
 ## Unresolved Information
-
-
-- The specific nature of the side effects Adrian Vale is experiencing is unknown to him.
-
-
-- The long-term effects of the trial medication on Adrian Vale are unknown.
-
-
-- The specific cause of Adrian Vale's physical and sensory changes is unknown to him.

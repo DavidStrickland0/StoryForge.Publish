@@ -1,6 +1,30 @@
-﻿# World
+# StoryForge Endless — WORLD
 
 ## Current State
+
+- The barrier is currently absorbing the Blight stream and has grown stronger.
+
+
+- The old road has dissolved into a slurry of mud and black water due to the Blight's influence on the local water table.
+
+
+- The watchfort is located on high ground with thin air and a view of hills below.
+
+
+- The watchfort gatehouse contains a heavy oak table, a hearth, and a crate near the hearth.
+
+
+- The group has formulated a plan to sever the channel at 'The Gate of Silence' to create a localized Blight surge to feed the barrier.
+
+
+- The watchfort gatehouse contains a small table, crates of supplies, and a single lantern hanging from a beam.
+
+
+- The barrier is currently consuming the Blight but is also feeding on finite magic in the air, posing a risk of eventual failure or breach.
+
+
+- The entity outside the barrier is advancing slowly and deliberately toward the temple.
+
 
 
 - Black spires pierce the sky from the village.
@@ -49,51 +73,3 @@
 
 
 - Elias and Kaelen have reached the watchfort safely.
-
-
-- The entity outside the barrier is advancing slowly and deliberately toward the temple.
-
-
-- The barrier is currently consuming the Blight but is also feeding on finite magic in the air, posing a risk of eventual failure or breach.
-
-
-- The watchfort gatehouse contains a small table, crates of supplies, and a single lantern hanging from a beam.
-
-
-- The group has formulated a plan to sever the channel at 'The Gate of Silence' to create a localized Blight surge to feed the barrier.
-
-
-- The watchfort gatehouse contains a heavy oak table, a hearth, and a crate near the hearth.
-
-
-- The watchfort is located on high ground with thin air and a view of hills below.
-
-
-- The old road has dissolved into a slurry of mud and black water due to the Blight's influence on the local water table.
-
-
-- The barrier is currently absorbing the Blight stream and has grown stronger.
-
-
-- The Blight has been drained from the barrier and is currently moving westward through the underground channels toward the forest.
-
-
-- The barrier dome is currently clear and stable, with the immediate reservoir of Blight removed.
-
-
-- The Blight is currently moving west through the channels, heading toward the forest.
-
-
-- The barrier surrounding the clearing is stable and functioning as a shelter.
-
-
-- The resonance is shifting. The seal at the Gate of Silence isn't holding the flow back anymore. The pressure differential is increasing the velocity.
-
-
-- The barrier is eating faster than it can digest.
-
-
-- If we don't stabilize the flow, the surge will shatter the seal and flood this room.
-
-
-- The group has found a fragile peace within the bounds of the watchfort.

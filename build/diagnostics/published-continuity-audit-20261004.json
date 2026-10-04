@@ -1,0 +1,283 @@
+{
+  "Date": "2026-10-04",
+  "Scope": "All five active story workspaces; all 33 published chapters read sequentially. Backups, rejected drafts, and production-only chapters excluded.",
+  "Actions": "Inspection only. No story or generated-state files changed.",
+  "Method": "Published prose is primary evidence; model findings checked against it, with unsupported findings excluded from rollback reasoning.",
+  "Recommendations": [
+    {
+      "Story": "Seed of Evolution",
+      "Published": 5,
+      "KeepThrough": 3,
+      "Regenerate": "4-5",
+      "Confidence": "High",
+      "Reason": "Chapter 4 replays the first trial day after the Chapter 3 accident, nanite intervention, acquired knowledge, and consent to additional monitoring. Pay changes from $400/month plus $50/session to $14/day plus $30/week without explanation. Chapter 5 inherits the reset and unexplained cash depletion.",
+      "ProseEvidence": [
+        "chapter-003.md:103 nanite rescue explained",
+        "chapter-004.md:83 survived the first day",
+        "chapter-004.md:69 revised payment terms"
+      ],
+      "Diagnostics": [
+        "build/chapters/chapter-004/review-001.json",
+        "build/chapters/chapter-004/review-001.validation.json"
+      ],
+      "DiagnosticFailure": "Review found reset; validator dismissed it using future accident arc windows and stale narrative summary.",
+      "EarlierEdits": [
+        "Chapter 3 changes convenience-store job to campus bookstore; standardize.",
+        "Duplicate headings in Chapters 2-3.",
+        "Published Chapter 1 correctly counts four hundred-dollar bills as $400."
+      ],
+      "Pending": "Chapter 6 is unpublished and depends on superseded Chapters 4-5."
+    },
+    {
+      "Story": "Null",
+      "Published": 5,
+      "KeepThrough": 4,
+      "Regenerate": "5",
+      "Confidence": "High",
+      "Reason": "Chapter 5 makes Ethan certain he caused the fall without a causal test, violating the plan restriction and changing character knowledge too early.",
+      "ProseEvidence": [
+        "chapter-003.md:103 does not know why skills failed",
+        "chapter-005.md:143 He had been the cause"
+      ],
+      "Diagnostics": [
+        "build/chapters/chapter-005/chapter-plan.json",
+        "build/chapters/chapter-005/review-001.json",
+        "build/chapters/chapter-005/review-001.validation.json"
+      ],
+      "DiagnosticFailure": "Validator treats certainty as NonBlocking because the premise says Ethan actually is the cause. Plan prohibits believing he caused it while scene 3 itself invites that inference; repair plan too.",
+      "EarlierEdits": [
+        "Chapter 4 falsely says he walked home without Lens navigation; Chapters 2-3 show him using it.",
+        "Chapter 4 says he never learned Elena's name despite earlier identification.",
+        "Align teenager-era Aurora admiration with recent emergence chronology."
+      ],
+      "Pending": "Production Chapter 6 is not published; its dependence on Chapter 5 must be invalidated."
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "Published": 19,
+      "KeepThrough": 14,
+      "Regenerate": "15-19",
+      "Confidence": "High for Chapter 15 onward; Chapters 1-14 locked by user publication constraint",
+      "DefiniteBreakFrom": 15,
+      "Reason": "User confirms Chapters 1-14 are already published externally and cannot change. Preserve them as established history. Rectify the continuation starting with Chapter 15, The Weight of the Drain, using the Gate of Silence location and completed first phase from Chapter 14. Remove unsupported Keeper-death certainty and make any change in barrier behavior, location, or character knowledge explicit and causally supported.",
+      "ProseEvidence": [
+        "chapter-011.md:85 watchfort occupants speak as if already in city",
+        "chapter-011.md:155 Maren claims firsthand experience of channel creatures",
+        "chapter-015.md:187 The keeper is dead",
+        "chapter-017.md:63 gatehouse hearth replaces clearing",
+        "chapter-017.md:167 walls of temple",
+        "chapter-019.md:69 stay until sunrise vs line 119 leave in ten minutes"
+      ],
+      "Diagnostics": [
+        "build/chapters/chapter-011/review-001.json",
+        "build/chapters/chapter-012/review-002.json",
+        "build/chapters/chapter-015/review-001.json",
+        "build/chapters/chapter-015/review-001.validation.json",
+        "build/chapters/chapter-017/review-001.json"
+      ],
+      "DiagnosticFailure": "Validator acknowledges Keeper contradiction but downgrades to dialogue error, then uses the invented death to validate the forest-draining decision.",
+      "Alternative": "Earlier recommendation to regenerate Chapters 11-14 is withdrawn. Existing cast and geography ambiguities must be clarified prospectively, without rewriting or denying published events.",
+      "EarlierEdits": [
+        "Chapters 1-14 are immutable. Do not apply the previously suggested editorial changes.",
+        "Explain whereabouts and relationships of the company members in future prose rather than silently renaming them.",
+        "Use current observation, clarification, or new discovery to resolve uncertain mechanics and geography. Do not claim established events never happened."
+      ],
+      "Pending": "Repair Chapter 15 and dependent Chapters 16-19 before continuing. This audit update does not authorize or execute a rollback."
+    },
+    {
+      "Story": "CrucibleOfAges",
+      "Published": 4,
+      "KeepThrough": 4,
+      "Regenerate": null,
+      "Confidence": "High for event sequence",
+      "Reason": "Death -> void/System -> resurrection/enslavement -> slave market is coherent. Stale future arcs were repaired; no published reset to void occurs.",
+      "Diagnostics": [
+        "build/diagnostics/arc-plan-repair-20261004/repair-record.json",
+        "build/chapters/chapter-004/review-001.validation.json"
+      ],
+      "EarlierEdits": [
+        "Chapter 2 incorrectly recalls taking the mother's life, despite saving her; correct recollection.",
+        "Chapter 4 no longer a slave ending must be clarified as identity claim or removed; he is still captive.",
+        "Keep ropes/cuffs consistent across Chapters 3-4.",
+        "CANON.md simultaneously says currently in void and currently enslaved; reconcile derived state."
+      ],
+      "Pending": "Continue Chapter 5 after state cleanup."
+    },
+    {
+      "Story": "ConcordOfTheForsaken",
+      "Published": 0,
+      "KeepThrough": 0,
+      "Regenerate": null,
+      "Reason": "Only bootstrap, premise, and context; no published chapters."
+    }
+  ],
+  "RecoveryRequirement": "An authorized rollback must archive superseded chapters and restore/reconstruct canon, characters, world, narrative, threads, arc progress, application receipts and pending plans at the checkpoint. Removing chapter Markdown alone is insufficient.",
+  "PublicationFinalDifference": "Null Chapter 2 publication changes quims to quirks relative to final.md. Preserve published edit when reconstructing evidence.",
+  "Inventory": [
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-001.md",
+      "SHA256": "E21C99D97B2CD4C6647AAE9CADB2E4CAF3DC3350DB83CC4698E4F140499A874B"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-002.md",
+      "SHA256": "6A4625808E89711B438B3346FD129FEE7848573CBAB3FCF01AD84544BAF878ED"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-003.md",
+      "SHA256": "C3705243E9A74C398B49B26BEA57D2406065E3F422615A5374E59C2B0085FC8A"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-004.md",
+      "SHA256": "655412605EC2D4856450FFC94597D54B1F119432744F3ADB21C90197D15AF35A"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-005.md",
+      "SHA256": "8CE3022E4978E3EC5FB0B0A9D421D769827FAA416999C8F36273CB77EA6110ED"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-006.md",
+      "SHA256": "0924BA27ADF67182A4B78AA8644F44B5F3EB65DA982028FE4C7C77E13ECDF5B8"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-007.md",
+      "SHA256": "B609896F87BE702B503DFFDD27F3B6C5DF4FE5A0B6792A021DD97D42162D1826"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-008.md",
+      "SHA256": "416B59435A1F1793E62DC18395B4D944700138356AADBF771AD6AC39DA7D74F3"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-009.md",
+      "SHA256": "155254273994189D8BB0BD00F643BE048D0A994A3FF3E16523284E3F594CF08C"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-010.md",
+      "SHA256": "4271430EBBBEE1575D7275F620F6CB3F3984D8C3E873B5EC0D1241F247D4B6FA"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-011.md",
+      "SHA256": "028EB722D8D28EE14D59E36FB2CC49CB69E6265ED5D69439AA8894D4BFF6F0F2"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-012.md",
+      "SHA256": "6D3E6CF933EDD94A8EA01A2E01A1B51DA6350324F84086A8D113A123765AB5F8"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-013.md",
+      "SHA256": "C321A5A1FF4ED01BD6C62CD633AB7BAAC57F669ABCF437B004E572BA33FE474D"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-014.md",
+      "SHA256": "539DD6F70633959E1921171DCFF60A5BEFFCBE4C0B81D50F0D71544B7DD2AB12"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-015.md",
+      "SHA256": "A5A1A6A5F50256078B22A360F317457FECD6A2155E8E67993D52A561BDB04D4B"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-016.md",
+      "SHA256": "486C2A900EE1ACFAAC7EE3761C7FFB5210F5CA4D622948C4B35A7CD3A81EBDDB"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-017.md",
+      "SHA256": "BD5031876399020D18BDC7E6B21AF26B62811895359E6EB3E36393E4CE667717"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-018.md",
+      "SHA256": "58E4F6659017D7E7D4FBBC51F1D7C84655FD3DE2BD2F92BCBB0A8AA0C7D79AD7"
+    },
+    {
+      "Story": "AsTheWorldRolls",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\AsTheWorldRolls\\publication\\chapters\\chapter-019.md",
+      "SHA256": "072992A0504EB0A6D57E7B6BCE84336AE292E63BECD383FF353F458969D4529B"
+    },
+    {
+      "Story": "CrucibleOfAges",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\CrucibleOfAges\\publication\\chapters\\chapter-001.md",
+      "SHA256": "BF11C277811D0CB290223F29AFE934359AF8AA3BDACA1FEEF81485D534B705CE"
+    },
+    {
+      "Story": "CrucibleOfAges",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\CrucibleOfAges\\publication\\chapters\\chapter-002.md",
+      "SHA256": "387AB6D0BDE0E044F109F9B716C1626D07B2DE905F49D32BE5437645657D6EC4"
+    },
+    {
+      "Story": "CrucibleOfAges",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\CrucibleOfAges\\publication\\chapters\\chapter-003.md",
+      "SHA256": "D7519CBA66442A0FDAD763393ECD8197B01A5B2783E140F6137461EDCA3BD52A"
+    },
+    {
+      "Story": "CrucibleOfAges",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\CrucibleOfAges\\publication\\chapters\\chapter-004.md",
+      "SHA256": "602088A0DFA83D31B26A6AC23E028D80E3874FA2EB9B5C69C97F4CCC0BE37B1B"
+    },
+    {
+      "Story": "Null",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\Null\\publication\\chapters\\chapter-001.md",
+      "SHA256": "776DE26E678708854E8053E93B1A1D40F2447A03840127D347706411A9650886"
+    },
+    {
+      "Story": "Null",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\Null\\publication\\chapters\\chapter-002.md",
+      "SHA256": "5C39C8751AB53C8210D73795ABD5DC2D8A10BF51DA548AE7239A9DDEA8D94AF8"
+    },
+    {
+      "Story": "Null",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\Null\\publication\\chapters\\chapter-003.md",
+      "SHA256": "D97DDE454561B390D087AFB53123145857E4E34867A5298D70AA9D4B0FC9E912"
+    },
+    {
+      "Story": "Null",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\Null\\publication\\chapters\\chapter-004.md",
+      "SHA256": "B99A7E1998B4CBF2FBBE9EC5416DF3EE2F8E09DE81007421759FA16128A1BE3E"
+    },
+    {
+      "Story": "Null",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\Null\\publication\\chapters\\chapter-005.md",
+      "SHA256": "7BE6128B4476CE3529E94415477539AD23FB4184B70E9E700DB0755FC5656754"
+    },
+    {
+      "Story": "Seed of Evolution",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\Seed of Evolution\\publication\\chapters\\chapter-001.md",
+      "SHA256": "FE0D86D6A03ABB2EA3281E60ACFB9F7DC16A601D83F2A9AA9DFD6277B328C591"
+    },
+    {
+      "Story": "Seed of Evolution",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\Seed of Evolution\\publication\\chapters\\chapter-002.md",
+      "SHA256": "C65F294144DD410C2823060E95557476D9C1D4B2F79FEEB43CFB0E9937748FAD"
+    },
+    {
+      "Story": "Seed of Evolution",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\Seed of Evolution\\publication\\chapters\\chapter-003.md",
+      "SHA256": "F21D1B918BCE0C36A68C0C326F9A9259E1866E5E1859F395605A9056AD5C860D"
+    },
+    {
+      "Story": "Seed of Evolution",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\Seed of Evolution\\publication\\chapters\\chapter-004.md",
+      "SHA256": "50BA186E2EBDD73CD0E5B86066AD6F1631A040EFBAD04CE52689FDF94A54A211"
+    },
+    {
+      "Story": "Seed of Evolution",
+      "File": "C:\\Repos\\SRD\\StoryForge.Publish\\Seed of Evolution\\publication\\chapters\\chapter-005.md",
+      "SHA256": "96727029F836DC5FEC80EB28AF2DB840E44CEB352CC3A1959D0103B0112DE3D8"
+    }
+  ]
+}

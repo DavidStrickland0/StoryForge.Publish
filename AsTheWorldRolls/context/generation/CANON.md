@@ -1,7 +1,112 @@
-﻿# Canon
+# StoryForge Endless — CANON
 
 ## Established Canon
-
+
+- The first phase of the mechanism involves weakening the seal and feeding the barrier; the second phase involves pushing the frequency higher and opening the channel wider, requiring Kaelen to 'pull' rather than just listen.
+
+
+- The resonance mechanism requires Kaelen to act as a valve to control the flow of the Blight, preventing a violent surge.
+
+
+- The barrier is described as a 'mouth' that eats the Blight rather than just blocking it.
+
+
+- The barrier consumes the Blight that flows into it, becoming stronger, sharper, and shifting from pale white to a bruised violet hue during absorption.
+
+
+- The resonance mechanism is self-sustaining once initiated, creating a feedback loop between the quartz, the seal, and the channel below.
+
+
+- Tapping a chisel against the quartz stone in the fissure creates a resonance that weakens the seal and opens a channel for the Blight to flow.
+
+
+- A quartz stone fits precisely into a groove carved into the fissure of the Gate of Silence.
+
+
+- The Gate of Silence contains a fissure in its base that emits a pulsing green light.
+
+
+- The Gate of Silence is a small shrine structure built of grey stone, located at the end of a stone-lined drainage ditch.
+
+
+- A specific resonance frequency can be used with a chisel to weaken stone bonds from the inside rather than shattering them.
+
+
+- The stone stratum of the ridge is the same as the shrine's foundation.
+
+
+- The map indicates the channel descends in three stages, with the final seal at the third node.
+
+
+- The channel entrance at the Gate of Silence is connected to the shrine via the channel network.
+
+
+- Stone-lined drainage ditches run parallel to the main street in the city.
+
+
+- The river has cut a new bed, turning the old road into a swamp.
+
+
+- The bronze plate map is three centuries old.
+
+
+- The Blight leaves a crystalline residue or anchor mark on metal surfaces.
+
+
+- Applying a sustained, low-frequency vibration weakens the bond of the seal without breaking the stone.
+
+
+- Striking the seal with blunt force disrupts the resonance and causes the seal to fail.
+
+
+- The runes on the seal are tuned to a specific frequency.
+
+
+- The seal at the Gate of Silence is old and brittle.
+
+
+- The channel leading to the seal descends rather than running flat, creating higher water pressure than a flat schematic implies.
+
+
+- The seal is located at the intersection of the main channel and the drainage outflow at the Gate of Silence.
+
+
+- The Gate of Silence is the first node in the channel network.
+
+
+- The barrier is designed to digest Blight slowly, functioning as a stomach rather than a shield.
+
+
+- Severing the channel at a shrine creates a localized pocket of Blight that can be directed toward the barrier for consumption.
+
+
+- The first shrine in the sequence is named 'The Gate of Silence' and is the outermost node in the network.
+
+
+- The barrier is an independent active trap that requires contact with the Blight to function, rather than relying on external magic.
+
+
+- The temple is the hub of a network of six smaller shrines connected by channels through which water and Blight flow.
+
+
+- The Blight is a force of erasure and overwriting, attempting to reach the source and erase the history held by the forest.
+
+
+- Kaelen's magic is a hybrid that interfaces with both the Blight and the barrier, making him a bridge or leak between the two.
+
+
+- The barrier resonates with the same frequency as the Blight and Kaelen's magic, acting as a filter that separates clean energy from corrupted energy.
+
+
+- The barrier at the temple entrance functions as a trap that consumes Blight corruption upon contact, growing stronger as it feeds on entities.
+
+
+- The forest contains etchings on trees that indicate its sentient nature or history.
+
+
+- A festival called the Harvest Festival occurred three years ago, featuring lanterns floating on a river.
+
+
 
 - A village characterized by black spires exists.
 
@@ -63,12 +168,6 @@
 - The forest contains a sentient presence or memory that remembers past events and entities buried within it.
 
 
-- A festival called the Harvest Festival occurred three years ago, featuring lanterns floating on a river.
-
-
-- The forest contains etchings on trees that indicate its sentient nature or history.
-
-
 - The watchfort exists at the edge of the forest, built into a hillside with thick dark walls and narrow slit-like windows.
 
 
@@ -89,160 +188,16 @@
 
 - The watchfort walls are thick, pitted by wind and rain, and have slit-like windows.
 
-
-- The barrier at the temple entrance functions as a trap that consumes Blight corruption upon contact, growing stronger as it feeds on entities.
-
-
-- The barrier resonates with the same frequency as the Blight and Kaelen's magic, acting as a filter that separates clean energy from corrupted energy.
-
-
-- Kaelen's magic is a hybrid that interfaces with both the Blight and the barrier, making him a bridge or leak between the two.
-
-
-- The Blight is a force of erasure and overwriting, attempting to reach the source and erase the history held by the forest.
-
-
-- The temple is the hub of a network of six smaller shrines connected by channels through which water and Blight flow.
-
-
-- The barrier is an independent active trap that requires contact with the Blight to function, rather than relying on external magic.
-
-
-- The first shrine in the sequence is named 'The Gate of Silence' and is the outermost node in the network.
-
-
-- Severing the channel at a shrine creates a localized pocket of Blight that can be directed toward the barrier for consumption.
-
-
-- The barrier is designed to digest Blight slowly, functioning as a stomach rather than a shield.
-
-
-- The Gate of Silence is the first node in the channel network.
-
-
-- The seal is located at the intersection of the main channel and the drainage outflow at the Gate of Silence.
-
-
-- The channel leading to the seal descends rather than running flat, creating higher water pressure than a flat schematic implies.
-
-
-- The seal at the Gate of Silence is old and brittle.
-
-
-- The runes on the seal are tuned to a specific frequency.
-
-
-- Striking the seal with blunt force disrupts the resonance and causes the seal to fail.
-
-
-- Applying a sustained, low-frequency vibration weakens the bond of the seal without breaking the stone.
-
-
-- The Blight leaves a crystalline residue or anchor mark on metal surfaces.
-
-
-- The bronze plate map is three centuries old.
-
-
-- The river has cut a new bed, turning the old road into a swamp.
-
-
-- Stone-lined drainage ditches run parallel to the main street in the city.
-
-
-- The channel entrance at the Gate of Silence is connected to the shrine via the channel network.
-
-
-- The map indicates the channel descends in three stages, with the final seal at the third node.
-
-
-- The stone stratum of the ridge is the same as the shrine's foundation.
-
-
-- A specific resonance frequency can be used with a chisel to weaken stone bonds from the inside rather than shattering them.
-
-
-- The Gate of Silence is a small shrine structure built of grey stone, located at the end of a stone-lined drainage ditch.
-
-
-- The Gate of Silence contains a fissure in its base that emits a pulsing green light.
-
-
-- A quartz stone fits precisely into a groove carved into the fissure of the Gate of Silence.
-
-
-- Tapping a chisel against the quartz stone in the fissure creates a resonance that weakens the seal and opens a channel for the Blight to flow.
-
-
-- The resonance mechanism is self-sustaining once initiated, creating a feedback loop between the quartz, the seal, and the channel below.
-
-
-- The barrier consumes the Blight that flows into it, becoming stronger, sharper, and shifting from pale white to a bruised violet hue during absorption.
-
-
-- The barrier is described as a 'mouth' that eats the Blight rather than just blocking it.
-
-
-- The resonance mechanism requires Kaelen to act as a valve to control the flow of the Blight, preventing a violent surge.
-
-
-- The first phase of the mechanism involves weakening the seal and feeding the barrier; the second phase involves pushing the frequency higher and opening the channel wider, requiring Kaelen to 'pull' rather than just listen.
-
-
-- The barrier functions as a storage vessel that can become saturated and stagnant if not drained.
-
-
-- The seal mechanism can be adjusted to change the flow direction from pulling Blight into the barrier to pushing it into the ground channels.
-
-
-- The forest keeper is dead, leaving only the Blight as a remnant in that domain.
-
-
-- The quartz stone mechanism in the clearing functions as a barrier that holds a defined space and pushes back against the Blight rather than pulling it in.
-
-
-- Water acts as a conductor for the quartz stone, bridging the gap between the earth's vibration and the crystal's structure to stabilize the barrier.
-
-
-- The Blight is moving west through the channels beneath the earth.
-
-
-- Maren possesses the magical ability to generate warmth to heal or stabilize others.
-
-
-- Kaelen's magic usage caused his skin to become translucent with visible dark veins and resulted in fissures on his forearms that leaked greenish mist.
-
-
-- The watchfort contains an opening in the floor that connects the hearth to the room.
-
-
-- The group has agreed to wait until Kaelen responds before moving him.
-
 ## Changes Over Time
 
-
-- The barrier previously flickered and weakened; it now stands stronger after absorbing the Blight.
-
-
-- The barrier was previously described as flickering and weakening; it is now established that it strengthens and grows brighter when Blight entities attack it, as it consumes them.
+- The barrier previously flickered and weakened; it now stands steady, strong, and does not flicker or dim.
 
 
 - Kaelen's gauntlet previously hummed with a sick, erratic vibration; it is now still, cold, and heavy, with dormant runes.
 
 
-- The barrier previously flickered and weakened; it now stands steady, strong, and does not flicker or dim.
+- The barrier was previously described as flickering and weakening; it is now established that it strengthens and grows brighter when Blight entities attack it, as it consumes them.
 
 
-- The barrier previously functioned as a trap that drew corruption in; it now holds a stable shape and pushes back against the Blight.
 
-
-- Kaelen's skin was previously described as having sickly luminescence; it is now fading to a pale, human shade, though it remains translucent.
-
-
-- The fissures on Kaelen's forearms were previously leaking greenish mist; they have now dried into jagged scars and the leaking has stopped.
-
-
-- Kaelen's gauntlet was previously cold and inert; it is now warm and stable under the group's combined efforts.
-
-
-- The barrier was previously flickering faintly; it is now pulsing with a rhythm that feels less like a steady beat and more like a slow, heavy thrumming.
+- The barrier previously flickered and weakened; it now stands stronger after absorbing the Blight.

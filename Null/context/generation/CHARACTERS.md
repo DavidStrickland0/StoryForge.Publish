@@ -1,4 +1,4 @@
-﻿# Characters
+# Characters
 
 ## Current State
 
@@ -11,9 +11,9 @@ Current state:
 
 - Ethan Vale exists and is an established character.
 
-- Ethan Vale is a civilian with no superpowers.
+- Ethan Vale believes he is an ordinary civilian; he is unaware of his nullification field.
 
-
+
 - Ethan Vale possesses a Lens device for augmented reality navigation.
 
 - Ethan Vale has a past romantic relationship with Mara.
@@ -40,7 +40,7 @@ Current state:
 
 - Elena possesses plastic surgery and high social status within her company.
 
-
+
 - Elena is a corporate executive.
 
 - Elena has a bleached blonde hairstyle.

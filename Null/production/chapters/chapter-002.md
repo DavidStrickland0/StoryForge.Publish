@@ -1,10 +1,8 @@
-# Chapter 2: The Fastest Blush of the Day
-
 No sooner had Ethan cleared the doorway than a suit nearly knocked him over from behind. Glancing over, Ethan realized it was the super. Or at least what he had thought was a super. Because a super with the strength that guy had displayed when he picked up Elena by the hair would not have bounced off and sprawled onto the sidewalk. With one hand, he was clutching his crotch while he tried to climb back to his feet with the other.
 
 Ethan realized there was no way this was a super so now he wasn't certain what to do. Should he help him or walk away. As he contemplated this conundrum, a screaming bleached blonde came storming out and kicked the man in the midriff. Contrary to his initial impression, she did not appear to be an emerging super. Being kicked by a super would probably do damage. Its possible she just had indestructable finger nails. There where wierder skills. Instead, the ninety-pound personification of a Karen on crack had to kick him twice before he was knocked back to the ground. At which point, she brought her foot up to reach her hands and proceeded to try to remove the six-inch stiletto heel that had proved so effective in the bar.
 
-It was Elena. The same Elena that had just been forcefully and publicly disrobed, or at least mostly. She was furious, gorgeous, and half-naked. Watching her ass bounce as she kicked Superwimp would have caught any guy's eye. When she brought her foot up to get her shoe off, there was no way not to notice just how stretched out she was. There are all kinds of quims out there. Some are barely a line, while others have more minora than majora. This second category was where Elena was firmly positioned. Her labia must have stuck out a good two inches. It was immediately obvious how she had gotten her executive position.
+It was Elena. The same Elena that had just been forcefully and publicly disrobed, or at least mostly. She was furious, gorgeous, and half-naked. Watching her ass bounce as she kicked Superwimp would have caught any guy's eye. When she brought her foot up to get her shoe off, there was no way not to notice just how stretched out she was. There are all kinds of quirks out there. Some are barely a line, while others have more minora than majora. This second category was where Elena was firmly positioned. Her labia must have stuck out a good two inches. It was immediately obvious how she had gotten her executive position.
 
 As she finally got her shoe off to presumably spike the man to death, David came running out with a large wade of black cloth that he was presumably planning on wrapping around her. Of course, in doing this, he nearly tackled her, and given she hadn’t quite gotten her foot down, all three ended up in a heap on the ground, giving Ethan another perfect view of some plastic surgeon’s masterpiece.
 
@@ -35,15 +33,3 @@ That, of course, isn’t it. There is flight and telepathy and metal control and
 The other thing no one expected was that skills don’t stop. You can't turn them on and off. Which is what made that guy in the bar so odd. If he was slow-twitch strong with indestructible skin the way he looked to start with, there’s no way for him to lose it or become as weak as he was at the end. He might have been jacked up on an adrenal to display strength, but there’s no way his skin would have taken those nails without indestructible skin. But then it was just gone. Too weak to hold Elena down or keep David brown-nosing. Something was off in that bar.
 
 While Ethan took his round about trip to avoid the bar FireMan walked around the corner to get away from that bar. He wasn't certain what had just happened, but something had neutralized his skills. Everything had been fine till he touched that brown-noser, David. He shoved his face into the ass of his boss and suddenly he felt weaker than he ever had. He had never had issues making norms do what he wanted. But the bloody scratches on his arm and the pain in his groin were enough to let him know he wanted nothing to do with whatever just happened. Finding another haunt somewhere else in this city seemed like a good idea. Maybe move the penthouse; he was tired of this one anyway.
-
-
----
-
-Generation Information
-
-Models:
-- Generation: qwen3.8:27b
-- Review: qwen3.8:27b
-
-GPU: NVIDIA GeForce RTX 4070 Laptop GPU
-Total Generation Time: 02:36:02.9570132
