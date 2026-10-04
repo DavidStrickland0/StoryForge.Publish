@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "settings": {
+    "maxAttemptsPerWording": 3,
+    "maxFragmentRewrites": 3,
+    "totalAttempts": 12
+  },
+  "attempt": 4,
+  "pendingAction": "complete",
+  "unresolvedSegmentIndexes": [
+    4
+  ],
+  "rewriteCounts": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 0,
+    "6": 0
+  },
+  "bestCandidates": {
+    "1": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/short-utterance-candidates/segment-0001-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 5,
+            "transcribedWordCount": 5,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"David, what are you doing?\"",
+            "transcription": "David, what are you doing?",
+            "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/segment-0001-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 1,
+            "chunkIndex": 0,
+            "speakerId": "elena",
+            "voiceId": "voice-070b12697a45f754"
+          }
+        ],
+        "expectedWordCount": 5,
+        "transcribedWordCount": 5,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 1,
+        "speakerId": "elena",
+        "voiceId": "voice-070b12697a45f754",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"David, what are you doing?\"",
+        "expectedText": "\"David, what are you doing?\"",
+        "spokenText": "\"David, what are you doing?\"",
+        "wasRewritten": false,
+        "transcription": "David, what are you doing?",
+        "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/segment-0001.wav"
+      }
+    },
+    "3": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/short-utterance-candidates/segment-0003-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"What is that?\"",
+            "transcription": "What is that?",
+            "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/segment-0003-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 3,
+            "chunkIndex": 0,
+            "speakerId": "elena",
+            "voiceId": "voice-070b12697a45f754"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 3,
+        "speakerId": "elena",
+        "voiceId": "voice-070b12697a45f754",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"What is that?\"",
+        "expectedText": "\"What is that?\"",
+        "spokenText": "\"What is that?\"",
+        "wasRewritten": false,
+        "transcription": "What is that?",
+        "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/segment-0003.wav"
+      }
+    },
+    "4": {
+      "attempt": 4,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/short-utterance-candidates/segment-0004-attempt-04.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "review",
+            "verificationMode": "ai-rewritten-short-utterance",
+            "expectedText": "Elena asked.",
+            "transcription": "Elena asked.",
+            "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/segment-0004-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.12
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 4,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voice-07bcd4b3227d6b12"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 4,
+        "speakerId": "narrator",
+        "voiceId": "voice-07bcd4b3227d6b12",
+        "status": "review",
+        "verificationMode": "ai-rewritten-short-utterance",
+        "sourceText": " Elena asked.\n\n",
+        "expectedText": "Elena asked.",
+        "spokenText": "Elena asked.",
+        "wasRewritten": true,
+        "transcription": "Elena asked.",
+        "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/segment-0004.wav"
+      }
+    },
+    "5": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/short-utterance-candidates/segment-0005-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"It's your slacks.\"",
+            "transcription": "It's your slacks.",
+            "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/segment-0005-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 5,
+            "chunkIndex": 0,
+            "speakerId": "david",
+            "voiceId": "voice-05bfeebc7a75d6c3"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 5,
+        "speakerId": "david",
+        "voiceId": "voice-05bfeebc7a75d6c3",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"It’s your slacks.\"",
+        "expectedText": "\"It’s your slacks.\"",
+        "spokenText": "\"It’s your slacks.\"",
+        "wasRewritten": false,
+        "transcription": "It's your slacks.",
+        "audioPath": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002/segment-0005.wav"
+      }
+    }
+  },
+  "completed": true,
+  "unresolvedChunks": []
+}

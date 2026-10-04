@@ -3,39 +3,32 @@
   "viewpointCharacterId": "Adrian",
   "objective": "Adrian completes the final days of the trial, managing the escalating physical side effects of the medication and the logistical challenges of balancing the trial with his academic and part-time obligations, while the clinic’s monitoring systems begin to flag significant anomalies in his samples.",
   "intendedChange": "Adrian experiences a significant increase in his physical capabilities and hunger, which he attributes to the medication, while the clinic’s monitoring systems flag significant anomalies in his samples, creating a critical tension between his performance and the researchers’ expectations.",
-  "pacingPosture": "Urgent",
+  "pacingPosture": "Balanced",
   "prohibitedPatterns": [
-    "Repeating the exact dialogue pattern of 'Sample received' followed immediately by 'Fourteen dollars' without new contextual information or reaction.",
-    "Ending the chapter with the identical closing line 'And inside him, something else was humming too. Something quiet. Something waiting.'",
-    "Having the technician break protocol to offer personal encouragement or emotional support.",
-    "Resolving the mystery of the nanites or revealing their true nature to Adrian."
+    "Ending the chapter with a cliffhanger or unresolved confrontation.",
+    "Introducing a new antagonist or external threat not present in the current arc.",
+    "Having the technician break protocol or offer personal encouragement.",
+    "Resolving the mystery of the medication's source or the nanites' presence.",
+    "Adrian skipping a day of the trial or facing immediate termination."
   ],
   "scenes": [
     {
       "sequence": 1,
-      "purpose": "Adrian navigates the logistical conflict between his 0800 trial medication intake and his 0900 diner shift, experiencing a physical crisis of hunger and energy that forces him to skip a meal to preserve his budget, highlighting the escalating cost of his participation.",
-      "intendedChange": "Adrian arrives at the clinic in a state of physical distress, having skipped breakfast to save money, establishing the immediate physical toll of the medication's increased metabolic demand and his financial desperation.",
-      "focusCharacterIds": [
-        "Adrian"
-      ]
+      "purpose": "Adrian navigates the logistical conflict between his diner shift and the trial schedule, forcing a choice that highlights the escalating physical toll and his financial desperation.",
+      "intendedChange": "Adrian chooses to skip his diner shift to ensure he can attend the trial and maintain his income, accepting the loss of immediate wages to secure the trial's payment, while his body reacts with intense hunger and heightened sensory awareness.",
+      "focusCharacterIds": ["Adrian"]
     },
     {
       "sequence": 2,
-      "purpose": "Adrian undergoes the specimen collection process, where his physical efficiency is markedly higher than previous days, but the clinic's automated monitoring system flags a significant anomaly in his sample data, creating tension as the technician notes the deviation without immediate investigation.",
-      "intendedChange": "The clinic's monitoring system flags a significant anomaly in Adrian's samples, and the technician notes this deviation, creating a critical tension between Adrian's improved performance and the researchers' expectations while maintaining professional detachment.",
-      "focusCharacterIds": [
-        "Adrian",
-        "Clinic Technician"
-      ]
+      "purpose": "Adrian undergoes the specimen collection process, where his physical efficiency is starkly contrasted with the clinic's automated monitoring systems detecting significant anomalies in his samples.",
+      "intendedChange": "The clinic's monitoring systems flag a significant deviation in Adrian's sample parameters, which the technician notes with professional detachment, creating a critical tension between Adrian's improved performance and the researchers' expectations.",
+      "focusCharacterIds": ["Adrian", "Clinic Technician"]
     },
     {
       "sequence": 3,
-      "purpose": "Adrian receives his payment and interacts with the technician, who offers a brief, neutral comment on his improved sample quality, which Adrian interprets as validation, while the technician remains focused on the data, solidifying the dynamic of mutual dependency and emotional void.",
-      "intendedChange": "Adrian receives his payment and a neutral comment on his progress from the technician, interpreting it as validation of his compliance, while the technician remains professionally detached, leaving Adrian with a sense of unseen worth and continued financial stability.",
-      "focusCharacterIds": [
-        "Adrian",
-        "Clinic Technician"
-      ]
+      "purpose": "Adrian receives his payment and reflects on the physical changes in his body, acknowledging the unsettling nature of his increased capabilities and the growing unease about the source of his improved condition.",
+      "intendedChange": "Adrian secures his income and establishes a routine of daily specimen collection and medication intake, while becoming aware of the significant changes in his body and the clinic's monitoring systems, but remaining unaware of the deeper changes the medication is causing.",
+      "focusCharacterIds": ["Adrian"]
     }
   ]
 }
