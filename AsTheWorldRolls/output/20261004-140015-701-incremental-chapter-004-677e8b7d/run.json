@@ -5,8 +5,8 @@
   "voiceLibraryPath": "/voices",
   "chapterId": "chapter-004",
   "startedUtc": "2026-10-04T14:02:04.081749+00:00",
-  "completedUtc": null,
-  "status": "running",
+  "completedUtc": "2026-10-04T14:18:13.538913+00:00",
+  "status": "completed",
   "failedStage": null,
   "settings": {
     "whisperModel": "small.en",
@@ -998,11 +998,100 @@
           "sha256": "26bea23b11c0cc082ed323ad1279a17946ba2228a01aaa5a27dc65d365e85bd4"
         }
       ]
+    },
+    "mastering": {
+      "completedUtc": "2026-10-04T14:17:45.375669+00:00",
+      "inputs": [
+        {
+          "path": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004/assembly.json",
+          "sha256": "54e3fe5836db99f92df186f2b881d980032144f72c1817c7b1d85dfc78dab907"
+        },
+        {
+          "path": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004/chapter-004.wav",
+          "sha256": "2aa4e07199674b36061dac9a874d6ba404649b2541a230d6873e3be1aff82b5c"
+        },
+        {
+          "path": "/app/tools/master_chapter_probe.py",
+          "sha256": "f801c75c71f9d32dc95781957aac74040d2a39c3658311af80458c3dba699566"
+        }
+      ],
+      "settings": {},
+      "outputs": [
+        {
+          "path": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004/mastering.json",
+          "sha256": "d9633eeb46cc5809abe1b212ac94e38d4f76b47ba4fdd52466f1ab07dc777705"
+        },
+        {
+          "path": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004/chapter-004.mastered.wav",
+          "sha256": "44fa572bbd8825a85dbd4b67e75034e6a12306aa893966fae3f123fd799388dc"
+        }
+      ]
+    },
+    "masteredVerification": {
+      "completedUtc": "2026-10-04T14:18:09.804125+00:00",
+      "inputs": [
+        {
+          "path": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004/assembly.json",
+          "sha256": "54e3fe5836db99f92df186f2b881d980032144f72c1817c7b1d85dfc78dab907"
+        },
+        {
+          "path": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004/chapter-004.mastered.wav",
+          "sha256": "44fa572bbd8825a85dbd4b67e75034e6a12306aa893966fae3f123fd799388dc"
+        },
+        {
+          "path": "/app/tools/verify_assembly_probe.py",
+          "sha256": "1d6bb052d4a828c97a38a54442f6788194c9bb81490c141f31335bffbedd2b62"
+        }
+      ],
+      "settings": {
+        "whisperModel": "small.en"
+      },
+      "outputs": [
+        {
+          "path": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004/mastered-verification.json",
+          "sha256": "f52684e74c3de6167fd861552011da669aa2c4d498ab7ae08da276b57e5a206a"
+        }
+      ]
+    },
+    "mp3Export": {
+      "completedUtc": "2026-10-04T14:18:13.240210+00:00",
+      "inputs": [
+        {
+          "path": "/books/book.json",
+          "sha256": "b79e0bd275c68392137af7d2daec20451a1691df777b5340ad07a837e9b65af9"
+        },
+        {
+          "path": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004/chapter-004.mastered.wav",
+          "sha256": "44fa572bbd8825a85dbd4b67e75034e6a12306aa893966fae3f123fd799388dc"
+        },
+        {
+          "path": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004/mastered-verification.json",
+          "sha256": "f52684e74c3de6167fd861552011da669aa2c4d498ab7ae08da276b57e5a206a"
+        },
+        {
+          "path": "/app/tools/export_chapter.py",
+          "sha256": "cb5df5dda683bddacfd262723ecfcb448b0962c8ac947a017fb3d370ed1f5aac"
+        }
+      ],
+      "settings": {
+        "bitrate": "128k"
+      },
+      "outputs": [
+        {
+          "path": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004/chapter-export.json",
+          "sha256": "18b7e5f01a4831bde0871e55d3e27b18f9e39c6e39a3de5dfaf81b7cc7ad3435"
+        },
+        {
+          "path": "/books/output/final/chapter-004.mp3",
+          "sha256": "28e0a21f0386c14a5e615a596aaf02e0ee6e4e7f9660a896d56d2138cefe0046"
+        }
+      ]
     }
   },
   "resumeCount": 0,
   "resumeHistory": [],
   "lastResumedUtc": null,
   "chapterDirectory": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004",
-  "masteredAudioPath": null
+  "masteredAudioPath": "/books/output/20261004-140015-701-incremental-chapter-004-677e8b7d/chapter-004/chapter-004.mastered.wav",
+  "finalAudioPath": "/books/output/final/chapter-004.mp3"
 }
