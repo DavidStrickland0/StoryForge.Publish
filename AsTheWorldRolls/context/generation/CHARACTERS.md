@@ -1,4 +1,4 @@
-﻿# Characters
+# StoryForge Endless — CHARACTERS
 
 ## Current State
 
@@ -14,6 +14,48 @@ Current state:
 
 ### Elias Thorne
 
+- Elias Thorne sustained a grazing claw injury to his side days ago, which causes pain.
+
+
+- Elias Thorne is traveling with Torin, Maren, Elara, and Kaelen.
+
+
+- Elias Thorne possesses a dagger and a water skin that is half full.
+
+
+- Elias Thorne is currently at the watchfort.
+
+
+- Elias Thorne knows the mechanics of resonance and frequency required to weaken the seal at the Gate of Silence.
+
+
+- Elias Thorne has a bandage wrapped tight around his side, indicating a wound.
+
+
+- Elias Thorne is assigned to monitor the integrity of the barrier seal from the outside during the planned operation.
+
+
+- Elias Thorne possesses a small notebook with charcoal sketches of binding runes and water flow mechanics.
+
+
+- Elias Thorne has a bandaged injury on his side that causes pain.
+
+
+- Elias Thorne is a man of practicalities who understands leverage, pressure, and the physics of a sword strike.
+
+
+- Elias Thorne has a wound in his side that causes pain when he moves or twists.
+
+
+- Elias Thorne has an old injury in his shoulder that causes pain when he moves.
+
+
+- Elias Thorne possesses a sword that is dull from disuse.
+
+
+- Elias Thorne exists and is an established character.
+
+
 Current identifier: Elias Thorne
 
 Current state:
@@ -26,42 +68,43 @@ Current state:
 
 - Elias Thorne is traveling with Kaelen.
 
-
+
 - Elias Thorne possesses a bronze plate map etched with lines showing the temple, six smaller shrines, and channels beneath the city.
 
-- Elias Thorne has an old injury in his shoulder that causes pain when he moves.
-
-- Elias Thorne has a wound in his side that causes pain when he moves or twists.
-
-- Elias Thorne is a man of practicalities who understands leverage, pressure, and the physics of a sword strike.
-
-- Elias Thorne exists and is an established character.
-
-- Elias Thorne has a bandaged injury on his side that causes pain.
-
-- Elias Thorne possesses a small notebook with charcoal sketches of binding runes and water flow mechanics.
-
-- Elias Thorne is assigned to monitor the integrity of the barrier seal from the outside during the planned operation.
-
-- Elias Thorne has a bandage wrapped tight around his side, indicating a wound.
-
-- Elias Thorne knows the mechanics of resonance and frequency required to weaken the seal at the Gate of Silence.
-
-- Elias Thorne is currently at the watchfort.
-
-- Elias Thorne possesses a dagger and a water skin that is half full.
-
-- Elias Thorne is traveling with Torin, Maren, Elara, and Kaelen.
-
-- Elias Thorne sustained a grazing claw injury to his side days ago, which causes pain.
-
-- Elias Thorne has identified the need to change the barrier's frequency to push rather than pull.
-
-- Elias Thorne possesses a bronze plate map and keeps it within reach.
-
-- Elias Thorne has determined that the group must follow the flow of the Blight west.
-
 ### Kaelen
+
+- Kaelen is acting as a valve to control the flow of the Blight during the resonance mechanism.
+
+
+- Kaelen possesses a brass gauntlet on his left wrist.
+
+
+- Kaelen's gauntlet is currently stable, cold, and heavy, with dormant runes.
+
+
+- Kaelen is currently able to regulate and contain the energy of his gauntlet, describing it as 'listening' rather than 'pulling'.
+
+
+- Kaelen's brass gauntlet has been cleaned of Blight residue.
+
+
+- Kaelen has agreed to allow Torin to strike him to break his focus if he begins to lose himself to the Blight.
+
+
+- Kaelen is currently at the watchfort.
+
+
+- Kaelen is assigned to act as bait to draw the Blight into the barrier, with Torin assigned to restrain him if necessary.
+
+
+- Kaelen's magic resonates with the Blight, making him a target for its consumption or a conduit for its spread.
+
+
+- Kaelen's brass gauntlet is currently inert and lifeless.
+
+
+- Kaelen's magic is fueled by the same energy that fuels the Blight.
+
 
 Current identifier: Kaelen
 
@@ -79,41 +122,31 @@ Current state:
 
 - Kaelen sustained a grazing claw injury to his side that caused bleeding.
 
+- Kaelen previously entered the temple hall; by Chapter 14 he has reunited with the companions and is at the Gate of Silence shrine.
 
-- Kaelen's magic is fueled by the same energy that fuels the Blight.
-
-
-- Kaelen's brass gauntlet is currently inert and lifeless.
-
-- Kaelen's magic resonates with the Blight, making him a target for its consumption or a conduit for its spread.
-
-- Kaelen is assigned to act as bait to draw the Blight into the barrier, with Torin assigned to restrain him if necessary.
-
-- Kaelen is currently at the watchfort.
-
-- Kaelen has agreed to allow Torin to strike him to break his focus if he begins to lose himself to the Blight.
-
-- Kaelen's brass gauntlet has been cleaned of Blight residue.
-
-- Kaelen is currently able to regulate and contain the energy of his gauntlet, describing it as 'listening' rather than 'pulling'.
-
-- Kaelen's gauntlet is currently stable, cold, and heavy, with dormant runes.
-
-- Kaelen possesses a brass gauntlet on his left wrist.
-
-- Kaelen is acting as a valve to control the flow of the Blight during the resonance mechanism.
-
-- Kaelen is currently unconscious and sleeping.
-
-- Kaelen's skin is translucent with visible dark veins.
-
-- Kaelen has jagged scars on his forearms where fissures previously leaked mist.
-
-- Kaelen's skin is pale and nearly translucent with visible dark veins mapping his arms.
-
-- Kaelen's brass gauntlet is warm and stable, no longer cold and inert.
 
 ### Maren
+
+- Maren possesses a heavy hammer tied to her belt.
+
+
+- Maren knows the location of stone-lined drainage ditches in the city from prior observation.
+
+
+- Maren is responsible for applying force to the chisel during the resonance operation.
+
+
+- Maren possesses a small, heavy hammer wrapped in cloth.
+
+
+- Maren is currently at the watchfort.
+
+
+- Maren is a soldier and a pragmatist.
+
+
+- Maren possesses a mace.
+
 
 Current identifier: Maren
 
@@ -121,78 +154,68 @@ Current state:
 
 - Maren exists and is an established character.
 
-- Maren possesses a mace.
-
-
-- Maren is a soldier and a pragmatist.
-
-- Maren is currently at the watchfort.
-
-- Maren possesses a small, heavy hammer wrapped in cloth.
-
-- Maren is responsible for applying force to the chisel during the resonance operation.
-
-- Maren knows the location of stone-lined drainage ditches in the city from prior observation.
-
-- Maren possesses a heavy hammer tied to her belt.
-
-- Maren possesses a heavy wool cloak.
-
-- Maren possesses a small clay pot containing an amber-colored salve that smells of beeswax and dried lavender.
 
 ### Torin
 
-Current identifier: Torin
+- Torin is a soldier.
 
-Current state:
-
-- Torin exists and is an established character.
-
-- Torin is a broad man with a scarred face from border skirmishes.
-
-- Torin is assigned to walk beside Kaelen and strike him if he becomes overwhelmed by the Blight's resonance.
-
-
-- Torin possesses a sword.
-
-- Torin has large, scarred hands.
-
-- Torin is currently at the watchfort.
 
 - Torin is tall and broad-shouldered.
 
-- Torin is a soldier.
 
-- Torin is a large man.
+- Torin is currently at the watchfort.
+
+
+- Torin has large, scarred hands.
+
+
+- Torin possesses a sword.
+
+
+- Torin is assigned to walk beside Kaelen and strike him if he becomes overwhelmed by the Blight's resonance.
+
+
+- Torin is a broad man with a scarred face from border skirmishes.
+
+
+- Torin exists and is an established character.
+
+
 
 ### Elara
 
-Current identifier: Elara
+- Elara possesses a chisel and a quartz stone.
 
-Current state:
-
-- Elara exists and is an established character.
-
-- Elara is smaller than the other group members with sharp, observant eyes.
-
-- Elara is assigned to work with Maren to sever the channel at the shrine.
-
-- Elara is a scavenger.
-
-- Elara possesses a vial of solvent for mineral deposits found in the temple stores.
-
-- Elara is currently at the watchfort.
-
-- Elara is small and unassuming.
-
-- Elara possesses a small, leather-bound book, a set of chisels, and a piece of clear quartz.
-
-- Elara is responsible for positioning the chisel and determining the resonance frequency.
-
-- Elara has the capability to detect and utilize magical resonance frequencies.
 
 - Elara is a scholar and student of the old ways.
 
-- Elara possesses a chisel and a quartz stone.
 
-- Elara possesses a small leather-bound journal.
+- Elara has the capability to detect and utilize magical resonance frequencies.
+
+
+- Elara is responsible for positioning the chisel and determining the resonance frequency.
+
+
+- Elara possesses a small, leather-bound book, a set of chisels, and a piece of clear quartz.
+
+
+- Elara is small and unassuming.
+
+
+- Elara is currently at the watchfort.
+
+
+- Elara possesses a vial of solvent for mineral deposits found in the temple stores.
+
+
+- Elara is a scavenger.
+
+
+- Elara is assigned to work with Maren to sever the channel at the shrine.
+
+
+- Elara is smaller than the other group members with sharp, observant eyes.
+
+
+- Elara exists and is an established character.
+

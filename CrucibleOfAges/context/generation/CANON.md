@@ -1,7 +1,8 @@
-﻿# Canon
+# Canon
 
 ## Established Canon
-
+
+
 
 - Caelen is an eighteen-year-old United States Marine.
 
@@ -21,7 +22,7 @@
 - The System interface is private and cannot be seen or verified by others.
 
 
-- Caelen is currently in the void, suspended between lives.
+- Caelen passed through the void before his resurrection in Chapter 3; he is now alive in the new world.
 
 
 - Caelen's physical body was destroyed by gunfire, with wounds in his chest and thigh.

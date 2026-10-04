@@ -1,4 +1,4 @@
-﻿# Narrative
+# Narrative
 
 ## Story Premise
 
@@ -193,10 +193,11 @@ Each later book should pair a contained mission or connected field campaign with
 
 ## Current Narrative State
 
-The story has not begun.
-
-
-- Ethan Vale has sent a message to Ben asking to talk.
+- At the end of Chapter 4 Ethan has reached the crowd at Aurora's public appearance, after passing Ray and the security entrance. He came without his Lens.
+- Aurora is visible suspended above the stage. The fall, injuries, treatment and ambulance departure have not yet occurred.
+- Ethan remains unaware that he has a nullification field and does not know he caused the bar incident or any future loss of powers.
+- His doubts about the bar anomaly do not establish knowledge of his own ability. Preserve this distinction through the fall and rescue.
+- His outreach to Ben remains unresolved.
 
 ## Unresolved Information
 

@@ -1,18 +1,8 @@
-﻿# World
+# World
 
 ## Current State
 
+- The agreed compensation is a base stipend of four hundred dollars per month plus fifty dollars per completed testing session. Chapter 1 paid four hundred dollars as four one-hundred-dollar bills, not forty bills.
+- Hospital administration offered increased compensation for the unusual circumstances but did not specify a new amount. Do not invent a replacement rate.
+- The immediate setting is Adrian's hospital recovery room after the Chapter 3 discussion.
 
-- The private research hospital operates an intake process for the male-fertility trial, Protocol 7-B.
-
-
-- The trial facility uses sterile, sealed plastic cups for specimen collection.
-
-
-- The trial facility has a designated bin for returning sealed specimen cups.
-
-
-- The trial facility's sample quality assessment includes metrics for motility and cell count.
-
-
-- The trial facility's compensation structure provides fourteen dollars per day for compliant participation.

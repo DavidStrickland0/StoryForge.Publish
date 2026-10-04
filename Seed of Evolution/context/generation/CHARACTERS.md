@@ -1,61 +1,27 @@
-﻿# Characters
+# Characters
 
 ## Current State
 
-
 ### Adrian Vale
 
-Current identifier: Adrian Vale
+- Adrian Vale is a financially pressured freshman who enrolled in Dr. Aris Thorne's university-affiliated male-fertility trial in Chapter 1.
+- Chapter 3 contains the catastrophic accident and emergency nanite treatment. Adrian survived and is recovering in a hospital bed.
+- Adrian already knows the experimental nanites interacted with the fertility drug, reproduced and evolved inside him, and are changing his body. This revelation must not be delayed to a later arc.
+- Adrian agreed to continued trial participation and additional monitoring, including physical examination, blood work and a genetic panel. These tests are pending.
+- The nanites accelerate his healing and metabolism; he needs additional food and rest and is not fully recovered.
 
-Current state:
+### Dr. Aris Thorne
 
-- Adrian Vale exists and is an established character.
+- Trial physician who treated Adrian and advised food, rest and caution after the accident.
 
-- Adrian Vale is a nineteen-year-old male.
+### Dr. Sarah Chen
 
-- Adrian Vale is enrolled in the male-fertility trial, Protocol 7-B.
+- Nanite lead researcher who explained the reproduction and requested further testing.
 
-- Adrian Vale is financially destitute, with rent due in three days and an electricity bill of sixty dollars outstanding.
+### David Miller
 
-- Adrian Vale works a part-time job at a diner.
+- Hospital administrator who offered unspecified increased compensation for continued participation.
 
-- Adrian Vale lives in a location where he must take a bus to get home from the clinic.
+### Nurse Elena
 
-
-- Adrian Vale is experiencing a persistent, low-level heat or burn sensation in his chest attributed to the medication.
-
-- Adrian Vale is experiencing reduced fatigue and increased physical strength and muscle tension.
-
-### Dr. Thorne
-
-Current identifier: Dr. Thorne
-
-Current state:
-
-- Dr. Thorne exists and is an established character.
-
-- Dr. Thorne is the person Adrian Vale must speak with if flagged for non-compliance.
-
-
-### Intake Coordinator
-
-Current identifier: Intake Coordinator
-
-Current state:
-
-- An Intake Coordinator exists and is an established character.
-
-- The Intake Coordinator is a woman who manages the intake process for the male-fertility trial.
-
-
-### Man in white coat
-
-Current identifier: Man in white coat
-
-Current state:
-
-- A man in a white coat exists and is an established character.
-
-- The man in the white coat administers the daily requirements and payments for the male-fertility trial.
-
-- The man in the white coat provides fourteen dollars in cash compensation per day.
+- Nurse encountered during the first testing session in Chapter 2. Adrian has already experienced this session.

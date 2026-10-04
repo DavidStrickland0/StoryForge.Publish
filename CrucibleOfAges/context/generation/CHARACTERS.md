@@ -1,4 +1,4 @@
-﻿# Characters
+# Characters
 
 ## Current State
 
@@ -15,8 +15,9 @@ Current state:
 
 - Caelen died shielding a noncombatant mother from Sergeant Miller.
 
-
-- Caelen is dead and currently in the void.
+
+
+- Caelen died on Earth, passed through the void, and is now alive and captive in the new world.
 
 - Caelen's physical body is destroyed.
 
@@ -47,7 +48,8 @@ Current state:
 
 - Sergeant Miller's gunfire killed Caelen.
 
-
+
+
 - Sergeant Miller is perceived by Caelen as having a personal hatred toward him.
 
 ### Private Davis
@@ -62,7 +64,8 @@ Current state:
 
 - Private Davis is a member of Caelen's squad.
 
-
+
+
 - Caelen took credit for Private Davis's tactical call.
 
 ### The Mother
