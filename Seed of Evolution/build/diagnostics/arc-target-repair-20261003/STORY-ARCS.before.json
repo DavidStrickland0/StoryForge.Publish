@@ -131,27 +131,19 @@
       "Id": "epic-001-081-long-1-medium-1-short-1",
       "Horizon": "Short",
       "PrimaryTrope": "The Desperate Measure",
-      "Status": "Completed",
+      "Status": "Active",
       "ParentArcId": "epic-001-081-long-1-medium-1",
       "StartChapter": 1,
       "TargetChapter": 3,
       "Objective": "Adrian must secure the financial means to survive his freshman year by enrolling in the experimental-medicine program and beginning the male-fertility trial.",
       "ResolutionCriteria": "Adrian has signed the consent forms, received his first payment, and completed his first daily testing session, establishing his participation in the trial.",
-      "CurrentPhase": "Adrian has survived the catastrophic accident through the medical nanite intervention. The nanites have interacted with the fertility drug, begun reproducing and evolving within him, and changed his physical condition. He accepts continued participation and monitoring despite his fear, completing the desperate-measure arc and setting up the investigation of his altered biology.",
-      "NextMilestone": "",
+      "CurrentPhase": "Adrian has signed the consent forms and received his first payment, but he has not yet completed his first daily testing session. He is now legally bound to the trial and must navigate the initial days of the routine, which will be the context for the catastrophic accident.",
+      "NextMilestone": "Adrian completes his first daily testing session, establishing the routine and the physical/psychological toll of the trial, while navigating the early stages of the program.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [
         {
           "ChapterNumber": 1,
           "Development": "Adrian signs the consent forms for the experimental-medicine program and receives his first payment, establishing his legal commitment to the trial and securing the immediate financial means required for his survival, though he has not yet completed his first daily testing session."
-        },
-        {
-          "ChapterNumber": 2,
-          "Development": "Adrian completes his first daily testing session, including the specimen collection and baseline physical examination, establishing the routine and the physical/psychological toll of the trial while navigating the early stages of the program with Nurse Elena."
-        },
-        {
-          "ChapterNumber": 3,
-          "Development": "Adrian survives a catastrophic accident via experimental nanite intervention, learns the nanites have evolved within him due to interaction with the fertility drug, and explicitly commits to continued trial participation and monitoring to secure his financial survival."
         }
       ],
       "ChapterTargets": [
@@ -216,11 +208,9 @@
             "The introduction of other characters (Lena, researchers, etc.) who will interact with Adrian in later chapters."
           ],
           "ClosingState": "Adrian has signed the consent forms and received his first payment, but he has not yet completed his first daily testing session. He is now legally bound to the trial and must navigate the initial days of the routine, which will be the context for the catastrophic accident.",
-          "IsCompleted": true,
-          "CompletedInChapter": 1,
-          "CompletionEvidence": [
-            "Adrian signed his name on the signature line. His handwriting was shakier than usual. He signed again on the next page, and the next, and the next, until he\u0027d initialed every clause and signed every required line."
-          ]
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
         },
         {
           "Sequence": 2,
@@ -283,11 +273,9 @@
             "The introduction of other characters (Lena, researchers, etc.) who will interact with Adrian in later chapters."
           ],
           "ClosingState": "Adrian has completed his first daily testing session and is now fully integrated into the routine. He is physically and emotionally drained, but he has secured the financial means to survive his freshman year. The next chapter will see the catastrophic accident that will trigger the nanite intervention.",
-          "IsCompleted": true,
-          "CompletedInChapter": 2,
-          "CompletionEvidence": [
-            "He opened his eyes, his body trembling with relief and exhaustion. He sealed the cup carefully, his hands still shaking, and stood. The sample was smaller than he\u0027d hoped, barely enough to fill the container, but it was done. He\u0027d completed the first requirement."
-          ]
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
         },
         {
           "Sequence": 3,
@@ -307,9 +295,10 @@
               "Subtext": "Adrian\u2019s subtext is the fear that he is being used as a disposable resource; Thorne\u2019s subtext is the institutional view of participants as data points rather than people.",
               "PreservedBoundary": "Adrian retains the right to withdraw, but the financial penalty and loss of income make this a theoretical rather than practical option. Thorne does not explicitly threaten Adrian, but the structure of the contract does.",
               "ReservedLaterWork": [
-                "A full explanation and investigation of the nanites evolving capabilities.",
-                "Transmission to Lena and the larger consequences of that transmission.",
-                "Broader strategic, institutional, and personal consequences beyond the initial rescue and continued participation."
+                "The actual daily testing sessions and the physical/psychological toll of the routine.",
+                "The discovery of the nanites or any anomalous biological changes.",
+                "The development of any personal rapport or conflict with Thorne beyond the initial transactional interaction.",
+                "The introduction of other characters (Lena, researchers, etc.) who will interact with Adrian in later chapters."
               ]
             }
           ],
@@ -322,13 +311,13 @@
             "The growing sense of dehumanization as Adrian begins to see himself as a data point rather than a person.",
             "The early signs of the trial\u2019s impact on his body, which are subtle but noticeable, creating a sense of foreboding."
           ],
-          "RequiredChoice": "After surviving the emergency intervention, Adrian must choose whether to accept continued trial participation and monitoring despite his fear of the nanites and his dependence on the institution.",
+          "RequiredChoice": "Adrian must choose to accept the nanites\u2019 intervention despite his fear and the sense of dehumanization, prioritizing his immediate survival over his dignity and autonomy.",
           "Consequences": [
-            "Adrian survives injuries that would otherwise have killed him.",
-            "The nanites now reproduce and evolve within his body, making him a medically unusual participant.",
-            "His decision to continue creates a need for further monitoring and a continuing dependence on the institution."
+            "Adrian has survived the catastrophic accident and the subsequent nanite intervention, fulfilling the third part of the resolution criteria.",
+            "He has begun to internalize the routine, which will be the context for the catastrophic accident.",
+            "The trial\u2019s impact on his body is beginning to manifest, setting the stage for the later, miraculous recovery."
           ],
-          "DiscoveryTarget": "Adrian learns that the medical nanites saved him and that their interaction with the fertility drug has caused them to reproduce and evolve within his body.",
+          "DiscoveryTarget": "Adrian discovers that the trial\u2019s daily routine is more physically and emotionally draining than he initially understood, and that the institution\u2019s primary interest is in data collection rather than patient care.",
           "SetupElements": [
             "The specific terms of the daily routine, which will later be referenced when the nanites are discovered.",
             "The clinical environment of the hospital, which will be the site of the catastrophic accident and subsequent nanite intervention.",
@@ -343,16 +332,15 @@
             "Adrian has completed his first daily testing session, fulfilling the second part of the resolution criteria."
           ],
           "ReservedLaterWork": [
-            "A full explanation and investigation of the nanites evolving capabilities.",
-            "Transmission to Lena and the larger consequences of that transmission.",
-            "Broader strategic, institutional, and personal consequences beyond the initial rescue and continued participation."
+            "The catastrophic accident and the subsequent nanite intervention.",
+            "The discovery of the nanites or any anomalous biological changes.",
+            "The development of any personal rapport or conflict with Elena beyond the initial transactional interaction.",
+            "The introduction of other characters (Lena, researchers, etc.) who will interact with Adrian in later chapters."
           ],
-          "ClosingState": "Adrian has survived the catastrophic accident through the medical nanite intervention. The nanites have interacted with the fertility drug, begun reproducing and evolving within him, and changed his physical condition. He accepts continued participation and monitoring despite his fear, completing the desperate-measure arc and setting up the investigation of his altered biology.",
-          "IsCompleted": true,
-          "CompletedInChapter": 3,
-          "CompletionEvidence": [
-            "\u0022Okay,\u0022 he said, his voice still hoarse but stronger than before. \u0022I\u0027ll continue. I\u0027ll do the tests. Whatever you need.\u0022"
-          ]
+          "ClosingState": "Adrian has completed his first daily testing session and is now fully integrated into the routine. He is physically and emotionally drained, but he has secured the financial means to survive his freshman year. The next chapter will see the catastrophic accident that will trigger the nanite intervention.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
         }
       ]
     },
@@ -360,7 +348,7 @@
       "Id": "epic-001-081-long-1-medium-1-short-2",
       "Horizon": "Short",
       "PrimaryTrope": "The Daily Grind",
-      "Status": "Active",
+      "Status": "Planned",
       "ParentArcId": "epic-001-081-long-1-medium-1",
       "StartChapter": 4,
       "TargetChapter": 6,
