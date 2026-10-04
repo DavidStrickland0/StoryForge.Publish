@@ -5,7 +5,7 @@
   "voiceLibraryPath": "/voices",
   "chapterId": "chapter-001",
   "startedUtc": "2026-10-03T18:13:10.643331+00:00",
-  "completedUtc": "2026-10-04T00:29:39.774924+00:00",
+  "completedUtc": "2026-10-04T04:47:26.814464+00:00",
   "status": "failed",
   "failedStage": "segment verification",
   "settings": {
@@ -54,7 +54,7 @@
     }
   ],
   "stageCheckpoints": {},
-  "resumeCount": 5,
+  "resumeCount": 8,
   "resumeHistory": [
     {
       "resumedUtc": "2026-10-03T18:56:02.836375+00:00",
@@ -372,9 +372,144 @@
           ]
         }
       ]
+    },
+    {
+      "resumedUtc": "2026-10-04T04:14:27.392481+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/verification-attempt-3.json",
+          "passed": 93,
+          "review": 4,
+          "failed": 3,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 4,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 5,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 9,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 10,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 11,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 21,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 23,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-04T04:45:52.646440+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/verification-attempt-3.json",
+          "passed": 93,
+          "review": 4,
+          "failed": 3,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 4,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 5,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 9,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 10,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 11,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 21,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 23,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-04T04:46:45.758573+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/verification-attempt-3.json",
+          "passed": 93,
+          "review": 4,
+          "failed": 3,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 4,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 5,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 9,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 10,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 11,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 21,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 23,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
     }
   ],
-  "lastResumedUtc": "2026-10-04T00:28:59.376684+00:00",
+  "lastResumedUtc": "2026-10-04T04:46:45.758573+00:00",
   "chapterDirectory": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001",
   "masteredAudioPath": null
 }
