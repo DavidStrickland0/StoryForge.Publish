@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "chapter-001",
+  "sourceSha256": "a87f085881d5327d0528b9c25fedfc310c2ce4e5cf64cbe5eb21da1ae9eaaf48",
+  "preparationVersion": "3",
+  "settings": {
+    "source": "casting"
+  },
+  "segments": [
+    {
+      "index": 0,
+      "kind": "narration",
+      "speakerId": "narrator",
+      "voiceId": "07-you-can-farm-joel-salatin",
+      "synthesis": {
+        "profile": "neutral",
+        "exaggeration": 0.4,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      },
+      "sourceText": "Chapter 1: At the Gate\n\nThe stranger paused at the edge of the gate as the mist clung to the cobblestones, concealing a village of black spires that pierced the twilight sky with silent, watchful eyes.",
+      "spokenText": "Chapter 1: At the Gate\n\nThe stranger paused at the edge of the gate as the mist clung to the cobblestones, concealing a village of black spires that pierced the twilight sky with silent, watchful eyes.",
+      "fragmentRewrites": [],
+      "pronunciationFingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "delivery": "",
+      "seed": 10000,
+      "attempt": 0,
+      "sampleRate": 24000,
+      "durationSeconds": 13.82,
+      "audioPath": "/books/output/20261003-215129-636-production-9293ff63/chapter-001/segment-0000.wav",
+      "sha256": "44ae0eed4d5d80d3f5071857afbaf05a23427a6d247d31b8b1cbcc5eea976fe7",
+      "chunks": [
+        {
+          "index": 0,
+          "sourceText": "Chapter one: At the Gate\n\nThe stranger paused at the edge of the gate as the mist clung to the cobblestones, concealing a village of black spires that pierced the twilight sky with silent, watchful eyes.",
+          "synthesisText": "Chapter one: At the Gate\n\nThe stranger paused at the edge of the gate as the mist clung to the cobblestones, concealing a village of black spires that pierced the twilight sky with silent, watchful eyes.",
+          "pauseAfterSeconds": 0.12,
+          "seed": 10000,
+          "attempt": 0,
+          "sampleRate": 24000,
+          "durationSeconds": 13.82,
+          "audioPath": "/books/output/20261003-215129-636-production-9293ff63/chapter-001/segment-0000-chunk-0000.wav",
+          "sha256": "44ae0eed4d5d80d3f5071857afbaf05a23427a6d247d31b8b1cbcc5eea976fe7",
+          "audioProcessing": {
+            "version": 1,
+            "before": {
+              "leadingSilenceSeconds": 0.21,
+              "trailingSilenceSeconds": 0.75,
+              "maximumSilenceSeconds": 1.25
+            },
+            "after": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 1.25
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
