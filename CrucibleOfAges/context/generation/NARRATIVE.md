@@ -1,4 +1,4 @@
-# Narrative
+﻿# Narrative
 
 ## Story Premise
 
@@ -148,5 +148,32 @@ Story generation will preserve the following rules:
 ## Current Narrative State
 
 The story has not begun.
+
+
+- The narrative has moved from the moment of Caelen's death to his consciousness in the void.
+
+
+- Caelen has perceived the System interface for the first time.
+
+
+- Caelen has begun the process of emotional processing and memory fading in the void.
+
+
+- The narrative has moved from Caelen's time in the void to his resurrection and immediate enslavement.
+
+
+- Caelen has been captured, assessed, collared, and placed in a cart for transport.
+
+
+- Caelen has acknowledged his status as a slave and resolved to learn the local language and rules to find a way out.
 
 ## Unresolved Information
+
+
+- The specific meaning and function of the two columns of numbers in the System interface are not explained to Caelen.
+
+
+- The duration of Caelen's stay in the void before his next return is not specified.
+
+
+- The specific meaning of the numbers '1' and '1' in the System interface remains unexplained to Caelen.

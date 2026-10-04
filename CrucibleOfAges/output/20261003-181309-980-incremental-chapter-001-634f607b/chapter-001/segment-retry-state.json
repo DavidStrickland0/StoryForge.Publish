@@ -1,0 +1,611 @@
+{
+  "schemaVersion": 1,
+  "settings": {
+    "maxAttemptsPerWording": 3,
+    "maxFragmentRewrites": 3,
+    "totalAttempts": 12
+  },
+  "attempt": 3,
+  "pendingAction": "verify",
+  "unresolvedSegmentIndexes": [
+    4,
+    5,
+    9,
+    11,
+    23
+  ],
+  "rewriteCounts": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25": 0,
+    "26": 0,
+    "27": 0,
+    "28": 0
+  },
+  "bestCandidates": {
+    "1": {
+      "attempt": 2,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/short-utterance-candidates/segment-0001-attempt-02.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Contact left! Two moving!\"",
+            "transcription": "Contact left, 2 moving.",
+            "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0001-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.14
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 1,
+            "chunkIndex": 0,
+            "speakerId": "sergeant-miller",
+            "voiceId": "voice-278a3fed14760601"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 1,
+        "speakerId": "sergeant-miller",
+        "voiceId": "voice-278a3fed14760601",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Contact left! Two moving!\"",
+        "expectedText": "\"Contact left! Two moving!\"",
+        "spokenText": "\"Contact left! Two moving!\"",
+        "wasRewritten": false,
+        "transcription": "Contact left, 2 moving.",
+        "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0001.wav"
+      }
+    },
+    "3": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/short-utterance-candidates/segment-0003-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Down.",
+            "transcription": "down.",
+            "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0003-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.01,
+              "maximumSilenceSeconds": 0.14
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 3,
+            "chunkIndex": 0,
+            "speakerId": "caelen",
+            "voiceId": "voice-05bfeebc7a75d6c3"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 3,
+        "speakerId": "caelen",
+        "voiceId": "voice-05bfeebc7a75d6c3",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Down,\"",
+        "expectedText": "\"Down,\"",
+        "spokenText": "\"Down,\"",
+        "wasRewritten": false,
+        "transcription": "down.",
+        "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0003.wav"
+      }
+    },
+    "4": {
+      "attempt": 1,
+      "score": [
+        0.2,
+        1,
+        0
+      ],
+      "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/short-utterance-candidates/segment-0004-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 5,
+            "transcribedWordCount": 5,
+            "editDistance": 1,
+            "wordErrorRate": 0.2,
+            "status": "review",
+            "verificationMode": "transcript",
+            "expectedText": "Caelen reported, his voice flat.",
+            "transcription": "Kaelin reported his voice flat.",
+            "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0004-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.05
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 4,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 5,
+        "transcribedWordCount": 5,
+        "editDistance": 1,
+        "wordErrorRate": 0.2,
+        "segmentIndex": 4,
+        "speakerId": "narrator",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "review",
+        "verificationMode": "transcript",
+        "sourceText": " Caelen reported, his voice flat.\n\n",
+        "expectedText": " Caelen reported, his voice flat.\n\n",
+        "spokenText": " Caelen reported, his voice flat.\n\n",
+        "wasRewritten": false,
+        "transcription": "Kaelin reported his voice flat.",
+        "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0004.wav"
+      }
+    },
+    "5": {
+      "attempt": 1,
+      "score": [
+        0.3333333333333333,
+        1,
+        0
+      ],
+      "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/short-utterance-candidates/segment-0005-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 1,
+            "wordErrorRate": 0.333333,
+            "status": "fail",
+            "verificationMode": "transcript",
+            "expectedText": "\"Good work, Caelen,\"",
+            "transcription": "Good work, Kalen.",
+            "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0005-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.06
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 5,
+            "chunkIndex": 0,
+            "speakerId": "sergeant-miller",
+            "voiceId": "voice-278a3fed14760601"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 1,
+        "wordErrorRate": 0.3333333333333333,
+        "segmentIndex": 5,
+        "speakerId": "sergeant-miller",
+        "voiceId": "voice-278a3fed14760601",
+        "status": "fail",
+        "verificationMode": "transcript",
+        "sourceText": "\"Good work, Caelen,\"",
+        "expectedText": "\"Good work, Caelen,\"",
+        "spokenText": "\"Good work, Caelen,\"",
+        "wasRewritten": false,
+        "transcription": "Good work, Kalen.",
+        "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0005.wav"
+      }
+    },
+    "9": {
+      "attempt": 1,
+      "score": [
+        1.0,
+        1,
+        1
+      ],
+      "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/short-utterance-candidates/segment-0009-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 2,
+            "editDistance": 1,
+            "wordErrorRate": 1.0,
+            "status": "fail",
+            "verificationMode": "repeated-utterance",
+            "expectedText": "Wait.",
+            "transcription": "Wait, wait.",
+            "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0009-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 9,
+            "chunkIndex": 0,
+            "speakerId": "caelen",
+            "voiceId": "voice-05bfeebc7a75d6c3"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 2,
+        "editDistance": 1,
+        "wordErrorRate": 1.0,
+        "segmentIndex": 9,
+        "speakerId": "caelen",
+        "voiceId": "voice-05bfeebc7a75d6c3",
+        "status": "fail",
+        "verificationMode": "transcript",
+        "sourceText": "\"Wait,\"",
+        "expectedText": "\"Wait,\"",
+        "spokenText": "\"Wait,\"",
+        "wasRewritten": false,
+        "transcription": "Wait, wait.",
+        "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0009.wav"
+      }
+    },
+    "11": {
+      "attempt": 1,
+      "score": [
+        0.2,
+        1,
+        0
+      ],
+      "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/short-utterance-candidates/segment-0011-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 5,
+            "transcribedWordCount": 5,
+            "editDistance": 1,
+            "wordErrorRate": 0.2,
+            "status": "review",
+            "verificationMode": "transcript",
+            "expectedText": "\"Caelen, what are you doing?\"",
+            "transcription": "Kylen, what are you doing?",
+            "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0011-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.3
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 11,
+            "chunkIndex": 0,
+            "speakerId": "sergeant-miller",
+            "voiceId": "voice-278a3fed14760601"
+          }
+        ],
+        "expectedWordCount": 5,
+        "transcribedWordCount": 5,
+        "editDistance": 1,
+        "wordErrorRate": 0.2,
+        "segmentIndex": 11,
+        "speakerId": "sergeant-miller",
+        "voiceId": "voice-278a3fed14760601",
+        "status": "review",
+        "verificationMode": "transcript",
+        "sourceText": "\"Caelen, what are you doing?\"",
+        "expectedText": "\"Caelen, what are you doing?\"",
+        "spokenText": "\"Caelen, what are you doing?\"",
+        "wasRewritten": false,
+        "transcription": "Kylen, what are you doing?",
+        "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0011.wav"
+      }
+    },
+    "12": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/short-utterance-candidates/segment-0012-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 5,
+            "transcribedWordCount": 5,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Miller's voice was a growl.",
+            "transcription": "Miller's voice was a growl.",
+            "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0012-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 12,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voice-3889362671fcb2f7"
+          }
+        ],
+        "expectedWordCount": 5,
+        "transcribedWordCount": 5,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 12,
+        "speakerId": "narrator",
+        "voiceId": "voice-3889362671fcb2f7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Miller’s voice was a growl. ",
+        "expectedText": " Miller’s voice was a growl. ",
+        "spokenText": " Miller’s voice was a growl. ",
+        "wasRewritten": false,
+        "transcription": "Miller's voice was a growl.",
+        "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0012.wav"
+      }
+    },
+    "13": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/short-utterance-candidates/segment-0013-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Neutralize the threat.\"",
+            "transcription": "neutralize the threat.",
+            "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0013-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.05
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 13,
+            "chunkIndex": 0,
+            "speakerId": "sergeant-miller",
+            "voiceId": "voice-278a3fed14760601"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 13,
+        "speakerId": "sergeant-miller",
+        "voiceId": "voice-278a3fed14760601",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Neutralize the threat.\"\n\n",
+        "expectedText": "\"Neutralize the threat.\"\n\n",
+        "spokenText": "\"Neutralize the threat.\"\n\n",
+        "wasRewritten": false,
+        "transcription": "neutralize the threat.",
+        "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0013.wav"
+      }
+    },
+    "17": {
+      "attempt": 2,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/short-utterance-candidates/segment-0017-attempt-02.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Miller.",
+            "transcription": "Miller.",
+            "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0017-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 17,
+            "chunkIndex": 0,
+            "speakerId": "caelen",
+            "voiceId": "voice-05bfeebc7a75d6c3"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 17,
+        "speakerId": "caelen",
+        "voiceId": "voice-05bfeebc7a75d6c3",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Miller,\"",
+        "expectedText": "\"Miller,\"",
+        "spokenText": "\"Miller,\"",
+        "wasRewritten": false,
+        "transcription": "Miller.",
+        "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0017.wav"
+      }
+    },
+    "19": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/short-utterance-candidates/segment-0019-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"I'm not engaging.\"",
+            "transcription": "I'm not engaging.",
+            "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0019-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 19,
+            "chunkIndex": 0,
+            "speakerId": "caelen",
+            "voiceId": "voice-05bfeebc7a75d6c3"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 19,
+        "speakerId": "caelen",
+        "voiceId": "voice-05bfeebc7a75d6c3",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"I’m not engaging.\"",
+        "expectedText": "\"I’m not engaging.\"",
+        "spokenText": "\"I’m not engaging.\"",
+        "wasRewritten": false,
+        "transcription": "I'm not engaging.",
+        "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0019.wav"
+      }
+    },
+    "23": {
+      "attempt": 2,
+      "score": [
+        1.0,
+        1,
+        1
+      ],
+      "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/short-utterance-candidates/segment-0023-attempt-02.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 2,
+            "editDistance": 1,
+            "wordErrorRate": 1.0,
+            "status": "fail",
+            "verificationMode": "transcript",
+            "expectedText": "Caelen.",
+            "transcription": "Kalen. Colin.",
+            "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0023-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.59
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "segmentIndex": 23,
+            "chunkIndex": 0,
+            "speakerId": "sergeant-miller",
+            "voiceId": "voice-278a3fed14760601"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 2,
+        "editDistance": 1,
+        "wordErrorRate": 1.0,
+        "segmentIndex": 23,
+        "speakerId": "sergeant-miller",
+        "voiceId": "voice-278a3fed14760601",
+        "status": "fail",
+        "verificationMode": "transcript",
+        "sourceText": "\"Caelen.\"",
+        "expectedText": "\"Caelen.\"",
+        "spokenText": "\"Caelen.\"",
+        "wasRewritten": false,
+        "transcription": "Kalen. Colin.",
+        "audioPath": "/books/output/20261003-181309-980-incremental-chapter-001-634f607b/chapter-001/segment-0023.wav"
+      }
+    }
+  },
+  "completed": false,
+  "unresolvedChunks": [
+    [
+      10,
+      0
+    ],
+    [
+      21,
+      0
+    ]
+  ]
+}

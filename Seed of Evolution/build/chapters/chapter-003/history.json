@@ -1,0 +1,32 @@
+﻿{
+  "ChapterNumber": 3,
+  "Records": [
+    {
+      "Stage": "Generation",
+      "Sequence": 1,
+      "Model": "hf.co/TheDrummer/Cydonia-24B-v4.3-GGUF:Q4_K_M",
+      "Gpu": "NVIDIA GeForce RTX 5080 Laptop GPU",
+      "Duration": "00:10:06.3568174",
+      "Artifact": "draft.md",
+      "CompletedUtc": "2026-10-03T21:22:55.788387+00:00"
+    },
+    {
+      "Stage": "Review",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 5080 Laptop GPU",
+      "Duration": "00:06:57.4064774",
+      "Artifact": "review-001.md",
+      "CompletedUtc": "2026-10-03T21:34:55.3317684+00:00"
+    },
+    {
+      "Stage": "Title",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 5080 Laptop GPU",
+      "Duration": "00:00:11.0111291",
+      "Artifact": "title.txt",
+      "CompletedUtc": "2026-10-03T21:46:03.0068748+00:00"
+    }
+  ]
+}
