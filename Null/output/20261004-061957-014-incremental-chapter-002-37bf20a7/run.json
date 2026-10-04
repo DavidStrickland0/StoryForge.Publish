@@ -5,9 +5,9 @@
   "voiceLibraryPath": "/voices",
   "chapterId": "chapter-002",
   "startedUtc": "2026-10-04T06:24:48.992469+00:00",
-  "completedUtc": "2026-10-04T16:53:58.879792+00:00",
+  "completedUtc": "2026-10-04T17:26:07.158150+00:00",
   "status": "failed",
-  "failedStage": "assembly",
+  "failedStage": "synthesis",
   "settings": {
     "whisperModel": "small.en",
     "pauseSeconds": 0.18,
@@ -219,7 +219,7 @@
       ]
     }
   },
-  "resumeCount": 1,
+  "resumeCount": 3,
   "resumeHistory": [
     {
       "resumedUtc": "2026-10-04T16:43:51.600874+00:00",
@@ -278,9 +278,21 @@
           "rejectedChunks": []
         }
       ]
+    },
+    {
+      "resumedUtc": "2026-10-04T17:24:09.629139+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "assembly",
+      "previousVerificationAttempts": []
+    },
+    {
+      "resumedUtc": "2026-10-04T17:24:57.012784+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "synthesis",
+      "previousVerificationAttempts": []
     }
   ],
-  "lastResumedUtc": "2026-10-04T16:43:51.600874+00:00",
+  "lastResumedUtc": "2026-10-04T17:24:57.012784+00:00",
   "chapterDirectory": "/books/output/20261004-061957-014-incremental-chapter-002-37bf20a7/chapter-002",
   "masteredAudioPath": null
 }
