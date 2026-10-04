@@ -1,0 +1,35 @@
+﻿{
+  "Validations": [
+    {
+      "ProposalIndex": 0,
+      "ArcId": "epic-001-081-long-1-medium-1-short-1",
+      "Disposition": "Rejected",
+      "Evidence": null,
+      "Reason": "Story arc \u0027epic-001-081-long-1-medium-1-short-1\u0027 must complete chapter target 1 before target 2."
+    },
+    {
+      "ProposalIndex": 1,
+      "ArcId": "epic-001-081-long-1-medium-1",
+      "Disposition": "Rejected",
+      "Evidence": null,
+      "Reason": "Story arc \u0027epic-001-081-long-1-medium-1\u0027 cannot claim resolution until all three child arcs are completed."
+    },
+    {
+      "ProposalIndex": 2,
+      "ArcId": "epic-001-081-long-1",
+      "Disposition": "Approved",
+      "Evidence": "The trial had begun. The daily grind had started. And Adrian Vale, broke and exhausted and desperate, was now a specimen in an experiment he barely understood.",
+      "Reason": "The finalized chapter directly establishes that Adrian completed his first daily testing session, including the specimen collection and physical examination. The prose explicitly describes the physical and psychological toll (exhaustion, hunger, humiliation, feeling like a \u0027specimen\u0027) and confirms the routine is now established (\u0027The trial had begun. The daily grind had started\u0027). The proposal accurately updates the current phase to reflect this completed state and correctly identifies the next,"
+    },
+    {
+      "ProposalIndex": 3,
+      "ArcId": "epic-001-081",
+      "Disposition": "Approved",
+      "Evidence": "The trial had begun. The daily grind had started. And Adrian Vale, broke and exhausted and desperate, was now a specimen in an experiment he barely understood.",
+      "Reason": "The proposal accurately reflects the finalized chapter. The prose explicitly establishes that Adrian completed his first daily testing session (\u0027He\u0027d completed his first testing session\u0027), secured the financial means (\u0027Four hundred dollars... Enough to survive\u0027), and is now integrated into the routine (\u0027The routine was established now\u0027). The proposed current phase correctly describes this state of physical/emotional drain and financial security. The proposed next milestone remains consistent as"
+    }
+  ],
+  "Model": "qwen3.8:27b",
+  "Duration": "00:00:37.1028571",
+  "HasApprovedProgress": true
+}
