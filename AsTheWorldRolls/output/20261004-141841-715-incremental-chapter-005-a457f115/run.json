@@ -1,0 +1,1017 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261004-141841-715-incremental-chapter-005-a457f115",
+  "bookPath": "/books",
+  "voiceLibraryPath": "/voices",
+  "chapterId": "chapter-005",
+  "startedUtc": "2026-10-04T14:20:54.311690+00:00",
+  "completedUtc": "2026-10-04T14:30:59.470410+00:00",
+  "status": "completed",
+  "failedStage": null,
+  "settings": {
+    "whisperModel": "small.en",
+    "pauseSeconds": 0.18,
+    "maxSegmentAttempts": 3
+  },
+  "segmentVerificationAttempts": [
+    {
+      "attempt": 1,
+      "verificationPath": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/verification-attempt-1.json",
+      "passed": 49,
+      "review": 2,
+      "failed": 1,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 11,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 20,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 24,
+          "chunkIndex": 0
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "verificationPath": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/verification-attempt-2.json",
+      "passed": 50,
+      "review": 1,
+      "failed": 1,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 11,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 24,
+          "chunkIndex": 0
+        }
+      ]
+    },
+    {
+      "attempt": 3,
+      "verificationPath": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/verification-attempt-3.json",
+      "passed": 50,
+      "review": 1,
+      "failed": 1,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 11,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 24,
+          "chunkIndex": 0
+        }
+      ]
+    },
+    {
+      "attempt": 4,
+      "verificationPath": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/verification-attempt-4.json",
+      "passed": 52,
+      "review": 0,
+      "failed": 0,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": []
+    }
+  ],
+  "stageCheckpoints": {
+    "segmentVerification": {
+      "completedUtc": "2026-10-04T14:30:09.387387+00:00",
+      "inputs": [
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/chapter.json",
+          "sha256": "aa2a5677158fd7a0d73f346e3e31d5118e0b7236dc7f167515fca83729a135e9"
+        },
+        {
+          "path": "/app/tools/verify_chapter_probe.py",
+          "sha256": "ea3c290fa19ffe9efd6d40e8575058a5188a5b7b3e222a60742f41f432e7c3a4"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000-chunk-0000.wav",
+          "sha256": "99d638ee2a830de10a73c7f0d5f40bf8ee517f7fd5bd46a13b59264679923ebf"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000-chunk-0001.wav",
+          "sha256": "d497a026cbccdc5cbcbe2e60500b5dc17c487f9b68243c41b6c6b94924b32122"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000-chunk-0002.wav",
+          "sha256": "620569ccc9d6ba397124ca2f6c55388eda11d6e0febccbd8efcb035f49da03b0"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000-chunk-0003.wav",
+          "sha256": "8c2cc7dcd8920a818cdafa13061b2388049f3d0d7f82ab86fb9008ddd2a51209"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000-chunk-0004.wav",
+          "sha256": "846e09f9d3ee5ec164d7d04b8933afb6a27b4005f355f45e6517e74526bda8b2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000.wav",
+          "sha256": "c4af2139f4abacd242f8279f5513d51dd673a52b9c0e670a5386ac3400b8ec78"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0001-chunk-0000.wav",
+          "sha256": "98a8d03b798334e05acd4965d669f47f2c12f27d4b21385b817537f7f298ec46"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0001.wav",
+          "sha256": "98a8d03b798334e05acd4965d669f47f2c12f27d4b21385b817537f7f298ec46"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0002-chunk-0000.wav",
+          "sha256": "f500df912b3ae264147cdb16b468ef1c20955fc3d7a11a902306776931210ea6"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0002.wav",
+          "sha256": "f500df912b3ae264147cdb16b468ef1c20955fc3d7a11a902306776931210ea6"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0003-chunk-0000.wav",
+          "sha256": "23f36bcb60162a77d62fb04fcdc214f72a0b9f00679ab47312777a5229f48bd2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0003.wav",
+          "sha256": "23f36bcb60162a77d62fb04fcdc214f72a0b9f00679ab47312777a5229f48bd2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0004-chunk-0000.wav",
+          "sha256": "74c3f988f081c701c1440bd1f40a8e13fa9b4baab3e89b6e48eaa630ee3ec83f"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0004.wav",
+          "sha256": "74c3f988f081c701c1440bd1f40a8e13fa9b4baab3e89b6e48eaa630ee3ec83f"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0005-chunk-0000.wav",
+          "sha256": "65e548eb2f9ace6f7e6f3bcf6c2d79342747d73631d3433f34813f746694e282"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0005.wav",
+          "sha256": "65e548eb2f9ace6f7e6f3bcf6c2d79342747d73631d3433f34813f746694e282"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0006-chunk-0000.wav",
+          "sha256": "9de01741c106f6ed407dfd9d9a6ba8e5252dd052c70d7edd943618c986bd19e9"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0006.wav",
+          "sha256": "9de01741c106f6ed407dfd9d9a6ba8e5252dd052c70d7edd943618c986bd19e9"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0007-chunk-0000.wav",
+          "sha256": "7c70e49a1e10aa516fe64031a142249a272e05106aee8d3f64494391028edfbf"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0007.wav",
+          "sha256": "7c70e49a1e10aa516fe64031a142249a272e05106aee8d3f64494391028edfbf"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0008-chunk-0000.wav",
+          "sha256": "9fe51b295b401aa292382cc071de37a71652663a88d38b71a5975e8a3e90f82c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0008.wav",
+          "sha256": "9fe51b295b401aa292382cc071de37a71652663a88d38b71a5975e8a3e90f82c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0009-chunk-0000.wav",
+          "sha256": "372801ad3da42c0f2fae5790951430a4b5ea9c1b75e6be302fd82d04142c1ef2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0009.wav",
+          "sha256": "372801ad3da42c0f2fae5790951430a4b5ea9c1b75e6be302fd82d04142c1ef2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0010-chunk-0000.wav",
+          "sha256": "92b07e6f8904f3d736677e81f71b1b90a003de870c4e41b46920e111294c7b3c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0010.wav",
+          "sha256": "92b07e6f8904f3d736677e81f71b1b90a003de870c4e41b46920e111294c7b3c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0011-chunk-0000.wav",
+          "sha256": "c3c922fdd0d9827fa15812a119c721927b61ed71e41bfdcf30b9c7a3d44fd062"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0011.wav",
+          "sha256": "c3c922fdd0d9827fa15812a119c721927b61ed71e41bfdcf30b9c7a3d44fd062"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0012-chunk-0000.wav",
+          "sha256": "9c1b467589b4bc2557a8a16d3e911d639cb86b83cf9d685558f45c52bca934d9"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0012.wav",
+          "sha256": "9c1b467589b4bc2557a8a16d3e911d639cb86b83cf9d685558f45c52bca934d9"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0013-chunk-0000.wav",
+          "sha256": "1c3202ac7431efc7d144942a3fcb1dd3d6ef26d750656634b0f885d783fb9805"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0013.wav",
+          "sha256": "1c3202ac7431efc7d144942a3fcb1dd3d6ef26d750656634b0f885d783fb9805"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0014-chunk-0000.wav",
+          "sha256": "662682963f6d0bb0f2d9a5077cc450ca952ff3d10038262013a1756ad964e926"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0014-chunk-0001.wav",
+          "sha256": "eed481413344a2d696c71710d3606da4b28c79d4b0dc1005e657b11e7796c269"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0014.wav",
+          "sha256": "119091869901b362c8aad01098de32ef69ffe2b72b2be6d2f40e60756e0be8f2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0015-chunk-0000.wav",
+          "sha256": "dc1b6f716b4ab943124441b4737bfa2b4249924384342914f392b35ac18c673c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0015.wav",
+          "sha256": "dc1b6f716b4ab943124441b4737bfa2b4249924384342914f392b35ac18c673c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0016-chunk-0000.wav",
+          "sha256": "daa4f6f844a5e2d67641f215c438ef2672ebcb6ebe9317a86981ed6d048bee20"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0016.wav",
+          "sha256": "daa4f6f844a5e2d67641f215c438ef2672ebcb6ebe9317a86981ed6d048bee20"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0017-chunk-0000.wav",
+          "sha256": "4ecb6324acfdbb4fc2b405f3ffad569d6313fb9faacf1483a55e67d2cd4ceeb1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0017.wav",
+          "sha256": "4ecb6324acfdbb4fc2b405f3ffad569d6313fb9faacf1483a55e67d2cd4ceeb1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0018-chunk-0000.wav",
+          "sha256": "06fc77d7ad1ffdbc29326ec2389c4518a5cf4581a77292b023f73b5310b5fbb5"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0018.wav",
+          "sha256": "06fc77d7ad1ffdbc29326ec2389c4518a5cf4581a77292b023f73b5310b5fbb5"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0019-chunk-0000.wav",
+          "sha256": "2c6cc4e34ae6022be2ea18f9a2740b4de82ef5990decf662dc394a8706685fbc"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0019.wav",
+          "sha256": "2c6cc4e34ae6022be2ea18f9a2740b4de82ef5990decf662dc394a8706685fbc"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0020-chunk-0000.wav",
+          "sha256": "427cd54034216fd6b9cd832665bdf19e67d78cfd10f6ee0ab080aad4d301c4c1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0020.wav",
+          "sha256": "427cd54034216fd6b9cd832665bdf19e67d78cfd10f6ee0ab080aad4d301c4c1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0021-chunk-0000.wav",
+          "sha256": "56547dd548d8e1ce84a8475e1c552e3f94226b4ca45b106c396dc44e368afaef"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0021.wav",
+          "sha256": "56547dd548d8e1ce84a8475e1c552e3f94226b4ca45b106c396dc44e368afaef"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0022-chunk-0000.wav",
+          "sha256": "741bc329e95801df92972050446c126d0001936921be65a62ca6d2b799bef2c8"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0022-chunk-0001.wav",
+          "sha256": "9f1828e83e1b0c76e38ba42b15e6d6c2175c84bb9249b0938a88859a7e5e5fcd"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0022-chunk-0002.wav",
+          "sha256": "73386b5109bc0c720b575c0e14951ff6bf0b934924eb5ba626869bc19ccc082f"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0022.wav",
+          "sha256": "7ab9139bef466047042e72ff3d347e11f4db7138f3b22eccc0bf33e3c20c2a33"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0023-chunk-0000.wav",
+          "sha256": "b23ec53834f85affb383fef78b23578bf0b6810d960a08649f47afc0d6c46dca"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0023.wav",
+          "sha256": "b23ec53834f85affb383fef78b23578bf0b6810d960a08649f47afc0d6c46dca"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0024-chunk-0000.wav",
+          "sha256": "de8f7723100f65c1e699cdfcd694d4ccb6f71093fe3dd8a5a13724b6a0267184"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0024.wav",
+          "sha256": "de8f7723100f65c1e699cdfcd694d4ccb6f71093fe3dd8a5a13724b6a0267184"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0025-chunk-0000.wav",
+          "sha256": "113f23d518f86a9dee2a0987c82b6dad71e43bdfa9b6a0c5f3c265c667072cec"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0025.wav",
+          "sha256": "113f23d518f86a9dee2a0987c82b6dad71e43bdfa9b6a0c5f3c265c667072cec"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0026-chunk-0000.wav",
+          "sha256": "e1f0c111fabf5e9457699102230f06d414b849363fcf7c8a7a8d47edb5278092"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0026.wav",
+          "sha256": "e1f0c111fabf5e9457699102230f06d414b849363fcf7c8a7a8d47edb5278092"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0027-chunk-0000.wav",
+          "sha256": "9ef6a00a1d8312617936b785c7105e68e87aff72de42faa041006ca31969de21"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0027.wav",
+          "sha256": "9ef6a00a1d8312617936b785c7105e68e87aff72de42faa041006ca31969de21"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0028-chunk-0000.wav",
+          "sha256": "199fa3c675e04d8681fc2c6554e40cc90c93308dd737530712191df309244656"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0028.wav",
+          "sha256": "199fa3c675e04d8681fc2c6554e40cc90c93308dd737530712191df309244656"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0029-chunk-0000.wav",
+          "sha256": "a2979cd806d90cb5534cfec98f1877a767dd6879b110a9af3aab5d44eb91b424"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0029.wav",
+          "sha256": "a2979cd806d90cb5534cfec98f1877a767dd6879b110a9af3aab5d44eb91b424"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0030-chunk-0000.wav",
+          "sha256": "a0bc85b2ab18b101e84e150b03332af077d184e0de39d0c6385f606660c75536"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0030.wav",
+          "sha256": "a0bc85b2ab18b101e84e150b03332af077d184e0de39d0c6385f606660c75536"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0031-chunk-0000.wav",
+          "sha256": "060ca893cf50dfe2f4b01c1beb40782bb40cfaf9fa86ed61e222e25777d0b3d7"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0031.wav",
+          "sha256": "060ca893cf50dfe2f4b01c1beb40782bb40cfaf9fa86ed61e222e25777d0b3d7"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0032-chunk-0000.wav",
+          "sha256": "81e983a1c47fe05a43245aeb32dabb0ea5d247ccdac232fdbf6019b5f19531a6"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0032.wav",
+          "sha256": "81e983a1c47fe05a43245aeb32dabb0ea5d247ccdac232fdbf6019b5f19531a6"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0033-chunk-0000.wav",
+          "sha256": "f077f78dc69c5610a161763ea23f5339764b12230946b7d394e038502eeef9f5"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0033.wav",
+          "sha256": "f077f78dc69c5610a161763ea23f5339764b12230946b7d394e038502eeef9f5"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0034-chunk-0000.wav",
+          "sha256": "0a792d88537b6fee0fb5990f036a5ebb2efb6116a2fb91fd1e38db2d2a0e3764"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0034.wav",
+          "sha256": "0a792d88537b6fee0fb5990f036a5ebb2efb6116a2fb91fd1e38db2d2a0e3764"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0035-chunk-0000.wav",
+          "sha256": "2ae4eb07cf9c0550d59a59d57842c1baafffaae17b50bd2189a366695f2ab5d1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0035.wav",
+          "sha256": "2ae4eb07cf9c0550d59a59d57842c1baafffaae17b50bd2189a366695f2ab5d1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0036-chunk-0000.wav",
+          "sha256": "fc50ab8ef45e45699faeafd86347259d75f3b149b349e0b6ca7138b11af63753"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0036-chunk-0001.wav",
+          "sha256": "d0dc95f6f9e827d27ed3efb05cd1852b896dedbfb8c06df273f163fef8d5a3b6"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0036.wav",
+          "sha256": "1377171c3e975a80ad7c781b9d81a630ea6ff9c27c11b04c743185c4a78fd9bf"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0037-chunk-0000.wav",
+          "sha256": "83156fb1b71eceadd51316407ac80cd8a941e8477261f70032584c42990cbfc3"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0037.wav",
+          "sha256": "83156fb1b71eceadd51316407ac80cd8a941e8477261f70032584c42990cbfc3"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0038-chunk-0000.wav",
+          "sha256": "afbafc213476cc8e9452d4f187c11f96e90275fb530384818ed8e59e15ba64aa"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0038.wav",
+          "sha256": "afbafc213476cc8e9452d4f187c11f96e90275fb530384818ed8e59e15ba64aa"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0039-chunk-0000.wav",
+          "sha256": "e31218e65f7b8e67b17829d66a284e615a952933436d7ed01a2f897b7238144a"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0039.wav",
+          "sha256": "e31218e65f7b8e67b17829d66a284e615a952933436d7ed01a2f897b7238144a"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0040-chunk-0000.wav",
+          "sha256": "7f61a733ab29d1280fed36b356a88abd48be5a79439fb0806a4829a86968d8de"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0040.wav",
+          "sha256": "7f61a733ab29d1280fed36b356a88abd48be5a79439fb0806a4829a86968d8de"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0041-chunk-0000.wav",
+          "sha256": "38937f0eb61c4ecbdfe388c09465b3ec1a9188541d0c92c6c5e7d3f2c51804e1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0041.wav",
+          "sha256": "38937f0eb61c4ecbdfe388c09465b3ec1a9188541d0c92c6c5e7d3f2c51804e1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0042-chunk-0000.wav",
+          "sha256": "ad21130dc7919731636133fb28d4f4125cb57bbb77df6368404dd8b25ffc5e6f"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0042-chunk-0001.wav",
+          "sha256": "3f84b5ccaf4764b5c736a41bcc149bb000e3900ca8f6e19e04d1906aca1d64b1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0042.wav",
+          "sha256": "418fe92d3f2d24ef2d0d0235c4bc4e0fad75142670056a315ac22b14d3fb1a27"
+        }
+      ],
+      "settings": {
+        "whisperModel": "small.en",
+        "maxSegmentAttempts": 3,
+        "verificationPolicyVersion": 2
+      },
+      "outputs": [
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/verification.json",
+          "sha256": "6fa9bac236b0bf4852dadcc830163c40e453f19ac52945d660c042cbe7d45e02"
+        }
+      ]
+    },
+    "assembly": {
+      "completedUtc": "2026-10-04T14:30:18.791857+00:00",
+      "inputs": [
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/chapter.json",
+          "sha256": "aa2a5677158fd7a0d73f346e3e31d5118e0b7236dc7f167515fca83729a135e9"
+        },
+        {
+          "path": "/app/tools/assemble_chapter_probe.py",
+          "sha256": "4970fce2622ec583c706aa068e88ddb8d00f054cd04affb922c397cc702b44b6"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000-chunk-0000.wav",
+          "sha256": "99d638ee2a830de10a73c7f0d5f40bf8ee517f7fd5bd46a13b59264679923ebf"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000-chunk-0001.wav",
+          "sha256": "d497a026cbccdc5cbcbe2e60500b5dc17c487f9b68243c41b6c6b94924b32122"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000-chunk-0002.wav",
+          "sha256": "620569ccc9d6ba397124ca2f6c55388eda11d6e0febccbd8efcb035f49da03b0"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000-chunk-0003.wav",
+          "sha256": "8c2cc7dcd8920a818cdafa13061b2388049f3d0d7f82ab86fb9008ddd2a51209"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000-chunk-0004.wav",
+          "sha256": "846e09f9d3ee5ec164d7d04b8933afb6a27b4005f355f45e6517e74526bda8b2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0000.wav",
+          "sha256": "c4af2139f4abacd242f8279f5513d51dd673a52b9c0e670a5386ac3400b8ec78"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0001-chunk-0000.wav",
+          "sha256": "98a8d03b798334e05acd4965d669f47f2c12f27d4b21385b817537f7f298ec46"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0001.wav",
+          "sha256": "98a8d03b798334e05acd4965d669f47f2c12f27d4b21385b817537f7f298ec46"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0002-chunk-0000.wav",
+          "sha256": "f500df912b3ae264147cdb16b468ef1c20955fc3d7a11a902306776931210ea6"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0002.wav",
+          "sha256": "f500df912b3ae264147cdb16b468ef1c20955fc3d7a11a902306776931210ea6"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0003-chunk-0000.wav",
+          "sha256": "23f36bcb60162a77d62fb04fcdc214f72a0b9f00679ab47312777a5229f48bd2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0003.wav",
+          "sha256": "23f36bcb60162a77d62fb04fcdc214f72a0b9f00679ab47312777a5229f48bd2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0004-chunk-0000.wav",
+          "sha256": "74c3f988f081c701c1440bd1f40a8e13fa9b4baab3e89b6e48eaa630ee3ec83f"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0004.wav",
+          "sha256": "74c3f988f081c701c1440bd1f40a8e13fa9b4baab3e89b6e48eaa630ee3ec83f"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0005-chunk-0000.wav",
+          "sha256": "65e548eb2f9ace6f7e6f3bcf6c2d79342747d73631d3433f34813f746694e282"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0005.wav",
+          "sha256": "65e548eb2f9ace6f7e6f3bcf6c2d79342747d73631d3433f34813f746694e282"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0006-chunk-0000.wav",
+          "sha256": "9de01741c106f6ed407dfd9d9a6ba8e5252dd052c70d7edd943618c986bd19e9"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0006.wav",
+          "sha256": "9de01741c106f6ed407dfd9d9a6ba8e5252dd052c70d7edd943618c986bd19e9"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0007-chunk-0000.wav",
+          "sha256": "7c70e49a1e10aa516fe64031a142249a272e05106aee8d3f64494391028edfbf"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0007.wav",
+          "sha256": "7c70e49a1e10aa516fe64031a142249a272e05106aee8d3f64494391028edfbf"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0008-chunk-0000.wav",
+          "sha256": "9fe51b295b401aa292382cc071de37a71652663a88d38b71a5975e8a3e90f82c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0008.wav",
+          "sha256": "9fe51b295b401aa292382cc071de37a71652663a88d38b71a5975e8a3e90f82c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0009-chunk-0000.wav",
+          "sha256": "372801ad3da42c0f2fae5790951430a4b5ea9c1b75e6be302fd82d04142c1ef2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0009.wav",
+          "sha256": "372801ad3da42c0f2fae5790951430a4b5ea9c1b75e6be302fd82d04142c1ef2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0010-chunk-0000.wav",
+          "sha256": "92b07e6f8904f3d736677e81f71b1b90a003de870c4e41b46920e111294c7b3c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0010.wav",
+          "sha256": "92b07e6f8904f3d736677e81f71b1b90a003de870c4e41b46920e111294c7b3c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0011-chunk-0000.wav",
+          "sha256": "c3c922fdd0d9827fa15812a119c721927b61ed71e41bfdcf30b9c7a3d44fd062"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0011.wav",
+          "sha256": "c3c922fdd0d9827fa15812a119c721927b61ed71e41bfdcf30b9c7a3d44fd062"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0012-chunk-0000.wav",
+          "sha256": "9c1b467589b4bc2557a8a16d3e911d639cb86b83cf9d685558f45c52bca934d9"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0012.wav",
+          "sha256": "9c1b467589b4bc2557a8a16d3e911d639cb86b83cf9d685558f45c52bca934d9"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0013-chunk-0000.wav",
+          "sha256": "1c3202ac7431efc7d144942a3fcb1dd3d6ef26d750656634b0f885d783fb9805"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0013.wav",
+          "sha256": "1c3202ac7431efc7d144942a3fcb1dd3d6ef26d750656634b0f885d783fb9805"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0014-chunk-0000.wav",
+          "sha256": "662682963f6d0bb0f2d9a5077cc450ca952ff3d10038262013a1756ad964e926"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0014-chunk-0001.wav",
+          "sha256": "eed481413344a2d696c71710d3606da4b28c79d4b0dc1005e657b11e7796c269"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0014.wav",
+          "sha256": "119091869901b362c8aad01098de32ef69ffe2b72b2be6d2f40e60756e0be8f2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0015-chunk-0000.wav",
+          "sha256": "dc1b6f716b4ab943124441b4737bfa2b4249924384342914f392b35ac18c673c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0015.wav",
+          "sha256": "dc1b6f716b4ab943124441b4737bfa2b4249924384342914f392b35ac18c673c"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0016-chunk-0000.wav",
+          "sha256": "daa4f6f844a5e2d67641f215c438ef2672ebcb6ebe9317a86981ed6d048bee20"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0016.wav",
+          "sha256": "daa4f6f844a5e2d67641f215c438ef2672ebcb6ebe9317a86981ed6d048bee20"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0017-chunk-0000.wav",
+          "sha256": "4ecb6324acfdbb4fc2b405f3ffad569d6313fb9faacf1483a55e67d2cd4ceeb1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0017.wav",
+          "sha256": "4ecb6324acfdbb4fc2b405f3ffad569d6313fb9faacf1483a55e67d2cd4ceeb1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0018-chunk-0000.wav",
+          "sha256": "06fc77d7ad1ffdbc29326ec2389c4518a5cf4581a77292b023f73b5310b5fbb5"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0018.wav",
+          "sha256": "06fc77d7ad1ffdbc29326ec2389c4518a5cf4581a77292b023f73b5310b5fbb5"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0019-chunk-0000.wav",
+          "sha256": "2c6cc4e34ae6022be2ea18f9a2740b4de82ef5990decf662dc394a8706685fbc"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0019.wav",
+          "sha256": "2c6cc4e34ae6022be2ea18f9a2740b4de82ef5990decf662dc394a8706685fbc"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0020-chunk-0000.wav",
+          "sha256": "427cd54034216fd6b9cd832665bdf19e67d78cfd10f6ee0ab080aad4d301c4c1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0020.wav",
+          "sha256": "427cd54034216fd6b9cd832665bdf19e67d78cfd10f6ee0ab080aad4d301c4c1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0021-chunk-0000.wav",
+          "sha256": "56547dd548d8e1ce84a8475e1c552e3f94226b4ca45b106c396dc44e368afaef"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0021.wav",
+          "sha256": "56547dd548d8e1ce84a8475e1c552e3f94226b4ca45b106c396dc44e368afaef"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0022-chunk-0000.wav",
+          "sha256": "741bc329e95801df92972050446c126d0001936921be65a62ca6d2b799bef2c8"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0022-chunk-0001.wav",
+          "sha256": "9f1828e83e1b0c76e38ba42b15e6d6c2175c84bb9249b0938a88859a7e5e5fcd"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0022-chunk-0002.wav",
+          "sha256": "73386b5109bc0c720b575c0e14951ff6bf0b934924eb5ba626869bc19ccc082f"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0022.wav",
+          "sha256": "7ab9139bef466047042e72ff3d347e11f4db7138f3b22eccc0bf33e3c20c2a33"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0023-chunk-0000.wav",
+          "sha256": "b23ec53834f85affb383fef78b23578bf0b6810d960a08649f47afc0d6c46dca"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0023.wav",
+          "sha256": "b23ec53834f85affb383fef78b23578bf0b6810d960a08649f47afc0d6c46dca"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0024-chunk-0000.wav",
+          "sha256": "de8f7723100f65c1e699cdfcd694d4ccb6f71093fe3dd8a5a13724b6a0267184"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0024.wav",
+          "sha256": "de8f7723100f65c1e699cdfcd694d4ccb6f71093fe3dd8a5a13724b6a0267184"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0025-chunk-0000.wav",
+          "sha256": "113f23d518f86a9dee2a0987c82b6dad71e43bdfa9b6a0c5f3c265c667072cec"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0025.wav",
+          "sha256": "113f23d518f86a9dee2a0987c82b6dad71e43bdfa9b6a0c5f3c265c667072cec"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0026-chunk-0000.wav",
+          "sha256": "e1f0c111fabf5e9457699102230f06d414b849363fcf7c8a7a8d47edb5278092"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0026.wav",
+          "sha256": "e1f0c111fabf5e9457699102230f06d414b849363fcf7c8a7a8d47edb5278092"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0027-chunk-0000.wav",
+          "sha256": "9ef6a00a1d8312617936b785c7105e68e87aff72de42faa041006ca31969de21"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0027.wav",
+          "sha256": "9ef6a00a1d8312617936b785c7105e68e87aff72de42faa041006ca31969de21"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0028-chunk-0000.wav",
+          "sha256": "199fa3c675e04d8681fc2c6554e40cc90c93308dd737530712191df309244656"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0028.wav",
+          "sha256": "199fa3c675e04d8681fc2c6554e40cc90c93308dd737530712191df309244656"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0029-chunk-0000.wav",
+          "sha256": "a2979cd806d90cb5534cfec98f1877a767dd6879b110a9af3aab5d44eb91b424"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0029.wav",
+          "sha256": "a2979cd806d90cb5534cfec98f1877a767dd6879b110a9af3aab5d44eb91b424"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0030-chunk-0000.wav",
+          "sha256": "a0bc85b2ab18b101e84e150b03332af077d184e0de39d0c6385f606660c75536"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0030.wav",
+          "sha256": "a0bc85b2ab18b101e84e150b03332af077d184e0de39d0c6385f606660c75536"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0031-chunk-0000.wav",
+          "sha256": "060ca893cf50dfe2f4b01c1beb40782bb40cfaf9fa86ed61e222e25777d0b3d7"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0031.wav",
+          "sha256": "060ca893cf50dfe2f4b01c1beb40782bb40cfaf9fa86ed61e222e25777d0b3d7"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0032-chunk-0000.wav",
+          "sha256": "81e983a1c47fe05a43245aeb32dabb0ea5d247ccdac232fdbf6019b5f19531a6"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0032.wav",
+          "sha256": "81e983a1c47fe05a43245aeb32dabb0ea5d247ccdac232fdbf6019b5f19531a6"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0033-chunk-0000.wav",
+          "sha256": "f077f78dc69c5610a161763ea23f5339764b12230946b7d394e038502eeef9f5"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0033.wav",
+          "sha256": "f077f78dc69c5610a161763ea23f5339764b12230946b7d394e038502eeef9f5"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0034-chunk-0000.wav",
+          "sha256": "0a792d88537b6fee0fb5990f036a5ebb2efb6116a2fb91fd1e38db2d2a0e3764"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0034.wav",
+          "sha256": "0a792d88537b6fee0fb5990f036a5ebb2efb6116a2fb91fd1e38db2d2a0e3764"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0035-chunk-0000.wav",
+          "sha256": "2ae4eb07cf9c0550d59a59d57842c1baafffaae17b50bd2189a366695f2ab5d1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0035.wav",
+          "sha256": "2ae4eb07cf9c0550d59a59d57842c1baafffaae17b50bd2189a366695f2ab5d1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0036-chunk-0000.wav",
+          "sha256": "fc50ab8ef45e45699faeafd86347259d75f3b149b349e0b6ca7138b11af63753"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0036-chunk-0001.wav",
+          "sha256": "d0dc95f6f9e827d27ed3efb05cd1852b896dedbfb8c06df273f163fef8d5a3b6"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0036.wav",
+          "sha256": "1377171c3e975a80ad7c781b9d81a630ea6ff9c27c11b04c743185c4a78fd9bf"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0037-chunk-0000.wav",
+          "sha256": "83156fb1b71eceadd51316407ac80cd8a941e8477261f70032584c42990cbfc3"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0037.wav",
+          "sha256": "83156fb1b71eceadd51316407ac80cd8a941e8477261f70032584c42990cbfc3"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0038-chunk-0000.wav",
+          "sha256": "afbafc213476cc8e9452d4f187c11f96e90275fb530384818ed8e59e15ba64aa"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0038.wav",
+          "sha256": "afbafc213476cc8e9452d4f187c11f96e90275fb530384818ed8e59e15ba64aa"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0039-chunk-0000.wav",
+          "sha256": "e31218e65f7b8e67b17829d66a284e615a952933436d7ed01a2f897b7238144a"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0039.wav",
+          "sha256": "e31218e65f7b8e67b17829d66a284e615a952933436d7ed01a2f897b7238144a"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0040-chunk-0000.wav",
+          "sha256": "7f61a733ab29d1280fed36b356a88abd48be5a79439fb0806a4829a86968d8de"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0040.wav",
+          "sha256": "7f61a733ab29d1280fed36b356a88abd48be5a79439fb0806a4829a86968d8de"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0041-chunk-0000.wav",
+          "sha256": "38937f0eb61c4ecbdfe388c09465b3ec1a9188541d0c92c6c5e7d3f2c51804e1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0041.wav",
+          "sha256": "38937f0eb61c4ecbdfe388c09465b3ec1a9188541d0c92c6c5e7d3f2c51804e1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0042-chunk-0000.wav",
+          "sha256": "ad21130dc7919731636133fb28d4f4125cb57bbb77df6368404dd8b25ffc5e6f"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0042-chunk-0001.wav",
+          "sha256": "3f84b5ccaf4764b5c736a41bcc149bb000e3900ca8f6e19e04d1906aca1d64b1"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/segment-0042.wav",
+          "sha256": "418fe92d3f2d24ef2d0d0235c4bc4e0fad75142670056a315ac22b14d3fb1a27"
+        }
+      ],
+      "settings": {
+        "pauseSeconds": 0.18
+      },
+      "outputs": [
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/assembly.json",
+          "sha256": "ca6715fb037d04def06a564635f253b460de50d79a0597e91d058dff42eabac2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/chapter-005.wav",
+          "sha256": "d52b4b96f5bc427d6f0f3060c17acc8ecf9aac3f94e2be83640fba598fd89a08"
+        }
+      ]
+    },
+    "assemblyVerification": {
+      "completedUtc": "2026-10-04T14:30:38.465363+00:00",
+      "inputs": [
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/assembly.json",
+          "sha256": "ca6715fb037d04def06a564635f253b460de50d79a0597e91d058dff42eabac2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/chapter-005.wav",
+          "sha256": "d52b4b96f5bc427d6f0f3060c17acc8ecf9aac3f94e2be83640fba598fd89a08"
+        },
+        {
+          "path": "/app/tools/verify_assembly_probe.py",
+          "sha256": "1d6bb052d4a828c97a38a54442f6788194c9bb81490c141f31335bffbedd2b62"
+        }
+      ],
+      "settings": {
+        "whisperModel": "small.en"
+      },
+      "outputs": [
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/assembly-verification.json",
+          "sha256": "8d0f78aab7a430fe4ca4779f054bba81497d6a9ff3dd85a73133f2f7e3ee5b69"
+        }
+      ]
+    },
+    "mastering": {
+      "completedUtc": "2026-10-04T14:30:44.712917+00:00",
+      "inputs": [
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/assembly.json",
+          "sha256": "ca6715fb037d04def06a564635f253b460de50d79a0597e91d058dff42eabac2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/chapter-005.wav",
+          "sha256": "d52b4b96f5bc427d6f0f3060c17acc8ecf9aac3f94e2be83640fba598fd89a08"
+        },
+        {
+          "path": "/app/tools/master_chapter_probe.py",
+          "sha256": "f801c75c71f9d32dc95781957aac74040d2a39c3658311af80458c3dba699566"
+        }
+      ],
+      "settings": {},
+      "outputs": [
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/mastering.json",
+          "sha256": "ce4c9d3e8835a1171e7aae80d73f86f90b3e1654479f7079f99fa5b1f4707649"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/chapter-005.mastered.wav",
+          "sha256": "b457f839bd9fce985f6d96bf3826e9910b70ecfd24a2a7c3bf32f2b0d56123cf"
+        }
+      ]
+    },
+    "masteredVerification": {
+      "completedUtc": "2026-10-04T14:30:57.616149+00:00",
+      "inputs": [
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/assembly.json",
+          "sha256": "ca6715fb037d04def06a564635f253b460de50d79a0597e91d058dff42eabac2"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/chapter-005.mastered.wav",
+          "sha256": "b457f839bd9fce985f6d96bf3826e9910b70ecfd24a2a7c3bf32f2b0d56123cf"
+        },
+        {
+          "path": "/app/tools/verify_assembly_probe.py",
+          "sha256": "1d6bb052d4a828c97a38a54442f6788194c9bb81490c141f31335bffbedd2b62"
+        }
+      ],
+      "settings": {
+        "whisperModel": "small.en"
+      },
+      "outputs": [
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/mastered-verification.json",
+          "sha256": "724fd91ac65683d36705b10a122935ca06421a947b4036875daaa5f4f5804a63"
+        }
+      ]
+    },
+    "mp3Export": {
+      "completedUtc": "2026-10-04T14:30:59.318256+00:00",
+      "inputs": [
+        {
+          "path": "/books/book.json",
+          "sha256": "144926a9ddde19c7a952024e2b4403a170c1f91d374bedc5e78df3f63cb26b57"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/chapter-005.mastered.wav",
+          "sha256": "b457f839bd9fce985f6d96bf3826e9910b70ecfd24a2a7c3bf32f2b0d56123cf"
+        },
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/mastered-verification.json",
+          "sha256": "724fd91ac65683d36705b10a122935ca06421a947b4036875daaa5f4f5804a63"
+        },
+        {
+          "path": "/app/tools/export_chapter.py",
+          "sha256": "cb5df5dda683bddacfd262723ecfcb448b0962c8ac947a017fb3d370ed1f5aac"
+        }
+      ],
+      "settings": {
+        "bitrate": "128k"
+      },
+      "outputs": [
+        {
+          "path": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/chapter-export.json",
+          "sha256": "ccd806dc0e8da5667c6ed6588b633cd480e5badfa960c203d2f45a66ab730d35"
+        },
+        {
+          "path": "/books/output/final/chapter-005.mp3",
+          "sha256": "e85d86796e12b1d23235e2f4fb0f55b3e8541b2ba920d23302dfe0b30c6d8f09"
+        }
+      ]
+    }
+  },
+  "resumeCount": 0,
+  "resumeHistory": [],
+  "lastResumedUtc": null,
+  "chapterDirectory": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005",
+  "masteredAudioPath": "/books/output/20261004-141841-715-incremental-chapter-005-a457f115/chapter-005/chapter-005.mastered.wav",
+  "finalAudioPath": "/books/output/final/chapter-005.mp3"
+}
