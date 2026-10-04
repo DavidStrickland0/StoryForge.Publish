@@ -1,4 +1,4 @@
-# Narrative
+﻿# Narrative
 
 ## Story Premise
 
@@ -103,5 +103,23 @@ Adrian will not be able to keep the technology entirely private. But sharing it 
 ## Current Narrative State
 
 The story has not begun.
+
+
+- The story has begun with Adrian Vale completing his first day of the male-fertility trial.
+
+
+- The story has progressed to Adrian Vale completing his second day of the male-fertility trial.
+
+
+- Adrian Vale has begun to notice physical and sensory changes in his body that he does not yet understand.
 
 ## Unresolved Information
+
+
+- The specific nature of the side effects Adrian Vale is experiencing is unknown to him.
+
+
+- The long-term effects of the trial medication on Adrian Vale are unknown.
+
+
+- The specific cause of Adrian Vale's physical and sensory changes is unknown to him.
