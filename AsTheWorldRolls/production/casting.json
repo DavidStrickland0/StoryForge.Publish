@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "bookId": "storyforge-astheworldrolls",
+  "assignments": [
+    {
+      "characterId": "narrator",
+      "voiceId": "07-you-can-farm-joel-salatin",
+      "confidence": 0.95,
+      "rationale": "Joel Salatin\u0027s voice is warm, articulate, and has a distinct narrative quality suitable for storytelling or narration.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.4,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "elias-thorne",
+      "voiceId": "half-a-war-11",
+      "confidence": 0.85,
+      "rationale": "Elias Thorne is a warrior with traits like \u0027low voice\u0027 and \u0027firm tone\u0027. The ID \u0027half-a-war-11\u0027 suggests a war-themed recording suitable for a male character in combat or danger, matching the role\u0027s description of fighting creatures.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "kaelen",
+      "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+      "confidence": 0.6,
+      "rationale": "Kaelen is a male character with specific emotional traits (whispering, trembling). Among the available options, this neutral male voice is the most suitable for sustained narration of a major character, as other options are either clearly marked unsuitable or lack specific metadata to confirm they can handle the required dynamic range.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    }
+  ]
+}
