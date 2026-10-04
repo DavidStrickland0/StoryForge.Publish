@@ -1,4 +1,4 @@
-﻿# Narrative
+# Narrative
 
 ## Story Premise
 
@@ -147,25 +147,11 @@ Story generation will preserve the following rules:
 
 ## Current Narrative State
 
-The story has not begun.
-
-
-- The narrative has moved from the moment of Caelen's death to his consciousness in the void.
-
-
-- Caelen has perceived the System interface for the first time.
-
-
-- Caelen has begun the process of emotional processing and memory fading in the void.
-
-
-- The narrative has moved from Caelen's time in the void to his resurrection and immediate enslavement.
-
-
-- Caelen has been captured, assessed, collared, and placed in a cart for transport.
-
-
-- Caelen has acknowledged his status as a slave and resolved to learn the local language and rules to find a way out.
+- Caelen died shielding the noncombatant mother, who survived. The void and resurrection are completed events.
+- At the end of Chapter 4 he remains collared and captive in the slave pen, watched by the alpha, other slaves and a guard. His closing declaration is resolve, not a physical escape.
+- He manipulated the confrontation to secure his position and decided to learn and exploit the local rules.
+- The private System still shows one and one. No level increase or unlocked ability has been demonstrated.
+- He does not yet understand the local language or the meaning of the two advancement columns.
 
 ## Unresolved Information
 
