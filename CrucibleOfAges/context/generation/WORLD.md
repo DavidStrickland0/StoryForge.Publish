@@ -1,4 +1,4 @@
-# World
+﻿# World
 ## The Crucible
 
 Creation is a crucible made by the Creator so that souls can grow through conflict and learn what it means to love others. Every person lives, dies, and returns in a later age and possibly on another world. Memories endure imperfectly across lives. Civilizations change, bodies adapt, laws become distorted, and relationships are severed, but each soul continues accumulating the consequences of its choices.
@@ -339,3 +339,23 @@ The unstated boundary between rebirth and bodily resurrection is thirteen.
 - Anyone who dies at thirteen or later eventually awakens at peak physical condition, formed from local earth in a Creator-assigned pit.
 
 Characters do not ordinarily ask the accumulated age of a returned soul. The narrative should not state the numerical boundary unless a future plot specifically requires its revelation.
+
+## Current State
+
+
+- The void is a space defined by the absence of boundaries, characterized by soft, gray luminescence and a lack of physical laws such as gravity.
+
+
+- Souls in the void can perceive other souls as distant presences.
+
+
+- The System interface appears as translucent numbers in the periphery of the bearer's vision, consisting of two columns separated by a shimmering line.
+
+
+- The current world has a pale yellow sky and a dim sun.
+
+
+- The current world features a society with slavery, where individuals are assessed, collared, and transported in carts.
+
+
+- The current world has a language that is alien to Caelen, characterized by harsh consonants and rolling vowels.
