@@ -1,0 +1,9 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan's Scene 1 violates the chapter's ViewpointCharacterId constraint. The plan specifies 'ViewpointCharacterId': 'Ethan Vale', but Scene 1 has 'FocusCharacterIds': ['Aurora'] and describes her internal experience ('Aurora experiences the return of her powers... Aurora is conscious in the ambulance'). This creates a contradiction where the chapter is defined as Ethan's POV but contains a scene focused on Aurora's internal state and physical location (ambulance) which Ethan is prohibited from witnessing (per ProhibitedPatterns: 'Ethan witnessing the ambulance transport'). To maintain consistency, Scene 1 must be reframed to show the *consequences* of the power return (e.g., news reports, public speculation, or Ethan's inference) rather than depicting Aurora's direct experience, or the ViewpointCharacterId must be changed to a multi-POV structure if the author intends to show Aurora's perspective (though the current plan structure implies a single POV chapter). Given the strict 'ViewpointCharacterId': 'Ethan Vale' field, the scene content is inconsistent with the POV constraint.",
+  "evidence": [
+    "CANDIDATE CHAPTER PLAN: \"ViewpointCharacterId\": \"Ethan Vale\"",
+    "CANDIDATE CHAPTER PLAN Scene 1: \"FocusCharacterIds\": [\"Aurora\"], \"Purpose\": \"Aurora experiences the return of her powers during ambulance transport...\"",
+    "CANDIDATE CHAPTER PLAN ProhibitedPatterns: \"Ethan witnessing the ambulance transport or the specific moment of Aurora's power return\""
+  ]
+}

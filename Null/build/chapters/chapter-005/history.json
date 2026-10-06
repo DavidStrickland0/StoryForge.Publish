@@ -6,36 +6,117 @@
       "Sequence": 1,
       "Model": "qwen3.8:27b",
       "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
-      "Duration": "00:16:25.8821639",
+      "Duration": "00:15:46.0577016",
       "Artifact": "draft.md",
-      "CompletedUtc": "2026-10-04T22:23:42.8227767+00:00"
+      "CompletedUtc": "2026-10-05T16:40:23.7423945+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 1,
+      "Model": "hf.co/QuantFactory/Lumimaid-Magnum-12B-GGUF:Q4_K_M; comparison: qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:06:39.5909128",
+      "Artifact": "draft.md",
+      "CompletedUtc": "2026-10-05T16:47:03.4378912+00:00"
     },
     {
       "Stage": "Review",
       "Sequence": 1,
       "Model": "qwen3.8:27b",
       "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
-      "Duration": "00:20:03.3652754",
+      "Duration": "00:38:50.8590676",
       "Artifact": "review-001.md",
-      "CompletedUtc": "2026-10-04T22:59:59.2104255+00:00"
+      "CompletedUtc": "2026-10-05T17:25:54.4166008+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:34:19.5572613",
+      "Artifact": "review-001.validation.json",
+      "CompletedUtc": "2026-10-05T18:00:14.7034522+00:00"
     },
     {
       "Stage": "Revision",
       "Sequence": 1,
       "Model": "qwen3.8:27b",
       "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
-      "Duration": "00:18:05.6030005",
+      "Duration": "00:16:53.5148281",
       "Artifact": "revision-001.md",
-      "CompletedUtc": "2026-10-05T00:14:02.7922762+00:00"
+      "CompletedUtc": "2026-10-05T18:24:41.8874263+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 1,
+      "Model": "hf.co/QuantFactory/Lumimaid-Magnum-12B-GGUF:Q4_K_M; comparison: qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:07:05.7486538",
+      "Artifact": "revision-001.md",
+      "CompletedUtc": "2026-10-05T18:31:47.7553539+00:00"
     },
     {
       "Stage": "Review",
       "Sequence": 2,
       "Model": "qwen3.8:27b",
       "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
-      "Duration": "00:20:48.5837506",
+      "Duration": "00:29:46.0835883",
       "Artifact": "review-002.md",
-      "CompletedUtc": "2026-10-05T00:49:36.2501789+00:00"
+      "CompletedUtc": "2026-10-05T19:01:33.9694553+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 2,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:23:45.7949126",
+      "Artifact": "review-002.validation.json",
+      "CompletedUtc": "2026-10-05T19:25:19.943193+00:00"
+    },
+    {
+      "Stage": "Revision",
+      "Sequence": 2,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:16:16.7979477",
+      "Artifact": "revision-002.md",
+      "CompletedUtc": "2026-10-05T19:41:36.8765268+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 2,
+      "Model": "hf.co/QuantFactory/Lumimaid-Magnum-12B-GGUF:Q4_K_M; comparison: qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:09:25.9395510",
+      "Artifact": "revision-002.md",
+      "CompletedUtc": "2026-10-05T19:51:03.3417647+00:00"
+    },
+    {
+      "Stage": "Review",
+      "Sequence": 3,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:29:00.3522417",
+      "Artifact": "review-003.md",
+      "CompletedUtc": "2026-10-05T20:20:03.8080364+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 3,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:25:55.7624033",
+      "Artifact": "review-003.validation.json",
+      "CompletedUtc": "2026-10-05T20:46:00.0479164+00:00"
+    },
+    {
+      "Stage": "Title",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:00:21.4478417",
+      "Artifact": "title.txt",
+      "CompletedUtc": "2026-10-05T20:53:57.5339028+00:00"
     }
   ]
 }

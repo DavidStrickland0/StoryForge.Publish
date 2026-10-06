@@ -1,147 +1,77 @@
-﻿The roar of the crowd had settled into a low, constant drone, a vibration that Ethan felt in his molars. He stood still, his hands deep in the pockets of his jacket, watching the stage. The digital screens flanking the platform were cycling through high-definition loops of Aurora’s previous feats: deflecting a meteor, catching a falling plane, smiling for the cameras. It was a loop of perfection, a curated highlight reel that made the real woman hovering above the stage seem almost mundane by comparison.
+﻿The silence that followed the roar was heavier than the noise. It wasn’t a true silence; the air still vibrated with the residual energy of thousands of held breaths, but the screaming had stopped. In its place was a low, collective intake of air, a sound like a vacuum being pulled from the world.
 
-Aurora shifted.
+Ethan’s eyes were open. He had expected the descent to be graceful. He had expected the figure of white and gold to swoop down, to catch the updraft, to glide over the heads of the crowd with the effortless majesty of a bird of prey. He had braced himself for the wind, for the displacement of air that would ruffle his hair and push against his jacket.
 
-The movement was subtle, a slight rotation of her body that sent a ripple of light through the air around her. The crowd’s drone spiked, a collective intake of breath that turned the air in the venue into something thick and pressurized. Ethan’s stomach tightened. He knew this gesture. He had seen it in the videos, a signal that the performance was about to begin.
+He did not expect the stall.
 
-Aurora descended.
+Aurora had dropped from her suspended position, her body angled downward, arms outstretched. For a second, she was perfect. Then, as she passed directly overhead, the air around her seemed to thicken. Her arms twitched. Her wings, if they could be called that—mere extensions of light and force—flickered and died.
 
-She didn’t fly down so much as she sank, her figure growing larger against the backdrop of the darkened sky. The condensation trail she left behind evaporated in the warm air, but the sound of her movement was a low thrum, a subsonic pulse that Ethan felt in his chest. She was coming over the crowd.
+There was no sound of impact. There was only the sudden, violent absence of grace.
 
-This was the part he had dreaded and anticipated with equal intensity. The greeting. The moment where the god came close enough to touch the ground.
+She fell.
 
-Aurora banked, her trajectory curving to the left, sweeping over the first few rows of the audience. The people there were on their feet, phones raised, faces upturned, eyes wide with a mixture of terror and ecstasy. Ethan watched her move, his gaze tracking her path. He was standing in the middle of the crowd, a sea of bodies pressing against him, but he felt detached, as if he were watching the scene from a distance, separated by a pane of glass.
+It was a free fall, silent and terrifyingly fast. The crowd did not scream; they gasped. The sound was a sharp, collective hiss, like steam escaping a valve. Ethan’s body reacted before his mind could process the geometry of the event. He turned his head, his gaze tracking the plummeting figure. She was coming down straight toward him.
 
-She was getting closer.
+The impact was not a crash. It was a thud. A wet, heavy, bone-deep thud that vibrated through the soles of his shoes and up his legs.
 
-The air around her seemed to shimmer, a heat haze that distorted the view of the people behind her. Ethan could see the details of her suit now, the way the light caught the fabric, the way her hair floated around her head as if she were underwater. She was beautiful. She was terrifying. She was everything he was not.
+Dust puffed out from the pavement where she had landed. The concrete cracked, spiderwebbing outward in a radial pattern. Aurora lay in the center of the fracture, her body crumpled in a way that defied the invulnerability she had always represented. Her white suit was torn at the shoulder, the fabric darkened by a spreading bloom of red.
 
-And then, she was above him.
+Ethan stood frozen. His hands were still in his pockets. His heart was not beating; it had simply stopped, replaced by a hollow, ringing vacuum in his ears. He looked at the woman on the ground. She was not moving. Her face was turned away from him, toward the stage, and her skin, which had always been the pale, unblemished canvas of a superhero, was now flushed with the pinkish-white pallor of shock. Blood pooled beneath her head, mixing with the dust, creating a slurry that looked obscenely real.
 
-Ethan looked up. Aurora’s face was a mask of serene confidence, her eyes scanning the crowd below. She was close enough that he could see the individual pores on her skin, the slight flush of exertion on her cheeks. She was close enough that he could see the fear in her eyes, a flicker of uncertainty that she couldn’t quite hide.
+A whisper moved through the crowd. It started as a single voice, a question, a denial. Then it swelled. *Is she dead? Did she fall? Why did she fall?*
 
-He froze.
+Ethan tried to move. His legs refused. He was paralyzed by a sensation that was not fear, exactly, but something colder. It was the sudden, crushing weight of proximity. He was three feet away. He could see the fine details of her injury, the way the blood was beading on her cheek, the way her chest did not rise.
 
-The sensation hit him before the sound did. It was a sudden, violent absence of pressure, a vacuum that opened up in his chest. The air around him seemed to vanish, leaving a void that sucked the breath from his lungs. He tried to look away, to look down, to look anywhere but at her, but his eyes were locked on hers.
+Then, a sound cut through the whispers. A siren. Not the distant, muffled wail of a city emergency, but a high-pitched, urgent shriek that seemed to come from right beside him.
 
-Aurora’s expression changed.
+The crowd parted. Not all at once, but in a sudden, fluid rush, a path clearing through the dense mass of bodies. Ethan was shoved, jostled, but he did not move. He could not move. He was a statue in a world that had suddenly lost its center of gravity.
 
-The serenity vanished. Her eyes widened, her mouth opening in a silent scream. The shimmering air around her flickered, then died. The heat haze collapsed, leaving her suspended in the ordinary, cold air of the venue.
+Through the gap in the crowd, two figures in high-visibility yellow vests rushed in. They were not supers. They were paramedics, their faces tight with professional urgency. One of them, a man with a thick beard and a red cross on his chest, dropped to his knees beside Aurora.
 
-For a second, nothing happened.
+"Check her pulse," the man shouted, his voice cracking. "Get the trauma kit. Now."
 
-Then, she fell.
+Ethan watched as the medic’s hands hovered over Aurora’s neck. The man’s face changed. The urgency was replaced by a flicker of confusion, a micro-expression of disbelief. He pressed two fingers against her throat. He frowned. He pressed them again, harder.
 
-It was not a graceful descent. It was a plummet, a sudden, violent drop that defied the laws of physics she had been defying all her life. She hit the crowd with a sound like a thunderclap, a wet, heavy thud that echoed through the venue. The people around her were thrown aside, a wave of bodies crashing into the barriers, into each other, into the ground.
+"She’s not breathing," the medic said. His voice was flat, devoid of the panic that should have accompanied the statement. He looked at his partner. "She’s cold."
 
-Ethan didn’t move.
+The second medic, a woman with a headset, was already scanning the area with a handheld device. She looked up, her eyes widening. "Readings are off the charts, but... they’re flatlining. No bio-electric field. No energy signature. She’s just... flesh."
 
-He stood there, his hands still in his pockets, his eyes wide, his mouth open in a silent scream. He could see the blood. It was bright red, vivid against the white of her suit. It was spreading, a dark stain on the concrete, mixing with the sweat and tears of the people around him.
+*Flesh.*
 
-The crowd erupted.
+The word hung in the air, heavy and final. It was the same word Ethan had used in his head, a private, secret word he had never spoken aloud. *Flesh.* Mortal. Breakable.
 
-It was not a cheer. It was a howl, a sound of pure, unadulterated panic. People were screaming, running, trampling over each other to get away from the body. The security barriers were buckling, the steel groaning under the weight of the fleeing masses.
+The medic reached for Aurora’s arm, intending to splint it. As his hand closed around her wrist, Aurora’s fingers twitched.
 
-Ethan watched.
+It was a small movement. A spasm. But it was enough.
 
-He watched the blood spread. He watched the people run. He watched the security guards rush forward, their faces pale, their hands shaking as they pulled the unconscious woman from the pile of bodies.
+Aurora’s head turned. Her eyes, half-lidded and glazed with pain, focused on the medic. Her lips moved. No sound came out at first. Then, a rasp, thin and broken.
 
-He didn’t run.
+"Help."
 
-He didn’t help.
+The word was so small, so human, that it seemed to shatter the last remaining illusion of her divinity. She was not a god. She was a woman in pain, lying in a puddle of her own blood, unable to fly, unable to heal, unable to protect herself.
 
-He didn’t do anything.
+Ethan felt a surge of nausea. It was not just guilt, though guilt was there, a sharp, stinging pain in his chest. It was terror. Pure, unadulterated terror. If she could fall, if she could break, if she could die... then what did that say about him? What did it say about the world?
 
-He stood there, a statue in the chaos, his heart hammering in his chest, his mind racing with a thought he couldn’t quite form.
+The medic was already working, applying a pressure bandage to her head, his movements quick and precise. "Stay with me," he said, his voice soothing, professional. "You’re going to be okay. We’ve got you."
 
-*It’s my fault.*
+Aurora tried to speak again, but this time, a groan escaped her lips. Her eyes rolled back into her head, and she went limp.
 
-The thought was quiet, almost gentle, a whisper in the noise of the panic. It was a fact, as clear and undeniable as the blood on the ground. He had been there. He had been looking at her. He had been close enough to touch.
+The medic looked up, scanning the crowd. His eyes swept over the faces, searching for a culprit, for a threat, for an explanation. For a moment, his gaze lingered on Ethan.
 
-And now, she was broken.
+Ethan looked away. He couldn’t meet the man’s eyes. He couldn’t look at the woman on the ground. He pulled his hands out of his pockets, his fingers trembling violently. He pushed forward, forcing his legs to move, stepping over the cracks in the pavement, stepping into the gap left by the receding crowd.
 
-The paramedics arrived, their sirens wailing, their lights flashing in the darkened venue. They moved with a speed that belied their fear, their hands steady as they worked on Aurora. They were using standard medical equipment, gauze and bandages, splints and needles. They were not using any special tools, no devices designed to handle a superhero. They were treating her like a human.
+He walked away.
 
-Ethan watched them work.
+He did not run. Running would draw attention. Running would mean he was guilty. He walked with a steady, deliberate pace, his eyes fixed on the floor, on the concrete, on the cracks that Aurora had made. He moved through the parting sea of bodies, the whispers following him like a trail of dust.
 
-He watched them struggle to stop the bleeding. The gauze turned red, then dark, then black. The blood kept coming, a steady stream that no amount of pressure could stop. One of the paramedics looked up, his face grim, and shouted something to the others. Ethan couldn’t hear the words, but he could see the confusion in his eyes.
+He reached the edge of the crowd. The security barriers were still there, a wall of steel and wire. He paused, looking back. The medics were surrounding Aurora, their yellow vests a bright, ugly spot of color against the grey pavement. The crowd was closing in again, a wall of faces, of phones, of lenses.
 
-They were trying to use a tourniquet. It wasn’t working. The blood was coming from too many places, from a wound in her side, from a cut on her forehead, from a gash on her arm. She was bleeding out, and they couldn’t stop it.
+Ethan turned and walked toward the exit.
 
-Ethan’s hands were trembling.
+The air outside was cool, carrying the scent of ozone and wet pavement. The street was empty, the morning rush having paused to watch the spectacle. A few people stood on the sidewalk, their phones out, recording the scene. They looked at him as he passed, but they didn’t stop him. They didn’t know who he was. They didn’t know what he had done.
 
-He took them out of his pockets. They were shaking, his fingers curled into fists, his nails digging into his palms. He could feel the pain, a sharp, bright sting that grounded him, that kept him from floating away into the panic.
+He walked until the sound of the crowd faded, until the vibration in his teeth stopped, until the world felt solid again. He stopped on a corner, leaning against a brick wall, his breath coming in short, shallow gasps.
 
-*It’s my fault,* he thought again. *I did this.*
+He looked at his hands. They were clean. They were pale. They were his.
 
-The paramedics finally got her onto a stretcher. They moved quickly, their movements efficient, professional. They loaded her onto the stretcher, then onto the ambulance. The doors closed, the sirens wailing, and the vehicle sped away, leaving a trail of dust and noise in its wake.
-
-The crowd was still there.
-
-They were standing in the street, looking at the spot where Aurora had fallen. They were quiet now, the panic replaced by a stunned silence. They were looking at the blood on the ground, at the torn fabric of her suit, at the broken bones that were visible through the skin.
-
-Ethan looked at them.
-
-They didn’t know. They didn’t know it was his fault. They didn’t know that he was standing right there, that he was the one who had caused it.
-
-He felt a surge of relief, followed immediately by a wave of nausea.
-
-He turned and walked away.
-
-He didn’t run. He didn’t look back. He just walked, his feet moving mechanically, his eyes fixed on the pavement in front of him. He walked until he was out of the venue, out of the crowd, out of the city. He walked until he was alone, until the sound of the sirens was a distant memory, until the noise of the crowd was a whisper in his ear.
-
-He walked until he was home.
-
-He locked the door behind him, the click of the latch echoing in the hallway. He stood there, in the dark, in the silence, in the quiet.
-
-He didn’t turn on the lights.
-
-He didn’t take off his jacket.
-
-He just stood there, in the dark, in the silence, in the quiet.
-
-And he waited for the guilt to kill him.
-
-It didn’t.
-
-He walked to the kitchen, turned on the tap, and filled a glass. He drank the water, the cold, clean taste of it soothing the dryness in his throat. He put the glass down, and he looked at the Lens dock on the table.
-
-It was black. It was inert.
-
-He picked it up.
-
-He put it back down.
-
-He picked it up again.
-
-He put it back down.
-
-He couldn’t do it. He couldn’t check. He couldn’t see. He couldn’t know.
-
-He sat down at the table, and he waited.
-
-He waited for the phone to ring.
-
-He waited for the door to knock.
-
-He waited for the world to end.
-
-It didn’t.
-
-The phone didn’t ring. The door didn’t knock. The world didn’t end.
-
-Ethan sat in the dark, in the silence, in the quiet, and he waited for the guilt to kill him.
-
-And it didn’t.
-
-He got up. He went to the bathroom. He washed his face. He looked in the mirror.
-
-The man in the mirror looked tired. He looked scared. He looked like a man who had seen something he couldn’t explain and had decided, for the sake of his sanity, to pretend it hadn’t happened.
-
-He turned off the light.
-
-He went to bed.
-
-He slept.
-
-And in the morning, the sun came up.
+And for the first time in his life, he was not sure if that was a comfort or a curse.
