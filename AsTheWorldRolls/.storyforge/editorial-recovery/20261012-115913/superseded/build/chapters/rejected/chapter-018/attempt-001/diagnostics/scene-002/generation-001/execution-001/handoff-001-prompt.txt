@@ -1,0 +1,131 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 18.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":18,"ViewpointCharacterId":"Elias Thorne","Objective":"Finalize the contract terms with Silas Vane, gather necessary supplies and local information, and prepare the party for the caravan escort, including addressing the party\u0027s internal dynamics and the specific challenges of the route.","IntendedChange":"The party transitions from \u0027negotiators\u0027 to \u0027active contractors,\u0027 securing the final contract, acquiring supplies, and establishing a clear plan of action for the escort, while addressing the internal tensions and external pressures that arise from their new role.","PacingPosture":1,"ProhibitedPatterns":["Do not resolve the escort mission or encounter Blight-Touched entities on the road; this chapter is strictly preparation.","Do not have the party leave the town or begin the journey; the chapter ends with them ready to depart.","Do not introduce a new rival adventurer group or a second major threat beyond the contractual complications.","Do not force a romantic or sexual encounter between any party members; keep interactions professional and collaborative.","Do not have Kaelen lose control of his gauntlet or suffer a magical backlash; his state is stable and dormant."],"Scenes":[{"Sequence":1,"Purpose":"Negotiate the final contract terms with Silas Vane, resolving the dispute over the additional merchant clause and establishing the payment structure.","IntendedChange":"The party secures a signed contract for the primary escort with a fair payment rate, rejecting the secondary clause to maintain focus, and establishes a professional working relationship with Vane.","FocusCharacterIds":["Elias Thorne","Silas Vane"]},{"Sequence":2,"Purpose":"Analyze the caravan route and Blight activity patterns using Elara\u0027s scholarly expertise to identify strategic advantages and mitigation strategies.","IntendedChange":"The party discovers that Blight activity is cyclical and peaks at specific times, allowing them to plan their movements and rest stops accordingly, and Elara\u0027s insights are integrated into the tactical plan.","FocusCharacterIds":["Elara","Elias Thorne"]},{"Sequence":3,"Purpose":"Gather necessary supplies and local information from the market, addressing logistical needs and internal tensions over resource allocation.","IntendedChange":"The party acquires essential supplies (water, herbs, rations) and local intelligence, with Torin leading the logistical organization and Maren providing tactical input, reinforcing their collaborative dynamic.","FocusCharacterIds":["Torin","Maren"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Analyze the caravan route and Blight activity patterns using Elara\u0027s scholarly expertise to identify strategic advantages and mitigation strategies.","IntendedChange":"The party discovers that Blight activity is cyclical and peaks at specific times, allowing them to plan their movements and rest stops accordingly, and Elara\u0027s insights are integrated into the tactical plan.","FocusCharacterIds":["Elara","Elias Thorne"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Gather necessary supplies and local information from the market, addressing logistical needs and internal tensions over resource allocation.","IntendedChange":"The party acquires essential supplies (water, herbs, rations) and local intelligence, with Torin leading the logistical organization and Maren providing tactical input, reinforcing their collaborative dynamic.","FocusCharacterIds":["Torin","Maren"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":18,"CompletedSceneSequence":1,"Location":"Tavern booth inside the city","TimeContext":"Evening, immediately after Silas Vane departs","PresentCharacterIds":["Elias Thorne","Maren","Elara","Kaelen"],"PhysicalConditions":["Contract signed and sealed with Silas Vane","Payment structure finalized (standard rates, no mid-journey markups)","Route planning initiated on a city map sketch","Discussion ongoing regarding unidentified creature near gates and Blight activity patterns","Kaelen\u0027s gauntlet is cold and dormant"],"KnowledgeEstablished":["Silas Vane agrees to standard rates for escort services and goods without markups on basic rations or weapons","Contract includes a clause prohibiting rate increases mid-journey unless agreed in advance","Blight activity is suspected to be cyclical, dependent on moon phase and valley energy levels","Unidentified creature near gates is likely Blight-Touched and will follow predictable patterns once analyzed"],"DecisionsMade":["Party rejects secondary merchant clause to maintain focus on primary escort terms","Party agrees to pay upfront for supplies contingent on Silas keeping his word","Party decides to finalize purchase order at Silas\u0027s campsite near the riverbank tomorrow morning","Party commits to analyzing route and Blight patterns before departing"],"PossessionChanges":["Signed contract secured by Elias Thorne","City map sketch utilized for route plotting"],"RelationshipChanges":["Professional partnership established between the party and Silas Vane","Internal tension regarding resource allocation resolved through collaborative planning"],"CompletedActions":["Negotiation of contract terms with Silas Vane","Signing of the official partnership agreement","Departure of Silas Vane from the tavern","Initiation of route mapping and threat analysis by Elara and Elias","Discussion of the creature spotted near the gates"],"UnresolvedImmediateAction":"Elara and Elias are actively tracing the main road on a city map to determine daily travel distance and resting stops, while Maren questions the nature of the creature near the gates.","ContinuationPosition":"The party remains seated in the tavern booth. Silas Vane has exited the building. The group is transitioning from contract negotiation to tactical planning, with Elias sketching the route on parchment and Elara consulting her journal on Blight patterns.","ProhibitedRepetition":["Do not repeat the specific dialogue regarding \u0027stubbornness\u0027 or the initial tension of the negotiation.","Do not re-describe the signing of the contract or the departure of Silas Vane.","Do not re-state the finalized terms of the payment structure."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Elara pushed her journal across the table, the leather cover worn smooth from constant handling. The parchment beneath was spread out on the rough wood, marked with Elias’s charcoal sketch of the road northward. It wasn’t a perfect map; there were no borders or compass roses, just a series of squiggly lines representing terrain and dotted connections where they’d heard rumors of safe passages.
+
+“Look here,” Elara said, pointing to a cluster of ink smudges near the valley pass. “The Blight isn’t random. It follows a cycle.”
+
+Elias leaned forward, his eyes tracing the diagram. He hadn’t expected her to have already synthesized the scattered reports they’d gathered over the past few days into such a coherent pattern. The tavern noise seemed to fade as he studied the symbols she’d drawn—circles of varying sizes connected by lines that spiraled outward from a central point labeled *Valley Core*.
+
+“Cyclical,” he repeated, testing the word in his mouth. “Like tides or seasons.”
+
+“Exactly,” Elara confirmed, tapping a finger against the page. “The Blight draws strength from the valley’s ley lines. Those lines pulse with residual magic—what we called ‘energy’ earlier. When the moon is full, the ley lines amplify. That’s when the creatures are most active. But there’s a lull between cycles.”
+
+She traced a spiral on her diagram, showing how the Blight activity peaked at specific intervals before receding into relative dormancy. “If we time our departure correctly, we can cross the pass during the low point. And if we need to rest overnight, we can choose locations that minimize exposure.”
+
+Elias nodded slowly, committing the information to memory. It was useful intelligence, practical and actionable. But he also sensed Elara’s hesitation; she wasn’t just sharing data—she was proposing a strategy that required trusting her analysis completely.
+
+“Where does this leave us?” he asked, his voice steady despite the weight of the implication. “If we wait for the lull, how long do we stay in the city?”
+
+Elara didn’t answer immediately. Instead, she flipped through her journal, pulling out a separate sheet filled with calculations and observations about moon phases and magical resonance frequencies. She tapped a particular section marked *Next Peak Activity: 4 Days*. Then another one labeled *Low Point Window: 2–3 Days*.
+
+“Two to three days,” she said finally. “We could leave tomorrow if we want to push through before the next surge. Or we wait, secure our supplies, and depart when the activity dips. It’s a trade-off.”
+
+Maren interjected from across the table, her arms crossed over her chest. “Waiting means eating less, moving slower, and giving Silas Vane more time to double-cross us if he ever feels like it.”
+
+Elias glanced at her sharply. “He signed the contract,” he reminded her. “And he’s not known for betrayal.”
+
+Maren rolled her eyes, though there was a hint of concern in her tone. “Nothing’s foolproof, Elias. We need to weigh the risks carefully.”
+
+Kaelen, who had been silent throughout the discussion, finally spoke up. “What about the creature near the gates?” he asked. “Is it part of the cycle too?”
+
+Elara nodded. “Likely. The Blight-Touched are drawn to disturbances in the ley lines. If we can avoid triggering anything major while we’re in the city, we should be fine. But if someone tries to provoke a reaction—like attacking a patrol or setting off traps—we might wake the entire valley.”
+
+She paused, then added, “That’s why we need to keep our movements low-key tonight. No flashy displays of power, no unnecessary confrontations. Just quiet preparation.”
+
+Elias considered her words, then looked at Elias’s sketch again. The route was simple enough to memorize, but the timing was the real challenge. They couldn’t afford to linger in the city indefinitely, yet they also couldn’t rush blindly into danger. It was a delicate balance.
+
+“Alright,” he said finally. “We’ll stick with Elara’s plan. Two to three days in the city, then we move out during the low point.” He turned to Maren. “And if Silas tries anything, we deal with it directly. No second-guessing contracts or playing games.”
+
+Maren nodded, her expression softening slightly. “Agreed. But let’s make sure we’re ready for whatever comes next.”
+
+Elara smiled faintly, closing her journal. “Ready is relative,” she muttered. “But we’ll do our best.”
+
+Elias chuckled softly, standing up and stretching his arms above his head. The tension in the room had eased considerably since Silas’s departure, replaced by a sense of purpose that felt almost refreshing after hours of negotiation. They weren’t just adventurers anymore—they were a team with a shared goal and a plan to achieve it.
+
+“Let’s get some rest,” he said, heading toward the door. “We’ll need to be sharp tomorrow.”
+
+As they filed out of the booth, leaving Silas’s contract behind on the table alongside their city map sketch, Elias couldn’t help but feel a flicker of pride. They’d navigated a complex situation with minimal conflict, secured necessary resources, and laid out a clear path forward. It wasn’t perfect—there were still unknowns ahead—but it was progress.
+
+Outside, the evening air was cool and crisp, carrying the faint scent of woodsmoke from nearby chimneys. The city streets were quieter now that most patrons had retired to their rooms or left for home. Elias glanced back at the Gilded Tankard one last time before turning toward the innkeeper’s courtyard, where a few lanterns still burned bright against the twilight.
+
+“Hey,” he called out to Maren as they walked side by side. “How’s your side feeling?”
+
+She shrugged, wincing slightly as she shifted her weight. “Still sore, but manageable. Thanks for checking.”
+
+“No problem,” Elias replied. “Just make sure you stretch before bed tonight.”
+
+Maren laughed softly, shaking her head. “You’re too sweet sometimes, Elias.”
+
+They continued walking, passing groups of patrons heading back to their lodgings or heading out for late-night drinks. The city felt alive yet peaceful, a stark contrast to the chaos they’d faced earlier that day. For now, all that mattered was getting enough rest before facing whatever challenges awaited them tomorrow.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

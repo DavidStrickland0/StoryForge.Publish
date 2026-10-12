@@ -1,0 +1,137 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 17.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":17,"ViewpointCharacterId":"Elias Thorne","Objective":"Enter the \u0027Gilded Tankard\u0027 tavern, establish the party\u0027s reputation through a display of competence and wit, and initiate negotiations with the merchant, Silas Vane, for a caravan escort contract.","IntendedChange":"The party transitions from a group of weary, battle-scarred survivors into recognized, professional adventurers by securing a verbal agreement to discuss terms, while establishing the tavern as a hub of information and social pressure.","PacingPosture":1,"ProhibitedPatterns":["Do not resolve the final contract terms or payment details, which are reserved for Chapter 18.","Do not have the party depart the tavern or begin the escort, which is reserved for Chapter 19.","Do not reveal the specific hidden dangers of the route or the full nature of the sealed crate\u0027s target status beyond the initial discovery.","Do not force a violent confrontation or death to establish competence; use social and tactical wit instead.","Do not treat the previous failed draft\u0027s specific sequence of events as accepted canon; create a new causal path to the same narrative goals."],"Scenes":[{"Sequence":1,"Purpose":"The party enters the Gilded Tankard and navigates the tavern\u0027s strict hospitality code, where a minor disruption by a drunk patron is resolved through Maren\u0027s physical presence and Kaelen\u0027s controlled, non-threatening display of the gauntlet\u0027s dormant state, establishing their competence without violence.","IntendedChange":"The party is seated and served, gaining the tavern keeper\u0027s respect and access to the room\u0027s social dynamics, while Kaelen successfully projects calm rather than power, easing the immediate social tension around his magic.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen"]},{"Sequence":2,"Purpose":"Elias engages in initial negotiations with Silas Vane, who presents unfair liability clauses and tests the party\u0027s willingness to bend, while a rival adventurer group spreads rumors of the party\u0027s incompetence, forcing Elias to assert his authority and negotiate a compromise that preserves their dignity.","IntendedChange":"The dynamic shifts from adversarial suspicion to a tentative professional alliance, with Vane agreeing to a formal meeting the next morning to finalize terms, and the party establishing a reputation as \u0027difficult but competent\u0027 in the tavern.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Torin"]},{"Sequence":3,"Purpose":"The party accesses the tavern\u0027s information network, trading coin for rumors about the caravan route, and discovers that the caravan includes a sealed crate of \u0027pure\u0027 water from the temple springs, which is highly valuable and a target for Blight-Touched entities, while Maren subtly shields Kaelen from social scrutiny, reinforcing their bond.","IntendedChange":"The party gains critical intelligence about the caravan\u0027s cargo and the local threats, while Maren\u0027s protective stance shifts from \u0027restrainer\u0027 to \u0027social shield,\u0027 and the party is left in a position of strength with a verbal agreement and new knowledge.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen","Elara"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The party accesses the tavern\u0027s information network, trading coin for rumors about the caravan route, and discovers that the caravan includes a sealed crate of \u0027pure\u0027 water from the temple springs, which is highly valuable and a target for Blight-Touched entities, while Maren subtly shields Kaelen from social scrutiny, reinforcing their bond.","IntendedChange":"The party gains critical intelligence about the caravan\u0027s cargo and the local threats, while Maren\u0027s protective stance shifts from \u0027restrainer\u0027 to \u0027social shield,\u0027 and the party is left in a position of strength with a verbal agreement and new knowledge.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen","Elara"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":17,"CompletedSceneSequence":2,"Location":"Gilded Tankard tavern (corner booth)","TimeContext":"High noon / Daytime","PresentCharacterIds":["Elias Thorne","Maren","Kaelen","Elara","Silas Vane"],"PhysicalConditions":["Party is seated at the corner booth after resolving a confrontation with rival adventurers.","Rival adventurer group has departed the tavern area.","Silas Vane is standing near the party\u0027s table, having just concluded his pitch and arranged a meeting for tomorrow morning.","Tavern atmosphere remains loud but the immediate social tension around the party has dissipated."],"KnowledgeEstablished":["The rival adventurers\u0027 claims of incompetence were dismissed as unproven opinions by Silas Vane.","Silas Vane confirmed that refusing entry to untested adventurers is standard merchant procedure, validating Maren\u0027s earlier actions.","The party has secured a verbal agreement to meet Silas Vane at his campsite near the riverbank tomorrow morning to finalize terms.","Elara is present and reading a journal while Kaelen exchanges glances with her."],"DecisionsMade":["Elias decided to address the rival rumors directly but allowed Silas to handle the de-escalation.","Maren chose to verbally defend the party\u0027s tactical choices regarding the drunk patron incident.","The party accepted Silas Vane\u0027s offer of a formal meeting tomorrow morning.","Torin decided to leave the booth area to prepare for heading outside."],"PossessionChanges":[],"RelationshipChanges":["Silas Vane has shifted from a potential client to an active ally who defended the party against rivals.","Maren\u0027s authority and competence were publicly reinforced by Silas\u0027s agreement with her assessment of bravery.","The rival adventurer group has positioned themselves as temporary antagonists who have retreated without immediate conflict."],"CompletedActions":["Elias wiping gravy from his chin","Silas Vane presenting a scroll of goods and maps","Confrontation with the rival adventurers regarding rumors of incompetence","Maren defending the party\u0027s tactical approach to the drunk patron incident","Silas Vane dismissing the rivals\u0027 claims as unproven","Rival adventurers threatening to return after gathering information from the Watchfort and departing","Elias thanking Silas Vane for his assistance","Silas Vane arranging the meeting for tomorrow morning at the riverbank campsite","Torin preparing to head outside"],"UnresolvedImmediateAction":"Torin is preparing to leave the booth area to go outside, while Elias and Maren remain seated with Silas Vane discussing the finalized arrangement for tomorrow\u0027s meeting.","ContinuationPosition":"The party is seated at their corner booth in the Gilded Tankard. Silas Vane has just finished explaining the terms for their meeting tomorrow morning near the riverbank. Torin is standing up and moving toward the tavern entrance to exit, while Elias and Maren remain seated.","ProhibitedRepetition":["The initial entry into the tavern","The resolution of the drunk patron incident","The consumption of the meal","The specific dialogue regarding the innkeeper\u0027s upselling attempts","The detailed exchange between Silas Vane and the rival adventurers regarding the definition of bravery"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Torin stepped out into the warm afternoon air, leaving the clamor of the Gilded Tankard behind him. He found a patch of sun-drenched cobblestones near the entrance where he could lean against the wall and watch the dust motes dance in the light. The tavern’s noise was a familiar comfort now—clattering tankards, raucous laughter, the clink of cutlery against ceramic plates—but inside, the atmosphere still hummed with residual tension from the rival adventurers.
+
+Inside, Elias sat back in his booth, wiping gravy from his chin with the back of a gloved hand. Maren remained seated beside him, her posture relaxed but alert, eyes scanning the room without focusing on any single point. Elara was deep in her journal, though she occasionally glanced up to exchange a glance with Kaelen, who sat quietly across from Elias, his brass gauntlet dark and still as it had been since the shrine.
+
+“Alright,” Elias said softly, leaning forward slightly. “Torin’s out. We’re alone for a few minutes.” He turned his gaze toward the window, watching the dust swirl outside. “We need information about the caravan route. Specifically, what’s in that sealed crate Silas mentioned.”
+
+Elara closed her journal with a soft snap. She had been scanning the room as well, though she kept her attention on Elias rather than the other patrons. “The tavern keeps,” she said, “have access to certain rumors through their regulars and the local watch. But we’ll need coin to pay for that kind of intel.”
+
+Elias nodded, pulling a small pouch from his belt and counting out three copper pieces. “Three coppers should be enough to buy a whisper or two. If they want more, we can negotiate later.” He slid the coins across the table toward Elara. “Get us something about the caravan, especially anything about the sealed crate.”
+
+Elara studied the coins briefly before pocketing them. She stood up and moved toward the bar area, where she had a contact—a nervous-looking young man with ink-stained fingers and a perpetually anxious expression. He nodded when she approached, his eyes darting around the room as if expecting trouble.
+
+“Tell us about the caravan,” Elara said quietly, keeping her voice low enough not to attract attention from nearby patrons. “What’s in that crate? Why is it sealed?”
+
+The young man shifted uncomfortably, glancing at the barkeep before lowering his voice. “It’s pure water,” he whispered back. “From the temple springs. The monks say it’s holy, but everyone knows it’s worth a fortune. People will kill for it.” He paused, then added, “And there are… things following it. Things that don’t belong here. They’ve been watching us since we left the watchfort.”
+
+Elias leaned forward slightly, his expression unreadable. “Who sent them?” he asked.
+
+The young man hesitated, then shook his head. “I don’t know. Maybe the Blight itself. Or maybe someone who wants to use it for something else.” He glanced at the door, as if expecting an intruder. “Don’t trust the caravan masters. They’re hiding something from you.”
+
+Maren stood up silently and moved closer to Elara, placing a hand on her shoulder without breaking eye contact with the barkeep. Her presence was subtle but unmistakable—a quiet assertion that they were not alone, that someone would watch their backs if needed. The young man flinched slightly at her proximity, then quickly composed himself.
+
+“Thank you,” Elara said softly after the exchange. She pocketed the coins and returned to the booth. “They’re tracking it. And they’re dangerous.”
+
+Elias nodded, his jaw tightening. “We’ll need to be ready when we meet Silas Vane tomorrow. If the caravan’s cargo is that valuable, someone else will want it too.” He looked at Maren, who gave him a small nod of agreement. “What do you think?”
+
+Maren crossed her arms over her chest, her expression thoughtful. “It’s a trap,” she said finally. “Someone wants to steal the water, and they’ve been watching us since we left the watchfort. If Silas knows about this, he’ll either give it to us—or try to take it himself.”
+
+Elias nodded again. “We’ll need to decide what to do when we meet him tomorrow. Do we trust him? Do we go into his camp alone?” He turned to Elara. “Elara, can you tell me more about the temple springs? Where are they located?”
+
+Elara pulled out her journal and flipped through a few pages. “They’re northeast of here,” she said, pointing to a rough sketch on the map. “Near the old stone arches. The monks guard them fiercely. If someone’s targeting the water, they’ve already broken into the monastery.”
+
+Elias frowned. “That means the Blight is closer than we thought.” He looked at Kaelen, who was watching the barkeep intently. “Kaelen, can you feel anything from out there? Any signs of Blight nearby?”
+
+Kaelen shook his head slowly. “Not directly,” he said. “But the air feels… heavy. Like something’s moving through the land.” He paused, then added, “Maybe we should bring Torin back in. He could keep an eye on things while we plan our next move.”
+
+Maren nodded silently, stepping toward the door to call him back inside. “He’s right,” she said as she opened it. “We need all hands on deck.”
+
+Torin stepped back into the room just as Maren reached for the handle. He looked around briefly before joining the group at the booth. “What’s going on?” he asked, his tone casual but alert.
+
+Elias summarized the situation quickly, explaining about the sealed crate and the threats following them. Torin listened carefully, his expression darkening as he absorbed the details.
+
+“Alright,” he said finally. “If someone’s been watching us since we left the watchfort, then we need to be ready for anything. Let’s get our gear packed and head out tomorrow morning.” He glanced at Elara. “Did you get anything else from the barkeep?”
+
+Elara nodded, pulling her journal back into her satchel. “Just that the caravan masters are hiding something from us,” she said. “We’ll need to decide what to do when we meet Silas Vane tomorrow.”
+
+Elias stood up, gathering his cloak and weapons. “Let’s wrap this up,” he said. “Torin, take point on the way back to the riverbank. We’ll need to move early tomorrow morning if we’re going to catch the caravan before anyone else does.”
+
+Maren followed close behind him, her hand resting lightly on Kaelen’s shoulder as they left the booth area. Outside, the sun was beginning to dip lower in the sky, casting long shadows across the cobblestones. The tavern’s noise faded into the distance, replaced by the soft sounds of evening settling over the city.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate decision 'The party agreed to meet Silas Vane at his campsite near the riverbank tomorrow morning to finalize terms.' repeats completed action from Chapter 17, Scene 2: 'Silas Vane arranging the meeting for tomorrow morning at the riverbank campsite'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.

@@ -188,16 +188,16 @@
 
 - The watchfort walls are thick, pitted by wind and rain, and have slit-like windows.
 
-## Changes Over Time
+## Rebuilt continuation: Chapters 15-18
 
-- The barrier previously flickered and weakened; it now stands steady, strong, and does not flicker or dim.
-
-
-- Kaelen's gauntlet previously hummed with a sick, erratic vibration; it is now still, cold, and heavy, with dormant runes.
-
-
-- The barrier was previously described as flickering and weakening; it is now established that it strengthens and grows brighter when Blight entities attack it, as it consumes them.
-
-
-
-- The barrier previously flickered and weakened; it now stands stronger after absorbing the Blight.
+- Chapters 1-14, ending with The Gate of Silence, are immutable. The prose is authoritative over summaries and earlier projections.
+- The quartz breaks during the stronger pull in Chapter 15. The party tests three fragments in the existing groove and uses stone wedges and a leather sling to hold their angles; this is an observed local repair, not a universal new magic system.
+- The consuming barrier remains at the temple across the valley. It does not move to the shrine or expand around the party.
+- In Chapter 16, a creature in the ditch briefly diverts the feed. Restoring the fragment angle redirects the feed to the temple; the creature loses cohesion.
+- The local reservoir pressure ceases, the note is withdrawn without a surge, and the narrowed groove remains closed after the party leaves. This does not establish that all Blight everywhere is destroyed or the enormous silhouette is dead.
+- All five return to the watchfort in 17. Injuries receive ordinary treatment; the report and diagrams transfer responsibility to independent observers.
+- Independent watches corroborate the steady barrier and absent renewed feed in 18. The city remains restricted pending inspection.
+- At the ending, the companions have food and rooms at the Gilded Tankard outside the watchfort. Maren has a replacement hammer haft; Elias keeps the bronze map after copies are checked; Kaelen may leave his gauntlet unworn; Elara retains the chisel and notes. Working quartz shards remain at the shrine.
+- The forest keeper's nature remains uncertain, but it is not an unresolved rescue, immediate threat, or cliffhanger. The characters explicitly distinguish unfinished knowledge from unfinished work.
+- The superseded Silas Vane, Temple Springs cargo, alchemist contract, sulfur paste repellent, lunar-cycle theory, and caravan departure are not part of the rebuilt Chapters 15-18 and must not be carried forward as canon.
+- Episode One is complete at 18. No next chapter, successor adventure, or new episode is authorized by an unused arc slot.

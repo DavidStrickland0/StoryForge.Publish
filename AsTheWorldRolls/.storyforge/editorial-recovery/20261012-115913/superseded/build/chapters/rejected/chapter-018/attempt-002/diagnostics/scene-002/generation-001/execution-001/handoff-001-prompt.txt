@@ -1,0 +1,141 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 18.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":18,"ViewpointCharacterId":"Elias Thorne","Objective":"Finalize the contract terms with Silas Vane, gather necessary supplies and local information, and prepare the party for the caravan escort, including addressing the party\u0027s internal dynamics and the specific challenges of the route.","IntendedChange":"The party transitions from \u0027negotiators\u0027 to \u0027active contractors,\u0027 securing the final contract, acquiring supplies, and establishing a clear plan of action for the escort, while addressing the internal tensions and external pressures that arise from their new role.","PacingPosture":1,"ProhibitedPatterns":["Copying verbatim prose or sentence structures from Chapter 17, particularly the descriptions of the tavern noise, the rival adventurers\u0027 dialogue, or the specific phrasing of the initial negotiation.","Replaying the drunk patron incident or the initial introduction of Silas Vane.","Using the \u0027mosaic frequency\u0027 or \u0027quartz shard\u0027 mechanics from the Blight prelude as a solution to the current logistical or contractual problems.","Introducing a new Blight-Touched entity attack or a sudden magical surge during the preparation phase.","Having the party depart the tavern or leave the city within this chapter."],"Scenes":[{"Sequence":1,"Purpose":"Negotiate the final contract terms with Silas Vane, specifically resolving the dispute over the additional clause for a second merchant group and establishing the payment structure.","IntendedChange":"The party secures a written contract that focuses on the primary caravan escort, with a fair payment rate and a clear liability limit, while Vane agrees to provide the detailed route map and local intelligence in exchange for their signature.","FocusCharacterIds":["Elias Thorne","Silas Vane","Maren"]},{"Sequence":2,"Purpose":"Analyze the route map and local intelligence to identify specific Blight activity patterns and logistical bottlenecks, integrating Elara\u0027s scholarly insights with the party\u0027s tactical needs.","IntendedChange":"The party discovers that Blight activity is cyclical and peaks at specific times of day, allowing them to plan their movements and rest stops accordingly, while Elara and Elias establish a collaborative dynamic where her theoretical knowledge is valued as a strategic asset.","FocusCharacterIds":["Elara","Elias Thorne","Kaelen"]},{"Sequence":3,"Purpose":"Organize the acquisition of necessary supplies and equipment from the local market, addressing the party\u0027s internal tensions over resource allocation and the specific challenges of the route.","IntendedChange":"Torin and Maren collaborate on the logistical preparation, with Torin taking the lead in organizing the party\u0027s supplies and Maren providing her practical, combat-oriented insights, reinforcing their bond as a unit and establishing a clear plan of action for the escort.","FocusCharacterIds":["Torin","Maren","Elias Thorne"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Analyze the route map and local intelligence to identify specific Blight activity patterns and logistical bottlenecks, integrating Elara\u0027s scholarly insights with the party\u0027s tactical needs.","IntendedChange":"The party discovers that Blight activity is cyclical and peaks at specific times of day, allowing them to plan their movements and rest stops accordingly, while Elara and Elias establish a collaborative dynamic where her theoretical knowledge is valued as a strategic asset.","FocusCharacterIds":["Elara","Elias Thorne","Kaelen"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Organize the acquisition of necessary supplies and equipment from the local market, addressing the party\u0027s internal tensions over resource allocation and the specific challenges of the route.","IntendedChange":"Torin and Maren collaborate on the logistical preparation, with Torin taking the lead in organizing the party\u0027s supplies and Maren providing her practical, combat-oriented insights, reinforcing their bond as a unit and establishing a clear plan of action for the escort.","FocusCharacterIds":["Torin","Maren","Elias Thorne"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":18,"CompletedSceneSequence":1,"Location":"Tavern booth","TimeContext":"Evening, immediately following the negotiation with Silas Vane","PresentCharacterIds":["Elias Thorne","Maren","Elara","Kaelen"],"PhysicalConditions":["Silas Vane has departed the tavern","A written contract for the primary caravan escort is secured (with the \u0027zone of influence\u0027 clause removed)","A detailed route map on high-quality vellum is in Elias Thorne\u0027s possession","The party is seated at the table reviewing the map"],"KnowledgeEstablished":["Silas Vane agreed to provide a detailed route map and local intelligence separately from the escort contract","Blight activity patterns are implied to be significant enough that accurate mapping is critical for survival","The party has secured autonomy over their liability limits regarding secondary merchant groups"],"DecisionsMade":["Elias Thorne agreed to purchase the map separately rather than signing a contract with restrictive clauses","The party accepted Silas Vane\u0027s condition that they be billed for cleanup if the map leads them into a Blight-Touched nest","The party will review the route map before departing"],"PossessionChanges":["Elias Thorne now possesses the detailed route map and local intelligence documents","Silas Vane retains the right to bill for cleanup services if the party fails due to Blight activity"],"RelationshipChanges":["Elias Thorne and Silas Vane have established a transactional relationship based on separate contracts (map vs. escort)","Maren\u0027s trust in Elias Thorne has increased following his successful negotiation","Elara is now actively engaged in analyzing the map alongside Elias"],"CompletedActions":["Negotiation of contract terms with Silas Vane","Removal of the \u0027zone of influence\u0027 clause from the contract","Payment of a deposit for the map","Silas Vane tearing out the disputed page and handing over the remaining documents","Silas Vane leaving the tavern","Unfolding and inspecting the route map"],"UnresolvedImmediateAction":"The party is currently reviewing the detailed route map on the table, with Elara leaning in to inspect the markings.","ContinuationPosition":"Elias Thorne, Maren, Elara, and Kaelen are seated at a tavern booth. Elias holds the vellum map open on the table while Elara examines it closely. The atmosphere is quiet after Silas Vane\u0027s departure.","ProhibitedRepetition":["The initial negotiation dialogue regarding the \u0027comprehensive escort\u0027 adjectives","Maren\u0027s specific phrasing about the clause being a \u0027trap\u0027","Silas Vane\u0027s description of himself as a \u0027force of nature\u0027","The exact sequence of Elias offering coins to separate the map purchase"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The vellum was heavier than expected, its surface textured with a grain that felt almost organic under Elias’s fingertips. He smoothed it flat across the scarred wood of the table, the edges curling slightly despite the weight of the coins he’d placed on the corners. The ink was dark, precise, and smelled faintly of iron and dried rosemary—a scent that suggested Silas Vane’s cartographers were either very old or very meticulous, possibly both.
+
+Elara leaned over the map, her chin resting on her folded hands. She didn’t speak immediately. Instead, her eyes tracked the red lines that denoted the primary caravan routes, moving from the Temple Springs in the east to the market square in the city center. Her gaze was quiet, analytical, dissecting the geography before she began to interpret it.
+
+“The scale is accurate,” she said finally, her voice low. “But the annotations are… aggressive.”
+
+Elias looked up. “Aggressive?”
+
+Elara tapped a cluster of symbols near the eastern ridge. They weren’t simple warning marks; they were intricate, spiraling shapes that seemed to shift in the candlelight. “These are Blight resonance markers. Not just sightings, but measured intensity. Silas didn’t just map where the creatures are; he mapped how they move.”
+
+Kaelen, who had been resting his head against the booth’s backrest, opened one eye. “How do they move?”
+
+Elara traced a line with a slender finger, following the flow of the river that bisected the valley. “The Blight isn’t random. It’s tidal. Look here.” She pointed to a series of concentric circles drawn around a dried-up lake bed. “The activity peaks at high tide, which in this case corresponds to the moon’s position relative to the local ley lines. It’s cyclical. If we travel during the low tide windows, the creatures are dormant, or at least sluggish. But if we cross the ridge at peak resonance, we won’t just be fighting monsters. We’ll be fighting the environment itself.”
+
+Elias frowned, studying the markings. “So the danger isn’t just the distance. It’s the timing.”
+
+“Exactly,” Elara said. She pulled a small notebook from her satchel, flipping to a blank page. “I need to calculate the specific windows. The moon is in the fourth quarter tonight. If I’m reading these resonance charts correctly, we have a six-hour window of relative calm before the next surge. After that, the ridge becomes impassable without heavy magical shielding, which we don’t have.”
+
+Kaelen sat up, the gauntlet on his wrist pulsing with a faint, rhythmic light. He didn’t look at the map; he looked at Elara. “You’re sure about this? The gauntlet reacts to Blight energy. If you’re right, I should be feeling a pull right now.”
+
+Elara glanced at his wrist. “The gauntlet is a sensor, Kaelen. It tells you the strength of the field, not the direction of the flow. I’m reading the flow.” She turned back to the map, her expression focused. “The symbols here indicate a convergence point. If we stay east of the river during the peak, we’re safe. If we cross, we’re dead.”
+
+Elias looked at the map, then at Elara. There was a new quality to her presence in the room. Earlier, she had been the observer, the one who recorded. Now, she was the architect. The map was no longer just a piece of paper; it was a puzzle, and she was solving it in real-time.
+
+“Can you give us a schedule?” Elias asked. “Specific times, specific stops.”
+
+Elara nodded, already writing. “We leave at dawn. We have to be at the first waypoint by mid-morning. That’s where the resonance drops off. We rest there, let the gauntlet cool, and wait for the next low tide. Then we push through the narrow pass before the surge hits.” She paused, looking up at Elias. “It’s tight. There’s no room for error. If we’re late, or if we get stuck, the Blight will catch us.”
+
+Maren, who had been silent, stirring her ale with a spoon, spoke up. “Tight is better than dead. I can handle tight.”
+
+Elias looked at Kaelen. “Can you sustain the shielding if we need it?”
+
+Kaelen flexed his fingers, the brass plates of the gauntlet clicking softly. “I can hold a shield for a short time. But if the resonance is as high as she says, it’ll drain me fast. I’d need to recharge between surges.” He looked at Elara. “Your calculations are good? I don’t like relying on guesswork.”
+
+Elara met his gaze. “I don’t guess. I measure. And right now, the measurements say we have a path.”
+
+Elias nodded slowly. He looked at the map, tracing the route with his eyes. It was a complex dance, a choreography of movement and rest, of danger and safety. It required precision, trust, and a level of coordination that they hadn’t yet fully achieved. But they were getting there.
+
+“Elara,” he said, “you’re in charge of the timing. Kaelen, you’re in charge of the shielding. Maren, you’re in charge of the logistics. We move when I give the order, but we follow your lead.”
+
+Maren raised an eyebrow. “Logistics? I thought I was the muscle.”
+
+“You’re the muscle,” Elias said. “But muscle needs direction. And right now, Elara is the one who knows where the ground is solid.”
+
+Elara didn’t smile, but the tension in her shoulders eased. She continued writing, her stylus scratching softly against the paper. The sound was a steady rhythm, a heartbeat in the quiet tavern.
+
+Kaelen watched her for a moment, then looked at Elias. “She’s good,” he said quietly. “Maybe better than we thought.”
+
+Elias nodded. “We’re learning. That’s what we’re supposed to do.”
+
+The map lay flat on the table, the red lines glowing faintly in the dim light. The Blight was out there, prowling the edges of the valley, but for now, they had a plan. And they had the time to execute it.
+
+Elias rolled the map carefully, securing it with a leather strap. He tucked it into his pack, feeling the weight of the knowledge it held. It wasn’t just a map; it was a promise. A promise that they could survive, that they could move, that they could win.
+
+“Let’s rest,” he said. “We need to be fresh when we leave.”
+
+Maren nodded, finishing her ale. “Good idea. I’m tired of sitting.”
+
+Kaelen stood up, stretching his arms above his head. The gauntlet hummed softly, a low, reassuring sound. “I’ll keep watch for a while. You two sleep.”
+
+Elara packed her notebook, her movements precise and deliberate. “I’ll stay with the map,” she said. “Just in case.”
+
+Elias smiled, a small, tired thing. “Of course.”
+
+They settled into their seats, the silence of the tavern wrapping around them like a blanket. The noise of the other patrons faded into the background, a distant hum that seemed to belong to another world. For a moment, they were just four people, sitting in a booth, with a map and a plan.
+
+And for the first time in a long time, they felt like they knew where they were going.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

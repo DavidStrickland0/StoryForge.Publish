@@ -1,0 +1,157 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 15.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":15,"ViewpointCharacterId":"Elias Thorne","Objective":"Sustain and control the second phase of the operation already underway.","IntendedChange":"The group establishes whether increased flow is viable and makes a consequential adjustment to manage its cost or danger.","PacingPosture":3,"ProhibitedPatterns":["Repeating the decision to hold the stabilized flow for five to six minutes before raising the pitch.","Repeating the assignment of Elias to oversee Kaelen\u0027s state and report on slipping.","Repeating the instruction for Maren to keep the chisel angle steady.","Repeating the summary of the group\u0027s coordinated roles (Maren force, Elara precision, Kaelen connection, Elias oversight, Torin support).","Repeating the feeling of Kaelen being anchored by the system rather than isolated in fear."],"Scenes":[{"Sequence":1,"Purpose":"Kaelen initiates the active pull for the second phase, and the group observes the immediate physical and magical consequences of this escalation.","IntendedChange":"The Blight flow increases significantly, Kaelen begins to show signs of physical strain, and the barrier reacts to the higher volume.","FocusCharacterIds":["Kaelen","Elias Thorne","Torin"]},{"Sequence":2,"Purpose":"Elias observes the barrier\u0027s reaction to the increased flow and identifies a specific limit or warning sign that indicates the current approach is unsustainable.","IntendedChange":"Elias determines that the barrier is nearing its capacity or that the channel is destabilizing, necessitating a change in strategy.","FocusCharacterIds":["Elias Thorne","Elara"]},{"Sequence":3,"Purpose":"The group collaborates to implement a specific adjustment to the resonance mechanism to manage the cost of the increased flow, ensuring Kaelen\u0027s safety while maintaining the operation.","IntendedChange":"The group successfully adjusts the resonance to a sustainable level, stabilizing the flow and Kaelen\u0027s condition, and confirms the viability of the second phase.","FocusCharacterIds":["Maren","Elara","Kaelen","Elias Thorne"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The group collaborates to implement a specific adjustment to the resonance mechanism to manage the cost of the increased flow, ensuring Kaelen\u0027s safety while maintaining the operation.","IntendedChange":"The group successfully adjusts the resonance to a sustainable level, stabilizing the flow and Kaelen\u0027s condition, and confirms the viability of the second phase.","FocusCharacterIds":["Maren","Elara","Kaelen","Elias Thorne"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":15,"CompletedSceneSequence":2,"Location":"The valley floor surrounding the shrine fissure","TimeContext":"During the active escalation of the second phase operation; immediate aftermath of the quartz shattering and implementation of the physical blockage","PresentCharacterIds":["Kaelen","Elias Thorne","Torin","Elara","Maren"],"PhysicalConditions":["The barrier stands as a vast, flickering curtain of violet light that has dimmed slightly due to restricted flow.","The quartz stone in the fissure is shattered into dust and fragments.","The resonance mechanism has snapped off.","Kaelen is slumped against Torin\u0027s leg, eyes fluttering open but dazed, with a brass gauntlet on his wrist that is dark and cold.","Elara is recovering from shock, holding the pile of shattered quartz fragments.","Maren holds her hammer by the wooden handle, positioned to block the fissure opening.","Torin grips Maren\u0027s hammer handle to provide physical stability against the Blight pressure.","The air smells of ozone, crushed stone, and decay.","A steady, low hum emanates from the fissure instead of chaotic thrumming."],"KnowledgeEstablished":["The shattered quartz cannot sustain the operation or modulate frequency.","The barrier is designed for a trickle but is currently receiving a flood of Blight.","A physical blockage using Maren\u0027s hammer handle (wood) can temporarily restrict the intake without conducting energy.","Torin and Maren are currently holding this physical barrier in place, but they cannot maintain it indefinitely due to exhaustion and heat risks.","Stopping the flow completely will cause pressure to build behind the seal, risking catastrophic failure.","Kaelen\u0027s mental connection was severed by the snap of resonance; he is too weak to regulate the flow again immediately.","Elara lacks a functional stone or chisel to tune a new frequency."],"DecisionsMade":["Elias decided to use Maren\u0027s hammer handle as a temporary physical seal to dampen the intake.","Torin agreed to act as the anchor, holding Maren\u0027s hammer steady against the fissure.","The group agreed that they must find a new source or regulator before the pressure builds up again.","Elias ordered Elara to check her book for alternative frequencies or methods while the physical blockage is held.","The group decided to rest Maren and Torin as soon as possible, but cannot yet release the line."],"PossessionChanges":["Maren\u0027s hammer handle is now being used as a temporary barrier at the fissure edge.","Torin is currently holding Maren\u0027s hammer handle."],"RelationshipChanges":[],"CompletedActions":["Elias assessed the broken quartz and declared the need to dampen the flow.","Elara gathered the shattered quartz fragments.","Torin positioned himself to support Kaelen while monitoring for relapse.","Maren pulled her hammer from her belt.","Torin took Maren\u0027s hammer and placed the wooden handle against the edge of the fissure to block the opening.","Elias instructed Torin to hold Maren steady if the Blight pushed back or heat increased.","The group observed the flow slow and the chaotic thrumming die down to a steady hum.","Kaelen stirred and opened his eyes, reporting his mental weakness.","Elara checked her book for alternative frequencies but found none viable without a stone.","Elias proposed finding a new source or regulator while Maren and Torin hold the line."],"UnresolvedImmediateAction":"Maren and Torin are maintaining the physical blockage with the hammer handle at the fissure. Elias is instructing Elara to review her book for alternative methods, while Kaelen attempts to recover from his drained state.","ContinuationPosition":"The characters are gathered around the fissure where the quartz has shattered. Torin holds Maren\u0027s hammer handle against the edge of the violet barrier to restrict flow. Elias is speaking to Elara and Kaelen about the need for a new regulator, while the group waits for a solution before they can release the physical blockage.","ProhibitedRepetition":["Repeating the decision to hold the stabilized flow for five to six minutes before raising the pitch.","Repeating the assignment of Elias to oversee Kaelen\u0027s state and report on slipping.","Repeating the instruction for Maren to keep the chisel angle steady.","Repeating the summary of the group\u0027s coordinated roles (Maren force, Elara precision, Kaelen connection, Elias oversight, Torin support).","Repeating the feeling of Kaelen being anchored by the system rather than isolated in fear.","Repeating the description of the green light shifting from violet to amber before the shattering event.","Repeating the specific mechanics of how the quartz shattered or the initial surge occurred."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Elara knelt beside the fissure, her fingers brushing against the jagged shards of quartz that littered the stone floor. The crystal was gone, reduced to dust and splinters by the force of its own failure. She didn't weep; there was no time for tears, only a grim assessment of what had been lost and what remained possible.
+
+"We can't tune with dust," Elara said, her voice steady despite the tremor in her hands. "But... we can change the angle."
+
+She looked up at Elias, then at Maren and Torin, who were still braced against the hammer handle. The wooden shaft was a crude seal, effective but exhausting to hold. The violet light from the barrier had dimmed to a bruised purple, pulsing slowly as if breathing in rhythm with their strained efforts.
+
+Elias nodded sharply. "Elara, you're right. If we can't increase the frequency without a new stone, we have to reduce the intake. We need to make the mechanism less efficient. More resistance." He turned to Maren. "Maren, how much pressure are they taking?"
+
+"The wood is holding," Maren gritted out, her face flushed with exertion and heat radiating from the barrier's edge. "But it's warm now. The Blight isn't just smoke; it's hot. If we hold this too long, my hands will burn before the seal breaks again."
+
+"Then we need to move the blockage," Elias said. "Torin, shift your stance. Maren, step back an inch and press into the wood with your shoulder instead of your hands. Let the weight do the work. Elara, adjust the chisel angle relative to the remaining fragments. We're going to try a lower frequency—a dampening note rather than a tuning one."
+
+Elara scrambled to her satchel, pulling out a small set of steel wedges and strips of leather she'd brought for emergency repairs. "I can wedge the broken pieces into the fissure," she said. "It won't sustain resonance, but it will create turbulence in the flow. That should slow the intake enough for Kaelen to recover."
+
+Kaelen was slumped against Torin's leg, his breathing shallow and irregular. The brass gauntlet on his wrist had gone completely dark, a cold weight that no longer hummed or pulled at him. He looked like a boy who'd just run a marathon in the snow, exhausted but alive.
+
+"Can you hear it?" Elias asked softly, keeping his voice low so as not to disturb Kaelen's fragile state.
+
+Kaelen blinked, his eyes focusing slowly on Elias's face. "Hear what?"
+
+"The stream," Elias said. "Is it still there? Or has the flow stopped?"
+
+Kaelen listened for a moment, his ears straining against the background hum of the valley. Then he nodded. "It's... quieter now. Like someone turned down the faucet." He shifted slightly, wincing as his muscles protested. "But I can still feel it in my head. It's not pulling anymore. It's just... waiting."
+
+"Good," Elias said. "That's progress. Elara, show me the wedge placement."
+
+Elara worked quickly, jamming the steel wedges into the fissure alongside the shattered quartz. The metal scraped against the stone, sparking faintly in the dim light. Maren and Torin adjusted their positions, using their bodies to create leverage against the wooden handle. The barrier's light flickered as they altered the flow dynamics, the violet glow shifting to a duller shade of indigo.
+
+"You're doing it," Elara murmured, watching the reaction in the fissure. "The turbulence is creating drag. The Blight is backing up slightly. Look at Kaelen—he's stabilizing."
+
+Kaelen took a deep breath, his chest rising and falling more evenly now. The gauntlet remained cold, but the pressure in his mind had eased. He could think clearly again, his fear replaced by a strange sense of relief. "It feels different," he said, his voice rough from disuse. "Like the water is thinner now. Less heavy."
+
+"Because it is," Maren said, wiping sweat from her brow. "We're throttling the intake. But we can't hold this forever either. The wood will warp if the heat gets too high."
+
+Elias watched the barrier intently, his eyes narrowing as he assessed the light's behavior. "How long can we maintain this?"
+
+"Maybe twenty minutes," Maren said, testing the grip on the hammer handle. Her knuckles were red where the heat was beginning to seep through. "After that, we'll need a new solution."
+
+"Elara, check your book again," Elias said. "Is there any way to make the quartz fragments work as a temporary regulator? Even if they can't sustain resonance, maybe they can modulate the flow somehow?"
+
+Elara studied the shards in her hand, turning them over in the light. The crystal was shattered, but not beyond use entirely. Some of the larger pieces still had their natural facets intact. "I might be able to arrange them in a specific pattern," she said slowly. "If we place them so they catch the flow and redirect it back into the fissure, we could create a kind of internal dam. It won't increase efficiency, but it will give us more control."
+
+"That's worth trying," Elias said. "Torin, Maren—can you hold this for five more minutes? We need to test the wedge arrangement before the heat becomes a problem."
+
+They nodded, their grips tightening on the hammer handle and the fissure's edge. The barrier hummed steadily now, a deep, resonant tone that seemed to vibrate in their bones rather than their ears. The violet light pulsed in time with Kaelen's breathing, almost as if the system had found a new rhythm.
+
+Elara positioned the quartz shards carefully, aligning them so that each piece caught a portion of the incoming Blight and reflected it inward. The effect was immediate: the flow slowed further, the violet light dimming to a soft, steady glow. The heat radiating from the fissure lessened, making it easier for Maren and Torin to hold their positions.
+
+"It's working," Elara said, her voice filled with cautious optimism. "The shards are creating enough resistance to keep the flow manageable. We can maintain this for another ten minutes or so."
+
+Kaelen sat up slightly, leaning on Torin's shoulder. The gauntlet was still cold, but his mind felt clear again. He could focus on the task ahead, no longer burdened by the fear of losing control. "This is... different from before," he said quietly. "The Blight isn't attacking us anymore. It's just flowing through us, like water through a pipe."
+
+"Because we've made ourselves less efficient," Elias explained. "We're creating resistance. That gives Kaelen time to recover and the barrier time to stabilize."
+
+Maren nodded, her breathing slowing as the heat receded. "I can hold this longer now. The wood isn't burning through my hands anymore."
+
+Torin shifted his stance, using his body weight to anchor the hammer handle more securely against the fissure. "Good," he said, his voice calm and steady. "We have time to think about what comes next."
+
+Elias watched the barrier, noting how the light had settled into a consistent pattern. The chaotic thrumming was gone, replaced by a steady hum that seemed almost peaceful in its regularity. "Elara, can you explain this arrangement?" he asked. "How does it work exactly?"
+
+Elara pointed to the way the quartz shards were positioned. "Each piece catches a portion of the flow and redirects it back into the fissure," she said. "It's like creating a series of internal baffles. The Blight hits them, loses some momentum, and is forced to slow down before reaching the barrier surface."
+
+"Smart," Torin said approvingly. "I'd never have thought of arranging broken crystal like that."
+
+"It's basic physics," Elara replied modestly. "Just applied in an unusual way."
+
+Kaelen watched the shards with interest, his curiosity overcoming his exhaustion. "It's... elegant," he murmured. "Like fixing a broken instrument by rearranging its strings instead of replacing them entirely."
+
+Elias smiled faintly at Kaelen's comment. "That's exactly what we're doing. We're not giving up on the system; we're adapting it to our current limitations."
+
+Maren took a deep breath, her shoulders relaxing slightly as the tension eased from her muscles. "We've stabilized," she said. "For now."
+
+"For now," Elias agreed. He looked at Kaelen. "How are you feeling?"
+
+Kaelen shook his head slowly. "Not quite back to full strength, but... better. The pull is gone. I can think clearly again."
+
+"That's what matters," Elias said. "We've bought ourselves time. Now we need to figure out what comes next while we still have it."
+
+Elara packed away the wedges and quartz shards, though she kept a few of the larger pieces in her satchel for potential future use. "I'll stay here with Kaelen," she said. "Torin and Maren, you can take a short rest if you want. Just keep monitoring the flow."
+
+Maren nodded, releasing her grip on the hammer handle just enough to let Torin adjust his position. The barrier continued to hum steadily, its light a steady, calming presence against the backdrop of the valley's oppressive fog.
+
+"We'll be right here," Torin
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

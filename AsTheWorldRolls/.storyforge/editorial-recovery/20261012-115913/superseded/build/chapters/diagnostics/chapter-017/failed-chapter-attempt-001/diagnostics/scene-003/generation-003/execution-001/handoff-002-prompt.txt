@@ -1,0 +1,133 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 17.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":17,"ViewpointCharacterId":"Elias Thorne","Objective":"Enter the \u0027Gilded Tankard\u0027, establish the party\u0027s reputation through a display of competence and wit, and initiate negotiations with the merchant, Silas Vane, for a caravan escort contract.","IntendedChange":"The party transitions from a group of weary, battle-scarred survivors into recognized, professional adventurers by securing a verbal agreement to discuss terms, while establishing the tavern as a hub of information and social pressure.","PacingPosture":1,"ProhibitedPatterns":["Do not resolve the final contract terms or payment details; this is reserved for Chapter 18.","Do not reveal the specific dangers on the route or the full nature of the sealed crate\u0027s contents beyond the initial rumor.","Do not have the party depart the tavern; they must remain for the night.","Do not introduce a new combat threat or Blight-Touched entity in the tavern.","Do not have Kaelen use active magic to solve the tavern\u0027s social problem; his power must remain dormant."],"Scenes":[{"Sequence":1,"Purpose":"The party enters the Gilded Tankard and is immediately subjected to the tavern\u0027s strict hospitality code, where the keeper refuses service until they resolve a minor social incident involving a drunk patron, forcing them to demonstrate non-violent competence.","IntendedChange":"The party is seated and served, having established their reputation for restraint and professionalism in the eyes of the tavern staff and patrons, while Kaelen remains visibly tense under social scrutiny.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen"]},{"Sequence":2,"Purpose":"Silas Vane approaches the party to negotiate a caravan escort contract, presenting unfair initial terms that prioritize his liability protection over fair compensation, while a rival adventurer group spreads rumors of the party\u0027s incompetence to undercut their bid.","IntendedChange":"Elias mediates between Vane\u0027s aggressive negotiation tactics and the party\u0027s need for dignity, shifting the dynamic from adversarial to a tentative professional alliance based on mutual benefit, while Maren subtly shields Kaelen from a social faux pas.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Maren","Kaelen"]},{"Sequence":3,"Purpose":"Elias negotiates a compromise with Vane that preserves the party\u0027s dignity and secures a verbal agreement to meet the next morning to finalize terms, while gaining access to the tavern\u0027s information network and learning about the sealed crate of \u0027pure\u0027 water on the caravan.","IntendedChange":"The party secures a verbal agreement to discuss terms the next morning, establishing their reputation as \u0027difficult but competent\u0027 and gaining access to local information about the caravan\u0027s route and the high value of the sealed crate.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Elara"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Elias negotiates a compromise with Vane that preserves the party\u0027s dignity and secures a verbal agreement to meet the next morning to finalize terms, while gaining access to the tavern\u0027s information network and learning about the sealed crate of \u0027pure\u0027 water on the caravan.","IntendedChange":"The party secures a verbal agreement to discuss terms the next morning, establishing their reputation as \u0027difficult but competent\u0027 and gaining access to local information about the caravan\u0027s route and the high value of the sealed crate.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Elara"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":17,"CompletedSceneSequence":2,"Location":"Gilded Tankard tavern","TimeContext":"Evening, inside the tavern after contract negotiation","PresentCharacterIds":["Elias Thorne","Maren","Kaelen","Silas Vane (Merchant)"],"PhysicalConditions":["Tavern interior dimly lit by oil lamps","Smoke and noise present","Party seated at a corner table in an alcove separated by heavy tapestries","Kaelen visibly tense but restrained","Elias maintaining neutral tone and professional demeanor"],"KnowledgeEstablished":["Silas Vane adjusted his initial payment demand from five hundred gold to three hundred gold, with the remainder to be discussed after reaching the next major town","Vane agreed to consider funding through guild channels or local investors instead of requiring upfront capital","The sealed crate contains \u0027pure\u0027 water sourced from a spring untouched by known contamination sources","Rival adventurer groups are spreading rumors to undercut the party\u0027s bid","Vane intends to handle interference with rivals himself rather than relying on the party","The party agreed to meet Vane at the tavern entrance the next morning to finalize terms"],"DecisionsMade":["Elias accepted the revised payment terms of three hundred gold upfront","The party agreed to follow Vane\u0027s lead insofar as it keeps them safe and efficient, reserving the right to make independent decisions if safety is compromised","The party decided to proceed with the caravan escort contract under these new terms","Maren chose to shield Kaelen from direct confrontation regarding his tension"],"PossessionChanges":[],"RelationshipChanges":["Silas Vane and the party have established a tentative professional alliance based on mutual benefit and adjusted terms","The party is now viewed by Vane as difficult but competent partners capable of handling risks","Maren successfully supported Kaelen, reinforcing his restraint without drawing negative attention"],"CompletedActions":["Elias mediated between Vane\u0027s aggressive tactics and the party\u0027s need for dignity","Vane revised his financial terms and agreed to a verbal compromise","The party secured access to information about the caravan route and the sealed crate","Maren shielded Kaelen from social pressure regarding his demeanor","Elias and Vane finalized the agreement to meet the next morning"],"UnresolvedImmediateAction":"The party is preparing to leave the alcove and re-enter the main tavern area, having secured the verbal agreement for the caravan contract.","ContinuationPosition":"Elias, Maren, and Kaelen are standing up from their corner table in the alcove, ready to step back into the bustling main hall of the Gilded Tankard with renewed purpose after finalizing terms with Silas Vane.","ProhibitedRepetition":["Do not repeat the resolution of the drunk soldier incident","Do not restate Vane\u0027s initial demand for five hundred gold pieces as if it is being negotiated again in this same moment","Do not have Kaelen use magic or violence to solve social problems","Do not resolve the final contract terms or payment details beyond the verbal agreement established here"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Elias leaned forward slightly, resting his elbows on the scarred oak table where three tankards of mead sat cooling. The smoke in the alcove seemed thicker here, curling around Elias’s hair as he watched Silas Vane polish a silver goblet with a rag that had seen better decades. “So,” Elias began, his voice cutting through the tavern din without raising its volume. “It sounds like we’ve found common ground on most points.”
+
+Vane stopped polishing and tucked the cloth into his belt, his movements precise despite the grime of travel. He set the goblet down with a soft *clink*. “Common ground is good,” he said, his voice rough but measured. “Though I’d not call our positions quite aligned yet. Five hundred gold upfront was the price for my protection. Three hundred gets me… well, it gets you a hearing.”
+
+Elias nodded slowly. “We can work with that. And if we clear the rumors without incident, and deliver on time, the rest is yours.” He met Vane’s eyes squarely. “But let’s make one thing clear: we’re not mercenaries for hire. We’re partners in this venture. If you want interference handled quietly, we’ll do it. But if you expect us to fight a war because someone said a rumor about your crate, we’ll have words.”
+
+Vane smirked, a thin curl of amusement escaping his lips. “Rumors? You think I care about what some drunkards in an inn say?” He leaned back against the tapestry, crossing his arms. “My reputation’s built on steel and strategy, not gossip. If my rivals start whispering nonsense to make you hesitate, I’ll silence them before they leave town.”
+
+“Good,” Elias replied, keeping his tone neutral but firm. “Because hesitation isn’t an option. The caravan leaves at dawn. We need your word that the route we’re given is clear, and that you’ve taken steps to ensure our safety beyond just ‘I’ll send some thugs after them if they bother me.’”
+
+Vane’s expression darkened slightly, but only for a moment. “You want guarantees?” he asked, his voice dropping. “Fine. I’ll have my scouts shadowing the caravan ahead of us. If anyone tries anything, they find themselves facing my men first. And if you’re worried about interference…” He gestured vaguely toward the main hall where a group of locals were arguing over dice near the hearth. “My network’s already working on those rumors. By morning, the inn will be full of people who’ve heard nothing but praise for Silas Vane’s latest deal.”
+
+Elias raised an eyebrow. “That sounds… thorough.”
+
+“It’s necessary,” Vane replied without hesitation. “I don’t take risks lightly. And I don’t leave loose ends.” He paused, then added, “But let’s be clear: if you go off-script and cause trouble that isn’t directly tied to the crate or the route, that’s on you. My protection doesn’t cover your choices.”
+
+Elias nodded again, satisfied with the clarity. “Understood. We’ll stick to the plan unless safety is compromised. In that case, we act—but only in ways that don’t undermine your interests.”
+
+Vane studied him for a moment before leaning forward again, his tone shifting from cautious negotiation to businesslike precision. “There’s one more thing,” he said. “That crate of yours—the sealed one? It’s worth far more than anyone admits aloud. The water inside isn’t just ‘pure.’ It’s untouched by the Blight’s influence, which means it could stabilize a region or even help heal wounds that would otherwise kill. Whoever controls that supply chain has leverage.”
+
+Elias felt a spark of curiosity ignite. “And you think we’re going to find some trouble along the way because of that?”
+
+Vane nodded. “Rival companies are sniffing around already. Some might try to sabotage your delivery, others might try to steal the crate for themselves. That’s why I’m funding this—not just out of greed, but because I need that water in my hands before anyone else does.” He glanced at Elias with a mix of respect and wariness. “You’re going to need me as much as I’ll need you.”
+
+Elara, who had been silently listening from the shadows of the alcove, stepped forward now, her voice calm but firm. “We don’t want trouble either,” she said, addressing Vane directly. “We just want to get this done safely and efficiently. If we stick to your plan, there’s no reason for us to face anything worse than what we’ve already encountered.”
+
+Vane studied her closely before nodding again. “Good answer,” he muttered. “Keep that in mind if you hear something that sounds too much like trouble.” He turned back to Elias. “Meet me at the entrance tomorrow morning. We’ll finalize everything then, including payment terms and any additional details about the route.”
+
+Elias stood up, gathering his cloak as Vane did the same. “Agreed,” he said, extending a hand toward the merchant. “Thank you for coming down to talk to us personally. Most merchants would’ve just sent an agent or demanded we sign a contract without reading it.”
+
+Vane shook his hand firmly, his grip strong and steady. “Don’t thank me yet,” he replied with a wry smile. “You’ll owe me if you make this go sideways.” He walked toward the main hall, pausing at the threshold to look back. “And remember—this isn’t over until we deliver that crate.”
+
+As Vane disappeared into the crowd of patrons and servers alike, Elias turned to Elara with a relieved expression. “He’s got guts,” he said, watching Vane disappear among the tables. “Not everyone’s willing to face rumors head-on instead of running away.”
+
+“He has his reasons,” Elara replied quietly, her voice tinged with both admiration and caution. “And so do we.” She followed Elias back into the bustling tavern, her movements brisk but deliberate. “Now that we’ve got a verbal agreement, let’s head home. We can rest tonight and start preparing for tomorrow.”
+
+Elias smiled faintly as they walked out of the alcove together. The noise of the tavern was still loud, but now it sounded different—less threatening, more like background hum. They had secured their next contract, gained access to information about the caravan’s route, and earned a measure of respect from someone who knew exactly how dangerous this job could be.
+
+As they stepped into the open area where other adventurers were heading toward the kitchens or their own quarters, Elias glanced down at Kaelen, who was standing silently nearby, watching the flow of people with quiet intensity. “Come on,” he said gently, taking Kaelen’s arm and guiding him forward. “Let’s get some rest. Tomorrow’s going to be another big day.”
+
+Kaelen nodded, letting Elias lead him away from the main hall. The tension had eased slightly, though it lingered in his posture. He didn’t say anything about Vane’s warnings or the potential dangers ahead; he simply followed Elias toward the stairs that led upstairs, where rooms were rented out to weary travelers like themselves.
+
+Behind them, the tavern continued its lively rhythm, patrons laughing over dice games and tankards of ale, oblivious to the serious negotiations that had just taken place in the shadowed corner. But Elias didn’t mind. He wasn’t looking for applause or fanfare; he was content with the knowledge that they’d faced down a merchant who knew exactly what kind of trouble lay ahead—and still chosen to partner with them.
+
+That was progress enough for now.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate completed action 'Elias mediated between Vane's aggressive tactics and the party's need for dignity' repeats completed action from Chapter 17, Scene 2: 'Elias mediated between Vane's aggressive tactics and the party's need for dignity'; candidate completed action 'Vane revised his financial terms and agreed to a verbal compromise' repeats completed action from Chapter 17, Scene 2: 'Vane revised his financial terms and agreed to a verbal compromise'; candidate completed action 'The party secured access to information about the caravan route and the sealed crate' repeats completed action from Chapter 17, Scene 2: 'The party secured access to information about the caravan route and the sealed crate'; candidate completed action 'Maren shielded Kaelen from social pressure regarding his demeanor' repeats completed action from Chapter 17, Scene 2: 'Maren shielded Kaelen from social pressure regarding his demeanor'; candidate completed action 'Elias and Vane finalized the agreement to meet the next morning' repeats completed action from Chapter 17, Scene 2: 'Elias and Vane finalized the agreement to meet the next morning'; candidate decision 'Elias and Vane finalized the agreement to meet the next morning' repeats completed action from Chapter 17, Scene 2: 'Elias and Vane finalized the agreement to meet the next morning'; candidate decision 'Elias accepted the revised payment terms of three hundred gold upfront' repeats decision from Chapter 17, Scene 2: 'Elias accepted the revised payment terms of three hundred gold upfront'; candidate decision 'The party agreed to follow Vane's lead insofar as it keeps them safe and efficient, reserving the right to make independent decisions if safety is compromised' repeats decision from Chapter 17, Scene 2: 'The party agreed to follow Vane's lead insofar as it keeps them safe and efficient, reserving the right to make independent decisions if safety is compromised'; candidate decision 'The party decided to proceed with the caravan escort contract under these new terms' repeats decision from Chapter 17, Scene 2: 'The party decided to proceed with the caravan escort contract under these new terms'; candidate decision 'Maren chose to shield Kaelen from direct confrontation regarding his tension' repeats decision from Chapter 17, Scene 2: 'Maren chose to shield Kaelen from direct confrontation regarding his tension'; candidate relationship change 'Silas Vane and the party have established a tentative professional alliance based on mutual benefit and adjusted terms' repeats relationship change from Chapter 17, Scene 2: 'Silas Vane and the party have established a tentative professional alliance based on mutual benefit and adjusted terms'; candidate relationship change 'The party is now viewed by Vane as difficult but competent partners capable of handling risks' repeats relationship change from Chapter 17, Scene 2: 'The party is now viewed by Vane as difficult but competent partners capable of handling risks'; candidate relationship change 'Maren successfully supported Kaelen, reinforcing his restraint without drawing negative attention' repeats relationship change from Chapter 17, Scene 2: 'Maren successfully supported Kaelen, reinforcing his restraint without drawing negative attention'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.

@@ -1,0 +1,125 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 18.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":18,"ViewpointCharacterId":"Elias Thorne","Objective":"Finalize the contract terms with Silas Vane, gather necessary supplies and local information, and prepare the party for the caravan escort, including addressing the party\u0027s internal dynamics and the specific challenges of the route.","IntendedChange":"The party transitions from \u0027negotiators\u0027 to \u0027active contractors,\u0027 securing the final contract, acquiring supplies, and establishing a clear plan of action for the escort, while addressing the internal tensions and external pressures that arise from their new role.","PacingPosture":1,"ProhibitedPatterns":["Do not resolve the escort mission or encounter Blight-Touched entities on the road; this chapter is strictly preparation.","Do not have the party leave the town or begin the journey; the chapter ends with them ready to depart.","Do not introduce a new rival adventurer group or a second major threat beyond the contractual complications.","Do not force a romantic or sexual encounter between any party members; keep interactions professional and collaborative.","Do not have Kaelen lose control of his gauntlet or suffer a magical backlash; his state is stable and dormant."],"Scenes":[{"Sequence":1,"Purpose":"Negotiate the final contract terms with Silas Vane, resolving the dispute over the additional merchant clause and establishing the payment structure.","IntendedChange":"The party secures a signed contract for the primary escort with a fair payment rate, rejecting the secondary clause to maintain focus, and establishes a professional working relationship with Vane.","FocusCharacterIds":["Elias Thorne","Silas Vane"]},{"Sequence":2,"Purpose":"Analyze the caravan route and Blight activity patterns using Elara\u0027s scholarly expertise to identify strategic advantages and mitigation strategies.","IntendedChange":"The party discovers that Blight activity is cyclical and peaks at specific times, allowing them to plan their movements and rest stops accordingly, and Elara\u0027s insights are integrated into the tactical plan.","FocusCharacterIds":["Elara","Elias Thorne"]},{"Sequence":3,"Purpose":"Gather necessary supplies and local information from the market, addressing logistical needs and internal tensions over resource allocation.","IntendedChange":"The party acquires essential supplies (water, herbs, rations) and local intelligence, with Torin leading the logistical organization and Maren providing tactical input, reinforcing their collaborative dynamic.","FocusCharacterIds":["Torin","Maren"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Gather necessary supplies and local information from the market, addressing logistical needs and internal tensions over resource allocation.","IntendedChange":"The party acquires essential supplies (water, herbs, rations) and local intelligence, with Torin leading the logistical organization and Maren providing tactical input, reinforcing their collaborative dynamic.","FocusCharacterIds":["Torin","Maren"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":18,"CompletedSceneSequence":2,"Location":"Tavern booth inside the city","TimeContext":"Evening, after contract finalization and route analysis","PresentCharacterIds":["Elias Thorne","Maren","Elara","Kaelen","Torin"],"PhysicalConditions":["Contract signed and sealed with Silas Vane","Payment structure finalized (standard rates, no mid-journey markups)","Route mapping complete with resting stops identified based on Blight cycles","Blight activity patterns understood as cyclical (moon phase/valley energy dependent)","Unidentified creature near gates identified as likely Blight-Touched linked to water supply/shrine fissure","Kaelen\u0027s gauntlet is cold and dormant","Party has secured a proper meal at the tavern counter"],"KnowledgeEstablished":["Blight activity peaks at specific times (full moon/high energy) and troughs during waning phases","Safe route identified: lowlands first day, shadowed ridge paths second day, riverbank resupply third day","Departure timing set for early morning while fog is thick to avoid ambush triggers","Minor resonance node exists halfway up the ridge; safe to cross before noon","Kaelen can sense pressure shifts in the air near dangerous spots"],"DecisionsMade":["Party agrees to leave three days out of the city","Departure scheduled for early morning tomorrow while fog persists","Torin assigned point on route planning and perimeter check","Elias assigned to double-check supplies with Maren","Elara assigned to finalize maps by sundown","Party decides to eat a proper meal before loading packs"],"PossessionChanges":["Signed contract secured in Elias Thorne\u0027s satchel","City map sketch annotated with route symbols and campsite notes","Elara\u0027s journal closed after finalizing route analysis"],"RelationshipChanges":["Party dynamic shifted from reactive survival to proactive strategic planning","Collaborative trust reinforced through shared understanding of Blight mechanics"],"CompletedActions":["Analysis of caravan route and Blight activity patterns using Elara\u0027s expertise","Identification of safe travel windows relative to moon phases and ley lines","Marking of resting stops and elevation changes on the city map","Confirmation of creature nature near gates as Blight-Touched linked to local anomalies","Securing a meal at the tavern counter"],"UnresolvedImmediateAction":"Elias stands gathering notes while Maren suggests eating before dawn preparations; Torin has returned from scouting and is present in the booth.","ContinuationPosition":"The party remains seated or standing within the tavern booth. The map is annotated with route details. Elara has her journal open but paused. Maren is moving toward the counter for food. Torin is observing the perimeter from inside the booth. Elias is organizing his notes and satchel.","ProhibitedRepetition":["Do not re-describe the signing of the contract or Silas Vane\u0027s departure.","Do not repeat the initial negotiation tension regarding stubbornness.","Do not re-state the finalized payment terms or standard rates.","Do not re-explain the basic concept that Blight is cyclical without adding new route specifics."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+"Let's split up," Torin said, standing from the booth where he'd been leaning against the table leg like a sentry on break. His voice cut through the tavern's din without raising it—a practiced habit born of years spent filtering out noise to hear the important sounds. "Maren and I'll head to the market stalls near the river gate. We need supplies before we load packs."
+
+Elias nodded, already pulling his satchel closer despite its modest contents. "Good idea," he agreed, glancing at Elara who had closed her journal with a decisive snap. "Elara, finish mapping the ridge path while Kaelen rests. If anything shifts in the Blight patterns before dawn, we'll know about it."
+
+Kaelen shifted on his bench, rubbing his temples where the gauntlet's brass scars seemed to hum faintly even when cold. "I'm good here," he murmured. "Just keep talking me through the route changes so I don't forget the new nodes you marked."
+
+"Will do," Elara said, already sketching a small triangle of terrain into her journal. She paused to glance at Maren, who stood near the counter now, chatting with the innkeeper about food portions and salt rations. The innkeeper grinned broadly, showing off a jar of pickled onions that looked suspiciously like they'd been preserved for decades but somehow still retained their crunch.
+
+Torin stepped back into the booth again, his expression serious but not unkind. "Market's crowded," he warned. "We'll need to move fast before the afternoon rush makes it impossible to get a clear view of what we're buying." He gestured toward the door where two merchants were arguing over prices for dried herbs while another group haggled over weapon repairs.
+
+Maren returned moments later, carrying a stack of wrapped packages under one arm and an empty tankard in her other hand. She set them down on the table with a thud that made Elias wince slightly. "Got us enough water," she announced proudly. "And some extra salt—we can't afford to lose anyone to dehydration on that ridge."
+
+Elara peered at the packages, nodding as she cataloged their contents mentally. "Perfect timing," she commented. "The valley winds are shifting again; we'll need everything secured before nightfall." She reached for one of the bundles, unwrapping a section to reveal tightly packed clay jars sealed with wax. The labels were handwritten in neat script: *Spring Water – Filtered & Treated*.
+
+Elias took a sip from his ale, grimacing slightly at the taste but ignoring it anyway. "And herbs?" he asked, gesturing toward the second bundle.
+
+Maren shrugged, her eyes darting toward the market entrance where Torin was already heading. "I picked up some fever grass and moon lilies," she replied casually. "Nothing fancy, just what we'll need for minor ailments along the way." She paused, then added with a small smile. "Though if you'd like something more exotic, we could always try negotiating with Silas Vane's wagon tomorrow morning."
+
+Elias chuckled softly, shaking his head. "Not interested in paying premium prices," he said dryly. "We'll stick to basics unless the route demands otherwise." He glanced at Elara again, who had finished cataloging their supplies and was now organizing them neatly on the table. "Did you get everything mapped?" he asked gently.
+
+Elara nodded, closing her journal with a satisfied sigh. "Ridge path confirmed," she said confidently. "Safe crossing points marked, resting spots identified, and elevation changes noted." She pointed to a small sketch on the parchment that showed a zigzagging trail winding upward through shadowed valleys. "We'll follow this route tomorrow morning while the fog is thickest. Once we clear the ridge, we switch to open terrain until reaching the first campsite near the riverbank."
+
+Torin returned shortly after, holding two small bundles under one arm and a third wrapped in oilcloth under the other. His movements were efficient and purposeful, as if he'd memorized every stall's location during his earlier patrol. "Found us better quality rations than expected," he reported. "Bread, cheese, dried meat—enough to last us three days without needing to hunt."
+
+Maren accepted the bundles with a nod of approval, setting them beside the water supplies. "Good work," she said warmly. "We'll ration carefully so nothing goes to waste." She glanced at Torin, her expression softening slightly as she acknowledged his contribution. "You handled that well, considering how crowded the market was."
+
+Torin shrugged modestly, though a hint of pride colored his features. "Just doing my job," he replied evenly. "If anyone else had tried to navigate those stalls while avoiding suspicious crowds, they'd probably end up lost by noon." He gestured toward the tavern entrance where a group of rival adventurers was still lingering near the door, their voices rising in animated whispers about something neither party seemed interested in discussing further.
+
+Maren rolled her eyes good-naturedly. "They'll settle it eventually," she muttered under her breath. "Let them talk themselves into exhaustion." She turned back to the table, where Elara was already unpacking the rations and arranging them logically for transport. "What about tools?" she asked suddenly, breaking the flow of conversation briefly.
+
+Elara looked up from her work, frowning slightly as she considered the question. "We don't need much," she said slowly. "Just a few extra ropes, some sharpening stones, maybe a replacement blade or two if Kaelen's gauntlet sustains damage." She paused, then added with a shrug. "Though I suppose we could use better maps than this city's scribbled sketch."
+
+Elias leaned forward, tapping the map on the table with his finger. "This one works fine," he said firmly. "It shows us exactly where the safe zones are relative to the Blight cycles. Once we're past the ridge, we'll navigate by landmarks instead of relying solely on charts." He glanced at Elara again, noting how carefully she was organizing their supplies. "You've got this handled perfectly," he added quietly.
+
+Elara smiled faintly, her dark eyes reflecting the flickering candlelight above them. "Thank you," she said simply. "If we'd gone in blind last time, we'd still be stuck in that valley." She stood up slowly, stretching her arms overhead as if ready to leave. "I'm heading back to the innkeeper's kitchen now," she announced. "Need to make sure we have enough firewood before nightfall."
+
+Maren nodded approvingly, already reaching for Torin's bundles again. "Lead the way," she instructed him gently. "We'll follow your lead through the market until we've gathered everything we need." She looked at Elias one last time, her expression warm but tinged with lingering concern. "Once you're ready to load packs, just signal us," she said softly.
+
+Elias nodded, watching as Maren and Torin moved toward the tavern entrance. The noise of the market swelled behind them, a chaotic symphony of haggling voices, clinking tankards, and occasional bursts of laughter from groups sharing stories over spilled ale. He glanced down at the map on the table, tracing the zigzagging line that wound upward through shadowed valleys with his finger.
+
+"Three days out," he muttered to himself, more to organize his thoughts than anyone else. "We'll need to keep moving steadily but never push too hard." He picked up his satchel again, checking its contents one last time before standing. "Let's get these supplies loaded and prepare for departure tomorrow morning."
+
+Elara returned moments later, carrying a bundle of firewood over her shoulder along with a small pot of stew that smelled suspiciously like it had been simmering since noon. She set both items on the table beside the water supplies, then sat down again to organize everything logically for transport. "Firewood secured," she announced cheerfully. "Stew's ready too if anyone wants some before we head out."
+
+Maren and Torin returned shortly after, each carrying additional bundles under their arms. Together they worked efficiently to sort through the growing pile of supplies on the table, separating essentials from luxuries and arranging them according to priority for loading onto packs. The process was methodical and unhurried, a stark contrast to the frantic energy that had dominated their earlier days in the city.
+
+By the time night fell outside, the tavern booth was filled with neatly organized supplies: water jars stacked beside dried rations, herbs wrapped in oilcloth, tools laid out for easy access, and maps pinned securely to the wall above the table. Elara had closed her journal one last time, adding final annotations about ridge landmarks and potential ambush points before packing it away along with her other gear.
+
+"Good work today," Elias said finally, leaning back in his chair as he surveyed their preparations. "We're ready to leave whenever dawn breaks." He glanced at Maren and Torin, who were already heading toward the tavern entrance to secure their mounts for tomorrow's journey. "Rest up tonight," he advised gently. "Tomorrow we face the ridge—and whatever waits beyond it."
+
+Maren paused at the door, turning briefly to smile at Elias. "Don't worry," she said softly. "We'll handle it together." She disappeared into the tavern's throng of patrons, leaving Elias alone with Elara and Kaelen for a few moments before they all retired to their respective lodgings for the night.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

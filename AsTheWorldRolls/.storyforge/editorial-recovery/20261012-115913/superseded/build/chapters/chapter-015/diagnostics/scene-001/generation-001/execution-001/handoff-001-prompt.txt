@@ -1,0 +1,143 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 15.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":15,"ViewpointCharacterId":"Elias Thorne","Objective":"Sustain and control the second phase of the operation already underway.","IntendedChange":"The group establishes whether increased flow is viable and makes a consequential adjustment to manage its cost or danger.","PacingPosture":3,"ProhibitedPatterns":["Repeating the decision to hold the stabilized flow for five to six minutes before raising the pitch.","Repeating the assignment of Elias to oversee Kaelen\u0027s state and report on slipping.","Repeating the instruction for Maren to keep the chisel angle steady.","Repeating the summary of the group\u0027s coordinated roles (Maren force, Elara precision, Kaelen connection, Elias oversight, Torin support).","Repeating the feeling of Kaelen being anchored by the system rather than isolated in fear."],"Scenes":[{"Sequence":1,"Purpose":"Kaelen initiates the active pull for the second phase, and the group observes the immediate physical and magical consequences of this escalation.","IntendedChange":"The Blight flow increases significantly, Kaelen begins to show signs of physical strain, and the barrier reacts to the higher volume.","FocusCharacterIds":["Kaelen","Elias Thorne","Torin"]},{"Sequence":2,"Purpose":"Elias observes the barrier\u0027s reaction to the increased flow and identifies a specific limit or warning sign that indicates the current approach is unsustainable.","IntendedChange":"Elias determines that the barrier is nearing its capacity or that the channel is destabilizing, necessitating a change in strategy.","FocusCharacterIds":["Elias Thorne","Elara"]},{"Sequence":3,"Purpose":"The group collaborates to implement a specific adjustment to the resonance mechanism to manage the cost of the increased flow, ensuring Kaelen\u0027s safety while maintaining the operation.","IntendedChange":"The group successfully adjusts the resonance to a sustainable level, stabilizing the flow and Kaelen\u0027s condition, and confirms the viability of the second phase.","FocusCharacterIds":["Maren","Elara","Kaelen","Elias Thorne"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Kaelen initiates the active pull for the second phase, and the group observes the immediate physical and magical consequences of this escalation.","IntendedChange":"The Blight flow increases significantly, Kaelen begins to show signs of physical strain, and the barrier reacts to the higher volume.","FocusCharacterIds":["Kaelen","Elias Thorne","Torin"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Elias observes the barrier\u0027s reaction to the increased flow and identifies a specific limit or warning sign that indicates the current approach is unsustainable.","IntendedChange":"Elias determines that the barrier is nearing its capacity or that the channel is destabilizing, necessitating a change in strategy.","FocusCharacterIds":["Elias Thorne","Elara"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Kaelen closed his eyes, but the silence he had cultivated in the first phase evaporated instantly. It was replaced by a pressure that felt like a physical weight pressing against his sternum.
+
+The pull began not as a sound, but as a sensation of being dragged backward through a thick, cold current. The brass gauntlet on his left wrist remained inert to the touch, yet the air around him screamed with the sudden expansion of the Blight's presence. The green light from the shrine fissure deepened, shifting from a bruised violet to a sickly, luminous amber that stained the grey fog with oily streaks.
+
+"It’s pulling," Maren whispered, though she did not look away from Elara. Her hands tightened on Elara's shoulders, her knuckles white against the girl's skin. "The flow is doubling."
+
+Elias watched the barrier. The violet membrane stretched taut across the valley, but instead of tightening further, it began to ripple. It was no longer a solid wall; it was becoming translucent, revealing glimpses of the swirling green chaos behind it. The stream of Blight pouring from the shrine had swelled into a torrent, rising from the drainage channels with a speed that defied gravity. It moved like liquid smoke, heavy and dense, carrying the metallic scent of copper and rot in thick waves.
+
+Kaelen gritted his teeth. His face, previously pale and composed, twisted in a grimace of concentrated strain. He did not fight the pull; he accepted it, using his own will as a dam to regulate the floodgates. But the cost was visible in the way his shoulders hunched, the way his free hand clenched into a fist at his side, trembling with the effort of holding back a hurricane inside his own skin.
+
+"Eyes on Kaelen," Elias commanded, his voice steady despite the tremor in the air. "Torin, if his focus slips for even a second, step in."
+
+Torin nodded, stepping half a pace closer to the young mage. He kept his sword point low, ready to strike the ground or shield Kaelen if the pull became too strong. The soldier’s own breath came in short, sharp gasps as he watched the amber light wash over the clearing.
+
+Kaelen opened his eyes. They were wide, reflecting the inner glow of the Blight. "It’s louder," he said, his voice raspy. "The channel is widening. I can feel the reservoir. It’s… it’s deeper than the map says."
+
+Elias moved closer to Kaelen, ignoring the pain in his side which flared sharply with the change in atmospheric pressure. He placed a hand on the young man's shoulder, not to push him back, but to offer a point of contact, an anchor in reality. "Feel it," Elias said quietly. "Don't fight it. Guide it. Make sure the stream stays thin. Keep it controlled."
+
+Kaelen nodded, swallowing hard. He focused inward, visualizing the brass gauntlet not as a cold piece of metal, but as a valve wheel he could turn with his mind. He imagined the flow slowing, then widening just enough to let the Blight pass through the barrier without overwhelming it. It was a delicate dance, one misstep and the seal would shatter, flooding the valley in an instant.
+
+The ground beneath them vibrated more intensely now. The rhythmic pulse from before had evolved into a full-throated thrum that Elias could feel in his teeth and behind his eyes. The fog, once a retreating wall, was now being pushed back with force, revealing the valley floor which lay empty of Blight-Touched but choked with the raw energy of the entity.
+
+Elias watched the barrier closely. It was holding, but the strain was becoming apparent. The violet light flickered, not in the chaotic strobe of rejection, but in a rhythmic pulsing that matched the heartbeat of the city itself. He could see the cracks forming—not fractures that would break the seal, but stress lines where the material was trying to accommodate the increased volume.
+
+"Elara," Elias called out, his voice cutting through the hum. "Check the frequency. Is it holding?"
+
+Elara did not stop her work. Her eyes were fixed on the quartz stone in the fissure. The stone now glowed with a faint, rhythmic pulse of its own, mirroring the barrier's instability. She adjusted the angle of her chisel by a fraction of an inch. "The pitch is rising," she said, her voice barely audible over the roar. "It’s climbing the harmonic. If we push it higher, we risk breaking the stone."
+
+Elias frowned. "Then we don't push it. We let it climb on its own. Kaelen, maintain the valve. Don't force it up; just keep it open enough to feed the beast."
+
+Kaelen nodded again, his expression a mask of grim determination. The pull was stronger now, dragging at his very soul, but he held firm. He was the bridge between the safe world of the living and the hungry dark below, and he was walking that line with nothing but willpower to keep him from falling.
+
+Maren kept her hands on Elara's shoulders, providing physical stability against the shifting vibrations. She could feel the energy in the air growing dense, heavy enough to taste like ozone and old blood. Her own hammer felt useless at this range; it would take more than steel to stop a magical surge. But she was ready if something broke.
+
+The stream of Blight continued to pour, now filling the clearing with a greenish haze that smelled of wet earth and decay. The barrier absorbed it all, but the light within it began to change. It was no longer just violet; streaks of amber and black were weaving through the surface like veins in a map.
+
+Elias watched the edges of the barrier where they met the shrine. There was a darkening there, a shadow that seemed to be eating the stone itself. The mechanism was working, but it was nearing its limit. The barrier was designed to absorb a trickle, not a flood. To consume the source, they needed to break the seal entirely, to let the Blight flow freely through the valley and into the earth, where it could be dispersed or destroyed by the deeper magic of the city's foundations.
+
+But that required a level of control Kaelen was barely achieving. The young mage's breathing had become shallow and ragged, his body tense with the effort of holding back the tide. Sweat beaded on his forehead, mixing with the ash-like dust in the air.
+
+"Kaelen," Elias said, stepping closer again. "You're overworking the valve. Slow it down."
+
+"I can't slow it," Kaelen gasped. "It’s too fast. The reservoir is feeding us faster than I can regulate. If I close it now, the pressure will build up behind me and push the seal apart anyway."
+
+"Then let it open wider," Elias said. "Trust the mechanism. Let the frequency do the work. You are just the conduit."
+
+Kaelen hesitated, then nodded. He relaxed his grip, not physically, but mentally. He stopped trying to throttle the flow and instead allowed it to surge through him, guided by the resonance of the quartz stone and the chisel. The barrier responded instantly, expanding in size, becoming a vast curtain that stretched from horizon to horizon.
+
+The sound changed again. It was no longer a hum or a thrum; it was a roar, a deep, resonant bass note that shook the leaves off the trees on the ridge above. The fog lifted completely, revealing the valley floor which was now bathed in the green light of the Blight. The drainage ditches were glowing, their stone walls pulsing with the same energy that filled the air.
+
+Elias watched the barrier, his eyes wide. It was beautiful and terrifying, a living thing that breathed and fed on the darkness around it. But he could see the strain now. The cracks in the violet membrane were spreading, widening like spiderwebs across glass.
+
+"The stone," Elara said suddenly, her voice sharp with alarm. "The quartz is cracking."
+
+Elias turned to look. The small piece of crystal that had been placed in the fissure was indeed fracturing, hairline fractures spreading through its core. The glow within it was flickering, unstable.
+
+"Stop!" Elias shouted over the roar. "Elara, withdraw! Maren, brace her!"
+
+Elara moved instinctively, pulling the chisel away from the stone just as the crystal shattered with a sound like a gunshot. The resonance snapped off, and the barrier shuddered violently, the green light flaring up to blinding intensity before dimming again.
+
+Kaelen slumped forward, catching himself on Torin's arm. His eyes were closed, his face drained of color. The pull was gone, replaced by an empty void in his mind. He had held the line, but the cost had been exacted.
+
+The barrier stood, weakened but intact. The stream of Blight had stopped, the reservoir having emptied its immediate surge into the system. They had fed it enough to weaken the seal, but the mechanism was damaged. The quartz stone was broken, and without it, they could not sustain the resonance.
+
+Elias looked at Kaelen, then at Elara, then at the shattered crystal. They had succeeded in the first phase, but the second phase required a different approach. They needed a new key. A new way to feed the beast without breaking the lock.
+
+"We need a larger source," Elias said quietly. "The stone is gone. We need something that can withstand the pressure."
+
+Maren looked at Elara, who was shaking slightly from the shock of the explosion of
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

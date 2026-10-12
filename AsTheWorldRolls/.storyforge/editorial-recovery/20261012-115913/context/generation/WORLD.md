@@ -1,0 +1,93 @@
+﻿# StoryForge Endless — WORLD
+
+## Current State
+
+- The barrier is currently absorbing the Blight stream and has grown stronger.
+
+
+- The old road has dissolved into a slurry of mud and black water due to the Blight's influence on the local water table.
+
+
+- The watchfort is located on high ground with thin air and a view of hills below.
+
+
+- The watchfort gatehouse contains a heavy oak table, a hearth, and a crate near the hearth.
+
+
+- The group has formulated a plan to sever the channel at 'The Gate of Silence' to create a localized Blight surge to feed the barrier.
+
+
+- The watchfort gatehouse contains a small table, crates of supplies, and a single lantern hanging from a beam.
+
+
+- The barrier is currently consuming the Blight but is also feeding on finite magic in the air, posing a risk of eventual failure or breach.
+
+
+- The entity outside the barrier is advancing slowly and deliberately toward the temple.
+
+
+
+- Black spires pierce the sky from the village.
+
+
+- The air in the city tastes of copper and rot.
+
+
+- Scavengers still prowl the streets of the city.
+
+
+- The old temple district contains ruins and narrow passages.
+
+
+- A courtyard exists within the old temple district, containing twisted vines with sickly luminescence and a ruined fountain filled with stagnant black water.
+
+
+- The main hall of the temple is located beyond the courtyard in the fog.
+
+
+- A massive structure far larger and darker than the temple is rising out of the mist near the courtyard.
+
+
+- A barrier of shimmering light materialized across the temple entrance.
+
+
+- The immense shape above the temple stands higher than surrounding roofs, black against clouds, crowned by shifting green lights.
+
+
+- Green lights have awakened in windows, streets, and broken towers throughout the city.
+
+
+- Only the spires and the towering shape remain visible above the fog.
+
+
+- The forest is described as ancient, with gnarled trees and roots forming natural barriers.
+
+
+- The forest is ancient, with gnarled trees and roots forming natural barriers.
+
+
+- The edge of the forest reveals open, rolling hills beyond.
+
+
+- The watchfort is located at the bottom of a slope outside the forest.
+
+
+- Elias and Kaelen have reached the watchfort safely.
+
+
+- The barrier has expanded to cover the entire horizon.
+
+
+- The barrier has consumed the local source and is currently holding its absorption limit.
+
+
+- The group is currently resting at the Gate of Silence shrine location.
+
+
+- The barrier's light has faded from chaotic black and amber to a steady, uniform violet glow.
+
+
+- The green light from the shrine fissure has dimmed further into a deep indigo.
+
+
+- The Gilded Tankard interior contains leather booths, candlelight, and peeling plaster.

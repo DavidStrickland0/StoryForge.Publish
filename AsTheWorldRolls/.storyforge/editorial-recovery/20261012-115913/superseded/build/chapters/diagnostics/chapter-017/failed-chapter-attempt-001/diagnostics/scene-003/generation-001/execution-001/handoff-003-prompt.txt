@@ -1,0 +1,135 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 17.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":17,"ViewpointCharacterId":"Elias Thorne","Objective":"Enter the \u0027Gilded Tankard\u0027, establish the party\u0027s reputation through a display of competence and wit, and initiate negotiations with the merchant, Silas Vane, for a caravan escort contract.","IntendedChange":"The party transitions from a group of weary, battle-scarred survivors into recognized, professional adventurers by securing a verbal agreement to discuss terms, while establishing the tavern as a hub of information and social pressure.","PacingPosture":1,"ProhibitedPatterns":["Do not resolve the final contract terms or payment details; this is reserved for Chapter 18.","Do not reveal the specific dangers on the route or the full nature of the sealed crate\u0027s contents beyond the initial rumor.","Do not have the party depart the tavern; they must remain for the night.","Do not introduce a new combat threat or Blight-Touched entity in the tavern.","Do not have Kaelen use active magic to solve the tavern\u0027s social problem; his power must remain dormant."],"Scenes":[{"Sequence":1,"Purpose":"The party enters the Gilded Tankard and is immediately subjected to the tavern\u0027s strict hospitality code, where the keeper refuses service until they resolve a minor social incident involving a drunk patron, forcing them to demonstrate non-violent competence.","IntendedChange":"The party is seated and served, having established their reputation for restraint and professionalism in the eyes of the tavern staff and patrons, while Kaelen remains visibly tense under social scrutiny.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen"]},{"Sequence":2,"Purpose":"Silas Vane approaches the party to negotiate a caravan escort contract, presenting unfair initial terms that prioritize his liability protection over fair compensation, while a rival adventurer group spreads rumors of the party\u0027s incompetence to undercut their bid.","IntendedChange":"Elias mediates between Vane\u0027s aggressive negotiation tactics and the party\u0027s need for dignity, shifting the dynamic from adversarial to a tentative professional alliance based on mutual benefit, while Maren subtly shields Kaelen from a social faux pas.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Maren","Kaelen"]},{"Sequence":3,"Purpose":"Elias negotiates a compromise with Vane that preserves the party\u0027s dignity and secures a verbal agreement to meet the next morning to finalize terms, while gaining access to the tavern\u0027s information network and learning about the sealed crate of \u0027pure\u0027 water on the caravan.","IntendedChange":"The party secures a verbal agreement to discuss terms the next morning, establishing their reputation as \u0027difficult but competent\u0027 and gaining access to local information about the caravan\u0027s route and the high value of the sealed crate.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Elara"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Elias negotiates a compromise with Vane that preserves the party\u0027s dignity and secures a verbal agreement to meet the next morning to finalize terms, while gaining access to the tavern\u0027s information network and learning about the sealed crate of \u0027pure\u0027 water on the caravan.","IntendedChange":"The party secures a verbal agreement to discuss terms the next morning, establishing their reputation as \u0027difficult but competent\u0027 and gaining access to local information about the caravan\u0027s route and the high value of the sealed crate.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Elara"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":17,"CompletedSceneSequence":2,"Location":"Gilded Tankard tavern","TimeContext":"Evening, inside the tavern after contract negotiation","PresentCharacterIds":["Elias Thorne","Maren","Kaelen","Silas Vane (Merchant)"],"PhysicalConditions":["Tavern interior dimly lit by oil lamps","Smoke and noise present","Party seated at a corner table in an alcove separated by heavy tapestries","Kaelen visibly tense but restrained","Elias maintaining neutral tone and professional demeanor"],"KnowledgeEstablished":["Silas Vane adjusted his initial payment demand from five hundred gold to three hundred gold, with the remainder to be discussed after reaching the next major town","Vane agreed to consider funding through guild channels or local investors instead of requiring upfront capital","The sealed crate contains \u0027pure\u0027 water sourced from a spring untouched by known contamination sources","Rival adventurer groups are spreading rumors to undercut the party\u0027s bid","Vane intends to handle interference with rivals himself rather than relying on the party","The party agreed to meet Vane at the tavern entrance the next morning to finalize terms"],"DecisionsMade":["Elias accepted the revised payment terms of three hundred gold upfront","The party agreed to follow Vane\u0027s lead insofar as it keeps them safe and efficient, reserving the right to make independent decisions if safety is compromised","The party decided to proceed with the caravan escort contract under these new terms","Maren chose to shield Kaelen from direct confrontation regarding his tension"],"PossessionChanges":[],"RelationshipChanges":["Silas Vane and the party have established a tentative professional alliance based on mutual benefit and adjusted terms","The party is now viewed by Vane as difficult but competent partners capable of handling risks","Maren successfully supported Kaelen, reinforcing his restraint without drawing negative attention"],"CompletedActions":["Elias mediated between Vane\u0027s aggressive tactics and the party\u0027s need for dignity","Vane revised his financial terms and agreed to a verbal compromise","The party secured access to information about the caravan route and the sealed crate","Maren shielded Kaelen from social pressure regarding his demeanor","Elias and Vane finalized the agreement to meet the next morning"],"UnresolvedImmediateAction":"The party is preparing to leave the alcove and re-enter the main tavern area, having secured the verbal agreement for the caravan contract.","ContinuationPosition":"Elias, Maren, and Kaelen are standing up from their corner table in the alcove, ready to step back into the bustling main hall of the Gilded Tankard with renewed purpose after finalizing terms with Silas Vane.","ProhibitedRepetition":["Do not repeat the resolution of the drunk soldier incident","Do not restate Vane\u0027s initial demand for five hundred gold pieces as if it is being negotiated again in this same moment","Do not have Kaelen use magic or violence to solve social problems","Do not resolve the final contract terms or payment details beyond the verbal agreement established here"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Elias kept his voice low as they stepped out of the alcove, but he didn't retreat into the shadows where Maren had been hiding Kaelen. Instead, he walked straight toward the bar, where Silas Vane was standing with a fresh tankard in hand, looking less like a merchant and more like a man who had just survived a skirmish.
+
+"You were quite persuasive," Vane said, catching Elias's eye over the rim of his cup. He didn't offer a handshake, only a nod that acknowledged the shift in power dynamics. "But I must warn you: my reputation hangs on this deal. If you walk away now, or if you try to renegotiate the price after we've left the city gates..."
+
+"We won't walk away," Elias interrupted, keeping his tone neutral and businesslike. "And we won't renegotiate the gold. We'll renegotiate the route." He glanced briefly at Elara, who was already moving toward them with a satchel slung over her shoulder. She carried the leather-bound journal tucked under her arm, but she didn't open it yet. "We agree to your terms: three hundred gold upfront, payment of the remainder upon delivery, and you handle the interference from rival groups."
+
+Vane smiled, a sharp expression that didn't quite reach his eyes. "Agreed," he said. "But remember, Thorne: this isn't just about escorting a caravan. The crate is sealed for a reason. And if anyone else tries to open it before we reach the mountain pass..." He trailed off, letting the implication hang in the air.
+
+"We know what's inside," Elias said smoothly. "We've seen crates like that before—sealed with wards and runes that suggest they're meant to be kept exactly as they are. We'll treat it accordingly."
+
+"And that's why I'm paying you three hundred gold instead of five hundred," Vane replied, taking a long drink from his tankard. "Because I trust your judgment more than my own. And because I'd rather not risk having a bunch of amateurs break the seal in the middle of nowhere." He gestured toward the main hall. "Come on. Let's talk over a drink. I'll show you the map, and you can tell me why you think we need to adjust the route."
+
+Elara stepped forward, holding up her journal as if it were a proposal. "We'd like to discuss the details," she said politely. "But first, let me clarify something: we're not just merchants or adventurers. We're specialists in containment and resonance stabilization. If you've got a sealed crate of 'pure' water, then we need to understand exactly what kind of seal it has before we touch it."
+
+Vane's eyes narrowed slightly, but he didn't seem offended. Instead, he seemed intrigued. "Ah," he said slowly, setting his tankard down on the bar. "So you're saying you can read the wards? That's rare enough in this city. Very rare indeed." He leaned forward, resting his elbows on the counter. "Let's go inside then. I've got a private room where we can talk without prying ears."
+
+Elias nodded, signaling to Maren and Kaelen to follow him. They didn't need to be told twice. The three of them moved quickly through the tavern, avoiding the crowded tables and the noisy patrons who were still arguing about the latest caravan news. By the time they reached the back door, Vane had already ushered them into a small, dimly lit room that smelled faintly of cedar and old parchment.
+
+Inside, there was a single table with three chairs around it, and a map spread across the surface. It showed the caravan route in detail: the winding path through the valley, the mountain passes ahead, and several marked locations along the way where supplies could be purchased or rest stops taken. At the center of the map was a red circle labeled *Sealed Crate*, with a note that read: *Do not open until destination reached.*
+
+"Here's the deal," Vane said, pointing to the map. "We leave at dawn tomorrow morning. We'll follow the route as marked, but if you see anything suspicious along the way, you'll let me know immediately. If anyone tries to interfere with the crate, you'll handle it yourself—but only if you're sure they don't have backing from someone higher up."
+
+"We'll do our best," Elias said, leaning forward to study the map. "But we'll also keep an eye on the surroundings. If we spot anything unusual, we'll alert you right away."
+
+"And if we encounter trouble?" Vane asked, raising an eyebrow. "You know what happens when things go wrong out there. The Blight isn't just a nuisance—it's a real threat. And if you get caught in the middle of it..."
+
+"We won't let that happen," Elias said firmly. "We'll handle whatever comes our way. But we need to move fast. The sooner we leave, the sooner we can get back on track."
+
+Vane nodded, satisfied with the answer. He reached into his pocket and pulled out a small pouch of coins, which he placed on the table. "Three hundred gold," he said. "Take it now. The rest will be paid when we deliver the crate to the mountain pass."
+
+Elias picked up the pouch and counted the coins quickly, confirming the amount. It was exactly as Vane had promised: three hundred gold pieces. He slipped the pouch into his belt and stood up, shaking Vane's hand. "Thank you," he said. "We'll see you at dawn."
+
+"And remember," Vane added, his voice dropping to a serious tone. "Don't touch the crate unless I say so. The wards are designed to keep it safe from anyone who doesn't know what they're doing. And if anyone else tries to open it before we reach the mountain pass..." He let the sentence trail off again, leaving the threat hanging in the air.
+
+"We understand," Elias said. "We'll handle it as you instructed."
+
+With that, they left the room and headed back into the main hall of the tavern, where the noise and activity had grown louder since they'd been away. Maren was already seated at their original table, watching them with a relieved expression on her face. Kaelen was sitting next to her, looking less tense than before, though he still seemed hesitant to speak up.
+
+"It's done," Elias said softly, taking his seat again. "We've secured the deal."
+
+Maren let out a breath she'd been holding for hours. "Good," she said, reaching across the table to squeeze Elias's hand. "Now we can rest until tomorrow."
+
+Kaelen nodded slowly, looking around the room as if trying to find something that might explain why everything felt so different now. "Yeah," he murmured. "We can rest."
+
+Elara leaned forward, picking up her journal and flipping through the pages again. "Let's review the route one more time," she said. "Just to make sure we're prepared for whatever comes next."
+
+Elias nodded, pulling out a pen from his belt loop. "Alright," he said. "Let's go over the details together. We need to make sure everyone knows exactly what to expect."
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate decision 'Elias accepted the three hundred gold payment and the verbal agreement to finalize terms at dawn' repeats decision from Chapter 17, Scene 2: 'Elias accepted the revised payment terms of three hundred gold upfront'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.

@@ -1,0 +1,137 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 18.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":18,"ViewpointCharacterId":"Elias Thorne","Objective":"Finalize the contract terms with Silas Vane, gather necessary supplies and local information, and prepare the party for the caravan escort, including addressing the party\u0027s internal dynamics and the specific challenges of the route.","IntendedChange":"The party transitions from \u0027negotiators\u0027 to \u0027active contractors,\u0027 securing the final contract, acquiring supplies, and establishing a clear plan of action for the escort, while addressing the internal tensions and external pressures that arise from their new role.","PacingPosture":1,"ProhibitedPatterns":["Copying verbatim prose or scene structures from Chapter 17, particularly the tavern entry, the drunk patron incident, or the initial introduction of Silas Vane.","Replaying the negotiation of initial terms or the establishment of the party\u0027s reputation, which was completed in Chapter 17.","Introducing a new physical threat, attack, or cliffhanger at the end of the chapter.","Having the party depart with the caravan, which is reserved for Chapter 19."],"Scenes":[{"Sequence":1,"Purpose":"Finalize the contract with Silas Vane by negotiating the additional clause regarding the second merchant group, resulting in a compromise that secures fair payment while maintaining focus on the primary escort.","IntendedChange":"The party holds a signed contract with agreed-upon terms, having successfully resisted Vane\u0027s attempt to dilute their focus, and established their professional boundaries.","FocusCharacterIds":["Elias Thorne","Silas Vane"]},{"Sequence":2,"Purpose":"Acquire necessary supplies and local intelligence at the market, where Elara analyzes the route\u0027s Blight activity patterns and Torin organizes the logistical requirements for the journey.","IntendedChange":"The party possesses the required equipment and a strategic understanding of the route\u0027s cyclical dangers, with Elara\u0027s insights integrated into their planning and Torin\u0027s logistics finalized.","FocusCharacterIds":["Elara","Torin","Maren"]},{"Sequence":3,"Purpose":"Address the internal dynamics and ethical complexities of the escort, specifically the handling of the sealed crate and the distribution of responsibilities, to solidify the party\u0027s cohesion before departure.","IntendedChange":"The party resolves their internal tensions regarding the crate\u0027s significance and their roles, establishing a unified approach to the escort that balances personal ambition with collective responsibility.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Acquire necessary supplies and local intelligence at the market, where Elara analyzes the route\u0027s Blight activity patterns and Torin organizes the logistical requirements for the journey.","IntendedChange":"The party possesses the required equipment and a strategic understanding of the route\u0027s cyclical dangers, with Elara\u0027s insights integrated into their planning and Torin\u0027s logistics finalized.","FocusCharacterIds":["Elara","Torin","Maren"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Address the internal dynamics and ethical complexities of the escort, specifically the handling of the sealed crate and the distribution of responsibilities, to solidify the party\u0027s cohesion before departure.","IntendedChange":"The party resolves their internal tensions regarding the crate\u0027s significance and their roles, establishing a unified approach to the escort that balances personal ambition with collective responsibility.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":18,"CompletedSceneSequence":1,"Location":"Market square outside the tavern","TimeContext":"Afternoon","PresentCharacterIds":["Elias Thorne","Silas Vane"],"PhysicalConditions":["Sun beating down on cobblestones","Crowd of market-goers present but distant","Silas\u0027s wagon parked outside with apprentices loading crates"],"KnowledgeEstablished":["Contract terms finalized with a specific clause regarding extra charges incurred during transport being deducted from final payment or covered upfront.","Silas Vane attempts to frame the deduction clause as \u0027business logic\u0027 and \u0027principles of quality over quantity\u0027.","Elias Thorne expresses distrust regarding Silas\u0027s motives but signs the revised contract anyway.","The rival adventurers who caused earlier stir are gone or silenced by Maren."],"DecisionsMade":["Elias and his party accept the revised contract terms including the deduction clause.","Silas agrees to finalize the agreement immediately.","The negotiation phase regarding the second merchant group\u0027s focus is concluded with a compromise on payment structure."],"PossessionChanges":["Signed contract held by Silas Vane after being handed back from Elias Thorne."],"RelationshipChanges":["Elias and Silas transition from negotiating adversaries to formal partners under the new terms.","Tension remains high between Elias and Silas, with Elias maintaining skepticism despite signing."],"CompletedActions":["Elias read the revised contract aloud.","Elias signed the contract.","Silas accepted the signed contract and tucked it into his coat pocket.","Silas addressed the apprentices near the wagon.","Dialogue regarding trust, business logic, and partnership dynamics exchanged."],"UnresolvedImmediateAction":"Silas Vane has just finished speaking to Elias after securing the signature, turning his attention back to the apprentices loading crates near the wagon while Elias stands with the signed agreement finalized.","ContinuationPosition":"Elias Thorne and Silas Vane are standing at a table in the market square. The contract is signed and secured by Silas. The immediate next step involves moving away from this specific negotiation spot to address the logistical preparations for the caravan, likely involving the other party members (Elara, Torin, Maren) who were previously mentioned as being nearby.","ProhibitedRepetition":["The initial introduction of Silas Vane.","The tavern entry sequence from Chapter 17.","The drunk patron incident.","Replaying the negotiation of initial terms or the establishment of the party\u0027s reputation.","Introducing a new physical threat, attack, or cliffhanger."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Silas Vane’s attention snapped back to the apprentices with a sharp clatter of metal on wood, but Elias didn’t move. He stood there, the weight of the signed contract still heavy in his hand, watching the merchant’s face soften into that practiced, oily smile again. The tension between them had settled into something resembling a cold truce, one built on mutual suspicion and a shared desire to keep moving before the afternoon heat drove everyone mad.
+
+“Excellent,” Silas repeated, though he didn’t look at Elias this time. He turned fully toward the wagon, where two apprentices in leather aprons were struggling to hoist crates of dried meat onto the flatbed. “Now, let’s get these supplies sorted before the sun gets too high. We’ll need them for the road.”
+
+Elias finally stepped aside, letting the merchant take the lead. The market square buzzed around them—a chaotic symphony of haggling voices, stray dogs chasing cart wheels, and the rhythmic thud of boots on cobblestone. It was a place where information flowed like water, dirty and fast-moving, and Elias found himself drawn into its current immediately.
+
+“Elara,” he called out quietly as they moved through the crowd toward the wagon. “We need to talk about the route.”
+
+Elara emerged from behind Silas’s wagon with a stack of maps under her arm, her dark eyes scanning the parchment with intense focus. She looked tired but alert, the kind of exhaustion that came from reading too much and thinking too hard. Torin stood nearby, arms crossed over his chest, watching the activity around them with a quiet vigilance that suggested he was already calculating escape routes or ambush points.
+
+Maren joined them shortly after, leaning against the side of the wagon with her hands tucked into the pockets of her coat. She didn’t say much, but her presence added a layer of calm to the group’s energy. The sun beat down on their shoulders, warming the air and making the crowd feel more oppressive than usual.
+
+“Alright,” Elara said, spreading the maps out on the wagon bed. “Let’s see what we’re dealing with.”
+
+She pointed to a section marked *Valley of Whispers*, where the terrain shifted from open plains to narrow ridges and deep crevices. The map showed faint red lines tracing paths that wound through the mountains like veins, each one labeled with warnings about bandits, weather hazards, or magical disturbances.
+
+“The route is cyclical,” Elara explained, her voice low but clear enough for everyone to hear. “Blight activity follows a pattern—periods of calm followed by surges. If we time our passage correctly, we can avoid the worst of it.”
+
+Torin nodded slowly, studying the map with his own critical eye. “But how do we know which surge is coming? And what if our timing slips?”
+
+“That’s where your instincts come in,” Elara said, glancing at him with a small, encouraging smile. “You’ll feel the shift before it happens. The air will change, the animals will react, the ground will tremble slightly. Trust your gut.”
+
+Torin grunted, though he didn’t look convinced. “I’ll try not to panic when the world starts shaking again,” he muttered dryly.
+
+Maren laughed softly, breaking the tension. “You’re welcome to practice first,” she teased gently. “We’ve got plenty of room for mistakes if you need them.”
+
+Torin rolled his eyes but didn’t argue further. Instead, he focused on the task at hand: organizing the supplies they’d acquired from Silas’s wagon. He began stacking crates methodically, ensuring that heavier items were placed near the wheels and lighter ones closer to the center of the load. It was a job that required precision and care, something Torin had done countless times before.
+
+Elara continued her analysis, flipping through pages of notes filled with diagrams and calculations. She traced lines connecting various points along the route, marking areas where Blight activity spiked or faded based on lunar cycles and seasonal changes. Her movements were deliberate, almost ritualistic, as if she were trying to impose order on a chaotic world.
+
+“There’s a storm front moving in from the northwest,” she murmured, tapping a spot on the map. “It’ll hit us around midday tomorrow. We’ll need to find shelter before then.”
+
+“Good thing we’re prepared,” Torin said, gesturing toward the crates. “We’ve got everything we need for rain or snow.”
+
+“True,” Elara agreed. “But we also need to account for Blight surges. They don’t always follow predictable patterns. That’s why we’re taking extra precautions.”
+
+She paused, looking up at Elias with a serious expression. “And we need to decide how to handle the crate itself. Do we keep it sealed? Or do we open it now to inspect its contents?”
+
+Elias frowned, considering her question carefully. The crate had been delivered intact, wrapped in heavy metal bands that seemed to hum faintly when touched. It felt wrong to disturb it without knowing what was inside, but leaving it unopened carried risks of its own.
+
+“I say we leave it sealed for now,” Elias said finally. “If there’s something dangerous inside, we’ll find out when we reach the destination. Opening it now could alert enemies or cause unnecessary panic.”
+
+Maren nodded in agreement. “Agreed. Let’s focus on getting to the next checkpoint safely first. Once we’re away from civilization, we can make a decision based on what we learn along the way.”
+
+Torin added his own thoughts. “Besides, if someone wants to steal it, they’ll try regardless. Keeping it hidden until we’re far enough out of sight might be our best defense.”
+
+Elara considered this, then nodded slowly. “Fair point. But we should still mark the crate with some kind of warning symbol. Something that tells anyone who finds it what’s inside and why it shouldn’t be touched.”
+
+“I can do that,” Elara offered, reaching for a piece of charcoal from her satchel. “I’ll draw a sigil indicating that the contents are unstable and potentially hazardous.”
+
+“Good idea,” Elias said, watching her work with interest. “Just make sure it’s visible enough to warn anyone who might come across us.”
+
+As Elara began sketching the symbol on the side of the crate, Torin continued organizing the supplies, while Maren kept a watchful eye on the surrounding area. The market square was beginning to thin as shoppers returned home for the evening, but the sounds of commerce still lingered in the air—a distant reminder that they were still part of a larger world beyond their immediate concerns.
+
+The sun began to dip lower in the sky, casting long shadows across the cobblestones and turning the light into something golden and warm. The heat eased slightly, replaced by a cool breeze that carried the scent of woodsmoke and damp earth from the distant hills.
+
+“Alright,” Elias said finally, clapping his hands together to break the silence. “Time to pack up and head toward the first checkpoint. We’ll rest there tonight and assess our situation before moving on.”
+
+The group nodded in agreement, each taking a moment to gather their belongings and prepare for the journey ahead. Silas Vane watched them from across the square, his expression unreadable but perhaps slightly less predatory than before. He had secured his contract, yes, but he also knew that trusting strangers was a gamble everyone took every day in this line of work.
+
+As they mounted their horses and began the slow march toward the horizon, Elias glanced back at the market one last time. The crates were loaded securely onto Silas’s wagon, the maps spread out beneath Elara’s careful inspection, and the group moving together with a sense of purpose that felt both fragile and enduring.
+
+The road stretched ahead of them, winding through valleys and over ridges that promised danger as well as discovery. There would be storms to dodge, Blight surges to weather, and rivals to outmaneuver along the way—but for now, they had supplies, a plan, and each other. That was enough to keep moving forward, at least until the next challenge arose.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

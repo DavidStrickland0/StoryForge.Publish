@@ -4,14 +4,14 @@
       "Id": "medium-blight-prelude",
       "Horizon": "Medium",
       "PrimaryTrope": "Sealed Evil in a Can",
-      "Status": "Active",
+      "Status": "Completed",
       "ParentArcId": "long-frontier-road",
       "StartChapter": 8,
       "TargetChapter": 16,
       "Objective": "Survive the first encounter with the Blight, reunite the scattered companions, discover how the protective barrier can consume it, and end the immediate threat.",
       "ResolutionCriteria": "The reunited party turns the Blight's own substance against it, destroys or seals its local source, and leaves the region free to recover without establishing another Blight campaign.",
-      "CurrentPhase": "The first phase of the assault is complete, with the Blight being fed into the barrier, but the source has not yet been fully consumed.",
-      "NextMilestone": "Push the frequency higher and open the channel wider to consume the source of the Blight.",
+      "CurrentPhase": "The local operation concludes in rebuilt Chapter 16. Independent observation and the transfer of responsibility follow in Chapters 17-18.",
+      "NextMilestone": "",
       "RelatedThreadIds": [
         "conflict-001",
         "mystery-002",
@@ -25,8 +25,13 @@
         {
           "ChapterNumber": 14,
           "Development": "The party executed the plan to sever the shrine channel, successfully initiating the flow of the Blight into the barrier and completing the first phase of the assault."
+        },
+        {
+          "ChapterNumber": 16,
+          "Development": "All three Short child arcs were completed."
         }
-      ]
+      ],
+      "ChapterTargets": []
     },
     {
       "Id": "short-return-to-party",
@@ -46,7 +51,8 @@
           "ChapterNumber": 10,
           "Development": "Elias and Kaelen reached the watchfort and reunited with Maren, Torin, and Elara."
         }
-      ]
+      ],
+      "ChapterTargets": []
     },
     {
       "Id": "short-council-against-blight",
@@ -65,20 +71,21 @@
         "mystery-002",
         "mystery-003"
       ],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-final-blight-counterattack",
       "Horizon": "Short",
       "PrimaryTrope": "Assault on the Heart of Evil",
-      "Status": "Active",
+      "Status": "Completed",
       "ParentArcId": "medium-blight-prelude",
       "StartChapter": 14,
       "TargetChapter": 16,
-      "Objective": "Return to the threatened site for a decisive dungeon-style assault, protect the bearer of the barrier, and force the Blight into the defense that consumes it.",
-      "ResolutionCriteria": "The local Blight source is destroyed or permanently sealed, its victims are no longer spreading the corruption, and the party earns a genuine victory before choosing a new road.",
-      "CurrentPhase": "The group is at the Gate of Silence. The first phase feeds Blight into the distant temple barrier; the second phase has just begun.",
-      "NextMilestone": "Sustain Kaelen's active pull and increase the resonance without losing control, working toward consuming or containing the local Blight source.",
+      "Objective": "Finish the operation begun in immutable Chapter 14: recover from the failed stronger pull, feed the local reservoir into the established consuming barrier, and close the channel without sacrificing a companion.",
+      "ResolutionCriteria": "The local reservoir pressure has ceased; the channel remains closed without a person maintaining it; the temple barrier is steady; all five can leave. Do not claim the entire world is cleansed or the forest mystery explained.",
+      "CurrentPhase": "Completed in rebuilt Chapter 16: the local feed was consumed, the channel closed and tested, and all five withdrew.",
+      "NextMilestone": "",
       "RelatedThreadIds": [
         "conflict-001",
         "mystery-002",
@@ -88,6 +95,10 @@
         {
           "ChapterNumber": 14,
           "Development": "The seal is weakened and a controlled stream feeds the barrier; the second phase begins."
+        },
+        {
+          "ChapterNumber": 16,
+          "Development": "The party successfully transitions from a temporary physical blockage to a sustainable distributed resonance circuit using fragmented quartz shards. Kaelen regains full agency and clarity, guiding the flow without strain while Elara and Elias establish a new method for modulating frequency that does not rely on exhausting companions' physical strength or fragile single-point crystals. The local source is contained and the system stabilizes, allowing the party to hold the line until external confirmation arrives."
         }
       ],
       "ChapterTargets": [
@@ -98,27 +109,6 @@
           "Objective": "Initiate the resonance operation at the Gate of Silence.",
           "IntendedChange": "The seal is weakened and a controlled stream feeds the barrier; the second phase begins.",
           "CharacterDevelopmentTarget": "Elias must coordinate the companions and respond to the cost of the operation rather than repeat the council.",
-          "RequiredChoice": "Choose how far to push the resonance while protecting Kaelen and the group.",
-          "DiscoveryTarget": "Establish the practical capacity and limits of the consuming barrier.",
-          "ThematicPressure": "Cooperation and restraint must overcome the temptation to force a dangerous solution.",
-          "ClosingState": "The seal is weakened and a controlled stream feeds the barrier; the second phase begins.",
-          "IsCompleted": true,
-          "CompletedInChapter": 14,
-          "WorldbuildingTargets": [
-            "The shrine and the distant temple barrier are separate locations connected by the channel."
-          ],
-          "ReservedLaterWork": [
-            "Do not relocate the party or invent an off-page Keeper death."
-          ],
-          "Complications": [
-            "Increased pull risks overwhelming Kaelen or the barrier."
-          ],
-          "Consequences": [
-            "The seal is weakened and a controlled stream feeds the barrier; the second phase begins."
-          ],
-          "ResolutionContributions": [
-            "Initiate the resonance operation at the Gate of Silence."
-          ],
           "RelationshipTargets": [
             {
               "CharacterAId": "Elias Thorne",
@@ -134,6 +124,29 @@
               ]
             }
           ],
+          "WorldbuildingTargets": [
+            "The shrine and the distant temple barrier are separate locations connected by the channel."
+          ],
+          "Complications": [
+            "Increased pull risks overwhelming Kaelen or the barrier."
+          ],
+          "RequiredChoice": "Choose how far to push the resonance while protecting Kaelen and the group.",
+          "Consequences": [
+            "The seal is weakened and a controlled stream feeds the barrier; the second phase begins."
+          ],
+          "DiscoveryTarget": "Establish the practical capacity and limits of the consuming barrier.",
+          "SetupElements": [],
+          "PayoffElements": [],
+          "ThematicPressure": "Cooperation and restraint must overcome the temptation to force a dangerous solution.",
+          "ResolutionContributions": [
+            "Initiate the resonance operation at the Gate of Silence."
+          ],
+          "ReservedLaterWork": [
+            "Do not relocate the party or invent an off-page Keeper death."
+          ],
+          "ClosingState": "The seal is weakened and a controlled stream feeds the barrier; the second phase begins.",
+          "IsCompleted": true,
+          "CompletedInChapter": 14,
           "CompletionEvidence": [
             "The first phase was complete. The seal was weakened, the channel was open, and the Blight was being fed into the system that had been built to destroy it."
           ]
@@ -141,89 +154,105 @@
         {
           "Sequence": 2,
           "ChapterNumber": 15,
-          "DramaticQuestion": "Can the party control the Blight flow safely enough to complete this phase?",
-          "Objective": "Sustain and control the second phase of the operation already underway.",
-          "IntendedChange": "The group establishes whether increased flow is viable and makes a consequential adjustment to manage its cost or danger.",
-          "CharacterDevelopmentTarget": "Elias must coordinate the companions and respond to the cost of the operation rather than repeat the council.",
-          "RequiredChoice": "Choose how far to push the resonance while protecting Kaelen and the group.",
-          "DiscoveryTarget": "Establish the practical capacity and limits of the consuming barrier.",
-          "ThematicPressure": "Cooperation and restraint must overcome the temptation to force a dangerous solution.",
-          "ClosingState": "The group establishes whether increased flow is viable and makes a consequential adjustment to manage its cost or danger.",
-          "IsCompleted": false,
-          "CompletedInChapter": null,
-          "WorldbuildingTargets": [
-            "The shrine and the distant temple barrier are separate locations connected by the channel."
-          ],
-          "ReservedLaterWork": [
-            "Do not relocate the party or invent an off-page Keeper death."
-          ],
-          "Complications": [
-            "Increased pull risks overwhelming Kaelen or the barrier."
-          ],
-          "Consequences": [
-            "The group establishes whether increased flow is viable and makes a consequential adjustment to manage its cost or danger."
-          ],
-          "ResolutionContributions": [
-            "Sustain and control the second phase of the operation already underway."
-          ],
+          "DramaticQuestion": "Can the companions recover control after the quartz fails during the second phase.",
+          "Objective": "recover control after the quartz fails during the second phase.",
+          "IntendedChange": "The companions replace a dangerous, person-dependent restriction with a tested arrangement of broken quartz; Kaelen is no longer forced to pull.",
+          "CharacterDevelopmentTarget": "Elias accepts help and distributes responsibility; Kaelen retains agency; competence does not require self-sacrifice.",
           "RelationshipTargets": [
             {
               "CharacterAId": "Elias Thorne",
               "CharacterBId": "Kaelen",
-              "StartingDynamic": "Elias coordinates the operation while Kaelen controls the flow.",
-              "IntendedChange": "Their cooperation is tested by the demands and cost of this phase.",
-              "Tension": "Success requires greater effort without sacrificing Kaelen to the operation.",
-              "PowerDynamic": "Elias directs the group, but Kaelen must choose and sustain his own involvement.",
-              "Subtext": "Trust requires responding to limits rather than treating a companion as a tool.",
-              "PreservedBoundary": "Maintain Kaelen's agency and the assigned safety roles.",
+              "StartingDynamic": "Companions under strain who trust each other but disagree about the cost of responsibility.",
+              "IntendedChange": "The companions replace a dangerous, person-dependent restriction with a tested arrangement of broken quartz; Kaelen is no longer forced to pull.",
+              "Tension": "Duty to the group must not become permission to exhaust or control one person.",
+              "PowerDynamic": "Elias coordinates; Kaelen chooses his participation and states his own limits.",
+              "Subtext": "Accepting help and accepting an ending are forms of trust.",
+              "PreservedBoundary": "Professional, non-romantic companionship; preserve all established relationships.",
               "ReservedLaterWork": [
-                "Future journeys begin only after the local confrontation is resolved."
+                "Empty the local reservoir and close the channel in Chapter 16; do not claim success before testing independence."
               ]
             }
+          ],
+          "WorldbuildingTargets": [
+            "The Gate of Silence shrine and the distant temple barrier are separate places linked by a channel; do not relocate the barrier.",
+            "Ordinary injuries, travel, supplies, and institutional responsibility remain material constraints."
+          ],
+          "Complications": [
+            "Fatigue, injuries, uncertainty, and incomplete information require credible decisions rather than an invented magical solution."
+          ],
+          "RequiredChoice": "Stop the stronger pull rather than spend Kaelen as a replaceable component.",
+          "Consequences": [
+            "The companions replace a dangerous, person-dependent restriction with a tested arrangement of broken quartz; Kaelen is no longer forced to pull."
+          ],
+          "DiscoveryTarget": "Fragments can answer the established note at tested angles, but the reservoir is not yet empty.",
+          "SetupElements": [
+            "Use only facts established in the retained canon or concretely established in this chapter."
+          ],
+          "PayoffElements": [
+            "Pay off the companions' return promise and their trust through observed consequences."
+          ],
+          "ThematicPressure": "Competence includes knowing when to stop and allowing others to share responsibility.",
+          "ResolutionContributions": [
+            "The feed remains limited and stable; the hammer is withdrawn and all five remain alive."
+          ],
+          "ReservedLaterWork": [
+            "Empty the local reservoir and close the channel in Chapter 16; do not claim success before testing independence."
+          ],
+          "ClosingState": "The feed remains limited and stable; the hammer is withdrawn and all five remain alive.",
+          "IsCompleted": true,
+          "CompletedInChapter": 15,
+          "CompletionEvidence": [
+            "But Maren and Torin no longer had to hold the gap with their hands, and Kaelen was still himself."
           ]
         },
         {
           "Sequence": 3,
           "ChapterNumber": 16,
-          "DramaticQuestion": "Can the party control the Blight flow safely enough to complete this phase?",
-          "Objective": "Resolve the local Blight counterattack using the established channel and consuming barrier.",
-          "IntendedChange": "The local source is consumed or contained and the party knows the immediate consequences; no new Blight campaign is substituted for resolution.",
-          "CharacterDevelopmentTarget": "Elias must coordinate the companions and respond to the cost of the operation rather than repeat the council.",
-          "RequiredChoice": "Choose how far to push the resonance while protecting Kaelen and the group.",
-          "DiscoveryTarget": "Establish the practical capacity and limits of the consuming barrier.",
-          "ThematicPressure": "Cooperation and restraint must overcome the temptation to force a dangerous solution.",
-          "ClosingState": "The local source is consumed or contained and the party knows the immediate consequences; no new Blight campaign is substituted for resolution.",
-          "IsCompleted": false,
-          "CompletedInChapter": null,
-          "WorldbuildingTargets": [
-            "The shrine and the distant temple barrier are separate locations connected by the channel."
-          ],
-          "ReservedLaterWork": [
-            "Do not relocate the party or invent an off-page Keeper death."
-          ],
-          "Complications": [
-            "Increased pull risks overwhelming Kaelen or the barrier."
-          ],
-          "Consequences": [
-            "The local source is consumed or contained and the party knows the immediate consequences; no new Blight campaign is substituted for resolution."
-          ],
-          "ResolutionContributions": [
-            "Resolve the local Blight counterattack using the established channel and consuming barrier."
-          ],
+          "DramaticQuestion": "Can the companions finish the local Blight counterattack and withdraw safely.",
+          "Objective": "finish the local Blight counterattack and withdraw safely.",
+          "IntendedChange": "The temple consumes the remaining local feed; the channel is closed and holds without human maintenance.",
+          "CharacterDevelopmentTarget": "Elias accepts help and distributes responsibility; Kaelen retains agency; competence does not require self-sacrifice.",
           "RelationshipTargets": [
             {
               "CharacterAId": "Elias Thorne",
               "CharacterBId": "Kaelen",
-              "StartingDynamic": "Elias coordinates the operation while Kaelen controls the flow.",
-              "IntendedChange": "Their cooperation is tested by the demands and cost of this phase.",
-              "Tension": "Success requires greater effort without sacrificing Kaelen to the operation.",
-              "PowerDynamic": "Elias directs the group, but Kaelen must choose and sustain his own involvement.",
-              "Subtext": "Trust requires responding to limits rather than treating a companion as a tool.",
-              "PreservedBoundary": "Maintain Kaelen's agency and the assigned safety roles.",
-              "ReservedLaterWork": [
-                "Future journeys begin only after the local confrontation is resolved."
-              ]
+              "StartingDynamic": "Companions under strain who trust each other but disagree about the cost of responsibility.",
+              "IntendedChange": "The temple consumes the remaining local feed; the channel is closed and holds without human maintenance.",
+              "Tension": "Duty to the group must not become permission to exhaust or control one person.",
+              "PowerDynamic": "Elias coordinates; Kaelen chooses his participation and states his own limits.",
+              "Subtext": "Accepting help and accepting an ending are forms of trust.",
+              "PreservedBoundary": "Professional, non-romantic companionship; preserve all established relationships.",
+              "ReservedLaterWork": []
             }
+          ],
+          "WorldbuildingTargets": [
+            "The Gate of Silence shrine and the distant temple barrier are separate places linked by a channel; do not relocate the barrier.",
+            "Ordinary injuries, travel, supplies, and institutional responsibility remain material constraints."
+          ],
+          "Complications": [
+            "Fatigue, injuries, uncertainty, and incomplete information require credible decisions rather than an invented magical solution."
+          ],
+          "RequiredChoice": "Reject a stronger pull and use the observed channel behavior to finish without sacrificing Kaelen.",
+          "Consequences": [
+            "The temple consumes the remaining local feed; the channel is closed and holds without human maintenance."
+          ],
+          "DiscoveryTarget": "The creatures in the ditch lose cohesion when the diverted feed reaches the temple; the reservoir pressure ceases.",
+          "SetupElements": [
+            "Use only facts established in the retained canon or concretely established in this chapter."
+          ],
+          "PayoffElements": [
+            "Pay off the companions' return promise and their trust through observed consequences."
+          ],
+          "ThematicPressure": "Competence includes knowing when to stop and allowing others to share responsibility.",
+          "ResolutionContributions": [
+            "The replacement key is left closed, the party tests it from outside range, and all five start the return journey."
+          ],
+          "ReservedLaterWork": [],
+          "ClosingState": "The replacement key is left closed, the party tests it from outside range, and all five start the return journey.",
+          "IsCompleted": true,
+          "CompletedInChapter": 16,
+          "CompletionEvidence": [
+            "But the reservoir they had opened no longer pressed against the shrine. The barrier had consumed the released corruption. The creatures in the ditch had collapsed when the stream was drawn away from them, and nothing had risen to replace them."
           ]
         }
       ]
@@ -236,10 +265,10 @@
       "ParentArcId": "",
       "StartChapter": 8,
       "TargetChapter": 88,
-      "Objective": "Transform survivors of the Blight into a renowned adventuring company through recovery, frontier quests, ruined keeps, guild rivalries, tournaments, thieves, wizards, legendary treasure, and a dragon.",
-      "ResolutionCriteria": "The Blight prelude is decisively concluded, the companions complete three increasingly ambitious campaigns, and they return from the dragon road as an established company of heroes.",
-      "CurrentPhase": "The decisive solution is in progress, with the first phase of feeding the Blight into the barrier complete.",
-      "NextMilestone": "Complete the consumption of the Blight source to conclude the prelude.",
+      "Objective": "Retain the recurring cast and world across independent, self-contained adventures. Episode One ends at Chapter 18; fame, guild campaigns, tournaments, dragons, and further escalation are not required to finish it.",
+      "ResolutionCriteria": "The series framework spans possible future independent episodes. Do not force the current book to complete its unused hierarchy or falsely mark those future adventures as accomplished.",
+      "CurrentPhase": "Episode One closed after the local Blight operation, return, verification, and rest.",
+      "NextMilestone": "No continuation without an author-approved new episode.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [
         {
@@ -250,7 +279,8 @@
           "ChapterNumber": 14,
           "Development": "The party executed the decisive solution to conclude the Blight prelude, successfully initiating the process of feeding the Blight into the barrier."
         }
-      ]
+      ],
+      "ChapterTargets": []
     },
     {
       "Id": "long-frontier-road",
@@ -260,10 +290,10 @@
       "ParentArcId": "epic-company-of-the-open-road",
       "StartChapter": 8,
       "TargetChapter": 34,
-      "Objective": "Conclude the Blight prelude, allow the companions to recover, and begin their new life on the road through a paid caravan contract and a classic village rescue.",
-      "ResolutionCriteria": "The Blight is defeated locally, the party completes its first paid adventure, saves an endangered village, and earns confidence in a less oppressive kind of heroism.",
-      "CurrentPhase": "The counterattack is in progress, with the first phase of feeding the Blight into the barrier complete.",
-      "NextMilestone": "Complete the consumption of the Blight source to end the immediate threat.",
+      "Objective": "Provide a series framework for the recurring companions, starting with a completed local Blight adventure and recovery. Later village or road adventures belong to separate episodes and are not obligations of Episode One.",
+      "ResolutionCriteria": "The first local adventure is finished and documented. The longer series framework is not resolved early and requires separately authorized future episodes.",
+      "CurrentPhase": "Local Blight feed closed in Chapter 16; return and independent observation complete by Chapter 18.",
+      "NextMilestone": "Leave this episode closed; future independent adventures require a new author-approved premise.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [
         {
@@ -274,37 +304,206 @@
           "ChapterNumber": 14,
           "Development": "The party executed the counterattack to defeat the Blight locally, successfully initiating the process of feeding the Blight into the barrier."
         }
-      ]
+      ],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-first-contract",
       "Horizon": "Medium",
-      "PrimaryTrope": "Simple Job Gone Wrong",
-      "Status": "Planned",
+      "PrimaryTrope": "Recovery and independent episodes",
+      "Status": "Active",
       "ParentArcId": "long-frontier-road",
       "StartChapter": 17,
       "TargetChapter": 25,
-      "Objective": "Accept an apparently simple tavern contract, escort a caravan through dangerous country, and track the raiders back to their camp.",
-      "ResolutionCriteria": "The caravan reaches safety, the raider camp is defeated, and the party discovers evidence that the frontier's troubles extend beyond ordinary banditry.",
-      "CurrentPhase": "Planned.",
-      "NextMilestone": "",
+      "Objective": "Close the current adventure through the return and debrief in Chapters 17-18. Reserve any later self-contained adventures for future episodes with separately established premises; no caravan or raider obligation exists in this book.",
+      "ResolutionCriteria": "The current episode has a verified, human-scale ending at 18. Completion of this structural Medium reserve would require later independent episodes and is not claimed now.",
+      "CurrentPhase": "The first episode is complete at Chapter 18; later structural slots are unused series reserves.",
+      "NextMilestone": "Only author-authorized future episodes may use the remaining series reserve.",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-tavern-notice",
       "Horizon": "Short",
-      "PrimaryTrope": "The Tavern Quest",
-      "Status": "Planned",
+      "PrimaryTrope": "The return and the earned rest",
+      "Status": "Active",
       "ParentArcId": "medium-first-contract",
       "StartChapter": 17,
       "TargetChapter": 19,
-      "Objective": "Enter a lively roadside tavern, negotiate the party's first paid contract, gather rumors, and prepare to escort a merchant caravan.",
-      "ResolutionCriteria": "The companions accept clear terms, obtain supplies and local information, and leave with the caravan.",
-      "CurrentPhase": "Planned.",
-      "NextMilestone": "",
+      "Objective": "Bring the companions home, document the completed operation honestly, transfer the watch to the watchfort, and let the first episode end at Chapter 18. Chapter 19 is outside this closed episode.",
+      "ResolutionCriteria": "The returning party gives a usable report; the watchfort takes responsibility; injuries are treated and the companions reach an ordinary, stable stopping point. Any third-target development belongs to a separate future episode, not a missing payoff here.",
+      "CurrentPhase": "Rebuilt Chapter 18 ends the first episode with independent observation, a completed report, paid rooms, and all five at the table.",
+      "NextMilestone": "No more chapters in this episode. If the author later starts another episode, create its independent premise and workspace instead of restarting the resolved Blight operation.",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [
+        {
+          "ChapterNumber": 17,
+          "Development": "The party entered the Gilded Tankard, handled a social incident involving a drunk patron without violence, and engaged with rival adventurers and merchant Silas Vane. They gathered rumors about a sealed crate of 'pure' water from the Temple Springs being transported by a caravan under threat. The chapter established their reputation as competent but cautious negotiators who can navigate social pressure, fulfilling the objective to enter the tavern, gather information, and initiate negotiations."
+        },
+        {
+          "ChapterNumber": 18,
+          "Development": "The party finalized the contract terms with Silas Vane by negotiating a modified agreement that allows for a safe handover of the crate at the Watchfort gate, satisfying the alchemists' needs while maintaining security. The party also secured necessary supplies (iron-bound rope, sulfur paste) and integrated Elara's celestial timing analysis into their route plan, establishing a clear operational strategy for the escort."
+        }
+      ],
+      "ChapterTargets": [
+        {
+          "Sequence": 1,
+          "ChapterNumber": 17,
+          "DramaticQuestion": "Can the companions return to the watchfort and transfer responsibility for the closed channel.",
+          "Objective": "return to the watchfort and transfer responsibility for the closed channel.",
+          "IntendedChange": "The companions leave the shrine, arrive together, receive treatment, and share the operation and observation instructions.",
+          "CharacterDevelopmentTarget": "Elias accepts help and distributes responsibility; Kaelen retains agency; competence does not require self-sacrifice.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Elias Thorne",
+              "CharacterBId": "Kaelen",
+              "StartingDynamic": "Companions under strain who trust each other but disagree about the cost of responsibility.",
+              "IntendedChange": "The companions leave the shrine, arrive together, receive treatment, and share the operation and observation instructions.",
+              "Tension": "Duty to the group must not become permission to exhaust or control one person.",
+              "PowerDynamic": "Elias coordinates; Kaelen chooses his participation and states his own limits.",
+              "Subtext": "Accepting help and accepting an ending are forms of trust.",
+              "PreservedBoundary": "Professional, non-romantic companionship; preserve all established relationships.",
+              "ReservedLaterWork": [
+                "Independent verification, final account, and quiet episode closure belong to Chapter 18."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The Gate of Silence shrine and the distant temple barrier are separate places linked by a channel; do not relocate the barrier.",
+            "Ordinary injuries, travel, supplies, and institutional responsibility remain material constraints."
+          ],
+          "Complications": [
+            "Fatigue, injuries, uncertainty, and incomplete information require credible decisions rather than an invented magical solution."
+          ],
+          "RequiredChoice": "Accept help and allow the watchfort to carry the next watch instead of returning exhausted.",
+          "Consequences": [
+            "The companions leave the shrine, arrive together, receive treatment, and share the operation and observation instructions."
+          ],
+          "DiscoveryTarget": "The operation can hold without the party remaining at the shrine.",
+          "SetupElements": [
+            "Use only facts established in the retained canon or concretely established in this chapter."
+          ],
+          "PayoffElements": [
+            "Pay off the companions' return promise and their trust through observed consequences."
+          ],
+          "ThematicPressure": "Competence includes knowing when to stop and allowing others to share responsibility.",
+          "ResolutionContributions": [
+            "All five are resting at the watchfort; observation instructions have reached an independent watch."
+          ],
+          "ReservedLaterWork": [
+            "Independent verification, final account, and quiet episode closure belong to Chapter 18."
+          ],
+          "ClosingState": "All five are resting at the watchfort; observation instructions have reached an independent watch.",
+          "IsCompleted": true,
+          "CompletedInChapter": 17,
+          "CompletionEvidence": [
+            "Within a few minutes, people who had not stood at the shrine were gathering blankets and water for the ridge watch."
+          ]
+        },
+        {
+          "Sequence": 2,
+          "ChapterNumber": 18,
+          "DramaticQuestion": "Can the companions verify the outcome and close this episode at a stable stopping point.",
+          "Objective": "verify the outcome and close this episode at a stable stopping point.",
+          "IntendedChange": "Independent watches report no renewed feed; the party completes an honest account and chooses recovery rather than another obligation.",
+          "CharacterDevelopmentTarget": "Elias accepts help and distributes responsibility; Kaelen retains agency; competence does not require self-sacrifice.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Elias Thorne",
+              "CharacterBId": "Kaelen",
+              "StartingDynamic": "Companions under strain who trust each other but disagree about the cost of responsibility.",
+              "IntendedChange": "Independent watches report no renewed feed; the party completes an honest account and chooses recovery rather than another obligation.",
+              "Tension": "Duty to the group must not become permission to exhaust or control one person.",
+              "PowerDynamic": "Elias coordinates; Kaelen chooses his participation and states his own limits.",
+              "Subtext": "Accepting help and accepting an ending are forms of trust.",
+              "PreservedBoundary": "Professional, non-romantic companionship; preserve all established relationships.",
+              "ReservedLaterWork": [
+                "Chapter 19 and later plans are future-series reserves outside this closed episode. They do not prevent the ending at 18."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The Gate of Silence shrine and the distant temple barrier are separate places linked by a channel; do not relocate the barrier.",
+            "Ordinary injuries, travel, supplies, and institutional responsibility remain material constraints."
+          ],
+          "Complications": [
+            "Fatigue, injuries, uncertainty, and incomplete information require credible decisions rather than an invented magical solution."
+          ],
+          "RequiredChoice": "Stop seeking certainty by returning to danger; accept a bounded victory and ordinary rest.",
+          "Consequences": [
+            "Independent watches report no renewed feed; the party completes an honest account and chooses recovery rather than another obligation."
+          ],
+          "DiscoveryTarget": "Independent reports corroborate the closure; uncertainty about the forest keeper is an intellectual unknown, not an urgent cliffhanger.",
+          "SetupElements": [
+            "Use only facts established in the retained canon or concretely established in this chapter."
+          ],
+          "PayoffElements": [
+            "Pay off the companions' return promise and their trust through observed consequences."
+          ],
+          "ThematicPressure": "Competence includes knowing when to stop and allowing others to share responsibility.",
+          "ResolutionContributions": [
+            "The report and map copies are entrusted to the watchfort; all five have a meal and rooms at the Gilded Tankard; no caravan contract, summons, new threat, or departure launches another adventure."
+          ],
+          "ReservedLaterWork": [
+            "Chapter 19 and later plans are future-series reserves outside this closed episode. They do not prevent the ending at 18."
+          ],
+          "ClosingState": "The report and map copies are entrusted to the watchfort; all five have a meal and rooms at the Gilded Tankard; no caravan contract, summons, new threat, or departure launches another adventure.",
+          "IsCompleted": true,
+          "CompletedInChapter": 18,
+          "CompletionEvidence": [
+            "For tonight, all five had a place at the table."
+          ]
+        },
+        {
+          "Sequence": 3,
+          "ChapterNumber": 19,
+          "DramaticQuestion": "Can the companions begin a separate self-contained adventure only if explicitly requested in a new episode.",
+          "Objective": "begin a separate self-contained adventure only if explicitly requested in a new episode.",
+          "IntendedChange": "A future episode starts from the recurring cast and stable world, not from an unresolved duty in this completed book.",
+          "CharacterDevelopmentTarget": "Elias accepts help and distributes responsibility; Kaelen retains agency; competence does not require self-sacrifice.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Elias Thorne",
+              "CharacterBId": "Kaelen",
+              "StartingDynamic": "Companions under strain who trust each other but disagree about the cost of responsibility.",
+              "IntendedChange": "A future episode starts from the recurring cast and stable world, not from an unresolved duty in this completed book.",
+              "Tension": "Duty to the group must not become permission to exhaust or control one person.",
+              "PowerDynamic": "Elias coordinates; Kaelen chooses his participation and states his own limits.",
+              "Subtext": "Accepting help and accepting an ending are forms of trust.",
+              "PreservedBoundary": "Professional, non-romantic companionship; preserve all established relationships.",
+              "ReservedLaterWork": []
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The Gate of Silence shrine and the distant temple barrier are separate places linked by a channel; do not relocate the barrier.",
+            "Ordinary injuries, travel, supplies, and institutional responsibility remain material constraints."
+          ],
+          "Complications": [
+            "Fatigue, injuries, uncertainty, and incomplete information require credible decisions rather than an invented magical solution."
+          ],
+          "RequiredChoice": "Choose a fresh independent premise rather than replaying or reopening the resolved local Blight operation.",
+          "Consequences": [
+            "A future episode starts from the recurring cast and stable world, not from an unresolved duty in this completed book."
+          ],
+          "DiscoveryTarget": "Any future problem must be newly established in that episode, not revealed as a last-minute twist in Chapter 18.",
+          "SetupElements": [
+            "Use only facts established in the retained canon or concretely established in this chapter."
+          ],
+          "PayoffElements": [
+            "Pay off the companions' return promise and their trust through observed consequences."
+          ],
+          "ThematicPressure": "Competence includes knowing when to stop and allowing others to share responsibility.",
+          "ResolutionContributions": [
+            "Prospective future-series work only. This target has not occurred and is not required to complete Episode One."
+          ],
+          "ReservedLaterWork": [],
+          "ClosingState": "Prospective future-series work only. This target has not occurred and is not required to complete Episode One.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        }
+      ]
     },
     {
       "Id": "short-caravan-ambush",
@@ -314,12 +513,13 @@
       "ParentArcId": "medium-first-contract",
       "StartChapter": 20,
       "TargetChapter": 22,
-      "Objective": "Protect the caravan through travel mishaps and a classic roadside ambush while identifying where the attackers came from.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Protect the caravan through travel mishaps and a classic roadside ambush while identifying where the attackers came from.",
       "ResolutionCriteria": "The travelers survive, the goods are preserved, and the party obtains a trail leading to the raiders' camp.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-raider-camp",
@@ -329,12 +529,13 @@
       "ParentArcId": "medium-first-contract",
       "StartChapter": 23,
       "TargetChapter": 25,
-      "Objective": "Scout and defeat the raider camp through a mixture of stealth, trickery, and open combat.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Scout and defeat the raider camp through a mixture of stealth, trickery, and open combat.",
       "ResolutionCriteria": "The captives and stolen goods are recovered, the caravan contract is completed, and a clue points toward the endangered frontier village.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-village-in-peril",
@@ -344,12 +545,13 @@
       "ParentArcId": "long-frontier-road",
       "StartChapter": 26,
       "TargetChapter": 34,
-      "Objective": "Answer a village's plea for help, investigate disappearing livestock and villagers, and confront the goblin tribe using nearby caves.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Answer a village's plea for help, investigate disappearing livestock and villagers, and confront the goblin tribe using nearby caves.",
       "ResolutionCriteria": "The missing villagers are rescued, the raids end, and the party learns that something beneath the ruined keep displaced the goblins.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-village-plea",
@@ -359,12 +561,13 @@
       "ParentArcId": "medium-village-in-peril",
       "StartChapter": 26,
       "TargetChapter": 28,
-      "Objective": "Arrive at the frightened village, meet its colorful residents, investigate tracks and contradictory rumors, and locate the goblin route.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Arrive at the frightened village, meet its colorful residents, investigate tracks and contradictory rumors, and locate the goblin route.",
       "ResolutionCriteria": "The party identifies the real threat, earns the villagers' trust, and finds the entrance to the caves.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-goblin-caves",
@@ -374,12 +577,13 @@
       "ParentArcId": "medium-village-in-peril",
       "StartChapter": 29,
       "TargetChapter": 31,
-      "Objective": "Explore the goblin caves, overcome traps and guards, and discover why the tribe began raiding the village.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Explore the goblin caves, overcome traps and guards, and discover why the tribe began raiding the village.",
       "ResolutionCriteria": "The party reaches the prisoners and learns that a monster from the ruined keep drove the goblins from their former home.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-goblin-chief",
@@ -389,12 +593,13 @@
       "ParentArcId": "medium-village-in-peril",
       "StartChapter": 32,
       "TargetChapter": 34,
-      "Objective": "Face the goblin chief, rescue the captives, and choose whether clever negotiation or a final battle best ends the raids.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Face the goblin chief, rescue the captives, and choose whether clever negotiation or a final battle best ends the raids.",
       "ResolutionCriteria": "The prisoners return home, the village is safe, and the party gains the key or map needed to enter the ruined keep.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-ruined-keep",
@@ -404,12 +609,13 @@
       "ParentArcId": "long-city-of-masks",
       "StartChapter": 35,
       "TargetChapter": 43,
-      "Objective": "Enter the classic abandoned keep, survive its traps and restless inhabitants, defeat the creature occupying its depths, and claim the forgotten treasure.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Enter the classic abandoned keep, survive its traps and restless inhabitants, defeat the creature occupying its depths, and claim the forgotten treasure.",
       "ResolutionCriteria": "The keep is cleared, the frontier threat ends, and the companions emerge with treasure and a reputation worthy of larger adventures.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-key-to-the-keep",
@@ -419,12 +625,13 @@
       "ParentArcId": "medium-ruined-keep",
       "StartChapter": 35,
       "TargetChapter": 37,
-      "Objective": "Find the concealed entrance to the ruined keep and unlock it while rival treasure hunters complicate the expedition.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Find the concealed entrance to the ruined keep and unlock it while rival treasure hunters complicate the expedition.",
       "ResolutionCriteria": "The party enters the keep ahead of its rivals without abandoning the people who helped them.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-halls-and-traps",
@@ -434,12 +641,13 @@
       "ParentArcId": "medium-ruined-keep",
       "StartChapter": 38,
       "TargetChapter": 40,
-      "Objective": "Navigate collapsing halls, old traps, false treasure rooms, and the keep's lingering guardians.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Navigate collapsing halls, old traps, false treasure rooms, and the keep's lingering guardians.",
       "ResolutionCriteria": "The party reaches the sealed lower vault and learns what now commands the keep.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-first-treasure",
@@ -449,12 +657,13 @@
       "ParentArcId": "medium-ruined-keep",
       "StartChapter": 41,
       "TargetChapter": 43,
-      "Objective": "Defeat the keep's resident monster, outwit the rival treasure hunters, and recover the party's first substantial hoard.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Defeat the keep's resident monster, outwit the rival treasure hunters, and recover the party's first substantial hoard.",
       "ResolutionCriteria": "The keep is safe, the treasure is fairly divided, and the party receives an invitation to the great city.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "long-city-of-masks",
@@ -464,12 +673,13 @@
       "ParentArcId": "epic-company-of-the-open-road",
       "StartChapter": 35,
       "TargetChapter": 61,
-      "Objective": "Advance from a classic ruined-keep expedition into adventurers' guild trials and a grand tournament filled with friendly rivalry and public spectacle.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Advance from a classic ruined-keep expedition into adventurers' guild trials and a grand tournament filled with friendly rivalry and public spectacle.",
       "ResolutionCriteria": "The keep is cleared, the party earns guild standing, the tournament conspiracy is stopped, and the companions gain an invitation into the city's more secretive affairs.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-guild-trials",
@@ -479,12 +689,13 @@
       "ParentArcId": "long-city-of-masks",
       "StartChapter": 44,
       "TargetChapter": 52,
-      "Objective": "Join the adventurers' guild, pass its practical trials, and compete with an entertaining rival company for a valuable charter.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Join the adventurers' guild, pass its practical trials, and compete with an entertaining rival company for a valuable charter.",
       "ResolutionCriteria": "The companions earn guild standing, complete a public monster hunt, and establish a rivalry based on competition rather than hatred.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-gates-and-guildhall",
@@ -494,12 +705,13 @@
       "ParentArcId": "medium-guild-trials",
       "StartChapter": 44,
       "TargetChapter": 46,
-      "Objective": "Enter the overwhelming great city, find the adventurers' guild, navigate its bureaucracy, and register the company.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Enter the overwhelming great city, find the adventurers' guild, navigate its bureaucracy, and register the company.",
       "ResolutionCriteria": "The party secures provisional membership and accepts the guild's first trial.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-guild-trial",
@@ -509,12 +721,13 @@
       "ParentArcId": "medium-guild-trials",
       "StartChapter": 47,
       "TargetChapter": 49,
-      "Objective": "Complete a classic guild trial involving teamwork, traps, and an objective that cannot be solved by strength alone.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Complete a classic guild trial involving teamwork, traps, and an objective that cannot be solved by strength alone.",
       "ResolutionCriteria": "The whole party contributes materially, passes the trial, and qualifies for a public contract.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-rival-monster-hunt",
@@ -524,12 +737,13 @@
       "ParentArcId": "medium-guild-trials",
       "StartChapter": 50,
       "TargetChapter": 52,
-      "Objective": "Race a boastful rival company to find and subdue a dangerous monster threatening the city outskirts.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Race a boastful rival company to find and subdue a dangerous monster threatening the city outskirts.",
       "ResolutionCriteria": "The monster threat ends, the party earns full guild standing, and the rivals become recurring competitors.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-grand-tournament",
@@ -539,12 +753,13 @@
       "ParentArcId": "long-city-of-masks",
       "StartChapter": 53,
       "TargetChapter": 61,
-      "Objective": "Enter the city's grand tournament, enjoy contests and rivalries, and uncover cheating that threatens to turn festival spectacle into real danger.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Enter the city's grand tournament, enjoy contests and rivalries, and uncover cheating that threatens to turn festival spectacle into real danger.",
       "ResolutionCriteria": "The party competes honorably, exposes the cheating, saves the tournament, and wins access to the noble masquerade.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-tournament-qualifiers",
@@ -554,12 +769,13 @@
       "ParentArcId": "medium-grand-tournament",
       "StartChapter": 53,
       "TargetChapter": 55,
-      "Objective": "Compete in colorful qualifying contests that test combat, skill, wit, and teamwork.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Compete in colorful qualifying contests that test combat, skill, wit, and teamwork.",
       "ResolutionCriteria": "The companions qualify for the main tournament and notice evidence that someone is fixing the contests.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-games-and-rivals",
@@ -569,12 +785,13 @@
       "ParentArcId": "medium-grand-tournament",
       "StartChapter": 56,
       "TargetChapter": 58,
-      "Objective": "Advance through the tournament while friendships, rivalries, wagers, and crowd expectations complicate each contest.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Advance through the tournament while friendships, rivalries, wagers, and crowd expectations complicate each contest.",
       "ResolutionCriteria": "The party reaches the final events and identifies how the cheating operation works.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-tournament-conspiracy",
@@ -584,12 +801,13 @@
       "ParentArcId": "medium-grand-tournament",
       "StartChapter": 59,
       "TargetChapter": 61,
-      "Objective": "Stop the conspirators from turning the tournament finale into an assassination while still finishing the contest.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Stop the conspirators from turning the tournament finale into an assassination while still finishing the contest.",
       "ResolutionCriteria": "The intended victim survives, the cheating is exposed publicly, and the grateful court invites the party to the masquerade.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-thieves-and-masks",
@@ -599,12 +817,13 @@
       "ParentArcId": "long-dragon-road",
       "StartChapter": 62,
       "TargetChapter": 70,
-      "Objective": "Attend a noble masquerade, pursue a stolen map through the thieves' quarter, and descend into the guild's secret undercity lair.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Attend a noble masquerade, pursue a stolen map through the thieves' quarter, and descend into the guild's secret undercity lair.",
       "ResolutionCriteria": "The stolen map and missing noble are recovered, the criminal scheme is broken, and the route to the legendary mountain hoard is revealed.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-masquerade-theft",
@@ -614,12 +833,13 @@
       "ParentArcId": "medium-thieves-and-masks",
       "StartChapter": 62,
       "TargetChapter": 64,
-      "Objective": "Navigate mistaken identities and noble absurdities at a masked ball until a famous map and one of its owners disappear.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Navigate mistaken identities and noble absurdities at a masked ball until a famous map and one of its owners disappear.",
       "ResolutionCriteria": "The party identifies the thieves' escape route and receives authority to pursue them.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-thieves-quarter",
@@ -629,12 +849,13 @@
       "ParentArcId": "medium-thieves-and-masks",
       "StartChapter": 65,
       "TargetChapter": 67,
-      "Objective": "Follow clues through markets, rooftops, crooked informants, and the thieves' quarter without knowing which guide can be trusted.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Follow clues through markets, rooftops, crooked informants, and the thieves' quarter without knowing which guide can be trusted.",
       "ResolutionCriteria": "The party locates the undercity entrance and learns the theft serves a larger expedition.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-undercity-lair",
@@ -644,12 +865,13 @@
       "ParentArcId": "medium-thieves-and-masks",
       "StartChapter": 68,
       "TargetChapter": 70,
-      "Objective": "Infiltrate the thieves' underground lair, rescue the missing noble, and recover the mountain map.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Infiltrate the thieves' underground lair, rescue the missing noble, and recover the mountain map.",
       "ResolutionCriteria": "The captives and map are recovered, the guild's scheme fails, and the party chooses to follow the map.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "long-dragon-road",
@@ -659,12 +881,13 @@
       "ParentArcId": "epic-company-of-the-open-road",
       "StartChapter": 62,
       "TargetChapter": 88,
-      "Objective": "Pursue a stolen map through a thieves' undercity, seek guidance from an eccentric wizard, cross the mountains, and resolve a conflict surrounding a legendary dragon hoard.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Pursue a stolen map through a thieves' undercity, seek guidance from an eccentric wizard, cross the mountains, and resolve a conflict surrounding a legendary dragon hoard.",
       "ResolutionCriteria": "The stolen map leads the party through the wizard's trials and across the mountains, the true threat to the dragon's hoard is defeated, and the companions return as recognized heroes.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-wizards-tower",
@@ -674,12 +897,13 @@
       "ParentArcId": "long-dragon-road",
       "StartChapter": 71,
       "TargetChapter": 79,
-      "Objective": "Seek an eccentric wizard who can interpret the stolen map, complete three inconvenient magical tasks, and earn the knowledge needed to reach the mountains.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Seek an eccentric wizard who can interpret the stolen map, complete three inconvenient magical tasks, and earn the knowledge needed to reach the mountains.",
       "ResolutionCriteria": "The tower's problems are resolved, the map is translated, and the wizard equips the party for the journey.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-tower-without-door",
@@ -689,12 +913,13 @@
       "ParentArcId": "medium-wizards-tower",
       "StartChapter": 71,
       "TargetChapter": 73,
-      "Objective": "Find a wizard's tower that appears to have no entrance and solve its deliberately ridiculous test of admission.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Find a wizard's tower that appears to have no entrance and solve its deliberately ridiculous test of admission.",
       "ResolutionCriteria": "The party enters the tower and persuades the wizard to examine the map.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-enchanted-library",
@@ -704,12 +929,13 @@
       "ParentArcId": "medium-wizards-tower",
       "StartChapter": 74,
       "TargetChapter": 76,
-      "Objective": "Recover a runaway book from an enchanted library where stories, shelves, and minor spells refuse to behave.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Recover a runaway book from an enchanted library where stories, shelves, and minor spells refuse to behave.",
       "ResolutionCriteria": "The missing volume is recovered and provides the first half of the route through the mountains.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-wizards-bargain",
@@ -719,12 +945,13 @@
       "ParentArcId": "medium-wizards-tower",
       "StartChapter": 77,
       "TargetChapter": 79,
-      "Objective": "Complete the wizard's final dangerous errand and negotiate payment without surrendering the map or accepting a hidden curse.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Complete the wizard's final dangerous errand and negotiate payment without surrendering the map or accepting a hidden curse.",
       "ResolutionCriteria": "The party receives the translated route, practical magical aid, and a warning that the dragon may not be the expedition's true villain.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "medium-mountain-expedition",
@@ -734,12 +961,13 @@
       "ParentArcId": "long-dragon-road",
       "StartChapter": 80,
       "TargetChapter": 88,
-      "Objective": "Cross the perilous mountain pass, race rival adventurers to a legendary forge, and use what is found there to survive the dragon's bargain.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Cross the perilous mountain pass, race rival adventurers to a legendary forge, and use what is found there to survive the dragon's bargain.",
       "ResolutionCriteria": "The party reaches the dragon's domain, prevents its rivals from stealing the hoard, settles the dragon conflict, saves the valley, and completes its heroes' homecoming.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-perilous-pass",
@@ -749,12 +977,13 @@
       "ParentArcId": "medium-mountain-expedition",
       "StartChapter": 80,
       "TargetChapter": 82,
-      "Objective": "Guide the expedition across a classic mountain pass threatened by weather, monsters, and one deeply unreliable bridge.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Guide the expedition across a classic mountain pass threatened by weather, monsters, and one deeply unreliable bridge.",
       "ResolutionCriteria": "The party crosses the pass, rescues stranded travelers, and discovers signs that its rivals are ahead.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-race-to-the-forge",
@@ -764,12 +993,13 @@
       "ParentArcId": "medium-mountain-expedition",
       "StartChapter": 83,
       "TargetChapter": 85,
-      "Objective": "Race the rival company through old mountain tunnels to reach the legendary forge before they can seize its weapon.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Race the rival company through old mountain tunnels to reach the legendary forge before they can seize its weapon.",
       "ResolutionCriteria": "The party reaches the forge, survives its defenses, and prevents the rivals from taking control of its treasure.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     },
     {
       "Id": "short-legendary-weapon",
@@ -779,12 +1009,13 @@
       "ParentArcId": "medium-mountain-expedition",
       "StartChapter": 86,
       "TargetChapter": 88,
-      "Objective": "Claim the legendary weapon, confront the dragon, expose the rivals' attempted theft, and resolve the dispute over the hoard.",
+      "Objective": "Future-series reserve outside the completed first episode. Archived possibility, not a current obligation: Claim the legendary weapon, confront the dragon, expose the rivals' attempted theft, and resolve the dispute over the hoard.",
       "ResolutionCriteria": "The true thieves are defeated, the dragon conflict ends, the valley is safe, and the companions return home as an established adventuring company.",
-      "CurrentPhase": "Planned.",
+      "CurrentPhase": "Unused prospective series reserve. No events here are established canon or obligations of Episode One.",
       "NextMilestone": "",
       "RelatedThreadIds": [],
-      "CompletedMilestones": []
+      "CompletedMilestones": [],
+      "ChapterTargets": []
     }
   ]
 }

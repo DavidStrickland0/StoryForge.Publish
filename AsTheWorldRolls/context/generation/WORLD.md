@@ -1,75 +1,27 @@
-# StoryForge Endless — WORLD
+# As the World Rolls — World
 
-## Current State
+## Authority
 
-- The barrier is currently absorbing the Blight stream and has grown stronger.
+The immutable Chapters 1–14 establish the world. Their prose takes precedence over old accumulated summaries. The rebuilt continuation establishes the endpoint below without changing those earlier events or universally explaining the world's magic.
 
+## Distinct places
 
-- The old road has dissolved into a slurry of mud and black water due to the Blight's influence on the local water table.
+- The ruined city, temple hall and consuming barrier are the places encountered in the retained early chapters.
+- The Gate of Silence is a separate shrine, approached along stone-lined drainage ditches below the ridge. Its fissure feeds a channel linked to the temple. The temple barrier is visible across the valley; it is not a membrane beside the shrine and never expands around the party.
+- The ridge is where the companions practiced the note before the operation and later observed the city on the return route.
+- The watchfort receives the returning party, treats its injuries, retains the account and copies, and assigns independent observation. The actual return is narrated.
+- The Gilded Tankard is the roadside inn serving the watchfort, outside its gate, as concretely introduced in rebuilt Chapter 18. It is not an unexplained relocation into the ruined, Blight-corrupted city.
 
+## Local mechanism and observed outcome
 
-- The watchfort is located on high ground with thin air and a view of hills below.
+The existing consuming barrier destroys corruption brought into contact with it. The stronger pull begun at the end of 14 fractures the quartz in 15. Testing, placement, and observation establish a workable local repair using three of its fragments. The leather holds their positions; it does not plug the entire pressurized opening. Ordinary wood can char and stone supports can sink in mud. A displaced support is corrected in 16 before the feed can continue safely.
 
+In 16 the reservoir feeding the local channel empties, the note is withdrawn, the groove is closed, and the party moves away to verify that no human maintenance is required. Independent watches corroborate the absence of renewed feed in 18. This is a bounded local result, not proof of a universally safe city or complete worldwide eradication of the Blight.
 
-- The watchfort gatehouse contains a heavy oak table, a hearth, and a crate near the hearth.
+## Endpoint and restrictions
 
+The temple barrier remains pale and steady. Three working quartz fragments remain in the closed groove and must not be removed as souvenirs. Map copies distinguish shrine from temple and include the safer observation route. Entry into the damaged city remains restricted pending inspection. No new orders require the exhausted companions to return immediately. They have taken rooms and food at the inn and the episode is complete.
 
-- The group has formulated a plan to sever the channel at 'The Gate of Silence' to create a localized Blight surge to feed the barrier.
+## Removed continuation assumptions
 
-
-- The watchfort gatehouse contains a small table, crates of supplies, and a single lantern hanging from a beam.
-
-
-- The barrier is currently consuming the Blight but is also feeding on finite magic in the air, posing a risk of eventual failure or breach.
-
-
-- The entity outside the barrier is advancing slowly and deliberately toward the temple.
-
-
-
-- Black spires pierce the sky from the village.
-
-
-- The air in the city tastes of copper and rot.
-
-
-- Scavengers still prowl the streets of the city.
-
-
-- The old temple district contains ruins and narrow passages.
-
-
-- A courtyard exists within the old temple district, containing twisted vines with sickly luminescence and a ruined fountain filled with stagnant black water.
-
-
-- The main hall of the temple is located beyond the courtyard in the fog.
-
-
-- A massive structure far larger and darker than the temple is rising out of the mist near the courtyard.
-
-
-- A barrier of shimmering light materialized across the temple entrance.
-
-
-- The immense shape above the temple stands higher than surrounding roofs, black against clouds, crowned by shifting green lights.
-
-
-- Green lights have awakened in windows, streets, and broken towers throughout the city.
-
-
-- Only the spires and the towering shape remain visible above the fog.
-
-
-- The forest is described as ancient, with gnarled trees and roots forming natural barriers.
-
-
-- The forest is ancient, with gnarled trees and roots forming natural barriers.
-
-
-- The edge of the forest reveals open, rolling hills beyond.
-
-
-- The watchfort is located at the bottom of a slope outside the forest.
-
-
-- Elias and Kaelen have reached the watchfort safely.
+Do not import the superseded Temple Springs cargo, alchemist consortium deal, caravan departure, caustic paste repellent, lunar-cycle theory, convenient message from the watchfort during the operation, or a pre-existing fragmented-key protocol as facts. Unused future arc plans are series possibilities, not established world history or debts this episode must pay.

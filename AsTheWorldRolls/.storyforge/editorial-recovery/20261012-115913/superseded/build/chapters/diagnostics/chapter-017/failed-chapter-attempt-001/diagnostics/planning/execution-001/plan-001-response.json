@@ -1,0 +1,47 @@
+{
+  "chapterNumber": 17,
+  "viewpointCharacterId": "Elias Thorne",
+  "objective": "Enter the 'Gilded Tankard', establish the party's reputation through a display of competence and wit, and initiate negotiations with the merchant, Silas Vane, for a caravan escort contract.",
+  "intendedChange": "The party transitions from a group of weary, battle-scarred survivors into recognized, professional adventurers by securing a verbal agreement to discuss terms, while establishing the tavern as a hub of information and social pressure.",
+  "pacingPosture": "Balanced",
+  "prohibitedPatterns": [
+    "Do not resolve the final contract terms or payment details; this is reserved for Chapter 18.",
+    "Do not reveal the specific dangers on the route or the full nature of the sealed crate's contents beyond the initial rumor.",
+    "Do not have the party depart the tavern; they must remain for the night.",
+    "Do not introduce a new combat threat or Blight-Touched entity in the tavern.",
+    "Do not have Kaelen use active magic to solve the tavern's social problem; his power must remain dormant."
+  ],
+  "scenes": [
+    {
+      "sequence": 1,
+      "purpose": "The party enters the Gilded Tankard and is immediately subjected to the tavern's strict hospitality code, where the keeper refuses service until they resolve a minor social incident involving a drunk patron, forcing them to demonstrate non-violent competence.",
+      "intendedChange": "The party is seated and served, having established their reputation for restraint and professionalism in the eyes of the tavern staff and patrons, while Kaelen remains visibly tense under social scrutiny.",
+      "focusCharacterIds": [
+        "Elias Thorne",
+        "Maren",
+        "Kaelen"
+      ]
+    },
+    {
+      "sequence": 2,
+      "purpose": "Silas Vane approaches the party to negotiate a caravan escort contract, presenting unfair initial terms that prioritize his liability protection over fair compensation, while a rival adventurer group spreads rumors of the party's incompetence to undercut their bid.",
+      "intendedChange": "Elias mediates between Vane's aggressive negotiation tactics and the party's need for dignity, shifting the dynamic from adversarial to a tentative professional alliance based on mutual benefit, while Maren subtly shields Kaelen from a social faux pas.",
+      "focusCharacterIds": [
+        "Elias Thorne",
+        "Silas Vane (Merchant)",
+        "Maren",
+        "Kaelen"
+      ]
+    },
+    {
+      "sequence": 3,
+      "purpose": "Elias negotiates a compromise with Vane that preserves the party's dignity and secures a verbal agreement to meet the next morning to finalize terms, while gaining access to the tavern's information network and learning about the sealed crate of 'pure' water on the caravan.",
+      "intendedChange": "The party secures a verbal agreement to discuss terms the next morning, establishing their reputation as 'difficult but competent' and gaining access to local information about the caravan's route and the high value of the sealed crate.",
+      "focusCharacterIds": [
+        "Elias Thorne",
+        "Silas Vane (Merchant)",
+        "Elara"
+      ]
+    }
+  ]
+}

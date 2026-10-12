@@ -1,0 +1,46 @@
+{
+  "StartChapter": 1,
+  "Plan": {
+    "RootHorizon": "Medium",
+    "IsFinite": true,
+    "Epic": {
+      "PrimaryTrope": "Classic Fantasy Rescue",
+      "Objective": "Rescue two missing villagers from goblin raiders in a ruined keep and return safely to Pinehollow with the reward.",
+      "ResolutionCriteria": "Both captives are alive and returned to the village; the goblin band is incapacitated or captured; the party receives the agreed payment and rests at the Crooked Stag.",
+      "InitialPhase": "The story has not begun; no events described by the premise have occurred.",
+      "FirstMilestone": "The party accepts the village elder\u0027s contract to investigate the raids and recover the missing persons.",
+      "RelatedThreadIds": []
+    },
+    "LongChildren": [],
+    "MediumChildren": [],
+    "ShortChildren": [
+      {
+        "Sequence": 1,
+        "PrimaryTrope": "Investigation and Tracking",
+        "Objective": "Gather intelligence on the raids, locate the goblin camp, and prepare for entry.",
+        "ResolutionCriteria": "The party identifies the location of the ruined keep, scouts the perimeter, and establishes a plan of entry.",
+        "InitialPhase": "The story has not begun; no events described by the premise have occurred.",
+        "FirstMilestone": "The party accepts the contract and begins investigating the attacked farm to find tracks leading to the keep."
+      },
+      {
+        "Sequence": 2,
+        "PrimaryTrope": "Dungeon Exploration and Combat",
+        "Objective": "Infiltrate the keep, overcome hazards, and reach the captives.",
+        "ResolutionCriteria": "The party neutralizes the goblin defenses, triggers or avoids traps, and locates the storage chamber where the captives are held.",
+        "InitialPhase": "The party is outside the ruined keep, having scouted the layout and identified the broken outer wall and guard post.",
+        "FirstMilestone": "The party enters the keep through the broken wall and begins navigating the cellars toward the storage chamber."
+      },
+      {
+        "Sequence": 3,
+        "PrimaryTrope": "Rescue and Resolution",
+        "Objective": "Free the captives, defeat the goblin chief, and return to the village for reward and rest.",
+        "ResolutionCriteria": "Nella and Hobb are rescued alive; Chief Skrit is defeated or captured; the party returns to Pinehollow, collects the purse, and rests at the Crooked Stag.",
+        "InitialPhase": "The party has located the storage chamber and is preparing to free the captives while dealing with the goblins inside.",
+        "FirstMilestone": "The party frees Nella and Hobb and confronts Chief Skrit in his room."
+      }
+    ]
+  },
+  "RawResponse": "{\n  \u0022Epic\u0022: {\n    \u0022PrimaryTrope\u0022: \u0022Classic Fantasy Rescue\u0022,\n    \u0022Objective\u0022: \u0022Rescue two missing villagers from goblin raiders in a ruined keep and return safely to Pinehollow with the reward.\u0022,\n    \u0022ResolutionCriteria\u0022: \u0022Both captives are alive and returned to the village; the goblin band is incapacitated or captured; the party receives the agreed payment and rests at the Crooked Stag.\u0022,\n    \u0022InitialPhase\u0022: \u0022The five companions arrive at Pinehollow after several weeks of recovery and enter the Crooked Stag tavern to seek work or rest.\u0022,\n    \u0022FirstMilestone\u0022: \u0022The party accepts the village elder\u0027s contract to investigate the raids and recover the missing persons.\u0022,\n    \u0022RelatedThreadIds\u0022: []\n  },\n  \u0022LongChildren\u0022: [],\n  \u0022MediumChildren\u0022: [],\n  \u0022ShortChildren\u0022: [\n    {\n      \u0022PrimaryTrope\u0022: \u0022Investigation and Tracking\u0022,\n      \u0022Objective\u0022: \u0022Gather intelligence on the raids, locate the goblin camp, and prepare for entry.\u0022,\n      \u0022ResolutionCriteria\u0022: \u0022The party identifies the location of the ruined keep, scouts the perimeter, and establishes a plan of entry.\u0022,\n      \u0022InitialPhase\u0022: \u0022The party is in the Crooked Stag tavern, listening to the village elder\u0027s plea and examining evidence of the raids.\u0022,\n      \u0022FirstMilestone\u0022: \u0022The party accepts the contract and begins investigating the attacked farm to find tracks leading to the keep.\u0022,\u0022Sequence\u0022: 1\n    },\n    {\n      \u0022PrimaryTrope\u0022: \u0022Dungeon Exploration and Combat\u0022,\n      \u0022Objective\u0022: \u0022Infiltrate the keep, overcome hazards, and reach the captives.\u0022,\n      \u0022ResolutionCriteria\u0022: \u0022The party neutralizes the goblin defenses, triggers or avoids traps, and locates the storage chamber where the captives are held.\u0022,\n      \u0022InitialPhase\u0022: \u0022The party is outside the ruined keep, having scouted the layout and identified the broken outer wall and guard post.\u0022,\n      \u0022FirstMilestone\u0022: \u0022The party enters the keep through the broken wall and begins navigating the cellars toward the storage chamber.\u0022,\u0022Sequence\u0022: 2\n    },\n    {\n      \u0022PrimaryTrope\u0022: \u0022Rescue and Resolution\u0022,\n      \u0022Objective\u0022: \u0022Free the captives, defeat the goblin chief, and return to the village for reward and rest.\u0022,\n      \u0022ResolutionCriteria\u0022: \u0022Nella and Hobb are rescued alive; Chief Skrit is defeated or captured; the party returns to Pinehollow, collects the purse, and rests at the Crooked Stag.\u0022,\n      \u0022InitialPhase\u0022: \u0022The party has located the storage chamber and is preparing to free the captives while dealing with the goblins inside.\u0022,\n      \u0022FirstMilestone\u0022: \u0022The party frees Nella and Hobb and confronts Chief Skrit in his room.\u0022,\u0022Sequence\u0022: 3\n    }\n  ]\n}",
+  "Model": "qwen3.8:27b",
+  "Duration": "00:03:51.5859136"
+}

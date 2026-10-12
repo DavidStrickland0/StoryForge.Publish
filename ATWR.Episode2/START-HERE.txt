@@ -1,0 +1,11 @@
+ATWR.Episode2 — Goblins in the Old Keep
+
+Nine-chapter episode: one Medium root, three Short arcs, no parent arcs.
+The recurring cast and world are prepared. No chapter prose has been generated.
+
+Initialize or resume initialization with:
+dotnet run --no-restore -c Release --project "C:\repos\SRD\StoryForge.Endless\src\StoryForge.Endless.Worker\StoryForge.Endless.Worker.csproj" -- --repository-root "C:\repos\SRD\StoryForge.Publish\ATWR.Episode2" story bootstrap --name "As the World Rolls - Episode 2: Goblins in the Old Keep" --premise-file "C:\repos\SRD\StoryForge.Publish\ATWR.Episode2\premise.txt" --chapters 9
+
+Review context/generation/STORY-ARCS.json and the three initial Short-arc chapter targets before starting run.bat.
+The worker stops after the validated ending. If the chapter limit is reached without validated closure, it reports the missing reconciliation instead of creating Chapter 10.
+To change the premise or length after initialization, preserve the existing work and start a new workspace; bootstrap does not overwrite authoritative arcs.

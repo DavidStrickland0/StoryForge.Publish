@@ -1,0 +1,117 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 17.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":17,"ViewpointCharacterId":"Elias Thorne","Objective":"Enter the \u0027Gilded Tankard\u0027 tavern, establish the party\u0027s reputation through a display of competence and wit, and initiate negotiations with the merchant, Silas Vane, for a caravan escort contract.","IntendedChange":"The party transitions from a group of weary, battle-scarred survivors into recognized, professional adventurers by securing a verbal agreement to discuss terms, while establishing the tavern as a hub of information and social pressure.","PacingPosture":1,"ProhibitedPatterns":["Repeating the specific agreement to meet Vane at the tavern entrance the next morning as a new discovery or decision in a later scene.","Resolving the finalization of the written contract or specific payment terms, which is reserved for Chapter 18.","Revealing the specific dangers on the route that Vane is hiding, which is reserved for Chapter 18.","Forcing a confrontation or betrayal to isolate the viewpoint character for a decision.","Using the tavern\u0027s reputation system as a mere obstacle rather than a social mechanic that influences the party\u0027s behavior and reputation."],"Scenes":[{"Sequence":1,"Purpose":"The party enters the Gilded Tankard and navigates the immediate social pressure of the tavern\u0027s strict hospitality code, establishing their presence as outsiders who must conform to local norms to be served.","IntendedChange":"The party is seated and served, having accepted the tavern\u0027s fine for a minor faux pas, which establishes their willingness to engage with local social structures and earns them a tentative, wary acceptance from the tavern keeper.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen","Torin","Elara"]},{"Sequence":2,"Purpose":"Elias mediates between the aggressive merchant Silas Vane and the cautious party members, using his practical leadership to shift the dynamic from adversarial negotiation to a tentative professional alliance based on mutual benefit.","IntendedChange":"Vane is intrigued by the party\u0027s resilience and agrees to a formal meeting the next morning to finalize terms, while the party gains access to the tavern\u0027s information network and learns about the sealed crate of \u0027pure\u0027 water from the temple springs.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Kaelen","Maren"]},{"Sequence":3,"Purpose":"Maren subtly shifts her protective stance from \u0027restrainer\u0027 to \u0027social shield,\u0027 intervening in a minor social faux pas to protect Kaelen\u0027s dignity, reinforcing their bond as a unit and demonstrating the party\u0027s collective competence in handling social challenges.","IntendedChange":"Kaelen\u0027s discomfort with social scrutiny is mitigated by Maren\u0027s intervention, allowing the party to maintain their composure and reputation as \u0027difficult but competent\u0027 in the tavern, setting the stage for their future interactions.","FocusCharacterIds":["Maren","Kaelen","Elias Thorne"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Maren subtly shifts her protective stance from \u0027restrainer\u0027 to \u0027social shield,\u0027 intervening in a minor social faux pas to protect Kaelen\u0027s dignity, reinforcing their bond as a unit and demonstrating the party\u0027s collective competence in handling social challenges.","IntendedChange":"Kaelen\u0027s discomfort with social scrutiny is mitigated by Maren\u0027s intervention, allowing the party to maintain their composure and reputation as \u0027difficult but competent\u0027 in the tavern, setting the stage for their future interactions.","FocusCharacterIds":["Maren","Kaelen","Elias Thorne"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":17,"CompletedSceneSequence":2,"Location":"Gilded Tankard tavern (corner table near the hearth)","TimeContext":"Evening, after Silas Vane has departed to speak with the keeper","PresentCharacterIds":["Elias Thorne","Maren","Kaelen","Torin","Elara"],"PhysicalConditions":["Party is seated at a corner table near the hearth","Hearth fire is burning","Ale and food have been served","Silas Vane has left the immediate table area to speak with the keeper","Tension at the table has eased slightly but not fully dissipated","Kaelen is stirring in his sleep; Elara is awake and gently shaking him","Maren is reaching into her satchel for water skins"],"KnowledgeEstablished":["Silas Vane agrees to send word ahead with riders to guide the party when they are ready","Vane offers a potential discount if the party behaves themselves","The party has secured a verbal agreement to discuss terms in the morning at Vane\u0027s camp","Vane possesses a sealed crate of pure water from temple springs intended for travelers heading east","Vane respects the party\u0027s grit and willingness to negotiate rather than bolt or steal"],"DecisionsMade":["Elias decided to meet Vane at his camp in the morning to finalize terms","The party accepted Vane\u0027s offer of guidance without immediate commitment to specific payment terms","Maren decided to retrieve water skins from her satchel"],"PossessionChanges":["Maren is retrieving water skins from her satchel"],"RelationshipChanges":["Silas Vane\u0027s attitude toward the party has shifted from adversarial scrutiny to tentative respect and partnership interest","The party\u0027s reputation among locals is stabilizing as they demonstrate willingness to conform to norms while maintaining autonomy","Maren and Kaelen are re-engaging with each other as Elara wakes him"],"CompletedActions":["Elias mediated the negotiation between himself and Silas Vane","The party explained their destination (Dragon Road) and readiness for risks","Vane presented his offer of pure water and partnership terms","Elias proposed meeting at Vane\u0027s camp in the morning to discuss terms","Vane accepted the proposal and arranged for riders to guide them","Maren retrieved water skins from her satchel","Elara woke Kaelen as time was slipping"],"UnresolvedImmediateAction":"Elias watches Silas Vane move toward the back room; Elara continues to gently wake Kaelen while Maren prepares her water skins.","ContinuationPosition":"The party remains seated at the corner table in the Gilded Tankard. Elias is observing Vane\u0027s movements in the back, Maren is handling her satchel contents, and Elara is attending to the waking Kaelen. The next scene should begin with Maren shifting her protective stance from restrainer to social shield.","ProhibitedRepetition":["Repeating the specific agreement to meet Vane at the tavern entrance the next morning as a new discovery or decision in a later scene.","Resolving the finalization of the written contract or specific payment terms, which is reserved for Chapter 18.","Revealing the specific dangers on the route that Vane is hiding, which is reserved for Chapter 18.","Forcing a confrontation or betrayal to isolate the viewpoint character for a decision.","Using the tavern\u0027s reputation system as a mere obstacle rather than a social mechanic that influences the party\u0027s behavior and reputation."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Maren watched Vane disappear into the shadows of the back room, his silhouette swallowed by the dim light before he vanished from sight. The tension at their table had eased, replaced by a quiet, comfortable stillness that felt more like earned rest than mere absence of danger. Elias leaned back in his chair, rubbing his temples with a thumb that was slightly dampened by sweat and ale.
+
+“Silas is… intense,” Elara murmured, though she didn’t sound worried so much as impressed. “But I think he respects us now. That’s rare.”
+
+Kaelen stirred, blinking against the flickering hearthlight as consciousness returned to him in stages. He sat up slowly, wincing slightly at the ache in his neck and shoulders. The brass gauntlet on his wrist remained dark, its cold weight a constant reminder of what he’d lost—and regained—in the past few days.
+
+“Good,” Maren said immediately, reaching across the table to offer him one of her water skins. “Drink. You’re dehydrated.”
+
+Kaelen took the skin without hesitation, drinking deeply until his throat cleared and his hands stopped trembling. The liquid was cool, refreshing, and tasted faintly of mineral springs rather than the stale brew they’d been sipping at their table. He set it down on the wood with a soft clink, then looked up at Maren, meeting her eyes with a small, genuine smile.
+
+“Thanks,” he said quietly. “You’ve been too busy protecting me from everything lately. I appreciate it.”
+
+Maren shrugged modestly, though there was warmth in her expression. “Someone has to keep you from saying anything stupid when people start asking questions about where we’re going or what we did before this.”
+
+Elara snorted softly, reaching for another tankard of ale. “Stupid? You didn’t even say anything wrong yesterday. Just… bluntly honest.”
+
+“Bluntly honest is a form of lying in some places,” Kaelen replied, taking another sip. “And I wasn’t sure how much we could trust Silas Vane yet.”
+
+Elias raised an eyebrow from across the table, though he didn’t interrupt. He’d been listening to their exchange with quiet interest, noting the way Maren had naturally stepped into a role she hadn’t claimed for herself until now: protector, advocate, social shield.
+
+“Let’s hope your honesty pays off tomorrow,” Elias said finally, leaning forward slightly. “We need to know exactly what Vane wants from us—and whether he’ll honor his word when we cross that bridge.”
+
+Kaelen nodded slowly, setting the water skin aside. “I’m ready,” he said, his voice steady despite the fatigue in his eyes. “But I don’t want to do anything reckless again.”
+
+“No one’s asking for recklessness,” Maren replied, giving him a reassuring pat on the shoulder before pulling her satchel closer. “Just careful competence. And maybe a little patience.”
+
+Elara finished her ale and stood up, stretching her arms overhead with a yawn that nearly knocked over her chair. “If anyone needs coffee or tea after we leave here, I’ll be awake,” she said, heading toward the bar to refill her own cup. “But if you two need to talk about anything else first, feel free.”
+
+Maren watched her go, then turned her attention back to Kaelen and Elias. There was still work to do before dawn, but for now, they could rest in peace. The road ahead would be long and difficult, but they were stronger together than apart.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate completed action 'Elias mediated the negotiation between himself and Silas Vane' repeats completed action from Chapter 17, Scene 2: 'Elias mediated the negotiation between himself and Silas Vane'; candidate completed action 'The party explained their destination (Dragon Road) and readiness for risks' repeats completed action from Chapter 17, Scene 2: 'The party explained their destination (Dragon Road) and readiness for risks'; candidate completed action 'Vane presented his offer of pure water and partnership terms' repeats completed action from Chapter 17, Scene 2: 'Vane presented his offer of pure water and partnership terms'; candidate completed action 'Elias proposed meeting at Vane's camp in the morning to discuss terms' repeats completed action from Chapter 17, Scene 2: 'Elias proposed meeting at Vane's camp in the morning to discuss terms'; candidate completed action 'Vane accepted the proposal and arranged for riders to guide them' repeats completed action from Chapter 17, Scene 2: 'Vane accepted the proposal and arranged for riders to guide them'; candidate completed action 'Maren retrieved water skins from her satchel' repeats completed action from Chapter 17, Scene 2: 'Maren retrieved water skins from her satchel'; candidate completed action 'Elara woke Kaelen as time was slipping' repeats completed action from Chapter 17, Scene 2: 'Elara woke Kaelen as time was slipping'; candidate relationship change 'Silas Vane's attitude toward the party has shifted from adversarial scrutiny to tentative respect and partnership interest' repeats relationship change from Chapter 17, Scene 2: 'Silas Vane's attitude toward the party has shifted from adversarial scrutiny to tentative respect and partnership interest'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.

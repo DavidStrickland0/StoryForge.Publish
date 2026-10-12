@@ -1,0 +1,34 @@
+{
+  "chapterNumber": 17,
+  "viewpointCharacterId": "Elias Thorne",
+  "objective": "Enter the 'Gilded Tankard' tavern, establish the party's reputation through a display of competence and wit, and initiate negotiations with the merchant, Silas Vane, for a caravan escort contract.",
+  "intendedChange": "The party transitions from a group of weary, battle-scarred survivors into recognized, professional adventurers by securing a verbal agreement to discuss terms, while establishing the tavern as a hub of information and social pressure.",
+  "pacingPosture": "Balanced",
+  "prohibitedPatterns": [
+    "Repeating the specific agreement to meet Vane at the tavern entrance the next morning as a new discovery or decision in a later scene.",
+    "Resolving the finalization of the written contract or specific payment terms, which is reserved for Chapter 18.",
+    "Revealing the specific dangers on the route that Vane is hiding, which is reserved for Chapter 18.",
+    "Forcing a confrontation or betrayal to isolate the viewpoint character for a decision.",
+    "Using the tavern's reputation system as a mere obstacle rather than a social mechanic that influences the party's behavior and reputation."
+  ],
+  "scenes": [
+    {
+      "sequence": 1,
+      "purpose": "The party enters the Gilded Tankard and navigates the immediate social pressure of the tavern's strict hospitality code, establishing their presence as outsiders who must conform to local norms to be served.",
+      "intendedChange": "The party is seated and served, having accepted the tavern's fine for a minor faux pas, which establishes their willingness to engage with local social structures and earns them a tentative, wary acceptance from the tavern keeper.",
+      "focusCharacterIds": ["Elias Thorne", "Maren", "Kaelen", "Torin", "Elara"]
+    },
+    {
+      "sequence": 2,
+      "purpose": "Elias mediates between the aggressive merchant Silas Vane and the cautious party members, using his practical leadership to shift the dynamic from adversarial negotiation to a tentative professional alliance based on mutual benefit.",
+      "intendedChange": "Vane is intrigued by the party's resilience and agrees to a formal meeting the next morning to finalize terms, while the party gains access to the tavern's information network and learns about the sealed crate of 'pure' water from the temple springs.",
+      "focusCharacterIds": ["Elias Thorne", "Silas Vane (Merchant)", "Kaelen", "Maren"]
+    },
+    {
+      "sequence": 3,
+      "purpose": "Maren subtly shifts her protective stance from 'restrainer' to 'social shield,' intervening in a minor social faux pas to protect Kaelen's dignity, reinforcing their bond as a unit and demonstrating the party's collective competence in handling social challenges.",
+      "intendedChange": "Kaelen's discomfort with social scrutiny is mitigated by Maren's intervention, allowing the party to maintain their composure and reputation as 'difficult but competent' in the tavern, setting the stage for their future interactions.",
+      "focusCharacterIds": ["Maren", "Kaelen", "Elias Thorne"]
+    }
+  ]
+}

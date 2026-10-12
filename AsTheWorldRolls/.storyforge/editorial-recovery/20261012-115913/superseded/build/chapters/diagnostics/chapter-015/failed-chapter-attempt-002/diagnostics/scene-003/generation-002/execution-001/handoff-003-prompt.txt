@@ -1,0 +1,131 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 15.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":15,"ViewpointCharacterId":"Elias Thorne","Objective":"Sustain and control the second phase of the operation already underway.","IntendedChange":"The group establishes whether increased flow is viable and makes a consequential adjustment to manage its cost or danger.","PacingPosture":3,"ProhibitedPatterns":["Do not resolve the local Blight source or conclude the prelude, as this is reserved for Chapter 16.","Do not relocate the party or invent an off-page Keeper death.","Do not treat Kaelen as a passive tool; he must actively choose and sustain his involvement.","Do not introduce a new external threat, arrival, or cliffhanger merely to create tension."],"Scenes":[{"Sequence":1,"Purpose":"Elias observes the barrier\u0027s reaction to the initial \u0027pull\u0027 and identifies the physical cost to Kaelen, establishing the immediate danger of the increased resonance.","IntendedChange":"Kaelen\u0027s gauntlet begins to heat and glow, and the barrier\u0027s consumption rate spikes, causing visible strain in the channel and Kaelen\u0027s physical state.","FocusCharacterIds":["Elias Thorne","Kaelen","Torin"]},{"Sequence":2,"Purpose":"Elias coordinates a tactical adjustment to the resonance frequency to stabilize the flow, testing the barrier\u0027s capacity limits without sacrificing Kaelen\u0027s agency.","IntendedChange":"Elara and Maren modify the chisel\u0027s angle and vibration, reducing the flow to a sustainable level that Kaelen can maintain without losing control.","FocusCharacterIds":["Elias Thorne","Elara","Maren","Kaelen"]},{"Sequence":3,"Purpose":"The group assesses the viability of the adjusted flow and confirms that the barrier can sustain the consumption, establishing a stable state for the final phase.","IntendedChange":"The barrier stabilizes at a higher consumption rate, and the group agrees on a sustained, controlled approach to finish the operation in the next chapter.","FocusCharacterIds":["Elias Thorne","Kaelen","Torin","Elara","Maren"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The group assesses the viability of the adjusted flow and confirms that the barrier can sustain the consumption, establishing a stable state for the final phase.","IntendedChange":"The barrier stabilizes at a higher consumption rate, and the group agrees on a sustained, controlled approach to finish the operation in the next chapter.","FocusCharacterIds":["Elias Thorne","Kaelen","Torin","Elara","Maren"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":15,"CompletedSceneSequence":2,"Location":"The clearing surrounding the shrine","TimeContext":"Daytime, during the active operation of feeding the seal","PresentCharacterIds":["Elias Thorne","Kaelen","Torin","Elara","Maren"],"PhysicalConditions":["The barrier is stable and pulsing with a consistent violet rhythm.","The flow of Blight is reduced to a sustainable level that Kaelen can maintain without losing control.","Kaelen\u0027s gauntlet is warm but no longer burning hot; the internal pressure has receded.","The fog around Kaelen has receded and no longer threatens to swallow them.","Torin\u0027s sword remains drawn but his posture is relaxed.","The ground is damp from earlier water but no longer slick with oily residue."],"KnowledgeEstablished":["Elara confirmed the stone is filtering rather than just absorbing, digesting only what it can handle.","The group verified that maintaining the adjusted flow for a few minutes will allow the barrier to rebuild its strength.","Elias established that the operation requires precision like a machine, not just willpower.","Kaelen confirmed he can hear the pull and feel anchored by the system rather than fighting it."],"DecisionsMade":["The group agreed to hold the stabilized flow for approximately five to six minutes before raising the pitch again.","Elias assigned himself oversight of Kaelen\u0027s state, instructing him to report immediately if he feels slipping.","Maren instructed Elara to keep the chisel angle steady and warned against wavering."],"PossessionChanges":[],"RelationshipChanges":["The group operates as a coordinated unit: Maren provides force, Elara precision, Kaelen connection, Elias oversight, and Torin physical support.","Kaelen feels anchored by the system rather than isolated in fear."],"CompletedActions":["Elara lowered the chisel and adjusted the angle to reduce vibration.","Maren stepped back from Elara\u0027s shoulder after bracing her frame.","Torin moved closer to place a firm hand on Kaelen\u0027s back, then rested his hand lightly on Kaelen\u0027s shoulder.","Elias walked to the edge of the clearing to observe the barrier and horizon before turning back to address the group.","Kaelen flexed his fingers in the gauntlet and confirmed he could hear the resonance.","The group held the position together, maintaining the new frequency."],"UnresolvedImmediateAction":"The group is holding the stabilized flow at the current sustainable level, waiting for the designated duration to pass before Elias initiates the next increase in pitch.","ContinuationPosition":"Elias stands facing the barrier and the group, having just given instructions on timing and safety. Elara holds the chisel steady with Maren assisting. Torin stands beside Kaelen with a hand on his shoulder. Kaelen grips the gauntlet, feeling the steady heat and vibration. The scene ends as they maintain this controlled state.","ProhibitedRepetition":["Do not repeat the initial spike in heat or the erratic shaking of the ground.","Do not re-describe the fog curling inward like moths to a flame.","Do not repeat dialogue regarding \u0027holding it back\u0027 or \u0027it\u0027s pulling harder\u0027.","Do not describe Torin moving to stand beside Kaelen for the first time (already done in Scene 1).","Do not re-state that Torin placed a hand on Kaelen\u0027s shoulder as a new decision; this is a continuation of existing support."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The silence that followed the stabilization was not empty; it was heavy with the weight of a job done well. The violet hum had settled into a rhythm, a steady thrumming that Elias could feel vibrating through the soles of his boots and up into the marrow of his bones. It was no longer a frantic, desperate scream but a controlled breath, the kind one takes after holding it through a panic attack.
+
+Elara lowered the chisel slightly, though her fingers did not loosen their grip on the handle. The quartz stone beneath it pulsed with a soft, rhythmic light, matching the beat of the barrier above. "It holds," she said, her voice barely rising above the drone. "The frequency is consistent. We aren't fighting the flow anymore; we are riding it."
+
+Maren exhaled, a long, shuddering sound that seemed to deflate her entire posture. She stepped back from Elara’s shoulder, removing the physical brace only to place a hand firmly on Kaelen’s upper arm instead. The young man stood rigid, his eyes closed, but the frantic tremor in his hands had ceased. The brass gauntlet on his wrist was warm now, not burning, merely alive—a second heartbeat syncing with the first.
+
+Torin loosened his grip on his sword hilt, though the blade remained drawn. He kept his feet planted, a wide base against the possibility of anything going wrong, but his shoulders had dropped an inch. "Five minutes," he muttered, checking the air around Kaelen’s head for any sign of a shift in pressure. "Hold it there."
+
+Elias turned away from the barrier to address them directly. He walked over to Kaelen, ignoring the open blade inches from the boy’s face. Torin’s eyes followed the movement, ensuring Elias kept his distance from the connection point, but he made no move to intervene. The hierarchy of the moment was clear: Elias assessed the strategic picture, Maren and Torin provided physical containment and safety, Elara managed the mechanism, and Kaelen served as the conduit.
+
+"Kaelen," Elias said, his voice low and steady. "Can you hear the change?"
+
+Kaelen opened his eyes. They were clear, the panic that had clouded them days ago washed away by the sheer act of control. The green fog that usually clung to him like a second skin had retreated, pooling around their boots rather than rising into his hair or clothes. "It’s different," Kaelen said, his voice rough from disuse but steady. "Before, it felt like I was drowning in it. Now... now it feels like I’m just holding a door open. It wants to come out, and I let it out, but I decide when. And the barrier eats it."
+
+"That’s the point," Elias said. He looked at Elara. "Elara, how long can you maintain this exact pitch? If we stay here too long, the seal might saturate. We need to know if the barrier regenerates fast enough to handle a second surge."
+
+Elara adjusted her glasses, which had slid down her nose during the operation. She pulled a small notebook from her satchel and made a quick note. "The resonance is stable," she replied. "But the stone is conducting heat now. If we hold it at this intensity for more than five minutes, the quartz might crack from thermal expansion. The barrier, however... yes. It’s rebuilding faster than I expected." She paused, looking up. "The violet light isn’t just masking the Blight; it’s consuming the energy that feeds it. Every drop we feed it is gone. We aren't just plugging a hole; we’re starving the thing below."
+
+Elias nodded, noting the tactical shift in his mind. "Then we have a window," he said to Torin and Kaelen. "Torin, I want you to keep that sword ready. Not to fight monsters, but to step between Kaelen and anything that tries to pull him back into the dark if the frequency slips."
+
+"I’m here," Torin rumbled. He shifted his weight, angling his body so he could sweep the ground with one leg while keeping a hand on Kaelen’s shoulder blade. "I’ve got him. If the world goes black, I make sure he doesn't fall in first."
+
+"Good," Elias said. He turned back to the barrier. The violet light was pulsing, but it was softer now, less aggressive. It looked less like a shield and more like a stomach digesting a meal. "Kaelen, listen to the pull. Do you feel it trying to push you deeper?"
+
+"Yes," Kaelen said. He opened his eyes again, focusing on the gauntlet. The runes etched into the brass were glowing faintly now, a dull ember of light rather than a roaring fire. "It feels like gravity. Like if I stop holding, everything just falls down."
+
+"Don't fight it," Elias instructed. "Just acknowledge it. Use that pull to steady your footing. If you resist too hard, you’ll tense up and break the connection. You need to let the Blight feel the resistance of the barrier before it hits you."
+
+Kaelen took a deep breath, filling his lungs with the cold, clean air of the valley. He didn't push against the pull; instead, he shifted his center of gravity, leaning slightly into Torin’s grip as if using the soldier’s strength to balance the weight of the magic. "Okay," Kaelen murmured. "I feel it."
+
+"And Elara?" Elias asked. "Are we ready to push the pitch up another fraction? Just a little. Enough to clear out more of the reservoir, but not enough to shatter the seal."
+
+Elara looked at the chisel, then at the quartz stone. The light within the crystal was brightening, a testament to the heat building in its core. "The stone can handle it," she said. "But Maren, if we increase the vibration, I’ll need your full support again. My hands will tremble from the fatigue."
+
+Maren nodded without hesitation. She crossed her arms over her chest, tightening her grip on her hammer. "I’m ready. Let’s see what else we can drain before dawn."
+
+Elias watched the barrier one last time. The violet light was expanding, filling the valley with a gentle, soothing glow that pushed back the lingering shadows of the fog. It was a small victory, but it was a real one. They had not just survived; they had won a foothold. The Blight was still out there, vast and hungry, but for the first time in weeks, the party stood its ground.
+
+"Then we do it," Elias said. He raised his hand again, not to command a strike, but to signal the next step in a symphony they were conducting together. "Kaelen, listen deeper. Elara, increase the angle by a hair. Maren, brace her. Torin, watch the boy’s face."
+
+"Understood," Kaelen said, closing his eyes again. The hum in his teeth grew slightly louder, but it was no longer painful; it was a reminder of his purpose. "I’m ready."
+
+The chisel struck the stone. Not with force, but with precision. And the valley held its breath, waiting for the next note to rise.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate completed action 'Elara lowered the chisel slightly and adjusted the angle to reduce vibration.' repeats completed action from Chapter 15, Scene 2: 'Elara lowered the chisel and adjusted the angle to reduce vibration.'; candidate completed action 'Elias walked to the edge of the clearing to observe the barrier and horizon before turning back to address the group.' repeats completed action from Chapter 15, Scene 2: 'Elias walked to the edge of the clearing to observe the barrier and horizon before turning back to address the group.'; candidate completed action 'Kaelen flexed his fingers in the gauntlet and confirmed he could hear the resonance.' repeats completed action from Chapter 15, Scene 2: 'Kaelen flexed his fingers in the gauntlet and confirmed he could hear the resonance.'; candidate completed action 'The group held the position together, maintaining the new frequency.' repeats completed action from Chapter 15, Scene 2: 'The group held the position together, maintaining the new frequency.'; candidate decision 'The group agreed to hold the stabilized flow for approximately five to six minutes before raising the pitch again.' repeats decision from Chapter 15, Scene 2: 'The group agreed to hold the stabilized flow for approximately five to six minutes before raising the pitch again.'; candidate decision 'Elias assigned himself oversight of Kaelen's state, instructing him to report immediately if he feels slipping.' repeats decision from Chapter 15, Scene 2: 'Elias assigned himself oversight of Kaelen's state, instructing him to report immediately if he feels slipping.'; candidate decision 'Maren instructed Elara to keep the chisel angle steady and warned against wavering.' repeats decision from Chapter 15, Scene 2: 'Maren instructed Elara to keep the chisel angle steady and warned against wavering.'; candidate relationship change 'The group operates as a coordinated unit: Maren provides force, Elara precision, Kaelen connection, Elias oversight, and Torin physical support.' repeats relationship change from Chapter 15, Scene 2: 'The group operates as a coordinated unit: Maren provides force, Elara precision, Kaelen connection, Elias oversight, and Torin physical support.'; candidate relationship change 'Kaelen feels anchored by the system and supported by Torin rather than isolated in fear.' repeats relationship change from Chapter 15, Scene 2: 'Kaelen feels anchored by the system rather than isolated in fear.'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.

@@ -1,0 +1,52 @@
+{
+  "ValidationProtocolVersion": 2,
+  "ContinuityProtocolVersion": 1,
+  "HasTechnicalFailures": false,
+  "Validations": [
+    {
+      "FindingIndex": 0,
+      "Disposition": 0,
+      "Evidence": "The candidate text describes the party entering the \u0027Gilded Tankard\u0027 immediately after Chapter 16. However, Finalized Chapter 16 explicitly concludes with the party resting at the Gate of Silence shrine, waiting for confirmation from the Watchfort before moving on. The narrative in Chapter 16 ends with them holding a stabilized seal and resting, not traveling to a tavern. The candidate\u0027s claim that they are \u0027immediately after\u0027 Chapter 16 is factually incorrect regarding location; they must first",
+      "Reason": "The chapter places the party inside the Gilded Tankard tavern immediately after the events of Chapter 16, where they were resting at the Gate of Silence shrine. This contradicts the established canon that the party is waiting for confirmation from the Watchfort before moving on. The narrative fails to account for the travel required to reach a tavern or the watchfort."
+    },
+    {
+      "FindingIndex": 1,
+      "Disposition": 0,
+      "Evidence": "The candidate text explicitly treats the \u0027mosaic frequency\u0027 as a completed state achieved in Chapter 16. It opens with the barrier already humming steadily and Kaelen\u0027s mind clear, stating \u0027The heat was the first thing to settle... The brass gauntlet on Kaelen\u0027s wrist had gone dark again after the initial surge, then re-ignited with a faint, rhythmic pulse.\u0027 The dialogue confirms this is past history: \u0027We\u0027ve bought ourselves time. Now we need to see if we can turn that time into a real advantage",
+      "Reason": "The candidate does not repeat the breakthrough as an active event; it acknowledges the breakthrough from Chapter 16 as established fact and focuses on the consequences (rest, waiting for Watchfort confirmation) rather than re-enacting the tuning process."
+    },
+    {
+      "FindingIndex": 2,
+      "Disposition": 0,
+      "Evidence": "The candidate text explicitly states that the party is \u0027waiting for confirmation from the Watchfort\u0027 before moving on. It describes the current state as holding the line until the city\u0027s defenses are ready: \u0027We\u0027ll hold the line until they call us back.\u0027 The narrative acknowledges the unresolved situation of the Blight containment by having the characters rest and wait, rather than resolving the threat prematurely.",
+      "Reason": "The candidate respects the hierarchy between arcs by maintaining the Short arc\u0027s active milestone (waiting for Watchfort confirmation) as the primary constraint on action. It does not bypass the unresolved situation; instead, it uses the waiting period to establish social dynamics and reputation within the tavern context, which is a valid use of downtime while the Blight containment remains active."
+    },
+    {
+      "FindingIndex": 3,
+      "Disposition": 0,
+      "Evidence": "The candidate text is a continuation of Chapter 16\u0027s narrative flow (as indicated by the \u0027FINALIZED CHAPTER 16\u0027 header in the context), depicting the party resting at the shrine after stabilizing the seal. The finding incorrectly interprets this scene as a new chapter where they leave the shrine; however, the prose explicitly describes them waiting for confirmation from the Watchfort and resting in place, meaning no unauthorized movement away from the shrine has occurred.",
+      "Reason": "The candidate text is part of the finalized Chapter 16 sequence, not a new chapter. The party remains at the Gate of Silence shrine throughout the provided text, contradicting the finding\u0027s claim that they have left without justification."
+    },
+    {
+      "FindingIndex": 4,
+      "Disposition": 0,
+      "Evidence": "The candidate text explicitly states that the immediate threat is not fully resolved but contained: \u0027The seal is weak, yes, but it\u0027s not broken.\u0027 It clarifies that they have bought time and are waiting for the city foundations to absorb what remains. The statement \u0027For now, they were safe\u0027 refers to their personal safety from immediate collapse, not the resolution of the Blight source itself.",
+      "Reason": "The candidate does not contradict the ResolutionCriteria for the medium-blight-prelude arc; it correctly interprets \u0027safe\u0027 as temporary stability achieved through containment rather than permanent resolution. The narrative maintains that the source must be sealed before leaving, which aligns with the canon requirement that the Blight source be destroyed or sealed before moving on."
+    },
+    {
+      "FindingIndex": 5,
+      "Disposition": 0,
+      "Evidence": "The narrative explicitly states that the party is resting for only one night before moving on to the next objective (negotiating with Silas Vane). The deposit of \u0027three nights\u0027 plus an \u0027extraordinary sum\u0027 functions as a standard guild or tavern security measure\u2014a guarantee against early departure or breach of contract\u2014rather than a literal payment for three consecutive nights of occupancy. Since the party intends to leave after one night, they will settle the final balance upon checkout, which a",
+      "Reason": "The financial contradiction is resolved by interpreting the \u0027three nights\u0027 deposit as a standard security bond common in fantasy taverns and guild halls, not a literal charge for three nights of lodging. The narrative confirms the party rests only one night before moving on; therefore, they will pay the remaining balance (one night \u002B extraordinary fee) upon checkout. This aligns with established world logic where deposits are often larger than actual stays to ensure commitment."
+    },
+    {
+      "FindingIndex": 6,
+      "Disposition": 2,
+      "Evidence": null,
+      "Reason": "Required chapter-target completion was not independently validated."
+    }
+  ],
+  "Model": "qwen3.5:9b",
+  "Duration": "00:02:49.0364360",
+  "HasBlockingFindings": true
+}

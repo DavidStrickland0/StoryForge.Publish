@@ -1,0 +1,135 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 18.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":18,"ViewpointCharacterId":"Elias Thorne","Objective":"Finalize the contract terms with Silas Vane, gather necessary supplies and local information, and prepare the party for the caravan escort, including addressing the party\u0027s internal dynamics and the specific challenges of the route.","IntendedChange":"The party transitions from \u0027negotiators\u0027 to \u0027active contractors,\u0027 securing the final contract, acquiring supplies, and establishing a clear plan of action for the escort, while addressing the internal tensions and external pressures that arise from their new role.","PacingPosture":1,"ProhibitedPatterns":["Copying verbatim prose from Chapter 17, specifically the descriptions of the tavern noise, the drunk patron incident, or the rival adventurers\u0027 dialogue.","Re-enacting the initial meeting with Silas Vane or the rival adventurers\u0027 confrontation.","Using the phrase \u0027noise hit them like a physical wave\u0027 or similar sensory clich\u00E9s from the previous chapter.","Having the party leave the tavern or begin the escort journey.","Introducing a new Blight-Touched entity attack or immediate physical threat.","Resolving the \u0027Simple Job Gone Wrong\u0027 medium arc or the \u0027From Survivors to Adventurers\u0027 long arc."],"Scenes":[{"Sequence":1,"Purpose":"Elias and Silas Vane finalize the contract terms in a private office, negotiating a compromise on the additional clause for a second merchant group to secure fair payment while maintaining focus on the primary escort.","IntendedChange":"The contract is signed with agreed-upon terms, establishing the party as active contractors with a clear financial and operational scope.","FocusCharacterIds":["Elias Thorne","Silas Vane"]},{"Sequence":2,"Purpose":"Torin and Maren collaborate in the local market to acquire specific supplies and tactical insights, with Torin organizing logistics and Maren providing practical combat-oriented advice on mitigating Blight risks.","IntendedChange":"The party secures necessary supplies and establishes a logistical framework for the escort, reinforcing the bond between Torin and Maren through shared preparation.","FocusCharacterIds":["Torin","Maren"]},{"Sequence":3,"Purpose":"Elara and Elias analyze the route and Blight behavior in the tavern, with Elara demonstrating her scholarly expertise by identifying cyclical Blight activity and Elias integrating her strategic insights into the party\u0027s plan.","IntendedChange":"The party establishes a clear strategic plan for the escort based on Elara\u0027s insights and Torin\u0027s logistics, reinforcing the partnership and mutual respect between Elara and Elias.","FocusCharacterIds":["Elara","Elias Thorne"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Elias and Silas Vane finalize the contract terms in a private office, negotiating a compromise on the additional clause for a second merchant group to secure fair payment while maintaining focus on the primary escort.","IntendedChange":"The contract is signed with agreed-upon terms, establishing the party as active contractors with a clear financial and operational scope.","FocusCharacterIds":["Elias Thorne","Silas Vane"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Torin and Maren collaborate in the local market to acquire specific supplies and tactical insights, with Torin organizing logistics and Maren providing practical combat-oriented advice on mitigating Blight risks.","IntendedChange":"The party secures necessary supplies and establishes a logistical framework for the escort, reinforcing the bond between Torin and Maren through shared preparation.","FocusCharacterIds":["Torin","Maren"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Silas Vane’s office was not what Elias had expected. He had anticipated a cramped back room in the Gilded Tankard, smelling of stale beer and damp wood. Instead, Silas led them through a narrow alleyway, past a stable yard where horses stamped impatiently, and into a separate building that looked more like a small counting house than a merchant’s stall. The door was heavy oak, banded with iron, and when it swung open, the air inside was cool, dry, and smelled faintly of ink and dried lavender.
+
+The room was sparse. A long desk made of dark mahogany dominated the space, its surface cluttered with ledgers, quills, and a single, unlit candle. Two chairs sat on one side of the desk, and a single, high-backed throne-like chair sat behind it. Silas Vane gestured for Elias to sit, then moved behind the desk himself, arranging a stack of parchment with deliberate care.
+
+“Comfortable?” Silas asked, his voice dropping the performative cheerfulness he had used in the tavern. Here, in the quiet, he sounded older, more tired, and significantly more serious.
+
+“Quiet,” Elias replied, settling into one of the chairs. The wood was hard, but the silence was a relief after the roar of the tavern. “Let’s talk terms.”
+
+Silas slid a heavy leather folio across the desk. It was thick, bound with brass clasps. “The escort contract for the Temple Springs caravan,” he said. “I’ve had it prepared by a solicitor. Standard rates, standard provisions. You protect the crate, I pay you.”
+
+Elias opened the folio. The paper was high quality, the ink fresh. He scanned the first page. The sum was generous—more than he had expected for a week’s work, but not enough to buy a castle. More importantly, the terms were clear. Daily wages, lodging and meals covered, and a bonus for delivering the crate intact to the Watchfort.
+
+“Straightforward,” Elias said. He looked up. “And the second clause?”
+
+Silas paused. His hand, which had been resting on the desk, tightened slightly. “The second clause?”
+
+“The one you mentioned in the tavern. About the other merchant group.” Elias kept his voice level. “You mentioned ‘fair payment’ and ‘additional obligations.’ I don’t see a second merchant group listed in the primary contract. But I suspect you’re planning to add one.”
+
+Silas leaned back in his chair. He studied Elias for a long moment, his eyes narrowing. Then, he let out a slow breath. “You’re sharper than the rumors suggested,” he said. “Very well. I will not insult your intelligence with pretense.”
+
+He reached into a drawer beneath the desk and pulled out a second, smaller document. This one was not bound in leather, but folded neatly in a wax-sealed envelope. He placed it on the desk, between them.
+
+“Here is the situation,” Silas said, his tone shifting to one of frank business. “I am contracted to deliver this water to the Watchfort. That is my primary business. However, there is another party interested in this specific cargo. A consortium of alchemists based in the capital. They are not interested in the water for healing, but for its stabilizing properties. They want to buy the crate before it reaches the Watchfort.”
+
+Elias frowned. “You’re selling the same crate twice?”
+
+“No,” Silas said sharply. “I am offering you a choice. Option A: You escort the crate to the Watchfort, and I pay you the standard rate listed in the main contract. Option B: You escort the crate to a neutral meeting point, where you hand it over to the alchemist consortium. They pay a significantly higher fee, and I take a commission. The difference goes to you.”
+
+Elias looked at the two documents. The main contract was safe, predictable. The second offer was risky. Handing over the crate to a third party in a neutral location meant leaving the Watchfort’s protection. It meant trusting a group of alchemists whose motives he did not fully understand. And it meant that if the Blight-Touched creatures found them, they would be in a location without the Watchfort’s defenses.
+
+“Why?” Elias asked. “Why would you offer this? Why not just sell to the alchemists yourself?”
+
+Silas smiled, a thin, weary expression. “Because I don’t want the risk of the handover. And because I know you’re the only ones who can make it happen. The alchemists are… particular. They don’t like adventurers. But they respect competence. And they have the coin to make it worth your while.”
+
+Elias looked at the second document. The fee was indeed higher. Enough to cover their equipment, their injuries, and a good measure of their debts. But it came with a condition. “The handover must be done in a place of your choosing. And you must ensure no one else is present.”
+
+Elias considered this. The Blight-Touched were drawn to the water. If they moved it to a neutral location, they would be moving it into the open, away from the city’s wards. It was a gamble. But the money was good, and the alchemists, if they were legitimate, would have their own reasons for protecting the cargo.
+
+“I need to think about it,” Elias said.
+
+Silas nodded. “Of course. But I suggest you think quickly. The caravan leaves at dawn. And the alchemists are not the only ones who have heard about this cargo.”
+
+Elias looked at the second document again. The ink was dry. The seal was broken. It was a ready-made proposition.
+
+He looked at Silas. “What if I take Option B, but we keep the crate under our control until we reach the Watchfort? We can deliver it to the alchemists *at* the Watchfort. That way, you get your commission, they get their water, and we get our pay. And the Watchfort is the safest place to make the exchange.”
+
+Silas raised an eyebrow. “The Watchfort is under strict quarantine. No one gets in or out without a permit. The alchemists cannot enter.”
+
+“Then we get the permit,” Elias said. “Or we make the alchemists come to us. If they want the water, they can send a representative to the Watchfort gate. We hand it over there. It’s safe, it’s legal, and it’s fair.”
+
+Silas was silent for a long time. He looked at Elias, then at the contract, then back at Elias. Finally, he let out a low chuckle.
+
+“You’re a negotiator, Thorne,” he said. “I like that. Very well. I will speak to the alchemists. If they agree to a handover at the Watchfort gate, then we will sign this modified contract. If not, you have the original terms.”
+
+Elias stood up. He picked up the main contract, but he left the second document on the desk. “I’ll wait for your answer,” he said.
+
+Silas nodded. “You’ll have it by nightfall.”
+
+Elias walked out of the office, the cool air of the alleyway hitting his face. He felt a sense of satisfaction. He had not just accepted the terms; he had shaped them. He had turned a risky gamble into a controlled exchange. And he had done it without raising his voice or drawing his sword.
+
+He looked up at the sky. The sun was still high, but the shadows were lengthening. He had a lot to do before dawn. But for the first time in days, he felt like he was in control.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

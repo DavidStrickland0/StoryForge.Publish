@@ -1,0 +1,159 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 17.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":17,"ViewpointCharacterId":"Elias Thorne","Objective":"Enter the \u0027Gilded Tankard\u0027 tavern, establish the party\u0027s reputation through a display of competence and wit, and initiate negotiations with the merchant, Silas Vane, for a caravan escort contract.","IntendedChange":"The party transitions from a group of weary, battle-scarred survivors into recognized, professional adventurers by securing a verbal agreement to discuss terms, while establishing the tavern as a hub of information and social pressure.","PacingPosture":1,"ProhibitedPatterns":["Do not resolve the final contract terms or payment details, which are reserved for Chapter 18.","Do not have the party depart the tavern or begin the escort, which is reserved for Chapter 19.","Do not reveal the specific hidden dangers of the route or the full nature of the sealed crate\u0027s target status beyond the initial discovery.","Do not force a violent confrontation or death to establish competence; use social and tactical wit instead.","Do not treat the previous failed draft\u0027s specific sequence of events as accepted canon; create a new causal path to the same narrative goals."],"Scenes":[{"Sequence":1,"Purpose":"The party enters the Gilded Tankard and navigates the tavern\u0027s strict hospitality code, where a minor disruption by a drunk patron is resolved through Maren\u0027s physical presence and Kaelen\u0027s controlled, non-threatening display of the gauntlet\u0027s dormant state, establishing their competence without violence.","IntendedChange":"The party is seated and served, gaining the tavern keeper\u0027s respect and access to the room\u0027s social dynamics, while Kaelen successfully projects calm rather than power, easing the immediate social tension around his magic.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen"]},{"Sequence":2,"Purpose":"Elias engages in initial negotiations with Silas Vane, who presents unfair liability clauses and tests the party\u0027s willingness to bend, while a rival adventurer group spreads rumors of the party\u0027s incompetence, forcing Elias to assert his authority and negotiate a compromise that preserves their dignity.","IntendedChange":"The dynamic shifts from adversarial suspicion to a tentative professional alliance, with Vane agreeing to a formal meeting the next morning to finalize terms, and the party establishing a reputation as \u0027difficult but competent\u0027 in the tavern.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Torin"]},{"Sequence":3,"Purpose":"The party accesses the tavern\u0027s information network, trading coin for rumors about the caravan route, and discovers that the caravan includes a sealed crate of \u0027pure\u0027 water from the temple springs, which is highly valuable and a target for Blight-Touched entities, while Maren subtly shields Kaelen from social scrutiny, reinforcing their bond.","IntendedChange":"The party gains critical intelligence about the caravan\u0027s cargo and the local threats, while Maren\u0027s protective stance shifts from \u0027restrainer\u0027 to \u0027social shield,\u0027 and the party is left in a position of strength with a verbal agreement and new knowledge.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen","Elara"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"The party enters the Gilded Tankard and navigates the tavern\u0027s strict hospitality code, where a minor disruption by a drunk patron is resolved through Maren\u0027s physical presence and Kaelen\u0027s controlled, non-threatening display of the gauntlet\u0027s dormant state, establishing their competence without violence.","IntendedChange":"The party is seated and served, gaining the tavern keeper\u0027s respect and access to the room\u0027s social dynamics, while Kaelen successfully projects calm rather than power, easing the immediate social tension around his magic.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Elias engages in initial negotiations with Silas Vane, who presents unfair liability clauses and tests the party\u0027s willingness to bend, while a rival adventurer group spreads rumors of the party\u0027s incompetence, forcing Elias to assert his authority and negotiate a compromise that preserves their dignity.","IntendedChange":"The dynamic shifts from adversarial suspicion to a tentative professional alliance, with Vane agreeing to a formal meeting the next morning to finalize terms, and the party establishing a reputation as \u0027difficult but competent\u0027 in the tavern.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Torin"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Elias pushed open the heavy oak doors of the Gilded Tankard, and the noise hit them like a physical wave—the clatter of tankards, the low roar of conversation, and the smell of roasted meat and stale ale that seemed to seep into their very clothes. The interior was a chaotic tapestry of leather booths, candlelight flickering against peeling plaster, and the ever-present din of a city tavern at high noon.
+
+Maren’s boots clicked softly on the flagstones as she led the way, her posture relaxed but alert. She scanned the room with practiced ease, noting which patrons looked like troublemakers before they even reached the door. Elias followed close behind, his hand resting near the hilt of his sword though he didn’t draw it. Kaelen trailed slightly behind them, eyes scanning the periphery of the group, gauntlet cold and inert at his wrist.
+
+They found a booth tucked into the corner, away from the main thoroughfare but still visible to anyone who might need to intervene. Elias nodded to the innkeeper—a burly woman with grease-stained apron and a permanent scowl—who immediately dropped what she was doing to usher them inside. She didn’t ask for reservations or check their standing; in this city, reputation traveled faster than footsteps, and they were known enough that no one questioned their presence.
+
+“Right,” Elias said quietly as they took their seats. He glanced at Maren. “Do we have any trouble brewing?”
+
+Maren gave him a half-smile, the kind that didn’t reach her eyes quite far enough to be called genuine but was still warm in its own way. “Not yet,” she replied. “But if there’s anyone who wants a fight today, they’ll know where we sit first.”
+
+Kaelen sat down slowly, his movements careful despite the fatigue still clinging to him from yesterday’s ordeal. His gaze drifted over the room, taking note of every detail he could possibly remember for later reference. The gauntlet remained dark, its brass surface dull and unremarkable except for the faint scar patterns etched into its metal.
+
+The innkeeper placed a tankard of ale on each table without comment, then retreated to her duties. She didn’t offer them food yet—they’d ordered nothing but drinks so far—but she did cast them a knowing glance before turning back to the bar. Elias sipped his ale thoughtfully, watching how the liquid swirled in the glass before settling into silence.
+
+“So,” he began, breaking the quiet conversation that had fallen between them. “What do you think of this place?”
+
+Maren shrugged. “It’s loud enough to drown out a lullaby and smelly enough to make you wonder if anyone actually lives here besides us.” She leaned forward slightly, resting her elbows on the table. “But it’s not bad company either. Just… noisy.”
+
+Kaelen nodded agreement from across the table. “I can hear three conversations overlapping at once,” he murmured. “And none of them are particularly interesting.”
+
+Elias chuckled softly. “That’s what we’re used to,” he said. “Now, let’s see if we can get some food before someone tries to start a fight with us.”
+
+They hadn’t been seated long before the first incident occurred—a drunk patron stumbled into their vicinity, spilling half his ale onto the floor and nearly knocking over a nearby table. The room erupted in murmurs as people turned to watch, but no one intervened immediately. Instead, they waited to see what Elias would do.
+
+Maren didn’t hesitate. She stood up, walked around the table, and gently guided the man toward the nearest exit without saying a word. Her grip was firm but not cruel; she simply made it clear that staying put wasn’t an option. The drunk stumbled along with her, muttering something unintelligible under his breath, until they reached the door where Maren gave him one last look before letting him go.
+
+“See?” Elias asked once the man had left. “No need for violence.”
+
+Maren sat back down, wiping her hands on her apron-like clothing. “Sometimes you don’t have to raise your voice,” she said casually. “You just have to be bigger than the problem.”
+
+Kaelen watched quietly as Maren took a sip of her ale, then turned his attention back to Elias. “I think I’ll stick with that approach,” he said softly. “Less messy.”
+
+Their meal arrived shortly after—a simple stew served in deep bowls alongside crusty bread and pickled vegetables. The innkeeper brought it herself, setting the plates down before them with a nod of approval that suggested she was pleased they hadn’t caused any more disturbances. Elias thanked her sincerely, then began eating without further ado.
+
+As they ate, conversation flowed easily between them, touching on everything from the weather outside to recent events in the city. They spoke about how much better it felt to be sitting still rather than standing guard all day, and how strange it was that they’d once considered themselves lucky just to have a roof over their heads.
+
+At one point, Kaelen paused mid-bite, looking thoughtful as he chewed on a piece of bread. “You know,” he said after swallowing, “I’ve never seen an innkeeper who doesn’t try to upsell anything.”
+
+Maren laughed, nearly choking on her stew. “Oh yeah? And what exactly did she sell us?”
+
+“A room upgrade,” Kaelen replied with a grin. “She mentioned something about ‘premium views’ and ‘luxury linens.’”
+
+Elias shook his head. “Sounds like marketing fluff.” He took another bite of his stew, then added, “Though I suppose we could use better beds sometime.”
+
+Maren rolled her eyes. “We’ll take whatever the gods give us,” she said dryly. “Even if it’s a pile of straw in a stable.”
+
+Kaelen smirked. “Sounds cozy.”
+
+The conversation lulled briefly as they finished their meals, leaving only the ambient noise of the tavern to fill the space around them. Then, just as Elias was reaching for his ale again, the door swung open once more and another figure entered—the same rival adventurer group they’d seen earlier outside the gates. This time, however, they weren’t alone; they were accompanied by a merchant named Silas Vane, who wore robes embroidered with silver thread and carried a staff topped with a glowing crystal.
+
+Silas Vane approached their table with a confident stride, his smile sharp but not unkind. “Elias Thorne,” he greeted them warmly. “I trust you’ve had a good day?”
+
+Elias nodded politely. “It’s been fine,” he replied. “Though we’re still waiting to hear from the Watchfort.”
+
+Vane chuckled softly. “That’s hardly my concern,” he said smoothly. “But I do know that your reputation precedes you, even here in the Gilded Tankard.”
+
+Maren raised an eyebrow suspiciously. “And what exactly does that mean?”
+
+“It means you’re well-known throughout the city,” Vane explained cheerfully. “Which is why I thought it would be wise to introduce myself personally before anyone else gets the chance.” He gestured toward Silas, who stepped forward with a bow so deep it nearly knocked him onto his face.
+
+“I am Silas Vane,” the merchant announced grandly. “Trader of rare goods and expert negotiator of fair deals. Perhaps we might discuss terms?”
+
+Elias frowned slightly but kept his tone neutral. “Terms for what?” he asked cautiously.
+
+Vane grinned again, this time with a hint of mischief in his eyes. “For everything,” he said expansively. “From supplies to services to information—and maybe even a little extra coin thrown into the pot.”
+
+Kaelen tilted his head slightly, studying Vane’s expression closely. “What kind of goods are we talking about?” he asked innocently.
+
+Vane leaned in closer, lowering his voice as if sharing a secret with them alone. “Well now,” he whispered conspiratorially. “We have everything you could possibly need on your journey onward—including maps marked by local guides, potions brewed by seasoned alchemists, and weapons forged by master smiths who demand nothing less than perfection.”
+
+Maren snorted under her breath. “Master smiths who demand perfection?” she repeated sarcastically. “That sounds like someone who’s never made a single mistake in their life.”
+
+Vane laughed heartily, unfazed by her sarcasm. “Perhaps,” he admitted openly. “But even mistakes can lead to greatness—with the right guidance.” He paused dramatically, then added, “And perhaps we might discuss compensation?”
+
+Elias exchanged a glance with Maren before responding. “Compensation is secondary to competence,” he said firmly. “If you want our business, show us why we should trust you with our lives.”
+
+Vane tilted his head slightly, considering this response carefully before replying. “Fair enough,” he conceded gracefully. “But let’s not forget that trust is earned over time—not handed out freely like candy.” He gestured toward the entrance again, where two figures stood chatting quietly near the doorway. One of them glanced briefly at their table before turning away, but his words carried clearly enough for everyone present to hear.
+
+“Did you hear that?” Maren asked sharply. “They’re spreading rumors about us already.”
+
+Kaelen nodded slowly. “Yes,” he confirmed evenly. “Something about incompetence and lack of skill.”
+
+Elias sighed deeply, rubbing his temples as though trying to dispel the headache forming there. “Let’s not take it personally,” he advised calmly. “People will always talk when they don’t understand something—or worse, when they’re jealous.”
+
+Maren grunted noncommittally but didn’t respond otherwise. Instead, she focused
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
