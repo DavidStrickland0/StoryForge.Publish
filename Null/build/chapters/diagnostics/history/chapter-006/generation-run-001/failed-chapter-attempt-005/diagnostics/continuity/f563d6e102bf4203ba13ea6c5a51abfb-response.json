@@ -1,0 +1,10 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan violates the 'ViewpointCharacterId' constraint by including a scene focused on Aurora (Scene 2) while the chapter is designated as Ethan Vale's viewpoint. Additionally, the plan attempts to depict Aurora's internal experience and the return of her powers in the ambulance, which contradicts the established narrative perspective and the 'ProhibitedPatterns' regarding direct interaction/communication (as observing her internal state or specific medical details from a distance is not supported by the finalized evidence of Ethan's departure). The finalized evidence in Chapter 5 ends with Ethan leaving the scene; he does not witness the ambulance transport or the return of powers. Therefore, a chapter strictly from Ethan's POV cannot validly contain a scene showing Aurora's internal experience in the ambulance.",
+  "evidence": [
+    "FINALIZED CHAPTER 5: 'He reached the edge of the crowd... He turned and walked toward the exit.'",
+    "FINALIZED CHAPTER 5: 'He walked until the sound of the crowd faded... He stopped on a corner, leaning against a brick wall...'",
+    "CANDIDATE CHAPTER PLAN: 'ViewpointCharacterId': 'Ethan Vale'",
+    "CANDIDATE CHAPTER PLAN Scene 2: 'FocusCharacterIds': ['Aurora'], 'Purpose': 'Show Aurora\u2019s experience in the ambulance...'"
+  ]
+}

@@ -1,0 +1,87 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 6.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":6,"ViewpointCharacterId":"Ethan Vale","Objective":"Aurora\u0027s powers return in the ambulance, but her injuries remain; the incident becomes public news, and Ethan is left with the unresolved mystery of his role in the accident.","IntendedChange":"The immediate aftermath of the incident is resolved: Aurora is treated, her powers return, but she is left injured and grounded; the public learns of the event, and Ethan is left with the burden of his secret.","PacingPosture":0,"ProhibitedPatterns":["Replaying the exit from the venue or the fall itself","Ethan interacting directly with Aurora or paramedics","Ethan revealing his presence or identity to anyone","Aurora\u0027s injuries healing automatically","Introducing a new threat, confrontation, or cliffhanger"],"Scenes":[{"Sequence":1,"Purpose":"Ethan processes the shock of the event in isolation on the street corner, realizing the severity of his actions and the potential danger he poses.","IntendedChange":"Ethan transitions from physical shock to psychological burden, deciding to isolate himself rather than seek help or explain himself.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":2,"Purpose":"Aurora experiences the return of her powers during ambulance transport, confirming the temporary nature of the suppression, while her injuries remain and force her to rely on medical treatment.","IntendedChange":"Aurora is left injured and grounded, unable to perform her duties, with the mystery of the cause remaining unresolved.","FocusCharacterIds":["Aurora"]},{"Sequence":3,"Purpose":"The incident becomes public news, drawing attention to the possibility of a new threat or anomaly, and highlighting the public\u0027s dependence on supers and their fear of their vulnerability.","IntendedChange":"The public nature of the incident is established, setting up the investigation and creating pressure on Aurora to explain the event.","FocusCharacterIds":["Ethan Vale","Aurora"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Ethan processes the shock of the event in isolation on the street corner, realizing the severity of his actions and the potential danger he poses.","IntendedChange":"Ethan transitions from physical shock to psychological burden, deciding to isolate himself rather than seek help or explain himself.","FocusCharacterIds":["Ethan Vale"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Aurora experiences the return of her powers during ambulance transport, confirming the temporary nature of the suppression, while her injuries remain and force her to rely on medical treatment.","IntendedChange":"Aurora is left injured and grounded, unable to perform her duties, with the mystery of the cause remaining unresolved.","FocusCharacterIds":["Aurora"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The brick wall was cool against Ethan’s lower back. It was a solid, unyielding reality that felt more trustworthy than the air he was breathing. He kept his eyes fixed on his hands, which were still trembling. The tremor had moved from his fingers to his forearms, a persistent vibration that seemed to resonate in his bones. He flexed his left hand, then his right, as if expecting to see a change, a glow, or a sign of the anomaly that had just ruptured the world’s rules. There was nothing. Just pale skin, dirt under the fingernails, and the faint, ghostly imprint of the denim from his pocket.
+
+He tried to remember the last time he had felt this physically present. It was a dangerous exercise. His mind kept drifting back to the stall, the sudden absence of lift, the wet thud that had traveled up through the soles of his shoes. He had been so close. He had been there. The logic of it defied every principle of safety he had ever internalized. If he was the cause, the implication was terrifying. If he was not the cause, he was a witness to a miracle that had gone wrong, and the guilt of his inaction was a heavier weight than the guilt of action.
+
+A car door slammed somewhere down the street. The sound was sharp, mundane, and utterly disconnected from the horror he had just witnessed. He flinched, his head snapping toward the noise. A sedan, a dull grey thing with a dent in the rear bumper, was pulling away from the curb. Its taillights blinked twice before it merged into the flow of traffic.
+
+Ethan watched it go. He felt a surge of irrational envy for the driver. The driver was going home, or to work, or to dinner. The driver had a destination that did not involve the possibility of breaking the world. The driver did not have to wonder if his presence was a weapon.
+
+He turned his attention back to his hands. The trembling had subsided slightly, replaced by a dull ache in his joints. He was tired. It was a deep, marrow-level exhaustion that sleep would not fix. He needed to be somewhere quiet. He needed to be somewhere where no one was watching, where no one was recording, where no one was looking for a culprit.
+
+He straightened up, his knees popping. The air was still cool, but it no longer felt crisp. It felt thin, as if the oxygen had been diluted. He pushed off the wall and began to walk. He did not look at the phones held aloft by the bystanders on the opposite corner. He did not look at the news vans beginning to park near the venue entrance. He walked with his head down, his hands in his pockets, his steps measured and deliberate.
+
+He was going home. He would close the curtains. He would sit in the dark and try to understand how a man who could barely afford a new pair of shoes could also be the reason a god fell. The question was too large for his mind to hold, so he set it aside, leaving it in the hollow space in his chest where the fear lived. He walked until the street behind him was empty, and the world ahead of him was just a long, silent path back to his apartment.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

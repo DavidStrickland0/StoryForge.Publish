@@ -1,0 +1,149 @@
+﻿{
+  "ChapterNumber": 6,
+  "Records": [
+    {
+      "Stage": "Generation",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:11:37.7911260",
+      "Artifact": "draft.md",
+      "CompletedUtc": "2026-10-06T02:24:29.8136488+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 1,
+      "Model": "hf.co/QuantFactory/Lumimaid-Magnum-12B-GGUF:Q4_K_M; comparison: qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:07:08.6589323",
+      "Artifact": "draft.md",
+      "CompletedUtc": "2026-10-06T02:31:38.6296018+00:00"
+    },
+    {
+      "Stage": "Review",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:20:06.9862941",
+      "Artifact": "review-001.md",
+      "CompletedUtc": "2026-10-06T02:51:45.8512039+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:10:48.3266240",
+      "Artifact": "review-001.validation.json",
+      "CompletedUtc": "2026-10-06T03:02:34.4097772+00:00"
+    },
+    {
+      "Stage": "Revision",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:22:23.3957653",
+      "Artifact": "revision-001.md",
+      "CompletedUtc": "2026-10-06T03:24:58.0067935+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 1,
+      "Model": "hf.co/QuantFactory/Lumimaid-Magnum-12B-GGUF:Q4_K_M; comparison: qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:13:48.9000492",
+      "Artifact": "revision-001.md",
+      "CompletedUtc": "2026-10-06T03:38:47.0380675+00:00"
+    },
+    {
+      "Stage": "Review",
+      "Sequence": 2,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:22:12.5447962",
+      "Artifact": "review-002.md",
+      "CompletedUtc": "2026-10-06T04:00:59.7478903+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 2,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:10:45.6959771",
+      "Artifact": "review-002.validation.json",
+      "CompletedUtc": "2026-10-06T04:11:45.6178758+00:00"
+    },
+    {
+      "Stage": "Revision",
+      "Sequence": 2,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:16:45.0407131",
+      "Artifact": "revision-002.md",
+      "CompletedUtc": "2026-10-06T04:28:30.7962909+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 2,
+      "Model": "hf.co/QuantFactory/Lumimaid-Magnum-12B-GGUF:Q4_K_M; comparison: qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:10:56.2057939",
+      "Artifact": "revision-002.md",
+      "CompletedUtc": "2026-10-06T04:39:27.1335704+00:00"
+    },
+    {
+      "Stage": "Review",
+      "Sequence": 3,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:19:17.8772166",
+      "Artifact": "review-003.md",
+      "CompletedUtc": "2026-10-06T04:58:45.1276516+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 3,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:12:34.2524931",
+      "Artifact": "review-003.validation.json",
+      "CompletedUtc": "2026-10-06T05:11:19.5076209+00:00"
+    },
+    {
+      "Stage": "Revision",
+      "Sequence": 3,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:16:41.7413954",
+      "Artifact": "revision-003.md",
+      "CompletedUtc": "2026-10-06T05:28:01.3716687+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 3,
+      "Model": "hf.co/QuantFactory/Lumimaid-Magnum-12B-GGUF:Q4_K_M; comparison: qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:08:46.8510899",
+      "Artifact": "revision-003.md",
+      "CompletedUtc": "2026-10-06T05:36:48.5161586+00:00"
+    },
+    {
+      "Stage": "Review",
+      "Sequence": 4,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:18:27.3267053",
+      "Artifact": "review-004.md",
+      "CompletedUtc": "2026-10-06T05:55:16.0318862+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 4,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:13:05.5547857",
+      "Artifact": "review-004.validation.json",
+      "CompletedUtc": "2026-10-06T06:08:21.7893841+00:00"
+    }
+  ]
+}

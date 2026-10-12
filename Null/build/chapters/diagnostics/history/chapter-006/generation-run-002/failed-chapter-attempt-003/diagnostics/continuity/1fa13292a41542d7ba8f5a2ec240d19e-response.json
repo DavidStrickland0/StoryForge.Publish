@@ -1,0 +1,8 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan's Scene 1 violates the chapter's ViewpointCharacterId constraint. The plan specifies 'ViewpointCharacterId': 'Ethan Vale', but Scene 1 has 'FocusCharacterIds': ['Aurora'] and describes her internal experience ('Aurora experiences the sudden return...'). This creates a contradiction where the chapter is defined as Ethan's POV but the first scene is written from Aurora's perspective. Additionally, the finalized evidence in Chapter 5 ends with Ethan physically departing the venue ('He walked away... He reached the edge of the crowd... He turned and walked toward the exit'). The candidate plan's Scene 2 and 3 imply a continuous timeline where Ethan is still processing the event in the immediate vicinity or just arriving home, which is consistent, but the POV violation is a structural defect in the plan itself.",
+  "evidence": [
+    "CANDIDATE CHAPTER PLAN: \"ViewpointCharacterId\": \"Ethan Vale\"",
+    "CANDIDATE CHAPTER PLAN Scene 1: \"FocusCharacterIds\": [\"Aurora\"], \"Purpose\": \"Aurora experiences the sudden return of her flight and invulnerability...\""
+  ]
+}

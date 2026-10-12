@@ -1,0 +1,8 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan's Scene 1 violates the chapter's ViewpointCharacterId constraint. The plan specifies 'ViewpointCharacterId': 'Ethan Vale', but Scene 1 has 'FocusCharacterIds': ['Aurora'] and describes her internal experience ('Aurora experiences the return of her powers...'). This creates a contradiction where the chapter is defined as Ethan's POV but requires a scene focused on Aurora's internal state, which is not supported by the finalized evidence (Ethan left the scene and does not know her status). Additionally, the ProhibitedPatterns state 'Ethan must not contact Ben', but the finalized evidence in Chapter 3 shows Ethan has already sent Ben a message ('Had a shit evening... Call me when you can') and is waiting for a reply. While the plan doesn't explicitly demand a reply, the focus on 'isolation' and 'burden' in Scene 3 must account for the fact that he has already initiated contact, which contradicts the strict isolation implied by the 'Quiet' pacing and 'isolate himself' objective if interpreted as total disconnection. However, the primary hard failure is the POV violation in Scene 1.",
+  "evidence": [
+    "CANDIDATE CHAPTER PLAN: \"ViewpointCharacterId\": \"Ethan Vale\"",
+    "CANDIDATE CHAPTER PLAN Scene 1: \"FocusCharacterIds\": [\"Aurora\"], \"Purpose\": \"Aurora experiences the return of her powers...\""
+  ]
+}

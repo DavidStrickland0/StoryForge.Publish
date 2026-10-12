@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261004-143104-735-incremental-chapter-006-3910702a",
+  "bookPath": "/books",
+  "voiceLibraryPath": "/voices",
+  "chapterId": "chapter-006",
+  "startedUtc": "2026-10-04T17:22:06.391866+00:00",
+  "completedUtc": "2026-10-04T18:36:11.879683+00:00",
+  "status": "failed",
+  "failedStage": "segment verification",
+  "settings": {
+    "whisperModel": "small.en",
+    "pauseSeconds": 0.18,
+    "maxSegmentAttempts": 3
+  },
+  "segmentVerificationAttempts": [
+    {
+      "attempt": 1,
+      "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-1.json",
+      "passed": 208,
+      "review": 3,
+      "failed": 3,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 1,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 21,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 35,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 75,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 138,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 146,
+          "chunkIndex": 0
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-2.json",
+      "passed": 211,
+      "review": 2,
+      "failed": 1,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 35,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 138,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 146,
+          "chunkIndex": 0
+        }
+      ]
+    },
+    {
+      "attempt": 3,
+      "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+      "passed": 211,
+      "review": 3,
+      "failed": 0,
+      "rejectedSegmentIndexes": [],
+      "rejectedChunks": [
+        {
+          "segmentIndex": 35,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 138,
+          "chunkIndex": 0
+        },
+        {
+          "segmentIndex": 146,
+          "chunkIndex": 0
+        }
+      ]
+    }
+  ],
+  "stageCheckpoints": {},
+  "resumeCount": 0,
+  "resumeHistory": [],
+  "lastResumedUtc": null,
+  "chapterDirectory": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006",
+  "masteredAudioPath": null
+}

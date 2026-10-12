@@ -1,0 +1,91 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 6.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":6,"ViewpointCharacterId":"Ethan Vale","Objective":"Aurora\u0027s powers return in the ambulance, but her injuries remain; the incident becomes public news, and Ethan is left with the unresolved mystery of his role in the accident.","IntendedChange":"The immediate aftermath of the incident is resolved: Aurora is treated, her powers return, but she is left injured and grounded; the public learns of the event, and Ethan is left with the burden of his secret.","PacingPosture":0,"ProhibitedPatterns":["Using the \u0027not X, but Y\u0027 contrast reframing structure in dialogue or narration.","Describing Ethan as barefoot or removing his shoes before leaving the venue.","Replaying the fall, the paramedics\u0027 initial confusion, or the crowd\u0027s immediate gasp as new events.","Ending the chapter with Ethan\u0027s departure from the street corner without completing his transit home.","Abstract emotional labeling (e.g., \u0027nausea\u0027, \u0027chaotic storm\u0027) without concrete sensory or physical grounding."],"Scenes":[{"Sequence":1,"Purpose":"Ethan navigates the chaotic street outside the venue, observing the media swarm and public shock, while physically moving away from the scene to avoid being identified.","IntendedChange":"Ethan reaches a quiet, isolated location (a park bench or alley) where he can observe the news coverage on a bystander\u0027s phone, establishing the public nature of the incident and his physical distance from Aurora.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":2,"Purpose":"Ethan watches the breaking news footage on a stranger\u0027s phone, seeing Aurora\u0027s fall and the paramedics\u0027 struggle, which forces him to confront the reality of her injury and his proximity to it.","IntendedChange":"Ethan confirms that Aurora is alive but injured, and that the public is framing the event as a mysterious failure of her powers, solidifying his fear that he is the cause.","FocusCharacterIds":["Ethan Vale","Aurora"]},{"Sequence":3,"Purpose":"Ethan makes the choice to walk home rather than seek help or explain himself, driven by the terror of being blamed and the inability to comprehend his own role.","IntendedChange":"Ethan begins his transit home, leaving the public sphere and entering the private, isolated space of his apartment building, setting the stage for his internal processing.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":4,"Purpose":"In the ambulance, Aurora experiences the return of her powers as the vehicle moves beyond Ethan\u0027s field, but her broken arm and injuries remain, highlighting her vulnerability and the need for investigation.","IntendedChange":"Aurora is aware of her restored abilities and persistent pain, establishing her determination to find the cause of the suppression and her physical limitation.","FocusCharacterIds":["Aurora"]},{"Sequence":5,"Purpose":"Ethan arrives at his apartment, isolates himself, and begins to process the event in silence, realizing the severity of his actions and the potential danger he poses.","IntendedChange":"Ethan is left with the burden of his secret, isolated and aware of the unresolved mystery, while Aurora is grounded and injured, both unaware of the connection that will bring them together.","FocusCharacterIds":["Ethan Vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Ethan navigates the chaotic street outside the venue, observing the media swarm and public shock, while physically moving away from the scene to avoid being identified.","IntendedChange":"Ethan reaches a quiet, isolated location (a park bench or alley) where he can observe the news coverage on a bystander\u0027s phone, establishing the public nature of the incident and his physical distance from Aurora.","FocusCharacterIds":["Ethan Vale"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Ethan watches the breaking news footage on a stranger\u0027s phone, seeing Aurora\u0027s fall and the paramedics\u0027 struggle, which forces him to confront the reality of her injury and his proximity to it.","IntendedChange":"Ethan confirms that Aurora is alive but injured, and that the public is framing the event as a mysterious failure of her powers, solidifying his fear that he is the cause.","FocusCharacterIds":["Ethan Vale","Aurora"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The air outside was cooler, carrying the scent of ozone and wet pavement, but the street was far from empty. The morning rush had not paused; it had detonated. A wall of bodies pressed against the chain-link barriers, faces upturned, phones extended like strange, silver flowers blooming from the chest of the crowd. Ethan kept his head down, his shoulders hunched, moving with a deliberate, shuffling gait that made no sense for a man who had been standing still for the last five minutes. He was afraid that if he ran, his shadow would become distinct, would peel itself off the concrete and point a finger at him. He was also afraid that if he walked too slowly, someone would stop him.
+
+He turned a corner, then another. The immediate roar of the venue faded into a low, omnipresent hum, the sound of a city holding its breath. People on the sidewalk stopped to watch their screens, their faces illuminated by the blue glow of notifications. A delivery driver idled his bike, engine ticking, staring at the venue in the distance with a mix of awe and disbelief. A woman near a coffee kiosk was crying, her hand over her mouth, her phone still out.
+
+Ethan didn’t stop. He couldn’t. His legs felt like they belonged to someone else, heavy and unresponsive. He passed a group of teenagers who were filming the sky, where the faint residue of Aurora’s light was already dissipating into the morning haze. They didn’t see him. They were too busy capturing the ghost of a god.
+
+He needed to disappear. He needed to be somewhere that was not here, not near the stage, not near the crack in the pavement where the concrete had spiderwebbed outward. He walked until the sound of the crowd was replaced by the distant murmur of traffic and the rustle of wind in the trees. He found a bench in a small pocket park, tucked away from the main thoroughfare. The wood was damp from the earlier rain. He sat down, the impact jarring through his spine, and let his hands drop into his lap. They were shaking again.
+
+He looked at a passerby, a man in a business suit who was talking into his phone. The man’s voice was sharp, urgent, directed at someone who was not there.
+
+“...can’t believe it. I was right there. The footage is insane. I’m sending it to you now. She just... stopped. Mid-air. Like a bird hitting a glass wall. It’s not a malfunction, right? It can’t be a malfunction. This is Aurora. She doesn’t have malfunctions.”
+
+The man hung up and looked toward the direction of the venue, his face pale, his eyes wide. He shoved his phone into his pocket and hurried away, his stride long and quick, as if he were trying to outrun the implications of what he had witnessed.
+
+Ethan watched him go, the image of the man’s face burned into his memory. *She just stopped.*
+
+He looked at his own hands. They were clean. They were pale. They were his. And for the first time in his life, he was unsure if that was a comfort or a curse.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

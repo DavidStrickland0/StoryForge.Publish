@@ -1,0 +1,8 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan's Scene 2 violates the chapter's defined ViewpointCharacterId. The plan specifies 'ViewpointCharacterId': 'Ethan Vale', but Scene 2 explicitly focuses on 'Aurora' and describes her internal experience ('Aurora, in the ambulance, experiences the return of her powers...'). This creates a contradiction between the single-POV constraint and the multi-POV scene content. Additionally, the ProhibitedPatterns forbid 'Ending the chapter with Ethan's departure', yet Scene 1 describes Ethan 'physically separating himself from the scene' and Scene 3 describes him 'returning to his apartment', which risks conflating the departure (already completed in Ch 5) with the arrival/isolation required by the target, potentially violating the prohibition if not carefully distinguished as the *conclusion* of the chapter rather than the start.",
+  "evidence": [
+    "CANDIDATE CHAPTER PLAN: \"ViewpointCharacterId\": \"Ethan Vale\"",
+    "CANDIDATE CHAPTER PLAN Scene 2: \"FocusCharacterIds\": [\"Aurora\"], \"Purpose\": \"Aurora, in the ambulance, experiences the return of her powers...\""
+  ]
+}
