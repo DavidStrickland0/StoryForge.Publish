@@ -1,4 +1,4 @@
-# Canon
+﻿# Canon
 
 ## Established Canon
 
@@ -11,7 +11,43 @@
 - Adrian agreed to continued trial participation and additional monitoring, including physical examination, blood work and a genetic panel. These tests are pending.
 - Hospital administration offered increased compensation for the unusual circumstances but did not specify a new amount. Do not invent a replacement rate.
 - The nanites accelerate his healing and metabolism; he needs additional food and rest and is not fully recovered.
+
+
+- Dr. Sarah Chen is in her mid-thirties and wears wire-rimmed glasses.
+
+
+- David Miller is balding and wears an expensive suit.
+
+
+- Adrian's ribs are still fractured but are being repaired by nanites at a faster rate than conventional healing.
+
+
+- The genetic panel is scheduled for the day following the examination in Chapter 4.
+
+
+- The genetic panel results revealed novel, structured, self-replicating sequences that do not match any known human genetic pattern in the database.
+
+
+- These novel sequences are integrating into Adrian's cellular machinery, making him a hybrid of human and new biological material.
+
+
+- The hospital administration asserts that the genetic sequences identified in Adrian's samples are the property of the institution under the terms of his consent form.
+
+
+- Dr. Sarah Chen provided Adrian with a USB drive containing the full raw data report of his genetic sequences.
+
+
+- Adrian agreed to remain in the hospital for the duration of the stabilization period in exchange for access to the data.
+
+
+- The hospital administration threatened to terminate Adrian's participation and pursue legal action for breach of contract if he leaked the information.
 
 ## Changes Over Time
 
 - Adrian enrolled, completed his first session, then survived an accident and learned of his evolved nanites in Chapters 1–3.
+
+
+- The status of the genetic panel changed from pending to scheduled for the next day.
+
+
+- Adrian's access to his genetic data changed from restricted/confidential to granted via a one-time exception.

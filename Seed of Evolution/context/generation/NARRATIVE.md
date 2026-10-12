@@ -1,4 +1,4 @@
-# Narrative
+﻿# Narrative
 
 ## Story Premise
 
@@ -109,5 +109,35 @@ Adrian will not be able to keep the technology entirely private. But sharing it 
 - Adrian agreed to continued trial participation and additional monitoring, including physical examination, blood work and a genetic panel. These tests are pending.
 - Hospital administration offered increased compensation for the unusual circumstances but did not specify a new amount. Do not invent a replacement rate.
 - The nanites accelerate his healing and metabolism; he needs additional food and rest and is not fully recovered.
+
+
+- The physical examination and blood work initiated in Chapter 4 have been completed or partially completed, with a physiological crisis occurring during the blood draw.
+
+
+- The genetic panel has been scheduled for the following day.
+
+
+- The genetic panel results have been delivered and reveal that Adrian is becoming a hybrid with novel, self-replicating sequences.
+
+
+- Adrian has secured access to the full raw genetic data via a USB drive provided by Dr. Chen.
+
+
+- Adrian has agreed to stay in the hospital for the stabilization period in exchange for the data.
+
+
+- The hospital administration has threatened legal action if Adrian leaks the confidential data.
 
 ## Unresolved Information
+
+
+- The specific amount of the increased compensation offered by hospital administration.
+
+
+- The final terms of the compensation agreement.
+
+
+- The long-term effects of the novel sequences and whether they will stabilize or continue to evolve.
+
+
+- The specific nature of the 'stabilization period' and its duration.
