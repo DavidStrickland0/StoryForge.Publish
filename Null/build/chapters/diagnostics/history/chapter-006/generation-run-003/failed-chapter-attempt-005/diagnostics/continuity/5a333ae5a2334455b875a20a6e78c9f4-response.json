@@ -1,0 +1,8 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan's ViewpointCharacterId is 'Ethan Vale', but Scene 2 explicitly focuses on 'Aurora' and describes her internal experience ('Aurora, in the ambulance, experiences the return of her powers'). This creates a contradiction between the declared single viewpoint and the scene content, which requires a POV shift to Aurora. Additionally, the ProhibitedPatterns forbid 'Replaying the fall or the immediate paramedic treatment', but the Objective and Scene 2 require depicting the 'return of her powers' in the ambulance, which is a new event, yet the plan does not clarify how this is handled without violating the single-POV constraint or potentially replaying the medical scene from Aurora's perspective if not carefully managed. However, the primary hard failure is the POV contradiction: a chapter with ViewpointCharacterId 'Ethan Vale' cannot contain a scene focused on 'Aurora' with her internal experience unless it is a multi-POV chapter, which the metadata does not indicate. The plan lists 'Aurora' in FocusCharacterIds for Scene 2, which conflicts with the single ViewpointCharacterId.",
+  "evidence": [
+    "ViewpointCharacterId: \"Ethan Vale\"",
+    "Scene 2: \"FocusCharacterIds\": [\"Aurora\"], \"Purpose\": \"Aurora, in the ambulance, experiences the return of her powers...\""
+  ]
+}

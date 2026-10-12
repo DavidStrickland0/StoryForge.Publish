@@ -1,0 +1,17 @@
+The brick wall was cold against Ethan’s back, a solid, unyielding reality that anchored him to the earth. He pressed his forehead against the rough surface, closing his eyes, forcing his lungs to draw air in slow, controlled rhythms. The taste of copper still lingered on his tongue, a metallic reminder of the blood he had seen pooling on the pavement. The sound of the crowd had faded into a distant, muffled hum, replaced by the immediate, sharp chirp of a car alarm two streets over.
+
+He straightened up, his legs feeling hollow, as if the bones had been replaced with wet sand. His hands were still trembling, a fine, persistent vibration that seemed to originate deep in his marrow. He rubbed his face with both palms, the skin of his cheeks feeling tight and foreign. He needed to get home. He needed to be in his apartment, in the box he had built for himself, where the world was small and predictable and silent.
+
+The walk back was a blur of grey concrete and indifferent faces. People walked past him with purpose, their eyes fixed on the horizon or the pavement, unaware that the center of their universe had just cracked open and bled. Ethan moved through them like a ghost, a hollow shell of a man who had seen something that didn’t fit in the shape of the world. He kept his head down, his hands buried deep in the pockets of his jacket, feeling the roughness of the denim against his palms. It was a grounding sensation, the only tangible thing that wasn’t screaming at him.
+
+When he reached his building, the doorman, Ray, looked up from his tablet. His eyes widened slightly, then narrowed. He scanned Ethan’s face, looking for the shock, the fear, the guilt. He found it. Ray said nothing. He just nodded, a professional gesture that contained more weight than words could carry, and held the door open.
+
+Ethan walked into the lobby, the sterile smell of carpet cleaner hitting him like a physical blow. He stepped into the elevator, the doors sliding shut with a soft hydraulic sigh. The ascent was quick, a rise of three floors that felt longer than it should have. When the doors opened onto his floor, the hallway was quiet, the only sound the distant hum of the ventilation system.
+
+He fumbled for his key card, his fingers clumsy and uncooperative. It took two attempts before the reader accepted it. The lock clicked, and he pushed the door open, stepping into the familiar silence of his apartment. The space was exactly as he had left it that morning, a tableau of mundane life suspended in time. The sofa. The desk. The blue mug on the counter.
+
+Ethan walked to the center of the living room and stood there, breathing hard. The air was still. It was safe. It was a box he had built for himself, a place where he could hide from the fact that he was just a person in a world of gods.
+
+He turned to the door and locked it. The deadbolt slid home with a heavy, final click. He stood there, his hand still on the handle, listening to the silence of his apartment. It was a heavy, pressing silence, but it was his. He let go of the door and slid down until he was sitting on the floor, his back against the wood, his knees pulled up to his chest.
+
+He was alone. He was isolated. And for the first time since the fall, the world felt solid again.

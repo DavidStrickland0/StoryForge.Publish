@@ -1,0 +1,10 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan's Scene 4 violates the 'ViewpointCharacterId' constraint by shifting perspective to Aurora, and Scene 2 violates the 'ProhibitedPatterns' by replaying the fall and paramedics' struggle as new events via news footage, which contradicts the requirement to avoid replaying completed one-time events.",
+  "evidence": [
+    "ViewpointCharacterId: Ethan Vale",
+    "Scene 4 FocusCharacterIds: [\"Aurora\"]",
+    "ProhibitedPatterns: \"Replaying the fall, the paramedics\\u2019 initial confusion, or the crowd\\u2019s immediate gasp as new events.\"",
+    "Scene 2 Purpose: \"Ethan watches the breaking news footage on a stranger\\u2019s phone, seeing Aurora\\u2019s fall and the paramedics\\u2019 struggle...\""
+  ]
+}

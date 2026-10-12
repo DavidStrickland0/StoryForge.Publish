@@ -1,0 +1,15 @@
+The brick wall was cold, a solid, unyielding reality that felt more honest than the air he was breathing. Ethan pressed his forehead against the rough mortar, eyes closed, forcing his lungs to expand in a slow, rhythmic cycle. In, out. In, out. The sound of his own heartbeat was a deafening drum in his ears, louder than the distant, fading hum of the city.
+
+He checked his pockets. His keys were there. His wallet was there. His hands were shaking, a fine, high-frequency tremor that traveled from his fingertips up his wrists and into his elbows. He clenched them into fists, pressing the knuckles hard against his thighs until the pain grounded him. It was a small, physical anchor in the sea of nausea that threatened to swallow him whole.
+
+He didn’t look back. Looking back would mean seeing the barrier, the yellow vests, the red. It would mean acknowledging that he had been there, that he had been close, that he had watched the light die in her eyes. He turned away from the street and began to walk.
+
+The route home was familiar, a path he had taken a hundred times, but today it felt like a labyrinth. The streets were still quiet, the morning rush having paused to witness the spectacle. People lingered on the sidewalks, their phones held up like offerings to a new deity, recording the aftermath. Ethan kept his head down, his shoulders hunched, trying to shrink himself into the background. He was a ghost, a smudge in the periphery of their attention.
+
+He took a different route, cutting through the park, pushing through the heavy, damp air that smelled of wet earth and decay. The trees were bare, their branches scratching at the grey sky. He walked faster, his breath coming in short, sharp bursts. The cold seeped through his jacket, a chill that had nothing to do with the temperature.
+
+When he reached his building, he didn’t go up to his apartment. He stood in the lobby, staring at the elevator doors. The doorman, Ray, was at his desk, a tablet in his hands, a neutral expression on his face. Ray looked up as Ethan approached. His gaze dropped to Ethan’s face, then to his hands, which were still trembling slightly. Ray didn’t say anything. He simply nodded, a professional gesture that contained more weight than words could carry, and turned back to his tablet.
+
+Ethan stepped into the elevator. The doors slid shut, sealing him in a small, metallic box. He watched the numbers climb, each one a small, meaningless increment. When the doors opened on his floor, he walked to his door, his key trembling in his hand. He unlocked it, stepped inside, and locked it behind him.
+
+The apartment was silent. The silence was heavy, pressing against his eardrums. He stood in the center of the living room, his back against the door, and slid down until he was sitting on the floor. He pulled his knees up to his chest, wrapping his arms around them. He was alone. He was safe. And he was terrified.

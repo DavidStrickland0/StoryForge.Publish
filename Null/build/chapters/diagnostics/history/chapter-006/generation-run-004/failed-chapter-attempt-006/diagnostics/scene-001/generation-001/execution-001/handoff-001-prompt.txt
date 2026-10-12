@@ -1,0 +1,109 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 6.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":6,"ViewpointCharacterId":"Ethan Vale","Objective":"Aurora\u0027s powers return in the ambulance, but her injuries remain; the incident becomes public news, and Ethan is left with the unresolved mystery of his role in the accident.","IntendedChange":"The immediate aftermath of the incident is resolved: Aurora is treated, her powers return, but she is left injured and grounded; the public learns of the event, and Ethan is left with the burden of his secret.","PacingPosture":0,"ProhibitedPatterns":["Replaying Ethan\u0027s departure from the venue or his walk home, as these actions are already completed in Chapter 5.","Summarizing or narrating Aurora\u0027s power return in the ambulance from an omniscient perspective, as Ethan is not present to witness it.","Introducing a new confrontation, revelation, or larger threat to force a climax.","Using the phrase \u0027It was a box he had built for himself\u0027 or similar repetitive rhetorical structures from Chapter 4."],"Scenes":[{"Sequence":1,"Purpose":"Ethan, isolated on the street corner, witnesses the ambulance depart and observes the immediate media frenzy, establishing the public scale of the incident and his physical separation from the event.","IntendedChange":"Ethan remains on the street corner, physically separated from the ambulance, with the public nature of the incident now fully visible through the gathering press and onlookers.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":2,"Purpose":"Ethan enters his apartment and engages in a mundane, grounding routine to process his shock, contrasting the chaos outside with his internal isolation and the weight of his secret.","IntendedChange":"Ethan is physically in his apartment, having completed his transit home, and is beginning to process the event through the lens of his ordinary life.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":3,"Purpose":"Ethan watches the live news coverage of Aurora\u0027s fall on his Lens, confirming the public narrative and the mystery of her power loss, which solidifies his fear of being implicated.","IntendedChange":"Ethan has confirmed the public perception of the event and is now fully aware of the scrutiny surrounding it, deepening his sense of burden and isolation.","FocusCharacterIds":["Ethan Vale"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Ethan, isolated on the street corner, witnesses the ambulance depart and observes the immediate media frenzy, establishing the public scale of the incident and his physical separation from the event.","IntendedChange":"Ethan remains on the street corner, physically separated from the ambulance, with the public nature of the incident now fully visible through the gathering press and onlookers.","FocusCharacterIds":["Ethan Vale"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Ethan enters his apartment and engages in a mundane, grounding routine to process his shock, contrasting the chaos outside with his internal isolation and the weight of his secret.","IntendedChange":"Ethan is physically in his apartment, having completed his transit home, and is beginning to process the event through the lens of his ordinary life.","FocusCharacterIds":["Ethan Vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The ambulance did not wail.
+
+That was the first thing Ethan noticed, a detail that cut through the fog of adrenaline with the sharpness of a blade. He had expected the high-pitched shriek, the urgent, rhythmic pulse that accompanied every emergency he had ever seen on the news or in the distance. He had braced himself for the sound, for the chaos of sirens cutting through the morning air.
+
+Instead, there was only a low, heavy hum. The vehicle pulled away from the curb with a smooth, hydraulic grace, its white shell unmarked by the frantic energy of the scene it had just left behind. It moved with the same deliberate, controlled speed as any other city vehicle, sliding into the flow of traffic that had begun to reassert itself around the blockade.
+
+Ethan watched it go. He stood on the corner, his back still pressed against the cool brick of the building, his hands hanging loosely at his sides. The tremor in his fingers had subsided, replaced by a numbness that felt more permanent, a cold that seemed to have settled into his bones.
+
+The crowd behind him was a different kind of noise.
+
+It was no longer a collective gasp, a shared moment of shock. It had fragmented into a thousand individual voices, a cacophony of speculation, outrage, and morbid curiosity. Phones were raised, not to record the event—that had already happened—but to record the aftermath. To capture the empty space in the pavement where a hero had just broken her body. To catch the faces of the medics, the confused expressions of the onlookers, the blurred motion of the ambulance disappearing around the bend.
+
+A woman in a bright yellow coat stepped forward, her phone extended on a selfie stick, her voice carrying over the din.
+
+"Is this live? Can you see the spot? The concrete is actually cracked. Look at that. Who would do this? Who would let this happen?"
+
+She was speaking to no one and everyone, her eyes wide with a mixture of fear and excitement. Ethan looked at her, really looked at her, and felt a strange detachment. She was part of the machinery of the event, a gear in the machine that turned tragedy into content, into discussion, into something that could be consumed and discarded.
+
+He turned his head away from the crowd. He looked down the street, toward the venue. The massive structure still loomed in the distance, a cathedral of glass and steel, its facade reflecting the pale morning sky. The stage lights were still on, casting long, sharp shadows across the empty plaza. The digital screens that had once displayed Aurora’s face were now cycling through a generic news ticker, red letters scrolling in a steady, indifferent rhythm.
+
+*BREAKING: AURORA DOWN IN PUBLIC. CAUSE UNKNOWN. INVESTIGATION UNDERWAY.*
+
+The words blurred together. Ethan blinked, his eyes aching. He took a step away from the wall, then another. His legs felt heavy, as if the ground had gained weight overnight. He walked toward the crosswalk, his gaze fixed on the pedestrian signal. The light was red. He stopped, waiting for it to change, though he had no intention of crossing. He just needed to stand still, to let the world move around him without participating.
+
+When the light turned green, he did not move. He watched the traffic flow past, a stream of cars and buses, each one carrying its own passengers, its own secrets, its own small dramas. None of them knew what had happened three blocks away. None of them knew that the air had tasted of ozone and fear, that the ground had cracked under the weight of a falling god.
+
+Ethan checked his watch. It was later than he thought. He had been standing there for ten minutes, maybe fifteen. Time had become unreliable, stretching and contracting around the event, refusing to settle into a normal rhythm.
+
+He turned and began the walk home. The street was quiet now, the initial rush of onlookers having dispersed or moved further down the block to get a better angle on the ambulance’s departure. The air was cooler, carrying the scent of wet pavement and exhaust. He walked with his hands in his pockets, his shoulders hunched against the chill, his mind a blank, echoing space.
+
+He did not look back. He did not need to. He knew, with a certainty that felt heavier than the guilt, that the story had already begun to move without him. He was no longer a witness. He was a variable, an unaccounted for element in a equation that was rapidly being solved by others.
+
+He reached the corner of his street. The building stood there, familiar and solid, a box of brick and glass that had kept him safe for years. He looked at the door, then at the street, then at the sky. The sky was clear, blue and empty, offering no explanation, no apology, no comfort.
+
+Ethan pulled his key from his pocket. The metal was cold against his skin. He turned and walked toward the entrance, his steps measured, deliberate, hiding the fact that his heart was still hammering against his ribs like a trapped bird.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

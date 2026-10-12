@@ -1,0 +1,8 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan's Scene 2 violates the chapter's ViewpointCharacterId constraint. The plan specifies 'ViewpointCharacterId': 'Ethan Vale', but Scene 2 explicitly focuses on 'Aurora' and describes her internal experience ('Aurora experiences the return of her powers...'). This creates a contradiction between the declared single viewpoint and the multi-POV scene structure. Additionally, the ProhibitedPatterns forbid 'Ethan interacting directly with Aurora', but the plan does not explicitly restrict the narrative perspective, leading to a structural inconsistency where the POV character is defined as Ethan, yet the scene requires Aurora's internal perspective to fulfill the objective of confirming the temporary nature of the suppression from her side.",
+  "evidence": [
+    "ViewpointCharacterId\": \"Ethan Vale\"",
+    "Scene 2: \"FocusCharacterIds\": [\"Aurora\"], \"Purpose\": \"Aurora experiences the return of her powers during ambulance transport...\""
+  ]
+}

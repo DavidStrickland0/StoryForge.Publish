@@ -1,0 +1,101 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 6.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":6,"ViewpointCharacterId":"Ethan Vale","Objective":"Aurora\u0027s powers return in the ambulance, but her injuries remain; the incident becomes public news, and Ethan is left with the unresolved mystery of his role in the accident.","IntendedChange":"The immediate aftermath of the incident is resolved: Aurora is treated, her powers return, but she is left injured and grounded; the public learns of the event, and Ethan is left with the burden of his secret.","PacingPosture":0,"ProhibitedPatterns":["Re-describing the doorman Ray\u0027s interaction or the apartment\u0027s physical state (smell of lavender detergent, disconnected Lens) as new events or discoveries.","Repeating the emotional state of shock or guilt established at the end of Chapter 5 without adding new information, decisions, or consequences.","Using abstract emotional summaries (\u0027shock\u0027, \u0027terror\u0027, \u0027guilt\u0027) rather than concrete sensory details or specific actions that demonstrate these states.","Using clich\u00E9d phrasing (\u0027nobody\u0027, \u0027light switch flipped off\u0027, \u0027safety of his own four walls\u0027) that does not reflect Ethan\u0027s established personality.","Repeating the action of leaving the crowd or pushing off a wall, which was already described in Chapter 5.","Contradicting established canon regarding the state of Aurora (she is conscious and speaking in Chapter 5) or the sequence of events (Ethan has already left the crowd)."],"Scenes":[{"Sequence":1,"Purpose":"Ethan arrives at his apartment and engages in a specific, grounding routine to process the trauma, contrasting his isolation with the public chaos he left behind.","IntendedChange":"Ethan is physically in his apartment, having completed a specific action (e.g., fixing the drawer or washing his hands) that demonstrates his attempt to regain control, while the news of the incident begins to intrude on his private space.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":2,"Purpose":"The public reaction to Aurora\u0027s fall is introduced through media coverage, highlighting the shock and speculation, and establishing the incident as a major news event.","IntendedChange":"Ethan witnesses the public framing of the event, which shifts from a personal trauma to a societal crisis, increasing the pressure on him to remain hidden.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":3,"Purpose":"Aurora\u0027s perspective is briefly shown as her powers return in the ambulance, confirming the temporary nature of the suppression and establishing her vulnerability and the need for investigation.","IntendedChange":"Aurora is aware of the incident and the public scrutiny, while Ethan is aware of his potential role, creating a parallel of confusion and fear that will drive their future interaction.","FocusCharacterIds":["Aurora"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Ethan arrives at his apartment and engages in a specific, grounding routine to process the trauma, contrasting his isolation with the public chaos he left behind.","IntendedChange":"Ethan is physically in his apartment, having completed a specific action (e.g., fixing the drawer or washing his hands) that demonstrates his attempt to regain control, while the news of the incident begins to intrude on his private space.","FocusCharacterIds":["Ethan Vale"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"The public reaction to Aurora\u0027s fall is introduced through media coverage, highlighting the shock and speculation, and establishing the incident as a major news event.","IntendedChange":"Ethan witnesses the public framing of the event, which shifts from a personal trauma to a societal crisis, increasing the pressure on him to remain hidden.","FocusCharacterIds":["Ethan Vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The elevator doors slid open with a soft hydraulic sigh, releasing Ethan into the sterile quiet of the lobby. The air conditioning hummed, a low, constant vibration that felt more solid than the screaming he had left behind. He did not go to his apartment immediately. Instead, he walked to the far wall, where a small mirror was mounted next to the mailboxes.
+
+He stared at his reflection. His hair was disheveled, a few strands sticking to his forehead. His jacket was buttoned to the top, though he had not checked the fasteners in the crowd. His hands were empty. He looked like a man who had been waiting for a bus, not a man who had just watched a god break on the pavement.
+
+He pulled his hands out of his pockets and rubbed his face. The skin was dry, the stubble rough against his palms. He felt the faint, ghostly tremor still moving through his muscles, a residual echo of the adrenaline spike. He pressed his thumb into his own eye socket, hard, until the pain sharpened his focus. The tremor stopped.
+
+Ethan moved to the elevators. The doors closed, sealing him in a small box of polished steel and dim light. The descent took four seconds. When the doors opened onto his floor, the corridor was dark and empty. The fluorescent lights above the mailboxes flickered once before settling into a steady, buzzing glow.
+
+He walked to his door, the keycard in his hand. The plastic was warm from his grip. He held it against the reader. The light turned green. The lock clicked.
+
+The apartment smelled of lavender detergent and cold air. It was the same smell as always, a scent he had associated with safety and routine. Now, it felt like evidence. Proof that he had been here, that he had lived a life where the ceiling did not collapse and the ground did not crack.
+
+He shut the door and leaned his forehead against it. The wood was cool. He stayed there for a long moment, listening to the silence. There was no bass from the speakers, no roar of the crowd. Just the muffled sound of the street outside, distant and muted by the double-glazed windows.
+
+He peeled off his jacket and hung it on the back of the kitchen chair. The fabric was damp with sweat. He looked at the chair, at the way the jacket hung limply, taking on the shape of the man who had worn it. He then went to the sink.
+
+He turned the tap on. The water was cold, running clear over the ceramic basin. He held his hands under the stream. He scrubbed. He used the soap, the small bar of lavender-scented soap that sat in the dish soap holder. He worked the lather into his palms, his fingers, the backs of his hands. He scrubbed the creases of his knuckles, the tips of his fingers, the space between his nails.
+
+He did not know why he was doing it. His hands were clean. They had been in his pockets. They had not touched the pavement, the blood, or the woman. But the sensation of the water and the friction of the soap felt necessary. It was a ritual of purification, a way to wash away something that was not physical.
+
+He washed for a full minute. The water turned slightly cloudy with soap suds. He rinsed, the cold water stinging his skin. He turned off the tap and shook the water from his hands. The droplets fell into the sink, disappearing into the drain.
+
+He dried his hands on the towel hanging from the rack. The towel was soft and white. He looked at his hands again. They were red from the cold, the veins prominent under the skin. They were his hands. They were mortal hands.
+
+He turned away from the sink and walked to the living area. The Lens dock was on the table, the small blue indicator light glowing steadily. It was waiting. It was connected to the internet, to the world, to the news.
+
+Ethan looked at the device. He did not touch it. Not yet. He stood in the center of the room, his hands clasped behind his back, and waited for the silence to fill the space again. The hum of the refrigerator was the only sound. The world was still turning, but for a moment, it felt very far away.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

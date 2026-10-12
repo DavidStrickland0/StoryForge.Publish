@@ -1,0 +1,105 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 6.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":6,"ViewpointCharacterId":"Ethan Vale","Objective":"Aurora\u0027s powers return in the ambulance, but her injuries remain; the incident becomes public news, and Ethan is left with the unresolved mystery of his role in the accident.","IntendedChange":"The immediate aftermath of the incident is resolved: Aurora is treated, her powers return, but she is left injured and grounded; the public learns of the event, and Ethan is left with the burden of his secret.","PacingPosture":0,"ProhibitedPatterns":["Replaying the immediate physical shock of the fall or the paramedics\u0027 initial response, which was concluded in Chapter 5.","Abstract emotional summaries of \u0027shock\u0027 or \u0027guilt\u0027 without concrete sensory details or specific actions.","Ethan remaining physically at the venue or observing the ambulance from a distance, contradicting his departure in Chapter 5.","Repetitive short, declarative sentence structures that create a choppy, mechanical rhythm.","Clich\u00E9d phrasing such as \u0027light switch flipped off\u0027 or \u0027safety of his own four walls\u0027."],"Scenes":[{"Sequence":1,"Purpose":"Ethan navigates the physical and social consequences of his decision to leave the venue, moving from the street corner to his apartment while the public narrative of the event begins to form around him.","IntendedChange":"Ethan arrives at his apartment, physically isolated from the event, while the external world begins to treat the incident as a public news story rather than a private accident.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":2,"Purpose":"Ethan processes the event in his apartment, using his environment and routine to ground his reality, while the media coverage of Aurora\u0027s fall reaches him through his devices.","IntendedChange":"Ethan witnesses the public framing of the incident as a mystery or threat, reinforcing his isolation and the burden of his secret, while physically remaining in his safe space.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":3,"Purpose":"Aurora experiences the return of her powers during ambulance transport, confirming the temporary nature of the suppression, while her injuries remain, establishing her vulnerability and the need for investigation.","IntendedChange":"Aurora is aware of the incident and the public scrutiny, while Ethan is aware of his potential role; the dynamic shifts to a shared, unresolved mystery that will drive their future interaction.","FocusCharacterIds":["Aurora"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Ethan navigates the physical and social consequences of his decision to leave the venue, moving from the street corner to his apartment while the public narrative of the event begins to form around him.","IntendedChange":"Ethan arrives at his apartment, physically isolated from the event, while the external world begins to treat the incident as a public news story rather than a private accident.","FocusCharacterIds":["Ethan Vale"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Ethan processes the event in his apartment, using his environment and routine to ground his reality, while the media coverage of Aurora\u0027s fall reaches him through his devices.","IntendedChange":"Ethan witnesses the public framing of the incident as a mystery or threat, reinforcing his isolation and the burden of his secret, while physically remaining in his safe space.","FocusCharacterIds":["Ethan Vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The brick wall was cold through his jacket. Ethan pressed his forehead against it, letting the rough texture ground him. The city noise that had felt like a roar just minutes ago was now a distant, muffled hum, a background static to the ringing in his ears. His hands were still shaking, though he forced his fingers to uncurl, one by one, until his palms lay flat against the pavement.
+
+He checked his phone. The screen was cracked, a spiderweb of fractures radiating from the corner where it had hit his hip when he’d stumbled through the crowd. The display still worked, but the touch sensor was unresponsive on the left side. He navigated with the right thumb, his movements deliberate and slow.
+
+The Lens docked beside the street. He didn’t take it out. He didn’t need directions. He knew this part of the city.
+
+The walk was a blur of motion and sound. People pointed at the barriers. People recorded the empty space where Aurora had landed. People shouted, their voices thin and reedy in the morning air. Ethan kept his head down. He walked faster as he moved away from the venue, his pace shifting from a deliberate stroll to a steady, purposeful walk. He kept his eyes on the pavement, counting the cracks in the concrete as a metronome for his breathing. *One, two, three. One, two, three.*
+
+The street was quiet now that the immediate spectacle had faded. A news van was parked outside a coffee shop, its satellite dish tilted toward the sky. A reporter was setting up a camera, her movements brisk and efficient. She didn’t see him. Or if she did, she didn’t care. He was just another pedestrian, another civilian moving through the city’s business.
+
+Ethan turned the corner onto his street. The buildings here were older, their facades covered in ivy that had started to brown with the change in season. He could hear the hum of the ventilation system from his own building before he could see the entrance. The sound was a comforting, mechanical drone. It meant the world was still turning. It meant the machines were still working.
+
+He reached his door. The key card took two attempts before the reader accepted it. The light turned green. He pushed the door open and stepped inside.
+
+The lobby was empty. The doorman, Ray, was at his desk, his face illuminated by the glow of his tablet. He looked up as Ethan entered. His eyes flicked to the door behind Ethan, then back to Ethan’s face. There was a question in his gaze, a silent inquiry that Ethan didn’t have the energy to answer.
+
+"Morning, Ray," Ethan said. His voice sounded hollow, distant, as if it were coming from the other end of a long tunnel.
+
+Ray nodded, a professional gesture that contained more weight than words could carry. He looked back at his tablet. The transaction was complete. Ethan was back. The world was safe.
+
+Ethan walked to the elevator, his steps heavy on the marble floor. The doors closed, cutting off the view of the lobby. The descent was quick, a drop of three floors that felt longer than it should have. When the doors opened onto his apartment, the air was still. It smelled of lavender detergent and the faint, metallic tang of the ventilation system.
+
+He locked the door behind him. The click of the latch was sharp and final in the quiet corridor. He stood there for a moment, listening to the hum of the refrigerator, the tick of the clock, the distant rumble of a truck passing on the street outside.
+
+It was a list of sounds that used to comfort him, a soundtrack to a life that made sense. Now, every noise seemed to carry the echo of the night before.
+
+He looked at the Lens dock on the table. The device sat there, inert and black, a tiny window to a world he was supposed to navigate. He had left it disconnected. For the first time in months, he had walked home by feel, by the rough texture of the pavement under his shoes and the smell of the rain that had started to fall near the park.
+
+It had been a small victory, a reclamation of the mundane.
+
+But now, the mundane felt like a trap.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

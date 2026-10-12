@@ -1,0 +1,101 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 6.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":6,"ViewpointCharacterId":"Ethan Vale","Objective":"Aurora\u0027s powers return in the ambulance, but her injuries remain; the incident becomes public news, and Ethan is left with the unresolved mystery of his role in the accident.","IntendedChange":"The immediate aftermath of the incident is resolved: Aurora is treated, her powers return, but she is left injured and grounded; the public learns of the event, and Ethan is left with the burden of his secret.","PacingPosture":0,"ProhibitedPatterns":["Reusing the exact prose from Chapter 4 (e.g., \u0027He had left it disconnected...\u0027) as the post-incident state.","Depicting Ethan as calm, reflective, or \u0027grounded\u0027 immediately after the fall without acknowledging the acute trauma and shock established in Chapter 5.","Reversing the elevator direction (e.g., displaying 3, 2, 1 when entering the 3rd floor).","Having Ethan interact directly with Aurora or the paramedics in a way that breaks the \u0027anonymous witness\u0027 boundary.","Resolving the mystery of the cause or having Ethan realize he is the cause."],"Scenes":[{"Sequence":1,"Purpose":"Ethan navigates the physical and psychological shock of leaving the venue, moving from the immediate vicinity of the crash site to his apartment while maintaining a dissociative, hyper-vigilant state.","IntendedChange":"Ethan arrives at his apartment building, physically separated from the event but mentally fragmented, having avoided any interaction with authorities or witnesses.","FocusCharacterIds":["Ethan Vale","Ray"]},{"Sequence":2,"Purpose":"Ethan enters his apartment and attempts to process the event through mundane actions, revealing the severity of his trauma and the dissonance between his ordinary life and the extraordinary event he witnessed.","IntendedChange":"Ethan is isolated in his apartment, physically safe but psychologically destabilized, with the incident now a private burden he cannot share or explain.","FocusCharacterIds":["Ethan Vale"]},{"Sequence":3,"Purpose":"The public sphere reacts to the incident as media coverage begins, framing Aurora\u0027s fall as a mystery and highlighting the societal dependence on supers and the fear of their vulnerability.","IntendedChange":"The incident becomes a public news story, drawing attention to the possibility of a new threat or anomaly, and establishing the external pressure on Aurora to explain the event.","FocusCharacterIds":["Aurora"]},{"Sequence":4,"Purpose":"Aurora experiences the return of her powers during ambulance transport, confirming the temporary nature of the suppression, while her injuries remain, establishing her vulnerability and the need for investigation.","IntendedChange":"Aurora is in the ambulance, her powers returned but her injuries still present, aware of the incident and the public scrutiny, while Ethan remains isolated and burdened by the secret of his presence.","FocusCharacterIds":["Aurora"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Ethan navigates the physical and psychological shock of leaving the venue, moving from the immediate vicinity of the crash site to his apartment while maintaining a dissociative, hyper-vigilant state.","IntendedChange":"Ethan arrives at his apartment building, physically separated from the event but mentally fragmented, having avoided any interaction with authorities or witnesses.","FocusCharacterIds":["Ethan Vale","Ray"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Ethan enters his apartment and attempts to process the event through mundane actions, revealing the severity of his trauma and the dissonance between his ordinary life and the extraordinary event he witnessed.","IntendedChange":"Ethan is isolated in his apartment, physically safe but psychologically destabilized, with the incident now a private burden he cannot share or explain.","FocusCharacterIds":["Ethan Vale"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The brick wall was cold against Ethan’s back, seeping a damp chill through the fabric of his jacket. He didn’t move for a long time. His breathing was shallow, a rattle in his chest that felt too loud in the quiet street. The air smelled of wet asphalt and the faint, metallic tang of the venue’s ventilation system, a scent that now carried the weight of every scream he hadn’t heard but had certainly felt in his teeth.
+
+He straightened up. His legs felt like they belonged to someone else, heavy and unsteady. He needed to leave. He needed to be somewhere small, somewhere with walls that didn’t open onto the sky.
+
+He turned away from the venue. The street was empty, save for a few stragglers who walked with their heads down, their phones clutched to their chests like talismans. Ethan merged into the flow of traffic, his eyes fixed on the middle distance, refusing to look at the faces passing by. He was invisible. He was nothing. The thought offered a grim comfort.
+
+The walk was a blur of sensory input that his brain refused to process. The green light. The red light. The squeal of brakes. The chatter of people discussing the news, their voices rising in excited, horrified speculation. *Did you see it? I think I saw it. She just stopped.*
+
+Ethan walked faster. The pavement seemed to shift under his feet, the concrete cracking and receding like the scene he had just witnessed. He kept his hands in his pockets, his fingers curled into tight balls. He was afraid to let them unclench. He was afraid that if he let go, he would shake.
+
+The city felt wrong. The buildings, usually solid and permanent, seemed to lean in, threatening to collapse. The sky above was a pale, washed-out blue, indifferent and vast. It was the same sky Aurora had been falling from. The thought sent a fresh wave of nausea through his stomach. He swallowed it down, his throat dry and tight.
+
+He reached the corner of his street. The apartment building stood there, a slab of grey brick and broken windows, unremarkable and safe. The door was ajar, a draft of stale air and dust drifting out. Ethan paused, listening. Nothing but the hum of the city and the distant wail of a siren that had finally reached the venue.
+
+He pushed the door open. The lobby was empty. The doorman, Ray, was behind the desk, his eyes fixed on a tablet. The blue light from the screen illuminated his face, casting sharp shadows under his eyes. He looked up as Ethan entered, his expression neutral, professional.
+
+"Morning, Mr. Vale."
+
+Ethan nodded. He couldn’t speak. His voice felt trapped in his throat, a stone blocking the way. Ray didn’t press him. The doorman had learned, over the years, that Ethan was a man of few words and many silences. He simply gestured toward the elevator.
+
+Ethan took the stairs. He didn’t trust the machinery. He didn’t trust anything that moved without his direct control. The climb was slow, his breath coming in short, sharp gasps. Each step was a deliberate act of will, a negotiation with his own trembling body.
+
+When he reached his floor, the hallway was quiet. The carpet was thin, worn smooth by the passage of feet. He walked to his door, his hand shaking as he fumbled for his keys. They clattered into his palm, cold and heavy. He inserted the key into the lock, turning it with a steady, deliberate motion.
+
+The door opened. The apartment was dark. The light from the hallway spilled in, illuminating the dust motes dancing in the air. Ethan stepped inside, closing the door behind him. The lock clicked shut.
+
+He stood in the entryway, his back against the door. The silence was absolute. It was the first time in hours that the world had stopped screaming. Ethan closed his eyes. He was safe. He was alone. He was still here.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

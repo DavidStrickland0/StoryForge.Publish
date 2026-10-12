@@ -1,0 +1,17 @@
+The brick wall was cold. Ethan pressed his forehead against the rough mortar, closing his eyes. The texture of the stone, gritty and damp, was the only thing that felt real. He held the position until the trembling in his legs stopped, forcing his breath to slow. He breathed in. He exhaled slowly. The sound of his own heartbeat was loud, a steady thudding that seemed to vibrate in his teeth.
+
+He checked his pockets. He found the keys in his pocket. He found the wallet in his pocket. He found the phone in his pocket. The screen was dark, the glass unbroken. He straightened his jacket, smoothing the fabric over his thighs. The motion was mechanical, a reflex to restore order to a world that had just lost its axis. He looked down the street. The crowd had dispersed, leaving behind a smear of dust and the faint, coppery scent of blood that the wind couldn’t quite scrub away. A few onlookers remained, their phones raised, capturing the empty spot in the pavement where Aurora had landed.
+
+Ethan turned his back on them.
+
+The walk home was shorter than he remembered, or perhaps his perception of distance had warped. He took the route through the park, the gravel crunching under his shoes. The air smelled of wet earth and the metallic tang of the city, a mixture that usually soothed him but now felt cloying, thick with an unspoken question. He passed a group of teenagers arguing about what they had seen, their voices high and excited. He kept his head down, adjusting the strap of his bag, his movements precise and controlled. He did not run. Running would be a confession. He walked with the steady, deliberate pace of a man who had nothing to hide and everything to lose.
+
+When he reached his building, the lobby was quiet. Ray was behind the desk, his eyes on his tablet. He looked up as Ethan approached, his gaze sweeping over Ethan’s face, his hands, his posture. There was no question, no comment. Just a nod, brief and professional, and then his attention returned to the screen.
+
+Ethan stepped into the elevator. The doors slid shut, sealing him in a small, metallic box. He watched the numbers climb. The first floor indicator lit up. The second floor indicator lit up. The third floor indicator lit up. The silence in the car was absolute, a vacuum that swallowed the sound of his breathing. He stood with his arms at his sides, his hands open, his palms flat. He was empty. He was still.
+
+The doors opened onto his floor. The hallway was dim, the light from the overhead fixtures casting long, pale shadows. He walked to his door, the key trembling slightly in his hand. He unlocked it, the click of the deadbolt echoing in the quiet corridor.
+
+He stepped inside and locked the door behind him.
+
+The apartment was silent. The air was still, carrying the faint scent of lavender detergent and the dust of the closed windows. Ethan stood in the center of the living room, his back against the door. The world outside was chaos, a storm of speculation and fear. In here, there was only the hum of the refrigerator and the weight of what he had seen. He closed his eyes, and for a moment, he allowed himself to feel the full, crushing weight of the silence. It was his silence. It was his burden. And he was alone with it.

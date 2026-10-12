@@ -1,0 +1,10 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan violates the 'ViewpointCharacterId' constraint by including a scene focused on Aurora (Scene 1) while the chapter is designated as Ethan Vale's POV. Additionally, the plan fails to resolve the 'CurrentPhase' state where Ethan is 'standing on a street corner outside, processing the shock,' as required by the 'NextMilestone' ('Ethan completes his transit home'). The ProhibitedPatterns explicitly forbid ending with Ethan's departure without resolving the ambulance/news elements, but the plan does not provide a mechanism for Ethan to learn of the news or complete his transit within the chapter's scope, leaving the milestone unmet.",
+  "evidence": [
+    "CurrentPhase: \"Aurora has fallen and is being treated by paramedics at the scene. Ethan has physically departed the venue and is currently standing on a street corner outside, processing the shock of the event.\"",
+    "NextMilestone: \"Aurora\u2019s powers return during ambulance transport, confirming the temporary nature of the suppression, while Ethan completes his transit home to isolate himself, establishing the parallel of their separate, unresolved traumas.\"",
+    "Candidate Scene 1: \"FocusCharacterIds\": [\"Aurora\"]",
+    "Candidate ViewpointCharacterId: \"Ethan Vale\""
+  ]
+}
