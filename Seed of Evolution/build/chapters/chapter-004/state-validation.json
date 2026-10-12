@@ -1,0 +1,256 @@
+﻿{
+  "Claims": [
+    {
+      "Section": "CanonAdditions",
+      "Claim": "Dr. Sarah Chen is in her mid-thirties and wears wire-rimmed glasses.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "She was younger than he had expected, maybe mid-thirties, with sharp eyes behind wire-rimmed glasses",
+      "Reason": null
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "David Miller is balding and wears an expensive suit.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "He was a tall man, balding, with a suit that looked expensive",
+      "Reason": null
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "Adrian\u0027s ribs are still fractured but are being repaired by nanites at a faster rate than conventional healing.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "Your ribs are still fractured... The process is faster than conventional healing",
+      "Reason": null
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "Adrian\u0027s heart rate and body temperature are elevated due to accelerated metabolism caused by the nanites.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "Your heart rate is elevated... Your body temperature is also elevated. That\u2019s consistent with accelerated metabolism.",
+      "Reason": null
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "Adrian experienced a physiological crisis (shock) during blood draw due to low blood sugar caused by the nanites burning through his body\u0027s reserves.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "Your blood pressure is dropping. You\u2019re going into shock... Your blood sugar dropped too low.",
+      "Reason": null
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "The genetic panel is scheduled for the day following the examination in Chapter 4.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "We\u2019re going to schedule the genetic panel for tomorrow.",
+      "Reason": null
+    },
+    {
+      "Section": "CanonChangesOverTime",
+      "Claim": "Adrian\u0027s condition changed from stable recovery to experiencing a physiological crisis (shock) during the examination, then stabilized after medical intervention.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "The patient is experiencing a physiological crisis... After several minutes, his condition stabilized",
+      "Reason": null
+    },
+    {
+      "Section": "CanonChangesOverTime",
+      "Claim": "The status of the genetic panel changed from pending to scheduled for the next day.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "We\u2019re going to schedule the genetic panel for tomorrow.",
+      "Reason": null
+    },
+    {
+      "Section": "WorldStateUpdates",
+      "Claim": "The hospital administration is managing resources efficiently and has other patients waiting for the recovery room.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "We have other patients waiting for this room. We need to expedite the process.",
+      "Reason": null
+    },
+    {
+      "Section": "WorldStateUpdates",
+      "Claim": "The hospital administration has authorized increased compensation for Adrian\u0027s unusual circumstances but has not yet finalized the terms.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The hospital administration has authorized increased compensation... We\u2019re still negotiating the terms.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Adrian Vale",
+      "Claim": "Adrian Vale exists and is an established character.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The chapter refers to the protagonist as \u0022Adrian\u0022 and \u0022Mr. Vale\u0022.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Adrian Vale",
+      "Claim": "Adrian\u0027s ribs are still fractured and painful.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "Chen states, \u0022Your ribs are still fractured,\u0022 and notes the process is \u0022still painful.\u0022",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Adrian Vale",
+      "Claim": "Adrian\u0027s pelvis is painful.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "Adrian admits, \u0022My pelvis too,\u0022 in response to a question about pain.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Adrian Vale",
+      "Claim": "Adrian\u0027s throat is raw from a breathing tube.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "The text states, \u0022his throat still raw from the breathing tube.\u0022",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Adrian Vale",
+      "Claim": "Adrian has a backpack containing four hundred dollars.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The narrative mentions \u0022The four hundred dollars in his backpack.\u0022",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Adrian Vale",
+      "Claim": "Adrian is financially unable to afford the additional food required by his accelerated metabolism.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The text states, \u0022There was nothing left for the extra food Chen was demanding.\u0022",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Dr. Sarah Chen",
+      "Claim": "Dr. Sarah Chen exists and is an established character.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The character is introduced as \u0022Dr. Sarah Chen\u0022.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Dr. Sarah Chen",
+      "Claim": "Dr. Sarah Chen is in her mid-thirties.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The description notes she was \u0022maybe mid-thirties.\u0022",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Dr. Sarah Chen",
+      "Claim": "Dr. Sarah Chen wears wire-rimmed glasses.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The text describes her having \u0022sharp eyes behind wire-rimmed glasses.\u0022",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Dr. Sarah Chen",
+      "Claim": "Dr. Sarah Chen is the nanite lead researcher.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "The chapter does not establish her specific role as the nanite lead researcher."
+    },
+    {
+      "Section": "CharacterStateUpdates/David Miller",
+      "Claim": "David Miller exists and is an established character.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The door opened again, and David Miller entered, the hospital administrator Adrian had met briefly the day before.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/David Miller",
+      "Claim": "David Miller is balding.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "He was a tall man, balding, with a suit that looked expensive and a demeanor that was all business.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/David Miller",
+      "Claim": "David Miller wears an expensive suit.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "He was a tall man, balding, with a suit that looked expensive and a demeanor that was all business.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/David Miller",
+      "Claim": "David Miller is a hospital administrator.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The door opened again, and David Miller entered, the hospital administrator Adrian had met briefly the day before.",
+      "Reason": null
+    },
+    {
+      "Section": "NarrativeStateUpdates",
+      "Claim": "The physical examination and blood work initiated in Chapter 4 have been completed or partially completed, with a physiological crisis occurring during the blood draw.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "Chen\u2019s hands moved quickly, pulling the needle from his arm and pressing a gauze pad to the wound. \u0022Your blood pressure is dropping. You\u2019re going into shock.\u0022",
+      "Reason": null
+    },
+    {
+      "Section": "NarrativeStateUpdates",
+      "Claim": "The genetic panel has been scheduled for the following day.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "We\u2019re going to schedule the genetic panel for tomorrow.",
+      "Reason": null
+    },
+    {
+      "Section": "UnresolvedInformation",
+      "Claim": "The specific amount of the increased compensation offered by hospital administration.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The ambiguity of the offer wasn\u2019t lost on Adrian. \u0022Increased compensation\u0022 could mean anything.",
+      "Reason": null
+    },
+    {
+      "Section": "UnresolvedInformation",
+      "Claim": "The final terms of the compensation agreement.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "Miller\u2019s expression remained neutral. \u0022We\u2019re still negotiating the terms. I can assure you, the compensation will be fair.\u0022",
+      "Reason": null
+    }
+  ]
+}
