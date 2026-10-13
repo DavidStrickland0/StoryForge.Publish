@@ -1,0 +1,117 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 19.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":19,"ViewpointCharacterId":"Elias Thorne","Objective":"Transition the party from preparation to active protection by departing with the caravan, executing the tactical plan against an initial Blight surge, and demonstrating collective competence through adaptive collaboration.","IntendedChange":"The party successfully navigates the first major threat on the route, validating their strategy and strengthening internal cohesion through shared success.","PacingPosture":1,"ProhibitedPatterns":["Do not resolve the entire escort contract or reach the Watchfort.","Do not introduce a new, larger supernatural entity or raiding army.","Do not have the party fail or suffer significant casualties; the objective is successful execution.","Do not repeat the negotiation or supply gathering scenes from Chapter 18."],"Scenes":[{"Sequence":1,"Purpose":"Depart the Gilded Tankard at dawn and establish the physical reality of the escort, including the caravan\u0027s composition and the party\u0027s initial tactical formation.","IntendedChange":"The party is physically on the road with the caravan, with roles assigned and the sealed crate secured, transitioning from static preparation to dynamic movement.","FocusCharacterIds":["Elias Thorne","Torin","Maren"]},{"Sequence":2,"Purpose":"Encounter the first Blight-Touched entities on the route and execute the pre-planned defensive formation, testing the party\u0027s coordination under pressure.","IntendedChange":"The party successfully repels the initial attack using their combined skills, demonstrating their competence and the effectiveness of their preparation.","FocusCharacterIds":["Elias Thorne","Kaelen","Elara"]},{"Sequence":3,"Purpose":"Discover that the Blight-Touched are specifically drawn to the sealed crate of pure water, forcing the party to adapt their strategy to protect the cargo while maintaining their defensive perimeter.","IntendedChange":"The party identifies the crate as the primary target and successfully secures it, confirming their strategic advantage and reinforcing their role as protectors.","FocusCharacterIds":["Elias Thorne","Maren","Torin"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Encounter the first Blight-Touched entities on the route and execute the pre-planned defensive formation, testing the party\u0027s coordination under pressure.","IntendedChange":"The party successfully repels the initial attack using their combined skills, demonstrating their competence and the effectiveness of their preparation.","FocusCharacterIds":["Elias Thorne","Kaelen","Elara"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Discover that the Blight-Touched are specifically drawn to the sealed crate of pure water, forcing the party to adapt their strategy to protect the cargo while maintaining their defensive perimeter.","IntendedChange":"The party identifies the crate as the primary target and successfully secures it, confirming their strategic advantage and reinforcing their role as protectors.","FocusCharacterIds":["Elias Thorne","Maren","Torin"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":19,"CompletedSceneSequence":1,"Location":"Road outside the Gilded Tankard, near a ridge leading into shadowed ravines","TimeContext":"Dawn; immediate aftermath of the first wave of Blight-Touched attacks","PresentCharacterIds":["Elias Thorne","Torin","Maren","Silas Vane"],"PhysicalConditions":["Caravan in defensive formation with Elias at point, Torin on right flank, Maren on rear/flanks, Silas securing wagons.","Sealed crate of pure water positioned on a trailer near the center of the convoy.","Multiple Blight-Touched entities dissolved into spores after being killed; fresh ichor and spores present on the road.","Second wave of Blight-Touched has just been repelled; third wave is approaching with increased speed due to a surge.","Elias feels a static charge in the air indicating an impending siphon effect.","Torin is actively managing tension on an iron-bound rope lashed around the crate and wagon legs."],"KnowledgeEstablished":["The Blight-Touched are drawn specifically to the sealed crate of pure water.","The creatures move in synchronized waves timed to a surge.","The crate is unstable due to the energy/power of the water inside.","A siphon effect is building that will pull creatures toward the party like a magnet."],"DecisionsMade":["Elias ordered Torin to switch to an iron-bound rope to secure the crate and wagon legs.","Elias ordered Maren to cover the rear as the siphon effect intensifies.","Torin is in the process of lashing the rope around the crate itself to move it away from the wagon.","Silas Vane ordered his men to secure canvas awnings and reinforce wagon wheels."],"PossessionChanges":[],"RelationshipChanges":[],"CompletedActions":["Departure from the Gilded Tankard at dawn.","Establishment of caravan tactical formation.","Repulsion of the first wave of Blight-Touched using combined skills (Elias\u0027s sword, Torin\u0027s greatsword, Maren\u0027s spear).","Dissolution of defeated Blight-Touched into spores.","Securing of wagon perimeters by Silas Vane and his men.","Deployment of iron-bound rope to stabilize the crate and wagon connection.","Identification of the crate as the primary target for the Blight."],"UnresolvedImmediateAction":"Torin is lashing the iron-bound rope around the crate itself while Elias prepares to move the crate away from the wagon to counteract the siphon effect; Maren is holding the rear line against the approaching third wave.","ContinuationPosition":"The party is in a defensive stance on the road, actively managing the unstable crate and preparing to relocate it as the third wave of Blight-Touched closes in under the influence of the surge.","ProhibitedRepetition":["Do not describe the initial departure or formation establishment again.","Do not repeat the mechanics of the first two waves of combat.","Do not re-explain the composition of the caravan or the nature of the crate beyond what is already established."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The air did not just smell of spores and ichor; it hummed with a low, static charge that made the hair on Elias's arms stand up. The dawn light was failing fast, swallowed by a thickening cloud of grey mist that seemed to press against the edges of vision. Torin’s hands were a blur as he worked the iron-bound rope, his knuckles white as he lashed the crate tighter to the wagon frame. Maren stood like a sentinel at the rear of the line, her spear tip dipped in sulfur paste, ready to puncture any creature that dared approach Silas’s wagons.
+
+“Hold,” Elias said, his voice cutting through the din of wind and rattling wheels. He didn't shout; he didn't need to. The others had heard him. They had all felt the shift in pressure.
+
+The third wave was coming. It wasn’t just a horde; it was a funneling mass of shadowy forms, drawn by something invisible but undeniable. The siphon effect was pulling them toward the center of the convoy, where the crate sat on its trailer. Elias could see the creatures swirling in the air before they struck, their movement synchronized to a rhythm that felt less like nature and more like a machine winding down to release a bolt.
+
+“They’re drawn to the water,” Torin called out, not looking up from his work. “They’re not just hunting us; they’re hunting the crate.”
+
+“Then we move it,” Elias said, already stepping toward the wagon’s driver seat. He grabbed the reins, but before he could pull, a hiss of spores erupted from the mist behind them. The first creature lunged, its form shifting between solid and smoke, aiming for the space between Maren’s spear point and the wagon wheel.
+
+Maren didn’t flinch. She thrust forward with practiced precision, the sulfur-coated tip of her spear striking the creature’s shoulder. It shrieked—a sound like tearing metal—and dissolved into a cloud of black spores before it could reach her. The smell was foul, burning at the back of the throat, but she kept her stance, waiting for the next one.
+
+Elias drew his sword in one smooth motion, stepping forward to intercept the second creature. It swung with unnatural speed, its form elongating as it moved, trying to bypass him entirely. Elias parried, the blade ringing against a tendril of shadow. He didn’t try to hold it back; he drove the flat of his blade into its chest and slashed downward, severing the connection to whatever was pulling it forward. The creature collapsed, dissolving into spores that hissed as they touched the road.
+
+“Torin!” Elias shouted over the roar of the wind. “Get the crate away from the wagon! We need to move it upwind.”
+
+Torin hesitated only a fraction of a second before he cut the lashings on the crate’s side release and grabbed the handle of the trailer. He pulled with all his strength, fighting against the momentum of the creatures closing in. The crate rattled as it shifted, its seal glowing faintly under the dim light.
+
+“Go!” Elias yelled again, pushing off the creature he’d just felled. He spun, his sword arcing through the air to meet another attacker. Kaelen joined him instantly, his shield raising a wall of steel that blocked two more charges. Together they formed a defensive line, their movements coordinated and efficient. They weren’t fighting alone anymore; they were a unit, honed by necessity and trust.
+
+Elara stepped forward from the rear, her staff glowing with a soft blue light as she began to chant. She wasn’t casting a spell in the traditional sense; she was weaving a ward around the crate, a magical barrier that would dampen the siphon effect just enough to give them time to reposition.
+
+“Hold!” Elara commanded, her voice steady despite the chaos around them. “Keep them off the crate! I’ll stabilize the seal for thirty seconds!”
+
+The creatures swarmed, their forms twisting and writhing as they tried to find a way past the ward. Elias blocked two more with his sword, while Kaelen held firm against a group trying to climb over his shield. Torin was already halfway across the road, hauling the crate toward the front of the caravan, where Silas’s men had erected a secondary line of defense using canvas awnings and reinforced wheels.
+
+The siphon effect intensified, pulling at Elias’s skin with invisible fingers. He gritted his teeth, pushing through the discomfort as he kept his blade moving, deflecting blow after blow. The creatures were relentless, driven by something deeper than hunger or anger—they were drawn to the water like moths to a flame.
+
+“Keep them back!” Elias shouted, parrying a third charge and driving his blade into the creature’s core again. “Torin, move faster! Elara, hold the ward!”
+
+Torin grunted, muscles straining as he dragged the crate up the incline toward the safer zone. The iron-bound rope held firm, its metal core resisting even the greatest tension. Maren covered the rear, her spear a blur of motion as she kept the creatures at bay, her focus unwavering.
+
+Elara’s ward shimmered around the crate, glowing brighter with each passing second. She was pouring every ounce of her will into maintaining the barrier, sweat dripping from her brow despite the cold wind. The creatures pressed harder, their forms stretching and twisting as they tried to break through, but the ward held—barely.
+
+Elias caught his breath for a moment, wiping blood from the corner of his mouth. He wasn’t tired; he was focused, every instinct screaming at him to keep pushing forward. The siphon effect was building, but so was their resolve. They had prepared for this moment, and now they were proving that preparation mattered more than luck.
+
+“Almost there!” Torin called out, his voice strained but determined. He hauled the crate onto the higher ground near Silas’s wagons, where the creatures couldn’t quite reach it anymore. Silas himself stepped forward, ordering his men to reinforce the perimeter with additional canvas and stakes.
+
+The ward flickered as Elara pushed herself to her limit, but she held firm for another few seconds until Torin had secured the crate in place. Then, with a final surge of effort, the creatures surged forward again, only to be repelled by the combined might of the party’s defenses. The siphon effect began to fade as they moved away from the source of the pull, and the creatures slowed, retreating back into the mist.
+
+Elias sheathed his sword, exhaling a long breath he hadn’t realized he’d been holding. He looked at Elara, who was catching her breath, her face pale but resolute. “We bought some time,” she said quietly, brushing spores from her cloak. “But we’re not out of this yet.”
+
+“No,” Elias agreed, glancing at the crate now safely secured on its trailer. “But we’re ready for whatever comes next.”
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

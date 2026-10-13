@@ -1,0 +1,95 @@
+The order landed in the air with the weight of iron.
+
+Elias didn’t look at any of them. He didn’t need to. He simply turned his shoulder to the lead wagon, where Silas Vane was already leaning out, his face pale but his hands steady on the reins.
+
+"Drive," Elias said. "Keep the wheels rolling. Do not stop until I say otherwise."
+
+Silas swallowed, his eyes darting to the darkening tree line where the shadows seemed to thicken unnaturally. "The road narrows in a mile," the merchant whispered, his voice tight. "If we stop, we’re trapped."
+
+"Then don’t stop," Elias replied, drawing his sword. The steel sang as it cleared the scabbard, a bright, defiant note in the sudden silence of the forest. "Torin, the cables."
+
+Torin was already moving. He didn’t run; he flowed, his heavy boots striking the dirt with a rhythmic thud that matched his pulse. He reached the rear of the lead wagon, where the iron-bound ropes had been coiled and secured. With a grunt that seemed to come from his very core, he unslung the bundle, the metal links clinking against one another in a harsh, metallic chorus.
+
+"Kaelen, hold the anchor point," Torin barked, his voice steady despite the adrenaline spiking in his own chest.
+
+Kaelen stepped forward, his hands already finding the purchase on the wagon’s axle bracket. He braced his boots, his muscles coiling like springs. Torin wrapped the heavy cable around the bracket, then looped it through the shackle Maren had purchased in the market. The double-lock mechanism clicked shut with a satisfying, final *thunk*.
+
+"Torque is set," Torin said, wiping a bead of sweat from his brow. "If anything pulls this, it’ll snap the axle, not the rope."
+
+Maren was already positioned on the left flank, her back against the trunk of a massive pine. She held her short blade loosely in her hand, her eyes scanning the underbrush. She wasn’t looking for monsters; she was looking for movement. For the subtle shift of leaves that indicated something was walking on all fours, or the unnatural stillness of a predator waiting to strike.
+
+Elara stood in the center of the road, her journal open in one hand and a small, glass vial in the other. The liquid inside swirled, a pale blue that seemed to pulse in time with the invisible pressure building in the air.
+
+"Elara," Elias said, keeping his voice low. "The window."
+
+Elara looked up, her eyes sharp. "Thirty seconds," she said. "Maybe forty. The seal is thinning. If I pour this, it’ll stabilize the local field for about two minutes. That’s all we need to get past the choke point."
+
+"Two minutes," Elias repeated. "Silas, how fast can you go?"
+
+"Fast," Silas said, his grip on the reins white-knuckled. "But the horses are spooked. They smell the Blight."
+
+"Then give them a reason to be scared of something else," Elias said. He turned to the group. "On my mark. Torin, keep the tension. Maren, if anything crosses the line, you clear it. Elara, wait for my count."
+
+The forest seemed to hold its breath. The air was cold, biting at their skin, carrying that faint, ozone-like tingle that Elara had identified as the siphon effect. The Blight was close. It was a living thing, a hunger that had been waiting for exactly this kind of instability.
+
+Elias closed his eyes for a heartbeat, centering himself. He could feel the rhythm of the group—the steady breathing of Kaelen, the focused stillness of Maren, the calculating silence of Elara, the solid presence of Torin. They were a machine, oiled and ready.
+
+"One," Elias said.
+
+The first shadow detached itself from the tree line. It was a blur of black and grey, moving with a speed that belied its size. It lunged toward the wagon.
+
+"Two."
+
+The creature hit the iron cable.
+
+There was a shriek, not from the creature, but from the metal. The cable vibrated, a high-pitched hum that resonated in Elias’s teeth. The Blight-Touched entity struck the rope with full force, its claws raking across the iron. Sparks flew, sizzling in the air, but the cable held. Torin’s face was grim, his arms straining as he braced against the wagon, absorbing the shock.
+
+"Three."
+
+A second creature emerged, this one larger, its form twisted and jagged. It didn’t attack; it hovered, sensing the disturbance.
+
+Elara uncorked the vial.
+
+"Pour," Elias commanded.
+
+Elara didn’t hesitate. She tipped the vial, the blue liquid spilling onto the dirt in a spreading pool. The effect was immediate. The air around the pool shimmered, a visible barrier of light pushing back the encroaching darkness. The creatures that had been closing in recoiled, their forms flickering as they were pushed back by the sudden surge of stability.
+
+Silas kicked the horses.
+
+The lead wagon lurched forward, the wheels grinding against the dirt. The caravan began to move, a slow, heavy procession cutting through the center of the dead zone. The Blight-Touched entities swirled around the perimeter of the light, unable to cross the threshold, their forms dissolving and reforming in frustration.
+
+"Keep moving!" Elias shouted over the din of the swirling shadows.
+
+The road narrowed, as Silas had promised. The trees leaned in, their branches intertwining to form a natural archway. The caravan squeezed through, the crates rattling in their bindings. For a tense, breathless moment, the lead horse’s flank brushed against the trunk of a tree, the sound of wood scraping against leather echoing in the small space.
+
+Then, they were through.
+
+The forest opened up slightly, the trees thinning as the road descended into the valley below. The blue light of Elara’s ritual faded, the vial now empty in her hand. The creatures, deprived of their anchor, dissolved into the mist, leaving behind only the faint scent of ozone and damp earth.
+
+Silas pulled the reins, bringing the lead wagon to a halt. The horses trembled, their eyes wide, but they stood firm.
+
+Elias sheathed his sword, the movement smooth and practiced. He turned to look at his companions.
+
+Torin was still braced against the axle, his face pale but his expression satisfied. He released the cable, letting it coil back onto the wagon bed. "It held," he said, his voice rough.
+
+Maren lowered her blade, a faint smile playing on her lips. "I didn't even have to use it," she said, her tone dry. "A waste of good steel."
+
+Kaelen let out a long breath, his shoulders dropping. "That was..." He paused, searching for the word. "Efficient."
+
+Elara capped the empty vial, her hands steady. She looked at Elias, her eyes bright with a quiet triumph. "The math worked," she said.
+
+Elias nodded, a small, genuine smile touching his face. He looked out at the valley below, where the sun was beginning to break through the clouds, casting long, golden rays across the landscape. The danger was behind them. The road ahead was long, but for the first time in days, it felt manageable.
+
+"We’re clear," Elias said. "Silas, how much further to the Watchfort?"
+
+The merchant adjusted his hat, his voice regaining its composure. "Half a day’s ride, if the horses hold up. And if we don’t run into any more... surprises."
+
+Elias glanced at the group. They were tired, yes. There were scuffs on their armor and dust on their clothes. But they were together. And they had survived.
+
+"Then we rest here for an hour," Elias said. "Eat, hydrate, check your gear. Then we move."
+
+He sat down on a flat rock, leaning back against the trunk of a tree. The forest was quiet now, the unnatural silence replaced by the normal sounds of birdsong and the rustle of leaves. The Blight was gone, pushed back by their competence, their preparation, and their trust in one another.
+
+Elias closed his eyes, letting the calm wash over him. They had made it through the first test. And they had done it without losing a single person.
+
+It was a good start.

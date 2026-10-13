@@ -1,0 +1,49 @@
+The Gilded Tankard’s heavy oak door swung shut behind them with a finality that cut off the roar of the tavern’s interior, leaving them in the sudden, crisp silence of the pre-dawn street. The air outside was cool and smelled of damp cobblestones and woodsmoke, a sharp contrast to the stale, ale-heavy atmosphere they had just left. Elias took a deep breath, feeling the chill settle into his lungs, and then turned to face the group.
+
+Silas Vane stood slightly apart, leaning against his wagon with the easy confidence of a man who had already secured his commission. He nodded once, a sharp, businesslike gesture. “Do not keep me waiting,” he said, his voice devoid of the performative cheer he had worn in the office. “The alchemists are particular about punctuality. And the Blight…” He glanced toward the city gates, where the morning mist was beginning to curl around the stone ramparts. “It is less forgiving.”
+
+With that, the merchant was gone, slipping into the shadows of the alleyway with the efficiency of a shadow itself.
+
+Elias turned back to his companions. The reality of their situation settled over them, heavy and immediate. They were no longer planning; they were acting. The plan Elara had laid out with such clinical precision now required physical execution.
+
+Torin was already moving, his eyes scanning the street, checking the angles of the buildings, the positions of the patrol guards, the state of the road. He moved with the low, deliberate energy of a man who saw the world as a series of logistical problems to be solved. He gestured to Maren, who was already shouldering the heaviest of their packed bundles.
+
+“Route is clear,” Torin said, his voice low and steady. “We move to the river road. It’s longer, but it avoids the main market square. Less chance of running into those rivals, and less chance of drawing attention from the city guard. The Blight surges are predictable, but people are not.”
+
+Maren nodded, adjusting the strap of her pack. She didn’t argue. She never did. She simply looked at the road, her eyes tracking the uneven stones, the potential trip hazards, the narrow gaps where a creature might slip through or where a body could be hidden. “I’ll take the lead,” she said. “Keep the rear clear. If something moves, I’ll know before it does.”
+
+Elias looked to Elara. She was standing near the wall, her journal tucked securely under her arm, her face calm. She had already begun to move, her steps measured, her attention focused on the horizon where the first light of dawn was breaking.
+
+“The timing is critical,” Elara said, not looking at him. “We need to be in position at the river bend within the hour. If we are late, the siphon effect will pull the creatures toward us. If we are early, the seal will not be stable enough to hold. We have exactly sixty minutes of margin.”
+
+Elias nodded. He could feel the weight of that deadline in his chest, a tight band around his ribs. But he also felt something else: the solid, reliable presence of his team. They were not just a group of adventurers; they were a mechanism, each part working in concert to achieve a single, precise outcome.
+
+Kaelen fell into step beside him, his hand resting lightly on the hilt of his sword. He didn’t speak, but his presence was a quiet reassurance. He had seen the fear in Elias’s eyes, the doubt that still lingered from the Blight’s previous attacks. But Kaelen had also seen the resolve, the determination that had driven Elias to negotiate the contract, to plan the route, to prepare for the worst.
+
+They began to move.
+
+The street was empty, save for a few early risers—bakers, stable hands, a priest heading to the temple. They watched the group pass with a mixture of curiosity and suspicion. Elias kept his head down, his eyes on the road ahead. He could feel the eyes of the city on him, the weight of its expectations, its fears, its hopes.
+
+As they moved, the city began to wake. The sounds of the market district began to filter in—the clatter of carts, the shouts of merchants, the lowing of cattle. The smell of fresh bread and roasting meat drifted through the air, a reminder of the world that still existed beyond the Blight, beyond the danger, beyond the immediate threat.
+
+But Elias did not let himself relax. He kept his hand near his sword, his senses alert. The Blight was not a metaphor; it was a physical force, a hungry, predatory entity that waited in the shadows. And they were walking straight into its mouth.
+
+The river road was a narrow, winding path that followed the banks of the river. The water was dark and still, reflecting the pale light of the dawn sky. The mist was thick, curling around the trees and the stones, creating a sense of isolation, of being alone in a vast, unknown world.
+
+Torin kept checking the map, his finger tracing the route with practiced ease. “We are on schedule,” he said. “Ten minutes to spare.”
+
+Maren moved ahead of them, her eyes scanning the trees, the bushes, the shadows. She moved with a grace that belied her strength, her body coiled and ready to spring at the slightest provocation.
+
+Elara walked in the center, her eyes fixed on the horizon, her mind calculating the angles, the distances, the timing. She was the anchor, the steady point around which the rest of the group revolved.
+
+And Elias walked beside Kaelen, his mind racing, his heart beating steadily. He was the leader, the decision-maker, the one who had to take responsibility for their lives. It was a heavy burden, but he had never felt less alone.
+
+They were not just a group of adventurers. They were a team. And they were ready.
+
+The road curved, and the river bend came into view. It was a wide, open space, the water flowing smoothly, the mist thinning. It was beautiful, in a stark, cold way. And it was exactly where they needed to be.
+
+Elias stopped. He looked at his companions, seeing the readiness in their eyes, the discipline in their movements. They were prepared. They were united. And they were ready to face whatever came next.
+
+He took a deep breath, feeling the cool air fill his lungs. Then he turned to face the road ahead, his eyes fixed on the horizon.
+
+“Let’s move,” he said.

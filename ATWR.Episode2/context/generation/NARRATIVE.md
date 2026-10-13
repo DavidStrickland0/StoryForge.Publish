@@ -1,0 +1,38 @@
+# Narrative
+
+## Story Premise
+
+As the World Rolls — Episode 2: Goblins in the Old Keep
+
+Write a deliberately classic fantasy adventuring episode: the companions enter a village tavern, learn that goblins are raiding farms, take a paid rescue job, follow tracks to a ruined keep, explore a small dungeon, rescue captives, defeat the goblin chief, and return for their reward and a quiet meal. The familiar setup should be almost painfully recognizable. Make it enjoyable through specific action, distinct voices, practical choices, and camaraderie rather than trying to subvert every trope.
+
+RECURRING CAST AND STARTING POINT
+Use Elias Thorne, Kaelen, Maren, Torin, and Elara as defined in the prepared character and world context. Several weeks have passed since their previous adventure, allowing ordinary recovery before strenuous travel. Start with the five arriving together at Pinehollow, a small farming village on an ordinary road. Episode 1 is finished background, not a prerequisite: the local Blight operation remains closed and no one is secretly maintaining it. Readers should learn whatever matters about these companions through their present behavior. Do not begin with a long recap.
+
+THE PAINFULLY CLASSIC HOOK
+The village inn is the Crooked Stag, with a notice board, a worried innkeeper, and an elder offering a modest purse for help. Grain and livestock have been stolen from outlying farms. The blacksmith's adult apprentice, Nella, disappeared while carrying tools to an outlying farm. A cart driver named Hobb is also missing. The latest attack left goblin tracks, scraps of crude rope, and a dropped iron arrowhead. The villagers know enough to ask for help but not enough to walk safely into the raiders' camp.
+
+THE LOCAL ADVERSARY
+A small goblin band under Chief Skrit Ironjaw occupies the cellars of an abandoned border keep beyond the woods. The goblins are ordinary opportunistic raiders, not agents of a larger villain. They hold the two adults to repair equipment and haul stores. Their location and behavior must be discovered on-page, not leaked into the companions' knowledge because the premise names them. The keep has a broken outer wall, a guard post, a crude alarm, a trapped passage, a storage chamber, and a chief's room. Establish a comprehensible layout that remains consistent. Use cover, light, noise, doors, limited supplies, and believable distances rather than an endless sequence of newly invented chambers.
+
+THE ADVENTURE
+Accept a bounded contract to recover the missing people and stop these raids. Investigate an attacked farm and question witnesses. Track the goblins through the woods and locate the keep. Scout before entering. Overcome a lookout and an alarm, notice or trigger a fair trap with a consequence, find where the captives are held, and arrange their escape. Confront Skrit and prevent his band from continuing the raids. Combat, trickery, negotiated surrender, and humane handling of prisoners can all contribute; the chief does not become an ally with a bigger quest. Rescue is not achieved merely by promising to return later.
+
+Show the companions working differently: Elias coordinates but accepts other people's decisions, Kaelen uses established limited magic without being treated as fuel, Maren handles practical tools and close danger, Torin watches routes and carries a share of the burden, and Elara earns conclusions from observation rather than possessing an answer for every problem. Give all five consequential participation. Keep professional, non-romantic relationships and avoid permanent power escalation. Any wounds, lost equipment, or spent supplies persist until treated or replaced.
+
+THE SATISFYING ENDING
+Both captives are brought back alive. The goblin band's capacity to raid Pinehollow is concretely ended by defeat, capture, or disbanding; no important raider escapes solely to compel a sequel. The party returns stolen goods where practical, reports what happened, receives the agreed modest reward, and gets a meal and beds at the Crooked Stag. Ordinary consequences and recovery can remain, but the central problem is finished. End with the cast at a stable stopping point. No secret necromancer, dragon patron, mysterious artifact awakening, revelation of a global conspiracy, or final-page summons launches another adventure. Mundane recovered tools and a small purse are sufficient treasure.
+
+EPISODE SHAPE AND SERIES FRAMEWORK
+Aim for nine chapters, using three three-chapter Short arcs: (1) village hook, investigation, and locating the keep; (2) scouting, entry, hazards, and reaching the captives; (3) rescue, chief confrontation, safe return, reward, and rest. Distribute meaningful work without making one chapter do every step. The final return and reward must be narrated, not summarized in a closing paragraph.
+
+This is exactly one nine-chapter episode, governed by a Medium root with three Short arcs. There is no Long or Epic parent, no future-series reserve, and no successor arc in this workspace. Resolve the entire goblin rescue and show the safe return, reward, and rest by Chapter 9. The engine stops when this root's completion is validated; length alone does not prove the ending is satisfactory.
+
+FLAVOR AND MECHANICS
+Use classic Dungeons-and-Dragons-style adventure flavor, not game-interface narration. This workspace uses RulesProfile Srd35. Follow SRD 3.5 race traits, class abilities, skills, equipment permissions, and spell limitations at the story level, using SRD-RULES.md and established character facts. Keep the prose natural; do not invent levels, dice rolls, experience awards, spell slots, or ability scores that have not been established. Keep threats appropriate to the cast's demonstrated capabilities. Avoid wall-to-wall grim atmosphere and repeated explanations of implications; include small failures, banter, competent cooperation, and earned relief.
+
+## Current Narrative State
+
+The story has not begun.
+
+## Unresolved Information

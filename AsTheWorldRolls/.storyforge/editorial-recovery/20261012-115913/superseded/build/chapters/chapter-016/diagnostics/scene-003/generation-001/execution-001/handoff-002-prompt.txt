@@ -1,0 +1,143 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 16.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":16,"ViewpointCharacterId":"Elias Thorne","Objective":"Resolve the local Blight counterattack using the established channel and consuming barrier.","IntendedChange":"The local source is consumed or contained and the party knows the immediate consequences; no new Blight campaign is substituted for resolution.","PacingPosture":3,"ProhibitedPatterns":["Do not relocate the party to a new location or invent an off-page Keeper death.","Do not repeat the decision to return to camp or the instruction for Kaelen to rest before moving on, as these were established in the previous chapter.","Do not introduce a new Blight campaign, larger replacement threat, or cliffhanger that prevents the resolution of the local source.","Do not rely on Elias repeating a council-style debate; he must coordinate and respond to the cost of the operation."],"Scenes":[{"Sequence":1,"Purpose":"Elias assesses the failing physical blockage and directs the group to transition from static resistance to active resonance modulation using Kaelen\u0027s recovered capacity.","IntendedChange":"The group shifts from holding the hammer handle to preparing Kaelen for a controlled, low-intensity resonance pulse that will bypass the broken quartz key.","FocusCharacterIds":["Elias Thorne","Kaelen","Elara"]},{"Sequence":2,"Purpose":"Kaelen executes the resonance pulse while Elias monitors the barrier\u0027s absorption limits, allowing the Blight source to be fully consumed without overwhelming the system.","IntendedChange":"The local Blight source is consumed by the barrier, the channel seals permanently, and the immediate threat is neutralized.","FocusCharacterIds":["Kaelen","Elias Thorne","Torin"]},{"Sequence":3,"Purpose":"The party processes the immediate physical and emotional consequences of the operation, confirming the barrier\u0027s stability and the group\u0027s survival.","IntendedChange":"The group acknowledges the victory and the cost, establishing a stable baseline for their next steps without introducing new threats.","FocusCharacterIds":["Elias Thorne","Maren","Elara"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The party processes the immediate physical and emotional consequences of the operation, confirming the barrier\u0027s stability and the group\u0027s survival.","IntendedChange":"The group acknowledges the victory and the cost, establishing a stable baseline for their next steps without introducing new threats.","FocusCharacterIds":["Elias Thorne","Maren","Elara"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":16,"CompletedSceneSequence":2,"Location":"Drainage ditch wall / Fissure site","TimeContext":"Daytime, immediate aftermath of the resonance pulse stabilization","PresentCharacterIds":["Elias Thorne","Kaelen","Elara","Torin","Maren"],"PhysicalConditions":["Fissure barrier is stable with a steady violet glow.","Heat reduced to a low simmer; absorption limit holding.","Quartz shards arranged in a distributed circuit pattern within the fissure.","Kaelen\u0027s brass gauntlet is active, guiding resonance flow.","Elias has a bandaged wound on his side that throbs but does not bleed.","Torin and Maren are standing back from the fissure, vigilant but physically relaxed.","System transitioning from active modulation to sustained equilibrium."],"KnowledgeEstablished":["The distributed circuit geometry corrects itself automatically.","Arranging shards creates a feedback loop that dampens amplitude.","The barrier has consumed the local Blight source without shattering.","Mosaic frequency allows constructive/destructive interference to filter chaotic energy.","Stopping the flow now would cause pressure buildup and seal failure.","City Watchfort status is unknown; they have not yet confirmed readiness.","The operation can be sustained for hours with Kaelen\u0027s guidance."],"DecisionsMade":["Maintain the resonance pulse until confirmation from the Watchfort.","Continue feeding the system to allow city foundations to absorb energy.","Elara provides additional shards to balance load on Kaelen\u0027s left side.","Group accepts the new sustainable method over brute force resistance."],"PossessionChanges":["Elara distributes smaller quartz shards to integrate into Kaelen\u0027s circuit.","Leather strips and steel wedges are being utilized for shard alignment."],"RelationshipChanges":[],"CompletedActions":["Elias monitored the barrier\u0027s absorption limits and flow dynamics.","Elara sorted salvaged materials and identified fracture patterns in shards.","Torin checked the perimeter and reported on fog movement.","Maren sat up against the wall and assessed her stamina.","Kaelen integrated new shards into his mental model of the flow.","Elias communicated with companions regarding sustainability and next steps.","Elara explained the mechanics of mosaic frequency to the group."],"UnresolvedImmediateAction":"Kaelen continues guiding the low-intensity resonance pulse through the distributed shards while Elias monitors the system\u0027s stability and waits for communication from the Watchfort.","ContinuationPosition":"The party is gathered around the stabilized fissure. The quartz shards form a functional mosaic circuit. Kaelen stands at the center, eyes closed, actively tuning the flow. Elias stands watch beside Torin, monitoring the barrier\u0027s glow and listening for distant signals. Elara stands near Kaelen, ready to supply additional shards. Maren rests against the drainage ditch wall.","ProhibitedRepetition":["Do not repeat the decision to return to camp or instruct Kaelen to rest before moving on.","Do not relocate the party to a new location.","Do not introduce a new Blight campaign or larger threat.","Do not rely on Elias repeating a council-style debate; he must coordinate and respond to the cost of the operation."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The silence that followed was not empty; it was heavy with the weight of what they had just sustained. It was a quiet born of exhaustion and relief, a shared breath held until the lungs finally remembered how to fill themselves again. The hum from the fissure had settled into a low, rhythmic thrum, the kind of sound one might hear in a cathedral or a deep sea, vibrating through the soles of their boots rather than ringing in their ears. It was no longer a roar that demanded attention, but a presence that acknowledged their survival.
+
+Elias leaned heavily against the rough stone of the drainage ditch wall, his bandaged side throbbing with a dull, insistent ache. The heat radiating from the fissure had receded to a gentle warmth, the kind that suggested a hearth fire rather than an inferno. He looked at the barrier, watching the violet glow pulse gently against the grey fog of the valley. It was stable. The distributed circuit of quartz shards Elara had arranged within the stone mouth of the fissure was working as intended, filtering the chaotic energy into a manageable stream that the barrier could digest without strain.
+
+"The mechanism holds," Elias said, his voice rough from disuse but steady. He didn't turn to look at Maren or Elara; he kept his eyes on the shimmering curtain of light. "The shards are acting as baffles, creating internal resistance. Kaelen is guiding it, and we're not overloading the seal."
+
+Maren nodded slowly, her hands resting on her knees. She had been sitting against the wall for several minutes, watching the flow, her earlier trembling replaced by a deep, weary calm. The heat that had scorched her skin moments ago was now just ambient warmth, no longer a threat. "It feels different," she murmured, her gaze drifting from Elias to the barrier. "Before, it felt like we were holding back a flood with our bare hands. Now... it feels like watching water flow through a garden hose. Controlled. Deliberate."
+
+Elara stood near Kaelen, who was still seated cross-legged in the center of the clearing, his eyes closed, his brass gauntlet glowing faintly as he modulated the resonance. She had just returned to her satchel, gathering the leather strips and steel wedges she had used to align the shards. A few larger pieces of quartz remained in her hand, their jagged edges catching the violet light.
+
+"He's doing better than I expected," Elara said softly, her eyes on Kaelen. "The circuit corrects itself when he adjusts his focus. He doesn't have to force it anymore; he just has to listen."
+
+"Good," Elias replied, turning his head slightly toward them. The pain in his side was a constant reminder of the cost they had paid for this moment of stability, but the sight of the stable barrier made him feel lighter, as if the weight pressing on his chest had finally lifted. "We need to keep it running until we get confirmation from the Watchfort. If we stop now, the pressure will build up behind the seal again."
+
+"Confirmation?" Maren asked, shifting her gaze toward him. She was still wearing her cloak, which had been dampened by the fog and the earlier heat. "We're still cut off? The signal didn't make it through?"
+
+Elias shook his head, a faint frown crossing his brow. "The surge disrupted the transmission channel. We don't know if they received our warning or if they've already sent a response team. Until we see smoke from their towers or hear their horn calls, we're on our own."
+
+Maren nodded, her expression hardening with resolve. She stood up slowly, brushing dust from her cloak. "Then we hold the line. If they don't come back soon, we'll be ready to act when they do."
+
+"We're not waiting indefinitely," Elias corrected gently. "We need to maintain this for a few more hours, then we can assess our options. The city's foundations are absorbing the energy; if we keep feeding it at this rate, we might be able to weaken the Blight enough to create an opening for evacuation or further action."
+
+Elara stepped forward, holding out a small piece of quartz to Maren. "Take this," she said, her voice low but firm. "It's smaller than the others, but it can act as a secondary regulator if Kaelen needs to shift his focus elsewhere. I've already calibrated it to match the circuit."
+
+Maren took the shard with both hands, examining it carefully before tucking it into her belt alongside her hammer. "Thanks," she said, offering a tired smile. "I'll keep an eye on it. If anything starts acting up, I'll know before you do."
+
+"No need to worry about that," Elias said, standing up and brushing the dust from his armor. He looked at the barrier one last time, noting how the violet light seemed to stabilize around the quartz circuit. "We've got a while yet. Let's let Kaelen rest for a moment. He's been pushing hard."
+
+Kaelen opened his eyes then, blinking as if emerging from a deep sleep. His face was pale, but there was no sign of panic or confusion in his gaze. "It's quiet," he said quietly, his voice still raspy. "The flow is... smooth. Like water in a riverbed."
+
+"That's because you're guiding it now," Elias replied, moving to stand beside him. "You're not fighting the current anymore; you're shaping it."
+
+Kaelen nodded slowly, then leaned back against Torin's shoulder. The soldier had been standing guard near the fissure, his sword still drawn but relaxed in its grip. Now he shifted slightly, offering Kaelen support without crowding him. "He's got a good head on his shoulders," Torin said, his voice low and serious. "I've seen him hold that line longer than anyone else would."
+
+"He's not alone," Elara added, kneeling beside them. "We're all part of the circuit now. Maren's hammer helps stabilize the physical input; Elias monitors the barrier; I manage the quartz geometry. Kaelen is just the conduit, but he's doing more than that—he's integrating our efforts into a single system."
+
+Elias nodded, looking around at his companions. They were exhausted, their clothes damp with sweat and fog, their faces streaked with dirt and soot. But there was a sense of unity among them now, a shared understanding of what they had accomplished and what still lay ahead. They were no longer just survivors; they were architects of a fragile peace, holding together the edges of a world that wanted to tear itself apart.
+
+"We're stable," Elias said, his voice carrying a note of quiet pride. "For now."
+
+"For now," Maren echoed, her gaze returning to the barrier. She closed her eyes for a moment, letting the warmth of the valley seep into her bones. The fog was less oppressive now, drifting lazily around them rather than pressing down like a shroud. Even the air tasted cleaner, less metallic and rotting.
+
+Elias sat back down on a nearby stone ledge, leaning against the wall with his arms crossed over his chest. He watched the glow of the barrier, watching the way the violet light seemed to pulse in time with Kaelen's breathing. It was a strange sensation, witnessing magic that felt almost mundane now—a controlled flow of energy rather than a violent eruption. But there was still danger lurking beneath the surface; they knew that the city's foundations were only absorbing so much, and the Blight was vast, deep, and hungry.
+
+"We need to think about what comes next," he said finally, breaking the silence. "If we hold this for a few more hours, we can weaken the seal enough to create an opening. But if they don't arrive soon, we'll have to decide whether to push harder or retreat."
+
+Maren looked at him, her eyes serious. "Retreat? To where?"
+
+"To the Watchfort," Elias said simply. "To regroup and wait for reinforcements. Or we continue here and risk everything on a single play."
+
+Elara stood up then, gathering the remaining quartz shards and placing them in her satchel. "We don't need to decide yet," she said. "The system is stable. We can hold this position until we know what's happening. If they're coming, we'll be ready. If they're not, we'll have weakened the Blight enough to make a move."
+
+"Agreed," Elias said, nodding at her. "We wait. We monitor. And when the time comes, we act."
+
+They sat in silence for a while longer, listening to the low hum of the barrier and the gentle drift of the fog. The valley felt peaceful now, almost serene, but they both knew that this peace was temporary. The Blight was still there, still flowing through the fissure, still waiting for its moment to strike. But for now, they had won. They had bought themselves time, and in a world where time was often the only currency left, that was enough.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate completed action 'Elias monitored the barrier’s absorption limits and flow dynamics.' repeats completed action from Chapter 16, Scene 2: 'Elias monitored the barrier's absorption limits and flow dynamics.'; candidate completed action 'Elara sorted salvaged materials, identified fracture patterns, and calibrated a secondary regulator shard.' repeats completed action from Chapter 16, Scene 2: 'Elara sorted salvaged materials and identified fracture patterns in shards.'; candidate completed action 'Torin checked the perimeter and reported on fog movement.' repeats completed action from Chapter 16, Scene 2: 'Torin checked the perimeter and reported on fog movement.'; candidate completed action 'Maren sat up against the wall, assessed her stamina, and accepted the new shard.' repeats completed action from Chapter 16, Scene 2: 'Maren sat up against the wall and assessed her stamina.'; candidate completed action 'Kaelen integrated new shards into his mental model of the flow and guided the resonance pulse.' repeats completed action from Chapter 16, Scene 2: 'Kaelen integrated new shards into his mental model of the flow.'; candidate completed action 'Elias communicated with companions regarding sustainability, costs, and next steps.' repeats completed action from Chapter 16, Scene 2: 'Elias communicated with companions regarding sustainability and next steps.'; candidate completed action 'Elara explained the mechanics of mosaic frequency to the group.' repeats completed action from Chapter 16, Scene 2: 'Elara explained the mechanics of mosaic frequency to the group.'; candidate decision 'Maintain the resonance pulse until confirmation from the Watchfort or a decision to retreat is made.' repeats decision from Chapter 16, Scene 2: 'Maintain the resonance pulse until confirmation from the Watchfort.'; candidate decision 'Continue feeding the system to allow city foundations to absorb energy.' repeats decision from Chapter 16, Scene 2: 'Continue feeding the system to allow city foundations to absorb energy.'; candidate decision 'Group accepts the new sustainable method over brute force resistance.' repeats decision from Chapter 16, Scene 2: 'Group accepts the new sustainable method over brute force resistance.'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.

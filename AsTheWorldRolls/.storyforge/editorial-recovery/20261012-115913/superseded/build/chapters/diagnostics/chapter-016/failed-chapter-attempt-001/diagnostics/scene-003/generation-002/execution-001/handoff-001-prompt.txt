@@ -1,0 +1,113 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 16.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":16,"ViewpointCharacterId":"Elias Thorne","Objective":"Resolve the local Blight counterattack by completing the consumption of the source using the established channel and barrier, while ensuring the party\u0027s safety and establishing the immediate consequences of the victory.","IntendedChange":"The local Blight source is fully consumed, the barrier stabilizes into a dormant state, and the party assesses the physical and magical costs of the operation, confirming the region is safe for them to leave.","PacingPosture":3,"ProhibitedPatterns":["Introducing a new Blight entity or \u0027keeper\u0027 attack to prolong the conflict.","Forcing Kaelen to die or suffer permanent magical corruption as a price for victory.","Relocating the party to a new location before the local threat is resolved.","Having the barrier shatter and require a new, unrelated magical solution.","Repeating the \u0027quartz stone shattering\u0027 failure mode as a new complication."],"Scenes":[{"Sequence":1,"Purpose":"Elias coordinates the transition from the temporary physical blockage to a sustainable resonance flow, leveraging Kaelen\u0027s recovered agency to act as the final regulator rather than a passive conduit.","IntendedChange":"The physical hammer handle is removed, and Kaelen successfully stabilizes the flow using his gauntlet, allowing the barrier to begin the final, high-volume consumption of the Blight source.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin"]},{"Sequence":2,"Purpose":"The party witnesses the barrier\u0027s capacity limits as it digests the core of the Blight, with Elara monitoring the harmonic feedback to ensure the channel closes safely once the source is depleted.","IntendedChange":"The Blight source is fully consumed, the channel collapses, and the barrier retracts into a stable, dormant state, confirming the local threat is neutralized.","FocusCharacterIds":["Elara","Elias Thorne","Kaelen"]},{"Sequence":3,"Purpose":"The companions assess the immediate physical and magical consequences of the operation, acknowledging the cost paid by Kaelen and the group, and deciding to depart the now-safe region.","IntendedChange":"The party confirms the area is free of Blight influence, Kaelen accepts the residual cost of his role, and the group resolves to leave the shrine, concluding the local prelude.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Elara"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The companions assess the immediate physical and magical consequences of the operation, acknowledging the cost paid by Kaelen and the group, and deciding to depart the now-safe region.","IntendedChange":"The party confirms the area is free of Blight influence, Kaelen accepts the residual cost of his role, and the group resolves to leave the shrine, concluding the local prelude.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Elara"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":16,"CompletedSceneSequence":2,"Location":"Shrine fissure / Valley floor","TimeContext":"Post-operation; twilight approaching night.","PresentCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Elara"],"PhysicalConditions":["The Blight source is fully consumed and the reservoir beneath the city is empty.","The barrier has retracted into a stable, dormant state (pale indigo mist) and is knitting shut.","The channel/conduit has collapsed; no longer resonating or singing.","The oppressive fog has completely retreated; the valley floor is bathed in crisp, cool air.","The shrine stone has cooled significantly.","Kaelen\u0027s brass gauntlet is cold, inert, and silent (no longer exerting magnetic drag).","Kaelen is experiencing residual physical ache and fatigue from regulating the flow.","The drainage ditches are dark and still, free of green corruption glow.","Streetlamps in the distant city are flickering on."],"KnowledgeEstablished":["The local threat is neutralized; the Blight cannot sustain itself without the source.","The barrier functions as a dormant scar rather than an active predator.","Kaelen successfully regulated the flow and listened to his own limits, preventing burnout.","The party has confirmed the area is safe for departure.","Elara has collected intact quartz fragments for later study/cataloging."],"DecisionsMade":["Elias ordered Maren and Torin to check the perimeter before leaving.","Maren and Torin agreed to move toward the ridge to verify the area is clear.","Elara decided to document resonance patterns for guild records.","The group resolved to return to camp before the night gets colder.","Elias instructed Kaelen to rest before moving on."],"PossessionChanges":["Elara has packed her tools and retained larger quartz fragments in her satchel."],"RelationshipChanges":["Trust and confidence are high; the party acknowledges the cost paid by Kaelen without resentment.","Kaelen accepts his role as a regulator who learned to stop pushing, receiving praise from Elias."],"CompletedActions":["The Blight stream vanished and the fissure darkened.","Elara inspected the collapsed conduit with a magnifying lens and prism.","Kaelen lowered his arms and felt the magnetic drag cease.","Elias placed a hand on Kaelen\u0027s shoulder to ground him.","Maren and Torin stepped forward to check the perimeter.","Elara sorted quartz shards and packed her tools.","The party began moving away from the fissure toward camp."],"UnresolvedImmediateAction":"The party is walking away from the shrine fissure toward their camp, with Maren and Torin having just departed to check the perimeter ahead of them.","ContinuationPosition":"The characters are stepping carefully over the cooling stone and darkened fissure, moving out of the valley clearing. Elias is speaking to Kaelen about resting, while Elara packs her tools. The barrier has faded completely behind them.","ProhibitedRepetition":["Introducing a new Blight entity or \u0027keeper\u0027 attack.","Forcing Kaelen to die or suffer permanent corruption.","Relocating the party before confirming the local threat is resolved (already done).","Having the barrier shatter or require a new solution.","Repeating the \u0027quartz stone shattering\u0027 failure mode."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The silence that followed the operation was not empty; it was heavy, solidified by the absence of hums, roars, and the metallic tang of ozone. The valley floor, bathed now in the pale, cool light of the setting sun, felt unnervingly ordinary. A bird called out from the treeline, its song sharp and clear against the sudden quiet.
+
+Elias exhaled slowly, his shoulders dropping as if a physical weight had been lifted. He watched Kaelen, who was leaning heavily against the rough bark of a dead oak for support. The young mage's brass gauntlet sat at his side, completely inert. It no longer pulled on the air, nor did it hum with a low-frequency vibration that made Elias's teeth ache. It was just cold metal and leather, a piece of equipment as mundane as a shield or a sword.
+
+"You're quiet," Kaelen murmured, not looking at him. His voice lacked its usual confidence, carrying the rasp of someone who had run on adrenaline until the tank ran dry. "Is it... is it really over?"
+
+Elias walked over and placed a hand on Kaelen's shoulder, feeling the stiffness in the muscles beneath. "It is over here," he said softly. "The Blight is gone from this spot."
+
+Kaelen nodded slowly, pushing himself upright with an effort that made his face grimace. "Feels like I walked through it instead of holding it back." He rubbed his temples, a gesture of discomfort. "For hours there... and then nothing. Like flipping a switch off."
+
+Maren stepped up beside them, her hammer resting on her shoulder. She had already checked the perimeter; she was confident that no Blight-Touched remained in the immediate vicinity. The threat of sudden attacks had dissolved as quickly as the fog. "The barrier is knitting shut," she said, her tone matter-of-fact. "It's just a scar now. Like a fresh wound on stone."
+
+Elara knelt by the fissure one last time, using a magnifying lens to inspect the collapsed conduit. The green glow was gone from the drainage ditches; only the dark, still water remained, reflecting the twilight sky. She gathered her satchel, packing away the remaining quartz shards with care. "The resonance patterns are stabilizing," she announced, standing up and brushing dust from her knees. "I'm cataloging the frequency shift for the Guild's records. We have a new data point on how much energy the Blight can store before it saturates the field."
+
+Torin checked his sword, running a hand along the hilt as if to ensure it was still grounded in reality. "We're moving out," he said, looking toward the ridge where they had planned their next waypoint. "The wind is picking up. If we stay too long in this valley, we'll freeze before we can reach the watchfort."
+
+Elias nodded. "Yes. Let's go. Kaelen, you need to rest before we move another mile."
+
+"I'm fine," Kaelen insisted, though he stumbled slightly as he took a step forward, his leg shaking from exhaustion. "Just... drained. That's all."
+
+"You held the line until it broke," Elias said firmly but gently. "Drained is an understatement. You are not a machine; you are flesh and blood. Rest is required." He paused, looking at the group. "Maren, Torin, help him walk us out. Elara, pack up your samples. We leave in ten minutes."
+
+The party moved carefully away from the shrine, stepping over the cooling stone where the fissure had been. The ground was firm now, devoid of the oily slickness that had coated their boots earlier. The oppressive weight of the Blight's presence had lifted, replaced by the crisp, clean air of a mountain valley at dusk.
+
+As they walked along the ridge line, the city lights began to flicker on in the distance, their warm glow cutting through the encroaching darkness. They were safe. The immediate danger was neutralized not by force, but by understanding and adaptation. The Blight had been fed until it ran out of food, its reservoir drained into the system where it could be dispersed harmlessly. It was a victory born of patience rather than power, a stark reminder that sometimes the best way to fight a monster was to starve it.
+
+Elias glanced back at Kaelen, who was struggling to keep up with Torin's steady stride. The young mage had accepted the cost of his contribution without complaint, but Elias knew there would be lingering effects. The mental strain of regulating such a massive flow wouldn't vanish overnight. He hoped that rest and time would ease the ache in Kaelen's mind and body before they faced any new challenges.
+
+"We've done enough here," Maren said quietly, breaking the silence as they paused to look out over the valley one last time. The fog had not returned; the stars were already beginning to pierce the twilight sky, pinpricks of white light against indigo. "No more Blight for a long while."
+
+"Unless it's regenerated," Torin noted dryly, though his tone lacked any real malice. "Or unless someone else decides to mess with the shrine again."
+
+Elias smiled faintly. "Good point. But tonight, we rest. Tomorrow, we move on. The road ahead is open."
+
+Kaelen nodded, leaning heavily on Torin's arm for a moment before finding his own balance. "Open," he repeated, tasting the word. "That feels... strange. Like walking on glass that isn't broken anymore."
+
+Elara adjusted her pack, securing the last of her tools inside. "Strange is good," she said with a small smile. "It means we're moving forward. And if anyone tries to walk on that glass again, we'll be ready."
+
+The companions turned away from the shrine and began the descent toward their campsite, their footsteps echoing softly against the stone path. The night was settling in, but it was a peaceful night, the kind that follows danger passed rather than the dread of it approaching. They had survived the operation, emerged changed but intact, and now they would recover before facing whatever lay beyond the valley floor.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

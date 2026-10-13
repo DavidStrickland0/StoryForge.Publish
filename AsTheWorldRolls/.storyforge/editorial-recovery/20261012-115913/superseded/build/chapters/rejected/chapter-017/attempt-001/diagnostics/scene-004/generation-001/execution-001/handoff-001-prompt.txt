@@ -1,0 +1,113 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 4 of
+Chapter 17.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":17,"ViewpointCharacterId":"Elias Thorne","Objective":"Enter the \u0027Gilded Tankard\u0027 tavern, establish the party\u0027s reputation through a display of competence and wit, and initiate negotiations with the merchant, Silas Vane, for a caravan escort contract.","IntendedChange":"The party transitions from a group of weary, battle-scarred survivors into recognized, professional adventurers by securing a verbal agreement to discuss terms, while establishing the tavern as a hub of information and social pressure.","PacingPosture":1,"ProhibitedPatterns":["Repeating the specific agreement to meet Vane at the tavern entrance the next morning as a new discovery or decision in a later scene.","Resolving the finalization of the written contract or specific payment terms, which is reserved for Chapter 18.","Revealing the specific dangers on the route that Vane is hiding, which is reserved for Chapter 18.","Forcing a confrontation or betrayal to isolate the viewpoint character for a decision.","Using the tavern\u0027s reputation system as a mere obstacle rather than a social mechanic that influences the party\u0027s behavior and reputation."],"Scenes":[{"Sequence":1,"Purpose":"The party enters the Gilded Tankard and navigates the immediate social pressure of the tavern\u0027s strict hospitality code, establishing their presence as outsiders who must conform to local norms to be served.","IntendedChange":"The party is seated and served, having accepted the tavern\u0027s fine for a minor faux pas, which establishes their willingness to engage with local social structures and earns them a tentative, wary acceptance from the tavern keeper.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen","Torin","Elara"]},{"Sequence":2,"Purpose":"Elias mediates between the aggressive merchant Silas Vane and the cautious party members, using his practical leadership to shift the dynamic from adversarial negotiation to a tentative professional alliance based on mutual benefit.","IntendedChange":"Vane is intrigued by the party\u0027s resilience and agrees to a formal meeting the next morning to finalize terms, while the party gains access to the tavern\u0027s information network and learns about the sealed crate of \u0027pure\u0027 water from the temple springs.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Kaelen","Maren"]},{"Sequence":3,"Purpose":"Maren subtly shifts her protective stance from \u0027restrainer\u0027 to \u0027social shield,\u0027 intervening in a minor social faux pas to protect Kaelen\u0027s dignity, reinforcing their bond as a unit and demonstrating the party\u0027s collective competence in handling social challenges.","IntendedChange":"Kaelen\u0027s discomfort with social scrutiny is mitigated by Maren\u0027s intervention, allowing the party to maintain their composure and reputation as \u0027difficult but competent\u0027 in the tavern, setting the stage for their future interactions.","FocusCharacterIds":["Maren","Kaelen","Elias Thorne"]},{"Sequence":4,"Purpose":"The tavern keeper returns from the back room, bringing a minor administrative complication regarding the party\u0027s lodging and the specific nature of the \u0027pure\u0027 water crate, which requires the party to demonstrate their understanding of the local trade regulations and their willingness to be bound by the tavern\u0027s hospitality code.","IntendedChange":"The party secures a room for the night, establishing their physical presence in the tavern and gaining a private space to discuss their strategy without the constant pressure of the public room, while the keeper\u0027s bureaucratic scrutiny reinforces the tavern\u0027s role as a structured social environment.","FocusCharacterIds":["Elias Thorne","Torin","Elara"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":4,"Purpose":"The tavern keeper returns from the back room, bringing a minor administrative complication regarding the party\u0027s lodging and the specific nature of the \u0027pure\u0027 water crate, which requires the party to demonstrate their understanding of the local trade regulations and their willingness to be bound by the tavern\u0027s hospitality code.","IntendedChange":"The party secures a room for the night, establishing their physical presence in the tavern and gaining a private space to discuss their strategy without the constant pressure of the public room, while the keeper\u0027s bureaucratic scrutiny reinforces the tavern\u0027s role as a structured social environment.","FocusCharacterIds":["Elias Thorne","Torin","Elara"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":17,"CompletedSceneSequence":3,"Location":"Gilded Tankard tavern (corner table near the hearth)","TimeContext":"Evening, shortly after Silas Vane has departed to speak with the keeper","PresentCharacterIds":["Elias Thorne","Maren","Kaelen","Torin","Elara"],"PhysicalConditions":["Party is seated at a corner table near the hearth","Hearth fire is burning","Ale and food have been served","Silas Vane has left the immediate table area to speak with the keeper","Tension at the table has eased slightly but not fully dissipated","Kaelen is awake, drinking from a water skin provided by Maren","Maren is holding her satchel and interacting with Kaelen","Elara has stood up and moved toward the bar"],"KnowledgeEstablished":[],"DecisionsMade":[],"PossessionChanges":[],"RelationshipChanges":["Maren\u0027s role has shifted from \u0027restrainer\u0027 to \u0027social shield\u0027 in her interaction with Kaelen","Kaelen and Maren have re-established a bond of mutual appreciation and trust"],"CompletedActions":["Maren offered Kaelen a water skin to address his dehydration","Kaelen drank the water and acknowledged Maren\u0027s protection","Elara moved from the table to the bar to refill her ale","The party discussed their readiness for tomorrow while maintaining composure"],"UnresolvedImmediateAction":"Maren continues to attend to Kaelen while Elara refills her drink at the bar; Elias observes the room and waits for Vane\u0027s return.","ContinuationPosition":"The party remains seated at the corner table in the Gilded Tankard. Maren is holding a water skin near Kaelen, who is drinking from it. Elara is standing at the bar. Elias is leaning back in his chair, observing the tavern and Vane\u0027s movements in the back room.","ProhibitedRepetition":["Repeating the specific agreement to meet Vane at the tavern entrance the next morning as a new discovery or decision in a later scene.","Resolving the finalization of the written contract or specific payment terms, which is reserved for Chapter 18.","Revealing the specific dangers on the route that Vane is hiding, which is reserved for Chapter 18.","Forcing a confrontation or betrayal to isolate the viewpoint character for a decision.","Using the tavern\u0027s reputation system as a mere obstacle rather than a social mechanic that influences the party\u0027s behavior and reputation."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The tavern keeper returned, wiping his hands on a rag that had seen better days. He stepped up to the corner table where Elias sat with Kaelen and Maren, his presence casting a long shadow across the hearth’s glow.
+
+“Gentlemen,” he said, his tone carrying the weight of officialdom even as he leaned casually against the bar. “I’ve spoken with my superior regarding your request for lodging.”
+
+Elias raised an eyebrow, keeping his attention on the keeper rather than the table where Kaelen was finishing his water. “Of course you have,” he said smoothly. “We were just discussing how best to utilize our time before bedfall tomorrow.”
+
+The keeper’s smile didn’t quite reach his eyes. “Your request has been approved, yes, but there are conditions attached. The room is in the upper wing, as per regulation 4, section two. You will find it locked until you present your lodging fee and sign the hospitality contract.” He paused, letting the silence stretch just long enough to make the point clear. “And that contract requires a deposit of gold coins equal to three nights’ stay plus an additional sum for what we call ‘extraordinary circumstances.’”
+
+Elias leaned forward slightly, his posture relaxed but alert. “Extraordinary circumstances?” he asked, feigning ignorance despite knowing exactly what was being implied.
+
+The keeper nodded, tapping a finger against the bar counter. “Yes, extraordinary. You’ve been seen near the shrine fissure, yes? That means you’re dealing with something we don’t want to name in public. And if you’re dealing with something like that, then your stay here will require extra scrutiny.” He glanced at Maren, who had already stood up and was moving toward Elara’s position at the bar. “Which brings me to the second condition: we need proof that you’re not carrying contraband or magical artifacts that could destabilize the tavern’s reputation.”
+
+Maren didn’t hesitate. She stepped forward, holding her satchel close to her chest. “We’re just travelers looking for a place to rest,” she said calmly. “And if you have any concerns about what we carry, I’m happy to show them.”
+
+The keeper’s eyes flicked briefly toward Kaelen before settling on Elias again. “That’s all very well, but the contract must be signed first. And the deposit paid in full. We don’t take risks with our establishment.” He pulled a parchment from his sleeve and held it out like a shield. “Sign here, then pay.”
+
+Elias took the parchment, studying its contents for a moment before nodding to Elara. “Elara,” he said quietly. “Can you handle this?”
+
+Elara stepped forward, her expression serious as she reached into her satchel and produced a small pouch of coins. She counted them carefully before placing them on the table. “This is enough for three nights plus an extra sum,” she said. “Is that what you’re asking for?”
+
+The keeper nodded, taking the coins without looking at them. “That’s exactly what we need. And now, please sign.” He pressed a quill into Elias’s hand and pointed to a blank line near the bottom of the page. “Sign here, then we’ll show you to your room.”
+
+Elias hesitated for only a fraction of a second before signing the contract. The ink seemed to dry instantly, sealing their agreement with finality. He handed the parchment back to the keeper, who folded it carefully and placed it in his pocket.
+
+“Thank you,” Elias said politely. “And thank you for your hospitality.”
+
+The keeper smiled again, though this time it reached his eyes more genuinely. “We’re glad to have guests like you. And now, if you’ll excuse me, I’ll show you to your room.” He turned and gestured toward the stairs leading up to the upper wing. “This way.”
+
+As they followed him upstairs, Elias couldn’t help but notice the way Maren had subtly positioned herself between them and any potential threats in the tavern below. She wasn’t just guarding Kaelen anymore; she was protecting the entire party from whatever dangers might lurk within these walls. It was a testament to her growth as both a warrior and a friend.
+
+Once inside their room, which turned out to be surprisingly comfortable despite its modest furnishings, Elias closed the door behind them. The key clicked into place with a satisfying sound that seemed to seal away any outside noise.
+
+“This is fine,” he said, letting out a breath he hadn’t realized he’d been holding. “Better than we expected.”
+
+Maren nodded, setting her satchel down on the bed before sitting on the edge of it. “Yeah,” she agreed. “Much better than what I imagined.”
+
+Kaelen stretched his arms overhead, yawning widely as he did so. “I think I’m ready for sleep now,” he said softly. “Thanks again for everything today.”
+
+Elias smiled faintly at him. “You’re welcome,” he replied. “And remember, we’re all in this together. No matter what comes next.”
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

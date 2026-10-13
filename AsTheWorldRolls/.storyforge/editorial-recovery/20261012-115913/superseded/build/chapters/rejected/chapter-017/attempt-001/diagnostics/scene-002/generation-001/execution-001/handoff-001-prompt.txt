@@ -1,0 +1,111 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 17.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":17,"ViewpointCharacterId":"Elias Thorne","Objective":"Enter the \u0027Gilded Tankard\u0027 tavern, establish the party\u0027s reputation through a display of competence and wit, and initiate negotiations with the merchant, Silas Vane, for a caravan escort contract.","IntendedChange":"The party transitions from a group of weary, battle-scarred survivors into recognized, professional adventurers by securing a verbal agreement to discuss terms, while establishing the tavern as a hub of information and social pressure.","PacingPosture":1,"ProhibitedPatterns":["Repeating the specific agreement to meet Vane at the tavern entrance the next morning as a new discovery or decision in a later scene.","Resolving the finalization of the written contract or specific payment terms, which is reserved for Chapter 18.","Revealing the specific dangers on the route that Vane is hiding, which is reserved for Chapter 18.","Forcing a confrontation or betrayal to isolate the viewpoint character for a decision.","Using the tavern\u0027s reputation system as a mere obstacle rather than a social mechanic that influences the party\u0027s behavior and reputation."],"Scenes":[{"Sequence":1,"Purpose":"The party enters the Gilded Tankard and navigates the immediate social pressure of the tavern\u0027s strict hospitality code, establishing their presence as outsiders who must conform to local norms to be served.","IntendedChange":"The party is seated and served, having accepted the tavern\u0027s fine for a minor faux pas, which establishes their willingness to engage with local social structures and earns them a tentative, wary acceptance from the tavern keeper.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen","Torin","Elara"]},{"Sequence":2,"Purpose":"Elias mediates between the aggressive merchant Silas Vane and the cautious party members, using his practical leadership to shift the dynamic from adversarial negotiation to a tentative professional alliance based on mutual benefit.","IntendedChange":"Vane is intrigued by the party\u0027s resilience and agrees to a formal meeting the next morning to finalize terms, while the party gains access to the tavern\u0027s information network and learns about the sealed crate of \u0027pure\u0027 water from the temple springs.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Kaelen","Maren"]},{"Sequence":3,"Purpose":"Maren subtly shifts her protective stance from \u0027restrainer\u0027 to \u0027social shield,\u0027 intervening in a minor social faux pas to protect Kaelen\u0027s dignity, reinforcing their bond as a unit and demonstrating the party\u0027s collective competence in handling social challenges.","IntendedChange":"Kaelen\u0027s discomfort with social scrutiny is mitigated by Maren\u0027s intervention, allowing the party to maintain their composure and reputation as \u0027difficult but competent\u0027 in the tavern, setting the stage for their future interactions.","FocusCharacterIds":["Maren","Kaelen","Elias Thorne"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Elias mediates between the aggressive merchant Silas Vane and the cautious party members, using his practical leadership to shift the dynamic from adversarial negotiation to a tentative professional alliance based on mutual benefit.","IntendedChange":"Vane is intrigued by the party\u0027s resilience and agrees to a formal meeting the next morning to finalize terms, while the party gains access to the tavern\u0027s information network and learns about the sealed crate of \u0027pure\u0027 water from the temple springs.","FocusCharacterIds":["Elias Thorne","Silas Vane (Merchant)","Kaelen","Maren"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Maren subtly shifts her protective stance from \u0027restrainer\u0027 to \u0027social shield,\u0027 intervening in a minor social faux pas to protect Kaelen\u0027s dignity, reinforcing their bond as a unit and demonstrating the party\u0027s collective competence in handling social challenges.","IntendedChange":"Kaelen\u0027s discomfort with social scrutiny is mitigated by Maren\u0027s intervention, allowing the party to maintain their composure and reputation as \u0027difficult but competent\u0027 in the tavern, setting the stage for their future interactions.","FocusCharacterIds":["Maren","Kaelen","Elias Thorne"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":17,"CompletedSceneSequence":1,"Location":"Gilded Tankard tavern (corner table near the hearth)","TimeContext":"Evening, after entering the valley and settling in for the night","PresentCharacterIds":["Elias Thorne","Maren","Kaelen","Torin","Elara"],"PhysicalConditions":["Party is seated at a corner table","Hearth fire is burning","Ale and food (bread rolls, cheese) have been served","Kaelen and Elara are resting/asleep in the corner","Torin has returned to the main table","Tavern keeper is working behind the bar","Party has accepted the tavern\u0027s hospitality code and paid a fine for a minor faux pas"],"KnowledgeEstablished":["The party is new to the road but heading east toward the Dragon Road","The tavern keeper enforces a strict hospitality code regarding fees and conduct","Kaelen\u0027s resonance barrier is stable and feeding the Blight at a controlled rate","The party has secured food, drink, and shelter for the night"],"DecisionsMade":["Elias decided to settle their account when they leave rather than asking for free provisions","The party agreed to rest tonight before moving on tomorrow","Torin decided to check on Kaelen and Elara upon arrival"],"PossessionChanges":[],"RelationshipChanges":["Tavern keeper\u0027s attitude shifted from wary to accepting after the party demonstrated willingness to conform to local norms","Party members reinforced their bond through shared rest and mutual reliance"],"CompletedActions":["Entering the Gilded Tankard","Navigating the social pressure of the tavern entrance","Being seated at a corner table","Receiving food and ale","Discussing their destination (Dragon Road) with the keeper","Checking on resting companions (Kaelen and Elara)","Accepting the fine for a minor faux pas","Establishing a comfortable rhythm of eating, drinking, and resting"],"UnresolvedImmediateAction":"The party is currently resting at the table; Elias is contemplating the night ahead while the tavern settles into its evening routine.","ContinuationPosition":"Elias, Maren, Torin, Kaelen (asleep), and Elara are seated or resting at a corner table near the hearth in the Gilded Tankard. The tavern keeper is working behind the bar. The next scene should begin with Elias mediating between Silas Vane and the cautious party members.","ProhibitedRepetition":["Repeating the specific agreement to meet Vane at the tavern entrance the next morning as a new discovery or decision in a later scene.","Resolving the finalization of the written contract or specific payment terms, which is reserved for Chapter 18.","Revealing the specific dangers on the route that Vane is hiding, which is reserved for Chapter 18.","Forcing a confrontation or betrayal to isolate the viewpoint character for a decision.","Using the tavern\u0027s reputation system as a mere obstacle rather than a social mechanic that influences the party\u0027s behavior and reputation."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Silas Vane leaned over the bar, his elbows resting on the polished oak, eyes narrowing as he studied Elias with the scrutiny of a merchant weighing coin against wares. The tavern had settled into its evening rhythm—clinking tankards, low chatter, the crackle of the hearth—but the air around their table remained tense. Vane’s fingers traced the rim of his ale mug, not drinking, just measuring the moment.
+
+“Thorne,” he said, voice smooth but edged with caution. “I’ve heard enough tales about your kind from the roadmen who pass through here. You don’t ask questions. You don’t bargain. You just take what you need and leave before the next meal.”
+
+Elias kept his expression neutral, tankard in hand though he hadn’t taken a sip. He’d already paid his share, tipped the keeper for the table, and accepted the fine for spilling ale on the floor earlier—a small price to keep from being turned away outright. But Vane was probing, testing whether they were worth the trouble of dealing with.
+
+“We’re not here to take,” Elias replied evenly. “We’re heading east. Toward the Dragon Road.”
+
+Vane’s eyes flicked toward him, then back to Elias’s face. “Dragon Road,” he repeated, almost tasting the phrase. “That’s dangerous ground now. The Blight’s spreading faster than anyone’s admitting. You think you can walk that path without getting lost or eaten?”
+
+“We know the risks,” Elias said. “That’s why we’re prepared.”
+
+Vane laughed softly, a sound that didn’t quite reach his eyes. “Careful what you say to men like me, boy. I don’t deal in bravado. I deal in supply lines, contracts, and people who pay their debts before they vanish into the fog.” He leaned forward slightly. “I have a crate sealed tight. Inside is something from the temple springs—pure water, bottled for travelers. Rare thing these days. But if you’re going east, you’ll need it more than most.”
+
+Maren shifted slightly on her stool, her hand resting near her hammer handle—not threatening, just ready. Kaelen slept in the corner, Elara beside him, both unaware of the shift in tone that had taken hold of the table. Torin sat nearby, silent as a statue, watching Vane’s movements like a guard dog assessing a stranger at the gate.
+
+Elias set his tankard down with a soft thud. “And if we refuse?”
+
+Vane smiled thinly. “Then you walk out that door and find your water rationed at half strength. Or worse—you don’t find it at all.” He paused, letting the threat hang in the air. “But I’m not trying to drive you off. Far from it. You’ve got grit. That’s something I respect. So tell me—what do you want?”
+
+Elias considered his options. They needed supplies for the road ahead, yes—but pushing too hard could cost them more than they’d gain. Still, Vane wasn’t offering charity; he was offering partnership. The question was whether Elias could steer this conversation into something mutually beneficial without compromising their autonomy or falling into a trap.
+
+“We’re not looking to buy,” Elias said finally. “We’re looking for allies.”
+
+Vane raised an eyebrow. “Allies? With us?” He chuckled, though there was no warmth in it. “Kid, we’re both sides of the same coin. You need passage, supplies, maybe even protection. I need someone strong enough to carry my cargo through hostile territory. And if you’re smart, you’ll agree to terms before you meet the first bandit.”
+
+Elias leaned back slightly, letting the silence stretch just long enough for Vane to fill it. “We’ll discuss terms when we reach your camp,” he said. “In the morning.”
+
+Vane’s expression softened, just a fraction. “Good answer,” he murmured. “You’ve got spine. Most folks would have taken whatever I offered and bolted. Or tried to steal my crate on the way out.” He stood slowly, straightening his coat. “I’ll send word ahead. My riders will guide you when you’re ready. And if you behave yourself… maybe you’ll get a discount.”
+
+Elias nodded. “Fair enough.”
+
+Vane turned and walked away, disappearing behind the bar to speak with the keeper. The tension at their table eased slightly, though it hadn’t fully left. Elias glanced at Maren, who was already reaching into her satchel for water skins she’d packed earlier. She caught his eye and gave a small nod—she understood. They weren’t just surviving anymore; they were building alliances, one cautious step at a time.
+
+Kaelen stirred in the corner, murmuring something unintelligible in his sleep. Elara didn’t wake until he shifted again, then she gently shook him awake with a finger to his shoulder. “Time’s slipping,” she whispered, her voice barely audible over the tavern’s hum.
+
+Elias watched Vane move toward the back room, likely arranging transport or discussing further logistics with the keeper. He could feel the weight of the night settling around them—the kind that comes after a hard day’s work, when the world feels both safer and stranger than before. They’d earned this rest, but they also had responsibilities to uphold tomorrow. The road ahead wouldn’t be easy, but for now, they were together, breathing in sync, ready to face whatever came next.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

@@ -1,0 +1,119 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 18.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":18,"ViewpointCharacterId":"Elias Thorne","Objective":"Finalize the contract terms with Silas Vane, gather necessary supplies and local information, and prepare the party for the caravan escort, including addressing the party\u0027s internal dynamics and the specific challenges of the route.","IntendedChange":"The party transitions from \u0027negotiators\u0027 to \u0027active contractors,\u0027 securing the final contract, acquiring supplies, and establishing a clear plan of action for the escort, while addressing the internal tensions and external pressures that arise from their new role.","PacingPosture":1,"ProhibitedPatterns":["Copying verbatim prose from Chapter 17, specifically the descriptions of the tavern noise, the drunk patron incident, or the rival adventurers\u0027 dialogue.","Re-enacting the initial meeting with Silas Vane or the rival adventurers\u0027 confrontation.","Using the phrase \u0027noise hit them like a physical wave\u0027 or similar sensory clich\u00E9s from the previous chapter.","Having the party leave the tavern or begin the escort journey.","Introducing a new Blight-Touched entity attack or immediate physical threat.","Resolving the \u0027Simple Job Gone Wrong\u0027 medium arc or the \u0027From Survivors to Adventurers\u0027 long arc."],"Scenes":[{"Sequence":1,"Purpose":"Elias and Silas Vane finalize the contract terms in a private office, negotiating a compromise on the additional clause for a second merchant group to secure fair payment while maintaining focus on the primary escort.","IntendedChange":"The contract is signed with agreed-upon terms, establishing the party as active contractors with a clear financial and operational scope.","FocusCharacterIds":["Elias Thorne","Silas Vane"]},{"Sequence":2,"Purpose":"Torin and Maren collaborate in the local market to acquire specific supplies and tactical insights, with Torin organizing logistics and Maren providing practical combat-oriented advice on mitigating Blight risks.","IntendedChange":"The party secures necessary supplies and establishes a logistical framework for the escort, reinforcing the bond between Torin and Maren through shared preparation.","FocusCharacterIds":["Torin","Maren"]},{"Sequence":3,"Purpose":"Elara and Elias analyze the route and Blight behavior in the tavern, with Elara demonstrating her scholarly expertise by identifying cyclical Blight activity and Elias integrating her strategic insights into the party\u0027s plan.","IntendedChange":"The party establishes a clear strategic plan for the escort based on Elara\u0027s insights and Torin\u0027s logistics, reinforcing the partnership and mutual respect between Elara and Elias.","FocusCharacterIds":["Elara","Elias Thorne"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Elara and Elias analyze the route and Blight behavior in the tavern, with Elara demonstrating her scholarly expertise by identifying cyclical Blight activity and Elias integrating her strategic insights into the party\u0027s plan.","IntendedChange":"The party establishes a clear strategic plan for the escort based on Elara\u0027s insights and Torin\u0027s logistics, reinforcing the partnership and mutual respect between Elara and Elias.","FocusCharacterIds":["Elara","Elias Thorne"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":18,"CompletedSceneSequence":2,"Location":"Outside the tavern (market district), transitioning to the party dispersing for their respective tasks.","TimeContext":"Mid-day; sun high, shadows sharp and lengthening.","PresentCharacterIds":["Elias Thorne","Torin","Maren"],"PhysicalConditions":["The market noise has faded behind Torin and Maren.","They are carrying heavy bundles of supplies (iron-bound rope, sulfur paste, greaves, flint).","Elias is waiting outside Silas Vane\u0027s office for confirmation on the alchemist handover terms."],"KnowledgeEstablished":["Torin has learned that standard hemp rope fails against Blight-Touched tension points; iron-bound cable is required.","Maren identified crude sulfur paste as an effective, cheap antiseptic that drives Blight creatures away by smell.","Maren demonstrated a negotiation style based on removing non-utility options rather than arguing perspective.","Torin has agreed to adjust the route plan to include buffer time for unpredictable variables.","The party now possesses the necessary tactical supplies and logistical framework for the escort."],"DecisionsMade":["Torin decided to purchase iron-bound cable instead of standard hemp rope.","Torin decided to purchase crude sulfur paste for emergency antiseptic use.","Torin agreed to reject decorative boots in favor of triple-reinforced, practical greaves.","Torin agreed to adjust the route plan to include buffer time.","Maren and Torin have solidified their working dynamic through shared preparation."],"PossessionChanges":["Torin and Maren now possess bundles containing iron-bound rope, shackles with double-lock mechanisms, crude sulfur paste, heavy greaves, and high-grade flint.","Elias remains without new possessions, awaiting news from Silas Vane."],"RelationshipChanges":["Torin and Maren have reinforced their bond through shared preparation; Torin has gained respect for Maren\u0027s practical confidence and efficiency.","The party is fully established as active contractors with a clear logistical framework."],"CompletedActions":["Torin and Maren navigated the market district to acquire specific supplies.","Maren corrected Torin\u0027s rope selection and secured iron-bound cable.","Maren selected crude sulfur paste for antiseptic purposes.","Torin negotiated for practical greaves without decorative elements.","Torin and Maren discussed route planning and buffer times.","Torin and Maren returned to the tavern area carrying their supplies."],"UnresolvedImmediateAction":"Torin and Maren are walking back toward the tavern with their supplies, while Elias waits outside Silas Vane\u0027s office for a response regarding the alchemist handover terms.","ContinuationPosition":"Torin and Maren are approaching the tavern entrance carrying heavy bundles of supplies. Elias is standing in the alleyway outside Silas Vane\u0027s office, looking up at the sky and waiting for news before dispersing to join them or finalize the contract.","ProhibitedRepetition":["Repeating the specific dialogue of the market negotiation already established in this scene.","Having Torin and Maren re-enter Silas Vane\u0027s office immediately (they are currently outside the tavern).","Re-enacting the initial meeting with Silas Vane or the rival adventurers\u0027 confrontation."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The tavern’s interior was a different world from the sun-baked streets outside. The air here was thick with the scent of stale ale, roasting meat, and the faint, metallic tang of the Blight residue that still clung to Elias’s bandages. He found Elara in the corner booth, where she had claimed their table earlier in the day. She was buried in a stack of parchment sheets, her stylus moving with the precise, rhythmic scratching of a clock’s tick.
+
+Elias slid into the seat opposite her, the wood creaking under his weight. He didn’t sit fully; he remained half-standing, leaning against the back of the chair, keeping his hand near his sword hilt. The noise of the tavern was a dull roar behind him, a constant backdrop that made private conversation difficult but necessary.
+
+“You’re late,” Elara said, not looking up. Her voice was dry, clipped, but there was no real heat in it. She was counting on him, and she was counting the seconds.
+
+“Market delays,” Elias replied, finally lowering himself into the chair. He winced slightly as his side throbbed, a dull ache that had become a familiar companion over the last few weeks. “Torin and Maren are finishing up outside. They’ve secured the rope and the antiseptic. It’s more than we had an hour ago.”
+
+Elara’s stylus paused. She looked up, her dark eyes narrowing slightly. “Antiseptic? Maren found a use for sulfur paste?”
+
+“Cheap, effective, and it smells like a dragon’s armpit,” Elias said, a ghost of a smile touching his lips. “Maren says it drives the Blight-Touched away. Or at least, it makes them hesitate long enough for us to act.”
+
+Elara made a note in the margin of her journal, her handwriting small and neat. “Hesitation is a tactical advantage. I’ll factor it into the engagement timing.” She turned a page, revealing a complex diagram of intersecting lines and shaded areas. “But the rope and the paste are only tools. They don’t solve the core problem.”
+
+Elias leaned forward, resting his elbows on the table. “What core problem?”
+
+“The Blight isn’t random,” Elara said, her tone shifting to the formal cadence she used when explaining complex theories. It was a defense mechanism, Elias had learned. When she was uncertain, she recited facts. When she was certain, she dissected them. “Look at this.” She tapped the diagram. “I’ve cross-referenced the sightings from the last three months with the lunar cycles and the tidal patterns of the river below the city. There’s a correlation.”
+
+Elias frowned, studying the lines. “The Blight surges when the moon is in the third quarter and the river is at its lowest ebb.”
+
+“Precisely,” Elara said. “It’s not just a creature or a curse. It’s a reaction. The Blight is drawn to the instability in the seal. When the seal is weakest—during those specific celestial alignments—the pressure builds. The creatures don’t just wander in; they’re pulled in. It’s a siphon effect.”
+
+Elias stared at the diagram, the pieces clicking into place with a satisfying click in his mind. He had known the Blight was dangerous, had known it was unpredictable, but he had been treating it as a wild animal. Elara was showing him it was a machine.
+
+“So, if we time the escort to avoid those windows…”
+
+“We don’t avoid them,” Elara corrected him, her voice sharp. “We exploit them. If the Blight is drawn to the seal’s weakness, then the seal itself is the anchor. If we can reinforce the seal locally, even temporarily, we can create a dead zone. A pocket of stability where the Blight cannot manifest.”
+
+Elias looked at her, really looked at her, seeing the fatigue under her eyes and the intensity in her gaze. She wasn’t just a scholar hiding behind her books. She was a strategist, using logic as a weapon.
+
+“You’re saying we need to move the caravan not around the danger, but through a neutral zone we create ourselves,” Elias said.
+
+“Correct,” Elara said. “But it requires precise timing. We need to be in position at least an hour before the surge peaks. If we are late, the siphon will pull the creatures toward us, not away from us. If we are too early, the seal might not be stable enough to hold.”
+
+Elias nodded slowly, absorbing the implication. “We have the supplies. We have the route. We just need to trust the math.”
+
+“Math is reliable,” Elara said, closing her journal with a firm snap. “People are not. But Torin’s logistics and Maren’s… practicality… are reliable in their own way. I have confidence in the team.”
+
+It was the closest thing to a compliment Elara had ever given him. Elias felt a small, warm swell of pride in his chest, quickly suppressed by the weight of responsibility.
+
+“Then we finalize the schedule tonight,” Elias said, standing up. He stretched, his joints popping softly. “I’ll go check on Torin and Maren. We need to make sure everyone is on the same page. No more guessing. No more improvising.”
+
+Elara watched him stand, her expression softening just slightly. “Be careful, Elias. The Blight is patient. And it is very, very hungry.”
+
+Elias gave her a small nod, then turned and walked toward the back of the tavern, where the light from the windows was fading into the deepening twilight. He could hear Torin’s low voice arguing with Maren over something, likely the weight of the iron-bound rope. He smiled faintly. They were ready. Not because they were brave, but because they were prepared. And in a world that ran on magic and mystery, preparation was the only true shield.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

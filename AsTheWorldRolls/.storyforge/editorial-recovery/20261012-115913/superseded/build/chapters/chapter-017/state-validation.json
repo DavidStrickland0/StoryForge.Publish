@@ -1,0 +1,310 @@
+﻿{
+  "Claims": [
+    {
+      "Section": "CanonAdditions",
+      "Claim": "The Gilded Tankard is a tavern located in the city.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "Elias pushed open the heavy oak doors of the Gilded Tankard...",
+      "Reason": null
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "Silas Vane is a merchant who trades rare goods, supplies, maps, and potions.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "I am Silas Vane,",
+      "Reason": null
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "The Temple Springs produce water infused with stabilizing magical properties used to heal wounds, cleanse ailments, and reinforce wards.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The Temple Springs produce a water infused with stabilizing magical properties. It\u0027s used to heal wounds, cleanse ailments, and even reinforce certain wards.",
+      "Reason": null
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "Blight-Touched entities are drawn to the water from the Temple Springs.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The Blight-Touched entities are drawn to it like moths to flame.",
+      "Reason": null
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "A caravan carrying sealed crates of \u0027pure\u0027 water from the Temple Springs is heading toward trouble.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "The chapter mentions a caravan carrying \u0027pure\u0027 water from the Temple Springs but does not establish that it is currently heading toward trouble."
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "The tavern\u0027s information network consists of merchants who sell half-truths for coin.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The tavern\u0027s information network was far from official, but it was thorough. Rumors traveled faster than messages in this town, and for a coin or two, someone would sell you half-truths wrapped in speculation.",
+      "Reason": null
+    },
+    {
+      "Section": "CanonAdditions",
+      "Claim": "Elara possesses a journal containing diagrams, calculations, and annotations regarding magical circuits and resonance frequencies.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "Kaelen watched Elara\u0027s journal intently as she flipped through pages filled with diagrams, calculations, and annotations in neat handwriting.",
+      "Reason": null
+    },
+    {
+      "Section": "CanonChangesOverTime",
+      "Claim": "Kaelen\u0027s gauntlet was previously inert and cold; it is now described as having faint scar patterns etched into its metal.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The gauntlet remained dark, its brass surface dull and unremarkable except for the faint scar patterns etched into its metal.",
+      "Reason": null
+    },
+    {
+      "Section": "CanonChangesOverTime",
+      "Claim": "The group\u0027s status changed from being at the watchfort to resting in a tavern booth within the city.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "They found a booth tucked into the corner...",
+      "Reason": null
+    },
+    {
+      "Section": "WorldStateUpdates",
+      "Claim": "The Gilded Tankard interior contains leather booths, candlelight, and peeling plaster.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The interior was a chaotic tapestry of leather booths, candlelight flickering against peeling plaster...",
+      "Reason": null
+    },
+    {
+      "Section": "WorldStateUpdates",
+      "Claim": "Rumors are spreading about a caravan carrying high-value goods from the Temple Springs.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "The chapter mentions rumors about a caravan carrying \u0027miracle water\u0027 or \u0027pure water\u0027, but it does not explicitly establish that the goods are \u0027high-value\u0027 in a factual sense beyond their described worth to kings/healers."
+    },
+    {
+      "Section": "WorldStateUpdates",
+      "Claim": "Shadowy figures are loitering near the city gates.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "The chapter states: \u0027sightings of shadowy figures loitering near the city gates\u0027.",
+      "Reason": null
+    },
+    {
+      "Section": "WorldStateUpdates",
+      "Claim": "Blight-Touched creatures have been spotted prowling the outskirts of the city.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "The chapter states: \u0027claims that Blight-Touched creatures had been spotted prowling the outskirts\u0027.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Elias Thorne",
+      "Claim": "Elias Thorne exists and is an established character.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The text introduces \u0027Elias Thorne\u0027 as a character who pushes open doors and speaks.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Elias Thorne",
+      "Claim": "Elias Thorne is currently at the Gilded Tankard tavern.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "The text states: \u0027Elias pushed open the heavy oak doors of the Gilded Tankard\u0027.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Elias Thorne",
+      "Claim": "Elias Thorne possesses a notebook for taking notes on intel.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The text states: \u0027Elias nodded slowly, jotting down notes in his own book\u0027.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Elias Thorne",
+      "Claim": "Elias Thorne knows about the caravan carrying sealed crates from the Temple Springs.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "The text states: \u0027Elias leaned back in his chair... We need to know what\u0027s on that caravan\u0027.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Maren",
+      "Claim": "Maren exists and is an established character.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "The text introduces \u0027Maren\u0027 as a character who leads the way and speaks.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Maren",
+      "Claim": "Maren is currently at the Gilded Tankard tavern.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "The text states: \u0027Maren\u0027s boots clicked softly on the flagstones as she led the way\u0027.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Maren",
+      "Claim": "Maren wears apron-like clothing.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "The text states: \u0027Maren sat back down, wiping her hands on her apron-like clothing\u0027.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Kaelen",
+      "Claim": "Kaelen exists and is an established character.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "Kaelen trailed slightly behind them, eyes scanning the periphery of the group.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Kaelen",
+      "Claim": "Kaelen is currently at the Gilded Tankard tavern.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "Elias pushed open the heavy oak doors of the Gilded Tankard...",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Kaelen",
+      "Claim": "Kaelen\u0027s gauntlet has faint scar patterns etched into its metal.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "...except for the faint scar patterns etched into its metal.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Elara",
+      "Claim": "Elara exists and is an established character.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "Inside the corner booth... Elara, who sat quietly reading through one of her journals...",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Elara",
+      "Claim": "Elara is currently at the Gilded Tankard tavern.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "Elias pushed open the heavy oak doors of the Gilded Tankard...",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Elara",
+      "Claim": "Elara possesses a journal containing diagrams, calculations, and annotations regarding magical circuits and resonance frequencies.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "...reading through one of her journals while occasionally exchanging amused glances with Kaelen.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Torin",
+      "Claim": "Torin exists and is an established character.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "Torin is described as preparing to head outside and having already slipped away toward the door; he is not established as being currently at the tavern."
+    },
+    {
+      "Section": "CharacterStateUpdates/Torin",
+      "Claim": "Torin is currently at the Gilded Tankard tavern.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "Torin is described as preparing to head outside and having already slipped away toward the door; he is not established as being currently at the tavern."
+    },
+    {
+      "Section": "CharacterStateUpdates/Silas Vane",
+      "Claim": "Silas Vane exists and is an established character.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "...accompanied by a merchant named Silas Vane...",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Silas Vane",
+      "Claim": "Silas Vane wears robes embroidered with silver thread.",
+      "Classification": "Supported",
+      "Persistence": "Persistent",
+      "Apply": true,
+      "Evidence": "...who wore robes embroidered with silver thread and carried a staff topped with a glowing crystal.",
+      "Reason": null
+    },
+    {
+      "Section": "CharacterStateUpdates/Silas Vane",
+      "Claim": "Silas Vane carries a staff topped with a glowing crystal.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "The same rival adventurer group they\u0027d seen earlier outside the gates. This time, however, they weren\u0027t alone; they were accompanied by a merchant named Silas Vane, who wore robes embroidered with silver thread and carried a staff topped with a glowing crystal.",
+      "Reason": null
+    },
+    {
+      "Section": "NarrativeStateUpdates",
+      "Claim": "The group has taken a break from their primary mission to rest and gather information in the city tavern.",
+      "Classification": "Supported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": "They found a booth tucked into the corner, away from the main thoroughfare but still visible to anyone who might need to intervene.",
+      "Reason": null
+    },
+    {
+      "Section": "UnresolvedInformation",
+      "Claim": "Whether the caravan carrying the Temple Springs water will be intercepted by Blight-Touched entities.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "The chapter mentions rumors of a creature hunting the caravan and that it is heading for trouble, but it does not establish whether the caravan will be intercepted."
+    },
+    {
+      "Section": "UnresolvedInformation",
+      "Claim": "Who is hunting the caravan near the gates.",
+      "Classification": "Unsupported",
+      "Persistence": "Transient",
+      "Apply": false,
+      "Evidence": null,
+      "Reason": "The chapter mentions rumors of a creature seen near the gates and that someone is hunting the caravan, but it does not establish who specifically is hunting it."
+    }
+  ]
+}

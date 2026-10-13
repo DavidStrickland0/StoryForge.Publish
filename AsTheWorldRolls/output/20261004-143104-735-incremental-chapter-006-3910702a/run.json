@@ -5,7 +5,7 @@
   "voiceLibraryPath": "/voices",
   "chapterId": "chapter-006",
   "startedUtc": "2026-10-04T17:22:06.391866+00:00",
-  "completedUtc": "2026-10-04T18:36:11.879683+00:00",
+  "completedUtc": "2026-10-07T00:43:21.299448+00:00",
   "status": "failed",
   "failedStage": "segment verification",
   "settings": {
@@ -14,62 +14,6 @@
     "maxSegmentAttempts": 3
   },
   "segmentVerificationAttempts": [
-    {
-      "attempt": 1,
-      "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-1.json",
-      "passed": 208,
-      "review": 3,
-      "failed": 3,
-      "rejectedSegmentIndexes": [],
-      "rejectedChunks": [
-        {
-          "segmentIndex": 1,
-          "chunkIndex": 0
-        },
-        {
-          "segmentIndex": 21,
-          "chunkIndex": 0
-        },
-        {
-          "segmentIndex": 35,
-          "chunkIndex": 0
-        },
-        {
-          "segmentIndex": 75,
-          "chunkIndex": 0
-        },
-        {
-          "segmentIndex": 138,
-          "chunkIndex": 0
-        },
-        {
-          "segmentIndex": 146,
-          "chunkIndex": 0
-        }
-      ]
-    },
-    {
-      "attempt": 2,
-      "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-2.json",
-      "passed": 211,
-      "review": 2,
-      "failed": 1,
-      "rejectedSegmentIndexes": [],
-      "rejectedChunks": [
-        {
-          "segmentIndex": 35,
-          "chunkIndex": 0
-        },
-        {
-          "segmentIndex": 138,
-          "chunkIndex": 0
-        },
-        {
-          "segmentIndex": 146,
-          "chunkIndex": 0
-        }
-      ]
-    },
     {
       "attempt": 3,
       "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
@@ -94,9 +38,391 @@
     }
   ],
   "stageCheckpoints": {},
-  "resumeCount": 0,
-  "resumeHistory": [],
-  "lastResumedUtc": null,
+  "resumeCount": 12,
+  "resumeHistory": [
+    {
+      "resumedUtc": "2026-10-05T04:16:57.972458+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 1,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-1.json",
+          "passed": 208,
+          "review": 3,
+          "failed": 3,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 1,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 21,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 75,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        },
+        {
+          "attempt": 2,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-2.json",
+          "passed": 211,
+          "review": 2,
+          "failed": 1,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        },
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+          "passed": 211,
+          "review": 3,
+          "failed": 0,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-05T04:20:22.485859+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "synthesis",
+      "previousVerificationAttempts": []
+    },
+    {
+      "resumedUtc": "2026-10-05T04:21:59.370884+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+          "passed": 211,
+          "review": 3,
+          "failed": 0,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-05T06:33:19.231579+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+          "passed": 211,
+          "review": 3,
+          "failed": 0,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-05T07:04:56.134729+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+          "passed": 211,
+          "review": 3,
+          "failed": 0,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-05T07:06:24.792512+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+          "passed": 211,
+          "review": 3,
+          "failed": 0,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-06T00:34:21.183027+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+          "passed": 211,
+          "review": 3,
+          "failed": 0,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-06T01:06:13.343689+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+          "passed": 211,
+          "review": 3,
+          "failed": 0,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-06T01:07:34.199433+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+          "passed": 211,
+          "review": 3,
+          "failed": 0,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-07T00:09:25.286463+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+          "passed": 211,
+          "review": 3,
+          "failed": 0,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-07T00:41:05.636403+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+          "passed": 211,
+          "review": 3,
+          "failed": 0,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resumedUtc": "2026-10-07T00:42:13.398703+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "segment verification",
+      "previousVerificationAttempts": [
+        {
+          "attempt": 3,
+          "verificationPath": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006/verification-attempt-3.json",
+          "passed": 211,
+          "review": 3,
+          "failed": 0,
+          "rejectedSegmentIndexes": [],
+          "rejectedChunks": [
+            {
+              "segmentIndex": 35,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 138,
+              "chunkIndex": 0
+            },
+            {
+              "segmentIndex": 146,
+              "chunkIndex": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lastResumedUtc": "2026-10-07T00:42:13.398703+00:00",
   "chapterDirectory": "/books/output/20261004-143104-735-incremental-chapter-006-3910702a/chapter-006",
   "masteredAudioPath": null
 }

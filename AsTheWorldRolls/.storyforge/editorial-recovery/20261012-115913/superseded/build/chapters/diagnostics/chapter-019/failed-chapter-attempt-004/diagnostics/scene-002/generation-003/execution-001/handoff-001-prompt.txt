@@ -1,0 +1,147 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 19.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":19,"ViewpointCharacterId":"Elias Thorne","Objective":"Leave the tavern with the merchant caravan, execute the party\u0027s strategic plan for the escort, and successfully navigate the initial challenges of the route, establishing their competence and reliability as protectors.","IntendedChange":"The party transitions from \u0027preparers\u0027 to \u0027active protectors,\u0027 successfully executing their plan and navigating the initial challenges of the route, while maintaining their cohesion and demonstrating their competence.","PacingPosture":1,"ProhibitedPatterns":["Uniform urgent pacing that erases distinct character voices and personalities.","Functional, expository dialogue where characters state exactly what they are thinking or doing without subtext or relationship dynamics.","Abrupt scene endings that fail to provide closure, a meaningful transition, or a reflective moment.","Monotonous sentence rhythm dominated by simple declarative sentences listing facts.","Passive constructions and static descriptions that fail to engage the reader\u0027s senses with specific, unique details.","Narrative voice intruding too heavily to explain the reader\u0027s feelings or summarize the scene\u0027s purpose.","Replaying completed events or padding length by summarizing previous preparations.","Introducing a confrontation, revelation, larger replacement threat, arrival, pursuit, interruption, or cliffhanger merely to make the chapter seem eventful."],"Scenes":[{"Sequence":1,"Purpose":"Establish the departure from the Gilded Tankard and the initial movement of the caravan, showcasing the party\u0027s distinct roles and the physical reality of the route.","IntendedChange":"The party is physically on the road with the caravan, having left the tavern, with each member in their assigned tactical position and the immediate environment established.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Elara","Kaelen","Silas Vane"]},{"Sequence":2,"Purpose":"Execute the party\u0027s strategic plan to navigate the first Blight surge, demonstrating their competence and cohesion under pressure.","IntendedChange":"The party successfully navigates the initial challenge of the route, with the Blight-Touched entities receding and the party\u0027s strategic plan validated.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Elara","Kaelen"]},{"Sequence":3,"Purpose":"Show the aftermath of the surge, allowing the party to reflect on their success, assess their condition, and solidify their cohesion as a unit.","IntendedChange":"The party has successfully navigated the initial challenges of the route, establishing their competence and reliability as protectors, with their internal dynamics strengthened through collaboration and mutual respect.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Elara","Kaelen","Silas Vane"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Execute the party\u0027s strategic plan to navigate the first Blight surge, demonstrating their competence and cohesion under pressure.","IntendedChange":"The party successfully navigates the initial challenge of the route, with the Blight-Touched entities receding and the party\u0027s strategic plan validated.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Elara","Kaelen"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Show the aftermath of the surge, allowing the party to reflect on their success, assess their condition, and solidify their cohesion as a unit.","IntendedChange":"The party has successfully navigated the initial challenges of the route, establishing their competence and reliability as protectors, with their internal dynamics strengthened through collaboration and mutual respect.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Elara","Kaelen","Silas Vane"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":19,"CompletedSceneSequence":1,"Location":"The road out of the city, winding through the tree line into a dense forest bordering a valley.","TimeContext":"Morning; the party has departed the Gilded Tankard and is moving with the caravan.","PresentCharacterIds":["Elias Thorne","Torin","Maren","Elara","Kaelen","Silas Vane"],"PhysicalConditions":["The air is crisp, damp, and heavy with pine scent.","The forest is unusually silent; birds have stopped singing.","A specific patch of ground is identified as a leaking seal emitting a cold, electric tingle.","The party is under pressure from an approaching Blight surge."],"KnowledgeEstablished":["The caravan\u0027s seal is leaking and the pressure is building.","The first Blight surge is imminent (within the window).","The siphon effect is active, drawing Blight-Touched to the instability.","Torin has set the tension on the iron-bound cables.","Maren is monitoring shadows for threats.","Elara can perform the ritual to reinforce the seal in time."],"DecisionsMade":["The party will create a dead zone of stability to push Blight-Touched back.","Torin will hold the cables.","Maren will eliminate any threats before they touch the crate.","Elara will perform the ritual immediately."],"PossessionChanges":[],"RelationshipChanges":["The party has solidified their cohesion as a unit, trusting each other\u0027s specific roles without hesitation."],"CompletedActions":["Departure from the Gilded Tankard.","Movement of the caravan along the road.","Identification of the leaking seal and the approaching surge.","Establishment of tactical positions (Torin at cables, Maren on shadows, Elara for ritual).","Agreement on the immediate plan to reinforce the seal."],"UnresolvedImmediateAction":"The party is standing ready to execute their plan as Elias signals them to move forward into the forest.","ContinuationPosition":"The party is positioned along the road in the forest, facing the approaching surge. Elias has just spoken \u0027Let\u0027s move,\u0027 and they are about to advance while Torin holds cables, Maren watches shadows, and Elara prepares her ritual.","ProhibitedRepetition":["Describing the departure from the Gilded Tankard.","Describing the caravan\u0027s movement as a slow procession.","Describing Silas Vane sitting in the lead wagon scanning for inventory.","Describing Torin counting tension and angle of axles.","Describing Maren\u0027s predatory grace and rooftop inspection.","Describing Elara and Kaelen walking behind with low conversation.","Describing the road winding through the tree line and buildings receding.","Describing the forest air changing to pine scent and cold river breath.","Describing Elias adjusting his sword belt.","Torin identifying moisture and stating \u0027The seal is leaking.\u0027","Elias crouching to inspect the patch of earth and feeling the electric tingle.","Torin nodding that pressure is building and they are close to the surge.","Maren stopping, listening to silence, and stating birds have stopped.","Elara emerging with her journal and stating timing/window/seal status.","Elias straightening and snapping into focus.","The dialogue regarding cables, shadows, ritual, and readiness."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The word *move* hung in the air, sharp and final.
+
+Elias didn’t wait for a vote or a second opinion. He turned on his heel, his boots crunching against the packed dirt of the road, and began to walk. The rhythm was steady, deliberate. He felt the others fall into step behind him, a silent, synchronized shift that required no verbal coordination. The tension in the air was no longer static; it was kinetic, coiled and ready to spring.
+
+Torin was already moving to the left, his long frame low and quick despite the weight of the iron-bound cables he carried. He didn’t look at Elias. He looked at the ground, at the subtle discoloration of the earth where the seal was fraying. As he reached the marked spot, he dropped the heavy coil with a thud that seemed too loud in the unnatural quiet. His hands moved with practiced efficiency, wrapping the twisted wire around the anchors he had pre-set during the initial survey. He wasn’t just tying a knot; he was creating a tension point, a physical counter-weight to the magical instability Elara had identified.
+
+To the right, Maren had vanished into the peripheral gloom. She didn’t crouch or hide; she simply aligned herself with the shadows cast by the encroaching pines. Her breathing slowed, a rhythmic hiss through her nose that Elias could feel more than hear. She was listening to the silence, or rather, she was listening to what the silence was hiding.
+
+Elara stood in the center of the formation, her journal open in her left hand, a stylus poised in her right. Her eyes were closed. The air around her shimmered faintly, a distortion like heat haze, but cold. Elias could see the strain in her shoulders, the way her fingers tightened on the stylus until the knuckles whitened. She was counting, Elias knew. She was counting the seconds between the current instability and the peak of the siphon.
+
+Kaelen moved to Elias’s side, his hand resting lightly on the pommel of his sword. He didn’t draw it. He didn’t need to. His presence was a shield, a promise of consequence if the plan failed.
+
+"Torin," Elias murmured, keeping his voice low. "Status."
+
+"Locked," Torin replied, his voice flat and devoid of emotion. He gave a sharp tug on the cable. The wire sang, a high, thin note that vibrated in Elias’s teeth. "Tension is holding. If the pressure drops below a certain threshold, the cable will snap. I’ll feel it before I see it."
+
+"Good," Elias said. "Maren."
+
+"Clear," Maren’s voice came from the dark. "No movement. But the air is getting heavier. I can smell ozone."
+
+Elara’s eyes snapped open. "Now," she whispered.
+
+She thrust the stylus forward. It wasn’t a spell of fire or light. It was a command of order. A pulse of invisible force rippled out from her, hitting the ground where the seal was leaking. The cold, electric tingle that had been crawling up Elias’s legs vanished, replaced by a profound, stabilizing stillness. The shimmering air solidified. The forest didn’t come alive, but it stopped threatening.
+
+For a heartbeat, nothing happened.
+
+Then, the silence broke.
+
+It didn’t start with a roar. It started with a sound like tearing silk, a high-pitched shriek that seemed to come from everywhere and nowhere. The shadows at the edge of their vision elongated, stretching out like oil slicks on water. The Blight-Touched entities were here.
+
+They didn’t rush. They flowed.
+
+Dark, viscous shapes poured from the treeline, sliding over the roots and stones with a liquid grace that defied the laws of physics. They were formless, shifting, their edges blurring into the darkness of the forest. There were three of them, perhaps four, but it was hard to tell where one ended and another began. They moved toward the crate, toward the source of the instability they had been drawn to.
+
+Elias drew his sword. The steel hissed as it cleared the scabbard, catching the dim light of the forest floor. He didn’t advance. He waited.
+
+The first entity reached the perimeter of Elara’s stabilizing zone. It halted, its form rippling violently. It tried to push forward, to breach the line of stability, but it couldn’t. The air itself seemed to resist it, pushing back against the dark mass.
+
+Maren moved.
+
+She didn’t wait for the creature to fully commit. She stepped out of the shadow, her boots silent on the dirt. In her hand was not a sword, but the jar of crude sulfur paste they had purchased in the market. She uncorked it in one fluid motion and hurled it.
+
+The jar shattered against the ground directly in front of the entity. The paste exploded outward, not as a liquid, but as a thick, pungent mist. The smell hit the air, sharp and acrid, cutting through the dampness of the forest.
+
+The entity recoiled. It didn’t scream; it simply convulsed, its form tightening, pulling inward as if in pain. It slid back, away from the sulfur, away from the stability zone.
+
+"Go," Maren said, her voice calm.
+
+The other entities, sensing the resistance, the pain, the wall of stability, hesitated. The siphon effect was still active, pulling them toward the seal, but the seal was now reinforced. The pull was no longer irresistible; it was a struggle. And for the first time, the Blight-Touched were losing.
+
+One by one, the entities began to retreat. They didn’t flee in panic, but they withdrew, their forms dissolving back into the shadows of the trees, sliding away from the zone of order that Elara maintained with her sheer will. The shrieking faded, replaced by the return of natural sounds. A bird, tentative and distant, began to sing.
+
+Elara lowered her stylus. Her hand was trembling, but her face was pale and set in stone. She closed her journal with a soft click.
+
+Torin checked the cable. It was still taut, but the tension had dropped slightly. The pressure had peaked and receded.
+
+"It’s done," Torin said, looking up at Elias. "The surge is past. The seal is holding."
+
+Elias sheathed his sword. The blade slid home with a satisfying *click*. He looked at his companions. They were breathing hard, but they were standing. They were intact. The crate behind them, guarded by Silas in the wagon, was untouched.
+
+They had won. Not through overwhelming force, but through preparation, precision, and trust. They had turned a monster’s hunger into a manageable problem and solved it with the tools they had.
+
+Elias took a deep breath, the air in his lungs tasting clean for the first time in days. The forest was no longer a threat. It was just a forest.
+
+"Let’s keep moving," he said. "We’re not done yet."
+
+The group fell back into step, moving deeper into the tree line. The road ahead was clear. The Blight was behind them, pushed back by their competence and their unity. They were not just a group of adventurers anymore; they were a mechanism, a machine of survival that had proven itself capable of functioning under pressure.
+
+As they walked, the shadows retreated further into the background, becoming mere darkness rather than a lurking presence. The sun, filtered through the canopy, seemed a little brighter, a little warmer. They had crossed the threshold. The first real test of their journey was behind them, and they had passed it.
+
+Elias glanced back at Elara. She was watching the ground, her eyes sharp and assessing. She met his gaze and gave a single, slight nod. It was an acknowledgment of success, of shared burden, of the fact that they had done something difficult together and survived.
+
+He returned his gaze to the road. There was still miles to go, and the mountain pass loomed in the distance. But for now, the immediate danger was over, and the path forward was open.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
