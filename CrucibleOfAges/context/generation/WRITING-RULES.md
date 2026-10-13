@@ -265,11 +265,11 @@ Dark subject matter does not require relentlessly dark prose or characters.
 
 ## Humor
 
-Maintain an adventurous, good-humored baseline even when danger and consequences are real.
+Let the established story determine its tonal baseline. Preserve room for dry humor, companionship, relief, and wonder even when the central circumstances are harsh.
 
 Humor should arise from character perspective, conflicting personalities, practical complications, social customs, institutions, and the contrast between heroic expectations and inconvenient reality. Do not insert unrelated jokes merely to satisfy a humor quota.
 
-Every Short arc should establish a comic engine: a recurring source of humorous pressure specific to that episode. Suitable comic engines include:
+When an arc benefits from sustained humor, establish a recurring source of humorous pressure specific to that episode. Suitable sources include:
 
 - companions pursuing incompatible but reasonable approaches
 - grand heroic traditions colliding with mundane necessities
@@ -281,11 +281,7 @@ Every Short arc should establish a comic engine: a recurring source of humorous 
 - practical disputes involving food, payment, lodging, transport, equipment, and reputation
 - the difference between how an adventure will be retold and what actually happened
 
-The comic engine should progress across a Short arc:
-
-1. establish the comic situation in the first chapter
-2. complicate, escalate, or reverse it in the second chapter
-3. pay it off as part of the episode's resolution in the third chapter
+A recurring humorous situation should develop through establishment, complication, and payoff at a pace suited to the arc. Do not impose a three-chapter comedy structure on every episode.
 
 Prefer dry observation, understatement, escalating inconvenience, callbacks, reversals, and character-specific reactions over setup-and-punchline jokes.
 
@@ -320,7 +316,7 @@ Avoid:
 - making every authority figure incompetent
 - forcing jokes into the emotional climax of a serious scene
 
-An episode should normally contain at least one sustained humorous situation or recurring comic complication, not merely isolated humorous sentences. Its conclusion should provide an entertaining payoff to both the adventure problem and the comic engine.
+When a recurring comic situation is established, give it development and an appropriate payoff. Serious episodes may conclude through emotional or practical resolution without a comic payoff.
 ## Relationships and Sexuality
 
 Romantic and sexual content involves adults.
@@ -387,7 +383,7 @@ Do not treat a trope name as permission to:
 
 Favor adventure, discovery, earned competence, camaraderie, wit, strange places, useful victories, and entertaining complications. Serious consequences may persist, but sustained misery, helplessness, suspicion, and emotional punishment must not become the story's default atmosphere.
 
-The Blight storyline is a prelude and must conclude by Chapter 16. It establishes the company and the larger world; it is not the permanent tone or subject of the series.
+Story-specific deadlines, subject matter, and tonal commitments belong in narrative and arc context.
 
 ## Rule Design
 
@@ -424,3 +420,35 @@ When two rules conflict, prefer the rule that best preserves:
 - Do not rely repeatedly on staring, blushing, racing hearts, accidental touching, jealousy, or descriptions of physical beauty.
 - Do not force romantic content into every chapter.
 - Romantic interaction should also reveal character, influence decisions, create conflict, provide relief, or affect later behavior.
+
+## Scene Construction and Consequences
+
+Build scenes around a character who wants something specific, encounters resistance, makes a choice, and leaves with changed circumstances or understanding. The resistance may be social, practical, emotional, or internal. Avoid mechanically repeating this structure in the prose.
+
+Establish enough physical geography for readers to understand movement, access, concealment, and escape. Track hands, restraints, carried objects, witnesses, distance, and elapsed time when these affect a choice. A successful bluff needs a credible incentive for the target to cooperate; confidence alone does not compel obedience.
+
+Carry costs forward. Injury affects movement and sleep; hunger affects attention; betrayal affects trust; public defiance affects surveillance. Recovery and reconciliation require time or an established means. A completed scene may solve its immediate problem while leaving believable consequences.
+
+## Discovery, Language, and Exposition
+
+Reveal unfamiliar cultures through work, purchases, meals, rituals, disputes, and relationships. Give a custom a practical or social function before explaining its history. Introduce names and specialist terms when readers have something concrete to attach them to.
+
+Language learning requires repeated exposure, context, correction, and practice. Track comprehension separately from speech and literacy. A gesture or tone may suggest intent without revealing exact words, legal meaning, rank, or private motives. Use provisional interpretations until evidence supports certainty.
+
+Separate observed facts, character theories, institutional claims, and author-only truth. A false doctrine can influence behavior without becoming an authoritative explanation of the world.
+
+## Progression and Competence
+
+Respect the story's established progression and presentation rules. Hidden mechanics need not be explained to the character or reader. Distinguish an author-established capability change, new learning potential, actual acquisition, and reliable mastery. Do not introduce visible rewards, selection menus, XP, or levels where story context forbids them. Advancement should change what characters can attempt while preserving relevant costs and limits.
+
+Introduce abilities with concrete scope and conditions. Track activation, range, duration, recovery, resource costs, and failure conditions as they become established. Do not invent an exception during a climax to solve a previously impossible problem.
+
+Prior experience transfers unevenly. Training may support observation, habits, and practice while unfamiliar bodies, equipment, languages, and circumstances still require adaptation. Confidence can exceed competence, particularly in a young or frightened viewpoint character.
+
+## Agency, Power, and Intimacy
+
+People being helped retain their own goals, expertise, boundaries, and right to disagree. Gratitude does not establish loyalty, obedience, romantic interest, or consent. Allies may cooperate for limited reasons and leave when those reasons change.
+
+When authority affects access to safety, food, freedom, or punishment, account for that dependence in relationships. Establish adult status before intimate content and show that consent is freely given. Coercive abuse, when relevant to the story, must have a clear narrative purpose and credible consequences.
+
+Allow moral development to appear in changed decisions under comparable pressure. Reflection and remorse may precede change, but they do not replace restitution, relinquished advantages, or altered behavior.
