@@ -68,7 +68,7 @@ But this woman wasn’t a target. She was a person. And the realization that he 
 
 The firefight continued around him. A bullet sparked off the wall behind him, spraying a shower of red dust into his hair. He didn’t flinch. He just stood there, a monument to his own indecision. He could hear Davis calling out, "Sergeant, I need cover! I need cover!" The desperation in the young Private’s voice was a mirror to his own. They were all afraid. They were all trying to survive. And he was the one who had to decide what survival meant.
 
-He thought about his father. He thought about the way his father had looked at him, with that disappointed, hard gaze that said *you are not enough*. He had spent eighteen years trying to be enough. He had tried to be the best, the strongest, the most competent. He had tried to be the one who never hesitated, never doubted, never failed. And now, in this moment, in the middle of a war that wasn’t his, he was failing. He was hesitating. And he realized, with a sudden, shocking clarity, that he didn’t want to be the one who killed her. He didn’t want to be the weapon that finished her. He wanted to be the one who stopped it.
+He thought about his father. He thought about the way his father had looked at him, with that disappointed, hard gaze that said *you are not enough*. He had spent his life trying to be enough. He had tried to be the best, the strongest, the most competent. He had tried to be the one who never hesitated, never doubted, never failed. And now, in this moment, in the middle of a war that wasn’t his, he was failing. He was hesitating. And he realized, with a sudden, shocking clarity, that he didn’t want to be the one who killed her. He didn’t want to be the weapon that finished her. He wanted to be the one who stopped it.
 
 It was a stupid thought. It was a weak thought. It was the kind of thought that got people killed.
 
@@ -96,7 +96,7 @@ The woman flinched, and the cloth slipped. Caelen saw a tiny, limp hand, then th
 
 He moved.
 
-It wasn’t a calculated maneuver. It was a raw, animal lunge, a desperate rejection of the geometry of the situation. Caelen dropped his rifle, letting it clatter against the broken brick, and threw himself across Miller’s line of fire. As Miller fired a burst, he threw his body between the sergeant and the mother, a human shield made of flesh and bone and eighteen years of accumulated fear and pride.
+It wasn’t a calculated maneuver. It was a raw, animal lunge, a desperate rejection of the geometry of the situation. Caelen dropped his rifle, letting it clatter against the broken brick, and threw himself across Miller’s line of fire. As Miller fired a burst, he threw his body between the sergeant and the mother, a human shield made of flesh and bone and accumulated fear and pride.
 
 The impact was instantaneous and absolute.
 

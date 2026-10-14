@@ -1,31 +1,93 @@
-﻿# World
-## The Crucible
+# World
 
-Creation is a crucible made by the Creator so that souls can grow through conflict and learn what it means to love others. Every person lives, dies, and returns in a later age and possibly on another world. Memories endure imperfectly across lives. Civilizations change, bodies adapt, laws become distorted, and relationships are severed, but each soul continues accumulating the consequences of its choices.
+## Mandatory World Rule: Base-Eight Numbers and Calendar
 
-Every intentional action may contribute to one of two independent paths: **Dominion**, the use of another person's weakness for a concrete personal benefit, and **Sacrifice**, the surrender of something for another person's benefit. Most actions advance neither path. Neither path is identical to love, and neutrality is not the same as moral goodness.
+This rule governs all prose, dialogue, inscriptions, prices, accounts, dates, and local records. It overrides conflicting shorthand or older descriptions elsewhere in the context. Human revisions and generated prose must follow it.
 
-Everyone progresses, but most people do so blindly. Only those who die on Earth during their first life in a single act intended to save another person's life receive the System. The condition exists only on Earth and only during that original life; it cannot be recreated or gamed on later worlds. The System allows its bearer to see and direct growth, choose classes, skills, and talents, and use advancement efficiently. It does not force the bearer toward Sacrifice. A person who once died to save another can later become one of history's most efficient tyrants.
+### Numbers
 
-At Level 100 in either path, the soul becomes Enlightened, the path locks permanently, and the body becomes immortal. Dominion Enlightened tend to seize and retain control. Sacrifice Enlightened tend to withdraw until enough of them exist on the same world to overthrow the current Dominion order. Their conflict may unfold across thousands of years.
+- All ordinary local numerical notation is base eight. Only digits 0–7 are valid. Digits 8 and 9 must never appear in local numerals.
+- Counting passes from 7 to 10, from 17 to 20, and from 77 to 100. A local 10 is eight units, not ten. A local 100 is sixty-four units, not one hundred.
+- Mathematical familiarity with bases two, four, or sixteen does not authorize a switch in ordinary notation. Any specialized alternative requires explicit author establishment; decimal is not a local default.
+- Write out quantity names when this is clearer, or use the established grouping names. Do not spell out an incorrect decimal interpretation as though it were the local quantity.
+- Decimal is permitted only in explicitly identified author-reference conversions or Caelen's clearly marked Earth-based thoughts, comparisons, and mistakes. His error is an error within the scene, not a change in world arithmetic. Correct transactions must reconcile in base eight.
 
-The public struggle in every age concerns which law, ruler, god, natural order, or institution has the right to govern. The deeper struggle concerns what souls do with power and whether they can learn love without possessing, using, or erasing one another.
+### Calendar and Periods
 
----
+| Period | Local day count (base eight) | Structure | Functional equivalent |
+| --- | ---: | --- | --- |
+| Octet | 10 | Eight days in decimal reference | Week |
+| Pentad | 40 | Four octets | Month |
+| Heptad | 200 | Four pentads | Intermediate period |
+| Ennead | 1,000 | 20 pentads in local notation (sixteen in decimal reference) | Year |
 
-### 1. The Creator and the Purpose of the Crucible
+- An ennead always contains sixteen pentads, ordered Auvren, Mereth, Jessa, Nover, Priel, Feryn, Serept, Maelis, Ocran, Juneth, Dessen, Vembra, Janeth, Auris, Jurel, Ember. Their local numbers run 1–7, then 10–17, then 20.
+- A pentad's day numbers run from 1 through 40 in base eight. The first day is its named holy day. Each octet's final day is holy: pentad days 10, 20, 30, and 40. Pentad day 40 and the next pentad's day 1 are consecutive holy days.
+- Use octet, pentad, heptad, ennead, and the established pentad names in local timekeeping. Do not substitute Earth weekdays, Earth month names, decimal dates, seven-day weeks, twelve-month years, or a Gregorian calendar.
+- There are no seasons. Do not introduce seasonal weather, equinoxes, solstices, or season-based festival dates. The calendar is a repeating count of days, not a seasonal cycle.
+- Day length has no established Earth conversion. Do not calculate a character's Earth-year age from local days. Numerical ages are not stated in ordinary prose; routine age tracking ends at naming.
+- Early-life milestone: 100 local days. Naming: 10,000 local days, or first blood earlier for females. Do not confuse naming at 10,000 with an ennead of 1,000. Naming does not establish adulthood.
 
-The Creator established existence as a crucible for the formation, testing, and revelation of souls. The Creator's ultimate Law is to love others: to place another person's needs and desires above one's own when a genuine conflict requires a choice.
+### Required Continuity Check
 
-Dominion and Sacrifice are the two pressures through which souls confront that Law. Neither is a complete or pure expression of love.
+Before accepting or revising prose containing quantities or elapsed time, check numeral digits, the intended base, grouping conversions, period boundaries, pentad sequence, and holy-day placement. Inspect spelled-out quantities as well as digits. Preserve a deliberate Caelen mistake only when its interpretation and consequences are mathematically consistent. Correct accidental violations rather than explaining them away as local exceptions.
 
-- Dominion elevates the self by exploiting another.
-- Sacrifice surrenders something for another, but giving can still be foolish, enabling, misdirected, compulsory, obsessive, or disconnected from what the other person truly needs.
-- Love requires conflict because neither Dominion nor Sacrifice deepens in understanding when either one completely dominates the world around it.
 
-When Dominion controls everything, exploitation becomes ordinary and meets no meaningful resistance. When Sacrifice controls everything, giving becomes safe, expected, and insufficiently tested. Dominion must encounter people it cannot simply use. Sacrifice must learn when to give, what truly helps, what must be resisted, and how to protect others without possessing them.
+## Authoritative Faction Model
 
-The Creator preserves conflict between the paths so that choice remains meaningful. Balance does not mean that Dominion and Sacrifice are equally loving. It means that neither is allowed to eliminate the conditions under which souls must choose.
+This model supersedes the former independent Dominion and Sacrifice scoring system. Dominion and Sacrifice are factions. Dominion and Sacrifice points are recorded behind the scenes and weigh a person's choices. These hidden scales are distinct from faction advancement: a person advances only within the assigned faction.
+
+Actions in the tutorial determine a person's assigned faction. The tutorial establishes initial faction assignment through actions. Its exact scope remains unspecified. Dying while intentionally saving someone qualifies a person for Sacrifice: assignment may be automatic or the person may receive an option to choose Sacrifice. Caelen's tutorial choices weigh strongly toward Dominion. His rescue death triggers automatic Sacrifice assignment, but the conflict with that strongly Dominion-weighted pattern triggers a rare offer to choose between factions. This scale uses hidden faction points recorded behind the scenes. Nothing during life reveals where a person's scales lie; weighing occurs only at death. At death, Caelen receives the rare choice and quickly chooses Sacrifice. He dislikes what he became on Earth, and only his final act of protecting the mother gives him peace. He does not yet understand what the choice means. Do not infer assignment from a single action, the displayed numbers, or his apparent moral character.
+
+A person can advance only in the faction to which they are assigned. Acting differently does not immediately switch faction or unlock advancement in the other faction. Faction change is possible but difficult and occurs only at death. Reassignment depends on the pattern of intentional choices during the life just ended. An awakened person who intentionally develops a pattern of domination or sacrifice may be assigned a new faction at death. This is possible rather than guaranteed; no numerical threshold or single-act shortcut is established. Reassignment is so rare that only a few people know it is possible, and that knowledge is secret. The earlier claim that faction locks permanently at Level 100 must not override this rule; its interaction with Enlightenment requires clarification.
+
+Only people from Earth are awakened, and everyone from Earth eventually awakens. Awakening is not restricted to people who die saving someone. There are billions of Earth-origin people distributed across trillions of planets, so awakened people are exceedingly rare. Only a few exist on a planet at any one time; this is not an established fixed numerical cap.
+
+Every planet receives at least two awakened people at its beginning: one assigned to Sacrifice and one assigned to Dominion. They are the planet's Adam and Eve in the founding sense. This does not yet establish their genders, a romantic pairing, biological parenthood of every inhabitant, or an exact arrival sequence.
+
+A death intended to save someone affects access to the Sacrifice faction rather than determining whether an Earth-origin person can ever awaken.
+
+Almost nobody understands these mechanics reliably. Awakening does not automatically grant complete knowledge. Keep author truth, private experience, rumor, doctrine, and character inference separate.
+
+No System interface, ability, notification, or other mechanism reveals a living person's hidden scale totals or weighting. Characters can speculate about their choices, but cannot verify their scales during life. Weighing happens only at death; the form and precision of what is disclosed then remain unspecified.
+
+The private System interface remains an established experience for Caelen, but its two displayed ones have no confirmed meaning in this model. They must not be described as visible Dominion or Sacrifice points, scale readings, or confirmed levels in two factions.
+
+## The Creator's Search for Rulers
+
+The Creator seeks 120,000 rulers to govern the universe he created. Earth is the breeding ground of these prospective rulers. The desired rulers must be capable of both sacrifice and rule: willingness to serve others must coexist with the ability to exercise responsibility and authority.
+
+### The Rare Visit — What Caelen Learns
+
+After Caelen chooses Sacrifice at death, the Creator makes a rare personal visit to verify his choice. Caelen learns that the Creator is seeking rulers for his universe and that Earth produced the candidates. The visit does not give him complete knowledge of faction progression, hidden scales, or the consequences of his choice.
+
+The author-known target is 120,000 rulers. The number is withheld until the end, along with the Sacrifice-only acceptance rule and the destruction and replacement of Dominion rulers. Do not reveal these truths to Caelen or the reader earlier. Verification of his faction choice does not establish that he has already qualified as a ruler.
+
+### Author-Only Selection Truth — Reveal at the End
+
+Only rulers on the Sacrifice path are accepted. Dominion rulers are destroyed, and new candidates are put forth in their place. The Creator does not disclose this acceptance restriction or the fate of Dominion rulers during Caelen's visit. Caelen must not reason or speak as though he knows this secret.
+
+The precise stage at which a ruler is judged, the meaning and mechanism of destruction, and the replacement process remain undefined. Do not equate a Dominion assignment with immediate destruction: the revealed rule concerns Dominion rulers in the selection process. Do not assume ordinary planetary rulers are all being destroyed immediately.
+
+This selection truth revises the ultimate purpose of the crucible. The broader world's political conflicts test whether candidates can protect, serve, decide, and govern without converting dependence into personal possession. The 120,000-ruler goal is not a guarantee that Caelen will succeed or a guarantee that all 120,000 positions will be filled within Book One. This book follows Caelen to planetary rulership and then reveals the selection plan.
+
+### Caelen's Sacrifice Advancement
+
+Caelen is assigned to Sacrifice by his choice at death. His quick decision expresses rejection of his former self and attachment to the peace of his final rescue; it is not an informed progression strategy or a completed moral transformation.
+
+He advances when he sacrifices for others or genuinely accepts the potential of sacrifice for them. An actual loss is not required in every qualifying action: defending another person with his life and sword can advance him when he truly places his life or something else of his own at risk for that person's sake. Surviving or successfully preventing injury does not automatically invalidate that potential sacrifice.
+
+Combat, sword use, victory, self-defense, and a claimed protective purpose do not alone establish qualification. The action needs a genuine sacrifice or potential sacrifice for others. Exact award formulas, minimum risks, and other advancement requirements remain undefined. Do not convert this into a visible reading of his hidden faction scales.
+
+Caelen gradually notices that growth seems connected to bearing or risking costs for others and occasionally questions his choice. He does not know the hidden advancement formula or possess XP or level information. He can still exploit, act selfishly, or fight for himself, but cannot advance in Dominion during this life. His doubts do not switch faction.
+
+### The Crucible and Moral Conflict
+
+Creation is the Creator's crucible for souls to confront power, dependence, surrender, and love across lives. Dominion concerns using another person's weakness for concrete personal advantage. Sacrifice concerns intentionally surrendering something for another person's benefit. These describe behavior and thematic conflict. Choices also contribute to hidden scales, but exact scoring formulas are not established and no living person receives a scale reading.
+
+Faction membership is not a complete morality meter. One courageous act does not establish a good person, and an assigned faction does not erase free will. Caelen can exploit people, protect them, misunderstand them, and change his behavior while remaining in the same faction throughout his current life.
+
+The world's ruling order is built around slavery, debt, inherited status, military force, and religious authority. Political institutions and metaphysical factions are distinct. A person's office, clothing, social class, or public doctrine does not by itself reveal their assigned faction.
 
 ### 2. The Creator's Law
 
@@ -37,325 +99,314 @@ The most self-righteous factions claim exclusive obedience to the Creator. They 
 
 The focus of the exaggeration changes between worlds and ages. The pattern remains recognizable even when the religion, terminology, species, and culture are new.
 
-### 3. Dominion, Sacrifice, and Neutral Actions
+## Death, Nothing, and Bodily Return
 
-Dominion and Sacrifice are independent progression paths. An action is evaluated individually rather than receiving a single score based upon the person's general character.
+Caelen truly dies on Earth. His living Earth body is destroyed. He remains dead in a form of Nothing, also called the void, where he experiences the passage of time. The acuteness of memory is gradually diluted: recollections lose sharpness and emotional immediacy. This subjective experience does not make him bodily alive.
 
-Most actions are neutral. Affection, duty, trade, leadership, obedience, survival, ambition, punishment, charity, and violence may advance neither path. **Neutral means that neither progression advances. It does not mean that the action is morally right, harmless, or approved by the Creator.**
+Later his body is reformed from local dust, and he awakens on another world. His returned body is adapted to its destination and unfamiliar to him. Return does not supply local language, law, culture, or political knowledge.
 
-#### 3.1 Intent Selects the Path
+Memory is imperfect. Details fade, merge, and become difficult to retrieve. Emotional distance does not guarantee complete healing or erase everything he remembers.
 
-Intent determines which path receives points. Reality at the moment of the action determines the strength of the award.
+Death removes the present body, possessions, position, obligations, and shared future. Return does not guarantee reunion with loved ones or continuity with the civilization left behind. The duration of Caelen's interval in Nothing is unspecified.
 
-- When intent and immediate reality agree, the action grants stronger advancement.
-- When intent and immediate reality conflict, the intended path still receives points, but the award is subdued.
-- Reality alone does not award points to the opposite path.
-- Later consequences do not retroactively change the award.
-- Self-deception and deception by others can place intent and reality at odds.
+### Return and Placement Questions
 
-A person sincerely attempting Sacrifice may therefore receive reduced Sacrifice when the action actually harms the intended beneficiary. A person attempting Dominion may receive reduced Dominion when the exploitation fails or unexpectedly benefits the intended victim.
+The former balance calculation based on two level totals for each soul is superseded. Do not use equal scores to explain Caelen's wait or placement. The current rules for destination selection, waiting duration, planetary balance, and the treatment of non-awakened people have not been specified under the faction model.
 
-#### 3.2 Dominion
+Caelen returns by bodily reformation from dust. Whether other souls return through birth and how that choice is determined remain unresolved; do not apply the former numerical-age boundary as current canon.
 
-Dominion requires both of the following:
+## Unresolved Metaphysical Mechanics
 
-1. The actor intends to exploit or take advantage of another person's weakness.
-2. The actor intends to obtain a concrete, determinable personal benefit.
+Enlightenment, immortality, non-awakened progression, destination assignment, and the fate of souls destroyed during ruler selection require author decisions. Former Level 100 and hundred-Earth-year reformation mechanics are retired from active generation context pending confirmation; their prior wording is preserved in the revision archive. Do not introduce these as established rules or use them to solve a plot problem.
 
-The intended benefit may involve money, property, access, office, reputation, safety, sex, authority, political control, or another definite external advantage. An abstract or ephemeral desire is insufficient by itself. Feeling powerful, satisfying pride, proving ideological superiority, or enjoying an emotion does not independently qualify.
+## Institutions and Leadership
 
-The desire for power is contextual. Seeking an undefined sense of power may not qualify. Exploiting someone to obtain power for a determinable benefit, such as money, property, access, office, or control, qualifies as Dominion.
+Every institution enforces a practical law: who can act, who must obey, what is rewarded, and who bears the cost. Divine command, inherited right, survival, strength, liberty, and equality can all be invoked sincerely or used to justify exploitation.
 
-Public justification does not control registration. The operative intent does. A person who knowingly exploits someone while publicly calling the arrangement fair still gains Dominion. A person genuinely deceived about what is happening may possess a different intent and receive a subdued award in the path actually intended.
+Authority can serve people or exploit their dependence. Taxation, command, punishment, and force need to be understood through purpose and consequences. Give institutions internal disagreement and credible services alongside abuses.
 
-After the act qualifies, scale matters. Greater damage produces more Dominion. Exploiting someone innocent, naïve, dependent, trusting, desperate, or unable to resist produces more than obtaining the same benefit from an informed and powerful rival.
+A liberator must face the material needs of the people freed. Emergency leadership can become possession when followers lose meaningful choice. Protection, shared decisions, accountability, and removal of exploitative officials should matter in the story without being converted into point awards.
 
-Mutual benefit, authority, profit, persuasion, victory, coercion, or violence does not automatically create Dominion. The actor must intend to use a weakness for a determinable personal benefit.
+## Current Observations — End of Chapter 4
 
-#### 3.3 Sacrifice
+- Caelen is alive, collared, and captive in a stone-walled slave pen.
+- The new world has a pale yellow sky and a hazy sun. Exact gravity remains uncertain.
+- Local speech is unfamiliar to him.
+- His private interface displays two ones with a shimmering division. Their meaning is unresolved.
+- Captors assess, collar, restrain, and transport people as saleable assets.
 
-Sacrifice occurs when a person intentionally gives up something for another person's gain. The surrender must be part of the intended action. Incidental loss and suffering do not qualify by themselves.
+## Book-One Worldbuilding Foundation
 
-Recklessness, compulsory pain, self-hatred, and performative martyrdom are not automatically Sacrifice. An apparently heroic action may remain neutral when it follows the actor's own desires without a genuine act of surrender. A parent who saves a child and survives may receive no Sacrifice. A stranger who knowingly accepts injury to save that child may receive Sacrifice.
+The following is author-facing setting guidance for future scenes. It develops the premise without asserting that Caelen or local inhabitants know the metaphysical rules. Named places, currencies, offices, species names, and unsupplied mechanical details remain open. Use the timekeeping and measurements established below. The current state above records events already shown.
 
-Sacrifice is difficult to farm deliberately. A person may seek opportunities to serve or prepare to bear costs. When acquiring advancement becomes the operative purpose of the decisive act, the act no longer has genuine Sacrificial intent. The System reward does not make the action Dominion unless the actor also intends to exploit someone for a determinable external benefit.
+### Material Life and Local Scale
 
-#### 3.4 Separate and Mixed Actions
+The opening settlement supports stone streets and walls, carts, metal restraints, ledgers, coarse clothing, and elite silk garments. These establish organized trade and unequal access to skilled labor. They do not establish industrial manufacturing, firearms, universal literacy, or a particular historical Earth technology level.
 
-Separate actions receive separate judgments. A person who starts a fire for profit gains Dominion for setting it and may later gain Sacrifice by genuinely risking something to rescue a victim. One does not erase the other.
+Build the first region from connected necessities: a settlement needs food, water, fuel, waste removal, transport, repair, and labor. Identify where each comes from when it affects the story. The slave market depends on roads, suppliers, buyers, guards, storage, and intermediaries; damaging one part creates consequences elsewhere.
 
-A truly mixed action is possible but extremely rare. It requires one choice containing both a sincere intent to surrender something for another person's gain and a sincere intent to exploit someone else's loss for a determinable personal benefit. Such an action can advance both paths.
+The yellow sky and hazy sun coexist with local variation in light, dust, shade, and humidity. Caelen's initial heaviness is an unresolved observation, not a measured gravity value. Environmental adaptation makes his body locally viable; it does not grant effortless coordination or immunity to hunger, injury, disease, or exhaustion.
 
-### 4. Levels and Advancement
+Food, washing, bargaining, weather, songs, games, family obligations, and ordinary work should give this world life beyond its oppression. Captives preserve habits, tastes, faith, humor, skills, and private ambitions. Survival routines provide opportunities for discovery and relationships as well as conflict.
 
-Every soul accumulates Dominion and Sacrifice levels whether or not the person possesses the System. The scores are independent. A person may carry substantial progress in both paths.
+### The Slave Economy
 
-Progression follows a rising level curve. Every new level requires more advancement than the one before it. Trivial acts can be repeated indefinitely, but they give trivial points. Large acts advance more quickly. Repeated petty exploitation can eventually produce Dominion levels, while enslavement, calculated betrayal, or the deliberate destruction of an innocent person can produce far greater advancement.
+Slavery persists through coordinated interests and credible enforcement. Develop capture, claimed ownership, transport, valuation, sale, labor assignment, and recapture as distinct activities. A captive may encounter several agents whose profits and obligations differ.
 
-Unsuccessful actions can still register because intent selects the path. Immediate reality controls how strongly the action registers.
+Value depends on what a buyer expects a person to do. Physical strength, learned skills, health, language, compliance, and escape risk can affect treatment. Owners may preserve valuable workers while accepting brutal conditions for replaceable labor. Such calculation can explain restraint without making an owner benevolent.
 
-People without the System grow inefficiently. Their advancement is automatically distributed. They cannot see levels, choose classes, select skills or talents, preserve advancement for a chosen purpose, or know what an ability requires.
+Collars and records signify claimed ownership. The established collar is locked metal; magical tracking, compulsory obedience, lethal removal, and remote punishment are not established properties. Any added mechanism requires a deliberate introduction and consistent limits.
 
-### 5. The System
+Enforcement requires information and resources. Guards have shifts, superiors, routines, conflicting duties, and reasons to report or conceal incidents. A guard's retreat in Chapter 4 establishes one local outcome, not general immunity for Caelen. Others may test him, watch him, raise his price, or seek a less costly way to control him.
 
-The System can initialize only on Earth during a person's first life.
+Freedom has material requirements. Escape leaves questions of water, food, shelter, identification, travel, medical care, and protection from recapture. Freeing a group increases these demands and makes decisions about leadership consequential.
 
-Initialization requires one action in which the person dies with the intent to save another person's life. The rescue does not need to succeed. The relationship between rescuer and intended victim does not matter. In that act, giving one's life constitutes Sacrifice even when the same rescue would have been neutral had the rescuer survived.
+### Institutions and Competing Laws
 
-Anyone who completes that first Earth life without initializing the System can never acquire it later. Dying in an identical act on another world or during any subsequent life does not initialize the System. The rule cannot be reproduced through planning, ritual, technology, repeated sacrifice, or deliberate manipulation.
+Develop institutions through their promises, resources, beneficiaries, enforcement methods, and internal disagreements. These functional groups may overlap; they are not yet named factions:
 
-Once initialized, the System follows the soul through every return. It cannot be removed, lost, or reset. The bearer may conceal it, ignore it, pursue Sacrifice, or use it to organize Dominion growth.
+- Owners and brokers promise order and reliable labor. They depend on recognized claims, transport, buyers, and cooperation from authorities. Disputes over price, damage, theft, and jurisdiction can divide them.
+- Civic and armed authorities promise safety and predictable rules. Tax income, bribes, patronage, and obligations to powerful households can make enforcement selective. Individual officials may serve sincerely, exploit deliberately, or perform ordinary work without their behavior revealing faction membership.
+- Religious authorities preserve fragments of the Creator's Law. Some offer care and genuine moral restraint; others defend hierarchy by confusing inherited practice or added restrictions with divine command. Disagreement within a tradition should matter.
+- Free workers, households, and merchants need income and stability. They may resent slave competition while depending on cheap goods, fear rebellion while sheltering a fugitive, or oppose one abuse while accepting another.
+- Captive networks exchange knowledge, favors, protection, and news. Their loyalties may follow kinship, shared work, language, fear, or obligation. Protection can become exploitation when dependence is converted into concrete personal advantage.
 
-The System allows its bearer to:
+Give each recurring institution a real service it provides, a cost someone bears, and a dispute its members cannot resolve easily. Opposition to slavery does not settle every question of restitution, punishment, land, labor, or legitimate authority.
 
-- See progression and levels.
-- Direct advancement instead of accepting automatic distribution.
-- Select classes, skills, talents, and abilities.
-- Preserve and coordinate advancement toward chosen results.
-- Learn how particular forms of growth relate to future advancement.
+### Returnees, Belief, and Information
 
-The interface is private. No bearer can make another person directly see or verify it. Reliable knowledge of the System is scarce on established worlds. Dominion-dominant System bearers almost never return, and the few System bearers who do appear are separated by worlds and ages. Testimony decays into doctrine, rumor, and fable. Most cultures remember only legends about the gods of old, contradictory stories about chosen people, or secret traditions that cannot be publicly verified. A society may suspect that the System exists while knowing almost nothing accurate about how it works or who possesses it.
+A person without local speech, kinship, possessions, or recognized identity is vulnerable regardless of the explanation for their arrival. Legends about people emerging from earth may prompt fear, worship, opportunism, disbelief, or concealment. Capturing Caelen does not prove that his captors understand return, planetary balance, or the System.
 
-System rewards are consequences of actions. Receiving a reward does not retroactively convert Sacrifice into Dominion.
+Keep actual returnees, people claiming remembered lives, and supposed ancient gods distinct. Their testimony may contain accurate fragments alongside errors. Memory of another life does not establish expertise in the present one.
 
-### 6. Death, the Void, and Return
+Local accounts of the afterlife can influence funerals, inheritance, mourning, and the treatment of strangers. Eventual return offers little practical reassurance to a family that may never meet again. Doctrines used to minimize death's cost should be presented as claims with human consequences.
 
-Every soul can return after ordinary death, regardless of goodness, evil, Dominion, Sacrifice, or System possession, and given infinite time every soul will return. Return always moves forward in time. The guarantee of eventual return does not imply a practical waiting period. A soul may return within years or wait thousands, millions, or billions of years. The next life may occur on another continent, another planet, or in a civilization with no surviving connection to the previous one.
+Accurate planetary totals are not public information by default. Observing a pit or meeting a returnee does not reveal the Creator's assignment calculation. Institutions can act on mistaken theories without gaining control of the actual mechanism.
 
-#### 6.1 The Void
+### Ability Design Boundaries
 
-Between lives, souls dream in the void. The dreams allow the mind to process memories, grief, trauma, loyalty, attachment, hatred, and desire.
+No usable ability has been demonstrated by Caelen through Chapter 4. The two displayed ones have no confirmed meaning under the faction model. They are not Dominion and Sacrifice scores; flickering alone establishes neither advancement nor an unlocked power.
 
-The emotional change is gradual rather than an instantaneous reset.
+For Caelen, class capabilities follow the hidden SRD 3.5 Fighter framework; Sacrifice governs advancement eligibility, not a separate ability catalogue. Do not invent faction-specific powers. Other people's classes and advancement mechanisms remain undefined. Ordinary skill, equipment, organization, and allies remain consequential.
 
-- A short wait preserves strong emotional bonds and unresolved wounds.
-- A long wait softens trauma, grief, hatred, desire, and attachment.
-- Memories remain while their emotional intensity changes.
-- The process creates distance and healing without producing perfect memory or complete emotional erasure.
+Before a new power resolves a major obstacle, establish what it acts on, what it requires, what it costs, and what can resist it. Do not use a power to bypass language acquisition, consent, practical logistics, or private-interface limits without explicitly establishing a compatible mechanism.
 
-Dominion-heavy souls almost always remain in the void for an extremely long time because established worlds rarely need additional Dominion. They often return with far greater emotional distance from their previous lives. Sacrifice-heavy souls are needed frequently and may return almost immediately. They retain stronger bonds, loyalties, grief, love, and trauma because they receive less time to heal.
+### Details Still Open
 
-#### 6.2 Memory
+The world and settlement names, regional map, political hierarchy, currency, local species taxonomy, exact technology ceiling, and religious denominations remain open. Time periods and measurement units are established below; Caelen's mechanics are author-managed. Establish them in small connected groups as the story requires them. Record an established detail in its proper context so later scenes reuse it.
 
-Memory behaves as memory naturally does. Details fade, merge, distort, and become difficult to retrieve. Important moments may remain vivid across millions of years while ordinary years disappear. A soul does not possess a perfect archive of every life.
 
-Those who return through infancy initially encounter earlier lives as instincts, dreams, recognition, fears, affinities, and unexplained knowledge. Deliberate recall develops as the new brain matures.
+## End Revelation — Planetary Rulership
 
-#### 6.3 Bodies and Destinations
+The revelation occurs once Caelen becomes ruler of his planet, as one of the few Sacrifice rulers. At that point he learns that the Creator seeks 120,000 rulers capable of both sacrifice and rule, accepts only Sacrifice rulers, and destroys Dominion rulers while putting forth new candidates.
 
-Some souls return through ordinary birth into a new family. Others awaken fully formed at peak physical condition, made from the local earth and lying in pits assigned by the Creator.
+This is the culmination of Caelen's planetary rulership arc, not the earlier liberation of one slave operation or the formation of a small army. Keep these selection truths hidden from Caelen and the reader until he reaches that milestone. Do not treat his early choice or the Creator's verification visit as proof that he has already achieved planetary rulership or passed the final selection.
 
-Every body is genetically adapted to its destination. Differences in gravity, atmosphere, climate, radiation, disease, and ecology may produce distinct humanoid species. The returned person retains the same gender and a recognizably continuous appearance within the requirements of environmental adaptation.
+## The Creator's Particular Interest in Caelen
 
-Return does not grant the local language, culture, religion, technology, or political knowledge.
+The Creator takes a unique interest in Caelen and prompts him throughout his rise. Beyond the early verification visit, this guidance arrives as seemingly random data supplied in odd ways, providing critical clues when Caelen needs them.
 
-Accumulated age has little social meaning in cultures where souls may have lived many times. People may ask whether someone is living a first life when that fact matters. They do not ordinarily calculate or ask the total chronological age of a returned soul.
+The Creator never intervenes to resolve events. Guidance supplies information; Caelen must notice, interpret, test, and use it. It does not remove opposition, bear his costs, compel anyone's choices, guarantee success, or substitute for his judgment and responsibility.
 
-#### 6.4 Why Death Matters
+The exact delivery mechanisms are not yet established. Introduce each in a way compatible with the scene and viewpoint, without assuming new divine powers or a particular messenger. Caelen does not recognize the Creator as the source until the ending. He may discover the practical significance of a clue earlier without identifying its divine origin. Odd information can acquire meaning through later observations and accumulated knowledge.
 
-Death takes the current body, family, world, position, possessions, obligations, and future. Loved ones may return on different planets or in ages separated by millions of years. The next world may be alien, brutal, primitive, or barely survivable.
+Preserve the end revelation: these prompts must not disclose the 120,000 target, Sacrifice-only acceptance, or destruction and replacement of Dominion rulers before Caelen becomes ruler of his planet. The Creator's reason for this unique interest remains unspecified.
 
-Death is permanent separation from the present life even when it is not permanent nonexistence.
+## Retrospective Recognition of Guidance
 
-### 7. Planetary Balance
+Only at the ending, once he becomes ruler of his planet, does Caelen look back and recognize that the odd information and critical clues were supplied by the Creator. Earlier, he can understand and use a clue without knowing its source. His early verification visit does not make him recognize the later prompts as divine guidance.
 
-**Balance is determined only by two totals on each planet:**
+Prepare this recognition through concrete, memorable clues whose connections become clear in retrospect. Before the ending, preserve Caelen's unawareness; do not give him confirmed knowledge of the Creator's ongoing involvement. The final recognition connects earlier events without erasing his choices, work, sacrifices, or responsibility.
 
-1. **The total of every Dominion level belonging to every soul currently present on that planet.**
-2. **The total of every Sacrifice level belonging to every soul currently present on that planet.**
+## Planetary Political Order
 
-Nothing else enters the calculation. Balance does not use population, combat power, class, skills, political control, System possession, efficiency, social authority, or a net score between paths.
+At the beginning of Book One, the planet has no world ruler. Its political climate consists of warlords and Mongol-style kings competing for regional power. This is a fictional setting cue rather than a claim that a particular historical Earth people or empire exists here.
 
-Every soul present contributes all of its Dominion levels to the Dominion total and all of its Sacrifice levels to the Sacrifice total. This includes:
+The order is factional and in constant flux. Borders, allegiances, coalitions, and the reach of individual rulers shift as competing powers rise and fall. No existing sovereign holds recognized authority over the entire planet. Do not introduce a single established planetary monarch for Caelen to overthrow.
 
-- System and non-System souls.
-- People below Level 100.
-- Enlightened beings.
-- Every level above 100.
-- Levels retained in the path that did not reach Enlightenment.
-- Temporarily bodiless Enlightened souls whose physical forms are reforming.
+Caelen's rise therefore involves overcoming and unifying a fragmented political order. Defeating one slave operation or regional ruler does not confer planetary authority. His leadership must develop across competing factions, with credible reasons for people and powers to accept, resist, or negotiate his authority.
 
-When a person below Level 100 dies and enters the void, that soul is no longer present on the former planet and its levels leave that planet's totals. When an Enlightened soul is permanently destroyed, its levels also disappear from the planetary totals.
+Specific rulers, territories, cultures, military structures, and the mechanisms sustaining their power remain to be established. Mongol-style kings does not by itself establish universal nomadism, mounted warfare, a single ethnic culture, or historical names.
 
-The Creator assigns returning souls to maintain balance between the two planetary totals. Among compatible souls capable of meeting a world's need, assignment is first come, first served.
+## Caelen's Fighter Progression — Hidden Framework
 
-Naturally born first-life children tend to develop more Dominion than Sacrifice. Established worlds therefore generate their own Dominion far faster than they generate Sacrifice, leaving very little demand for returning Dominion souls.
+Caelen is a Fighter. The D&D SRD 3.5 Fighter provides the behind-the-scenes progression framework for his combat capabilities, statistics, proficiencies, skills, feats, and learning prerequisites. This framework does not appear in the fiction as a visible class-level or XP system.
 
-Sacrifice-heavy souls may return within years or almost immediately. Dominion-heavy souls, including System bearers, rarely receive even a first return. A Dominion-dominant soul is assigned only when a planet's totals actually require Dominion, normally after a major Dominion loss or on a world where Sacrifice has become dominant. Otherwise that soul remains in the void. Given infinite time it will eventually return, but the wait may exceed the lives of civilizations or the ages of worlds.
+There are no displayed XP gains, XP totals, character levels, or level-up announcements. Caelen does not know that Sacrifice-aligned actions govern his advancement. Do not have him calculate XP, identify his numerical level, or reliably explain the hidden advancement mechanism.
 
-The Creator balances the totals at placement. Later choices can immediately change them. The Creator does not force future behavior or guarantee lasting equality.
+Only Sacrifice-aligned actions advance him, including actual sacrifice or genuine potential sacrifice for others. Combat, kills, victory, practice, and completed objectives do not independently trigger advancement. Practice develops what he is capable of learning; it is not a substitute for the hidden Sacrifice requirement.
 
-Civilizations that discover the pattern may manipulate deaths, progression, or local conditions in an attempt to influence what kind of souls the balance will permit to arrive. They cannot choose the individual souls assigned.
+When he crosses a hidden advancement threshold, his stats improve and new learning potential opens. Apply the established Fighter progression behind the scenes rather than inventing unrelated class powers. Do not automatically give him a finished technique, complete knowledge, or mastery merely because that potential becomes available.
 
-### 8. Enlightenment at Level 100
+Learning occurs in the prose through instruction, observation, experimentation, training, mistakes, and use under pressure. New skills and techniques require an earned development sequence. A new capacity may first appear as improved coordination, endurance, understanding, or ability to benefit from instruction, as appropriate to the underlying change.
 
-When either path reaches Level 100, the soul becomes Enlightened in that path and the body becomes immortal.
+Keep capability growth distinct from hidden faction scales. Neither improved performance nor any interface reveals where his Dominion and Sacrifice scales lie during life. He may notice patterns or wonder about his growth, but narration must not turn that uncertainty into knowledge of XP or levels.
 
-The first path to reach Level 100 locks permanently. Existing levels and abilities from the unfinished path remain, but that path can no longer advance. Actions aligned with Enlightenment allow continued advancement beyond Level 100. The person retains free will and can act against Enlightenment, but contrary actions damage the soul.
+Exact current statistics, learned techniques, advancement thresholds, and the presentation of stats remain undefined. The two displayed ones are not confirmed XP, levels, or faction-scale readings. Military experience informs behavior without granting unlimited competence.
 
-Aligned behavior can mend internal soul damage. Repeated betrayal of Enlightenment can leave the soul vulnerable to destruction. External soul damage requires Level 100 or greater powers, weapons, or conflicts. Ordinary violence cannot destroy a soul.
+## Manual LitRPG Management
 
-#### 8.1 Non-System Enlightenment
+The author handles most LitRPG elements manually. Use author-supplied statistics, progression changes, feats, proficiencies, skills, and ability details as authoritative. Do not independently assign numeric stats, hidden class levels, advancement thresholds, mechanical rewards, or new unlocked capabilities unless explicitly requested.
 
-A person does not need the System to reach Level 100. A non-System person can become Enlightened, immortal, and permanently locked into a path without receiving any explanation.
+Prose may depict training, experimentation, application of established capabilities, and believable changes in confidence or technique. A new mechanical unlock, completed skill acquisition, or stat increase requires an author-established change or explicit authorization to develop it. Keep learning grounded in scenes while respecting the distinction between practice and a confirmed mechanical gain.
 
-Non-System Enlightened do not automatically learn their level, path, soul condition, advancement requirements, or the cause of their immortality.
+CHARACTERS.md holds Caelen's current author-supplied mechanics, demonstrated capabilities, and any explicitly established learning potential. WORLD.md holds general rules. Unspecified mechanical values remain unspecified.
 
-Dominion Enlightened generally continue their established behavior. They may interpret immortality as proof of strength, natural superiority, divine favor, destiny, or the right to rule.
+## Debt Bondage and Slave-Pit Protection
 
-Sacrifice Enlightened often find continued life within a Dominion society increasingly difficult. Many gradually isolate themselves. In time, they may encounter System-bearing Enlightened who can explain what happened and why contrary actions injure them.
+### Manufactured Debt
 
-#### 8.2 Physical Form and Reformation
+Indentured workers can receive wages while being charged for everything they need, with charges deliberately exceeding income. Debt grows despite continued labor. Marcy's parents lived under this arrangement. After both died, she was sold into slavery to pay their alleged debt. This establishes the practice in her case, not a universal inheritance law across every territory.
 
-An Enlightened body does not possess health points. It retains physical form until that form is completely destroyed.
+### Protector Custom
 
-Ordinary injury, mutilation, and decapitation do not cause true death or initiate reformation. Severed parts can be physically reattached. The body must be completely destroyed before its physical form reaches zero.
+In the slave pits, a slave with nothing else to offer can claim to have given their life to another slave in exchange for protection. The claimant becomes subordinate to the protector during free time, while remaining enslaved within the larger slave operation. This is a common practice in the pits.
 
-At zero physical form, the entire body winks out of material existence. If the soul remains intact, physical form returns at exactly one percent per year. Complete recovery therefore requires one hundred years.
+By custom, other slaves cannot take the claimant unless the protector gives them up. Challenges and fights can test whether the protector will uphold that protection. Marcy claims Caelen in desperation; his failure to answer or surrender her leaves him facing other slaves in fights before he understands what the declaration means.
 
-During reformation, the Enlightened being:
+Keep this informal slave custom distinct from legal ownership by the masters, romantic commitment, and consent. Exact declaration words, release procedures, penalties for violating the custom, and the overseer's relationship to its enforcement remain unspecified. Do not make its protection universally absolute or invent magical enforcement.
 
-- Remains on the same planet.
-- Continues contributing all levels to both planetary totals.
-- Gradually regains physical form while remaining out of phase.
-- Can see and hear the material world.
-- Can move and pass through matter.
-- Cannot speak, touch, attack, use physical force, or otherwise affect the world.
-- Cannot be physically healed or interacted with.
-- Remains intangible until reaching one hundred percent.
+## Physical Age and Condition — Author-Established
 
-The being can choose where to move while out of phase. At one hundred percent, it chooses to rejoin physical reality at its current location. It does not need to return to the place where the body was destroyed.
+Caelen returns in a physically mature adult body. Do not state a numerical age for him or his body. His age at death remains unspecified; bodily reformation does not grant additional lived experience or military service.
 
-Soul destruction permanently ends the being and prevents all reformation.
+Marcy is an adult; do not state her numerical age. Chronic lack of food has left her small-framed, underweight, and physically underdeveloped, giving her a younger appearance. Her adult status is established, but her numerical age is not stated in prose. Keep descriptions grounded in her health and lived condition. Improved nutrition, rest, and recovery take time; do not assume immediate restoration of strength or a particular bodily change.
 
-#### 8.3 Balanced Enlightenment
+## Age References in Prose
 
-In theory, a single genuinely mixed action could cause Dominion and Sacrifice to reach Level 100 simultaneously. Such an event would represent an internal epiphany of balance and would be extraordinarily difficult to advance beyond. Some suspect that this is the Creator's path. That belief is unconfirmed.
+Do not state anyone's numerical age or a body's numerical age in the prose. Convey adult status, physical maturity, health, and experience through characterization and description. Avoid Earth-year comparisons, including describing Marcy as having the body of a particular younger age. Her adult status remains established. There are no seasons or seasonal years. Time is organized through recurring named day periods, not an Earth-style seasonal calendar. Elapsed days are tracked in periods of eight, thirty-two, and one hundred twenty-eight days.
 
-### 9. The Faction Premise
+## Planetary Climate and Water — Author-Established
 
-Every faction has a law, including factions that claim to reject law.
+The planet has no seasons. There are no seasonal years; its named pentad cycle is an elapsed-day system. People track elapsed days in periods of eight, thirty-two, and one hundred twenty-eight days. Do not introduce spring, summer, autumn, winter, or seasonal cycles. Local octet, pentad, and ennead terms provide the functional roles of week, month, and year without Earth-style seasons.
 
-Some claim authority through the Creator and inherited revelation. Some construct replacement laws around nature, blood, liberty, equality, strength, destiny, survival, reason, or historical necessity. Some reject every idea of divinity while treating victory, evolution, resurrection, or natural strength as proof that the powerful deserve to rule.
+It rains most evenings just before sunset as the atmosphere cools. These rains usually last between five and sixty minutes. This is a recurring rhythm rather than a guarantee of rain every evening. Use it consistently in travel, shelter, work, camp routines, and descriptions of light and wet ground.
 
-A faction that claims to have no law is enforcing an implicit one. Its practices still determine who may act, who must obey, what is rewarded, and whose suffering is acceptable.
+There are no lakes or oceans. The water table lies approximately ten feet below the surface, so wells can be dug almost anywhere. Deep excavation may encounter groundwater; shallow wells make water broadly accessible. Exact local water quality, drainage, rivers, flooding, soil conditions, and regional exceptions remain undefined.
 
-Every faction becomes hypocritical and unjust to some degree because authority attracts people willing to use others. The differences between factions concern degree, restraint, who bears the costs, and the justification offered for exploitation.
+Do not introduce coastlines, ocean voyages, lake settlements, or scarcity based solely on great distance from surface water. Water access can still depend on labor, tools, control of a well, or contamination when those conditions are established. Near-universal groundwater does not automatically establish effortless digging or potable water at every site.
 
-The faction claiming the Creator's Law is not necessarily more just. Its leaders may add restrictions beyond the Law, present those additions as divine commands, and treat obedience to themselves as obedience to the Creator.
+## Local Timekeeping
 
-Opposing factions may correctly identify that hypocrisy. Their rejection of it does not free them from Dominion. Priests may be replaced by party officials, revelation by nature, hereditary rank by strength, or divine command by historical necessity. The explanation changes while people continue to be used.
+An octet contains eight days in decimal reference, a pentad four octets, a heptad four pentads, and an ennead sixteen pentads. These are the local elapsed-day periods; their functional equivalents and base-eight notation appear in the mandatory rule above. The established names and social roles are listed under Local Time Periods below. Social observances and whether counts reset at a shared reference point remain unspecified. Do not invent a calendar epoch. Dates within the named pentad cycle may identify a pentad and its day using base-eight notation.
 
-Social power favors Dominion because authority is often acquired through controlling resources, exploiting dependence, defeating rivals, compelling obedience, inheriting privilege, and turning followers into instruments. Sacrifice can produce enormous personal power while leaving its bearer with little institutional authority.
+Use these periods for local schedules, waiting, work, travel, obligations, and remembered intervals. Characters do not measure local ages in years. No exact Earth conversion for local day length is established.
 
-A System bearer may become strong enough to defeat an army while remaining unwilling to terrorize the population, slaughter conscripted soldiers, or convert rescued people into permanent subjects.
+## Mathematics and Number Systems
 
-The central political question is:
+Local mathematics favors powers of two. Bases two, four, eight, and sixteen are familiar systems, but base eight is the normal expression for written quantities, prices, and everyday trade.
 
-> When does refusing to control others become cowardice, and when does taking control become Dominion?
+Local base-eight numerals use only the digits 0 through 7. Never use 8 or 9 in an in-world numeral. After 7 comes 10; 10 means eight in decimal, 12 means ten, and 100 means sixty-four. Numerals in author-facing descriptions and the decimal column below are reference conversions, not local notation. Caelen's private decimal thinking can appear as such without becoming local notation.
 
-Self-righteous Dominion figures are especially dangerous System bearers. A person may exploit others throughout a first life on Earth and still die during one genuine attempt to save a child, follower, community, or loved one. That death initializes the System. If that soul eventually returns, the bearer can direct Dominion growth that was previously uncontrolled. Such returns are exceptionally rare because established worlds seldom need more Dominion.
+The same written digits can express different quantities to Caelen and a local reader. Spoken number names and numeral glyph designs remain undefined; do not assume a written-base misunderstanding applies identically to speech. Introduce those conventions through scenes if needed.
 
-### 10. Sacrifice Government
+## Measurement Scale
 
-A government aligned with Sacrifice is possible but unlikely to remain so.
+Use the same grouping names for established distance, volume, weight, and elapsed-time units. Each named step is four times the previous step. A single base unit remains valid below a pair.
 
-Those exercising authority must continuously intend to serve the people and place the people's needs ahead of their own interests. Authority, taxation, coercion, punishment, imprisonment, and military force are not automatically Dominion. They become Dominion when an official intends to exploit another person's weakness for a determinable personal benefit.
+| Name | Base units (decimal reference) | Local base-eight numeral |
+| --- | ---: | ---: |
+| Pair | 2 | 2 |
+| Octet | 8 | 10 |
+| Pentad | 32 | 40 |
+| Heptad | 128 | 200 |
+| Ennead | 512 | 1,000 |
+| Hendecad | 2048 | 4,000 |
 
-A Sacrifice government must actively purge officials who take advantage of others, cease serving, or place themselves ahead of the people. Purging ordinarily means removing such people from authority. It does not automatically mean killing them or destroying their souls.
+These are established local names, not Earth counting-group meanings. Do not insert double octet as a named step. Context or an explicit base-unit name distinguishes distance, volume, and weight.
 
-The removal remains neutral when conducted to protect the people without a qualifying personal benefit. It may become Dominion when those performing the purge use it to enrich themselves, eliminate rivals for personal advantage, or seize privileges.
+### Distance
 
-Sacrifice governments are fragile because vigilance must survive every generation. Complacency allows self-serving officials to accumulate influence, protect one another, and convert public authority into personal Dominion.
+A span is the base length. A cubit equals a pair of spans. A pair of spans serves the everyday role of a foot; an octet of spans serves the role of a yard or meter; an ennead of spans is the common longer-distance measure, serving the role of a mile or kilometer.
 
-Sacrifice Enlightened may defend or oversee a government without controlling every part of it. They can act as long-term guardians who remove entrenched exploitation while leaving ordinary administration to the people being served.
+These comparisons describe customary use rather than exact Earth conversions. Do not equate a span to a particular number of inches or centimeters. Pentad, heptad, and hendecad distances follow the same grouping scale when needed.
 
-### 11. The Endgame of a World
+### Volume and Weight
 
-Level 100 beings remain on the worlds where they attain Enlightenment.
+A vessel is the base volume: a cube one span long, one span wide, and one span high.
 
-Dominion Enlightened remain active within society. They accumulate wealth, government, armies, worship, followers, knowledge, and levels. They can command hierarchies and create temporary alliances, but Dominion does not form a genuinely cooperative group. Each Dominion Enlightened eventually treats the others as rivals, threats, tools, or resources.
+A heft is the base weight, defined as the weight of one vessel of water. Use the standard grouping names for multiples of vessels and hefts. Two vessels of water are a pair of water; an octet of water is eight vessels. A pair in weight is two hefts. Make the measured dimension clear through the object, transaction, weighing, filling, or explicit unit.
 
-Sacrifice Enlightened commonly withdraw. A new Level 100 Sacrifice being may be unable to defeat a Dominion ruler who has advanced for thousands of years. Premature resistance may expose ordinary people to retaliation or end with the Sacrifice soul being permanently destroyed.
+A vessel of another substance has the same volume but need not weigh one heft. Do not confuse volume with weight or invent exact Earth-unit conversions. Author-reference rain durations and groundwater depth remain unchanged pending any explicit conversion to local units.
 
-Sacrifice Enlightened therefore wait on their own world. They continue growing, protect people where they can, and gradually find others who reach Sacrifice Enlightenment. Thousands of years may pass before enough exist to confront the established order.
+### Caelen's Decimal Habits and Trading Confusion
 
-When enough local Sacrifice Enlightened gather, they attack together. Their advantage is cooperation. A Dominion ruler may exceed any individual attacker while remaining unable to create the unity available to Sacrifice.
+Caelen initially reads local numerals through his Earth-learned base-ten habits. A posted price of 10 means eight to the seller but ten to him, so he can overpay by two base units. If he writes 12 intending twelve items, a seller reading base eight supplies ten. If he writes 20 intending twenty, the seller reads sixteen. Ensure each mistake follows the actual direction of the conversion.
 
-The outcome is determined by the particular abilities, preparations, weaknesses, relationships, and circumstances of that story. There is no universal formula stating that a given number of Level 100 beings can defeat a being of a particular higher level.
+He can also get more than he intended: after learning that decimal ten is written 12 locally, he may mechanically convert a posted 12 as though it were decimal twelve and request 14 locally, receiving twelve instead of the posted ten. That is an extra conversion caused by decimal habit, not a direct reading of 12 as twelve by the seller. Establish enough context for the reader to follow the error without turning the scene into a lesson.
 
-If the uprising fails, survivors withdraw and wait for later allies. If it succeeds, they permanently destroy the ruler's soul and remain on the same world to defend the people who were liberated.
+Understanding base eight does not erase his decimal reflexes. Fatigue, urgency, distraction, and familiar-looking prices make him slip back into base ten even after he learns the system. These errors can cause overpayment, mistaken quantities, excess goods, disputes over change, and practical inconvenience. Keep merchant responses and costs credible; the confusion does not require every trader to be dishonest or Caelen to lose all competence.
 
-Destroying a Dominion Enlightened is neutral when that being is exploiting unenlightened people who need protection. The completed Dominion soul has made its permanent choice. Its destruction does not automatically grant Sacrifice merely because others benefit, and it does not grant Dominion when the attackers seek no qualifying personal benefit. Separate costs willingly borne during the conflict may still earn Sacrifice.
+Let readers share his momentary assumptions. Use purchases, counting, receipts, containers, and correction by companions to reveal the mismatch. Recur selectively, vary the consequences, and allow his checking habits to improve. His learning and occasional reversions belong in the prose, not as visible skill rewards.
 
-After victory, the Sacrifice Enlightened may guard a new government without possessing its people. They must help remove officials who convert public authority into personal advantage while resisting the temptation to make every decision themselves.
+## Local Anatomy and Numerical Culture
 
-The planetary totals continue operating. Surviving Sacrifice Enlightened remain in the Sacrifice total. A destroyed Dominion soul disappears from the Dominion total. Only then, when a Dominion loss or Sacrifice dominance creates demand, can future assignments introduce Dominion-heavy souls as the Creator restores balance. Those rare arrivals begin below Enlightenment, but they retain the potential to construct another Dominion order across centuries.
+The normal local humanoid hand has three fingers and a thumb, four digits in total. Each foot normally has four toes. This anatomy supports the prevalence of base-four and other powers-of-two counting systems without requiring every culture to use identical notation.
 
-The planetary cycle is:
+Caelen's hands have five digits apiece, including the thumb, and locals regard them as abnormal. His body is adapted to the planet but retains this visible difference. Reactions can affect how people identify or assess him; five-digit hands do not by themselves prove awakening or grant locals accurate knowledge of his origin. His toe count has not been specified.
 
-1. Dominion accumulates and consolidates control.
-2. Sacrifice Enlightened withdraw and slowly gather on the same world.
-3. They unite when they possess enough strength to challenge the ruler.
-4. The uprising succeeds or fails according to the specific conflict.
-5. After victory, the survivors defend the liberated people and any government that continues serving them.
-6. Planetary balance preserves the presence of both paths.
-7. New conflict develops across centuries or millennia.
+## Local Time Periods — Authoritative
 
-No victory permanently removes choice. The crucible continues because neither Dominion nor Sacrifice can deepen its understanding of love without conflict.
+An octet of days is the equivalent of a week: eight days.
+A pentad of days is the equivalent of a month: thirty-two days, or four octets.
+An ennead of days is the equivalent of a year: five hundred twelve days, or sixteen pentads.
+A heptad remains one hundred twenty-eight days, equivalent to four pentads; it is not the month equivalent.
 
-### 12. StoryForge Hard-Canon Directives
+These periods do not arise from seasons. Week, month, and year are explanatory comparisons; local speech uses octet, pentad, heptad, and ennead. Do not introduce an Earth-style calendar or state numerical character ages. The measurement scale remains 2, 8, 32, 128, 512, and 2048 with its established names unchanged.
 
-Story generation must preserve the following rules:
+## Early-Life Counting and Naming Day
 
-1. Do not treat Dominion and Sacrifice as a complete morality meter. Neutral actions may be cruel, benevolent, lawful, unlawful, wise, or foolish.
-2. Intent selects the path receiving points. Immediate reality changes the amount. Reality does not independently award the opposite path, and later consequences do not recalculate the award.
-3. Dominion requires intended exploitation of a weakness for a concrete, determinable personal benefit. Ephemeral satisfaction alone is insufficient.
-4. Sacrifice requires intended surrender for another person's gain. Suffering alone is insufficient.
-5. Grant the System only when someone dies on Earth during the first life in one action intended to save another person's life. The same death on any later world or during any later life cannot initialize it.
-6. Do not assume System possession implies virtue. A System bearer may advance Dominion deliberately.
-7. Do not expose one person's private interface to another person as direct proof. Do not portray accurate public knowledge of the System as common on established worlds; most knowledge survives as legend, fable, or unverifiable secret doctrine.
-8. Everyone advances, including people without the System. Non-System progression is uncontrolled and inefficient.
-9. Non-System people can reach Level 100 and initially understand almost nothing about what happened.
-10. Level 100 does not remove free will. Acting against Enlightenment remains possible and damages the soul.
-11. Do not portray an Enlightened body as conventionally invulnerable or governed by health points. Complete physical destruction causes a one-hundred-year out-of-phase reformation unless the soul is destroyed.
-12. A reforming Enlightened soul remains on its planet and counts toward both planetary totals.
-13. Never calculate planetary balance from combat power, population, politics, System efficiency, classes, abilities, or net alignment. Use only total Dominion levels present and total Sacrifice levels present.
-14. Count every level on both paths for every soul present, including levels above 100 and levels in the unfinished path.
-15. Level 100 beings remain on the worlds where they reached Enlightenment. The world endgame does not depend upon Sacrifice Enlightened traveling between worlds.
-16. Dominion may command organizations but does not achieve genuine mutual cooperation. Sacrifice Enlightened can cooperate without competing for supremacy.
-17. Sacrifice governments are possible. They remain aligned only through continuous service and active removal of officials who exploit others.
-18. Do not make resurrection emotionally costless. Void time determines how much emotional healing occurs, and quick-returning Sacrifice souls often retain the strongest attachments and wounds.
-19. Do not automatically reunite dead loved ones. Return can separate them by worlds and by millions or billions of years.
-20. Preserve recognizable Judeo-Christian roots in versions of the Creator's Law while allowing every planet to distort, exaggerate, rename, and culturally transform those roots.
-21. Dominion-dominant souls almost never return because naturally born lives already produce excess Dominion. Return them only when a Dominion loss or a Sacrifice-dominated world creates actual demand in the planetary totals.
-22. Eventual return is certain across infinite time. It does not guarantee that a Dominion soul returns within any civilization, geological age, or ordinary narrative timescale.
+All local counts are base eight. The first early-life milestone occurs at 100 days. Naming day occurs at 10,000 days; for females, first menstruation ("first blood") triggers naming earlier if it occurs before that count. After naming day, routine age tracking stops.
 
-### 13. Author-Only Continuity Rule
+Author-only conversion: local 100 is sixty-four days in decimal; local 10,000 is four thousand ninety-six days, or eight enneads. These conversions aid context maintenance and must not appear as local decimal notation or Earth-year ages in the prose.
 
-The unstated boundary between rebirth and bodily resurrection is thirteen.
+The exact length of a planetary day relative to an Earth day is unspecified. Early after returning, Caelen feels that the days are much longer than he expects. He gradually adjusts to the local rhythm, and the length stops feeling remarkable. Do not derive precise Earth ages from the day counts.
 
-- Anyone who dies before thirteen returns through birth as an infant.
-- Anyone who dies at thirteen or later eventually awakens at peak physical condition, formed from local earth in a Creator-assigned pit.
+Local people differ genetically from Earth humans, including their normal four-digit hands. Exact developmental timing is undefined and need not be elaborated unless the story requires it. Naming day is a cultural milestone, not proof of adulthood, sexual maturity, or consent. Marcy's established adult status remains independent of the custom and day length.
 
-Characters do not ordinarily ask the accumulated age of a returned soul. The narrative should not state the numerical boundary unless a future plot specifically requires its revelation.
+The world lacks age-based protective barriers of the kind Caelen expects, and children are vulnerable to atrocities. This absence of protection does not make children adults. Depict harm through necessary non-graphic context and consequences rather than eroticized treatment.
 
-## Current State
+The ceremony, name-giving process, and means of recording early-life counts remain undefined. The restriction on numerical ages in ordinary prose remains: early-life milestones can be discussed in local base-eight terms, but later ages are not routinely counted or stated.
 
+## Recurring Holy Days
 
-- The void is a space defined by the absence of boundaries, characterized by soft, gray luminescence and a lack of physical laws such as gravity.
+The final day of every octet is a holy day: the eighth day in decimal reference, written day 10 in local base-eight notation. The first day of every pentad is also a holy day.
 
+A pentad contains four octets. Its first-day observance immediately follows the final-day observance of the preceding octet, creating two consecutive holy days at the pentad boundary. These recurring observances use the established elapsed-day periods and do not introduce seasons or an Earth-style calendar.
 
-- Souls in the void can perceive other souls as distant presences.
+Named first-day holy days and their customary rites are established below. Work restrictions and the treatment of slaves on holy days remain undefined. Do not assume that holy-day status guarantees rest, humane treatment, or a uniform practice across factions.
 
+## Named Pentad Cycle, Holy Days, Customs, and Traditions
 
-- The System interface appears as translucent numbers in the periphery of the bearer's vision, consisting of two columns separated by a shimmering line.
+An ennead contains sixteen pentads. Each pentad contains thirty-two days, or four octets. The sequence below is fixed; pentad numbers are written in base eight, so the sixteenth pentad is numbered 20. Day 1 of each pentad is its named holy day. The final day of every octet remains a holy day as established above; the preceding octet's final day and the next pentad's first day therefore form consecutive observances.
 
+These named periods constitute the local calendar in the sense of a repeating timekeeping cycle. They do not introduce seasons, seasonal years, an epoch, or routine age tracking after naming day. Use local period names and base-eight day numerals in dialogue and records.
 
-- The current world has a pale yellow sky and a dim sun.
+| Pentad number (base eight) | Pentad | First-day holy day | Customs and traditions |
+| --- | --- | --- | --- |
+| 1 | Auvren | Day of New Doors | Clean thresholds, hang bright cloth, settle quarrels, and give small gifts to children. |
+| 2 | Mereth | Feast of Returning | Share decorated eggs and sweet bread; visit people returning from illness or absence. |
+| 3 | Jessa | The Open Table | Break a customary fast together; households set aside food for strangers and the poor. |
+| 4 | Nover | Night of Remembering | Set places for the dead, prepare their favorite foods, and tell family stories. |
+| 5 | Priel | Passing of Chains | Eat flatbread and bitter greens while recounting ancestral captivity and deliverance. |
+| 6 | Feryn | Day of Many Colors | Throw colored powders, wear old clothes, and exchange sweets; tolerated mischief crosses ordinary social boundaries. |
+| 7 | Serept | Feast of First Light | Lay out symbolic household objects, wear fresh clothing, and exchange visits and wishes for renewal. |
+| 10 | Maelis | Day of Shared Bread | Cook communal meals, volunteer labor, and serve diners regardless of rank, at least in principle. |
+| 11 | Ocran | The Quiet Reckoning | Fast, confess wrongs, seek forgiveness, and repay outstanding obligations. |
+| 12 | Juneth | Day of Awakening | Wash sacred figures, light lamps, give food, and perform deliberate acts of kindness. |
+| 13 | Dessen | Feast of the Gift | Exchange wrapped presents, sing familiar songs, and gather around a decorated household branch. |
+| 14 | Vembra | Night of Little Lamps | Light a row of small lamps, play traditional games, and share food fried in oil. |
+| 15 | Janeth | The Giving Feast | Prepare an animal for a communal meal; divide portions among household, neighbors, and those in need. |
+| 16 | Auris | The Washing Day | Pour water respectfully over elders' hands before public splashing and playful soaking begin. |
+| 17 | Jurel | Night of Returning Lights | Welcome remembered ancestors with lanterns, dance together, then carry lights away in farewell. |
+| 20 | Ember | The Kindling | Clean homes, light thresholds, exchange sweets, and begin fresh account books. |
 
+### Familiar Fragments and Regional Variation
 
-- The current world features a society with slavery, where individuals are assessed, collared, and transported in carts.
+The customs are vaguely familiar remnants of Earth celebrations, reshaped by local life and transmitted traditions. Do not name their Earth inspirations in ordinary local speech or assume that inhabitants know those origins. Author-facing inspirations, in table order, are Lunar New Year, Easter, Eid al-Fitr, Día de los Muertos, Passover, Holi, Nowruz, Vaisakhi, Yom Kippur, Vesak, Christmas, Hanukkah, Eid al-Adha, Songkran, Obon, and Diwali.
 
+The observances follow the pentad cycle, not planting seasons, winter, spring, equinoxes, or a lunar schedule imported from Earth. First Light and renewal refer to the local observance rather than an established seasonal change. Lantern farewells are carried on land; do not introduce lakes or oceans for floating lights. Day of Awakening is a religious festival name, not a guaranteed System-awakening event or revelation of faction mechanics.
 
-- The current world has a language that is alien to Caelen, characterized by harsh consonants and rolling vowels.
+Customs and interpretations vary among regions, households, religious authorities, and rulers. Preserve recognizable practices without requiring identical rites everywhere. Holidays offer food, beauty, humor, remembrance, reconciliation, and shared work as well as political tension.
+
+A holy day does not guarantee freedom from labor or humane treatment. Institutions can preach generosity while denying it to captives. Passing of Chains is especially charged in a slaveholding society: officials may commemorate ancestral deliverance while requiring enslaved people to prepare the feast. Let sincere observance and institutional hypocrisy coexist through particular people and choices.
