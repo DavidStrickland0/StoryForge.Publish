@@ -1,0 +1,86 @@
+﻿{
+  "ChapterNumber": 1,
+  "Records": [
+    {
+      "Stage": "Generation",
+      "Sequence": 1,
+      "Model": "qwen3.5:9b",
+      "Gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "Duration": "00:20:20.9157802",
+      "Artifact": "draft.md",
+      "CompletedUtc": "2026-10-13T03:14:46.3261671+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 1,
+      "Model": "qwen3.5:9b; comparison: qwen3.5:9b",
+      "Gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "Duration": "00:08:36.5318756",
+      "Artifact": "draft.md",
+      "CompletedUtc": "2026-10-13T03:23:23.132208+00:00"
+    },
+    {
+      "Stage": "Review",
+      "Sequence": 1,
+      "Model": "qwen3.5:9b",
+      "Gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "Duration": "00:05:54.1775048",
+      "Artifact": "review-001.md",
+      "CompletedUtc": "2026-10-13T03:29:17.9982461+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 1,
+      "Model": "qwen3.5:9b",
+      "Gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "Duration": "00:02:51.9411467",
+      "Artifact": "review-001.validation.json",
+      "CompletedUtc": "2026-10-13T03:32:10.2680284+00:00"
+    },
+    {
+      "Stage": "Revision",
+      "Sequence": 1,
+      "Model": "qwen3.5:9b",
+      "Gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "Duration": "00:11:21.2438609",
+      "Artifact": "revision-001.md",
+      "CompletedUtc": "2026-10-13T03:43:31.7963802+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 2,
+      "Model": "qwen3.5:9b; comparison: qwen3.5:9b",
+      "Gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "Duration": "00:08:45.1818980",
+      "Artifact": "revision-002.md",
+      "CompletedUtc": "2026-10-13T03:52:17.1338122+00:00"
+    },
+    {
+      "Stage": "Review",
+      "Sequence": 2,
+      "Model": "qwen3.5:9b",
+      "Gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "Duration": "00:05:28.7418097",
+      "Artifact": "review-002.md",
+      "CompletedUtc": "2026-10-13T03:57:45.9763108+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 2,
+      "Model": "qwen3.5:9b",
+      "Gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "Duration": "00:02:57.8179079",
+      "Artifact": "review-002.validation.json",
+      "CompletedUtc": "2026-10-13T04:00:44.0018444+00:00"
+    },
+    {
+      "Stage": "Title",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "Duration": "00:01:09.0178772",
+      "Artifact": "title.txt",
+      "CompletedUtc": "2026-10-13T04:02:37.7724299+00:00"
+    }
+  ]
+}

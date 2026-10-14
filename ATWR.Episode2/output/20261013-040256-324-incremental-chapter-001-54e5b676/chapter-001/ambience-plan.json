@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "fingerprint": "bade132af446fd2c6ff7737167da1403d8d6723417bf22b78e01b219be86914e",
+  "model": "qwen3.8:27b",
+  "cues": [
+    {
+      "startSegment": 0,
+      "endSegment": 68,
+      "tags": [
+        "fire",
+        "indoors",
+        "rain",
+        "tavern"
+      ],
+      "setting": "interior of the crooked stag tavern",
+      "prompt": "Continuous ambient bed of a crackling hearth fire and steady rain falling outside the windows, no voices or music",
+      "evidence": "The fire in the hearth of the Crooked Stag crackled with a dry woodsmoke scent that was far less welcome than the rain outside.",
+      "intensity": "moderate"
+    },
+    {
+      "startSegment": 69,
+      "endSegment": 77,
+      "tags": [
+        "forest",
+        "outdoors",
+        "rain",
+        "wind"
+      ],
+      "setting": "village outskirts transitioning to a wooded road",
+      "prompt": "Continuous soft rain drizzle and gentle wind moving through trees, no voices or music",
+      "evidence": "The rain had softened to a drizzle by the time Elias reached the group near the tavern’s rear entrance",
+      "intensity": "soft"
+    },
+    {
+      "startSegment": 118,
+      "endSegment": 123,
+      "tags": [
+        "farmhouse",
+        "indoors",
+        "rain"
+      ],
+      "setting": "farmhouse interior",
+      "prompt": "Continuous heavy rain sound against a roof and windows, muffled by walls, no voices or music",
+      "evidence": "the gloom outside",
+      "intensity": "moderate"
+    },
+    {
+      "startSegment": 124,
+      "endSegment": 135,
+      "tags": [
+        "forest",
+        "outdoors",
+        "rain",
+        "wind"
+      ],
+      "setting": "farmhouse exterior and edge of woods",
+      "prompt": "Heavy rain falling on leaves and ground, wind rustling trees, no voices or music",
+      "evidence": "The rain had begun falling harder again",
+      "intensity": "strong"
+    },
+    {
+      "startSegment": 136,
+      "endSegment": 163,
+      "tags": [
+        "forest",
+        "outdoors",
+        "rain",
+        "wind"
+      ],
+      "setting": "forest path and creek bend",
+      "prompt": "Lashing rain on bark and mud, wind rattling leaves, no voices or music",
+      "evidence": "Rain lashed against the rough-hewn bark of the oak",
+      "intensity": "strong"
+    },
+    {
+      "startSegment": 164,
+      "endSegment": 208,
+      "tags": [
+        "forest",
+        "outdoors",
+        "rain"
+      ],
+      "setting": "a dense forest trail during a heavy rainstorm.",
+      "prompt": "Continuous heavy rain falling on trees and ground, soft ambient forest sounds, no voices, no music, no footsteps.",
+      "evidence": "the rain had loosened",
+      "intensity": "strong"
+    }
+  ],
+  "warnings": [
+    "Batch 2: unresolved cues omitted after correction attempts; retained 1 valid cues. Cue 2: Cue 78-117 requires an exact evidence quotation from its own source range. Rejected evidence: 'Smoke rose faintly from chimneys where fires still burned late into the night'. Copy a quotation directly from the supplied source segments."
+  ]
+}

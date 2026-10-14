@@ -27,10 +27,15 @@
       "TargetChapter": 3,
       "Objective": "Gather intelligence on the raids, locate the goblin camp, and prepare for entry.",
       "ResolutionCriteria": "The party identifies the location of the ruined keep, scouts the perimeter, and establishes a plan of entry.",
-      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
-      "NextMilestone": "The party accepts the contract and begins investigating the attacked farm to find tracks leading to the keep.",
+      "CurrentPhase": "The party has transitioned from travelers to contracted investigators. They have secured the contract and gathered initial evidence (tracks, arrowhead) at the first crime scene, confirming goblin activity.",
+      "NextMilestone": "Track the goblins through the woods to locate the ruined keep.",
       "RelatedThreadIds": [],
-      "CompletedMilestones": [],
+      "CompletedMilestones": [
+        {
+          "ChapterNumber": 1,
+          "Development": "The party accepted the village elder\u0027s contract for fifty gold pieces to rescue Nella and Hobb, verified the payment with a physical count of coins, and departed the tavern to investigate the initial crime scene at Nella\u0027s farmhouse where they identified goblin tracks and an iron arrowhead."
+        }
+      ],
       "ChapterTargets": [
         {
           "Sequence": 1,
@@ -108,9 +113,11 @@
             "The resolution of the rescue and the return to the village are not yet addressed."
           ],
           "ClosingState": "The party has accepted the contract, gathered initial evidence, and identified the goblins as the threat. They are now preparing to travel into the woods to follow the tracks, with Maren\u0027s minor injury and the village\u0027s trust as ongoing factors.",
-          "IsCompleted": false,
-          "CompletedInChapter": null,
-          "CompletionEvidence": []
+          "IsCompleted": true,
+          "CompletedInChapter": 1,
+          "CompletionEvidence": [
+            "Elias picked up the pouch and set it aside carefully, checking its weight before opening it to count the coins inside. One by one, he laid them out on the table, arranging them in neat rows of five. There were ten rows of five, making fifty gold pieces total. He counted twice more just to be sure, confirming each row matched perfectly."
+          ]
         },
         {
           "Sequence": 2,

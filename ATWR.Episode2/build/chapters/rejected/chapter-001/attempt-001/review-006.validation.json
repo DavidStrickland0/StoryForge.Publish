@@ -1,0 +1,28 @@
+﻿{
+  "ValidationProtocolVersion": 2,
+  "ContinuityProtocolVersion": 1,
+  "HasTechnicalFailures": false,
+  "Validations": [
+    {
+      "FindingIndex": 0,
+      "Disposition": 2,
+      "Evidence": "The chapter states the reward is fifty gold pieces, but later reveals only forty-five pieces are in the purse. The elder claims he counted it three times, yet five coins are missing without explanation.",
+      "Reason": "The finding describes a supported contradiction in cash flow and payment timing that drives character decisions (Maren accusing the elder of lying). The chapter explicitly presents two incompatible claims: the promise/advance of fifty gold versus the physical count of forty-five. This creates a material defect where available funds are undefined and contradicts the instruction to reconcile every description of a payment. The finding correctly identifies this as a real problem that must be fixed."
+    },
+    {
+      "FindingIndex": 1,
+      "Disposition": 0,
+      "Evidence": "The chapter does not repeat completed work; it establishes the initial crisis and accepts the contract as intended by the arc objective for Chapter 1. The party has not yet entered the woods or located the keep in this text; they are still at the inn discussing strategy after receiving payment. The finding\u0027s claim that the party \u0027investigates the farm\u0027 is contradicted by the prose, which places them inside the Crooked Stag tavern and then retires to their rooms without ever leaving the village. ",
+      "Reason": "The chapter correctly follows the intended progression: arrival at Pinehollow, reading the notice, negotiating with Elder Thorne, receiving payment, and retiring to rest. The finding incorrectly asserts that the party has already performed the investigation and tracking steps described as future milestones for Chapters 2-3. Since the text explicitly keeps them in town and does not depict a farm visit or keep scouting, the claim of repetition is false."
+    },
+    {
+      "FindingIndex": 2,
+      "Disposition": 2,
+      "Evidence": "The party is presented with an advance payment of fifty gold pieces, but a subsequent count reveals only forty-five pieces, creating an unexplained deficit without establishing a mechanism for the loss.",
+      "Reason": "This finding describes the same supported contradiction as Finding 0. The chapter establishes a promise of fifty gold, then depicts a physical count showing forty-five, with no established mechanism (theft, error, or partial payment) to explain the discrepancy. This violates the FinancialLogic requirement to reconcile descriptions of the same payment and maintain consistent cash flow. It is a material defect that must be corrected."
+    }
+  ],
+  "Model": "qwen3.5:9b",
+  "Duration": "00:01:33.0823814",
+  "HasBlockingFindings": true
+}

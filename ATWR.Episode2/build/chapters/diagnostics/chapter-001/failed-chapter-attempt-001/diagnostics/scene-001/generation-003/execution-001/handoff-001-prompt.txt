@@ -1,0 +1,113 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"Elias Thorne","Objective":"Establish the village crisis, accept the contract, and investigate the initial crime scene to identify the nature of the threat.","IntendedChange":"The party transitions from travelers to contracted investigators, moving from abstract worry to concrete evidence of goblin activity.","PacingPosture":1,"ProhibitedPatterns":["Financial discrepancies where the stated reward amount does not match the physical count of coins in the purse.","Unexplained loss of currency or items during a transaction without a causal mechanism.","Rushing the investigation to skip the negotiation or evidence analysis phases.","Introducing a new, larger threat or cliffhanger at the chapter\u0027s end."],"Scenes":[{"Sequence":1,"Purpose":"Elias negotiates the contract terms with the village elder, balancing professional standards against the village\u0027s limited resources, while Maren and Torin observe the villagers\u0027 skepticism and the party\u0027s competence.","IntendedChange":"The party formally accepts the contract for a specific, verified sum of gold pieces, establishing their professional stake and the villagers\u0027 trust.","FocusCharacterIds":["Elias Thorne","Maren","Torin"]},{"Sequence":2,"Purpose":"Maren assesses the physical damage at the attacked farm, securing the scene and observing the layout, while Elara begins methodical analysis of the tracks and debris to distinguish between human and non-human activity.","IntendedChange":"The party identifies the specific direction of the goblins\u0027 movement and recognizes the organized nature of the raid, narrowing the search area to the woods.","FocusCharacterIds":["Maren","Elara","Torin"]},{"Sequence":3,"Purpose":"Elara explains the significance of the tracks and the dropped iron arrowhead to the group, while Maren discovers a minor injury or equipment damage during the assessment, establishing a persistent consequence for the investigation.","IntendedChange":"The party confirms the threat is goblins, not random thieves, and prepares to travel into the woods to follow the tracks, with Maren\u0027s minor injury as an ongoing factor.","FocusCharacterIds":["Elara","Maren","Elias Thorne"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Elias negotiates the contract terms with the village elder, balancing professional standards against the village\u0027s limited resources, while Maren and Torin observe the villagers\u0027 skepticism and the party\u0027s competence.","IntendedChange":"The party formally accepts the contract for a specific, verified sum of gold pieces, establishing their professional stake and the villagers\u0027 trust.","FocusCharacterIds":["Elias Thorne","Maren","Torin"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Maren assesses the physical damage at the attacked farm, securing the scene and observing the layout, while Elara begins methodical analysis of the tracks and debris to distinguish between human and non-human activity.","IntendedChange":"The party identifies the specific direction of the goblins\u0027 movement and recognizes the organized nature of the raid, narrowing the search area to the woods.","FocusCharacterIds":["Maren","Elara","Torin"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The sign hanging crookedly over the door of the Crooked Stag was not an omen; it was simply a sign, the wood weathered to a dull grey by wind and rain that had blown through the valley for a decade longer than most remembered. The village of Pinehollow clung to the edge of a deep ravine like barnacles on a hull, its stone houses built against the slope with no thought for elegance, only shelter. Elias Thorne stepped off the cobblestones that lined the main road and onto the packed earth floor of the tavern’s entrance hall. The air inside smelled of roasted woodsmoke, stale ale, damp wool, and five travelers who had not yet taken their boots off or loosened their grips on their gear.
+
+Inside, the room was packed with locals, a mixture of farmers, herders, and children playing at the edges of the warmth. A man in his late forties, dressed in a rough-spun tunic stained with soil and sweat, stood behind the bar. He held a ledger open with one hand and leaned on it with the other, looking as though he had not slept in days. This was Old Man Heston, the village elder. His face was a map of worry lines, deepening around eyes that looked tired, but his posture remained rigid as if he were bracing against a physical blow every time someone knocked on the door for supplies or news.
+
+Elias moved toward him, his boots silent on the packed earth, keeping his head slightly bowed to show he meant no offense to the crowded space. Maren followed close behind, her heavy hammer resting comfortably on her shoulder, though she kept one hand near the pommel just in case the room’s atmosphere required a swift intervention. Torin brought up the rear, scanning the room with an eye that missed nothing but offered no commentary until necessary, his presence acting as a silent anchor against the rising tide of anxiety in the hall. Kaelen and Elara lingered near the door, giving the group a moment to establish their presence without immediately drawing attention from the villagers who had been whispering among themselves since Elias’s boots first touched the floor.
+
+Heston did not smile as Elias approached. His voice rasped from disuse or perhaps just age, carrying a weight that made the small room feel even smaller. “You know who we are,” Heston said. He pointed to Elias with a trembling hand, and the man’s grip on his ledger tightened until the spine creaked. “We’ve watched you pass through the valley many times now.”
+
+Elias nodded. “And we know who you are.”
+
+Heston looked at the others behind him without turning away from Elias. He was aware of the weight they carried, both literal and metaphorical. The party had moved with a certain cohesion, not the chaotic straggling that usually marked groups passing through troubled lands. But Heston’s eyes flickered to Maren’s hammer, then to Torin’s sword, and finally back to Elias’s hands, which held nothing but the empty air. He gestured toward Elias with a movement that was almost imperceptible, inviting him forward but keeping his feet planted behind the bar as if the floor itself were unstable.
+
+“Then hear me out before you speak of your guild or your fees,” Heston interrupted, his tone sharp despite its weariness. “We have no coin left to pay a stranger with more coin than we have in our pockets. We cannot afford to feed five mouths for weeks while you wander the hills.” He shifted the ledger on the bar so that it faced him fully, then reached for the small iron bowl that usually held change or tolls and poured out its contents onto the wood between them. It was mostly dust and a few scattered copper pieces, their tarnished surfaces dull in the dim light.
+
+Elias stepped closer to the bar, ignoring the bowl and the money it held. He had expected resistance, but not this specific kind of desperation, where the need for coin seemed to outweigh the need for help. He looked at Heston and then down at the bowl before him, noting that the villagers who sat huddled near the window were staring at their boots or clutching what looked like bread crusts wrapped in cloth. “That’s why we’re here, Heston,” he said softly. “We don’t ask for much. We take a job and we get paid when the work is done.” He reached into his own pouch and pulled out a small leather bag containing a few gold pieces—enough to cover their own expenses for the next few days but not enough to make a significant difference in the village’s coffers. He placed it on the table between them, the sound of metal against wood sharp in the quiet room.
+
+Heston stared at the gold pieces, then at Elias, and finally at the others who had gathered around him with varying degrees of interest. Some were watching the money as if it were food; others looked to Elias for a sign that this was not a trick or a test. The gold glistened in the dim light, a stark contrast to the dust on Heston’s counter and the worn wool on his tunic. He hesitated, as if weighing whether to accept their offer or reject it outright, but then nodded slowly and reached out to touch the gold bag with a rough hand that trembled only slightly now that he was not holding the ledger.
+
+“Thank you,” he said, his voice cracking slightly. “But we can’t afford to feed five people for weeks like that.” He gestured to the bowl again. “Take care of yourselves until the job is done, and we’ll take whatever you have left when you return.” His words were not a rejection but an acknowledgment of their situation, a way of saying they would manage what they could while focusing on the task at hand rather than the cost of food and shelter.
+
+Elias shook his head. “We’ll share what we have.” He gestured toward Maren and Torin. “And if you need help finding food or shelter, we’ll do whatever we can.” His tone was calm, but there was an undercurrent of pride in his voice, as if he were reminding Heston that they were not beggars but professionals who took care of their own before taking on the world’s problems.
+
+Heston looked at the others, then back at Elias. Finally, he nodded again and turned to the room. “Friends,” he called out. “There are five strangers here who’ve agreed to help us. They don’t want payment, only a chance to earn their keep.” The room fell silent for a moment, then erupted into murmurs of surprise and curiosity. Some looked at Elias with suspicion; others with gratitude. A few children stopped playing and watched the newcomers with wide eyes, their faces reflecting the same confusion that had gripped the adults but without the fear.
+
+Elias stood up and walked toward the group of farmers huddled near the window. He knelt beside them and spoke quietly, explaining who they were and why they had come. The farmers listened intently, their faces reflecting a mixture of fear and hope, but also a certain reserve that came from having lived through too many crises to trust anyone easily. Elias did not try to force his way into their trust; he simply stated what he intended to do and left the decision to them. He spoke in terms they could understand, avoiding jargon or references to guilds or contracts that might sound like bureaucracy rather than aid.
+
+When Elias returned to the table, he found that Heston had already begun counting out a small purse of silver coins—just enough to cover their meals for the next day or two. Elias accepted the purse without comment and placed it in his own pouch, not because he needed the money but because taking payment when offered was part of the deal they had just made. It established a boundary between what they owed each other and what they might gain from completing the job. “Thank you,” he said. “We’ll take care of ourselves.”
+
+Heston nodded again and turned back to his ledger, though his hands trembled as he wrote down the names of the new arrivals and the amount owed. He looked at Elias one more time before speaking. “You’re not like most adventurers I’ve seen,” Heston said. “Most want gold and glory. You seem more interested in helping us.”
+
+Elias smiled faintly. “We’re here because we can help, not because we need the money.” His smile did not reach his eyes completely; he knew that pride was a fragile thing, and admitting that they cared about helping rather than profit was a risk worth taking if it meant maintaining trust with the villagers.
+
+Heston looked at him for a moment longer, then nodded again and turned back to his work. The room seemed quieter now, the tension easing slightly as the farmers began to talk among themselves in hushed tones. Elias watched them briefly before turning to Maren and Torin. “Well?” he asked. “What do you think?”
+
+Maren crossed her arms and gave a small shrug. “They’re scared,” she said. “But they’re also stubborn. Once we start working, they’ll stop worrying about the money and focus on getting their lives back together.” Her voice was flat, but there was a certain warmth in the way she spoke of them as if they were old friends rather than strangers who needed convincing.
+
+Torin nodded in agreement. “And we’ll get our payment when we finish the job,” he added. “That’s all that matters.” He did not elaborate on what payment meant beyond the work itself, but his tone suggested that he understood the difference between taking money for a favor and earning it through effort.
+
+Elias glanced at Kaelen and Elara, who were still standing near the door. They had been quiet throughout the conversation, observing the room and the people
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

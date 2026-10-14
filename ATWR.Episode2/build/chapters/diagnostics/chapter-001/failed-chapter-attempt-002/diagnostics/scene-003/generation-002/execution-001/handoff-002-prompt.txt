@@ -1,0 +1,121 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"Elias Thorne","Objective":"Establish the village crisis, accept the contract, and investigate the initial crime scene to identify the nature of the threat.","IntendedChange":"The party transitions from travelers to contracted investigators, moving from abstract worry to concrete evidence of goblin activity.","PacingPosture":1,"ProhibitedPatterns":["Repeating the failed sequence where the contract remains tentative and the payment is ambiguous or unverified.","Introducing a confrontation, revelation, larger replacement threat, arrival, pursuit, interruption, or cliffhanger merely to make the chapter seem eventful.","Creating cosmetic variations of the same search, discussion, ritual, journey step, discovery, or confrontation.","Requiring comrades to die, scatter, betray one another, or lose competence merely to isolate the viewpoint character for a decision.","Introducing a new attack, arrival, revelation, sound, figure, pursuit, deadline, or imminent threat merely to make the final paragraphs feel dramatic.","Turning the completion of an immediate objective into an automatic discovery of a larger version of the same danger.","Making every authority figure incompetent.","Forcing jokes into the emotional climax of a serious scene.","Explaining why a line or situation is funny.","Repeating the same joke with slightly different wording.","Cruelty, humiliation, or trauma as the default punchline.","Modern internet slang unless established by the setting."],"Scenes":[{"Sequence":1,"Purpose":"The party arrives at the Crooked Stag and encounters the village elder, who presents the crisis and offers a formal contract with a verified, specific payment amount that Elias accepts after a brief negotiation, establishing the professional stake and the village\u0027s limited resources.","IntendedChange":"The party is contractually obligated to resolve the issue, and the specific payment amount is established and verified, creating a professional stake in the outcome.","FocusCharacterIds":["Elias Thorne","Maren","Elara","Torin","Kaelen"]},{"Sequence":2,"Purpose":"The party travels to the attacked farm and Maren assesses the physical damage and secures the scene, while Elara begins her methodical analysis of the evidence, distinguishing between human and non-human tracks, and Torin provides physical security and local knowledge of the terrain.","IntendedChange":"The party has gathered initial evidence and identified the goblins as the threat, and Maren\u0027s minor injury or equipment damage persists, affecting her comfort and readiness in subsequent chapters.","FocusCharacterIds":["Maren","Elara","Torin"]},{"Sequence":3,"Purpose":"The party discusses the evidence and the next steps, and Elias coordinates the planning process, ensuring that each member\u0027s strengths and limitations are considered, while the villagers\u0027 trust in the party is established, creating a social stake in the outcome.","IntendedChange":"The party has a clear target for the investigation and is preparing to travel into the woods to follow the tracks, with Maren\u0027s minor injury and the village\u0027s trust as ongoing factors.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Elara","Torin"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The party discusses the evidence and the next steps, and Elias coordinates the planning process, ensuring that each member\u0027s strengths and limitations are considered, while the villagers\u0027 trust in the party is established, creating a social stake in the outcome.","IntendedChange":"The party has a clear target for the investigation and is preparing to travel into the woods to follow the tracks, with Maren\u0027s minor injury and the village\u0027s trust as ongoing factors.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Elara","Torin"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":2,"Location":"Path leading into the woods, transitioning to a small clearing overlooking a ruined keep","TimeContext":"Late autumn, evening/dusk","PresentCharacterIds":["Elias Thorne","Maren","Elara","Torin","Kaelen"],"PhysicalConditions":["Ground is muddy, deep, and slick with standing water","Weather is overcast with grey skies","Maren has minor residual stiffness in her joints from previous injuries (wounds healed but comfort affected)","The party is moving through a forest environment with roots and uneven terrain","A small clearing contains goblins clustered around a fire with stolen goods nearby"],"KnowledgeEstablished":["The threat is confirmed to be goblins using crude armor, scrap metal, and plant-fiber rope","Goblins are amateurs in crafting but experienced enough to leave specific traces for the party to find","The attack involved a roof sheared off by something heavy, not just wind","Evidence includes oil slicks, soot mixed with ash (possibly magical or explosive), and signs of struggle inside the farmhouse","Goblins are currently waiting in a clearing near a ruined keep, having set traps along the way","The tracks lead about three hundred paces to the ruins beyond the ridge","The party has identified Nella and Hobb as missing individuals taken by the goblins"],"DecisionsMade":["The party decided to follow the tracks toward the ruined keep despite the risk of encountering a larger group","Elias reaffirmed the condition to stop if they encounter a larger band or different group than contracted","Torin acknowledged and accepted this condition","Maren decided to hurry before the goblins realize their presence"],"PossessionChanges":[],"RelationshipChanges":["Trust between party members is reinforced through shared assessment of the threat","Villagers\u0027 trust in the party is established as they proceed with the investigation"],"CompletedActions":["The party traveled from the village edge to the attacked farmstead","Maren assessed the physical damage to the farmhouse (roof sheared off, shattered windows)","Elara analyzed evidence (oil slicks, soot, claw marks, rope knots) and identified goblin tracks","Torin provided security and local knowledge of the terrain","The party observed goblins in a clearing near a ruined keep with stolen goods","Elias coordinated the group\u0027s movement and reinforced safety protocols regarding larger threats"],"UnresolvedImmediateAction":"The party is paused just outside the main gate of the ruined keep, observing goblins clustered around a fire in the clearing below. They are preparing to move forward cautiously while monitoring for traps or ambushes.","ContinuationPosition":"The party (Elias Thorne, Maren, Elara, Torin, Kaelen) is standing at the entrance to the ruined keep\u0027s main gate, looking down into a small clearing where goblins are gathered around a fire with stolen goods. Elias has signaled for silence and is instructing the group to move quietly while keeping an eye out for traps.","ProhibitedRepetition":["Repeating the negotiation sequence regarding payment terms","Re-describing the tavern interior or Elder Halloway\u0027s initial greeting","Repeating the description of the notice board drawing without new context","Repeating the failed sequence where the contract remains tentative"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The crude alarm system hung suspended from chains and pulleys above the doorway, rattling softly in the damp air as if sensing their approach before they even spoke. Elias raised a gloved hand toward the mechanism, his fingers twitching slightly—not out of fear, but because he knew exactly how these things worked; they were simple enough to dismantle with a hammer strike or clumsy enough to trigger on any sudden vibration. He looked down at Maren, who was already crouching low beside the muddy gate, her heavy hammer resting against her thigh with the practiced ease of someone who had spent years learning that silence moved faster than steel.
+
+“Keep your eyes up,” Elias said quietly, though his tone carried none of the panic it might have from a younger adventurer. “That thing’s connected to a bell inside. If one of us bumps a chain or steps on a loose stone, they’ll hear it before we’re even within ten paces.” He glanced toward Torin, who stood near the far edge of the clearing, scanning the tree line where shadows shifted like breathing things. Torin gave a single nod, his sword held in a relaxed but ready grip, watching the way the wind carried scent from deeper into the woods—woodsmoke, rotting leaves, and something sharper, metallic, that made Elias’s stomach tighten with recognition.
+
+Kaelen stepped forward, raising one hand palm-outward, a small circle of soft golden light forming between his fingers before fading as he lowered it again. “No need for that,” he murmured, though he didn’t explain why the faint shimmer in the air around them wasn’t attracting attention. He knew better than to waste magic on something so mundane; even a little spell could be useful later if they needed to mask their presence or blur an outline in the dark. The brass gauntlet on his left arm hummed faintly under its sleeve, not with power but with old memory—a relic from before the Blight had taken root somewhere in the world, and it was quiet now, content to sit idle until called upon again.
+
+Elara knelt near the gate’s threshold, pulling a small pouch of loose quartz dust from her satchel. She scattered just enough over the wet earth to catch any faint traces left by passing feet or claws, though she didn’t say what she was looking for yet. Her chisel rested against her hip, unused, but ready; she’d learned long ago that analysis came before action, and even in a world where traps could kill without warning, it was better to know where danger lay than to guess. She paused briefly, watching the way the light filtered through the trees above them, noting how the shadows seemed longer now than they should have been at dusk, then stood up again with a quiet sigh. “There’s something here,” she said finally, not looking at anyone as she spoke. “They’ve been camped here for a while. Fresh tracks lead out toward the northern ridge, but there are older ones—goblin footprints, some of them worn down, others barely visible.”
+
+Maren stood up straighter than Elias had ever seen her before; even though her joints still stiffened with every step she took, and though she winced slightly when she shifted her weight onto her left leg, she didn’t hesitate. She stepped forward again, moving closer to the gate where the chain pulley hung loose and unstable-looking, then reached out to inspect it more closely. “It’s rigged,” she said without looking up. “Someone tied off one end of the rope with a knot that won’t slip unless you pull hard enough to break it. They’re waiting for us to try.” She paused, then turned her head toward Elias. “Can I take the first cut?”
+
+Elias nodded once. “Go ahead, but be careful not to shake anything else when you do.” He knew she meant to test the trigger without making noise; he also knew that if she pulled too hard on the rope, the whole thing would snap loose and fall right onto their heads. Still, she was right about one thing: they couldn’t stay outside forever. The goblins were already inside, clustered around a fire down in the small clearing beyond the gate, and whatever they’d stolen from the village was likely still being guarded or counted by someone who wouldn’t hesitate to throw a spear at the first sign of trouble.
+
+Torin stepped back slightly as Maren moved forward, keeping his distance just enough to stay out of range of any trap she might accidentally trigger, but close enough to catch her if she slipped on the mud. He watched her carefully as she ran her fingers along the rope, feeling for tension or slack in the line, then gave it a gentle tug that made the chain rattle softly against its supports. “Good,” he said quietly when she finished. “Now we know what’s connected to what.”
+
+Elara had already pulled out her notebook and was scribbling something down on a fresh page with a charcoal stick; she didn’t need to ask for permission to take notes, nor did she care if anyone noticed her doing it. She flipped the page over and started again when Elias asked her what she’d found so far. “The tracks,” she said, pointing at the ground where several sets of footprints converged near the gate. “Two humans—one big, one small—and three goblins. The big human’s stride is consistent, about six feet per step, but the small one’s off by a half-foot or so; probably someone trying to keep up with the others.” She looked up then, her expression serious now as she studied the deeper impressions left in the mud. “The goblin tracks show they’ve been moving around here for at least an hour or two, maybe more. They’re not just camped—they’re resting, but they’re also organizing something.”
+
+Kaelen stepped forward again, this time with a small puff of smoke curling out from his mouth as he exhaled slowly. “They’re planning something,” he said simply, though he didn’t elaborate further on what that meant exactly. He knew better than to reveal too much about his own abilities or let others assume he understood everything there was to understand about magic; sometimes the simplest explanation worked best, and even a mage like Kaelen could learn from listening before speaking.
+
+Elias listened carefully as each of them spoke their observations, then nodded again when Maren finished explaining her assessment of the trap. “Alright,” he said at last. “We move forward quietly, one at a time. Torin leads with me in case we need to deal with any surprises. Kaelen, keep your eyes open for anything unusual—smoke, light, sound—that might indicate they’re using magic or traps beyond simple ropes and bells.” He glanced toward Elara. “You stay behind us and keep track of where everyone is going. Maren, you’re next; go ahead and check the interior perimeter while we wait for Kaelen to clear any obvious hazards.”
+
+Maren nodded once again, then stepped past Elias and Torin into the doorway, her hammer drawn now as she moved with deliberate care to avoid triggering anything else. She paused briefly at the threshold, listening to the faint sounds of laughter and chatter coming from inside, then gave a low grunt that sounded almost like approval. “They think we’re alone,” she murmured, not looking back. “That’s how it stays this way.”
+
+Torin followed behind her, keeping his sword drawn but relaxed, watching the way the shadows stretched across the floor as they moved deeper into the keep. He didn’t need to say anything; he understood that silence was their only ally right now, and that if they wanted to succeed, they’d have to trust each other completely—even if it meant admitting fear sometimes.
+
+Inside, the air smelled of woodsmoke and unwashed bodies, a scent that made Elias’s nose wrinkle slightly as he stepped past Maren into the main hall of the ruined keep. The ceiling above them was cracked in places, with beams leaning precariously over one another like broken teeth; but even so, the space remained large enough to move through freely, and the ground beneath their boots was surprisingly clean for such a place. There were no traps laid out here—not yet—but there were signs of recent activity: overturned crates, scattered tools, and the occasional pile of stolen goods that someone had left behind in haste.
+
+Elara stopped just inside the doorway, her chisel now pressed firmly against her hip as she scanned the room with quick, practiced movements. “They’re setting up something,” she said quietly after a moment, pointing toward a corner where several crude-looking contraptions sat assembled on tables and stools—things that looked like they’d been built from scrap metal and whatever else the goblins could find lying around. “Some kind of signal device, maybe?”
+
+Kaelen stepped forward again, his brass gauntlet glowing faintly now as he raised one hand toward the air above them. He didn’t say anything, just let a small wisp of smoke curl upward from his fingers before fading away again, leaving no trace behind but for the quiet hum in the room that seemed to grow louder with every second they spent inside.
+
+Torin moved cautiously toward the back of the room where the goblins had been gathered around their fire, checking each surface he passed for signs of traps or hidden weapons. He didn’t need to look up to see what he found; the way the light filtered through the broken windows told him everything he needed to know about how long they’d been here, and that if anyone wanted to leave quickly, they’d have to do so before the goblins noticed them coming.
+
+Maren was already inspecting the interior perimeter as Elias had instructed her, moving silently along the walls where she could feel vibrations traveling through the stone beneath her feet. She didn’t speak much beyond brief comments about what she was finding or not finding, but every word she said carried weight because it came from
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate relationship change 'Trust between party members is reinforced through coordinated movement and shared assessment of traps' repeats relationship change from Chapter 1, Scene 2: 'Trust between party members is reinforced through shared assessment of the threat'; candidate relationship change 'Villagers' trust in the party is established as they proceed with the investigation' repeats relationship change from Chapter 1, Scene 2: 'Villagers' trust in the party is established as they proceed with the investigation'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.

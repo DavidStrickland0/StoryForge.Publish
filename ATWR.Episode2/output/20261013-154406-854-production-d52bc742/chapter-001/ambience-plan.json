@@ -1,0 +1,49 @@
+{
+  "version": 3,
+  "fingerprint": "7fa439b7beaef0c39022ceee5b16772bce194d97f7d0f599fa0449589225f1ee",
+  "model": "qwen3.5:9b",
+  "cues": [
+    {
+      "startSegment": 0,
+      "endSegment": 68,
+      "tags": [
+        "fire",
+        "indoors",
+        "rain"
+      ],
+      "setting": "tavern",
+      "prompt": "continuous crackling fire and distant rain against stone walls",
+      "evidence": "The fire in the hearth of the Crooked Stag crackled with a dry woodsmoke scent that was far less welcome than the rain outside.",
+      "intensity": "moderate"
+    },
+    {
+      "startSegment": 118,
+      "endSegment": 163,
+      "tags": [
+        "forest",
+        "indoors",
+        "rain",
+        "wind"
+      ],
+      "setting": "outdoors",
+      "prompt": "continuous heavy rain lashing against trees and ground with wind rustling leaves and wet earth sounds",
+      "evidence": "The rain had begun falling harder again, washing away some of the finer details but leaving enough evidence for their current needs.",
+      "intensity": "strong"
+    },
+    {
+      "startSegment": 164,
+      "endSegment": 208,
+      "tags": [
+        "outdoors",
+        "rain"
+      ],
+      "setting": "forest trail near creek",
+      "prompt": "continuous heavy rain falling on wet wood and leaves creating a soft to moderate ambient bed of water droplets hitting ground and foliage",
+      "evidence": "The storm continued to pour down around them, rain falling hard enough to blur outlines and make speech difficult without raising voices.",
+      "intensity": "moderate"
+    }
+  ],
+  "warnings": [
+    "Batch 2: unresolved cues omitted after correction attempts; retained 0 valid cues. Cue 1: Cue 69-117 requires an exact evidence quotation from its own source range. Rejected evidence: 'Raindrops pooled in hollows between roots, forming small dark puddles that reflected the gray sky above. Smoke rose faintly from chimneys where fires still burned late into the night—the villagers’ futile attempt to ward off rain and cold.'. Copy a quotation directly from the supplied source segments."
+  ]
+}
