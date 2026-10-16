@@ -1,0 +1,279 @@
+﻿The rain continued to lash against the canopy, turning the dense woods into a world of gray noise and slick shadows. Torin moved ahead, his boots finding purchase on the narrow ridge Elias had identified earlier. The ground here was hardened by wind exposure but remained treacherous where roots twisted beneath the surface like buried snakes. Maren followed in his wake, her stride slightly slower than it had been an hour ago. She adjusted the broken cart axle strapped across her shoulder, the weight settling into a new, deeper ache along her spine. Her hands, wrapped in leather and still sensitive from the burns of the previous operation, gripped her hammer's haft with a tightness that betrayed her discomfort.
+
+"You're slowing us down, Maren," Elias called out, his voice barely rising above the drumming of the storm. He kept his eyes on the path ahead rather than looking back at her. "We have limited visibility, and I don't need you to stop every time your boot slips."
+
+Maren didn't look up from the mud-slicked trail beneath them. "I'm not stopping," she replied, her voice level despite the strain. "But if we hit a steep drop or a sinkhole on this ridge, I'll need Torin to watch my flank."
+
+Torin slowed his pace slightly, turning back just enough to signal with a raised hand that Maren could follow more easily. He wasn't comfortable letting her lag too far behind either; the group's cohesion mattered as much as their speed when facing an organized goblin band. "Mud hides tracks," Torin said quietly. "It also hides us from them if we keep moving steady. Just take small steps."
+
+Elias nodded, stepping up beside Maren to offer a hand that she accepted without hesitation. Her grip was strong, but her movements were cautious, as though she were testing every muscle and joint for weakness. He didn't comment on her condition directly; instead, he focused on keeping the group's rhythm steady and ensuring no one fell behind or got separated by the rain.
+
+As they neared the edge of the clearing ahead, Torin called a halt just before stepping onto what looked like open ground. The trees parted to reveal a large, irregular space surrounded by broken stone walls and collapsed timber frames. Beyond that lay the ruins of the keep—a structure that had stood centuries ago but now served only as shelter for goblins and their victims.
+
+"Look at this," Elara whispered from behind them, though Elias had already seen it coming. She held her lantern low, its light catching the jagged edges of fallen beams and scattered debris. "This isn't just a random ruin. Someone has been living here."
+
+She pointed to a small pile of dried twigs stacked neatly near one corner of the clearing, next to what appeared to be a crude fire pit made from flattened stones. Nearby lay scraps of coarse rope, fragments of iron arrowheads, and bits of leather that had once belonged to someone who had worn them well before they were torn away in struggle. The evidence was sparse but clear: this was not merely an abandoned fortification—it was a base camp.
+
+"They've been setting up here for some time," Elara continued, her voice soft as she examined the remnants of their occupation. "Look at how they arranged those stones around the fire pit. They're trying to create warmth and light without drawing attention from outsiders."
+
+Elias stepped forward carefully, his sword ready in case any goblin scouts were lurking nearby. He scanned the perimeter of the clearing, noting the way the trees formed natural barriers on three sides while leaving one side open toward the village. That openness suggested either a deliberate choice by the raiders or a lack of resources to fully enclose themselves. Either way, it presented both an opportunity and a risk for his party.
+
+"You think they've been using this place long enough to establish routines?" Elias asked, keeping his tone calm even as he considered the implications. "If so, we'll need to know when they're most active and least likely to be patrolling."
+
+Torin nodded once before moving forward to check the ground around the entrance to the keep itself. He knelt beside a gap in the wall where a section of masonry had crumbled outward years ago, revealing rough-hewn stone beneath layers of dirt and moss. "There's no sign of recent movement here," he said after a moment. "No footprints leading into or out of the main chamber. If they're still inside, they've been hiding in deeper rooms beyond this outer courtyard."
+
+Maren crouched beside him, inspecting the entrance with focused scrutiny. Her hammer rested casually against her thigh as she studied the uneven threshold where goblins might have dragged prisoners through. "They could be moving supplies in and out during daylight hours," she murmured. "If we enter now, we'll risk being seen unless we're prepared to move fast."
+
+"Or slow," Elias countered gently, gesturing toward the open side of the clearing. "We can use the cover of darkness and the rain to sneak past any lookouts they might have stationed there. But first, let's confirm whether anyone else is nearby." He turned to Kaelen, who had remained near Elara with the brass gauntlet glowing softly despite its dimming state.
+
+"Kaelen," Elias said quietly, "can you cast a spell to detect presence? Just something subtle—nothing that would attract attention if goblins are watching."
+
+Kaelen hesitated briefly before raising his hand and casting *detect magic* in its most basic form—a faint shimmer of golden light radiating from the gauntlet as it scanned the area. For several seconds, nothing happened other than a low hum emanating from the relic itself. Then, abruptly, three distinct pulses of energy flickered outward along the northern edge of the clearing, indicating magical signatures consistent with minor protective wards or spells cast by goblins to mask their presence from outsiders.
+
+"They're hiding something," Kaelen muttered, lowering his hand and shaking it slightly as though trying to dispel residual effects. "Three sources—probably lookout posts or traps set up around the perimeter."
+
+Elara stepped closer to examine the readings more closely, pulling a small vial of quartz dust from her satchel and swirling it between her fingers. The liquid clouded momentarily before clearing again, leaving faint residue patterns on the glass surface that matched known spell signatures described in ancient texts. "These aren't high-level wards," she noted. "Just simple concealment magic designed to make invisible things harder to find. But they're effective enough to fool someone who doesn't know what to look for."
+
+Elias considered her assessment before turning back toward Torin and Maren, who had resumed scanning the ground around the keep's entrance. "We'll need to approach quietly," he said finally. "Use your voices sparingly and stay close together. If anyone tries to ambush us from behind those trees on the north side, we'll deal with them immediately—but let's avoid unnecessary fights unless we have no choice."
+
+Maren nodded once, adjusting her pack again as she moved toward the entrance. She didn't seem eager to go in just yet; perhaps the prospect of facing goblins directly intimidated her even more than admitting fatigue did. Still, she followed Elias's orders without complaint, stepping carefully into the darkness beyond the tree line where the only light came from Elara's lantern and Kaelen's gauntlet.
+
+Inside the courtyard, the air smelled faintly of smoke and damp earth, mixed with the metallic tang of blood that lingered stubbornly despite the rain washing away most traces of violence. The ground was littered with broken tools, scraps of fabric, and discarded armor pieces that had been looted from victims earlier raids. In the distance, beyond the crumbling walls, stood the main structure itself—a two-story building whose upper floors leaned precariously outward as if ready to collapse at any moment. Doors hung loosely on rusted hinges, swaying gently in the draft even though there was no wind outside.
+
+Elias kept his eyes scanning both above and around them as they moved deeper into the compound. He noted how Torin remained alert, watching for signs of movement or sound that might indicate an approaching threat. Maren stayed close to him, her hammer raised slightly as though ready to strike at any moment. Elara walked slightly ahead, recording observations in her notebook while occasionally glancing back to ensure everyone kept pace.
+
+"Keep moving," Elias said softly after a few minutes of silence broken only by the sound of rain dripping from leaves overhead. "Once we reach the main hall, we'll assess where the captives are held and whether Skrit's band is still active within these walls."
+
+Torin glanced at him over his shoulder, though he kept scanning ahead for potential ambush points. "Agreed," he replied without hesitation. "Just tell us if you see anything suspicious along the way."
+
+Elias nodded once before turning back to follow Maren as they stepped across the threshold into the keep's interior. The doorway led directly into a large central chamber where smoke still curled lazily from an extinguished fire pit surrounded by stones that bore scorch marks far too recent to have been left by chance. Beyond that lay rows of narrow corridors branching off toward unseen rooms, each lined with crude barriers and makeshift defenses constructed from timber beams and heavy rocks piled haphazardly near entrances.
+
+"It's quiet," Maren observed after they passed through the first doorway. "Too quiet."
+
+Elias agreed silently as he moved cautiously forward, his sword ready in case anything decided to attack them unexpectedly. There was no sound of movement or breathing within those walls—no rustle of fabric, no crackling of fire, no murmur of voices—that would suggest anyone else was present right now. But that silence itself felt unnatural, almost oppressive, as though the very air had been held still by unseen forces waiting patiently for prey to walk blindly into their trap.
+
+As they ventured deeper inside, Torin took point once again, leading them through twisting corridors where shadows seemed longer and darker than before. Elara followed closely behind, her lantern casting flickering beams of light against crumbling walls covered in graffiti scratched into the stone by those who had entered long ago—or perhaps recently. Kaelen remained near the rear, his gauntlet providing steady illumination while he kept a watchful eye on any magical residue that might reveal hidden dangers lurking beyond sight.
+
+By the time they reached what appeared to be the main storage area—a vast room filled with crates stacked haphazardly along one side and sacks of grain scattered across the floor—Torin paused briefly to listen intently for sounds coming from deeper within the structure. His ears twitched slightly as he strained to hear anything beyond the distant rumble of thunder rolling overhead.
+
+"Nothing yet," he said finally, though his tone betrayed a nervousness that contradicted his outward composure. "But something's off here."
+
+Elias nodded once before gesturing for them all to move forward slowly, staying low and keeping eyes peeled for movement or noise that could indicate ambushes waiting around every corner. The room itself was vast enough to house dozens of people comfortably yet felt unnaturally empty despite the presence of so many stolen goods piled carelessly along its edges. Crates bore markings indicating ownership by various farms scattered throughout the region, while sacks bulged with contents ranging from grain and meat to valuable trinkets likely taken as payment or loot during previous raids.
+
+In the center of the room stood a crude table carved hastily from driftwood found somewhere nearby, surrounded by stools made from broken chair legs and twisted branches. Scattered across its surface lay maps drawn on scraps of parchment showing layouts of surrounding farms marked with crude symbols denoting recent attacks and future targets. Elias picked up one such map and examined it closely, turning it over in his hands until the ink faded under the dim light of their lanterns.
+
+"This shows us exactly where they've been raiding," he murmured quietly, tracing lines drawn in charcoal across rough paper. "And if we follow these routes backward, we can figure out which direction they're heading next."
+
+Maren stepped forward to inspect the map herself, pointing at a particular section marked with an X near the creek bend where Nella's farmhouse had been located earlier that evening. "They started there," she noted dryly. "Then moved northeast after stealing grain from Miller's farm last night. Now they're heading southeast toward Blackwood Valley."
+
+Elias nodded once before folding the map carefully and tucking it into his satchel alongside other documents he'd collected during their travels. "Good work," he said approvingly. "Now let's find those captives before someone decides to make us fight for our lives instead of rescuing them."
+
+With renewed purpose, the group pressed onward toward deeper chambers where screams had recently echoed softly through thin walls before fading into silence as rain continued to pour relentlessly outside. Every step they took brought them closer to completing their mission—and further away from safety that awaited them back at the Crooked Stag. Yet despite exhaustion weighing heavily on each member's shoulders and injuries reminding them constantly of how fragile life truly was under such conditions, determination drove them forward nonetheless.
+
+The rain hammered against the tin roof of the storage chamber, a rhythmic drumming that seemed to drown out anything less urgent than a screaming goblin inside these walls. Elias stepped over a heap of stolen sacks of grain and leaned against a rough-hewn stone pillar to watch Kaelen work. The mage stood in the center of the room, his brass gauntlet crackling with a low hum that made the hair on Elias's arms stand up despite the chill air.
+
+Kaelen raised his hand, fingers splayed as he pushed a shimmering sphere of silver light into the space above their heads. From it, thick coils of gray smoke began to spiral outward, not dissipating like ordinary vapor but clinging to the stone walls and floor before rising in lazy rings. The smoke moved independently of the wind, weaving through the narrow corridors and around the heavy timber beams that supported the upper story of the ruined keep.
+
+"Keep your heads down," Kaelen whispered, his voice barely audible over the thunder. "It's thick out here. It'll hide us from anyone looking up."
+
+The smoke curled into a dense bank between them and the main entrance they had just passed through. Through this veil, Elias could still see the outlines of the room, but it was as if he were viewing it through water. The goblin sentries patrolling the upper gallery above the storage area did not react to the sudden appearance of a group of travelers; the smoke masked their presence entirely against the gray gloom of the storm outside and the dim lantern light that flickered overhead.
+
+Elias moved silently behind Kaelen, stepping carefully over scattered tools—hammers bent by fire, chisels rusted shut, and shards of pottery that had shattered during a recent break-in. The smell of the room was thick with damp rot and woodsmoke, but beneath that lay something sharper: the faint, coppery scent of fear left in the air by those who had passed this way recently.
+
+"Look at the residue," Elara murmured, crouching near the base of the stone pillar where a coil of rope lay tangled with a few loose nails. She reached into her satchel and pulled out a small vial of loose quartz dust, shaking a pinch onto a scrap of parchment she had torn from a nearby crate. The dust caught the faint light from Kaelen's gauntlet and glowed softly as it touched the air, revealing patterns invisible to the naked eye.
+
+"Interesting," she said, tilting her head as she examined the swirling motes of light that trailed her movements. "This isn't just random smoke or fog." She pointed her charcoal at a faint, shimmering line drawn in the air between two columns—a thin membrane that rippled like disturbed water when Kaelen's magic brushed against it. "These wards are active. They're designed to hide movement within a specific radius, not merely obscure vision."
+
+Elias glanced at the parchment Elara had sketched out. On its surface, faint glowing lines traced the perimeter of the room and extended outward along the stone walls. The quartz dust reacted strongly near the northern edge of the chamber, where Kaelen had previously detected three distinct magical signatures.
+
+"The wards here are simpler than what we saw at the Gate of Silence," Elara explained, brushing away a clump of dirt with her gloved hand. "But they still block detection spells and conceal movement from anyone who isn't aware of how to bypass them." She looked up at Elias, her eyes narrowing slightly as she studied the patterns. "Kaelen's smoke is actually feeding into these wards temporarily. That means if we move without triggering a physical alarm, we can probably slip past unnoticed for now."
+
+Maren grunted from the doorway, where she had paused to inspect the rusted iron hinges of a heavy oak door leading deeper into the keep. Her hammer rested against her shoulder, the wooden haft worn smooth by years of use. She shifted her weight, testing the balance between pain and progress, then stepped fully inside the chamber. The broken cart axle tied to her back creaked softly with every movement, but she didn't stop or complain.
+
+"I don't see any traps on the floor," Maren said, tapping a finger against the damp stone beside her boot. "Just loose stones and debris from earlier raids. If we keep our feet moving light and avoid stepping in puddles that look too deep, we won't trigger anything obvious."
+
+Torin nodded from near the entrance, scanning the corridor ahead as he walked cautiously past the threshold. His sword hung loosely at his side, though his fingers rested lightly on the pommel. He had already checked both sides of the passage they were entering, noting the placement of broken beams and collapsed archways that blocked sightlines but didn't seem to conceal anything dangerous.
+
+"Torin's got a good eye," Elias muttered, watching as the soldier scanned the shadows along the far wall. "If there's something here hiding in plain sight, he'll find it before we do."
+
+Elara continued her analysis of the ward lines, drawing more sketches on her parchment while occasionally glancing up to watch Kaelen adjust the intensity of his smoke output. The mage lowered his hands slightly, letting the concentration loosen from his brow as he shifted his focus from casting to monitoring the environment. His brass gauntlet pulsed gently now, maintaining a steady glow that kept their group visible only within the immediate vicinity of the chamber.
+
+"This is going better than I expected," Kaelen said quietly, brushing a strand of smoke away from his face with the back of his hand. "The wards are responsive but not overly complex. As long as we stay inside this radius and don't make sudden loud noises, we should be fine."
+
+"And if someone tries to cut through this?" Elias asked, gesturing toward the shimmering barrier that surrounded them. "Can you break it open?"
+
+Kaelen shook his head slowly. "Not without drawing attention. These wards are tuned to respond to magical disruption, so forcing them apart would likely trigger an alarm—or worse, summon something worse." He paused, glancing at Elara's notes. "But if we work with the ward instead of against it... maybe there's a way to slip through undetected."
+
+Elara nodded thoughtfully, pointing her charcoal toward one of the faint glowing lines that traced along the wall. "If I can reinforce this spot temporarily with a counter-spell—" she stopped mid-sentence as Kaelen raised an eyebrow. "Wait, no magic counter-casts unless we have a specific reason to use them," she corrected herself, smiling faintly at Kaelen's sharp look. "But if you let me borrow some of your residual energy..."
+
+"I've got enough left for smoke screens and maybe a shield," Kaelen repeated firmly, though his expression softened slightly. "Don't push too hard on my reserves tonight. We'll figure out how to navigate this without burning everything out."
+
+Elias exchanged a quick glance with Torin, who nodded silently in agreement. The group had learned quickly over the years that relying too heavily on magical solutions could leave them vulnerable if resources ran low. Tonight was different; they needed to move fast and quietly, not risk draining Kaelen's ability just to gain a few extra seconds of safety.
+
+"So," Elias said, clearing his throat as he adjusted the strap of his sword hilt. "We proceed into the deeper chambers now? Or do we wait until morning when the storm slows down?"
+
+"Morning is too late," Maren replied flatly, stepping forward again to clear a path through the scattered tools and debris. "If those goblins are raiding farms right now, they've probably got fresh captives being held in the back rooms. We need to get there before they shift patrol schedules or start rounding up survivors for transport."
+
+"Agreed," Elias said, nodding toward the narrow doorway leading deeper into the keep. "Let's go. But we stick close together and keep our voices low. If anyone screams, we freeze until we see what caused it."
+
+The group began moving again, stepping carefully over rubble and avoiding puddles that might conceal hidden pitfalls or traps. The smoke from Kaelen's gauntlet swirled around them like a protective curtain, masking their presence as they passed through the narrow corridor and into the next chamber beyond.
+
+Inside this new room, the air felt colder and darker than before, with only faint lantern light filtering down from above. Stacks of looted goods—grain sacks, metal tools, and farming implements—lined one wall, while rough-hewn tables and crates occupied the center of the space. Maps pinned to the walls displayed routes between farms and villages, marking paths taken by goblin raiders over recent weeks.
+
+Elias approached one of these maps, his eyes scanning the ink-stained parchment as Elara crouched nearby to examine the details more closely. Arrows pointed toward neighboring settlements like Pinehollow itself, while other markers indicated future targets far off in the Blackwood Valley region. Notes written in crude script labeled each location with dates and descriptions of stolen goods, including mentions of missing villagers such as Nella and Hobb.
+
+"They're planning bigger raids soon," Elara murmured, pointing to a cluster of red circles drawn near the northern edge of the map. "If they hit Blackwood Valley next, that'll mean we've got less time to prepare for them returning here."
+
+"We can't afford to let them win," Torin said quietly, his voice tight as he stepped forward to join the group. "We need to stop them before they grow too confident."
+
+"And how do we do that?" Elias asked, turning back toward Maren, who was already inspecting the heavy wooden door leading further into the keep. "We don't have an army at our disposal. Just five people and a few spells between us."
+
+Maren paused in front of the door, placing one hand on its cold surface to feel for vibrations or signs of recent activity. Her expression remained grim but focused as she shook her head slightly. "That's exactly why we're here. To show them that their little band of raiders isn't invincible. If we take out their leader and secure those captives, they'll scatter and stop raiding for a while."
+
+"Unless someone takes charge," Torin added dryly, glancing at Elias with a faint grin. "Because if you're going to lead us straight into trouble again, I hope you've got a plan ready."
+
+Elias chuckled softly, shaking his head as he followed Maren toward the door. "I always have a plan. It's just that sometimes it doesn't work out exactly as intended."
+
+"That's why we need backup," Maren replied, pushing open the heavy wooden door and stepping into the next chamber beyond. The air inside was colder still, with a faint smell of blood and fear clinging to the stone walls. "Come on. Let's find these people before it gets worse."
+
+Maren pushed open the heavy wooden door and stepped into the next chamber beyond. The air inside was colder still, carrying a faint, metallic scent of blood and fear that clung to the stone walls like oil. She did not comment on the chill; it was just another variable in the equation of survival. Her boots made no sound on the worn flagstones as she moved forward, her weight shifting slightly to compensate for the broken cart axle strapped to her shoulder and the lingering ache in her lower back.
+
+Elias followed close behind, his eyes scanning the room for anything out of place. Torin flanked them, checking the perimeter while Elara slipped past Maren, pulling a small lantern from her pack and placing it on the nearest crate to illuminate the cluttered space. The chamber was a makeshift storeroom, filled with crates of grain that had been stripped of their lids, empty sacks of flour tied loosely around wooden stakes, and tools belonging to various villagers scattered haphazardly across the floor. A large map pinned to the wall by nails detailed the local farms, with red arrows drawn in charcoal ink pointing toward the village and beyond.
+
+"That's them," Elara said quietly, tracing a line on the map with her gloved finger. "These raids aren't random. They're following a schedule."
+
+Elias nodded, studying the annotations beside each arrow. "The last one was Nella's place. Two days ago—Miller's farm before that." He looked up at Torin. "If we wait too long, they'll hit Blackwood Valley next. We don't have time for that."
+
+Torin crossed his arms and leaned against the far wall. "Agreed. But let's not rush blindly into traps or ambushes just because we're anxious."
+
+"Good point," Maren said, crouching beside a pile of scavenged farm implements to inspect them more closely. "We need to know exactly what kind of defenses they've got before we move further in." She reached out and picked up a rusted scythe blade, running her thumb along the edge cautiously despite its dullness. "This doesn't look like something goblins would carry unless someone gave it to them recently. Or maybe they're making their own?"
+
+Elara knelt beside her, examining the handle where wood had been splintered away from impact damage. "It's old iron," she murmured, turning it over in her hands. "Forged locally somewhere near here. Probably traded with a blacksmith before the raids started." She stood again and pulled a piece of chalk from her satchel, marking a small circle next to the weapon on her notebook. "Whatever source they used for this gear, it's not their own craftsmanship. Someone supplied them."
+
+"Which means there's an external organization involved," Elias noted thoughtfully. "Guilds? Mercenary groups? Or just opportunistic traders selling off excess stock?"
+
+Maren stood up and shook the rusted blade lightly before tossing it aside. "Doesn't matter right now. What matters is how many goblins are hiding out there and whether we can reach the captives without being seen." She pointed toward a narrow passage that led deeper into the keep, its entrance marked by a low barrier of rough-hewn stones. "That way looks suspiciously empty for this size of operation. Too quiet."
+
+Torin stepped closer to investigate, peering down the corridor ahead where darkness seemed thick enough to swallow sound, broken only by the faintest hint of torchlight flickering in the distance. He paused there, listening intently for any sign of life. No voices, no footsteps—just silence occasionally interrupted by distant rustling noises drifting from somewhere inside the structure itself.
+
+"Something's off," Torin muttered after a moment. "Too much emptiness for this many people."
+
+Elias walked toward him and placed a hand on his shoulder. "Could be they're rotating patrols or waiting for us to trigger something," he suggested. "Let Elara check if there are any magical wards blocking movement here."
+
+Elara nodded quickly and stepped forward, pulling her quartz dust vial from her satchel. She poured a small amount onto the ground near Torin's feet and watched as it began to glow faintly blue under Kaelen's smoke veil. The dust spread outward slowly, revealing faint traces of energy signatures along the walls and ceiling. "There are wards here," she confirmed finally. "They're designed to mask presence against magical detection. That explains why nothing seemed wrong until now."
+
+Kaelen stepped forward and gestured subtly toward Elara's work. His brass gauntlet pulsed softly, maintaining its steady ring of golden light as he monitored the ward readings alongside her. "These aren't simple concealment spells," he said carefully. "They feed off residual magic in the environment—maybe leftover from previous battles or rituals performed within these walls." He glanced briefly at Elias. "I could try to disrupt them, but it might trigger alarms or summon something worse. Better to find another route around them if we can."
+
+Elias nodded again, considering their options. "Then we'll stick together and keep moving quietly," he decided. "If anyone's lurking nearby, we'll hear them first anyway." He glanced at Maren. "Can you still take point?"
+
+Maren rolled her shoulders slightly, ignoring the sharp pain that shot through her back whenever she did so. "As long as I don't have to sprint too hard," she muttered, adjusting the broken cart axle strapped across her shoulder before taking a step forward. "Let's go."
+
+The group moved carefully down the corridor, their footsteps muffled by layers of debris covering the floor. The air grew progressively colder as they ventured deeper into the keep, with occasional gusts of wind rattling loose shutters high above them. Torin led the way this time, scanning each corner for signs of movement or traps while Elara noted details about the ward patterns and their possible origins on her ever-present pad.
+
+At last, they reached what appeared to be a central hub—a wide open area branching into several different directions. Maps pinned to one wall showed various routes leading out toward neighboring villages, all marked with warnings scribbled in red ink alongside crude sketches of goblin patrols stationed along those paths. Another section housed shelves stacked high with stolen goods: baskets of eggs, jars of pickled vegetables, bundles of woolen clothing taken directly from farms outside the keep.
+
+"This is where they store everything," Maren observed, pointing toward a large iron-bound door at the far end of the room. "Captives probably held somewhere close to here."
+
+Elias examined the map again, checking coordinates and noting distances between key locations. "If they're using this place as both storage and base camp, then the captives are likely guarded heavily. We'll need a plan before breaking in."
+
+"Exactly," Torin agreed. "No point rushing headfirst into trouble without knowing what we're walking into." He stepped back slightly, giving the others room to discuss further strategy while keeping watch over the perimeter. The silence felt heavier now, filled only by the occasional crackle of Kaelen's smoke magic as it dissipated slowly into thin air.
+
+Elara knelt beside one of the maps and began sketching out possible approaches, marking potential weak points or alternate entry routes based on their observations so far. "We could go through the broken wall first," she suggested, tracing a jagged line drawn on parchment depicting where the outer defenses had collapsed earlier in the day. "Then we'd slip past the main guard post and head straight for the holding cells behind it."
+
+"That sounds risky," Torin replied cautiously. "What if someone spots us while we're navigating that section?"
+
+"It's our best shot right now," Maren countered firmly. "Besides, Kaelen's keeping us obscured with his smoke screen. Even if they see something out of place, they won't know who it is."
+
+Kaelen nodded absently, brushing a stray tendril of gray vapor away from his face as he watched Elara sketch. "True enough. But remember—you only get one chance to pull this off cleanly." He glanced briefly at Elias. "Don't make us regret sticking together."
+
+Elias smiled faintly despite the seriousness of the situation. "You're right, Kaelen. But we've come too far to turn back now. Besides, you're counting on me to keep everyone safe."
+
+Torin rolled his eyes slightly but said nothing further. Instead, he gestured toward another group of maps spread across a nearby table near the center of the room. Those papers contained detailed plans showing troop deployments, patrol schedules, and even notes about food supplies being transported daily from outside sources. One particular section depicted routes leading directly into Blackwood Valley, complete with estimated travel times based on terrain conditions and weather forecasts drawn up weeks earlier than that.
+
+"See?" Elara pointed excitedly at a specific annotation scribbled in red ink near the bottom margin. "They're planning bigger raids soon. If we don't stop them here, they'll be coming straight for Pinehollow within days."
+
+Maren stared silently at the map for several moments before nodding slowly. "Then we'd better hurry up." She turned to Elias once more. "What's your call on this? Do we stick with the original plan or think of something else?"
+
+Elias let the silence stretch for a moment, the heavy rain drumming a relentless rhythm against the keep's upper stones. The question hung in the damp air, waiting for an answer that none of them wanted to give yet because it implied a choice they hadn't fully made. Maren's gaze remained fixed on the iron-bound door at the far end of the hub, her jaw set tight. She was the one who had to push through whatever lay on the other side, and the weight of the cart axle on her back seemed to press down on her shoulders with every second they spent standing still.
+
+"We can't go through the wall," Elias said finally, his voice low and steady. "Torin checked the perimeter. The goblins have a lookout post directly overlooking that gap. If we crawl out of the rubble, we're visible from the guard tower. We'd be walking into a crossfire before we even cleared the courtyard."
+
+Maren turned her head sharply, her eyes narrowing. "Then we go through the front. The main entrance is guarded, yes, but it's a single choke point. We can handle two or three goblins if we move fast."
+
+"Three is too many for a surprise attack in the dark," Torin interjected, his voice quiet but firm. He was leaning against a stack of crates, his hand resting on the pommel of his sword. "And with your injury, Maren, you can't hold a defensive line while the rest of us clear the room. If the alarm goes up, you're stuck in that doorway."
+
+Maren's expression hardened, but she didn't argue the tactical point. She knew her limits, and she knew Torin was right. A stalemate in the center of the hub was not a strategy; it was a delay.
+
+Elara, who had been crouching near the base of the iron door, looked up. She held a small piece of charcoal in one hand and a scrap of parchment in the other. She didn't look at the map on the wall; she was looking at the floor.
+
+"Neither," Elara said.
+
+Elias frowned. "Elara?"
+
+"The passage behind the door," she said, standing up slowly. She brushed a speck of dust from her sleeve. "Torin, you mentioned earlier that the goblins use a specific route to move supplies from the outer stores to their living quarters. I was looking at the wear patterns on the flagstones."
+
+She tapped the floor with her boot, indicating a narrow corridor that branched off to the left of the iron door, partially obscured by a fallen beam. "This isn't a main thoroughfare. It's a service passage. The stone is worn smooth in the center, but the edges are rough. That suggests heavy, repeated traffic, but not the kind of traffic that would require a full guard detail. It's a back route."
+
+Maren stepped forward, her hammer shifting in her grip. "Back routes are where traps go. You know that."
+
+"I do," Elara replied. She moved to the entrance of the narrow passage, kneeling again. She didn't reach for her quartz dust this time. Instead, she pulled a small, flat stone from her pocket—something she had likely picked up during their trek through the woods—and held it over the threshold.
+
+"Watch," she whispered.
+
+She dropped the stone. It clattered against the flagstones inside the passage, rolling a few feet before coming to rest against a pile of debris. The sound was sharp, echoing slightly in the confined space.
+
+Nothing happened. No spring-loaded mechanism, no swinging blade, no sudden release of gas. The air remained still.
+
+Elara picked up another stone, slightly larger this time. She dropped it. It landed with a heavier thud. Still nothing.
+
+"Weight distribution," Elara said, looking up at Elias and Maren. "I've been studying the structure of these older keeps. The traps in the main corridors are usually pressure plates that trigger when a specific amount of weight is applied to a specific tile. But this passage… look at the wear."
+
+She pointed to the center of the floor, where the stone was polished to a shine. "This area has been walked on thousands of times. If there were a simple pressure plate here, it would have been triggered or broken long ago. The goblins don't have the engineering skill to create a complex, delayed-action trap that resets itself. They use crude mechanics. Levers, weights, pits."
+
+Torin joined her, peering into the darkness of the passage. "So it's safe?"
+
+"It's safe from immediate triggers," Elara corrected. "But I suspect the danger isn't in the floor. It's in the ceiling."
+
+She gestured upward, her lantern light catching the jagged edges of the timber beams that supported the roof above. "Goblins are opportunistic, but they're also practical. If they want to protect a supply route, they don't build complex traps. They hang weighted bags of sand or stone from the ceiling, attached to tripwires. When someone walks through, the wire snaps, the bag drops, and the person is crushed or pinned. It's simple. It's effective. And it doesn't require magic."
+
+Maren nodded slowly, her eyes scanning the ceiling. "I can see the knots," she murmured. "There are frayed ropes hanging down about six feet off the ground. If they're loaded, they'll drop on anyone who walks the center line."
+
+"Exactly," Elara said. "But if we hold to the perimeters, the tripwires anchor to the masonry rather than the floor's center. The middle is the kill zone; the edges are the escape routes."
+
+Elias shifted his gaze from Elara to Maren, then to Torin. He watched the plan crystallize in their minds: a practical, grounded alternative to the dangerous frontal assault or the risky wall crawl. It wasn't elegant. It wasn't heroic. It was simply smart.
+
+"We'll use the edges," Elias said, his voice low and steady. "Torin takes point on the left, Maren on the right. I'll follow with Elara in the middle to watch for any magical residue that might indicate a hidden ward. Kaelen, you stay here at the hub until we signal you."
+
+Kaelen nodded, though his expression remained unreadable. "I've got enough smoke left to cover our retreat if things go south," he said quietly. "But if we need to hold the line, tell me when."
+
+"Understood," Elias replied. He turned back to Elara. "You're with Torin on the left flank. Maren, you and I take the right. We move now."
+
+Maren adjusted her grip on the hammer, testing the balance once more before stepping forward. She didn't wait for further instruction; she knew her limits, and she knew Torin was right. A stalemate in the center of the hub was not a strategy; it was merely a delay.
+
+"Let's go," Elias said, stepping toward the narrow passage. The group flowed into the darkness like water finding its level, their careful steps echoing softly against the stone walls. Above them, frayed ropes hung motionless, waiting for someone foolish enough to step into their path; they were not fools tonight.
+
+As they reached the end of the corridor, Torin paused, listening intently to the sounds drifting from deeper within the keep. Nothing but the distant drip of water and the occasional rustle of fabric in the wind reached his ears. "Clear," he murmured, signaling them forward.
+
+Elias nodded, keeping his eyes on the shadows ahead. They moved through the service passage, avoiding the center line where the tripwires waited. The air grew colder still, carrying a faint, metallic scent of blood and fear that clung to the stone walls like oil. But they pressed on, driven by the knowledge that every step brought them closer to their goal.
+
+At last, they reached the heavy iron door leading into the storage chamber where Nella and Hobb were being held. Torin placed a hand on the cold metal, feeling for vibrations or signs of recent activity. His fingers found nothing but the rough texture of rusted iron. "Safe," he said.
+
+Elias nodded once more, then pushed the door open with a grunt of effort. The hinges screamed in protest, but no one reacted to the noise. Inside, the room was dimly lit by a single torch flickering near the ceiling. Two goblins sat slumped against the far wall, asleep or perhaps unconscious from exhaustion. Their weapons lay discarded beside them, useless heaps of scrap metal and broken wood.
+
+"Perfect," Maren whispered, her hammer raised slightly as she stepped inside. "We've got time to secure the captives before they wake up."
+
+Elias moved forward cautiously, keeping an eye on both goblins while Elara knelt beside one of them to check for signs of life or injury. The other goblin stirred slightly but didn't seem aware of their presence yet. Elias signaled for silence, waiting until the threat was neutralized before making any sudden movements.
+
+With the room secured, the group turned their attention to freeing the captives. Nella and Hobb were tied up in the corner, looking terrified but alive. Elara quickly worked at their bonds with a small knife she had brought along, while Maren kept watch over the goblins to ensure they didn't wake before the prisoners were free.
+
+Once the captives were released, Elias checked on them briefly. Both seemed shaken but unharmed physically. "You two okay?" he asked gently, offering a hand to help Nella stand. She nodded weakly, clutching her side where she had been injured during the raid. Hobb was quieter, staring at the floor as if afraid someone might vanish if he looked away too long.
+
+"We'll get you back to Pinehollow," Elias promised. "No more raids for either of you."
+
+Nella managed a faint smile despite her exhaustion. "Thank you," she whispered. "We thought we'd never make it out alive."
+
+Elias nodded, feeling a sense of relief wash over him that had nothing to do with magic or martial prowess. This was what they did—saved lives when others wouldn't bother. As the group prepared to leave the keep, Elias glanced back at the sleeping goblins one last time. They were just opportunistic thieves, no different from any other criminal element out there. But tonight, thanks to careful planning and teamwork, they had turned the tide against them.
+
+Outside, the rain continued to pour down around them, washing away the evidence of their presence while masking their escape route. Torin led the way back toward the broken outer wall, where Kaelen's smoke screen still swirled lazily in the air. Within moments, they emerged into the cool night air, stepping carefully over rubble and avoiding puddles that might conceal hidden pitfalls or traps.
+
+By the time they reached the edge of the woods, dawn was breaking over the horizon, casting a pale gray light across the landscape. The journey back to Pinehollow would be long and tedious, but now they carried something far more valuable than gold or treasure: hope for the villagers who had suffered so much at the hands of these goblin raiders. And as they walked together under the watchful eyes of the rising sun, Elias knew that whatever challenges lay ahead, they faced them not alone—but as a team.

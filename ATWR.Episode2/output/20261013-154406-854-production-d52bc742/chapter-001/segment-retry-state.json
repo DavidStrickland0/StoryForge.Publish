@@ -5,9 +5,12 @@
     "maxFragmentRewrites": 3,
     "totalAttempts": 12
   },
-  "attempt": 12,
+  "attempt": 3,
   "pendingAction": "complete",
-  "unresolvedSegmentIndexes": [],
+  "unresolvedSegmentIndexes": [
+    161,
+    183
+  ],
   "rewriteCounts": {
     "0": 0,
     "1": 0,
@@ -243,17 +246,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.07
+              "maximumSilenceSeconds": 0.09
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "ade40a9f19b0c2c38009a64e830df2f22e3ab95ddbe688c866e9e3bbf224316c",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "558efb65e5e834f84b3201eae6a7f749df3d8a732372f467dff78a4aea4c8aca",
             "verificationReused": false,
             "segmentIndex": 8,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 4,
@@ -262,7 +265,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 8,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "\n\nThe elder smiled thinly. ",
@@ -296,17 +299,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.04
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "7d77daa345cd9a49479800a46149d1638230f1fb82f478e4ef0fa5dc1a5b9494",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "f43289ee62ac2790b26fc3578c0129e65550efbd503bd2d8c47b7ac3449341b2",
             "verificationReused": false,
             "segmentIndex": 10,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 3,
@@ -315,7 +318,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 10,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "\n\nElias nodded once. ",
@@ -349,17 +352,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.06
+              "maximumSilenceSeconds": 0.05
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "a66fd5566e3a01c9f6f279c62d27612f8d67a674fca5295e07616ad8dcb5568d",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "eee9ec8578d919e10cda50f0ca34ac2a9684f1998aef50f2c4b08f18458a7da6",
             "verificationReused": false,
             "segmentIndex": 14,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 5,
@@ -368,7 +371,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 14,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "\n\nThe elder’s expression tightened slightly. ",
@@ -390,34 +393,29 @@
       "verification": {
         "chunks": [
           {
-            "primaryTranscription": "before answering.",
-            "secondaryModel": "medium.en",
-            "secondaryTranscription": "The elder hesitated before answering.",
-            "secondaryWordErrorRate": 0.0,
-            "secondaryAccepted": true,
             "expectedWordCount": 5,
             "transcribedWordCount": 5,
             "editDistance": 0,
             "wordErrorRate": 0.0,
             "status": "pass",
-            "verificationMode": "transcript-independent-asr",
+            "verificationMode": "transcript",
             "expectedText": "The elder hesitated before answering.",
             "transcription": "The elder hesitated before answering.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0018-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.02,
+              "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
               "maximumSilenceSeconds": 0.03
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "250ee05e6f53771519003353397c3d46a867e1d21c90578ed1da7b18f1fa7496",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "a2104c26e65cba8af914114f8be6149d76c6ce064c1f113acec4a0640f84157b",
             "verificationReused": false,
             "segmentIndex": 18,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 5,
@@ -426,7 +424,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 18,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "\n\nThe elder hesitated before answering. ",
@@ -460,17 +458,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.04
+              "maximumSilenceSeconds": 0.09
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "41ff60ed09a4e7196c4354e46821ec8440b0be64d51ece0834e2d62ea250bffc",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "8f9dd49cd3b4af766f60462a29bb1fe5e09c4ee613c8e707d84fbd20c5ef6759",
             "verificationReused": false,
             "segmentIndex": 26,
             "chunkIndex": 0,
             "speakerId": "elias",
-            "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583"
+            "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5"
           }
         ],
         "expectedWordCount": 2,
@@ -479,7 +477,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 26,
         "speakerId": "elias",
-        "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+        "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“It does,”",
@@ -511,19 +509,19 @@
             "transcription": "Elias replied firmly.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0027-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.03,
+              "leadingSilenceSeconds": 0.02,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.04
+              "maximumSilenceSeconds": 0.05
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "d20bce2f2b250f4ab4ff5a58dde06790b6b7064130b0ef18d1503d79d3aad748",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "8387968fe3bba7e28a7704b4cb052ff6007d8acf6f448b156f0399605e377d13",
             "verificationReused": false,
             "segmentIndex": 27,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 3,
@@ -532,7 +530,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 27,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " Elias replied firmly. ",
@@ -566,17 +564,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.07
+              "maximumSilenceSeconds": 0.03
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "6c7da199dc20dd003a3178208a5d3f5b1fa5c987c72151156fa82fa021457d00",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "ee150cd2a7943831a9320d14838c7f4d67e2f69e8252bb8d4aab43357d5e15d6",
             "verificationReused": false,
             "segmentIndex": 37,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 4,
@@ -585,7 +583,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 37,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "\n\nTorin nodded in agreement. ",
@@ -617,19 +615,19 @@
             "transcription": "Elias said evenly.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0044-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.02,
+              "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
               "maximumSilenceSeconds": 0.03
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "14cbbea65c9db559fafe62cd20e7922aad5b62766ada96ba7538f39805f42b0c",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "06742827bc8cd2aef55ce4c473d997b19077f628b86f576e29561cf5582e3bc7",
             "verificationReused": false,
             "segmentIndex": 44,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 3,
@@ -638,7 +636,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 44,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " Elias said evenly. ",
@@ -676,13 +674,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "c6c4cd5f9b4242e8346c6c7f39f59507d8fe76da6b1932e43a57f6a84406c230",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "7cf53ff267ae8e5fcefdfeb6fee7736ffc0a5eebba238b0392bb638c15b0c2a0",
             "verificationReused": false,
             "segmentIndex": 48,
             "chunkIndex": 0,
             "speakerId": "elias",
-            "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583"
+            "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5"
           }
         ],
         "expectedWordCount": 1,
@@ -691,7 +689,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 48,
         "speakerId": "elias",
-        "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+        "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Good,”",
@@ -725,17 +723,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.22
+              "maximumSilenceSeconds": 0.26
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "d113fadd9405d5f7080f1a0def7ce525254763fb1e60b0e6f8d3eb299f0ef52d",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "441a07aa2adfa1589c526ab3cc5d36bd33a79c86f8b2a2c78411c4b72de32527",
             "verificationReused": false,
             "segmentIndex": 52,
             "chunkIndex": 0,
             "speakerId": "elara",
-            "voiceId": "prideandprejudice-01-04-austen-apc-64kb"
+            "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238"
           }
         ],
         "expectedWordCount": 5,
@@ -744,7 +742,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 52,
         "speakerId": "elara",
-        "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+        "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“There. Now for the purse.”",
@@ -782,13 +780,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "8a1c012a6f209d907051844770f03a1ff7bf98bf941a806cb7400072725bb1db",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "223184b410a32114b18efe4a16e4dcaec3814b5d2cce418842585efdca3e610f",
             "verificationReused": false,
             "segmentIndex": 56,
             "chunkIndex": 0,
             "speakerId": "elias",
-            "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583"
+            "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5"
           }
         ],
         "expectedWordCount": 1,
@@ -797,7 +795,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 56,
         "speakerId": "elias",
-        "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+        "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Perfect,”",
@@ -809,44 +807,39 @@
       }
     },
     "59": {
-      "attempt": 2,
+      "attempt": 1,
       "score": [
         0.0,
         0,
         0
       ],
-      "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/short-utterance-candidates/segment-0059-attempt-02.wav",
+      "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/short-utterance-candidates/segment-0059-attempt-01.wav",
       "verification": {
         "chunks": [
           {
-            "primaryTranscription": "nodded approvingly.",
-            "secondaryModel": "medium.en",
-            "secondaryTranscription": "The elder nodded approvingly.",
-            "secondaryWordErrorRate": 0.0,
-            "secondaryAccepted": true,
             "expectedWordCount": 4,
             "transcribedWordCount": 4,
             "editDistance": 0,
             "wordErrorRate": 0.0,
             "status": "pass",
-            "verificationMode": "transcript-independent-asr",
+            "verificationMode": "transcript",
             "expectedText": "The elder nodded approvingly.",
             "transcription": "The elder nodded approvingly.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0059-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.04
+              "maximumSilenceSeconds": 0.06
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "2f81d054580fa09a762fc72ae2afe042139af251ff81912674d10d1c94b7ebc4",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "257c63611269e5f75efd8cbcfc069e825f7785355e9aa2781411dbb5902052de",
             "verificationReused": false,
             "segmentIndex": 59,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 4,
@@ -855,7 +848,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 59,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "\n\nThe elder nodded approvingly. ",
@@ -889,17 +882,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.07
+              "maximumSilenceSeconds": 0.1
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "cacf78900237ee1c5de52656e3b49e4008d6d83a1716188ba27ec2599a80933f",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "3189b280ad1ffcacf28f954169dc2dd35e8f920c04a9743aab5d44d909603ee5",
             "verificationReused": false,
             "segmentIndex": 66,
             "chunkIndex": 0,
             "speakerId": "elias",
-            "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583"
+            "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5"
           }
         ],
         "expectedWordCount": 5,
@@ -908,7 +901,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 66,
         "speakerId": "elias",
-        "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+        "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Let’s get some supplies packed,”",
@@ -942,17 +935,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.04
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "33f0bd4d4a84eaa3be22d4c952cf69afd23f89b5ece68a0bd9200041e821177f",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "bb1eb1ad0214e22554bcea2412b21717368eb2ed04538843420c1c0fe2f75646",
             "verificationReused": false,
             "segmentIndex": 67,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 5,
@@ -961,7 +954,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 67,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " he called over his shoulder. ",
@@ -995,17 +988,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.23
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "7eadde622759b47d74b2aa848100f016f6befaaa12efd9ba0d79d0cd781d31ef",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "279452d723c1a266a4769422af69a4855269feeff535df4a014697ff9c80839b",
             "verificationReused": false,
             "segmentIndex": 70,
             "chunkIndex": 0,
             "speakerId": "maren",
-            "voiceId": "prideandprejudice-01-03-austen-64kb"
+            "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959"
           }
         ],
         "expectedWordCount": 2,
@@ -1014,7 +1007,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 70,
         "speakerId": "maren",
-        "voiceId": "prideandprejudice-01-03-austen-64kb",
+        "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Right then,”",
@@ -1048,17 +1041,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.05
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "5f5679633fbabac5ac71bd89ff6256de0ec7df3aef5f44cfd0882497806c6ea2",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "d9079871165cd4278ae3fb33d3966e5552ac80b30b083fbda8d52ce9409cc4a4",
             "verificationReused": false,
             "segmentIndex": 78,
             "chunkIndex": 0,
             "speakerId": "elara",
-            "voiceId": "prideandprejudice-01-04-austen-apc-64kb"
+            "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238"
           }
         ],
         "expectedWordCount": 2,
@@ -1067,7 +1060,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 78,
         "speakerId": "elara",
-        "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+        "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Look here,”",
@@ -1099,19 +1092,19 @@
             "transcription": "Goblins.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0084-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.03,
+              "leadingSilenceSeconds": 0.01,
               "trailingSilenceSeconds": 0.03,
               "maximumSilenceSeconds": 0.03
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "867b678cb1eee2918da0dfa0c9caef33981092545f4f1252fef93e817eeb9efd",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "74187dd41cdda54addcc6de1c6a83ce1c47b8bf95db0228ef7a7d0fb3d81225f",
             "verificationReused": false,
             "segmentIndex": 84,
             "chunkIndex": 0,
             "speakerId": "maren",
-            "voiceId": "prideandprejudice-01-03-austen-64kb"
+            "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959"
           }
         ],
         "expectedWordCount": 1,
@@ -1120,7 +1113,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 84,
         "speakerId": "maren",
-        "voiceId": "prideandprejudice-01-03-austen-64kb",
+        "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Goblins,”",
@@ -1154,17 +1147,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.04
+              "maximumSilenceSeconds": 0.03
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "936d109aca954e63e84138169a1775dbd67b5e5353a030f65ba309a417d260fe",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "3447c90798252a2d7fdb9b653f663d2ae97b02e987e81e6a18811b80b355386f",
             "verificationReused": false,
             "segmentIndex": 85,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 3,
@@ -1173,7 +1166,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 85,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " she confirmed flatly. ",
@@ -1205,19 +1198,19 @@
             "transcription": "And look at this.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0088-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.03,
+              "leadingSilenceSeconds": 0.02,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.08
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "fb6d59f6f0f1c229b441a6e7c48314e7c211c15d67f5af0d94d52a744863632c",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "714cd7e8b543f66a7de0d270650f39f7fb492cfd8052dca82360fec6bd414a83",
             "verificationReused": false,
             "segmentIndex": 88,
             "chunkIndex": 0,
             "speakerId": "maren",
-            "voiceId": "prideandprejudice-01-03-austen-64kb"
+            "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959"
           }
         ],
         "expectedWordCount": 4,
@@ -1226,7 +1219,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 88,
         "speakerId": "maren",
-        "voiceId": "prideandprejudice-01-03-austen-64kb",
+        "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“And look at this.”",
@@ -1264,13 +1257,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "e109228e45b37d2a270fdaea7a08eb34f98cc91df86c8253ba4411af83bbb95c",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "1ffe256b1988538b68f3a92cc530abe1fada8e5e803a7567b2ade565f10ef2f7",
             "verificationReused": false,
             "segmentIndex": 91,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 2,
@@ -1279,7 +1272,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 91,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " he murmured. ",
@@ -1313,17 +1306,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.09
+              "maximumSilenceSeconds": 0.06
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "1c6d07ed0765b7425be4d5cc5cf4131cee9978187911a9001681cd9792df01f0",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "12710e70fcb17c3d477e154f9ada7d5f7d285d85dc74e7a67ee229fb8cfecf4b",
             "verificationReused": false,
             "segmentIndex": 93,
             "chunkIndex": 0,
             "speakerId": "maren",
-            "voiceId": "prideandprejudice-01-03-austen-64kb"
+            "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959"
           }
         ],
         "expectedWordCount": 2,
@@ -1332,7 +1325,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 93,
         "speakerId": "maren",
-        "voiceId": "prideandprejudice-01-03-austen-64kb",
+        "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Or not,”",
@@ -1366,17 +1359,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.02,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.16
+              "maximumSilenceSeconds": 0.07
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "b9cec45a9ba5f1bf957b414a0bae5b65bfa157ab9142842b525bc74c05c0f675",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "d2723c410ff2f19057f607587382e22fd04bd107984bb111699026f454b6c9b2",
             "verificationReused": false,
             "segmentIndex": 94,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 3,
@@ -1385,7 +1378,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 94,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " Maren countered sharply. ",
@@ -1414,22 +1407,22 @@
             "status": "pass",
             "verificationMode": "transcript",
             "expectedText": "“You're mapping everything?”",
-            "transcription": "You're mapping everything.",
+            "transcription": "You're mapping everything?",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0097-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.04
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "4f6fe0436c83202d12ccf5bbf8399a012da87f895eb0f247217d94d7e531069b",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "cc10a3950abb855dc726308e3ee754ef599c44390ae388017de415fa9c4d0a49",
             "verificationReused": false,
             "segmentIndex": 97,
             "chunkIndex": 0,
             "speakerId": "maren",
-            "voiceId": "prideandprejudice-01-03-austen-64kb"
+            "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959"
           }
         ],
         "expectedWordCount": 3,
@@ -1438,14 +1431,14 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 97,
         "speakerId": "maren",
-        "voiceId": "prideandprejudice-01-03-austen-64kb",
+        "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“You’re mapping everything?”",
         "expectedText": "“You’re mapping everything?”",
         "spokenText": "“You’re mapping everything?”",
         "wasRewritten": false,
-        "transcription": "You're mapping everything.",
+        "transcription": "You're mapping everything?",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0097.wav"
       }
     },
@@ -1470,19 +1463,19 @@
             "transcription": "Two large tools gone.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0107-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.02,
+              "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.05
+              "maximumSilenceSeconds": 0.04
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "3c07a2e3d3782df79f61608ff01d42b61ce5fd4ab8997d3dca205bd754bea97f",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "d0db324b1ec15bea7cfffdf2393ca96cf2dd0a4563ae1810660d01496d7abcc3",
             "verificationReused": false,
             "segmentIndex": 107,
             "chunkIndex": 0,
             "speakerId": "elara",
-            "voiceId": "prideandprejudice-01-04-austen-apc-64kb"
+            "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238"
           }
         ],
         "expectedWordCount": 4,
@@ -1491,7 +1484,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 107,
         "speakerId": "elara",
-        "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+        "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Two large tools gone,”",
@@ -1520,22 +1513,22 @@
             "status": "pass",
             "verificationMode": "transcript",
             "expectedText": "\"But wait…\"",
-            "transcription": "but wait.",
+            "transcription": "But wait.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0111-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.07
+              "maximumSilenceSeconds": 0.05
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "76ff2e3969ffe928fbe0aab07c574dc904588db32a78886a853186aa8156499d",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "fe45959390cc75f07ccf41bcbe8f51b91288c6c300c66ad3f6bf125378f3d3ef",
             "verificationReused": false,
             "segmentIndex": 111,
             "chunkIndex": 0,
             "speakerId": "elara",
-            "voiceId": "prideandprejudice-01-04-austen-apc-64kb"
+            "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238"
           }
         ],
         "expectedWordCount": 2,
@@ -1544,14 +1537,14 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 111,
         "speakerId": "elara",
-        "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+        "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“But wait…”",
         "expectedText": "\"But wait…\"",
         "spokenText": "\"But wait…\"",
         "wasRewritten": true,
-        "transcription": "but wait.",
+        "transcription": "But wait.",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0111.wav"
       }
     },
@@ -1573,22 +1566,22 @@
             "status": "pass",
             "verificationMode": "transcript",
             "expectedText": "\"A rope fragment.\"",
-            "transcription": "a rope fragment.",
+            "transcription": "A Rope Fragment",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0113-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.06
+              "maximumSilenceSeconds": 0.15
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "04ddce71dc4f34705cab8132bc08d1ad64e909825cb047fd4b4fb36bcad0b8b2",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "ed221361df245405a7e0663da1f3c76b7e1abdeca9b6cbec96d68c330ae2431a",
             "verificationReused": false,
             "segmentIndex": 113,
             "chunkIndex": 0,
             "speakerId": "elara",
-            "voiceId": "prideandprejudice-01-04-austen-apc-64kb"
+            "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238"
           }
         ],
         "expectedWordCount": 3,
@@ -1597,14 +1590,14 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 113,
         "speakerId": "elara",
-        "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+        "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“A rope fragment.”",
         "expectedText": "\"A rope fragment.\"",
         "spokenText": "\"A rope fragment.\"",
         "wasRewritten": true,
-        "transcription": "a rope fragment.",
+        "transcription": "A Rope Fragment",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0113.wav"
       }
     },
@@ -1629,19 +1622,19 @@
             "transcription": "Alright.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0125-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.03,
+              "leadingSilenceSeconds": 0.02,
               "trailingSilenceSeconds": 0.03,
               "maximumSilenceSeconds": 0.06
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "9ef7a88c0a5554f2f3c8ee13e546f77b7ce8980113fc6b771c19b0a5f27622e5",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "6a5c8ac5fe2b34419e8015267f45214471f2bd3902b0ad3f17d0573a625c8e0a",
             "verificationReused": false,
             "segmentIndex": 125,
             "chunkIndex": 0,
             "speakerId": "elias",
-            "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583"
+            "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5"
           }
         ],
         "expectedWordCount": 1,
@@ -1650,7 +1643,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 125,
         "speakerId": "elias",
-        "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+        "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Alright,”",
@@ -1688,13 +1681,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "16451da5116a4c056b0ea1e1ce424e6734bfefe3a068f1b511c728b640017cbd",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "6f8fd30e823b6cdbf26abefde0551f23337d2cbf668ff21cc122c3b2d8b09c65",
             "verificationReused": false,
             "segmentIndex": 133,
             "chunkIndex": 0,
             "speakerId": "elara",
-            "voiceId": "prideandprejudice-01-04-austen-apc-64kb"
+            "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238"
           }
         ],
         "expectedWordCount": 2,
@@ -1703,7 +1696,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 133,
         "speakerId": "elara",
-        "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+        "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Almost done,”",
@@ -1741,13 +1734,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "97fd9e23533a01bbb7787e1ac9f9cd3dfa0bcfd25c47ee9e069481d494093d01",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "4688a77d6d3fa59561aa628a6e2a887a1eda88659f412d0cd9be5c6415e73d78",
             "verificationReused": false,
             "segmentIndex": 137,
             "chunkIndex": 0,
             "speakerId": "elias",
-            "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583"
+            "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5"
           }
         ],
         "expectedWordCount": 3,
@@ -1756,7 +1749,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 137,
         "speakerId": "elias",
-        "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+        "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“We move now,”",
@@ -1778,29 +1771,34 @@
       "verification": {
         "chunks": [
           {
+            "primaryTranscription": "the arrowhead still sharp.",
+            "secondaryModel": "medium.en",
+            "secondaryTranscription": "The arrowhead's still sharp.",
+            "secondaryWordErrorRate": 0.0,
+            "secondaryAccepted": true,
             "expectedWordCount": 4,
             "transcribedWordCount": 4,
             "editDistance": 0,
             "wordErrorRate": 0.0,
             "status": "pass",
-            "verificationMode": "transcript",
+            "verificationMode": "transcript-independent-asr",
             "expectedText": "“The arrowhead's still sharp,”",
             "transcription": "The arrowhead's still sharp.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0145-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.06
+              "maximumSilenceSeconds": 0.07
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "4f22155e93b4bd7880ba2de6c2d536de39aaa28cf06d4ae71be17a2781941f95",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "70251e3b4877c4107ec08bef340fcc9ecda7320aa1b90152de48a9b692a6fb32",
             "verificationReused": false,
             "segmentIndex": 145,
             "chunkIndex": 0,
             "speakerId": "elara",
-            "voiceId": "prideandprejudice-01-04-austen-apc-64kb"
+            "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238"
           }
         ],
         "expectedWordCount": 4,
@@ -1809,7 +1807,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 145,
         "speakerId": "elara",
-        "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+        "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“The arrowhead’s still sharp,”",
@@ -1847,13 +1845,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "83c28eaa04cb937ee627830f9fe6cb5917ce36cb31958cfaed4dc44743979551",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "edf99395f0a9e4cd45aefd50944d9dc8390713264e7c7fd42ff6c63e91d34444",
             "verificationReused": false,
             "segmentIndex": 146,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 2,
@@ -1862,7 +1860,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 146,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " she murmured. ",
@@ -1896,17 +1894,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.15
+              "maximumSilenceSeconds": 0.06
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "101313457733394dc0e383773e0f83a1df67d5d6ddab9695cded31a297e29dc3",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "816bc3deed8081b21b5aef92259b9468408949b31b2d283d561c29cad26db7b1",
             "verificationReused": false,
             "segmentIndex": 147,
             "chunkIndex": 0,
             "speakerId": "elara",
-            "voiceId": "prideandprejudice-01-04-austen-apc-64kb"
+            "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238"
           }
         ],
         "expectedWordCount": 4,
@@ -1915,7 +1913,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 147,
         "speakerId": "elara",
-        "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+        "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“And the rope fragment—”",
@@ -1953,13 +1951,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "99aebd208a740f883bf9698c6559a5e84836d55a419ddbb74de7c3e4f052d3d7",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "11cd6298d065a50cfac2bf98ca904eb96fe39ef90941bdc01e16950f7469e4fe",
             "verificationReused": false,
             "segmentIndex": 149,
             "chunkIndex": 0,
             "speakerId": "elias",
-            "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583"
+            "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5"
           }
         ],
         "expectedWordCount": 1,
@@ -1968,7 +1966,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 149,
         "speakerId": "elias",
-        "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+        "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Good,”",
@@ -1980,13 +1978,13 @@
       }
     },
     "153": {
-      "attempt": 10,
+      "attempt": 1,
       "score": [
         0.0,
         0,
         0
       ],
-      "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/short-utterance-candidates/segment-0153-attempt-10.wav",
+      "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/short-utterance-candidates/segment-0153-attempt-01.wav",
       "verification": {
         "chunks": [
           {
@@ -2002,17 +2000,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.05
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "6b36b455dcd73b3b978633e843f438ab90f64fa3d0a14603fc0b5c4c16fc9cbf",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "0bd4ba30422c3aa69654ae80515b69ef37f237be03bfa2e497e0fa3be7c3339a",
             "verificationReused": false,
             "segmentIndex": 153,
             "chunkIndex": 0,
             "speakerId": "torin",
-            "voiceId": "07-you-can-farm-joel-salatin"
+            "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d"
           }
         ],
         "expectedWordCount": 3,
@@ -2021,7 +2019,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 153,
         "speakerId": "torin",
-        "voiceId": "07-you-can-farm-joel-salatin",
+        "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Left side’s slicker,”",
@@ -2053,19 +2051,19 @@
             "transcription": "Right Bank Holds Better.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0155-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.03,
+              "leadingSilenceSeconds": 0.02,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.04
+              "maximumSilenceSeconds": 0.03
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "a2ab2ae3cabf51b201c657658492ae01ca6748137858da74ff239617fb89dbd9",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "f39521c6ddf3b2b6bdc6c5149d5adcd7a03cfe54572717ba34b5183582ca8c33",
             "verificationReused": false,
             "segmentIndex": 155,
             "chunkIndex": 0,
             "speakerId": "torin",
-            "voiceId": "07-you-can-farm-joel-salatin"
+            "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d"
           }
         ],
         "expectedWordCount": 4,
@@ -2074,7 +2072,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 155,
         "speakerId": "torin",
-        "voiceId": "07-you-can-farm-joel-salatin",
+        "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Right bank holds better.”",
@@ -2086,13 +2084,13 @@
       }
     },
     "161": {
-      "attempt": 1,
+      "attempt": 3,
       "score": [
         0.0,
         0,
         0
       ],
-      "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/short-utterance-candidates/segment-0161-attempt-01.wav",
+      "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/short-utterance-candidates/segment-0161-attempt-03.wav",
       "verification": {
         "chunks": [
           {
@@ -2106,19 +2104,19 @@
             "transcription": "that way.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0161-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.03,
+              "leadingSilenceSeconds": 0.02,
               "trailingSilenceSeconds": 0.03,
               "maximumSilenceSeconds": 0.03
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "89c451bcaf3f9b5e07b64c31d109ebe4aef03782dc022ee9facb6b81441f23d7",
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "a2107fb79e1f59e90f475e9acc76fcdc58991bd367b3021467b3181614765996",
             "verificationReused": false,
             "segmentIndex": 161,
             "chunkIndex": 0,
             "speakerId": "torin",
-            "voiceId": "07-you-can-farm-joel-salatin"
+            "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d"
           }
         ],
         "expectedWordCount": 2,
@@ -2127,7 +2125,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 161,
         "speakerId": "torin",
-        "voiceId": "07-you-can-farm-joel-salatin",
+        "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“That way,”",
@@ -2165,13 +2163,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "4af8f1854e77a06756697d4e214ed0153e5bf90294ec4ab219e2288d2a69566d",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "e98d6b6514202adeb1b3fb153a33f2977571da43e1d546cb81338fdd76108400",
             "verificationReused": false,
             "segmentIndex": 162,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 2,
@@ -2180,7 +2178,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 162,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " he said. ",
@@ -2209,22 +2207,22 @@
             "status": "pass",
             "verificationMode": "transcript",
             "expectedText": "\"Steeper but firmer footing.\"",
-            "transcription": "steeper, but firmer footing.",
+            "transcription": "steeper but firmer footing.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0163-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.14
+              "maximumSilenceSeconds": 0.04
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "8ca0fa08e790072c765bca0b8ae81f355272676e53babacfa451e4e08df6f2b4",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "d2a5a8c33b31f5484cb7de6a535a1a642e4fa95044f08e37df996f97d1f4baa7",
             "verificationReused": false,
             "segmentIndex": 163,
             "chunkIndex": 0,
             "speakerId": "torin",
-            "voiceId": "07-you-can-farm-joel-salatin"
+            "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d"
           }
         ],
         "expectedWordCount": 4,
@@ -2233,14 +2231,14 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 163,
         "speakerId": "torin",
-        "voiceId": "07-you-can-farm-joel-salatin",
+        "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Steeper but firmer footing.”",
         "expectedText": "\"Steeper but firmer footing.\"",
         "spokenText": "\"Steeper but firmer footing.\"",
         "wasRewritten": true,
-        "transcription": "steeper, but firmer footing.",
+        "transcription": "steeper but firmer footing.",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0163.wav"
       }
     },
@@ -2267,17 +2265,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.02,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.05
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "f0b22ecd32e1563ed21b6b81e2ff04b3aa5b6504fc0ec6bb6e60284cb22480f2",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "de0aa7a95ea8908258c99f0e9f43f4e4350225d276d6bf5b29b447478e79e3d9",
             "verificationReused": false,
             "segmentIndex": 166,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 3,
@@ -2286,7 +2284,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 166,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " he said quietly. ",
@@ -2320,17 +2318,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.05
+              "maximumSilenceSeconds": 0.03
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "f13e43d8dc67717d2cd363ed500149162b9c7d248cc44f3187337b693cdb5b82",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "5630e02d9aa64cadb5b396ca6e8d97d0972987c32526193c782f79a12d1d35d5",
             "verificationReused": false,
             "segmentIndex": 168,
             "chunkIndex": 0,
             "speakerId": "maren",
-            "voiceId": "prideandprejudice-01-03-austen-64kb"
+            "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959"
           }
         ],
         "expectedWordCount": 1,
@@ -2339,7 +2337,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 168,
         "speakerId": "maren",
-        "voiceId": "prideandprejudice-01-03-austen-64kb",
+        "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Agreed,”",
@@ -2361,40 +2359,29 @@
       "verification": {
         "chunks": [
           {
-            "unhintedTranscription": "without hesitation.",
-            "nameHintTranscription": "Maren replied without hesitation.",
-            "nameHints": [
-              "Maren"
-            ],
-            "nameHintAccepted": false,
-            "primaryTranscription": "without hesitation.",
-            "secondaryModel": "medium.en",
-            "secondaryTranscription": "Marin replied without hesitation.",
-            "secondaryWordErrorRate": 0.0,
-            "secondaryAccepted": true,
             "expectedWordCount": 4,
             "transcribedWordCount": 4,
             "editDistance": 0,
             "wordErrorRate": 0.0,
             "status": "pass",
-            "verificationMode": "transcript-independent-asr",
+            "verificationMode": "transcript",
             "expectedText": "Maren replied without hesitation.",
             "transcription": "Marin replied without hesitation.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0169-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.06
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "87813c871bb8fa332b7b91b9141faaa9d7809fe8da1fdc5b873542e0eca0c554",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "b4f7072f2cd68dae1d87b295ec8981422846b78263326816f55b6a640ce12f06",
             "verificationReused": false,
             "segmentIndex": 169,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 4,
@@ -2403,7 +2390,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 169,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " Maren replied without hesitation. ",
@@ -2441,13 +2428,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "ff658dee660f3a32c6f5f760dd4c7a7964701eeb15b8cb04acaae8dca6aa3f32",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "081712f4b5d07cf58e761b621c805ea707c99945335a0362372bb6dc08b24d8e",
             "verificationReused": false,
             "segmentIndex": 171,
             "chunkIndex": 0,
             "speakerId": "elias",
-            "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583"
+            "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5"
           }
         ],
         "expectedWordCount": 4,
@@ -2456,7 +2443,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 171,
         "speakerId": "elias",
-        "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+        "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Not leaving anything vital,”",
@@ -2494,13 +2481,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "aed03af3614700ce141c15282bbc1f47bbf276df5fd308cee8a7e134d3a5881c",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "f572bd98148072ad8530fed4b16e6c0165d5dcd4115b58c7b3d8377868972c18",
             "verificationReused": false,
             "segmentIndex": 172,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 2,
@@ -2509,7 +2496,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 172,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " Elias added. ",
@@ -2538,22 +2525,22 @@
             "status": "pass",
             "verificationMode": "transcript",
             "expectedText": "“The rope fragment's still intact,”",
-            "transcription": "the rope fragments still intact.",
+            "transcription": "the rope fragment still intact.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0175-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.1
+              "maximumSilenceSeconds": 0.05
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "1af291a5de9d2e3f3d7933e8f72238a1819b43032e64223fb0e9b4be521d29ef",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "09afa02af7a5c3ee1ffbbf2c846df4ff78a1c737976ec98f240616c4d2f0672d",
             "verificationReused": false,
             "segmentIndex": 175,
             "chunkIndex": 0,
             "speakerId": "elara",
-            "voiceId": "prideandprejudice-01-04-austen-apc-64kb"
+            "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238"
           }
         ],
         "expectedWordCount": 5,
@@ -2562,14 +2549,14 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 175,
         "speakerId": "elara",
-        "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+        "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“The rope fragment’s still intact,”",
         "expectedText": "“The rope fragment’s still intact,”",
         "spokenText": "“The rope fragment’s still intact,”",
         "wasRewritten": false,
-        "transcription": "the rope fragments still intact.",
+        "transcription": "the rope fragment still intact.",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0175.wav"
       }
     },
@@ -2591,22 +2578,22 @@
             "status": "pass",
             "verificationMode": "transcript",
             "expectedText": "\"Hasty retreat,\"",
-            "transcription": "Hasty Retreat",
+            "transcription": "Hasty retreat.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0179-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.05
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "6e4d2861c35ce2ea8e08ff21af4419a1f474d6781c17589d15f64c698f41a6cd",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "0454b556350f9be57df4ac8c20823e7e30d814a02277534a5d0e62e139331fe8",
             "verificationReused": false,
             "segmentIndex": 179,
             "chunkIndex": 0,
             "speakerId": "elias",
-            "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583"
+            "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5"
           }
         ],
         "expectedWordCount": 2,
@@ -2615,14 +2602,14 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 179,
         "speakerId": "elias",
-        "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+        "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Hasty retreat,”",
         "expectedText": "\"Hasty retreat,\"",
         "spokenText": "\"Hasty retreat,\"",
         "wasRewritten": true,
-        "transcription": "Hasty Retreat",
+        "transcription": "Hasty retreat.",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0179.wav"
       }
     },
@@ -2644,22 +2631,22 @@
             "status": "pass",
             "verificationMode": "transcript",
             "expectedText": "he confirmed.",
-            "transcription": "He confirmed.",
+            "transcription": "he confirmed.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0180-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.02,
+              "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.04
+              "maximumSilenceSeconds": 0.03
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "02819f6b37552c2dd952831c1d61b8abb82eb7a134bf6a7dcd4df954518c25af",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "23e546acd75f51c80b1babbababe1d4023e94ca14c7c0dbc20c6acb62e69d7a5",
             "verificationReused": false,
             "segmentIndex": 180,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 2,
@@ -2668,25 +2655,25 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 180,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " he confirmed. ",
         "expectedText": "he confirmed.",
         "spokenText": "he confirmed.",
         "wasRewritten": true,
-        "transcription": "He confirmed.",
+        "transcription": "he confirmed.",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0180.wav"
       }
     },
     "183": {
-      "attempt": 1,
+      "attempt": 3,
       "score": [
         0.0,
         0,
         0
       ],
-      "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/short-utterance-candidates/segment-0183-attempt-01.wav",
+      "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/short-utterance-candidates/segment-0183-attempt-03.wav",
       "verification": {
         "chunks": [
           {
@@ -2706,13 +2693,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "d62deb0b897ebfe3fef271be8397d70844aa92be45ba23953164d58a406946ca",
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "acc44d4ecec27881bc265c8d82ded0646e6a111237bc5ebde4e9061c8e98fb10",
             "verificationReused": false,
             "segmentIndex": 183,
             "chunkIndex": 0,
             "speakerId": "torin",
-            "voiceId": "07-you-can-farm-joel-salatin"
+            "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d"
           }
         ],
         "expectedWordCount": 2,
@@ -2721,7 +2708,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 183,
         "speakerId": "torin",
-        "voiceId": "07-you-can-farm-joel-salatin",
+        "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Something’s off,”",
@@ -2759,13 +2746,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "1557f54cfea5f8cb2bd3503887f2244d968cfc449a1113c06d66aa41e0e88d3b",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "28170a41544cb544c079e0ec92a6275b2e9ba55e4716f211b88891dce8017376",
             "verificationReused": false,
             "segmentIndex": 184,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 5,
@@ -2774,7 +2761,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 184,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " he said after a moment. ",
@@ -2796,34 +2783,29 @@
       "verification": {
         "chunks": [
           {
-            "primaryTranscription": "for gear.",
-            "secondaryModel": "medium.en",
-            "secondaryTranscription": "Burnt gear.",
-            "secondaryWordErrorRate": 0.0,
-            "secondaryAccepted": true,
             "expectedWordCount": 2,
             "transcribedWordCount": 2,
             "editDistance": 0,
             "wordErrorRate": 0.0,
             "status": "pass",
-            "verificationMode": "transcript-independent-asr",
+            "verificationMode": "transcript",
             "expectedText": "\"Burnt gear?\"",
-            "transcription": "Burnt gear.",
+            "transcription": "Burnt gear?",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0187-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.03,
+              "leadingSilenceSeconds": 0.02,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.11
+              "maximumSilenceSeconds": 0.07
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "47c88818fc527ecec4fdec66cc1b00ef24b09a4db4ffcd6579f09313008247a7",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "06a28b6a3da6b9f953983e4513c6c625ccfcf685cd60a2d900610ede5ea195af",
             "verificationReused": false,
             "segmentIndex": 187,
             "chunkIndex": 0,
             "speakerId": "elara",
-            "voiceId": "prideandprejudice-01-04-austen-apc-64kb"
+            "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238"
           }
         ],
         "expectedWordCount": 2,
@@ -2832,14 +2814,14 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 187,
         "speakerId": "elara",
-        "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+        "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Burnt gear?”",
         "expectedText": "\"Burnt gear?\"",
         "spokenText": "\"Burnt gear?\"",
         "wasRewritten": true,
-        "transcription": "Burnt gear.",
+        "transcription": "Burnt gear?",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0187.wav"
       }
     },
@@ -2864,19 +2846,19 @@
             "transcription": "could be from Nella's crate.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0189-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.02,
+              "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.09
+              "maximumSilenceSeconds": 0.07
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "8ca708156575d85016e248ecfbf69ff08df520305624980206ec654ce7b8b309",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "d3d1ec19e04c39a463dea86eeb945691f9d77ef618ceb03f7878f7a8a1290ef3",
             "verificationReused": false,
             "segmentIndex": 189,
             "chunkIndex": 0,
             "speakerId": "elara",
-            "voiceId": "prideandprejudice-01-04-austen-apc-64kb"
+            "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238"
           }
         ],
         "expectedWordCount": 5,
@@ -2885,7 +2867,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 189,
         "speakerId": "elara",
-        "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+        "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Could be from Nella’s crate,”",
@@ -2914,22 +2896,22 @@
             "status": "pass",
             "verificationMode": "transcript",
             "expectedText": "she suggested.",
-            "transcription": "She suggested.",
+            "transcription": "she suggested.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0190-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.05
+              "maximumSilenceSeconds": 0.03
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "5a0608d655682d5642a765a0147a86d01ab8eb40f70cd03c89bc5f169afb1fdd",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "b032f4b347d2bb54dee99313fe26467af964ad60598eb9a63d3c938ce8f791bd",
             "verificationReused": false,
             "segmentIndex": 190,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 2,
@@ -2938,14 +2920,14 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 190,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " she suggested. ",
         "expectedText": "she suggested.",
         "spokenText": "she suggested.",
         "wasRewritten": true,
-        "transcription": "She suggested.",
+        "transcription": "she suggested.",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0190.wav"
       }
     },
@@ -2967,22 +2949,22 @@
             "status": "pass",
             "verificationMode": "transcript",
             "expectedText": "\"Cold enough to touch,\"",
-            "transcription": "Cold enough to touch.",
+            "transcription": "cold enough to touch.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0193-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.11
+              "maximumSilenceSeconds": 0.09
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "bea0d0c02b54c86e7367ae67a07940719b73e89809ea66a4ad4ba6f327ffdaec",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "dd3142da34e2c3c08a0513dcd57315a130f3f20670785ce1185959eac494424d",
             "verificationReused": false,
             "segmentIndex": 193,
             "chunkIndex": 0,
             "speakerId": "maren",
-            "voiceId": "prideandprejudice-01-03-austen-64kb"
+            "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959"
           }
         ],
         "expectedWordCount": 4,
@@ -2991,14 +2973,14 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 193,
         "speakerId": "maren",
-        "voiceId": "prideandprejudice-01-03-austen-64kb",
+        "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Cold enough to touch,”",
         "expectedText": "\"Cold enough to touch,\"",
         "spokenText": "\"Cold enough to touch,\"",
         "wasRewritten": true,
-        "transcription": "Cold enough to touch.",
+        "transcription": "cold enough to touch.",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0193.wav"
       }
     },
@@ -3020,22 +3002,22 @@
             "status": "pass",
             "verificationMode": "transcript",
             "expectedText": "she said.",
-            "transcription": "She said.",
+            "transcription": "she said.",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0194-chunk-0000.wav",
             "audioQuality": {
-              "leadingSilenceSeconds": 0.02,
+              "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
               "maximumSilenceSeconds": 0.03
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "b29e5cb7e3f90a959f0f1c35e6f305ae7f7dc157c0078ce84c171e2d658910e9",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "7a79a7cf57c91200d16a7620c26a2d90d7b1e5239457857579d2d7af5e200d46",
             "verificationReused": false,
             "segmentIndex": 194,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 2,
@@ -3044,14 +3026,14 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 194,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " she said. ",
         "expectedText": "she said.",
         "spokenText": "she said.",
         "wasRewritten": true,
-        "transcription": "She said.",
+        "transcription": "she said.",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0194.wav"
       }
     },
@@ -3073,7 +3055,7 @@
             "status": "pass",
             "verificationMode": "transcript",
             "expectedText": "\"Keep moving,\"",
-            "transcription": "Keep moving.",
+            "transcription": "Keep moving!",
             "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0197-chunk-0000.wav",
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
@@ -3082,13 +3064,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "fdb7b4d7916f6c64ee264751f1075362b52b5c3769a491825d0b4c8da420d722",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "9c5d4abcadc86de3e9e8451215a7c178991c3cc74da91042e9d5a45f8fda0a6b",
             "verificationReused": false,
             "segmentIndex": 197,
             "chunkIndex": 0,
             "speakerId": "torin",
-            "voiceId": "07-you-can-farm-joel-salatin"
+            "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d"
           }
         ],
         "expectedWordCount": 2,
@@ -3097,25 +3079,25 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 197,
         "speakerId": "torin",
-        "voiceId": "07-you-can-farm-joel-salatin",
+        "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Keep moving,”",
         "expectedText": "\"Keep moving,\"",
         "spokenText": "\"Keep moving,\"",
         "wasRewritten": true,
-        "transcription": "Keep moving.",
+        "transcription": "Keep moving!",
         "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/segment-0197.wav"
       }
     },
     "198": {
-      "attempt": 3,
+      "attempt": 1,
       "score": [
         0.0,
         0,
         0
       ],
-      "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/short-utterance-candidates/segment-0198-attempt-03.wav",
+      "audioPath": "/books/output/20261013-154406-854-production-d52bc742/chapter-001/short-utterance-candidates/segment-0198-attempt-01.wav",
       "verification": {
         "chunks": [
           {
@@ -3135,13 +3117,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "ba3e65766f7dd4ed0802db115bb99e4348d7b9c07b593da46f3a07db459f3e71",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "970c3099b81d0de56e3447f7d955fa83d25637c3389f4508ec56941a9733a35f",
             "verificationReused": false,
             "segmentIndex": 198,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 2,
@@ -3150,7 +3132,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 198,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " he said. ",
@@ -3188,13 +3170,13 @@
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "a12bcf9ffd1091dfc8a0e9da3b3f050d9e868670ca8e6f8245dc609b60d56919",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "24aa29f50aec06b861c6c051108f271710b87b2934eb2780f9db3b437659087e",
             "verificationReused": false,
             "segmentIndex": 201,
             "chunkIndex": 0,
             "speakerId": "elias",
-            "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583"
+            "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5"
           }
         ],
         "expectedWordCount": 3,
@@ -3203,7 +3185,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 201,
         "speakerId": "elias",
-        "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+        "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": "“Save your energy,”",
@@ -3237,17 +3219,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.02,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.04
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "b066513be5fc52e935ec29e10bfc6dc158a14874db6efa63da8ddaf2f98b73f0",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "53e7f24ccbb1eae2caf489af43838bb98c427934b88168d8784120fef115867c",
             "verificationReused": false,
             "segmentIndex": 202,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 3,
@@ -3256,7 +3238,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 202,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " he said quietly. ",
@@ -3290,17 +3272,17 @@
             "audioQuality": {
               "leadingSilenceSeconds": 0.03,
               "trailingSilenceSeconds": 0.03,
-              "maximumSilenceSeconds": 0.03
+              "maximumSilenceSeconds": 0.05
             },
             "expectedCurrencyAmountsCents": [],
             "transcribedCurrencyAmountsCents": [],
-            "verificationPolicy": "554ee9e9b0f2813009915bfe03a3019df4848573b260b39ba9cffdccf932c870",
-            "audioSha256": "e4dc3cc878bbceb45c4fb789dfa4d59d2c74a0f90aabbfd432e573621338cfe8",
+            "verificationPolicy": "1d64e020906eef125e0df2882a69b5dd367c49a0871aafc44f62b578e250d2e7",
+            "audioSha256": "8acb78d2ac7b2d3eba36c465c861d88ec568f17dffa926fb7131294fa1307d8f",
             "verificationReused": false,
             "segmentIndex": 206,
             "chunkIndex": 0,
             "speakerId": "narrator",
-            "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777"
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
           }
         ],
         "expectedWordCount": 2,
@@ -3309,7 +3291,7 @@
         "wordErrorRate": 0.0,
         "segmentIndex": 206,
         "speakerId": "narrator",
-        "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
         "status": "pass",
         "verificationMode": "transcript",
         "sourceText": " he replied. ",
@@ -3322,21 +3304,8 @@
     }
   },
   "completed": true,
-  "pronunciationFingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "pronunciationFingerprint": "d22c55573aa4f25cff5fcc3f3f17990266a5167cfb319b91eab55a3836da692d",
   "selectiveChunkRetryVersion": 1,
   "recognitionRecoveryVersion": 1,
-  "unresolvedChunks": [
-    [
-      109,
-      0
-    ],
-    [
-      128,
-      0
-    ],
-    [
-      177,
-      0
-    ]
-  ]
+  "unresolvedChunks": []
 }

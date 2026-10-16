@@ -1,0 +1,119 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 3.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":3,"ViewpointCharacterId":"Elias Thorne","Objective":"Develop and finalize a tactical plan for entry into the goblin camp, accounting for the trapped passage, the storage chamber, and the party\u0027s current limitations.","IntendedChange":"The party transitions from reconnaissance to active planning, creating a detailed and actionable plan for the rescue operation.","PacingPosture":1,"ProhibitedPatterns":["Copying verbatim prose or specific sentence structures from the previous finalized chapter, particularly the descriptions of the rain, the smoke magic, or the initial discovery of the keep.","Replaying the scouting sequence or re-describing the layout of the keep as if it were being discovered for the first time.","Introducing a new external threat, goblin ambush, or magical disaster during the planning session.","Having characters debate the moral implications of the rescue or the nature of goblins at length.","Ending the chapter with a cliffhanger or a sudden interruption."],"Scenes":[{"Sequence":1,"Purpose":"Establish the physical constraints of the planning session and define the specific mechanical limitation of the trapped passage based on Elara\u0027s analysis.","IntendedChange":"The party is gathered in a secure, quiet corner of the keep, and Elara identifies that the trapped passage relies on weight distribution rather than magical triggers, allowing for a bypass strategy.","FocusCharacterIds":["Elias Thorne","Elara","Maren"]},{"Sequence":2,"Purpose":"Assign specific roles and responsibilities to each party member, addressing Kaelen\u0027s limited magic and Maren\u0027s injury to ensure the plan is feasible.","IntendedChange":"Elias coordinates the assignment of duties, Kaelen proposes a limited use of his smoke magic for cover, and Maren accepts a support role that accounts for her physical limitations.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin"]},{"Sequence":3,"Purpose":"Finalize the sequence of actions for the rescue, including contingency plans for failure, and confirm the party\u0027s readiness to execute the plan.","IntendedChange":"The party agrees on a specific order of entry and escape route, Torin identifies the primary and secondary exit points, and the group reaches a consensus on the timing of the operation.","FocusCharacterIds":["Elias Thorne","Torin","Elara","Kaelen","Maren"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Assign specific roles and responsibilities to each party member, addressing Kaelen\u0027s limited magic and Maren\u0027s injury to ensure the plan is feasible.","IntendedChange":"Elias coordinates the assignment of duties, Kaelen proposes a limited use of his smoke magic for cover, and Maren accepts a support role that accounts for her physical limitations.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Finalize the sequence of actions for the rescue, including contingency plans for failure, and confirm the party\u0027s readiness to execute the plan.","IntendedChange":"The party agrees on a specific order of entry and escape route, Torin identifies the primary and secondary exit points, and the group reaches a consensus on the timing of the operation.","FocusCharacterIds":["Elias Thorne","Torin","Elara","Kaelen","Maren"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":3,"CompletedSceneSequence":1,"Location":"Secure corner of the keep / Service passage entrance","TimeContext":"Night; heavy rain falling outside","PresentCharacterIds":["Elias Thorne","Elara","Maren","Torin","Kaelen"],"PhysicalConditions":["Maren has a back injury from the cart axle weight.","Kaelen is conserving magic energy.","The main entrance corridor is blocked by goblin lookouts and pressure traps.","The service passage behind the iron door contains hanging weighted bags on tripwires over the center path, but is safe along the edges."],"KnowledgeEstablished":["The trapped passage relies on weight distribution (hanging weights) rather than magical triggers or complex pressure plates.","The service passage has worn floor stones indicating heavy traffic but no active floor traps.","Tripwires hang from the ceiling in the center of the service passage; edges are safe zones.","Goblin defenses are crude mechanics (weights, levers) rather than magic or complex engineering.","Kaelen can maintain a low-burn glow on his brass gauntlet for illumination without drawing attention."],"DecisionsMade":["The party will bypass the main entrance and the trapped corridor.","The party will enter via the service passage behind the iron door.","Maren will stay to the left wall and cut any tripwires she sees with a knife.","Kaelen will dim his gauntlet to a low burn for visibility only.","Elias will give the signal to move when everyone is ready."],"PossessionChanges":["Torin handed Maren a short, sturdy knife for cutting tripwires."],"RelationshipChanges":[],"CompletedActions":["Elara analyzed the floor wear patterns and tested the passage with stones.","Elara identified the hanging weighted bags as the trap mechanism.","Maren accepted the support role of cutting ropes while staying to the side.","Kaelen agreed to low-burn illumination.","Elias coordinated the group\u0027s readiness and signaled the start of movement.","The party stepped into the service passage."],"UnresolvedImmediateAction":"The party is moving through the darkness of the service passage, staying low along the edges to avoid the hanging weights while Maren watches for tripwires.","ContinuationPosition":"Inside the narrow service passage behind the iron door, with the party advancing cautiously toward the storage area.","ProhibitedRepetition":["Re-describing the wear patterns on the flagstones or the specific sound of the dropped stones.","Re-explaining the mechanics of the hanging weights and tripwires.","Repeating Maren\u0027s acceptance of the knife or Kaelen\u0027s agreement to low burn.","Re-stating the decision to bypass the main entrance."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The service passage was narrow, barely wide enough for two of them to walk side by side, and the air tasted of wet stone and old rust. Elias kept his sword drawn but low, the steel catching the faint, amber glow of Kaelen’s gauntlet. The light was dim, barely enough to see their own hands, but it was enough to keep the shadows from swallowing their feet.
+
+Maren moved with a deliberate slowness that belied her usual explosive energy. She kept her left hand flat against the rough-hewn wall, using the stone as a guide, her eyes scanning the center of the path where the tripwires hung in silent, lethal suspension. The knife Torin had handed her was tucked into her belt, its hilt worn smooth from use, but she didn’t need to draw it yet. She just needed to know where the danger was, and the darkness told her that.
+
+"Stay close to the walls," Elias murmured, his voice barely a breath in the damp silence. "Don’t look up unless you hear something move."
+
+"Understood," Maren replied. Her voice was flat, controlled, the voice of a soldier who had learned that panic was a luxury they could not afford.
+
+They moved forward, step by careful step. The floor was uneven, the flagstones slick with moisture that had seeped through the cracks in the ceiling above. Elias felt the chill of it soak through his boots, a cold that settled deep in his bones. He was used to discomfort; it was part of the job. But he was also aware of the others. Kaelen’s magic was a resource, and he was spending it sparingly. Maren’s body was a vessel, and it was strained. Torin was watching their backs, his sword ready, his eyes sharp in the dim light.
+
+And then there was Elara. She was slightly behind, her lantern held low, its light focused on the ground ahead of her. She was counting steps, or perhaps measuring distances. Elias didn’t know which, but he trusted her. She was the one who saw the patterns in the chaos, the logic in the madness. If there was a way through this passage that didn’t involve cutting a tripwire or triggering a weight, Elara would find it.
+
+They reached the end of the passage, a small, open chamber that served as a junction. Three doors led out of it: one to the left, one to the right, and one straight ahead. The door straight ahead was heavy, iron-bound, and slightly ajar. A draft of cold air blew out from beneath it, carrying the faint scent of smoke and something else—something organic, something alive.
+
+"The storage room," Elara said quietly. She was standing by the door, her eyes narrowed as she studied the gap. "I can see the grain sacks. And... ropes. Lots of ropes."
+
+Elias stepped closer, pressing his ear to the door. He could hear nothing. No voices, no footsteps, no rustle of fabric. Just the steady drumming of the rain outside and the distant rumble of thunder.
+
+"We need to be ready," Elias said, turning to face his companions. "Maren, you’re point. If anyone is in there, you’ll see them first. Kaelen, if you need to create a distraction or obscure our exit, you have my permission. Torin, watch the left door. If anyone comes out of there, you handle it. Elara, you’re with me. We’ll assess the situation inside."
+
+Maren nodded, her hand moving to her hammer. The weight of it was familiar, comforting. She felt a pang of pain in her lower back as she shifted her stance, but she ignored it. This was what she was for. This was what she had trained for.
+
+Kaelen raised his gauntlet, the light flaring briefly before dimming back down. "I can create a smoke screen if we need to retreat," he said. "It will last for a few minutes, no more. After that, I’ll be blind, and so will they, unless they have better eyes than us."
+
+"Good," Elias said. "Torin?"
+
+Torin was already moving to the left door, his sword drawn, his body coiled like a spring. "If anyone is in there, they won’t get out," he said. His voice was low, but there was a steel to it that matched the blade in his hand.
+
+Elara moved to stand beside Elias, her lantern held high enough to illuminate the gap in the door. "I see movement," she said. "Inside. Someone is walking past the door."
+
+Elias tensed, his hand tightening on his sword hilt. "How far away?"
+
+"Close," Elara said. "Within ten feet."
+
+"Wait," Elias said, holding up a hand. "Don’t move. Let them pass."
+
+They stood in the darkness, breath held, their eyes fixed on the gap in the door. The footsteps faded, replaced by the distant sound of a goblin’s grunt, muffled by the stone walls. Then silence.
+
+"They’re gone," Elara whispered.
+
+Elias exchanged a glance with Maren. She nodded, her hammer raised, ready to strike.
+
+"Now," Elias said.
+
+He kicked the door open.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

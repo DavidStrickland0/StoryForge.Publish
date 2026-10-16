@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261015-010412-651-incremental-chapter-002-7aa0d9f0",
+  "bookPath": "/books",
+  "voiceLibraryPath": "/voices",
+  "chapterId": "chapter-002",
+  "startedUtc": "2026-10-15T01:20:50.600728+00:00",
+  "completedUtc": null,
+  "status": "running",
+  "failedStage": null,
+  "settings": {
+    "whisperModel": "small.en",
+    "pauseSeconds": 0.18,
+    "maxSegmentAttempts": 3
+  },
+  "segmentVerificationAttempts": [],
+  "stageCheckpoints": {},
+  "resumeCount": 3,
+  "resumeHistory": [
+    {
+      "resumedUtc": "2026-10-15T21:58:34.419107+00:00",
+      "previousStatus": "running",
+      "previousFailedStage": null,
+      "previousVerificationAttempts": []
+    },
+    {
+      "resumedUtc": "2026-10-15T22:28:57.504487+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "audio text preparation",
+      "previousVerificationAttempts": []
+    },
+    {
+      "resumedUtc": "2026-10-16T00:01:17.350437+00:00",
+      "previousStatus": "failed",
+      "previousFailedStage": "audio text preparation",
+      "previousVerificationAttempts": []
+    }
+  ],
+  "lastResumedUtc": "2026-10-16T00:01:17.350437+00:00",
+  "chapterDirectory": "/books/output/20261015-010412-651-incremental-chapter-002-7aa0d9f0/chapter-002",
+  "masteredAudioPath": null,
+  "error": null
+}

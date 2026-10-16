@@ -1,0 +1,48 @@
+{
+  "version": 3,
+  "fingerprint": "87ecc91bdf8db5a9c7bdd04ee4a909da43b1e643fe063f2a2b2ec620eb4eac78",
+  "model": "qwen3.5:9b",
+  "cues": [
+    {
+      "startSegment": 0,
+      "endSegment": 49,
+      "tags": [
+        "forest",
+        "indoors",
+        "rain"
+      ],
+      "setting": "dense woods clearing with rain and ruins",
+      "prompt": "continuous heavy rain lashing against canopy creating gray noise and slick shadows with low rumble of storm wind",
+      "evidence": "The rain continued to lash against the canopy, turning the dense woods into a world of gray noise and slick shadows.",
+      "intensity": "strong"
+    },
+    {
+      "startSegment": 79,
+      "endSegment": 118,
+      "tags": [
+        "indoors",
+        "rain"
+      ],
+      "setting": "storage chamber inside a ruined keep during a storm",
+      "prompt": "continuous heavy rain drumming on tin roof and low magical hum from brass gauntlet",
+      "evidence": "The rain hammered against the tin roof of the storage chamber, a rhythmic drumming that seemed to drown out anything less urgent than a screaming goblin inside these walls.",
+      "intensity": "strong"
+    },
+    {
+      "startSegment": 176,
+      "endSegment": 243,
+      "tags": [
+        "fire",
+        "indoors"
+      ],
+      "setting": "keep interior",
+      "prompt": "soft crackling fire and distant wind rattling shutters",
+      "evidence": "broken only by the faintest hint of torchlight flickering in the distance... occasional gusts of wind rattling loose shutters high above them",
+      "intensity": "soft"
+    }
+  ],
+  "warnings": [
+    "Batch 2: unresolved cues omitted after correction attempts; retained 0 valid cues. Cue 1: Cue 50-78 requires an exact evidence quotation from its own source range. Rejected evidence: '\"sound of rain dripping from leaves overhead\" ... \"distant rumble of thunder rolling overhead\"'. Copy a quotation directly from the supplied source segments.",
+    "Batch 4: unresolved cues omitted after correction attempts; retained 0 valid cues. Cue 1: Cue 119-175 requires an exact evidence quotation from its own source range. Rejected evidence: '\"Morning is too late,\" Maren replied flatly, stepping forward again to clear a path through the scattered tools and debris.'. Copy a quotation directly from the supplied source segments."
+  ]
+}

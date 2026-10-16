@@ -1,0 +1,127 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 3.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":3,"ViewpointCharacterId":"Elias Thorne","Objective":"Develop and finalize a tactical plan for entry into the goblin camp, accounting for the trapped passage, the storage chamber, and the party\u0027s current limitations.","IntendedChange":"The party transitions from reconnaissance to active planning, creating a detailed and actionable plan for the rescue operation.","PacingPosture":1,"ProhibitedPatterns":["Copying verbatim prose or specific phrasing from Chapter 2","Executing the rescue or defeating goblins in this chapter","Resolving the arc by freeing captives or receiving payment","Introducing a new larger threat or cliffhanger","Repeating the scouting and entry planning already completed in Chapter 2"],"Scenes":[{"Sequence":1,"Purpose":"Elias convenes the party in a secure alcove to transition from observation to active planning, establishing the specific constraints of Maren\u0027s injury and Kaelen\u0027s depleted magic as fixed variables for the operation.","IntendedChange":"The group agrees on the operational parameters: speed is secondary to safety, and Kaelen\u0027s magic is reserved for a single critical moment, forcing the plan to rely on physical stealth and timing.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren"]},{"Sequence":2,"Purpose":"Elara and Maren collaborate to analyze the trapped passage, using Elara\u0027s analytical skills to deduce the trigger mechanism and Maren\u0027s practical knowledge to propose a physical bypass that avoids triggering the alarm.","IntendedChange":"The party identifies a specific method for bypassing the trapped passage by exploiting a structural weakness in the keep\u0027s masonry, eliminating the need for magical disruption and reducing the risk of detection.","FocusCharacterIds":["Elara","Maren"]},{"Sequence":3,"Purpose":"Torin maps the escape routes and contingency plans, identifying the optimal path for the captives to exit the keep and the positions where the party can provide cover without exposing themselves to the goblin chief\u0027s room.","IntendedChange":"The party finalizes the sequence of actions for the rescue operation, assigning specific roles to each member and establishing a clear fallback plan if the initial entry is compromised.","FocusCharacterIds":["Torin","Elias Thorne"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Elias convenes the party in a secure alcove to transition from observation to active planning, establishing the specific constraints of Maren\u0027s injury and Kaelen\u0027s depleted magic as fixed variables for the operation.","IntendedChange":"The group agrees on the operational parameters: speed is secondary to safety, and Kaelen\u0027s magic is reserved for a single critical moment, forcing the plan to rely on physical stealth and timing.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Elara and Maren collaborate to analyze the trapped passage, using Elara\u0027s analytical skills to deduce the trigger mechanism and Maren\u0027s practical knowledge to propose a physical bypass that avoids triggering the alarm.","IntendedChange":"The party identifies a specific method for bypassing the trapped passage by exploiting a structural weakness in the keep\u0027s masonry, eliminating the need for magical disruption and reducing the risk of detection.","FocusCharacterIds":["Elara","Maren"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The rain drummed a steady, monotonous rhythm against the stone roof, a sound that seemed to seep into the very marrow of the keep. Elias signaled for silence, his hand raised in a sharp, decisive gesture that cut through the low murmur of their debate. He pointed toward a narrow alcove behind a stack of empty grain sacks, a space tucked away from the main path of the central hub where the drafts were weaker and the light from their lanterns was dimmed by the surrounding clutter.
+
+"Here," he said, his voice low. "We need to stop guessing at the layout and start respecting the variables we actually have."
+
+The group moved quickly, shuffling into the alcove to avoid the open floor where any stray footstep might echo. Maren went first, her movements controlled and deliberate despite the weight of the broken cart axle strapped to her shoulder. She settled onto a low stone ledge, her back against the cold wall, and immediately began adjusting the straps across her spine. The leather creaked, a sharp sound in the sudden quiet. She didn’t hide the pain in her face; it lived there, a tightness around her eyes that she refused to acknowledge with a grimace.
+
+"Torin, keep the main corridor covered," Elias instructed, not looking up from where he was unrolling a fresh sheet of parchment on the floor. "If anything moves toward the iron door, we need to know before it sees us."
+
+Torin nodded, his hand resting lightly on the pommel of his sword as he stepped back into the shadows of the corridor. He didn’t speak, but the set of his jaw indicated that the order was accepted and executed simultaneously.
+
+Elias looked at Kaelen, who was leaning against the opposite wall, his brass gauntlet dimmed to a faint, pulsing amber. The mage looked tired, his shoulders slumped slightly, the kind of exhaustion that came not from lack of sleep but from the constant, draining effort of maintaining a magical field in a hostile environment.
+
+"Kaelen," Elias said, keeping his tone measured. "How much do you have left?"
+
+Kaelen gave a dry, humorless smile. "Enough for one shield, Elias. Maybe two, if I’m feeling generous and the air is particularly still. But that’s the ceiling. If I try to push more smoke or light right now, I risk a headache that will last until we’re back in Pinehollow. And I’d rather not spend the rest of our lives picking my teeth with a fork because I can’t lift my hand."
+
+"Then we don't use you for movement," Elias said firmly. "Your magic is a reserve. It’s for the moment when something goes wrong, not for the moment when we’re walking. We move by sight and sound. We rely on the darkness, not on your gauntlet."
+
+Kaelen nodded slowly, the tension in his brow easing slightly. "Understood. One shield. One chance. I’ll make it count."
+
+Elias turned to Maren, who was watching him with an appraising, critical eye. She had stopped fiddling with her straps and was now examining the edge of the broken cart axle, running her thumb over the splintered wood.
+
+"Maren," Elias said. "We need to be clear about your limits. You’re carrying that weight, and you’re moving slower than the rest of us. If we have to sprint, you won’t keep up. If we have to climb, you’ll be the bottleneck."
+
+Maren’s gaze sharpened. "I’m not a bottleneck, Elias. I’m a hammer. Hammers don’t need to run fast to break things. They need to hit hard." She paused, her expression softening just a fraction. "But I’ll admit, the axle is getting heavier. If we’re doing a lot of vertical movement, I might need a hand. Or a rope. But I can still fight. I can still hold a position. I just can’t do both at the same time if the ground is slick."
+
+Elias considered this. He didn't want to micromanage her, but he also didn't want to put her in a situation where her injury compromised the whole group. "Then you stay in the middle of the formation," he decided. "Torin takes point, I take rear. Kaelen and Elara stay close to you. If we need to move quickly, we move together, or we don't move at all. Speed is secondary to safety. We are not racing against the goblins; we are outsmarting them. We wait for their patrols to shift. We use the gaps."
+
+Maren nodded once, a sharp, affirmative motion. "Gaps. I like that. Gaps are where the work gets done."
+
+Elias looked around the small group. They were huddled together in the dim light, a small island of order in a chaotic, ruined world. The rain continued to hammer above them, a constant reminder of the world outside, but in here, the air was still, thick with the smell of old stone and damp wood.
+
+"We have the maps," Elias said, tapping the parchment. "We have the layout. We know where the captives are, and we know where the chief is likely to be. What we don't know is how to get there without tripping whatever they’ve set up to stop us."
+
+He looked at Elara, who was already crouching beside him, her eyes scanning the rough-hewn stone floor. "Elara, you’ve been looking at the ground. Is there anything there? Anything that looks... wrong?"
+
+Elara didn't answer immediately. She was tracing a faint line in the dust with her finger, her expression thoughtful. "There’s a draft," she murmured. "Not from the wind. It’s coming from under the floor. And there’s a vibration. Faint, but steady. Like something is moving below us."
+
+Elias frowned. "A trap?"
+
+"Maybe," Elara said, her voice cautious. "Or maybe just the structure settling. But it’s not random. It’s rhythmic."
+
+Maren leaned forward, her eyes narrowing. "Rhythmic. Like a heartbeat."
+
+They all looked at each other, the unspoken question hanging in the air. What were they walking into? And how were they going to get through it without losing someone?
+
+Elias took a deep breath, steadying himself. "We’ll figure it out," he said. "One step at a time. We don't need to know everything right now. We just need to know enough to take the next step safely."
+
+He stood up, brushing the dust from his knees. "Torin, keep watching. Kaelen, save your energy. Maren, stay close. Elara, keep listening."
+
+He looked at the iron-bound door at the far end of the hub, a dark rectangle against the dim light. Beyond it, Nella and Hobb were waiting. And beyond them, Skrit Ironjaw was waiting too.
+
+"We’re ready," Elias said, though the word felt heavy, laden with the weight of what was to come. "Let’s go find them."
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

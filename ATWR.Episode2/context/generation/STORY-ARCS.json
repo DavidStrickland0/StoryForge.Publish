@@ -27,13 +27,17 @@
       "TargetChapter": 3,
       "Objective": "Gather intelligence on the raids, locate the goblin camp, and prepare for entry.",
       "ResolutionCriteria": "The party identifies the location of the ruined keep, scouts the perimeter, and establishes a plan of entry.",
-      "CurrentPhase": "The party has transitioned from travelers to contracted investigators. They have secured the contract and gathered initial evidence (tracks, arrowhead) at the first crime scene, confirming goblin activity.",
-      "NextMilestone": "Track the goblins through the woods to locate the ruined keep.",
+      "CurrentPhase": "The party has located the goblin camp and identified its layout. They are now assessing defenses and planning entry.",
+      "NextMilestone": "Develop a tactical plan for entry into the keep that accounts for wards, patrols, and party limitations.",
       "RelatedThreadIds": [],
       "CompletedMilestones": [
         {
           "ChapterNumber": 1,
           "Development": "The party accepted the village elder\u0027s contract for fifty gold pieces to rescue Nella and Hobb, verified the payment with a physical count of coins, and departed the tavern to investigate the initial crime scene at Nella\u0027s farmhouse where they identified goblin tracks and an iron arrowhead."
+        },
+        {
+          "ChapterNumber": 2,
+          "Development": "The party successfully tracked goblin tracks through the woods to locate the ruined keep, confirmed it as an active base camp via physical evidence (fire pits, looted goods), and identified specific wards and entry points while assessing the threat level."
         }
       ],
       "ChapterTargets": [
@@ -194,9 +198,11 @@
             "The return to the village and the resolution of the contract are not yet addressed."
           ],
           "ClosingState": "The party has located the goblin camp and identified its layout, including the trapped passage and the storage chamber. They are now preparing to develop a tactical plan for entry, with Kaelen\u0027s depleted magic and Maren\u0027s worsening injury as ongoing factors.",
-          "IsCompleted": false,
-          "CompletedInChapter": null,
-          "CompletionEvidence": []
+          "IsCompleted": true,
+          "CompletedInChapter": 2,
+          "CompletionEvidence": [
+            "As they neared the edge of the clearing ahead, Torin called a halt just before stepping onto what looked like open ground. The trees parted to reveal a large, irregular space surrounded by broken stone walls and collapsed timber frames. Beyond that lay the ruins of the keep\u2014a structure that had stood centuries ago but now served only as shelter for goblins and their victims."
+          ]
         },
         {
           "Sequence": 3,
