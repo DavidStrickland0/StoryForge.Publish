@@ -1,0 +1,161 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 4.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":4,"ViewpointCharacterId":"Elias Thorne","Objective":"The party navigates the deeper cellar levels, bypasses additional traps and guards, and locates the storage chamber where the captives are held.","IntendedChange":"The group moves from tactical infiltration to active search, revealing the human cost of the goblin raids and the party\u0027s commitment to their mission.","PacingPosture":0,"ProhibitedPatterns":["Repeating the specific dialogue regarding Kaelen\u0027s headache or Maren\u0027s \u0027hammer\u0027 metaphor.","Re-describing the rain drumming against the roof as a primary atmospheric element.","Re-stating the formation positions (Torin point, Elias rear) as if they are being established for the first time.","Repeating the description of Elara dropping the quartz grain or Maren tapping the stone.","Re-describing the fading blue light line in detail.","Ending the chapter on a cliffhanger or unresolved threat without completing the location of the captives.","Introducing a new, larger threat or confrontation with Skrit Ironjaw in this chapter."],"Scenes":[{"Sequence":1,"Purpose":"The party navigates a complex, maze-like section of the cellar levels, using Elara\u0027s analytical deduction of goblin behavior and Torin\u0027s physical observation of structural weaknesses to bypass a hidden trap and a second goblin guard without alerting them.","IntendedChange":"The group successfully bypasses the second guard and trap, establishing their competence in navigating the keep\u0027s defenses and revealing the goblins\u0027 reliance on static traps rather than active patrols.","FocusCharacterIds":["Elias Thorne","Torin","Elara","Kaelen","Maren"]},{"Sequence":2,"Purpose":"The party encounters a goblin guard who is distracted by a mundane task, allowing them to observe the goblins\u0027 daily routine and the poor conditions of the keep, while Torin and Elias negotiate the physical burden of moving through a narrow, debris-filled passage.","IntendedChange":"The party gains insight into the goblins\u0027 disorganization and the physical toll of the environment on the party, particularly Maren\u0027s injury and Torin\u0027s physical exertion, solidifying their mutual reliance.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Elara","Kaelen"]},{"Sequence":3,"Purpose":"The party locates the storage chamber where the captives are held, observing their poor condition and the goblins\u0027 crude methods of restraint, while Kaelen\u0027s magical reserves are further depleted by the need to maintain a dim light in the dark chamber.","IntendedChange":"The party successfully locates the captives, revealing the human cost of the goblin raids and the party\u0027s commitment to their mission, while establishing the constraint of Kaelen\u0027s limited magical resources.","FocusCharacterIds":["Elias Thorne","Kaelen","Elara","Torin","Maren"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"The party encounters a goblin guard who is distracted by a mundane task, allowing them to observe the goblins\u0027 daily routine and the poor conditions of the keep, while Torin and Elias negotiate the physical burden of moving through a narrow, debris-filled passage.","IntendedChange":"The party gains insight into the goblins\u0027 disorganization and the physical toll of the environment on the party, particularly Maren\u0027s injury and Torin\u0027s physical exertion, solidifying their mutual reliance.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Elara","Kaelen"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The party locates the storage chamber where the captives are held, observing their poor condition and the goblins\u0027 crude methods of restraint, while Kaelen\u0027s magical reserves are further depleted by the need to maintain a dim light in the dark chamber.","IntendedChange":"The party successfully locates the captives, revealing the human cost of the goblin raids and the party\u0027s commitment to their mission, while establishing the constraint of Kaelen\u0027s limited magical resources.","FocusCharacterIds":["Elias Thorne","Kaelen","Elara","Torin","Maren"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":4,"CompletedSceneSequence":1,"Location":"Deep cellar levels of the goblin keep, specifically inside the storage chamber where captives are held.","TimeContext":"Night; infiltration in progress.","PresentCharacterIds":["Elias Thorne","Torin","Elara","Kaelen","Maren"],"PhysicalConditions":["Maren\u0027s shoulder is injured and painful but functional.","Kaelen\u0027s magical reserves are depleted, requiring a dim light source (gauntlet).","The environment is damp, cold, dark, and smells of woodsmoke, unwashed bodies, and fear.","A goblin guard was bypassed by squeezing through a narrow fissure in the wall."],"KnowledgeEstablished":["The party successfully bypassed a mechanical pressure plate trap by breaking its support with Maren\u0027s hammer.","The second goblin guard was not on patrol but cooking alone, providing an opportunity to slip past unnoticed.","The party has located the storage chamber and confirmed the presence of captives inside.","The keep\u0027s defenses rely on static traps and distracted guards rather than active patrols.","The rescue is imminent; the only remaining question is how to extract the captives."],"DecisionsMade":["Torin decided to break the trap mechanism rather than avoid it.","Torin decided to bypass the goblin guard by squeezing through a narrow gap in the wall rather than waiting or fighting.","The group agreed to proceed immediately to rescue the captives."],"PossessionChanges":[],"RelationshipChanges":["Maren and Torin demonstrated mutual reliance during the trap bypass.","The party\u0027s competence in navigating hostile defenses was reinforced."],"CompletedActions":["Torin identified a pressure plate trap.","Elara verified the trap was mechanical using quartz dust.","Maren wedged her hammer under the trap stone and broke its support.","The party bypassed the trap.","The party observed a goblin guard cooking alone.","Torin identified a fissure in the wall to bypass the guard.","The party squeezed through the fissure.","The party entered the storage chamber and heard the captives.","Elias placed his hand on the door to the storage chamber."],"UnresolvedImmediateAction":"Elias is standing with his companions at the heavy iron-bound door of the storage chamber, preparing to open it to rescue the captives.","ContinuationPosition":"The party stands inside the storage chamber, facing the heavy iron-bound door where the sound of coughing and whispering emanates from. Elias has his hand on the door handle.","ProhibitedRepetition":["Re-describing the rain drumming against the roof.","Re-stating formation positions as if being established for the first time.","Repeating the description of Elara dropping quartz grain or Maren tapping stone (the trap breaking is complete).","Ending on a cliffhanger without opening the door."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The door did not open.
+
+It was not locked, exactly, but the mechanism was seized by years of neglect and the recent, clumsy handling of the goblins. The iron handle, cold and pitted, resisted Elias’s grip. He could feel the weight of the bar on the other side, a rough-hewn piece of oak wedged into a slot in the frame. It was a crude barrier, the kind that could be kicked in with a single, well-placed boot, but the sound of such a force would carry through the thin stone walls and down the corridor like a bell toll.
+
+Elias released the handle and stepped back, his breathing controlled. He turned to the group, his eyes moving from Torin’s tense posture to Maren’s grimace, which she masked by adjusting the strap of her hammer.
+
+"We can't force it," he said, his voice low, barely a whisper above the damp silence of the cellar. "We need to open it from the inside, or wait for the bar to be removed. We don't know which."
+
+Torin shifted his weight, the leather of his armor creaking softly. He looked at the door, then at the narrow gap between the doorframe and the wall where the bar was likely wedged. "I can try to lift it," he offered, his voice steady but strained. "If I get my weight behind it, I might be able to pry the bar loose enough for someone to slip through. But it will make noise."
+
+"Too much noise," Elara said. She was crouched near the base of the wall, her fingers tracing the rough stone. "Listen."
+
+They all went still. From somewhere deeper in the keep, beyond the immediate chamber they were in, came the sound of a pot clattering against a wooden table. It was a sharp, metallic ring, followed by the dull thud of something heavy being set down. Then, a low, guttural murmur, the sound of a goblin speaking to another, their voices slurred and lazy.
+
+"They're close," Maren said. Her eyes were sharp, scanning the shadows. "That's the guard we passed. He's not alone. There's at least one other. Maybe more."
+
+Elias nodded. "That changes things. We can't risk a noise that draws them to this door. If they come here, they'll find us, or they'll find the captives and panic. Either way, we lose the element of surprise."
+
+Torin frowned, his jaw tight. "So we wait? While they're in there with Nella and Hobb?"
+
+"We wait for a gap," Elias said. "Or we find another way in."
+
+He looked at Kaelen, who was standing slightly apart, his face pale in the dim light of his gauntlet. The mage’s hand rested on the brass device, his knuckles white. He hadn't spoken in a long while, but his presence was a constant, draining weight in the air.
+
+"Kaelen," Elias said. "Can you do anything? A small light? A distraction?"
+
+Kaelen shook his head slowly. "My reserves are empty, Elias. I can keep the light steady, but that's it. If I try to do anything more, I'll pass out. And I don't think I can take the pain of a sudden blackout in a place like this."
+
+Elara stood up, brushing the dust from her knees. "We don't need magic. We need observation. Look at the door."
+
+She pointed to the bottom of the door, where the wood met the stone floor. A thin line of light cut through the gap, the faint, orange glow of a fire. It was flickering, casting long, dancing shadows that stretched out into the darkness of the corridor.
+
+"Firelight," Elara said. "They have a fire in the room. That means they are gathered around it. That means they are not patrolling. They are resting."
+
+Maren nodded slowly. "Resting is dangerous. Goblins don't rest well. They get bored. They get loud."
+
+"And they get distracted," Torin said. A small, grim smile touched his lips. "I remember something about that."
+
+He stepped forward, moving with a fluid grace that belied the strain in his shoulders. He reached into his belt and pulled out a small, smooth stone, no larger than a walnut. He looked at Elias, his eyes asking for permission.
+
+Elias hesitated for a fraction of a second, then nodded.
+
+Torin moved to the side of the door, where the gap was widest. He crouched, his back to the wall, his body a solid block of muscle and intent. He aimed the stone with the precision of a man who had thrown a thousand such objects in a thousand different situations.
+
+He threw.
+
+The stone skipped once on the stone floor, a sound like a soft click, and then sailed through the gap at the bottom of the door. It landed on the wooden table with a sharp *tock*, near the edge of the pot.
+
+For a moment, nothing happened. The murmuring continued, low and rhythmic.
+
+Then, a sharp yelp. A crash of wood. The sound of a pot being knocked over, the liquid inside spilling with a hiss and a sizzle.
+
+"Damn it!" a goblin voice shouted, angry and confused. "Who did that, Skrit? You clumsy idiot!"
+
+Another voice, deeper and more irritable, replied, "I didn't do it, you fool. It was the wind. The door is broken."
+
+"The door is not broken, it is *open*!" the first voice snapped. "And the wind is not coming through a closed door!"
+
+Elias watched the light under the door. The shadows were shifting, moving erratically. The goblins were arguing, their voices rising in pitch and volume. They were distracted, their attention turned inward to their own failure.
+
+"Now," Elias whispered.
+
+Torin was already moving. He didn't wait for the argument to end. He didn't wait for the goblins to look up. He stepped up to the door, his shoulder bracing against the wood. He didn't kick it. He didn't slam it. He simply pushed, using his core strength, his legs, his entire body weight.
+
+The wood groaned. The bar, wedged in its slot, shifted. It was not enough to break, but it was enough to loosen.
+
+Maren moved to Elias’s side. She didn't have a key, but she had a hammer. She didn't swing it. She used the flat head of the hammer to pry at the edge of the door, her muscles straining, her face tight with pain and focus. She used the leverage, the small gap created by Torin’s push, to widen it just an inch.
+
+Elara slipped through.
+
+She moved with the silence of a cat, her body pressing against the rough stone, her satchel swinging gently at her hip. She was gone into the room before the others could even see her.
+
+Kaelen followed, his gauntlet dim, his face pale, but his movements steady. He was not a fighter, but he was a survivor. He moved through the gap, his eyes fixed on the floor, on the shadows, on the goblins who were still arguing, their backs turned to the door, their attention fixed on the spilled pot and the angry goblin who had tried to clean it up.
+
+Maren pushed through next, her hammer resting against her shoulder, her body a shield between the door and the room. She was the barrier, the anchor, the one who held the line.
+
+Torin was last. He held the door open with his shoulder, his face grim, his eyes scanning the room for any sign of movement. He saw the goblins, their backs to him, their voices raised in a heated dispute. He saw the fire, the table, the chairs. And he saw the captives.
+
+Nella and Hobb were tied to a wooden post in the corner of the room, their hands bound with crude rope, their faces bruised and swollen. They were alive. They were breathing. They were afraid.
+
+But they were there.
+
+Elias stepped through the gap, his hand on his sword, his eyes fixed on the goblins. He did not speak. He did not move. He waited.
+
+The goblins were still arguing. They were still distracted. They were still unaware of the five people standing in their room, watching them, waiting for the right moment.
+
+The rescue was no longer a question of whether they could find the captives. It was a question of how they would bring them out. And for the first time in hours, Elias had the answer.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

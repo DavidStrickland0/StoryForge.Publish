@@ -1,0 +1,7 @@
+The corridor stretched ahead like a throat of cold stone, swallowing the faint lantern light and leaving them in a gray twilight that smelled of damp earth and old fear. Torin moved first, his boots finding purchase on the uneven flagstones with a practiced silence that spoke of years spent navigating hostile terrain. He did not rush; rushing was a luxury they could not afford, and more importantly, it was a mistake they could not afford to make twice.
+
+He paused at a low archway that branched off to the left, a junction where the passage narrowed into a steep descent toward the cellar levels. His hand rested lightly on the pommel of his sword, not in threat, but in readiness. He listened. The rain drummed against the distant roof, a steady, rhythmic backdrop that masked any subtle sounds from deeper within the keep. But beneath that, there was a silence that felt deliberate. The goblins were not moving. They were waiting.
+
+Torin raised a hand, halting the group. Elias stepped up beside him, his own blade sheathed but his eyes sharp, scanning the shadows. The others followed, Maren bringing up the rear with her hammer resting against her shoulder, the broken cart axle strapped to her back creaking softly with every movement. Kaelen stood slightly behind, his brass gauntlet dim, the light it cast just enough to see the immediate floor but not far enough to reveal what lay beyond the next turn.
+
+"Left," Torin said, his voice low and steady.

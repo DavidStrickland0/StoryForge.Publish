@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "fingerprint": "87ecc91bdf8db5a9c7bdd04ee4a909da43b1e643fe063f2a2b2ec620eb4eac78",
+  "model": "qwen3.5:9b",
+  "cues": [
+    {
+      "startSegment": 79,
+      "endSegment": 118,
+      "tags": [
+        "indoors",
+        "rain"
+      ],
+      "setting": "storage chamber inside a ruined keep during a storm",
+      "prompt": "continuous rain drumming on tin roof and low magical hum from brass gauntlet",
+      "evidence": "The rain hammered against the tin roof of the storage chamber, a rhythmic drumming that seemed to drown out anything less urgent than a screaming goblin inside these walls.",
+      "intensity": "moderate"
+    },
+    {
+      "startSegment": 176,
+      "endSegment": 243,
+      "tags": [
+        "fire",
+        "indoors"
+      ],
+      "setting": "keep interior",
+      "prompt": "soft crackling fire and distant wind rattling shutters",
+      "evidence": "broken only by the faintest hint of torchlight flickering in the distance... occasional gusts of wind rattling loose shutters high above them",
+      "intensity": "soft"
+    }
+  ],
+  "warnings": [
+    "Batch 1: unresolved cues omitted after correction attempts; retained 0 valid cues. Cue 1: Each cue requires a setting and a sound description.",
+    "Batch 2: unresolved cues omitted after correction attempts; retained 0 valid cues. Cue 1: Cue 50-78 requires an exact evidence quotation from its own source range. Rejected evidence: '\"sound of rain dripping from leaves overhead\" ... \"smoke still curled lazily from an extinguished fire pit\" ... \"distant rumble of thunder rolling overhead\"'. Copy a quotation directly from the supplied source segments.",
+    "Batch 4: unresolved cues omitted after correction attempts; retained 0 valid cues. Cue 1: Cue 119-175 requires an exact evidence quotation from its own source range. Rejected evidence: '\"The air inside was colder still, with only faint lantern light filtering down from above.\" (segment 128)'. Copy a quotation directly from the supplied source segments."
+  ]
+}

@@ -1,0 +1,1929 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoryForge.Endless.Srd35</name>
+    </assembly>
+    <members>
+        <member name="T:StoryForge.Endless.Srd35.Changes.CharacterMechanicalChange">
+            <summary>
+            Represents a proposed mechanical change to a character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Changes.CharacterMechanicalChange.CharacterId">
+            <summary>
+            Gets or initializes the stable identifier of the affected character.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Changes.CharacterMechanicalChangeApplicator">
+            <summary>
+            Applies validated mechanical changes to character state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Changes.CharacterMechanicalChangeApplicator.Apply(StoryForge.Endless.Srd35.Characters.CharacterSheet,StoryForge.Endless.Srd35.Changes.CharacterMechanicalChange)">
+            <summary>
+            Applies a mechanical change to a character sheet.
+            </summary>
+            <param name="character">
+            The current authoritative character state.
+            </param>
+            <param name="change">
+            The validated mechanical change to apply.
+            </param>
+            <returns>
+            The resulting character state.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when an argument is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            Thrown when the change targets another character or its type is
+            unsupported.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Changes.GainExperienceChange">
+            <summary>
+            Represents experience points gained by a character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Changes.GainExperienceChange.Amount">
+            <summary>
+            Gets or initializes the amount of experience gained.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Changes.GainLevelChange">
+            <summary>
+            Represents a character gaining one level in a class.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Changes.GainLevelChange.ClassId">
+            <summary>
+            Gets or initializes the stable identifier of the class receiving the
+            level.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Changes.HealDamageChange">
+            <summary>
+            Represents hit-point healing received by a character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Changes.HealDamageChange.Amount">
+            <summary>
+            Gets or initializes the amount of hit-point healing received.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Changes.HealNonlethalDamageChange">
+            <summary>
+            Represents nonlethal damage removed from a character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Changes.HealNonlethalDamageChange.Amount">
+            <summary>
+            Gets or initializes the amount of nonlethal damage removed.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Changes.TakeDamageChange">
+            <summary>
+            Represents hit-point damage taken by a character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Changes.TakeDamageChange.Amount">
+            <summary>
+            Gets or initializes the amount of damage taken.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Changes.TakeNonlethalDamageChange">
+            <summary>
+            Represents nonlethal damage taken by a character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Changes.TakeNonlethalDamageChange.Amount">
+            <summary>
+            Gets or initializes the amount of nonlethal damage taken.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Characters.AbilityScores">
+            <summary>
+            Represents a character's six SRD 3.5 ability scores.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.AbilityScores.Strength">
+            <summary>
+            Gets or initializes the Strength score.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.AbilityScores.Dexterity">
+            <summary>
+            Gets or initializes the Dexterity score.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.AbilityScores.Constitution">
+            <summary>
+            Gets or initializes the Constitution score.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.AbilityScores.Intelligence">
+            <summary>
+            Gets or initializes the Intelligence score.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.AbilityScores.Wisdom">
+            <summary>
+            Gets or initializes the Wisdom score.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.AbilityScores.Charisma">
+            <summary>
+            Gets or initializes the Charisma score.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Characters.CharacterCondition">
+            <summary>
+            Identifies the character's overall condition derived from hit points and
+            nonlethal damage.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.CharacterCondition.Normal">
+            <summary>
+            The character is not impaired by current hit points or nonlethal
+            damage.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.CharacterCondition.Staggered">
+            <summary>
+            The character is staggered by nonlethal damage.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.CharacterCondition.Disabled">
+            <summary>
+            The character is disabled at exactly zero hit points.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.CharacterCondition.Unconscious">
+            <summary>
+            The character is unconscious because of nonlethal damage.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.CharacterCondition.Dying">
+            <summary>
+            The character is dying from negative hit points.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.CharacterCondition.Dead">
+            <summary>
+            The character is dead.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Characters.CharacterEquipment">
+            <summary>
+            Represents one item possessed by a character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.CharacterEquipment.EquipmentId">
+            <summary>
+            Gets or initializes the stable identifier of the equipment definition.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.CharacterEquipment.IsEquipped">
+            <summary>
+            Gets a value indicating whether the item is equipped.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Characters.CharacterSheet">
+            <summary>
+            Represents the authoritative mechanical state of a character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.CharacterSheet.CharacterId">
+            <summary>
+            Gets or initializes the stable character identifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.CharacterSheet.Name">
+            <summary>
+            Gets or initializes the character's display name.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.CharacterSheet.RaceId">
+            <summary>
+            Gets or initializes the stable identifier of the character's race.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.CharacterSheet.ExperiencePoints">
+            <summary>
+            Gets or initializes the character's accumulated experience points.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.CharacterSheet.Classes">
+            <summary>
+            Gets or initializes the character's class levels.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.CharacterSheet.Abilities">
+            <summary>
+            Gets or initializes the character's ability scores.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.CharacterSheet.HitPoints">
+            <summary>
+            Gets or initializes the character's hit-point state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.CharacterSheet.NonlethalDamage">
+            <summary>
+            Gets or initializes the character's accumulated nonlethal damage.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.CharacterSheet.Equipment">
+            <summary>
+            Gets or initializes the equipment possessed by the character.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Characters.ClassLevel">
+            <summary>
+            Represents levels a character possesses in an SRD character class.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.ClassLevel.ClassId">
+            <summary>
+            Gets or initializes the stable identifier of the character class.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.ClassLevel.Level">
+            <summary>
+            Gets or initializes the number of levels possessed in the class.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Characters.DefaultCharacterSheetFactory">
+            <summary>
+            Creates the default mechanical state used when a character does not yet
+            have an established SRD 3.5 character sheet.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Characters.DefaultCharacterSheetFactory.Create(System.String,System.String)">
+            <summary>
+            Creates a default character sheet.
+            </summary>
+            <param name="characterId">
+            The stable identifier of the character.
+            </param>
+            <param name="name">
+            The display name of the character.
+            </param>
+            <returns>
+            A new character sheet containing the neutral starting mechanical state.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Characters.HitPoints">
+            <summary>
+            Represents a character's current and maximum hit points.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.HitPoints.Current">
+            <summary>
+            Gets or initializes the character's current hit points.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Characters.HitPoints.Maximum">
+            <summary>
+            Gets or initializes the character's maximum hit points.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Characters.HitPointStatus">
+            <summary>
+            Identifies a character's condition derived from current hit points.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.HitPointStatus.Conscious">
+            <summary>
+            The character has positive hit points.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.HitPointStatus.Disabled">
+            <summary>
+            The character has exactly zero hit points.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.HitPointStatus.Dying">
+            <summary>
+            The character has between -1 and -9 hit points.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.HitPointStatus.Dead">
+            <summary>
+            The character has -10 or fewer hit points.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Characters.JsonCharacterSheetStore">
+            <summary>
+            Persists authoritative mechanical character sheets as JSON files.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Characters.JsonCharacterSheetStore.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:StoryForge.Endless.Srd35.Characters.JsonCharacterSheetStore"/>
+            class.
+            </summary>
+            <param name="repositoryRoot">
+            The root directory of the StoryForge repository.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Characters.JsonCharacterSheetStore.LoadOrCreateAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Loads an existing character sheet or creates the default mechanical
+            state when no persisted sheet exists.
+            </summary>
+            <param name="characterId">
+            The stable identifier of the character.
+            </param>
+            <param name="name">
+            The character's display name, used when a default sheet is created.
+            </param>
+            <param name="cancellationToken">
+            A token used to cancel the asynchronous operation.
+            </param>
+            <returns>
+            The persisted character sheet, or a new default sheet when none exists.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Characters.JsonCharacterSheetStore.SaveAsync(StoryForge.Endless.Srd35.Characters.CharacterSheet,System.Threading.CancellationToken)">
+            <summary>
+            Persists a character sheet.
+            </summary>
+            <param name="character">
+            The character sheet to persist.
+            </param>
+            <param name="cancellationToken">
+            A token used to cancel the asynchronous operation.
+            </param>
+            <returns>
+            A task representing the asynchronous save operation.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Characters.NonlethalDamageStatus">
+            <summary>
+            Identifies the condition caused by accumulated nonlethal damage.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.NonlethalDamageStatus.Unaffected">
+            <summary>
+            Nonlethal damage has not reached the character's current hit points.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.NonlethalDamageStatus.Staggered">
+            <summary>
+            Nonlethal damage equals the character's current hit points.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Characters.NonlethalDamageStatus.Unconscious">
+            <summary>
+            Nonlethal damage exceeds the character's current hit points.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Classes.BaseAttackBonusProgression">
+            <summary>
+            Identifies an SRD base attack bonus progression.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Classes.BaseAttackBonusProgression.Poor">
+            <summary>
+            One-half base attack bonus progression.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Classes.BaseAttackBonusProgression.Average">
+            <summary>
+            Three-quarters base attack bonus progression.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Classes.BaseAttackBonusProgression.Good">
+            <summary>
+            Full base attack bonus progression.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Classes.CharacterClassCatalog">
+            <summary>
+            Provides authoritative definitions for implemented SRD character classes.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Classes.CharacterClassCatalog.Contains(System.String)">
+            <summary>
+            Determines whether a class identifier has an implemented definition.
+            </summary>
+            <param name="classId">
+            The stable class identifier.
+            </param>
+            <returns>
+            <see langword="true"/> when the class is implemented; otherwise,
+            <see langword="false"/>.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Classes.CharacterClassCatalog.Get(System.String)">
+            <summary>
+            Gets an implemented character class definition.
+            </summary>
+            <param name="classId">
+            The stable class identifier.
+            </param>
+            <returns>
+            The authoritative character class definition.
+            </returns>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            Thrown when the class has not been implemented.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Classes.CharacterClassDefinition">
+            <summary>
+            Defines the deterministic mechanical progression of an SRD character class.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Classes.CharacterClassDefinition.ClassId">
+            <summary>
+            Gets or initializes the stable class identifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Classes.CharacterClassDefinition.Name">
+            <summary>
+            Gets or initializes the class display name.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Classes.CharacterClassDefinition.HitDie">
+            <summary>
+            Gets or initializes the number of sides on the class hit die.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Classes.CharacterClassDefinition.BaseAttackBonus">
+            <summary>
+            Gets or initializes the base attack bonus progression.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Classes.CharacterClassDefinition.FortitudeSave">
+            <summary>
+            Gets or initializes the Fortitude saving-throw progression.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Classes.CharacterClassDefinition.ReflexSave">
+            <summary>
+            Gets or initializes the Reflex saving-throw progression.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Classes.CharacterClassDefinition.WillSave">
+            <summary>
+            Gets or initializes the Will saving-throw progression.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Classes.SavingThrowProgression">
+            <summary>
+            Identifies an SRD saving-throw progression.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Classes.SavingThrowProgression.Poor">
+            <summary>
+            Poor saving-throw progression.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Classes.SavingThrowProgression.Good">
+            <summary>
+            Good saving-throw progression.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Equipment.EquipmentCatalog">
+            <summary>
+            Provides implemented SRD equipment definitions.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Equipment.EquipmentCatalog.Contains(System.String)">
+            <summary>
+            Determines whether an equipment definition is implemented.
+            </summary>
+            <param name="equipmentId">
+            The stable equipment identifier.
+            </param>
+            <returns>
+            <see langword="true"/> when the equipment definition exists;
+            otherwise, <see langword="false"/>.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Equipment.EquipmentCatalog.Get(System.String)">
+            <summary>
+            Gets an implemented equipment definition.
+            </summary>
+            <param name="equipmentId">
+            The stable equipment identifier.
+            </param>
+            <returns>
+            The matching equipment definition.
+            </returns>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            Thrown when the equipment definition is not implemented.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Equipment.EquipmentCategory">
+            <summary>
+            Identifies the mechanical category of an equipment item.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Equipment.EquipmentCategory.Armor">
+            <summary>
+            The item is armor.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Equipment.EquipmentCategory.Shield">
+            <summary>
+            The item is a shield.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Equipment.EquipmentCategory.Other">
+            <summary>
+            The item belongs to another equipment category.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Equipment.EquipmentDefinition">
+            <summary>
+            Defines immutable mechanical properties of an equipment item type.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.EquipmentDefinition.EquipmentId">
+            <summary>
+            Gets or initializes the stable equipment identifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.EquipmentDefinition.Name">
+            <summary>
+            Gets or initializes the display name.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.EquipmentDefinition.Category">
+            <summary>
+            Gets or initializes the equipment category.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.EquipmentDefinition.ArmorClassBonus">
+            <summary>
+            Gets or initializes the armor-class bonus supplied by the item.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.EquipmentDefinition.MaximumDexterityBonus">
+            <summary>
+            Gets or initializes the maximum Dexterity bonus to Armor Class allowed
+            by the item, or <see langword="null"/> when the item imposes no limit.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Equipment.WeaponCatalog">
+            <summary>
+            Provides implemented SRD weapon definitions.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Equipment.WeaponCatalog.Contains(System.String)">
+            <summary>
+            Determines whether a weapon definition is implemented.
+            </summary>
+            <param name="weaponId">
+            The stable weapon identifier.
+            </param>
+            <returns>
+            <see langword="true"/> when the weapon exists; otherwise,
+            <see langword="false"/>.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Equipment.WeaponCatalog.Get(System.String)">
+            <summary>
+            Gets an implemented weapon definition.
+            </summary>
+            <param name="weaponId">
+            The stable weapon identifier.
+            </param>
+            <returns>
+            The matching weapon definition.
+            </returns>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            Thrown when the weapon is not implemented.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Equipment.WeaponDamage">
+            <summary>
+            Defines a weapon's base damage dice.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.WeaponDamage.DiceCount">
+            <summary>
+            Gets or initializes the number of damage dice rolled.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.WeaponDamage.DieSize">
+            <summary>
+            Gets or initializes the number of sides on each damage die.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Equipment.WeaponDefinition">
+            <summary>
+            Defines the implemented mechanical properties of a weapon.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.WeaponDefinition.WeaponId">
+            <summary>
+            Gets or initializes the stable weapon identifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.WeaponDefinition.Name">
+            <summary>
+            Gets or initializes the display name.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.WeaponDefinition.WeaponType">
+            <summary>
+            Gets or initializes the weapon type.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.WeaponDefinition.Usage">
+            <summary>
+            Gets or initializes how the weapon is normally used for damage
+            calculations.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.WeaponDefinition.Damage">
+            <summary>
+            Gets or initializes the weapon's base damage dice.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.WeaponDefinition.CriticalThreatMinimum">
+            <summary>
+            Gets or initializes the lowest natural attack roll that threatens a
+            critical hit.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Equipment.WeaponDefinition.CriticalMultiplier">
+            <summary>
+            Gets or initializes the weapon's critical damage multiplier.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Equipment.WeaponType">
+            <summary>
+            Identifies how a weapon is used for basic attack calculations.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Equipment.WeaponType.Melee">
+            <summary>
+            The weapon makes melee attacks.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Equipment.WeaponType.Ranged">
+            <summary>
+            The weapon makes ranged attacks.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Equipment.WeaponUsage">
+            <summary>
+            Identifies how a weapon is normally used for Strength-based damage
+            calculations.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Equipment.WeaponUsage.LightMelee">
+            <summary>
+            The weapon is a light melee weapon.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Equipment.WeaponUsage.OneHandedMelee">
+            <summary>
+            The weapon is normally used as a one-handed melee weapon.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Equipment.WeaponUsage.TwoHandedMelee">
+            <summary>
+            The weapon is normally used as a two-handed melee weapon.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Equipment.WeaponUsage.Thrown">
+            <summary>
+            The weapon is a thrown weapon.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Equipment.WeaponUsage.Projectile">
+            <summary>
+            The weapon is a projectile weapon that does not normally add the
+            wielder's Strength modifier to damage.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.CharacterIdentity">
+            <summary>
+            Identifies a narrative character for mechanical state processing.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.CharacterIdentity.CharacterId">
+            <summary>
+            Gets the persistent character identifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.CharacterIdentity.DisplayName">
+            <summary>
+            Gets the character's current display name.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.CharacterIdentityReader">
+            <summary>
+            Reads persistent character identities from narrative character context.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Finalization.CharacterIdentityReader.Read(System.String)">
+            <summary>
+            Reads character identities from a CHARACTERS.md document.
+            </summary>
+            <param name="content">
+            The complete CHARACTERS.md content.
+            </param>
+            <returns>
+            The character identities explicitly established by the document.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Finalization.CharacterIdentityReader.ReadAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Reads character identities from the repository's CHARACTERS.md file.
+            </summary>
+            <param name="repositoryRoot">
+            The StoryForge repository root.
+            </param>
+            <param name="cancellationToken">
+            A token that may cancel the operation.
+            </param>
+            <returns>
+            The character identities explicitly established by CHARACTERS.md.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.CharacterMechanicalRecordingService">
+            <summary>
+            Applies validated mechanical changes to a character and persists the
+            resulting authoritative mechanical state.
+            </summary>
+            <param name="store">
+            The store used to persist mechanical character sheets.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Finalization.CharacterMechanicalRecordingService.#ctor(StoryForge.Endless.Srd35.Characters.JsonCharacterSheetStore)">
+            <summary>
+            Applies validated mechanical changes to a character and persists the
+            resulting authoritative mechanical state.
+            </summary>
+            <param name="store">
+            The store used to persist mechanical character sheets.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Finalization.CharacterMechanicalRecordingService.RecordAsync(System.String,System.String,System.Collections.Generic.IEnumerable{StoryForge.Endless.Srd35.Changes.CharacterMechanicalChange},System.Threading.CancellationToken)">
+            <summary>
+            Records a sequence of mechanical changes for a character.
+            </summary>
+            <param name="characterId">
+            The stable identifier of the character.
+            </param>
+            <param name="characterName">
+            The display name used when a default sheet must be created.
+            </param>
+            <param name="changes">
+            The mechanical changes established from finalized prose.
+            </param>
+            <param name="cancellationToken">
+            A token used to cancel the asynchronous operation.
+            </param>
+            <returns>
+            The resulting persisted character sheet.
+            </returns>
+            <exception cref="T:System.InvalidOperationException">
+            Thrown when a proposed change is invalid or the resulting character
+            sheet is invalid.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.DirectMechanicalChangeFactory">
+            <summary>
+            Converts directly extracted mechanical events into mechanical changes.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Finalization.DirectMechanicalChangeFactory.Create(StoryForge.Endless.Srd35.Finalization.DirectMechanicalEvent)">
+            <summary>
+            Creates a mechanical change from a directly extracted event.
+            </summary>
+            <param name="mechanicalEvent">
+            The mechanical event established by finalized prose.
+            </param>
+            <returns>
+            The corresponding mechanical change.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="mechanicalEvent"/> is
+            <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when the event type is unsupported.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.DirectMechanicalEvent">
+            <summary>
+            Represents a directly established mechanical state change extracted from
+            finalized prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.DirectMechanicalEvent.CharacterId">
+            <summary>
+            Gets or initializes the stable identifier or established name of the
+            affected character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.DirectMechanicalEvent.Type">
+            <summary>
+            Gets or initializes the type of mechanical event.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.DirectMechanicalEvent.Amount">
+            <summary>
+            Gets or initializes the mechanically established amount.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.DirectMechanicalEventType">
+            <summary>
+            Identifies a directly observable mechanical state change.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Finalization.DirectMechanicalEventType.Damage">
+            <summary>
+            The character takes lethal hit point damage.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Finalization.DirectMechanicalEventType.Healing">
+            <summary>
+            The character recovers lethal hit point damage.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Finalization.DirectMechanicalEventType.NonlethalDamage">
+            <summary>
+            The character takes nonlethal damage.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Finalization.DirectMechanicalEventType.NonlethalHealing">
+            <summary>
+            The character recovers nonlethal damage.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.ExperienceAwardChangeFactory">
+            <summary>
+            Creates deterministic experience changes from experience-worthy events.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Finalization.ExperienceAwardChangeFactory.Create(StoryForge.Endless.Srd35.Characters.CharacterSheet,StoryForge.Endless.Srd35.Finalization.ExperienceAwardEvent)">
+            <summary>
+            Creates an experience gain change for an event established by
+            finalized prose.
+            </summary>
+            <param name="character">
+            The authoritative character sheet before the experience award is
+            applied.
+            </param>
+            <param name="experienceEvent">
+            The experience-worthy event established by finalized prose.
+            </param>
+            <returns>
+            A mechanical change containing the calculated experience award.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="character"/> or
+            <paramref name="experienceEvent"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            Thrown when the event targets a different character.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.ExperienceAwardEvent">
+            <summary>
+            Represents an experience-worthy event established by finalized prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.ExperienceAwardEvent.CharacterId">
+            <summary>
+            Gets or initializes the stable identifier of the character that
+            participated in the event.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.ExperienceAwardEvent.ChallengeRating">
+            <summary>
+            Gets or initializes the challenge rating of the challenge that was
+            overcome.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.ExperienceAwardEvent.ParticipantCount">
+            <summary>
+            Gets or initializes the number of characters sharing the experience
+            award.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.ExperienceAwardEventValidator">
+            <summary>
+            Validates experience-award events extracted from finalized prose.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Finalization.ExperienceAwardEventValidator.Validate(StoryForge.Endless.Srd35.Finalization.ExperienceAwardEvent)">
+            <summary>
+            Validates an experience-award event.
+            </summary>
+            <param name="experienceEvent">
+            The extracted experience-award event.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="experienceEvent"/> is
+            <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when the character identifier is missing.
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when the challenge rating or participant count is invalid.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.MechanicalExtraction">
+            <summary>
+            Represents mechanical events extracted from finalized prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.MechanicalExtraction.DirectChanges">
+            <summary>
+            Gets direct mechanical state changes established by the prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.MechanicalExtraction.ExperienceEvents">
+            <summary>
+            Gets experience-worthy encounters established by the prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.MechanicalExtraction.Warnings">
+            <summary>
+            Gets ambiguities that prevented safe mechanical extraction.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionChangeFactory">
+            <summary>
+            Converts extracted mechanical events into deterministic character changes.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionChangeFactory.Create(StoryForge.Endless.Srd35.Characters.CharacterSheet,StoryForge.Endless.Srd35.Finalization.MechanicalExtraction)">
+            <summary>
+            Creates all mechanical changes for one character from an extraction.
+            </summary>
+            <param name="character">
+            The authoritative character sheet before the changes are applied.
+            </param>
+            <param name="extraction">
+            The mechanical events extracted from finalized prose.
+            </param>
+            <returns>
+            The mechanical changes applicable to the supplied character.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionRequest">
+            <summary>
+            Describes a request to extract mechanical events from finalized prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number being interpreted.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionRequest.ChapterPath">
+            <summary>
+            Gets the path to the finalized chapter prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionRequest.Model">
+            <summary>
+            Gets the model used for extraction.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionResult">
+            <summary>
+            Represents the result of mechanical extraction from finalized prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionResult.Extraction">
+            <summary>
+            Gets the extracted mechanical events.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionResult.RawResponse">
+            <summary>
+            Gets the raw model response.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionResult.Model">
+            <summary>
+            Gets the model that produced the extraction.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionResult.Duration">
+            <summary>
+            Gets the duration of the extraction request.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionService">
+            <summary>
+            Extracts mechanically relevant events from finalized chapter prose.
+            </summary>
+            <param name="textGenerationService">
+            The text generation service used to interpret finalized prose.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Extracts mechanically relevant events from finalized chapter prose.
+            </summary>
+            <param name="textGenerationService">
+            The text generation service used to interpret finalized prose.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Finalization.MechanicalExtractionService.ExtractAsync(StoryForge.Endless.Srd35.Finalization.MechanicalExtractionRequest,System.Threading.CancellationToken)">
+            <summary>
+            Extracts mechanical events established by finalized chapter prose.
+            </summary>
+            <param name="request">
+            The mechanical extraction request.
+            </param>
+            <param name="cancellationToken">
+            A token used to cancel the asynchronous operation.
+            </param>
+            <returns>
+            The structured mechanical extraction result.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Races.CharacterRaceRules">
+            <summary>
+            Derives racial properties from authoritative character state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Races.CharacterRaceRules.GetRace(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Gets the authoritative race definition for a character.
+            </summary>
+            <param name="character">
+            The authoritative character state.
+            </param>
+            <returns>
+            The character's race definition.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Races.CharacterRaceRules.GetSize(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Gets the character's normal creature size.
+            </summary>
+            <param name="character">
+            The authoritative character state.
+            </param>
+            <returns>
+            The character's normal creature size.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Races.CharacterRaceRules.GetBaseLandSpeed(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Gets the character's base land speed in feet.
+            </summary>
+            <param name="character">
+            The authoritative character state.
+            </param>
+            <returns>
+            The character's base land speed in feet.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Races.CreatureSize">
+            <summary>
+            Identifies an SRD creature size category.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Races.CreatureSize.Fine">
+            <summary>
+            Fine size.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Races.CreatureSize.Diminutive">
+            <summary>
+            Diminutive size.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Races.CreatureSize.Tiny">
+            <summary>
+            Tiny size.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Races.CreatureSize.Small">
+            <summary>
+            Small size.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Races.CreatureSize.Medium">
+            <summary>
+            Medium size.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Races.CreatureSize.Large">
+            <summary>
+            Large size.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Races.CreatureSize.Huge">
+            <summary>
+            Huge size.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Races.CreatureSize.Gargantuan">
+            <summary>
+            Gargantuan size.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Srd35.Races.CreatureSize.Colossal">
+            <summary>
+            Colossal size.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Races.RaceCatalog">
+            <summary>
+            Provides authoritative definitions for implemented SRD races.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Races.RaceCatalog.Contains(System.String)">
+            <summary>
+            Determines whether a race identifier has an implemented definition.
+            </summary>
+            <param name="raceId">
+            The stable race identifier.
+            </param>
+            <returns>
+            <see langword="true"/> when the race is implemented; otherwise,
+            <see langword="false"/>.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Races.RaceCatalog.Get(System.String)">
+            <summary>
+            Gets an implemented race definition.
+            </summary>
+            <param name="raceId">
+            The stable race identifier.
+            </param>
+            <returns>
+            The authoritative race definition.
+            </returns>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">
+            Thrown when the race has not been implemented.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Races.RaceDefinition">
+            <summary>
+            Defines authoritative mechanical properties of an implemented SRD race.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Races.RaceDefinition.RaceId">
+            <summary>
+            Gets or initializes the stable race identifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Races.RaceDefinition.Name">
+            <summary>
+            Gets or initializes the race display name.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Races.RaceDefinition.Size">
+            <summary>
+            Gets or initializes the race's normal creature size.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Races.RaceDefinition.BaseLandSpeed">
+            <summary>
+            Gets or initializes the race's base land speed in feet.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Races.SizeRules">
+            <summary>
+            Provides SRD rules associated with creature size.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Races.SizeRules.CalculateAttackAndArmorClassModifier(StoryForge.Endless.Srd35.Races.CreatureSize)">
+            <summary>
+            Calculates the attack and Armor Class modifier for a creature size.
+            </summary>
+            <param name="size">
+            The creature size.
+            </param>
+            <returns>
+            The size modifier applied to attack rolls and Armor Class.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.AbilityScoreRules">
+            <summary>
+            Provides SRD 3.5 rules for ability scores.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.AbilityScoreRules.CalculateModifier(System.Int32)">
+            <summary>
+            Calculates the ability modifier for an ability score.
+            </summary>
+            <param name="abilityScore">
+            The ability score for which to calculate the modifier.
+            </param>
+            <returns>
+            The SRD 3.5 ability modifier.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.ArmorClassRules">
+            <summary>
+            Provides deterministic rules for the currently implemented Armor Class
+            components.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.ArmorClassRules.Calculate(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Calculates Armor Class from authoritative character state.
+            </summary>
+            <param name="character">
+            The authoritative character state.
+            </param>
+            <returns>
+            The calculated Armor Class statistics.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.ArmorClassStatistics">
+            <summary>
+            Represents the currently implemented components of a character's Armor
+            Class.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.ArmorClassStatistics.ArmorClass">
+            <summary>
+            Gets or initializes the total Armor Class.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.ArmorClassStatistics.DexterityModifier">
+            <summary>
+            Gets or initializes the Dexterity modifier actually applied to Armor
+            Class after equipment limits.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.ArmorClassStatistics.SizeModifier">
+            <summary>
+            Gets or initializes the size modifier applied to Armor Class.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.ArmorClassStatistics.ArmorBonus">
+            <summary>
+            Gets or initializes the equipped armor bonus applied to Armor Class.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.ArmorClassStatistics.ShieldBonus">
+            <summary>
+            Gets or initializes the equipped shield bonus applied to Armor Class.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.BaseAttackBonusRules">
+            <summary>
+            Provides SRD rules for base attack bonus progression.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.BaseAttackBonusRules.Calculate(StoryForge.Endless.Srd35.Classes.BaseAttackBonusProgression,System.Int32)">
+            <summary>
+            Calculates the base attack bonus granted by class levels.
+            </summary>
+            <param name="progression">
+            The class base attack bonus progression.
+            </param>
+            <param name="classLevel">
+            The number of levels in the class.
+            </param>
+            <returns>
+            The base attack bonus granted by those class levels.
+            </returns>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when <paramref name="classLevel"/> is less than one.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.CharacterCombatRules">
+            <summary>
+            Derives combat statistics from authoritative character state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.CharacterCombatRules.Calculate(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Calculates the character's base attack bonus and base saving throws.
+            </summary>
+            <param name="character">
+            The authoritative character state.
+            </param>
+            <returns>
+            Combat statistics derived from the character's class levels.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="character"/> is <see langword="null"/>.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.CharacterCombatStatistics">
+            <summary>
+            Represents combat statistics derived from authoritative character state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterCombatStatistics.BaseAttackBonus">
+            <summary>
+            Gets or initializes the total base attack bonus.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterCombatStatistics.FortitudeSave">
+            <summary>
+            Gets or initializes the total base Fortitude saving-throw bonus.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterCombatStatistics.ReflexSave">
+            <summary>
+            Gets or initializes the total base Reflex saving-throw bonus.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterCombatStatistics.WillSave">
+            <summary>
+            Gets or initializes the total base Will saving-throw bonus.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.CharacterConditionRules">
+            <summary>
+            Resolves a character's overall condition from authoritative mechanical
+            state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.CharacterConditionRules.DetermineCondition(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Determines the character's overall condition.
+            </summary>
+            <param name="character">
+            The authoritative character state.
+            </param>
+            <returns>
+            The character's mechanically derived condition.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics">
+            <summary>
+            Represents statistics derived from authoritative character state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.StrengthModifier">
+            <summary>
+            Gets or initializes the Strength ability modifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.DexterityModifier">
+            <summary>
+            Gets or initializes the Dexterity ability modifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.ConstitutionModifier">
+            <summary>
+            Gets or initializes the Constitution ability modifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.IntelligenceModifier">
+            <summary>
+            Gets or initializes the Intelligence ability modifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.WisdomModifier">
+            <summary>
+            Gets or initializes the Wisdom ability modifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.CharismaModifier">
+            <summary>
+            Gets or initializes the Charisma ability modifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.BaseAttackBonus">
+            <summary>
+            Gets or initializes the base attack bonus.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.BaseMeleeAttackBonus">
+            <summary>
+            Gets or initializes the melee attack bonus before situational,
+            equipment, size, feat, and other modifiers.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.BaseRangedAttackBonus">
+            <summary>
+            Gets or initializes the ranged attack bonus before situational,
+            equipment, size, feat, and other modifiers.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.FortitudeSave">
+            <summary>
+            Gets or initializes the Fortitude saving-throw bonus before
+            situational and other modifiers.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.ReflexSave">
+            <summary>
+            Gets or initializes the Reflex saving-throw bonus before
+            situational and other modifiers.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatistics.WillSave">
+            <summary>
+            Gets or initializes the Will saving-throw bonus before
+            situational and other modifiers.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatisticsRules">
+            <summary>
+            Derives commonly used statistics from authoritative character state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.CharacterDerivedStatisticsRules.Calculate(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Calculates derived statistics for a character.
+            </summary>
+            <param name="character">
+            The authoritative character state.
+            </param>
+            <returns>
+            Statistics derived from the character's abilities and class levels.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.CharacterLevelRules">
+            <summary>
+            Provides rules concerning character and class levels.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.CharacterLevelRules.CalculateCharacterLevel(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Calculates a character's total character level.
+            </summary>
+            <param name="character">
+            The character whose total level is calculated.
+            </param>
+            <returns>
+            The sum of the character's class levels.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.CharacterLevelRules.CalculateAdvancementStatus(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Calculates the character's current level-advancement state from the
+            authoritative character sheet and accumulated experience points.
+            </summary>
+            <param name="character">
+            The character whose advancement state is calculated.
+            </param>
+            <returns>
+            The character's current level-advancement status.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.CharacterLevelRules.CanGainLevel(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Determines whether the character has sufficient experience to gain
+            another character level.
+            </summary>
+            <param name="character">
+            The character to evaluate.
+            </param>
+            <returns>
+            <see langword="true"/> when accumulated experience supports a character
+            level greater than the character's current total level; otherwise,
+            <see langword="false"/>.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.EffectiveCharacterLevelRules">
+            <summary>
+            Provides rules for determining a character's effective character level.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.EffectiveCharacterLevelRules.Calculate(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Calculates the effective character level used by rules such as
+            experience awards.
+            </summary>
+            <param name="character">
+            The character whose effective character level is calculated.
+            </param>
+            <returns>
+            The character's effective character level.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="character"/> is
+            <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            Thrown when the character's race is not implemented.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.ExperienceAwardRules">
+            <summary>
+            Provides deterministic rules for calculating experience awards from
+            challenge ratings.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.ExperienceAwardRules.CalculateAward(System.Int32,System.Decimal,System.Int32)">
+            <summary>
+            Calculates the experience award for one participating character.
+            </summary>
+            <param name="effectiveCharacterLevel">
+            The participating character's effective character level.
+            </param>
+            <param name="challengeRating">
+            The challenge rating of the challenge overcome.
+            </param>
+            <param name="participantCount">
+            The number of characters sharing the experience award.
+            </param>
+            <returns>
+            The experience points awarded to the character.
+            </returns>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when the effective character level, challenge rating, or
+            participant count is outside the implemented range.
+            </exception>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.ExperienceAwardRules.CalculateEncounterAward(System.Int32,System.Decimal)">
+            <summary>
+            Calculates the experience award before division among participating
+            characters.
+            </summary>
+            <param name="effectiveCharacterLevel">
+            The effective character level used to calculate the award.
+            </param>
+            <param name="challengeRating">
+            The challenge rating of the challenge overcome.
+            </param>
+            <returns>
+            The experience award before party division.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.ExperienceAwardRules.ApplyChallengeDifference(System.Int32,System.Int32)">
+            <summary>
+            Applies the challenge-rating difference to the base experience award.
+            </summary>
+            <param name="baseAward">
+            The experience award when challenge rating equals effective character
+            level.
+            </param>
+            <param name="difference">
+            The challenge rating minus effective character level.
+            </param>
+            <returns>
+            The adjusted experience award.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.ExperienceAwardRules.CalculateFractionalChallengeRatingAward(System.Int32,System.Decimal)">
+            <summary>
+            Calculates experience for the standard fractional challenge ratings.
+            </summary>
+            <param name="effectiveCharacterLevel">
+            The effective character level used to calculate the award.
+            </param>
+            <param name="challengeRating">
+            The fractional challenge rating.
+            </param>
+            <returns>
+            The experience award before party division.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.ExperienceRules">
+            <summary>
+            Provides SRD 3.5 rules for experience-point progression.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.ExperienceRules.DetermineLevel(System.Int32)">
+            <summary>
+            Determines the character level supported by accumulated experience.
+            </summary>
+            <param name="experiencePoints">
+            The accumulated experience points.
+            </param>
+            <returns>
+            The character level supported by the supplied experience total.
+            </returns>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when <paramref name="experiencePoints"/> is negative.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.HitPointRules">
+            <summary>
+            Provides deterministic rules for character hit points.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.HitPointRules.ApplyDamage(StoryForge.Endless.Srd35.Characters.HitPoints,System.Int32)">
+            <summary>
+            Applies hit-point damage.
+            </summary>
+            <param name="hitPoints">
+            The current hit-point state.
+            </param>
+            <param name="damage">
+            The amount of damage to apply.
+            </param>
+            <returns>
+            A new hit-point state containing the resulting current hit points.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="hitPoints"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when <paramref name="damage"/> is negative.
+            </exception>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.HitPointRules.ApplyHealing(StoryForge.Endless.Srd35.Characters.HitPoints,System.Int32)">
+            <summary>
+            Applies hit-point healing.
+            </summary>
+            <param name="hitPoints">
+            The current hit-point state.
+            </param>
+            <param name="healing">
+            The amount of healing to apply.
+            </param>
+            <returns>
+            A new hit-point state containing the resulting current hit points.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="hitPoints"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when <paramref name="healing"/> is negative.
+            </exception>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.HitPointRules.DetermineStatus(StoryForge.Endless.Srd35.Characters.HitPoints)">
+            <summary>
+            Determines the condition produced by the current hit-point total.
+            </summary>
+            <param name="hitPoints">
+            The hit-point state to evaluate.
+            </param>
+            <returns>
+            The condition derived from current hit points.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.LevelAdvancementStatus">
+            <summary>
+            Describes a character's current level-advancement state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.LevelAdvancementStatus.CurrentLevel">
+            <summary>
+            Gets or initializes the character's current total class level.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.LevelAdvancementStatus.ExperienceSupportedLevel">
+            <summary>
+            Gets or initializes the character level supported by accumulated
+            experience points.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.LevelAdvancementStatus.CanGainLevel">
+            <summary>
+            Gets a value indicating whether the character is eligible to gain
+            another level.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.LevelAdvancementStatus.PendingLevelCount">
+            <summary>
+            Gets the number of unapplied levels currently supported by the
+            character's experience points.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.NonlethalDamageRules">
+            <summary>
+            Provides deterministic rules for nonlethal damage.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.NonlethalDamageRules.ApplyDamage(System.Int32,System.Int32)">
+            <summary>
+            Applies nonlethal damage to an existing total.
+            </summary>
+            <param name="current">
+            The currently accumulated nonlethal damage.
+            </param>
+            <param name="amount">
+            The amount of nonlethal damage to add.
+            </param>
+            <returns>
+            The resulting accumulated nonlethal damage.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.NonlethalDamageRules.ApplyHealing(System.Int32,System.Int32)">
+            <summary>
+            Removes nonlethal damage from an existing total.
+            </summary>
+            <param name="current">
+            The currently accumulated nonlethal damage.
+            </param>
+            <param name="amount">
+            The amount of nonlethal damage to remove.
+            </param>
+            <returns>
+            The resulting accumulated nonlethal damage.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.NonlethalDamageRules.DetermineStatus(System.Int32,System.Int32)">
+            <summary>
+            Determines the condition caused by accumulated nonlethal damage.
+            </summary>
+            <param name="currentHitPoints">
+            The character's current hit points.
+            </param>
+            <param name="nonlethalDamage">
+            The character's accumulated nonlethal damage.
+            </param>
+            <returns>
+            The condition caused by the nonlethal damage total.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.SavingThrowRules">
+            <summary>
+            Provides SRD rules for base saving-throw progression.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.SavingThrowRules.Calculate(StoryForge.Endless.Srd35.Classes.SavingThrowProgression,System.Int32)">
+            <summary>
+            Calculates the base save granted by class levels.
+            </summary>
+            <param name="progression">
+            The saving-throw progression.
+            </param>
+            <param name="classLevel">
+            The number of levels in the class.
+            </param>
+            <returns>
+            The base saving-throw bonus granted by those class levels.
+            </returns>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when <paramref name="classLevel"/> is less than one.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.WeaponAttackRules">
+            <summary>
+            Provides deterministic rules for currently implemented weapon attack
+            statistics.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.WeaponAttackRules.Calculate(StoryForge.Endless.Srd35.Characters.CharacterSheet,System.String)">
+            <summary>
+            Calculates the basic attack statistics for a weapon.
+            </summary>
+            <param name="character">
+            The attacking character.
+            </param>
+            <param name="weaponId">
+            The stable identifier of the weapon being used.
+            </param>
+            <returns>
+            The calculated attack statistics.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.WeaponAttackStatistics">
+            <summary>
+            Represents the currently implemented statistics for a weapon attack.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.WeaponAttackStatistics.Weapon">
+            <summary>
+            Gets or initializes the weapon definition.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.WeaponAttackStatistics.AttackBonus">
+            <summary>
+            Gets or initializes the total basic attack bonus.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.WeaponAttackStatistics.BaseAttackBonus">
+            <summary>
+            Gets or initializes the base attack bonus component.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.WeaponAttackStatistics.AbilityModifier">
+            <summary>
+            Gets or initializes the ability modifier applied to the attack.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.WeaponAttackStatistics.SizeModifier">
+            <summary>
+            Gets or initializes the size modifier applied to the attack.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.WeaponDamageRules">
+            <summary>
+            Provides deterministic rules for the currently implemented components of
+            weapon damage.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Rules.WeaponDamageRules.Calculate(StoryForge.Endless.Srd35.Characters.CharacterSheet,System.String)">
+            <summary>
+            Calculates the base damage dice and Strength-based damage modifier for
+            a weapon.
+            </summary>
+            <param name="character">
+            The attacking character.
+            </param>
+            <param name="weaponId">
+            The stable identifier of the weapon being used.
+            </param>
+            <returns>
+            The calculated weapon damage statistics.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Rules.WeaponDamageStatistics">
+            <summary>
+            Represents the currently implemented components of weapon damage.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.WeaponDamageStatistics.Weapon">
+            <summary>
+            Gets or initializes the weapon definition.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.WeaponDamageStatistics.DiceCount">
+            <summary>
+            Gets or initializes the number of base weapon damage dice.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.WeaponDamageStatistics.DieSize">
+            <summary>
+            Gets or initializes the size of each base weapon damage die.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Rules.WeaponDamageStatistics.StrengthModifier">
+            <summary>
+            Gets or initializes the Strength-based damage modifier.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Validation.CharacterMechanicalChangeValidator">
+            <summary>
+            Validates proposed mechanical changes before they are applied.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Validation.CharacterMechanicalChangeValidator.Validate(StoryForge.Endless.Srd35.Characters.CharacterSheet,StoryForge.Endless.Srd35.Changes.CharacterMechanicalChange)">
+            <summary>
+            Validates a proposed mechanical change against authoritative character
+            state.
+            </summary>
+            <param name="character">
+            The authoritative character state.
+            </param>
+            <param name="change">
+            The proposed mechanical change.
+            </param>
+            <returns>
+            The validation result.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Validation.CharacterSheetValidationResult">
+            <summary>
+            Represents the result of validating authoritative character state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Validation.CharacterSheetValidationResult.IsValid">
+            <summary>
+            Gets a value indicating whether the character sheet is valid.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Validation.CharacterSheetValidationResult.Errors">
+            <summary>
+            Gets or initializes the validation errors.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Validation.CharacterSheetValidator">
+            <summary>
+            Validates authoritative character state against implemented SRD rules.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Validation.CharacterSheetValidator.Validate(StoryForge.Endless.Srd35.Characters.CharacterSheet)">
+            <summary>
+            Validates a character sheet.
+            </summary>
+            <param name="character">
+            The character sheet to validate.
+            </param>
+            <returns>
+            The complete validation result.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Srd35.Validation.MechanicalChangeValidationResult">
+            <summary>
+            Represents the result of validating a proposed mechanical change.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Validation.MechanicalChangeValidationResult.IsValid">
+            <summary>
+            Gets a value indicating whether the change is valid.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Srd35.Validation.MechanicalChangeValidationResult.Error">
+            <summary>
+            Gets or initializes the validation error when the change is invalid.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Validation.MechanicalChangeValidationResult.Success">
+            <summary>
+            Creates a successful validation result.
+            </summary>
+            <returns>A successful validation result.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Srd35.Validation.MechanicalChangeValidationResult.Failure(System.String)">
+            <summary>
+            Creates a failed validation result.
+            </summary>
+            <param name="error">The validation error.</param>
+            <returns>A failed validation result.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,5 @@
+The corridor narrowed, the stone walls pressing in like the ribcage of some ancient beast that had long since gone cold. Torin led with a careful rhythm, his boots finding purchase on the uneven flagstones without the squeak of fresh leather or the slip of wet grit. He moved low, keeping his head down, eyes scanning the junction where the corridor split into three directions: left down to the cellar levels, right toward the storage hub they had just passed, and straight ahead into a blind wall that seemed to offer no passage at all.
+
+Maren followed in the middle of the formation, her weight shifting constantly as she bore the broken cart axle strapped across her shoulders. The wood groaned under the strain, a dull, wooden creak that sounded less like a tool failing and more like a limb snapping under stress. She kept her eyes forward, jaw tight, refusing to let pain dictate her pace unless it became too much. When Elias glanced at her, she didn't acknowledge it with a grimace or a complaint; she simply adjusted the straps and kept walking.
+
+Elias brought up the rear, his sword sheathed but his hand resting lightly on the hilt

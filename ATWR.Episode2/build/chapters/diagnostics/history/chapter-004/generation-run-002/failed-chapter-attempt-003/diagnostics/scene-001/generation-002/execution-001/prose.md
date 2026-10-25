@@ -1,0 +1,3 @@
+The corridor ahead narrowed, the stone walls pressing in until the air felt tight against their chests. Torin led with a soft tread, his sword hand loose but ready, while Elias brought up the rear, watching Maren’s face for any sign that the broken cart axle was becoming an intolerable weight. She walked with a deliberate, measured gait, her shoulders bearing the strain of the splintered wood strapped to them. The pain didn't show in a grimace; it showed in the way she refused to take more than half steps at a time, forcing the others to match her pace rather than risk leaving her behind.
+
+"

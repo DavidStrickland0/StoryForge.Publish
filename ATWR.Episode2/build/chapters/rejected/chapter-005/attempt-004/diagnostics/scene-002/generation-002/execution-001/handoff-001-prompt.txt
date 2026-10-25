@@ -1,0 +1,107 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 5.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":5,"ViewpointCharacterId":"Elias Thorne","Objective":"The party moves from the cellar to the upper levels to confront Skrit Ironjaw, using the rescued captives as leverage or bait to force the goblin leader to reveal himself or surrender, thereby neutralizing the command structure of the band.","IntendedChange":"The group transitions from tactical retreat to strategic confrontation, demonstrating their ability to leverage their current advantage (possession of captives) to dismantle the goblin hierarchy without a costly melee.","PacingPosture":3,"ProhibitedPatterns":["Repeating the stealth exit plan and decoy sound tactic established in Chapter 4.","Re-performing the rescue of Nella and Hobb or the assessment of their injuries.","Introducing Skrit Ironjaw and his guards as a new threat in the final scene without earning it through the chapter\u0027s primary action.","Copying substantial verbatim prose from the previous finalized chapter."],"Scenes":[{"Sequence":1,"Purpose":"Elias coordinates the party\u0027s ascent from the cellar, leveraging the rescued captives as leverage to force Skrit Ironjaw to reveal himself or surrender, thereby neutralizing the command structure of the band.","IntendedChange":"The group transitions from tactical retreat to strategic confrontation, demonstrating their ability to leverage their current advantage (possession of captives) to dismantle the goblin hierarchy without a costly melee.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Elara"]},{"Sequence":2,"Purpose":"Kaelen uses his remaining magical reserves for a non-combat utility (e.g., a distraction or a shield) rather than direct offense, while Elias acknowledges Kaelen\u0027s courage and validates his decision to use his magic for a precise, low-cost effect.","IntendedChange":"Kaelen trusts Elias\u0027s judgment and accepts his support, solidifying their mutual respect.","FocusCharacterIds":["Elias Thorne","Kaelen"]},{"Sequence":3,"Purpose":"Maren acknowledges Torin\u0027s physical capability and accepts his help in managing the captives\u0027 movement, while Torin validates Maren\u0027s competence and supports her decision to take on a more active role in the confrontation.","IntendedChange":"Maren and Torin solidify their mutual respect, managing their vulnerabilities and supporting each other\u0027s roles.","FocusCharacterIds":["Maren","Torin"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Kaelen uses his remaining magical reserves for a non-combat utility (e.g., a distraction or a shield) rather than direct offense, while Elias acknowledges Kaelen\u0027s courage and validates his decision to use his magic for a precise, low-cost effect.","IntendedChange":"Kaelen trusts Elias\u0027s judgment and accepts his support, solidifying their mutual respect.","FocusCharacterIds":["Elias Thorne","Kaelen"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Maren acknowledges Torin\u0027s physical capability and accepts his help in managing the captives\u0027 movement, while Torin validates Maren\u0027s competence and supports her decision to take on a more active role in the confrontation.","IntendedChange":"Maren and Torin solidify their mutual respect, managing their vulnerabilities and supporting each other\u0027s roles.","FocusCharacterIds":["Maren","Torin"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":5,"CompletedSceneSequence":1,"Location":"Corridor leading out of Skrit Ironjaw\u0027s keep","TimeContext":"Post-confrontation, immediate aftermath of the goblin surrender","PresentCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Elara","Nella","Hobb"],"PhysicalConditions":["The keep is silent and empty of goblins.","Captives (Nella, Hobb) are secured and moving with the party.","Skrit Ironjaw has surrendered his key and silver but retained his knife.","The party is exhausted but alive."],"KnowledgeEstablished":["Skrit Ironjaw is not a true chief but a frightened thief who recognizes when to stop.","The goblin band has effectively dissolved; the remaining goblins are fleeing.","The stolen goods (silver, food) and the key to the captives have been secured by the party.","Elias\u0027s assessment that there is no longer a threat from the goblin command structure is confirmed."],"DecisionsMade":["Elias decided to spare Skrit Ironjaw and allow him to keep his knife as a token of his humanity.","The party agreed to take the captives, the silver, and leave the keep.","Skrit decided to surrender completely and release his remaining goblin follower."],"PossessionChanges":["Elias Thorne now possesses the key to the captives.","Elias Thorne now possesses the stolen silver coins.","Skrit Ironjaw retains his knife but has lost control of the keep and his followers."],"RelationshipChanges":["Elias Thorne and Skrit Ironjaw share a moment of mutual recognition and respect.","The party\u0027s dynamic has shifted from tactical retreat to successful strategic confrontation.","Skrit Ironjaw acknowledges Elias as superior in judgment and resolve."],"CompletedActions":["Kaelen used a flint distraction to draw goblin attention away from the party.","Maren stunned one goblin with a hammer blow, causing it to drop its weapon.","Torin held the door line while Elara and Kaelen entered the main room.","The party confronted Skrit Ironjaw in his storage chamber.","Skrit surrendered, handed over the key and silver, and released his remaining goblin.","The party exited the room with the captives and loot.","Elias confirmed the mission success to Kaelen."],"UnresolvedImmediateAction":"The party is walking slowly and steadily down the corridor toward the exit of the keep, heading toward the light.","ContinuationPosition":"The group (Elias, Kaelen, Maren, Torin, Elara, Nella, Hobb) is moving away from Skrit Ironjaw\u0027s room and the main chamber, proceeding down the now-empty corridor toward the keep\u0027s exit.","ProhibitedRepetition":["Do not re-describe the flint distraction or the initial entry into the goblin room.","Do not repeat the dialogue between Elias and Skrit regarding the surrender.","Do not re-state the assessment of Skrit as a thief without new context."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The corridor stretched out before them, a long throat of damp stone that seemed to inhale the silence of their passing. The air was thick with the smell of wet earth and the lingering, sour tang of goblin sweat, but the oppressive weight of the threat had lifted. In its place was a heavy, settling quiet, the kind that follows a storm and leaves the world washed clean and strangely still.
+
+Elias kept his pace steady, his boots finding the rhythm of the uneven flagstones. Beside him, Kaelen moved with a careful, deliberate grace that belied the exhaustion etched into his features. The mage’s brass gauntlet hung loose at his side, its surface dull and lifeless. He had used the last of his reserves to create that brief, sharp flash of light and the accompanying crack of displaced air—a distraction that had turned the goblins’ attention toward the far end of the room just long enough for Maren to act. It was a small trick, a minor expenditure of magic, but for Kaelen, it had been a gamble with his own sanity.
+
+Elias glanced at his companion. Kaelen’s face was pale, a sheen of sweat visible on his forehead despite the chill of the cellar. His eyes were fixed on the floor, tracking each step with the precision of a man navigating a field of mines. He was tired. Not just physically, but in a way that seemed to reach down into his bones, a deep, resonant fatigue that spoke of a limit he had pushed against and found.
+
+"You did well," Elias said, his voice low and steady. He didn't look at Kaelen, keeping his gaze forward, but the words were directed with clear intent. "The timing was perfect. If you had hesitated, or if you had tried to do more, we would have lost the element of surprise. You used exactly what you had, and no more."
+
+Kaelen stopped, his breath hitching in a small, sharp intake. He looked up, his eyes meeting Elias’s for a brief, intense moment. There was a flicker of surprise there, a momentary falter in his composure, before he masked it with a tight, tired smile.
+
+"I wasn't sure I had enough for a shield," Kaelen admitted, his voice hoarse. "The light felt... thinner than usual. I didn't want to risk a collapse in the middle of the fight. So I gave you the distraction. It was a small thing, but it was the only thing I could offer that wouldn't cost me my life."
+
+Elias nodded slowly. He understood. He had seen Kaelen push his limits before, had seen the cost of that push. The headaches, the tremors, the way the mage had leaned against the wall afterward, breathing as if he had run a mile. There had been a time, not so long ago, when Elias would have urged Kaelen to save his strength, to wait, to let the others handle the danger. He had learned, through experience and observation, that caution could sometimes be a cage. Kaelen’s choice had been a calculation of risk and reward, and it had paid off.
+
+"You didn't just offer a distraction," Elias said, his tone softening. "You took a risk to keep us safe. That’s not a small thing. That’s courage. And it worked. So don't sell it short."
+
+Kaelen let out a long, slow breath, the tension in his shoulders easing slightly. He reached up and rubbed the back of his neck, a gesture of pure, physical relief. "I suppose you’re right. I was so focused on not failing that I forgot to appreciate that I didn't."
+
+Elias looked at the corridor ahead. The light from the entrance was still a distant, pale glow, but it was there. It was real. They were moving toward it. He felt a profound sense of satisfaction, not just for the rescue, but for the way they had worked together. They had faced a dangerous situation with limited resources and had come out on the other side, not just alive, but with their integrity intact.
+
+"Let's keep moving," Elias said, breaking the moment with a gentle nudge to Kaelen’s shoulder. "Torin and Maren are waiting. And Nella needs to know she’s safe."
+
+Kaelen nodded, his eyes clearing. He straightened his back, the last of the tension leaving his frame. He fell into step beside Elias, his pace steady, his breathing even. They moved forward, the two of them, a pair of shadows in the dim light, walking toward the end of the dark.
+
+As they walked, Elias noticed the way Kaelen’s hand rested on the pommel of his sword, not in threat, but in a quiet, steady readiness. It was a small detail, but it spoke volumes. Kaelen was not just a mage who had used up his magic; he was a companion who had made a choice, and he was standing by that choice.
+
+Elias felt a surge of respect, deep and abiding. It was not the respect for power, but the respect for judgment. For the ability to see what was needed and to act, even when the cost was high. That was a quality that could not be taught, only learned. And Kaelen had learned it.
+
+They reached the end of the corridor, where the air grew warmer and the smell of damp stone faded, replaced by the fresh, clean scent of rain-washed earth. The entrance to the keep was visible ahead, a dark rectangle against the gray sky. Beyond it, the world waited.
+
+Elias stopped, turning to face his companion. "We did it," he said, a small smile playing at the corners of his mouth. "We actually did it."
+
+Kaelen looked out into the light, his face serene. "Yes," he said. "We did."
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

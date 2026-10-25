@@ -1,0 +1,10 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan for Chapter 4 attempts to replay events that have already been finalized in Chapter 3. Specifically, the plan's objective and Scene 1 require the party to 'enter the keep through the broken outer wall' and 'neutralize the guard post.' However, the finalized evidence for Chapter 3 explicitly states that the party has already entered the keep, bypassed the initial trap (the loose stone), and is currently inside the storage chamber observing a goblin. The 'broken outer wall' entry and initial guard neutralization are historical facts established in the prose (Chapter 2/3 transition), not future intentions. Additionally, the plan's Scene 2 requires navigating a 'complex trap' to reach the 'junction leading to the cellar levels,' but the finalized evidence shows the party has already passed the junction (where they chose the left passage) and is currently in the storage chamber, which is the destination of that route. The plan effectively restarts the infiltration sequence that has already progressed significantly.",
+  "evidence": [
+    "FINALIZED CHAPTER 3: \"Location\": \"Storage chamber within the keep\"",
+    "FINALIZED CHAPTER 3: \"CompletedActions\": [\"The group moved into the left-hand passage.\", \"Torin stopped the group upon entering the storage chamber.\", \"The party identified a goblin standing in the shadows of the storage chamber.\"]",
+    "FINALIZED CHAPTER 3: \"ContinuationPosition\": \"The group stands at the entrance of the small circular storage chamber, looking into the shadows where a single torch burns and a goblin stands holding a spear.\"",
+    "CANDIDATE CHAPTER PLAN: \"Objective\": \"The party enters the keep through the broken outer wall, neutralizes the guard post and crude alarm, and navigates the first trapped passage to reach the junction leading to the cellar levels.\""
+  ]
+}

@@ -1,0 +1,99 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 5.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":5,"ViewpointCharacterId":"Elias Thorne","Objective":"The party moves from the cellar to the upper levels to confront Skrit Ironjaw, using the rescued captives as leverage or bait to force the goblin leader to reveal himself or surrender, thereby neutralizing the command structure of the band.","IntendedChange":"The group transitions from tactical retreat to strategic confrontation, demonstrating their ability to leverage their current advantage (possession of captives) to dismantle the goblin hierarchy without a costly melee.","PacingPosture":3,"ProhibitedPatterns":["Copying verbatim prose from Chapter 4, specifically the descriptions of the goblins huddled by the fire, the specific dialogue about the \u0027spark\u0027 magic, or the physical actions of Torin carrying Hobb.","Resolving the confrontation with Skrit Ironjaw through a sudden, unearned surrender without establishing the specific leverage (the captives\u0027 safety) and the threat of their loss.","Ignoring the active Short arc to pursue unrelated activity such as moving furniture or looting the keep instead of confronting the leader.","Introducing a new, larger threat (e.g., a dragon, a necromancer) or a cliffhanger that delays the resolution of the goblin band.","Having Kaelen use significant offensive magic (fireballs, heavy shields) that contradicts his established depleted state."],"Scenes":[{"Sequence":1,"Purpose":"The party ascends from the cellar to the main floor, navigating the goblins\u0027 living quarters while managing the physical toll of carrying the injured captives and avoiding detection by the remaining goblins.","IntendedChange":"The group reaches the threshold of the upper level, with Torin and Maren physically strained but holding their positions, and the goblins unaware of their immediate proximity to the chief\u0027s room.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Kaelen","Elara"]},{"Sequence":2,"Purpose":"Elias coordinates a tactical approach to Skrit Ironjaw\u0027s room, using the rescued captives as visible leverage to force the goblin leader to reveal himself, while Kaelen prepares a minimal, non-offensive magical distraction to cover their entry.","IntendedChange":"Skrit Ironjaw is forced to emerge from his room to confront the party, establishing a direct confrontation where the goblins\u0027 command structure is exposed and the party holds the tactical advantage of the captives\u0027 presence.","FocusCharacterIds":["Elias Thorne","Kaelen","Skrit Ironjaw"]},{"Sequence":3,"Purpose":"The party confronts Skrit Ironjaw, using the threat of harm to the captives and the display of their coordinated competence to force the goblin band\u0027s surrender or incapacitation, thereby neutralizing the command structure.","IntendedChange":"Skrit Ironjaw and his band are defeated or captured, the goblin hierarchy is dismantled, and the party secures the keep, with Kaelen\u0027s magical reserves fully depleted and Maren\u0027s injury exacerbated by the exertion.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Skrit Ironjaw"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The party confronts Skrit Ironjaw, using the threat of harm to the captives and the display of their coordinated competence to force the goblin band\u0027s surrender or incapacitation, thereby neutralizing the command structure.","IntendedChange":"Skrit Ironjaw and his band are defeated or captured, the goblin hierarchy is dismantled, and the party secures the keep, with Kaelen\u0027s magical reserves fully depleted and Maren\u0027s injury exacerbated by the exertion.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Skrit Ironjaw"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":5,"CompletedSceneSequence":2,"Location":"Main floor of the keep, specifically inside Skrit Ironjaw\u0027s room","TimeContext":"Night, immediately following Skrit Ironjaw\u0027s surrender and sheathing of his sword","PresentCharacterIds":["Elias Thorne","Torin","Maren","Kaelen","Elara","Skrit Ironjaw","Nella","Hobb"],"PhysicalConditions":["Torin is carrying the injured captive Hobb on his back, suffering from a flare-up in his old shoulder injury.","Maren is guiding Nella with a firm grip due to her weak legs.","Kaelen has depleted his magical reserves and is holding a piece of flint (dropped as a signal).","Skrit Ironjaw has sheathed his sword, standing with hands open, having surrendered without being chained or killed.","The two goblin guards are on their knees with heads bowed, weapons abandoned."],"KnowledgeEstablished":["Skrit Ironjaw is a manager-type leader who views captives as assets rather than slaves.","Skrit\u0027s surrender was motivated by the realization that his power relies entirely on his position and leadership, which is now gone.","The goblin band will be disbanded and sent home to their caves/families once Skrit is taken to Pinehollow for trial.","Kaelen used a dropped flint as a non-offensive signal to indicate the party\u0027s resolve and potential escalation if Skrit did not negotiate."],"DecisionsMade":["Elias rejected Skrit\u0027s gambit that his capture would cause chaos, asserting that disbanding the band is the solution.","Skrit agreed to surrender, come with the party, and stop the raids on his own terms (without chains or immediate death).","The party accepted Skrit\u0027s surrender and decided to leave the room immediately."],"PossessionChanges":["Kaelen possesses a chunk of flint found in the corridor.","Torin is physically carrying Hobb.","Maren is guiding Nella.","Skrit Ironjaw has sheathed his sword (no longer armed)."],"RelationshipChanges":["Skrit Ironjaw and the party have transitioned from adversaries to a negotiated truce where Skrit surrenders voluntarily.","The goblin guards are now submissive and fearful, having abandoned their weapons."],"CompletedActions":["Elias confronted Skrit Ironjaw regarding the treatment of captives.","Kaelen dropped the flint as a signal to escalate tension if negotiation failed.","Skrit Ironjaw stood up, sheathed his sword, and verbally surrendered.","The party agreed to take Skrit to Pinehollow for trial rather than killing him or chaining him.","Elias ordered the group to leave the room."],"UnresolvedImmediateAction":"The party is preparing to leave Skrit Ironjaw\u0027s room with the surrendered goblin leader, intending to walk a long way to Pinehollow.","ContinuationPosition":"Inside Skrit Ironjaw\u0027s cluttered room. Elias, Torin (carrying Hobb), Maren (guiding Nella), Kaelen, Elara, and the surrendered Skrit Ironjaw are standing together. The guards remain on their knees. The party is turning to exit the room.","ProhibitedRepetition":["The description of finding flint in the gravel.","The sound of the flint hitting the floor (prior to the signal).","The dialogue regarding \u0027One count\u0027, \u0027Three\u0027, \u0027Two\u0027, \u0027One\u0027.","The description of Torin\u0027s shoulder wincing and lifting Hobb.","Maren guiding Nella with a firm grip on her elbow.","Elias scanning the upper landing before emerging onto the main floor.","The description of the main floor layout (beds, table, spoils).","The dialogue between Elias and the scarred goblin regarding raids and the chief\u0027s anger.","The goblins lowering their weapons and pointing to the door.","Elias ordering the goblins to stay put.","Skrit Ironjaw\u0027s initial invitation to sit down for a discussion."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+"Let's go," Elias said, his voice flat and final. He turned his back on the chief, a deliberate dismissal that was louder than any shout. "Maren, keep her steady. Torin, if his shoulder buckles, we stop. We don't rush a man who's already broken."
+
+They moved toward the door, a slow, heavy procession that seemed to stretch the seconds. The air in the room was thick with the scent of wet fur and old iron, a smell that clung to the back of Elias’s throat. He could feel the weight of the moment pressing against his ribs, the solid, undeniable fact that the hardest part was over, and the boring, painful part was beginning.
+
+Skrit Ironjaw did not follow immediately. He stood in the center of his room, looking small against the backdrop of stolen grain sacks and broken furniture. He looked at his two kneeling guards, then at the party’s retreating forms. There was no anger in his eyes, only a profound, exhausted relief. He reached up and unclasped the heavy leather strap of his bow, letting it drop to the floor with a dull thud. The sound echoed in the silence, a final punctuation mark to the end of his reign.
+
+Elias paused at the threshold, his hand resting on the doorframe. He didn’t turn around. "Leave your weapons where they are," he called out, his voice carrying easily in the stillness. "We are not your friends, Skrit. But we are not going to kill you in the dark. If you want to live to see a trial, you walk with us. If you try to run, you will find that we are much faster than you think, and much harder to stop."
+
+It was a bluff, mostly. They were exhausted, injured, and carrying a dead weight. But Skrit didn't know that. He only knew that the man who had just dismantled his entire power structure with a few words was now standing in the doorway, waiting.
+
+The goblin chief picked up his sword. He sheathed it with a slow, deliberate clink, the sound of steel sliding into a worn leather scabbard. He straightened his spine, the movement stiff and painful, and then he began to walk.
+
+The corridor outside was cold. The dampness seeped into Elias’s bones, a physical reminder of the keep’s decay. He kept his hand on his sword hilt, not because he expected an attack, but because the muscle memory was stronger than his better judgment. He watched Skrit’s back, the greenish skin of his neck, the way his shoulders hunched under the weight of his own surrender.
+
+Torin was struggling. Elias could hear the faint, rhythmic wheeze of the cart driver’s breathing, muffled by the heavy wool blanket wrapped around him. Torin’s steps were uneven, his weight shifting constantly to compensate for the strain on his right shoulder. He didn't complain. He didn't ask for help. He just kept moving, a silent, enduring pillar of strength that Elias felt he owed a debt he couldn't pay.
+
+Maren was close to Elias, her hand gripping Nella’s elbow with a firm, protective strength. The blacksmith was leaning heavily on her, her head lolling against Maren’s shoulder. Maren’s own face was pale, her jaw set in a tight line that spoke of the pain she was ignoring. She walked with a careful, measured gait, one foot in front of the other, conserving every ounce of energy.
+
+Kaelen walked beside Elara, his steps light and quick. He was holding a piece of flint in his hand, turning it over and over, a small, nervous tic that betrayed his exhaustion. He looked at Elias, his eyes dark and tired. "We're almost there," he whispered. "Just a little further."
+
+Elias nodded, though he couldn't hear him. He was too busy watching the shadows, too busy listening to the silence that followed them. The keep was quiet. The goblins were gone. The traps were dead. The only thing left was the long, cold walk to the surface, and the promise of a future that was finally, painfully, within reach.
+
+They reached the stairs. The steps were rough and uneven, worn down by centuries of use. Torin took the first step, then the second, his face grimacing with the effort. Maren lifted Nella’s leg, helping her over the edge. Elias watched them, his heart pounding in his chest, a strange, hollow feeling of triumph mixed with a deep, abiding fatigue.
+
+They were out. The air was cold and fresh, carrying the scent of rain and wet earth. The stars were out, bright and clear, a vast canopy of light that seemed to stretch on forever. Elias took a deep breath, the cold air filling his lungs, and for a moment, he allowed himself to feel it. The victory. The end. The beginning.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

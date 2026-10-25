@@ -1,0 +1,2157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoryForge.Endless.Generation</name>
+    </assembly>
+    <members>
+        <member name="T:StoryForge.Endless.Generation.ChapterPlanning.ChapterPlanExtensionService">
+            <summary>
+            Extends exhausted scene guidance from the latest accepted scene state.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to create structured extension guidance.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.ChapterPlanExtensionService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Extends exhausted scene guidance from the latest accepted scene state.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to create structured extension guidance.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.ChapterPlanExtensionService.ExtendAsync(StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ChapterPlanning.ChapterPlanningService">
+            <summary>
+            Creates validated adaptive chapter plans from authoritative story context.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to create structured chapter plans.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.ChapterPlanningService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Creates validated adaptive chapter plans from authoritative story context.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to create structured chapter plans.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.ChapterPlanningService.PlanAsync(StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ChapterPlanning.ContinuityObjectionVerifier">
+            <summary>Checks alleged contradictions against exact source passages before they block drafting.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.ContinuityObjectionVerifier.NeedsVerification(System.String)">
+            <summary>Identifies legacy free-text assessments that assert a continuity contradiction.</summary>
+            <param name="reason">The assessment reason.</param>
+            <returns>Whether evidence verification is needed.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.ContinuityObjectionVerifier.VerifyAsync(StoryForge.Endless.Application.TextGeneration.ITextGenerationService,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>Requires exact source quotes; unsupported findings are sent back for reassessment.</summary>
+            <param name="generation">The model client.</param>
+            <param name="context">The supplied canonical evidence.</param>
+            <param name="candidate">The candidate scene.</param>
+            <param name="objection">The objection being checked.</param>
+            <param name="model">The assessment model.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>A verified flag, reassessment explanation, and model duration.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ChapterPlanning.NarrowSceneRepair">
+            <summary>Applies one bounded exact-text correction without regenerating a scene.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.NarrowSceneRepair.ProposeAsync(StoryForge.Endless.Application.TextGeneration.ITextGenerationService,System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>Proposes a local correction and validates its exact replacement boundary.</summary>
+            <param name="generation">The model client.</param>
+            <param name="candidate">The unaccepted scene.</param>
+            <param name="objection">The specific defect.</param>
+            <param name="model">The editing model.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>Repaired prose, or null when no safe local edit was proposed, plus duration.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.NarrowSceneRepair.Apply(System.String,System.String,System.String)">
+            <summary>Rejects broad, ambiguous, absent, or unchanged replacement requests.</summary>
+            <param name="candidate">The original scene.</param>
+            <param name="before">The exact passage to replace.</param>
+            <param name="after">The replacement passage.</param>
+            <returns>A locally edited scene, or null.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ChapterPlanning.SceneAccomplishmentValidationService">
+            <summary>
+            Assesses candidate scene accomplishment using prose-grounded structured output.
+            </summary>
+            <param name="textGenerationService">The model execution service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.SceneAccomplishmentValidationService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Assesses candidate scene accomplishment using prose-grounded structured output.
+            </summary>
+            <param name="textGenerationService">The model execution service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.SceneAccomplishmentValidationService.ValidateAsync(StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ChapterPlanning.SceneCadenceRepetitionDetector">
+            <summary>
+            Detects repeated narrative work in structured scene-state handoffs.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.SceneCadenceRepetitionDetector.TryFindRepeatedNarrativeWork(StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff,System.Collections.Generic.IReadOnlyList{StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff},System.String@)">
+            <summary>
+            Finds narrative work in a candidate handoff that substantially repeats
+            work recorded by an earlier accepted scene.
+            </summary>
+            <param name="candidate">
+            The handoff extracted from the candidate scene.
+            </param>
+            <param name="acceptedHandoffs">
+            Handoffs from earlier accepted scenes, including the preceding chapter
+            container when available.
+            </param>
+            <param name="reason">
+            A description of the repeated narrative work when repetition is found.
+            </param>
+            <returns>
+            <see langword="true"/> when the candidate substantially repeats an
+            earlier action, discovery, decision, relationship change, or prohibited
+            narrative pattern; otherwise, <see langword="false"/>.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.SceneCadenceRepetitionDetector.FindRepeatedNarrativeWork(StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff,System.Collections.Generic.IReadOnlyList{StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff})">
+            <summary>
+            Finds every item of narrative work in a candidate handoff that
+            substantially repeats work recorded by an earlier accepted scene.
+            </summary>
+            <param name="candidate">
+            The handoff extracted from the candidate scene.
+            </param>
+            <param name="acceptedHandoffs">
+            Handoffs from earlier accepted scenes, including the preceding chapter
+            container when available.
+            </param>
+            <returns>
+            Descriptions of all distinct repeated narrative-work items.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.SceneCadenceRepetitionDetector.TokenRegex">
+            <remarks>
+            Pattern:<br/>
+            <code>[\\p{L}\\p{N}]+</code><br/>
+            Options:<br/>
+            <code>RegexOptions.CultureInvariant</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match a character in the set [\p{L}\p{N}] atomically at least once.<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ChapterPlanning.SceneProseQualityAssessmentService">
+            <summary>
+            Produces evidence-backed prose-quality assessments for candidate scenes.
+            </summary>
+            <param name="textGenerationService">The model execution service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.SceneProseQualityAssessmentService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Produces evidence-backed prose-quality assessments for candidate scenes.
+            </summary>
+            <param name="textGenerationService">The model execution service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.SceneProseQualityAssessmentService.AssessAsync(StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ChapterPlanning.SceneStateHandoffExtractionService">
+            <summary>
+            Extracts validated immediate continuation state from accepted scene prose.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used for structured extraction.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.SceneStateHandoffExtractionService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Extracts validated immediate continuation state from accepted scene prose.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used for structured extraction.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ChapterPlanning.SceneStateHandoffExtractionService.ExtractAsync(StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.ChapterCompositionScope">
+            <summary>Projects chapter duties and stopping conditions from the authoritative plan.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterCompositionScope.LoadAsync(System.String,System.Int32,StoryForge.Endless.Application.ChapterPlanning.ChapterPlan,System.String,System.Boolean,System.Threading.CancellationToken)">
+            <summary>Loads the chapter's composition duties and reserved later work.</summary>
+            <param name="repositoryRoot">The story workspace.</param>
+            <param name="chapterNumber">The chapter to compose.</param>
+            <param name="plan">The optional loaded chapter plan.</param>
+            <param name="finalSceneChange">The optional final scene change.</param>
+            <param name="includeArcState">Whether to include story-arc state.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The serialized composition scope, or an empty string when unavailable.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore">
+            <summary>
+            Persists structured artifacts produced while generating a chapter.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.PersistSceneAttemptPromptAsync(System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Atomically persists the exact system and user prompts for a scene
+            generation attempt before model execution begins.
+            </summary>
+            <param name="repositoryRoot">The repository root directory.</param>
+            <param name="chapterNumber">The chapter number.</param>
+            <param name="sceneNumber">The scene sequence number.</param>
+            <param name="attemptNumber">The one-based attempt number.</param>
+            <param name="systemPrompt">The exact system prompt sent to the model.</param>
+            <param name="prompt">The exact user prompt sent to the model.</param>
+            <param name="cancellationToken">A token used to cancel the operation.</param>
+            <returns>A task representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.PersistPlanExtensionAsync(System.String,System.Int32,System.Int32,StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtension,System.Threading.CancellationToken)">
+            <summary>
+            Persists a validated scene-guidance extension.
+            </summary>
+            <param name="repositoryRoot">The repository root directory.</param>
+            <param name="chapterNumber">The chapter number.</param>
+            <param name="extensionNumber">The extension sequence number.</param>
+            <param name="extension">The extension to persist.</param>
+            <param name="cancellationToken">A token used to cancel the operation.</param>
+            <returns>A task representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.LoadAcceptedScenesAsync(System.String,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Loads the contiguous accepted-scene checkpoints for a chapter.
+            Orphan handoff and quality artifacts are ignored.
+            </summary>
+            <param name="repositoryRoot">The repository root directory.</param>
+            <param name="chapterNumber">The chapter number.</param>
+            <param name="cancellationToken">A token used to cancel the operation.</param>
+            <returns>The ordered accepted-scene checkpoints.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.PersistAcceptedSceneAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Atomically persists prose after a scene and its handoff are accepted.
+            </summary>
+            <param name="repositoryRoot">The repository root directory.</param>
+            <param name="chapterNumber">The chapter number.</param>
+            <param name="sceneNumber">The scene sequence number.</param>
+            <param name="prose">The accepted scene prose.</param>
+            <param name="cancellationToken">A token used to cancel the operation.</param>
+            <returns>A task representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.PersistHandoffAsync(System.String,System.Int32,StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff,System.Threading.CancellationToken)">
+            <summary>
+            Validates and persists an accepted scene-state handoff.
+            </summary>
+            <param name="repositoryRoot">The repository root directory.</param>
+            <param name="chapterNumber">The chapter number.</param>
+            <param name="handoff">The accepted handoff to persist.</param>
+            <param name="cancellationToken">A token used to cancel the operation.</param>
+            <returns>A task representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.PersistProseQualityAssessmentAsync(System.String,System.Int32,System.Int32,System.String,StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentResult,System.Threading.CancellationToken)">
+            <summary>
+            Validates and persists a record-only prose-quality assessment.
+            </summary>
+            <param name="repositoryRoot">The repository root directory.</param>
+            <param name="chapterNumber">The chapter number.</param>
+            <param name="sceneNumber">The scene sequence number.</param>
+            <param name="candidateProse">The exact assessed candidate prose.</param>
+            <param name="result">The validated assessment and execution metadata.</param>
+            <param name="cancellationToken">A token used to cancel the operation.</param>
+            <returns>A task representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.CreateSceneAttemptDirectory(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>Creates a directory for a scene generation attempt.</summary>
+            <param name="repositoryRoot">The story repository directory.</param>
+            <param name="chapterNumber">The chapter number.</param>
+            <param name="sceneNumber">The scene number.</param>
+            <param name="attemptNumber">The generation attempt number.</param>
+            <returns>The created directory path.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.CreatePlanningAttemptDirectory(System.String,System.Int32)">
+            <summary>Creates a directory for a chapter planning attempt.</summary>
+            <param name="repositoryRoot">The story repository directory.</param>
+            <param name="chapterNumber">The chapter number.</param>
+            <returns>The created directory path.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.AcceptedSceneCheckpoint">
+            <summary>
+            Represents one durably accepted scene and its continuity handoff.
+            </summary>
+            <param name="SceneNumber">The accepted scene sequence number.</param>
+            <param name="Prose">The accepted scene prose.</param>
+            <param name="Handoff">The accepted continuity handoff.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.AcceptedSceneCheckpoint.#ctor(System.Int32,System.String,StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff)">
+            <summary>
+            Represents one durably accepted scene and its continuity handoff.
+            </summary>
+            <param name="SceneNumber">The accepted scene sequence number.</param>
+            <param name="Prose">The accepted scene prose.</param>
+            <param name="Handoff">The accepted continuity handoff.</param>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.AcceptedSceneCheckpoint.SceneNumber">
+            <summary>The accepted scene sequence number.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.AcceptedSceneCheckpoint.Prose">
+            <summary>The accepted scene prose.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Chapters.ChapterGenerationArtifactStore.AcceptedSceneCheckpoint.Handoff">
+            <summary>The accepted continuity handoff.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.ChapterGenerationContextLoader">
+            <summary>
+            Loads and validates the context required to generate chapter prose.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationContextLoader.LoadAsync(System.String,System.Int32,System.Threading.CancellationToken,System.Boolean)">
+            <summary>
+            Loads the authoritative generation context and previous finalized chapter.
+            </summary>
+            <param name="repositoryRoot">The repository root directory.</param>
+            <param name="chapterNumber">The chapter being generated.</param>
+            <param name="cancellationToken">A token used to cancel the operation.</param>
+            <param name="episodic">Whether continuous arc context should be excluded.</param>
+            <returns>
+            The assembled generation context and the previous finalized chapter, when
+            one is required.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.ChapterGenerationPromptBuilder">
+            <summary>
+            Builds stable chapter-level prompts used during prose generation.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationPromptBuilder.BuildChapterPrompt(StoryForge.Endless.Application.Generation.ChapterGenerationRequest,System.String)">
+            <summary>
+            Builds the chapter-level generation prompt shared by every scene attempt.
+            </summary>
+            <param name="request">The chapter generation request.</param>
+            <param name="context">The assembled authoritative generation context.</param>
+            <returns>The chapter-level generation prompt.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationPromptBuilder.BuildInitialContinuity(System.String,StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff)">
+            <summary>
+            Builds the initial continuity supplied to the first generated scene.
+            </summary>
+            <param name="previousChapter">The previous finalized chapter, when present.</param>
+            <param name="previousChapterHandoff">
+            The previous chapter's final validated scene handoff, when present.
+            </param>
+            <returns>The initial scene-continuity guidance.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationPromptBuilder.BuildScenePrompt(StoryForge.Endless.Application.Generation.ChapterGenerationRequest,System.String,System.String,System.Collections.Generic.IReadOnlyList{System.String},StoryForge.Endless.Application.ChapterPlanning.ChapterScenePlan,StoryForge.Endless.Application.ChapterPlanning.ChapterScenePlan,StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff,System.Int32)">
+            <summary>
+            Builds the complete prompt for the next scene.
+            </summary>
+            <param name="request">The chapter generation request.</param>
+            <param name="chapterPrompt">The shared chapter-level prompt.</param>
+            <param name="initialContinuity">The chapter's initial continuity.</param>
+            <param name="acceptedScenes">The accepted scenes in the current chapter.</param>
+            <param name="plannedScene">The current planned scene, when present.</param>
+            <param name="nextPlannedScene">The next planned scene, when present.</param>
+            <param name="latestHandoff">The latest accepted scene handoff, when present.</param>
+            <param name="accumulatedWordCount">The accepted chapter word count.</param>
+            <returns>The complete scene-generation prompt.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationPromptBuilder.BuildSceneAttemptPrompt(System.String,System.String)">
+            <summary>
+            Adds correction context for a rejected scene attempt.
+            </summary>
+            <param name="scenePrompt">The original scene prompt.</param>
+            <param name="retryGuidance">The validation failure guidance.</param>
+            <returns>The prompt for the corrected scene attempt.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationPromptBuilder.BuildSceneRepairGuidance(System.String,System.String)">
+            <summary>Builds targeted repair instructions without promoting a rejected draft to history.</summary>
+            <param name="candidate">The unaccepted scene to repair.</param>
+            <param name="reason">The validation failure to correct.</param>
+            <returns>Repair guidance for the next bounded scene attempt.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.ChapterGenerationRecovery">
+            <summary>Reads completed failures from the current bounded generation run.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationRecovery.ReadFailures(System.String,System.Int32)">
+            <summary>Reads retry feedback in attempt order, excluding older runs and partial archives.</summary>
+            <param name="chaptersRoot">The chapter artifact root.</param>
+            <param name="chapterNumber">The chapter being generated.</param>
+            <returns>The completed attempt failure messages.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.ChapterGenerationService">
+            <summary>
+            Generates chapter prose from the supplied story context and generation request.
+            </summary>
+            <param name="textGenerationService">The text generation service used to generate chapter prose.</param>
+            <param name="handoffExtractionService">
+            The optional service used to extract structured state between planned scenes.
+            </param>
+            <param name="planExtensionService">
+            The optional service used to extend exhausted scene-guidance batches.
+            </param>
+            <param name="accomplishmentValidationService">
+            The optional service used to assess planned scenes before acceptance.
+            </param>
+            <param name="proseQualityAssessmentService">
+            The optional service used to enforce prose quality before scene acceptance.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService,StoryForge.Endless.Application.ChapterPlanning.ISceneStateHandoffExtractionService,StoryForge.Endless.Application.ChapterPlanning.IChapterPlanExtensionService,StoryForge.Endless.Application.ChapterPlanning.ISceneAccomplishmentValidationService,StoryForge.Endless.Application.ChapterPlanning.ISceneProseQualityAssessmentService)">
+            <summary>
+            Generates chapter prose from the supplied story context and generation request.
+            </summary>
+            <param name="textGenerationService">The text generation service used to generate chapter prose.</param>
+            <param name="handoffExtractionService">
+            The optional service used to extract structured state between planned scenes.
+            </param>
+            <param name="planExtensionService">
+            The optional service used to extend exhausted scene-guidance batches.
+            </param>
+            <param name="accomplishmentValidationService">
+            The optional service used to assess planned scenes before acceptance.
+            </param>
+            <param name="proseQualityAssessmentService">
+            The optional service used to enforce prose quality before scene acceptance.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationService.GenerateAsync(StoryForge.Endless.Application.Generation.ChapterGenerationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterGenerationService.IsImmediateBlockingFinding(StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityFinding)">
+            <summary>Checks whether a prose quality finding blocks the current attempt immediately.</summary>
+            <param name="finding">The finding to classify.</param>
+            <returns>True if the finding blocks the attempt immediately; otherwise, false.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.ChapterLifecyclePipeline">
+            <summary>
+            Executes an ordered, resumable collection of chapter lifecycle stages.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterLifecyclePipeline.RunGenerationAsync(System.String,System.Int32,System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Int32}},System.Threading.CancellationToken,System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Int32}})">
+            <summary>
+            Retries production after generation exhaustion, retaining valid plans for whole-chapter prose failures.
+            Archived attempts bound recovery across interrupted process restarts.
+            A later run starts a fresh budget after the previous run exhausted it.
+            </summary>
+            <param name="repositoryRoot">The story workspace root.</param>
+            <param name="chapterNumber">The chapter to produce.</param>
+            <param name="produceAsync">Plans and generates using only active artifacts.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <param name="fallbackProduceAsync">An optional second three-attempt batch using the default model.</param>
+            <returns>The production exit code.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterLifecyclePipeline.RunAsync(System.Collections.Generic.IReadOnlyList{StoryForge.Endless.Generation.Chapters.ChapterLifecycleStage},System.Threading.CancellationToken)">
+            <summary>
+            Executes enabled lifecycle stages until completion or failure.
+            </summary>
+            <param name="stages">The ordered lifecycle stages.</param>
+            <param name="cancellationToken">
+            The token used to cancel pipeline execution.
+            </param>
+            <returns>
+            Zero when every enabled stage succeeds; otherwise, the first nonzero
+            stage result.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.ChapterLifecycleStage">
+            <summary>
+            Defines one conditionally executed chapter lifecycle stage.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterLifecycleStage.#ctor(System.String,System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Int32}},System.Func{System.Boolean})">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:StoryForge.Endless.Generation.Chapters.ChapterLifecycleStage"/> class.
+            </summary>
+            <param name="name">The diagnostic stage name.</param>
+            <param name="executeAsync">The asynchronous stage operation.</param>
+            <param name="shouldRun">
+            The optional predicate determining whether the stage remains necessary.
+            </param>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Chapters.ChapterLifecycleStage.Name">
+            <summary>
+            Gets the diagnostic stage name.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterLifecycleStage.ShouldRun">
+            <summary>
+            Determines whether the stage remains necessary.
+            </summary>
+            <returns>
+            <see langword="true"/> when the stage should execute.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.ChapterLifecycleStage.ExecuteAsync(System.Threading.CancellationToken)">
+            <summary>
+            Executes the stage.
+            </summary>
+            <param name="cancellationToken">
+            The token used to cancel the operation.
+            </param>
+            <returns>The stage result code.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.EpisodeChapterAssessmentService">
+            <summary>Checks chapter accomplishment and due episode closure against prose evidence.</summary>
+            <param name="generation">The independent assessment model.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.EpisodeChapterAssessmentService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>Checks chapter accomplishment and due episode closure against prose evidence.</summary>
+            <param name="generation">The independent assessment model.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.EpisodeChapterAssessmentService.AssessAsync(StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan,StoryForge.Endless.Application.ChapterPlanning.ChapterPlan,System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>Assesses objectives without applying canon or publishing prose.</summary>
+            <param name="series">The episode manifest.</param>
+            <param name="plan">The current chapter plan.</param>
+            <param name="prose">The candidate prose.</param>
+            <param name="earlierEpisodeProse">Earlier finalized prose from this episode only.</param>
+            <param name="model">The independent model.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The grounded assessment.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.EpisodeFinalizedEvidence">
+            <summary>Loads accepted prose from the current episode without importing later objectives.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.EpisodeFinalizedEvidence.LoadAsync(System.String,StoryForge.Endless.Application.Episodes.EpisodePlan,System.Int32,System.Threading.CancellationToken)">
+            <summary>Loads all earlier finalized chapters inside the selected episode.</summary>
+            <param name="root">The workspace.</param>
+            <param name="episode">The selected episode.</param>
+            <param name="chapterNumber">The current chapter number.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>Earlier accepted episode prose with source chapter labels.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.EpisodeGenerationGuidance">
+            <summary>Supplies the same episode scope to prose and additional scene planning.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.EpisodeGenerationGuidance.Build(StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan,System.Int32)">
+            <summary>Builds scoped direction without exposing later episode objectives.</summary>
+            <param name="series">The selected series, or null for Continuous mode.</param>
+            <param name="chapterNumber">The global chapter number.</param>
+            <returns>Episode guidance, or an empty string for Continuous mode.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.EpisodeProgressService">
+            <summary>Persists resumable episodic progress without changing canon or publication.</summary>
+            <param name="generation">The independent assessment model.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.EpisodeProgressService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>Persists resumable episodic progress without changing canon or publication.</summary>
+            <param name="generation">The independent assessment model.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.EpisodeProgressService.IsApplied(System.String,StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan,System.Int32)">
+            <summary>Checks that an existing receipt still matches its accepted source inputs.</summary>
+            <param name="root">The workspace.</param>
+            <param name="series">The series manifest.</param>
+            <param name="chapter">The global chapter number.</param>
+            <returns>Whether episode progress is current.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.EpisodeProgressService.ApplyAsync(System.String,StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan,System.Int32,System.String,System.Threading.CancellationToken)">
+            <summary>Assesses accepted prose and atomically records progress, reusing only current receipts.</summary>
+            <param name="root">The workspace.</param>
+            <param name="series">The series manifest.</param>
+            <param name="chapter">The global chapter number.</param>
+            <param name="model">The assessment model.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The current episode progress receipt.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Chapters.GenerationAttemptsExhaustedException">
+            <summary>
+            Identifies an exhausted generation boundary without treating cancellation,
+            infrastructure errors, or invalid input as recoverable model failures.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Chapters.GenerationAttemptsExhaustedException.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Boolean,System.TimeSpan)">
+            <summary>
+            Identifies an exhausted generation boundary without treating cancellation,
+            infrastructure errors, or invalid input as recoverable model failures.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Chapters.GenerationAttemptsExhaustedException.ModelDuration">
+            <summary>Gets the model time spent on exhausted attempts.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Chapters.GenerationAttemptsExhaustedException.WholeChapter">
+            <summary>Gets a value indicating whether the failure applies to an entire chapter response.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Chapters.GenerationAttemptsExhaustedException.SceneNumber">
+            <summary>Gets the scene number where attempts were exhausted.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Chapters.GenerationAttemptsExhaustedException.SceneGenerationAttempts">
+            <summary>Gets the number of scene generation attempts.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Chapters.GenerationAttemptsExhaustedException.HandoffAttempts">
+            <summary>Gets the number of handoff attempts.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Configuration.EncounterFrequencySettings">
+            <summary>Optional per-story encounter minimums, independent of prose explicitness.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Configuration.EncounterFrequencySettings.Battle">
+            <summary>Gets the optional battle frequency.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Configuration.EncounterFrequencySettings.Sexual">
+            <summary>Gets the optional sexual-encounter frequency.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Configuration.EncounterFrequencySettings.Load(System.String)">
+            <summary>Loads and validates configured encounter frequencies.</summary>
+            <param name="root">The story workspace.</param>
+            <returns>The optional frequencies.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Configuration.EncounterFrequencySettings.Guidance(System.String)">
+            <summary>Builds prospective encounter allocation guidance.</summary>
+            <param name="root">The story workspace.</param>
+            <returns>Guidance only when at least one frequency is enabled.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Configuration.EncounterFrequencySettings.Required(StoryForge.Endless.Application.StoryArcs.StoryArc)">
+            <summary>Gets the minimum applicable to one arc.</summary>
+            <param name="arc">The arc being completed.</param>
+            <returns>The required battle and sexual encounter counts.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Configuration.EncounterFrequencySettings.Frequency">
+            <summary>Describes one per-arc minimum.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Configuration.EncounterFrequencySettings.Frequency.PerArc">
+            <summary>Gets the horizon at which the minimum resets.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Configuration.EncounterFrequencySettings.Frequency.Minimum">
+            <summary>Gets the minimum number of distinct encounters.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Configuration.GenerationContextFilePolicy">
+            <summary>
+            Selects generation-context files according to a story workspace's rules
+            profile.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Configuration.GenerationContextFilePolicy.GetRequiredFiles(System.Collections.Generic.IReadOnlyList{System.String},System.String)">
+            <summary>
+            Filters a context-file list according to the workspace rules profile.
+            </summary>
+            <param name="files">The complete available context-file list.</param>
+            <param name="contextRoot">The generation-context directory.</param>
+            <returns>The context files required by the selected profile.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Configuration.StoryLengthSettings">
+            <summary>
+            Optional story-specific word targets from storyforge.json.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Configuration.StoryLengthSettings.ChapterMinimumWords">
+            <summary>Gets the optional chapter minimum.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Configuration.StoryLengthSettings.ChapterMaximumWords">
+            <summary>Gets the optional chapter maximum target.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Configuration.StoryLengthSettings.SceneMinimumWords">
+            <summary>Gets the optional scene minimum target.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Configuration.StoryLengthSettings.SceneMaximumWords">
+            <summary>Gets the optional scene maximum target.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Configuration.StoryLengthSettings.Load(System.String)">
+            <summary>Loads optional word targets without changing legacy defaults.</summary>
+            <param name="repositoryRoot">The story workspace root.</param>
+            <returns>The story's length overrides.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Configuration.StoryLengthSettings.ChapterRange(System.Int32,System.Int32)">
+            <summary>Resolves and validates a chapter range.</summary>
+            <param name="minimum">The caller's default minimum.</param>
+            <param name="maximum">The caller's default maximum.</param>
+            <returns>The configured or default range.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Configuration.StoryLengthSettings.SceneRange(System.Int32,System.Int32)">
+            <summary>Resolves and validates a scene range.</summary>
+            <param name="minimum">The caller's default minimum.</param>
+            <param name="maximum">The caller's default maximum.</param>
+            <returns>The configured or default range.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ContextReconciliationValidation.ContextReconciliationValidationService">
+            <summary>
+            Validates proposed context reconciliation decisions against finalized chapter prose.
+            </summary>
+            <param name="textGenerationService">The text generation service used to validate reconciliation decisions.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ContextReconciliationValidation.ContextReconciliationValidationService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Validates proposed context reconciliation decisions against finalized chapter prose.
+            </summary>
+            <param name="textGenerationService">The text generation service used to validate reconciliation decisions.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ContextReconciliationValidation.ContextReconciliationValidationService.ValidateAsync(StoryForge.Endless.Application.ContextReconciliationValidation.ContextReconciliationValidationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ContextReconciliation.ContextReconciliationService">
+            <summary>
+            Reconciles proposed chapter context changes with the existing authoritative story context.
+            </summary>
+            <param name="textGenerationService">The text generation service used to reconcile context changes.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ContextReconciliation.ContextReconciliationService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Reconciles proposed chapter context changes with the existing authoritative story context.
+            </summary>
+            <param name="textGenerationService">The text generation service used to reconcile context changes.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ContextReconciliation.ContextReconciliationService.ReconcileAsync(StoryForge.Endless.Application.ContextReconciliation.ContextReconciliationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ContextUpdates.ChapterContextUpdateApplicationService">
+            <summary>
+            Applies validated chapter context updates to the authoritative story context.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ContextUpdates.ChapterContextUpdateApplicationService.ApplyAsync(StoryForge.Endless.Application.ContextUpdates.ChapterContextUpdateApplicationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ContextUpdates.ChapterContextUpdatePlanningService">
+            <summary>
+            Plans authoritative story-context updates from validated chapter state.
+            </summary>
+            <param name="reconciliationService">The service used to reconcile proposed context changes.</param>
+            <param name="reconciliationValidationService">The service used to validate reconciliation decisions.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ContextUpdates.ChapterContextUpdatePlanningService.#ctor(StoryForge.Endless.Application.ContextReconciliation.IContextReconciliationService,StoryForge.Endless.Application.ContextReconciliationValidation.IContextReconciliationValidationService)">
+            <summary>
+            Plans authoritative story-context updates from validated chapter state.
+            </summary>
+            <param name="reconciliationService">The service used to reconcile proposed context changes.</param>
+            <param name="reconciliationValidationService">The service used to validate reconciliation decisions.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ContextUpdates.ChapterContextUpdatePlanningService.PlanAsync(StoryForge.Endless.Application.ContextUpdates.ChapterContextUpdatePlanningRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Continuity.ChapterContinuityService">
+            <summary>Repairs stale prospective targets and audits chapter plans before prose is written.</summary>
+            <param name="generation">The planning model client.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Continuity.ChapterContinuityService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>Repairs stale prospective targets and audits chapter plans before prose is written.</summary>
+            <param name="generation">The planning model client.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Continuity.ChapterContinuityService.ReconcileAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)">
+            <summary>Reconciles the active Short arc with finalized facts using bounded repair attempts.</summary>
+            <param name="root">The story root.</param>
+            <param name="chapterNumber">The next chapter.</param>
+            <param name="model">The planning model.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>Whether prospective targets changed.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Continuity.ChapterContinuityService.CheckPlanAsync(System.String,StoryForge.Endless.Application.ChapterPlanning.ChapterPlan,System.String,System.Threading.CancellationToken,StoryForge.Endless.Application.Episodes.EpisodePlan)">
+            <summary>Returns evidence-backed continuity objections to a candidate chapter plan.</summary>
+            <param name="root">The story root.</param>
+            <param name="plan">The candidate plan.</param>
+            <param name="model">The planning model.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <param name="episode">Optional episodic direction instead of the active continuous arc.</param>
+            <returns>A rejection reason, or null when the plan is consistent.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Continuity.FinalizedContinuity">
+            <summary>Supplies the same source-backed continuity to every generation stage.</summary>
+        </member>
+        <member name="F:StoryForge.Endless.Generation.Continuity.FinalizedContinuity.Authority">
+            <summary>Explains the distinction between established facts and future plans.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Continuity.FinalizedContinuity.LoadAsync(System.String,System.Int32,System.Threading.CancellationToken)">
+            <summary>Loads recent finalized evidence with source identities and hashes.</summary>
+            <param name="root">The story root.</param>
+            <param name="chapterNumber">The chapter being produced.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The source evidence, newest chapter first.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Finalization.ChapterFinalizationService">
+            <summary>
+            Finalizes an approved chapter, publishes it, and records its processing history.
+            </summary>
+            <param name="historyStore">The store used to load chapter processing history.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Finalization.ChapterFinalizationService.#ctor(StoryForge.Endless.Application.Provenance.IChapterProcessingHistoryStore)">
+            <summary>
+            Finalizes an approved chapter, publishes it, and records its processing history.
+            </summary>
+            <param name="historyStore">The store used to load chapter processing history.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Finalization.ChapterFinalizationService.FinalizeAsync(StoryForge.Endless.Application.Finalization.ChapterFinalizationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Finalization.ChapterFinalizationService.PublishAsync(StoryForge.Endless.Application.Finalization.ChapterPublicationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.NarrativeThreads.NarrativeThreadApplicationService">
+            <summary>
+            Applies validated narrative-thread changes to the authoritative narrative-thread state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.NarrativeThreads.NarrativeThreadApplicationService.ApplyAsync(StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadApplicationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.NarrativeThreads.NarrativeThreadExtractionService">
+            <summary>
+            Extracts narrative-thread changes established by finalized chapter prose.
+            </summary>
+            <param name="textGenerationService">The text generation service used to extract narrative-thread changes.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.NarrativeThreads.NarrativeThreadExtractionService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Extracts narrative-thread changes established by finalized chapter prose.
+            </summary>
+            <param name="textGenerationService">The text generation service used to extract narrative-thread changes.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.NarrativeThreads.NarrativeThreadExtractionService.ExtractAsync(StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadExtractionRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.NarrativeThreads.NarrativeThreadReconciliationService">
+            <summary>
+            Reconciles extracted narrative-thread changes with existing narrative threads.
+            </summary>
+            <param name="textGenerationService">The text generation service used to reconcile narrative-thread changes.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.NarrativeThreads.NarrativeThreadReconciliationService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Reconciles extracted narrative-thread changes with existing narrative threads.
+            </summary>
+            <param name="textGenerationService">The text generation service used to reconcile narrative-thread changes.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.NarrativeThreads.NarrativeThreadReconciliationService.ReconcileAsync(StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadReconciliationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.NarrativeThreads.NarrativeThreadValidationService">
+            <summary>
+            Validates extracted narrative-thread changes before they are applied.
+            </summary>
+            <param name="textGenerationService">The text generation service used to validate narrative-thread changes.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.NarrativeThreads.NarrativeThreadValidationService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Validates extracted narrative-thread changes before they are applied.
+            </summary>
+            <param name="textGenerationService">The text generation service used to validate narrative-thread changes.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.NarrativeThreads.NarrativeThreadValidationService.ValidateAsync(StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadValidationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Promotion.BeatPlanningService">
+            <summary>Upgrades legacy scene purposes into explicit required beats without consulting candidate prose.</summary>
+            <param name="generator">The planning model service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.BeatPlanningService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>Upgrades legacy scene purposes into explicit required beats without consulting candidate prose.</summary>
+            <param name="generator">The planning model service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.BeatPlanningService.EnsureAsync(System.Collections.Generic.IReadOnlyList{StoryForge.Endless.Application.ChapterPlanning.ChapterScenePlan},System.String,System.String,System.Threading.CancellationToken)">
+            <summary>Returns scene guidance with complete, ordered beat definitions.</summary>
+            <param name="scenes">The original scene guidance.</param>
+            <param name="context">The authoritative chapter scope and reserved work.</param>
+            <param name="model">The planning model.</param>
+            <param name="cancellationToken">Cancellation for model calls.</param>
+            <returns>The enriched scene guidance, retaining all existing fields.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Promotion.ChapterCoverageRepairService">
+            <summary>Adds a focused scene when completed planned scenes do not collectively accomplish their chapter.</summary>
+            <param name="planner">The planning model service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.ChapterCoverageRepairService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>Adds a focused scene when completed planned scenes do not collectively accomplish their chapter.</summary>
+            <param name="planner">The planning model service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.ChapterCoverageRepairService.PlanAsync(StoryForge.Endless.Application.ChapterPlanning.ChapterPlan,System.String,StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>Plans only missing chapter work, preserving accepted scenes and reserved future targets.</summary>
+            <param name="plan">The existing plan.</param>
+            <param name="prose">The assessed current prose.</param>
+            <param name="receipt">Independent failed chapter evidence with completed child scenes.</param>
+            <param name="context">Authoritative scope and continuity.</param>
+            <param name="model">The planning model.</param>
+            <param name="cancellationToken">Cancellation for model calls.</param>
+            <returns>One explicit scene extension, or null after bounded planning failures.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt">
+            <summary>Attests beat-to-scene-to-chapter promotion for exact plan and prose inputs.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt.ProtocolVersion">
+            <summary>Gets the version of the evidence and promotion rules.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt.PlanHash">
+            <summary>Gets the fingerprint of the evaluated plan.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt.ProseHash">
+            <summary>Gets the fingerprint of the evaluated source prose.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt.ContextHash">
+            <summary>Gets the fingerprint of authoritative validation context.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt.Duration">
+            <summary>Gets total model assessment time, including structural retries.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt.Model">
+            <summary>Gets the independent validation model.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt.Outcomes">
+            <summary>Gets the evidence for every required outcome.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt.SceneSpans">
+            <summary>Gets scene boundaries for targeted repairs.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt.Completed">
+            <summary>Gets a value indicating whether all levels promote; counts and model approval cannot override missing child evidence.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Promotion.NarrativePromotionService">
+            <summary>Independently assesses explicit outcomes and deterministically promotes supported child evidence.</summary>
+            <param name="validator">The independent validation model service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.NarrativePromotionService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>Independently assesses explicit outcomes and deterministically promotes supported child evidence.</summary>
+            <param name="validator">The independent validation model service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.NarrativePromotionService.Hash(System.String)">
+            <summary>Computes the fingerprint used to invalidate evidence after any source or plan change.</summary>
+            <param name="value">The exact source value.</param>
+            <returns>A stable SHA-256 fingerprint.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.NarrativePromotionService.PlanHash(StoryForge.Endless.Application.ChapterPlanning.ChapterPlan)">
+            <summary>Computes the canonical fingerprint of a plan.</summary>
+            <param name="plan">The evaluated plan.</param>
+            <returns>The fingerprint.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.NarrativePromotionService.Parse(StoryForge.Endless.Application.ChapterPlanning.ChapterPlan,System.String,System.String,System.String,System.Boolean)">
+            <summary>Validates response identities, source evidence, scene ranges, and bottom-up promotion.</summary>
+            <param name="plan">The exact evaluated plan.</param>
+            <param name="prose">The exact evaluated prose.</param>
+            <param name="json">The model's structured evidence assessment.</param>
+            <param name="model">The validator model.</param>
+            <param name="includeChapter">Whether chapter-level evidence is required.</param>
+            <returns>The validated evidence receipt.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.NarrativePromotionService.AssessAsync(StoryForge.Endless.Application.ChapterPlanning.ChapterPlan,System.String,System.String,System.String,System.Boolean,System.Threading.CancellationToken)">
+            <summary>Assesses every beat, each scene's aggregate change, and optionally the chapter outcome.</summary>
+            <param name="plan">The explicit scene and beat plan.</param>
+            <param name="prose">The complete current source prose.</param>
+            <param name="context">Authoritative scope, canon, and reserved work.</param>
+            <param name="model">The independent validation model.</param>
+            <param name="includeChapter">Whether the full chapter must also be evaluated.</param>
+            <param name="cancellationToken">Cancellation for model calls.</param>
+            <returns>Evidence and deterministic promotion decisions.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Promotion.PromotionOutcome">
+            <summary>Records source-grounded validation of one outcome and its parent relationship.</summary>
+            <param name="Id">The stable chapter, scene, or beat identifier.</param>
+            <param name="ParentId">The containing scene or chapter.</param>
+            <param name="Supported">Whether the independent validator found the actual outcome established.</param>
+            <param name="Promoted">Whether the outcome and all required children are supported.</param>
+            <param name="Reason">The validation explanation or repair guidance.</param>
+            <param name="EvidenceQuotes">Exact excerpts resolved from source paragraph identifiers.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.PromotionOutcome.#ctor(System.String,System.String,System.Boolean,System.Boolean,System.String,System.Collections.Generic.IReadOnlyList{System.String})">
+            <summary>Records source-grounded validation of one outcome and its parent relationship.</summary>
+            <param name="Id">The stable chapter, scene, or beat identifier.</param>
+            <param name="ParentId">The containing scene or chapter.</param>
+            <param name="Supported">Whether the independent validator found the actual outcome established.</param>
+            <param name="Promoted">Whether the outcome and all required children are supported.</param>
+            <param name="Reason">The validation explanation or repair guidance.</param>
+            <param name="EvidenceQuotes">Exact excerpts resolved from source paragraph identifiers.</param>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.PromotionOutcome.Id">
+            <summary>The stable chapter, scene, or beat identifier.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.PromotionOutcome.ParentId">
+            <summary>The containing scene or chapter.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.PromotionOutcome.Supported">
+            <summary>Whether the independent validator found the actual outcome established.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.PromotionOutcome.Promoted">
+            <summary>Whether the outcome and all required children are supported.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.PromotionOutcome.Reason">
+            <summary>The validation explanation or repair guidance.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.PromotionOutcome.EvidenceQuotes">
+            <summary>Exact excerpts resolved from source paragraph identifiers.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Promotion.PromotionSceneSpan">
+            <summary>Locates the prose belonging to a scene for bounded repair.</summary>
+            <param name="SceneSequence">The parent scene sequence.</param>
+            <param name="Start">The zero-based source character offset.</param>
+            <param name="Length">The exact source range length, or zero for an absent scene.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.PromotionSceneSpan.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>Locates the prose belonging to a scene for bounded repair.</summary>
+            <param name="SceneSequence">The parent scene sequence.</param>
+            <param name="Start">The zero-based source character offset.</param>
+            <param name="Length">The exact source range length, or zero for an absent scene.</param>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.PromotionSceneSpan.SceneSequence">
+            <summary>The parent scene sequence.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.PromotionSceneSpan.Start">
+            <summary>The zero-based source character offset.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Promotion.PromotionSceneSpan.Length">
+            <summary>The exact source range length, or zero for an absent scene.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Promotion.TargetedBeatRepairService">
+            <summary>Repairs missing narrative outcomes using exact anchors bounded to affected scene passages.</summary>
+            <param name="writer">The prose and revision model service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.TargetedBeatRepairService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>Repairs missing narrative outcomes using exact anchors bounded to affected scene passages.</summary>
+            <param name="writer">The prose and revision model service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.TargetedBeatRepairService.Apply(StoryForge.Endless.Application.ChapterPlanning.ChapterPlan,System.String,StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt,System.String)">
+            <summary>Applies edits only when all anchors lie within affected scene ranges for current evidence.</summary>
+            <param name="plan">The source plan.</param>
+            <param name="prose">The source prose.</param>
+            <param name="receipt">The current assessment.</param>
+            <param name="json">The proposed anchored edits.</param>
+            <returns>The complete edited source, preserving all bytes outside the allowed passages.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Promotion.TargetedBeatRepairService.RepairAsync(StoryForge.Endless.Application.ChapterPlanning.ChapterPlan,System.String,StoryForge.Endless.Generation.Promotion.ChapterPromotionReceipt,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>Attempts bounded scene-local corrections without accepting the repaired prose.</summary>
+            <param name="plan">The complete explicit plan.</param>
+            <param name="prose">The unchanged assessed source.</param>
+            <param name="receipt">The current independent outcome assessment.</param>
+            <param name="context">Authoritative canon, rules, and reserved targets.</param>
+            <param name="model">The prose revision model.</param>
+            <param name="cancellationToken">Cancellation for model calls.</param>
+            <returns>Proposed source edits, or null if bounded correction fails.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.AnchoredProseEdits">
+            <summary>Applies unambiguous model-proposed edits without trusting a recopied chapter.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.AnchoredProseEdits.Apply(System.String,System.String)">
+            <summary>Validates exact, unique, nonoverlapping anchors before applying any replacement.</summary>
+            <param name="source">The original chapter.</param>
+            <param name="json">The proposed edits.</param>
+            <returns>The complete edited chapter.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.ChapterCompleteness">
+            <summary>Checks prose endings independently of model review judgments.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ChapterCompleteness.FindIncompleteEnding(System.String)">
+            <summary>Explains an incomplete ending, excluding generated provenance metadata.</summary>
+            <param name="prose">Raw or finalized chapter prose.</param>
+            <returns>A repair instruction, or null for a complete ending.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.ChapterProseEditingService">
+            <summary>Edits prose in bounded passages without shortening or merging paragraphs.</summary>
+            <param name="generator">The model execution service.</param>
+            <param name="comparisonService">The independent prose comparison service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ChapterProseEditingService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService,StoryForge.Endless.Application.ProseEditing.IProseEditComparisonService)">
+            <summary>Edits prose in bounded passages without shortening or merging paragraphs.</summary>
+            <param name="generator">The model execution service.</param>
+            <param name="comparisonService">The independent prose comparison service.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ChapterProseEditingService.EditAsync(StoryForge.Endless.Application.ProseEditing.ChapterProseEditingRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.FinancialArithmetic">
+            <summary>Computes explicit bill-count arithmetic before model review.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.FinancialArithmetic.Calculate(System.String)">
+            <summary>Extracts counted-dollar denominations and computes their totals.</summary>
+            <param name="chapter">The prose to analyze.</param>
+            <returns>Quoted count, denomination, and computed total observations.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.FinancialArithmetic.Guidance(System.String)">
+            <summary>Supplies calculated evidence without conflating distinct transactions.</summary>
+            <param name="chapter">The prose to analyze.</param>
+            <returns>Review guidance and computed observations.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.FinancialArithmetic.BillTotal">
+            <summary>One directly quoted denomination calculation.</summary>
+            <param name="Evidence">The source quotation.</param>
+            <param name="Count">The stated bill count.</param>
+            <param name="DenominationDollars">The dollar value of each bill.</param>
+            <param name="TotalDollars">The computed total.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.FinancialArithmetic.BillTotal.#ctor(System.String,System.Int32,System.Int32,System.Int64)">
+            <summary>One directly quoted denomination calculation.</summary>
+            <param name="Evidence">The source quotation.</param>
+            <param name="Count">The stated bill count.</param>
+            <param name="DenominationDollars">The dollar value of each bill.</param>
+            <param name="TotalDollars">The computed total.</param>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Prose.FinancialArithmetic.BillTotal.Evidence">
+            <summary>The source quotation.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Prose.FinancialArithmetic.BillTotal.Count">
+            <summary>The stated bill count.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Prose.FinancialArithmetic.BillTotal.DenominationDollars">
+            <summary>The dollar value of each bill.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Prose.FinancialArithmetic.BillTotal.TotalDollars">
+            <summary>The computed total.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.FinancialPlausibilityGuidance">
+            <summary>Shared constraints for credible fictional costs and cash flow.</summary>
+        </member>
+        <member name="F:StoryForge.Endless.Generation.Prose.FinancialPlausibilityGuidance.Text">
+            <summary>Gets financial reasoning guidance grounded in established story facts.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.ModelProseOutputHandlers">
+            <summary>Routes prose cleanup to handlers for known model output conventions.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.ModelProseOutputHandlers.IModelProseOutputHandler">
+            <summary>Defines cleanup for a model's output conventions.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ModelProseOutputHandlers.IModelProseOutputHandler.Supports(System.String)">
+            <summary>Determines whether this handler supports a model.</summary>
+            <param name="model">The model identifier.</param>
+            <returns>Whether the handler applies.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ModelProseOutputHandlers.IModelProseOutputHandler.Normalize(System.String)">
+            <summary>Removes known output artifacts from prose.</summary>
+            <param name="prose">The generated prose.</param>
+            <returns>The cleaned prose.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ModelProseOutputHandlers.Normalize(System.String,System.String)">
+            <summary>Normalizes known output artifacts without rewriting story text.</summary>
+            <param name="model">The requested or resolved model identifier.</param>
+            <param name="prose">The generated prose.</param>
+            <returns>The prose after any applicable model-specific cleanup.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.NarrativePersonContinuity">
+            <summary>
+            Checks an explicit narrative-person writing rule against prose.
+            Ambiguous prose is left to the editorial review.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.NarrativePersonContinuity.RequiredPerson(System.String)">
+            <summary>Finds the narrative person required by the writing rules.</summary>
+            <param name="writingRules">The writing rules to inspect.</param>
+            <returns>The required person, if specified.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.NarrativePersonContinuity.Violates(System.String,System.String)">
+            <summary>Checks whether the narration violates the required person.</summary>
+            <param name="prose">The prose to inspect.</param>
+            <param name="requiredPerson">The required narrative person.</param>
+            <returns>True if the narration violates the rule; otherwise, false.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.NarrativePersonContinuity.NarrativePersonRule">
+            <remarks>
+            Pattern:<br/>
+            <code>(?im)^Narrative person:\\s*(first|third) person\\b</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match if at the beginning of a line.<br/>
+            ○ Match a character in the set [Nn].<br/>
+            ○ Match a character in the set [Aa].<br/>
+            ○ Match a character in the set [Rr] exactly 2 times.<br/>
+            ○ Match a character in the set [Aa].<br/>
+            ○ Match a character in the set [Tt].<br/>
+            ○ Match a character in the set [Ii].<br/>
+            ○ Match a character in the set [Vv].<br/>
+            ○ Match a character in the set [Ee].<br/>
+            ○ Match ' '.<br/>
+            ○ Match a character in the set [Pp].<br/>
+            ○ Match a character in the set [Ee].<br/>
+            ○ Match a character in the set [Rr].<br/>
+            ○ Match a character in the set [Ss].<br/>
+            ○ Match a character in the set [Oo].<br/>
+            ○ Match a character in the set [Nn].<br/>
+            ○ Match ':'.<br/>
+            ○ Match a whitespace character atomically any number of times.<br/>
+            ○ 1st capture group.<br/>
+                ○ Match with 2 alternative expressions.<br/>
+                    ○ Match a sequence of expressions.<br/>
+                        ○ Match a character in the set [Ff].<br/>
+                        ○ Match a character in the set [Ii].<br/>
+                        ○ Match a character in the set [Rr].<br/>
+                        ○ Match a character in the set [Ss].<br/>
+                        ○ Match a character in the set [Tt].<br/>
+                    ○ Match a sequence of expressions.<br/>
+                        ○ Match a character in the set [Tt].<br/>
+                        ○ Match a character in the set [Hh].<br/>
+                        ○ Match a character in the set [Ii].<br/>
+                        ○ Match a character in the set [Rr].<br/>
+                        ○ Match a character in the set [Dd].<br/>
+            ○ Match ' '.<br/>
+            ○ Match a character in the set [Pp].<br/>
+            ○ Match a character in the set [Ee].<br/>
+            ○ Match a character in the set [Rr].<br/>
+            ○ Match a character in the set [Ss].<br/>
+            ○ Match a character in the set [Oo].<br/>
+            ○ Match a character in the set [Nn].<br/>
+            ○ Match if at a word boundary.<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.NarrativePersonContinuity.QuotedSpeech">
+            <remarks>
+            Pattern:<br/>
+            <code>[\\"“][^\\"”]*[\\"”]</code><br/>
+            Options:<br/>
+            <code>RegexOptions.Singleline</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match a character in the set ["\u201C].<br/>
+            ○ Match a character in the set [^"\u201D] atomically any number of times.<br/>
+            ○ Match a character in the set ["\u201D].<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.NarrativePersonContinuity.FirstPersonPronoun">
+            <remarks>
+            Pattern:<br/>
+            <code>\\b(?:I|me|my|mine|myself|we|us|our|ours)\\b</code><br/>
+            Options:<br/>
+            <code>RegexOptions.IgnoreCase</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match if at a word boundary.<br/>
+            ○ Match with 9 alternative expressions.<br/>
+                ○ Match a character in the set [Ii].<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Mm].<br/>
+                    ○ Match a character in the set [Ee].<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Mm].<br/>
+                    ○ Match a character in the set [Yy].<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Mm].<br/>
+                    ○ Match a character in the set [Ii].<br/>
+                    ○ Match a character in the set [Nn].<br/>
+                    ○ Match a character in the set [Ee].<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Mm].<br/>
+                    ○ Match a character in the set [Yy].<br/>
+                    ○ Match a character in the set [Ss].<br/>
+                    ○ Match a character in the set [Ee].<br/>
+                    ○ Match a character in the set [Ll].<br/>
+                    ○ Match a character in the set [Ff].<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Ww].<br/>
+                    ○ Match a character in the set [Ee].<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Uu].<br/>
+                    ○ Match a character in the set [Ss].<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Oo].<br/>
+                    ○ Match a character in the set [Uu].<br/>
+                    ○ Match a character in the set [Rr].<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Oo].<br/>
+                    ○ Match a character in the set [Uu].<br/>
+                    ○ Match a character in the set [Rr].<br/>
+                    ○ Match a character in the set [Ss].<br/>
+            ○ Match if at a word boundary.<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.NarrativePersonContinuity.ThirdPersonPronoun">
+            <remarks>
+            Pattern:<br/>
+            <code>\\b(?:he|him|his|himself|she|her|hers|herself|they|them|their|theirs|themselves)\\b</code><br/>
+            Options:<br/>
+            <code>RegexOptions.IgnoreCase</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match if at a word boundary.<br/>
+            ○ Match with 4 alternative expressions.<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Hh].<br/>
+                    ○ Match with 4 alternative expressions.<br/>
+                        ○ Match a character in the set [Ee].<br/>
+                        ○ Match a sequence of expressions.<br/>
+                            ○ Match a character in the set [Ii].<br/>
+                            ○ Match a character in the set [Mm].<br/>
+                        ○ Match a sequence of expressions.<br/>
+                            ○ Match a character in the set [Ii].<br/>
+                            ○ Match a character in the set [Ss].<br/>
+                        ○ Match a sequence of expressions.<br/>
+                            ○ Match a character in the set [Ii].<br/>
+                            ○ Match a character in the set [Mm].<br/>
+                            ○ Match a character in the set [Ss].<br/>
+                            ○ Match a character in the set [Ee].<br/>
+                            ○ Match a character in the set [Ll].<br/>
+                            ○ Match a character in the set [Ff].<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Ss].<br/>
+                    ○ Match a character in the set [Hh].<br/>
+                    ○ Match a character in the set [Ee].<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Hh].<br/>
+                    ○ Match a character in the set [Ee].<br/>
+                    ○ Match with 3 alternative expressions.<br/>
+                        ○ Match a character in the set [Rr].<br/>
+                        ○ Match a sequence of expressions.<br/>
+                            ○ Match a character in the set [Rr].<br/>
+                            ○ Match a character in the set [Ss].<br/>
+                        ○ Match a sequence of expressions.<br/>
+                            ○ Match a character in the set [Rr].<br/>
+                            ○ Match a character in the set [Ss].<br/>
+                            ○ Match a character in the set [Ee].<br/>
+                            ○ Match a character in the set [Ll].<br/>
+                            ○ Match a character in the set [Ff].<br/>
+                ○ Match a sequence of expressions.<br/>
+                    ○ Match a character in the set [Tt].<br/>
+                    ○ Match a character in the set [Hh].<br/>
+                    ○ Match a character in the set [Ee].<br/>
+                    ○ Match with 4 alternative expressions.<br/>
+                        ○ Match a character in the set [MYmy].<br/>
+                        ○ Match a sequence of expressions.<br/>
+                            ○ Match a character in the set [Ii].<br/>
+                            ○ Match a character in the set [Rr].<br/>
+                        ○ Match a sequence of expressions.<br/>
+                            ○ Match a character in the set [Ii].<br/>
+                            ○ Match a character in the set [Rr].<br/>
+                            ○ Match a character in the set [Ss].<br/>
+                        ○ Match a sequence of expressions.<br/>
+                            ○ Match a character in the set [Mm].<br/>
+                            ○ Match a character in the set [Ss].<br/>
+                            ○ Match a character in the set [Ee].<br/>
+                            ○ Match a character in the set [Ll].<br/>
+                            ○ Match a character in the set [Vv].<br/>
+                            ○ Match a character in the set [Ee].<br/>
+                            ○ Match a character in the set [Ss].<br/>
+            ○ Match if at a word boundary.<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.NumberWritingGuidance">
+            <summary>Shared prose guidance for meaningful numerical precision.</summary>
+        </member>
+        <member name="F:StoryForge.Endless.Generation.Prose.NumberWritingGuidance.Text">
+            <summary>Gets the rule for simple, readable numbers.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceDetector">
+            <summary>
+            Finds standalone one-word sentences in narration while allowing dialogue.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceDetector.FindFirst(System.String)">
+            <summary>
+            Returns the first one-word narrative sentence, if present.
+            </summary>
+            <param name="prose">The scene prose to inspect.</param>
+            <returns>The first offending sentence, or null when none is found.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceDetector.FindFirstOccurrence(System.String)">
+            <summary>
+            Finds the first offending sentence and its position in the prose.
+            </summary>
+            <param name="prose">The scene prose to inspect.</param>
+            <returns>The offending sentence and offset, or null.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceDetector.SingleWordRegex">
+            <remarks>
+            Pattern:<br/>
+            <code>\\A\\p{L}+(?:['’]\\p{L}+)*\\z</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match if at the beginning of the string.<br/>
+            ○ Match a Unicode letter greedily at least once.<br/>
+            ○ Loop greedily any number of times.<br/>
+                ○ Match a character in the set ['\u2019].<br/>
+                ○ Match a Unicode letter atomically at least once.<br/>
+            ○ Match if at the end of the string.<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceDetector.Occurrence">
+            <summary>Identifies a one-word narrative sentence in prose.</summary>
+            <param name="Sentence">The detected sentence.</param>
+            <param name="Start">The starting character index.</param>
+            <param name="Length">The number of characters.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceDetector.Occurrence.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>Identifies a one-word narrative sentence in prose.</summary>
+            <param name="Sentence">The detected sentence.</param>
+            <param name="Start">The starting character index.</param>
+            <param name="Length">The number of characters.</param>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceDetector.Occurrence.Sentence">
+            <summary>The detected sentence.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceDetector.Occurrence.Start">
+            <summary>The starting character index.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceDetector.Occurrence.Length">
+            <summary>The number of characters.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceRepairer">
+            <summary>
+            Repairs clipped narration in place without regenerating the whole scene.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceRepairer.RepairAsync(System.String,StoryForge.Endless.Application.TextGeneration.ITextGenerationService,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Replaces each offending sentence with a context-fitting sentence.
+            </summary>
+            <param name="prose">The otherwise usable scene prose.</param>
+            <param name="generator">The scene's text generation service.</param>
+            <param name="model">The model assigned to scene generation.</param>
+            <param name="diagnosticDirectory">Where repair responses are recorded.</param>
+            <param name="cancellationToken">Cancellation for model calls.</param>
+            <returns>The repair outcome and model duration, including unsuccessful work.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceRepairer.WordRegex">
+            <remarks>
+            Pattern:<br/>
+            <code>\\p{L}+(?:['’]\\p{L}+)*</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match a Unicode letter greedily at least once.<br/>
+            ○ Loop atomically any number of times.<br/>
+                ○ Match a character in the set ['\u2019].<br/>
+                ○ Match a Unicode letter atomically at least once.<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceRepairer.RepairResult">
+            <summary>Contains repaired prose and the repair work performed.</summary>
+            <param name="Prose">The repaired prose.</param>
+            <param name="Duration">The time spent repairing prose.</param>
+            <param name="RepairCount">The number of repairs.</param>
+            <param name="Succeeded">Whether all clipped narration was repaired.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceRepairer.RepairResult.#ctor(System.String,System.TimeSpan,System.Int32,System.Boolean)">
+            <summary>Contains repaired prose and the repair work performed.</summary>
+            <param name="Prose">The repaired prose.</param>
+            <param name="Duration">The time spent repairing prose.</param>
+            <param name="RepairCount">The number of repairs.</param>
+            <param name="Succeeded">Whether all clipped narration was repaired.</param>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceRepairer.RepairResult.Prose">
+            <summary>The repaired prose.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceRepairer.RepairResult.Duration">
+            <summary>The time spent repairing prose.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceRepairer.RepairResult.RepairCount">
+            <summary>The number of repairs.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.Prose.OneWordNarrativeSentenceRepairer.RepairResult.Succeeded">
+            <summary>Whether all clipped narration was repaired.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.ProseEditComparisonService">
+            <summary>Compares semantic preservation and prose improvement independently of mechanical checks.</summary>
+            <param name="generator">The model execution boundary.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProseEditComparisonService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>Compares semantic preservation and prose improvement independently of mechanical checks.</summary>
+            <param name="generator">The model execution boundary.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProseEditComparisonService.CompareAsync(System.String,System.String[],System.String,System.String,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.ProseEditingResponseParser">
+            <summary>Validates untrusted response shapes without masking execution errors.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProseEditingResponseParser.TryReadParagraphs(System.String,System.String[]@)">
+            <summary>Reads paragraph replacements from a model response.</summary>
+            <param name="json">The response JSON.</param>
+            <param name="paragraphs">The parsed paragraphs.</param>
+            <returns>Whether the response has the expected shape.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProseEditingResponseParser.ReadComparison(System.String)">
+            <summary>Reads a prose preservation and improvement judgment.</summary>
+            <param name="json">The comparison response JSON.</param>
+            <returns>The comparison outcome, or invalid response for malformed data.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.ProsePreservationPolicy">
+            <summary>Pure structural and length checks for proposed paragraph replacements.</summary>
+        </member>
+        <member name="F:StoryForge.Endless.Generation.Prose.ProsePreservationPolicy.MaximumExpansionRatio">
+            <summary>The largest accepted paragraph expansion.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProsePreservationPolicy.Assess(System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{System.String})">
+            <summary>Determines whether proposals satisfy deterministic preservation rules.</summary>
+            <param name="originals">The original paragraphs.</param>
+            <param name="candidates">The proposed replacements.</param>
+            <returns>Accepted, unchanged, or the first violated preservation rule.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProsePreservationPolicy.WordCount(System.String)">
+            <summary>Counts whitespace-delimited words consistently for editing policy.</summary>
+            <param name="text">The paragraph text.</param>
+            <returns>The word count.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProsePreservationPolicy.IsStructural(System.String)">
+            <summary>Identifies headings and scene separators that edits must preserve.</summary>
+            <param name="text">The paragraph text.</param>
+            <returns>Whether the paragraph is structural.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Prose.ProseRepetitionDetector">
+            <summary>
+            Detects substantial verbatim repetition within or between generated prose.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProseRepetitionDetector.DescribeFirstRepetition(System.String)">
+            <summary>Finds a repeated passage and its one-based word positions for retry feedback.</summary>
+            <param name="text">The prose to inspect.</param>
+            <returns>A diagnostic excerpt, or null when no substantial repetition exists.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProseRepetitionDetector.HasSubstantialRepetition(System.String)">
+            <summary>
+            Determines whether substantial contiguous prose is repeated verbatim.
+            </summary>
+            <param name="text">The prose to inspect.</param>
+            <returns>
+            <see langword="true"/> when a substantial word sequence occurs more than
+            once; otherwise, <see langword="false"/>.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProseRepetitionDetector.HasIncreasedSubstantialRepetition(System.String,System.String)">
+            <summary>
+            Determines whether candidate prose contains more substantial verbatim
+            repetition than the supplied baseline prose.
+            </summary>
+            <param name="candidate">The candidate prose to inspect.</param>
+            <param name="baseline">
+            The source prose whose existing repetition may be inherited.
+            </param>
+            <returns>
+            <see langword="true"/> when the candidate introduces or increases a
+            repeated substantial word sequence; otherwise, <see langword="false"/>.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProseRepetitionDetector.HasSubstantialOverlap(System.String,System.String)">
+            <summary>
+            Determines whether candidate prose substantially overlaps reference
+            prose verbatim.
+            </summary>
+            <param name="candidate">The newly generated candidate prose.</param>
+            <param name="reference">Previously accepted prose.</param>
+            <returns>
+            <see langword="true"/> when both texts contain the same substantial
+            contiguous word sequence; otherwise, <see langword="false"/>.
+            </returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Prose.ProseRepetitionDetector.WordRegex">
+            <remarks>
+            Pattern:<br/>
+            <code>[\\p{L}\\p{N}]+(?:['’][\\p{L}\\p{N}]+)*</code><br/>
+            Options:<br/>
+            <code>RegexOptions.CultureInvariant</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match a character in the set [\p{L}\p{N}] greedily at least once.<br/>
+            ○ Loop atomically any number of times.<br/>
+                ○ Match a character in the set ['\u2019].<br/>
+                ○ Match a character in the set [\p{L}\p{N}] atomically at least once.<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.ReviewFindingValidation.ReviewFindingValidationService">
+            <summary>
+            Validates chapter-review findings and assigns their actionable dispositions.
+            </summary>
+            <param name="textGenerationService">The text generation service used to validate review findings.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ReviewFindingValidation.ReviewFindingValidationService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Validates chapter-review findings and assigns their actionable dispositions.
+            </summary>
+            <param name="textGenerationService">The text generation service used to validate review findings.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.ReviewFindingValidation.ReviewFindingValidationService.ValidateAsync(StoryForge.Endless.Application.ReviewFindingValidation.ReviewFindingValidationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Review.ChapterReviewService">
+            <summary>
+            Reviews generated chapter prose against authoritative story context,
+            continuity, writing rules, SRD rules, and physical logic.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to perform review operations.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Review.ChapterReviewService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Reviews generated chapter prose against authoritative story context,
+            continuity, writing rules, SRD rules, and physical logic.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to perform review operations.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Review.ChapterReviewService.ReviewAsync(StoryForge.Endless.Application.Review.ChapterReviewRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Review.SceneQualityReviewContext">
+            <summary>Loads earlier scene observations that still have evidence in the reviewed prose.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Review.SceneQualityReviewContext.LoadAsync(System.String,System.String,System.Threading.CancellationToken)">
+            <summary>Loads scene findings supported by the current chapter prose.</summary>
+            <param name="directory">The chapter artifact directory.</param>
+            <param name="chapter">The current chapter prose.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The serialized findings, or an empty string when none remain.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Revision.ChapterRevisionService">
+            <summary>
+            Revises chapter prose according to authoritative human instructions or
+            validated automated review findings.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to produce revised chapter prose.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Revision.ChapterRevisionService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Revises chapter prose according to authoritative human instructions or
+            validated automated review findings.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to produce revised chapter prose.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Revision.ChapterRevisionService.ReviseAsync(StoryForge.Endless.Application.Revision.ChapterRevisionRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.EncounterEvidenceAudit">
+            <summary>Counts evidenced encounters from immutable chapter prose for arc completion.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.EncounterEvidenceAudit.EnsureAsync(System.String,StoryForge.Endless.Application.StoryArcs.StoryArcState,System.Int32,System.String,StoryForge.Endless.Application.TextGeneration.ITextGenerationService,System.String,System.Threading.CancellationToken)">
+            <summary>Audits completed chapters, reusing only source-matching receipts.</summary>
+            <param name="root">The story workspace.</param>
+            <param name="state">The authoritative arcs.</param>
+            <param name="chapterNumber">The current chapter number.</param>
+            <param name="chapterPath">The current finalized chapter path.</param>
+            <param name="generator">The structured validation model service.</param>
+            <param name="model">The validation model identifier.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The duration spent generating missing audits.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.EncounterEvidenceAudit.Rejection(System.String,StoryForge.Endless.Application.StoryArcs.StoryArc,System.Int32)">
+            <summary>Rejects arc completion unless evidenced encounter minimums are met.</summary>
+            <param name="root">The story workspace.</param>
+            <param name="arc">The arc proposed for completion.</param>
+            <param name="chapterNumber">The closing chapter.</param>
+            <returns>The rejection reason, or null when the minimum is satisfied.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.FiniteStoryArcHierarchyPlanningService">
+            <summary>Plans a complete episode at its selected root horizon.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.FiniteStoryArcHierarchyPlanningService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService,StoryForge.Endless.Application.StoryArcs.StoryArcHorizon)">
+            <summary>Plans a complete episode at its selected root horizon.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.FiniteStoryArcHierarchyPlanningService.PlanAsync(StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.StoryArcChapterTargetPlanningService">
+            <summary>
+            Creates and persists bounded chapter targets for an active Short story arc.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to allocate the Short arc across chapters.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcChapterTargetPlanningService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Creates and persists bounded chapter targets for an active Short story arc.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to allocate the Short arc across chapters.
+            </param>
+        </member>
+        <member name="P:StoryForge.Endless.Generation.StoryArcs.StoryArcChapterTargetPlanningService.TargetResponseSchema">
+            <summary>Gets the shared schema for a complete chapter-target allocation.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcChapterTargetPlanningService.EnsureAsync(System.String,System.String,System.Double,System.Threading.CancellationToken)">
+            <summary>
+            Ensures that the active Short arc has a complete persisted chapter-target
+            allocation.
+            </summary>
+            <param name="repositoryRoot">The story workspace root.</param>
+            <param name="model">The optional model override.</param>
+            <param name="temperature">The planning temperature.</param>
+            <param name="cancellationToken">A cancellation token.</param>
+            <returns>The current authoritative story-arc state.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.StoryArcChildMaterializationService">
+            <summary>
+            Materializes validated three-child plans in authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcChildMaterializationService.MaterializeAsync(StoryForge.Endless.Application.StoryArcs.StoryArcChildMaterializationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.StoryArcChildPlanningService">
+            <summary>
+            Plans the three narrative children required by a non-Short story arc.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to plan child arcs.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcChildPlanningService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Plans the three narrative children required by a non-Short story arc.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to plan child arcs.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcChildPlanningService.PlanAsync(StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.StoryArcEpicMaterializationService">
+            <summary>
+            Materializes validated successor-Epic plans in authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcEpicMaterializationService.MaterializeAsync(StoryForge.Endless.Application.StoryArcs.StoryArcEpicMaterializationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.StoryArcEpicPlanningService">
+            <summary>
+            Plans the narrative direction of the Epic arc following an existing Epic arc.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to plan the successor Epic arc.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcEpicPlanningService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Plans the narrative direction of the Epic arc following an existing Epic arc.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to plan the successor Epic arc.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcEpicPlanningService.PlanAsync(StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.StoryArcProgressApplicationService">
+            <summary>
+            Applies independently validated story-arc progress and deterministic
+            recursive lifecycle transitions.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcProgressApplicationService.ApplyAsync(StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.StoryArcProgressExtractionService">
+            <summary>
+            Extracts evidence-supported progress proposals for active story arcs.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to extract progress proposals.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcProgressExtractionService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Extracts evidence-supported progress proposals for active story arcs.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to extract progress proposals.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcProgressExtractionService.ExtractAsync(StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.StoryArcProgressValidationService">
+            <summary>
+            Independently validates extracted story-arc progress against finalized prose
+            and authoritative story-arc state.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to validate story-arc progress.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcProgressValidationService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Independently validates extracted story-arc progress against finalized prose
+            and authoritative story-arc state.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to validate story-arc progress.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryArcProgressValidationService.ValidateAsync(StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.StoryBootstrapArcHierarchyPlanningService">
+            <summary>
+            Infers the complete prospective story-arc hierarchy following imported
+            finalized history.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to infer the hierarchy.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryBootstrapArcHierarchyPlanningService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Infers the complete prospective story-arc hierarchy following imported
+            finalized history.
+            </summary>
+            <param name="textGenerationService">
+            The text-generation service used to infer the hierarchy.
+            </param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryBootstrapArcHierarchyPlanningService.PlanAsync(StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryArcs.StoryBootstrapArcRootMaterializationService">
+            <summary>
+            Atomically materializes the initial complete story-arc hierarchy inferred
+            after imported history.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryBootstrapArcRootMaterializationService.CreateState(StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlan,System.Int32)">
+            <summary>Builds and validates an initial hierarchy without writing artifacts.</summary>
+            <param name="plan">The root and descendant plans.</param>
+            <param name="startChapter">The first governed chapter.</param>
+            <returns>The validated hierarchy.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryArcs.StoryBootstrapArcRootMaterializationService.MaterializeAsync(StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcRootMaterializationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryStateValidation.ChapterStateValidationService">
+            <summary>
+            Validates extracted chapter state before it can modify authoritative story state.
+            </summary>
+            <param name="textGenerationService">The text generation service used to validate extracted story state.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryStateValidation.ChapterStateValidationService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Validates extracted chapter state before it can modify authoritative story state.
+            </summary>
+            <param name="textGenerationService">The text generation service used to validate extracted story state.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryStateValidation.ChapterStateValidationService.ValidateAsync(StoryForge.Endless.Application.StoryStateValidation.ChapterStateValidationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.StoryState.ChapterStateExtractionService">
+            <summary>
+            Extracts candidate persistent story-state changes from finalized chapter prose.
+            </summary>
+            <param name="textGenerationService">The text generation service used to extract story-state changes.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryState.ChapterStateExtractionService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Extracts candidate persistent story-state changes from finalized chapter prose.
+            </summary>
+            <param name="textGenerationService">The text generation service used to extract story-state changes.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.StoryState.ChapterStateExtractionService.ExtractAsync(StoryForge.Endless.Application.StoryState.ChapterStateExtractionRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Generation.Titles.ChapterTitleService">
+            <summary>
+            Generates and normalizes a title for finalized chapter prose.
+            </summary>
+            <param name="textGenerationService">The text generation service used to generate chapter titles.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Titles.ChapterTitleService.#ctor(StoryForge.Endless.Application.TextGeneration.ITextGenerationService)">
+            <summary>
+            Generates and normalizes a title for finalized chapter prose.
+            </summary>
+            <param name="textGenerationService">The text generation service used to generate chapter titles.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Generation.Titles.ChapterTitleService.GenerateAsync(StoryForge.Endless.Application.Titles.ChapterTitleRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.TokenRegex_0">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the TokenRegex method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.TokenRegex_0.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.TokenRegex_0.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.TokenRegex_0.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.TokenRegex_0.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.TokenRegex_0.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.TokenRegex_0.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.TokenRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.TokenRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.NarrativePersonRule_1">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the NarrativePersonRule method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.NarrativePersonRule_1.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.NarrativePersonRule_1.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.NarrativePersonRule_1.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.NarrativePersonRule_1.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.NarrativePersonRule_1.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.NarrativePersonRule_1.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.NarrativePersonRule_1.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.NarrativePersonRule_1.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.QuotedSpeech_2">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the QuotedSpeech method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.QuotedSpeech_2.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.QuotedSpeech_2.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.QuotedSpeech_2.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.QuotedSpeech_2.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.QuotedSpeech_2.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.QuotedSpeech_2.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.QuotedSpeech_2.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.QuotedSpeech_2.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.FirstPersonPronoun_3">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the FirstPersonPronoun method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.FirstPersonPronoun_3.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.FirstPersonPronoun_3.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.FirstPersonPronoun_3.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.FirstPersonPronoun_3.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.FirstPersonPronoun_3.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.FirstPersonPronoun_3.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.FirstPersonPronoun_3.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.FirstPersonPronoun_3.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.ThirdPersonPronoun_4">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the ThirdPersonPronoun method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.ThirdPersonPronoun_4.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ThirdPersonPronoun_4.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.ThirdPersonPronoun_4.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ThirdPersonPronoun_4.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.ThirdPersonPronoun_4.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ThirdPersonPronoun_4.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ThirdPersonPronoun_4.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ThirdPersonPronoun_4.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.SingleWordRegex_5">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the SingleWordRegex method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.SingleWordRegex_5.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.SingleWordRegex_5.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.SingleWordRegex_5.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.SingleWordRegex_5.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.SingleWordRegex_5.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.SingleWordRegex_5.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.SingleWordRegex_5.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.SingleWordRegex_5.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.WordRegex_6">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the WordRegex method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.WordRegex_6.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.WordRegex_6.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.WordRegex_6.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.WordRegex_6.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.WordRegex_6.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.WordRegex_6.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.WordRegex_6.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.WordRegex_6.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.WordRegex_7">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the WordRegex method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.WordRegex_7.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.WordRegex_7.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.WordRegex_7.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.WordRegex_7.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.WordRegex_7.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.WordRegex_7.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.WordRegex_7.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.WordRegex_7.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.Utilities">
+            <summary>Helper methods used by generated <see cref="T:System.Text.RegularExpressions.Regex"/>-derived implementations.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_defaultTimeout">
+            <summary>Default timeout value set in <see cref="T:System.AppContext"/>, or <see cref="F:System.Text.RegularExpressions.Regex.InfiniteMatchTimeout"/> if none was set.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_hasTimeout">
+            <summary>Whether <see cref="F:System.Text.RegularExpressions.Generated.Utilities.s_defaultTimeout"/> is non-infinite.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.Utilities.IndexOfAnyLetter(System.ReadOnlySpan{System.Char})">
+            <summary>Finds the next index of any character that matches a Unicode letter.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.Utilities.IndexOfNonAsciiOrAny_445F8E2DA5B2213364A9CA1DC54D59DD01C059618D763D12145018DCF8A1D5FC(System.ReadOnlySpan{System.Char})">
+            <summary>Finds the next index of any character that matches a character in the set [\p{L}\p{N}].</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.Utilities.IsBoundaryWordChar(System.Char)">
+            <summary>Determines whether the specified index is a boundary word character.</summary>
+            <remarks>This is the same as \w plus U+200C ZERO WIDTH NON-JOINER and U+200D ZERO WIDTH JOINER.</remarks>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.Utilities.IsPostWordCharBoundary(System.ReadOnlySpan{System.Char},System.Int32)">
+            <summary>Determines whether the specified index is a boundary.</summary>
+            <remarks>This variant is only employed when the previous character has already been validated as a word character.</remarks>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.Utilities.IsPreWordCharBoundary(System.ReadOnlySpan{System.Char},System.Int32)">
+            <summary>Determines whether the specified index is a boundary.</summary>
+            <remarks>This variant is only employed when the subsequent character will separately be validated as a word character.</remarks>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.Utilities.StackPush(System.Int32[]@,System.Int32@,System.Int32)">
+            <summary>Pushes 1 value onto the backtracking stack.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.WordCategoriesMask">
+            <summary>Provides a mask of Unicode categories that combine to form [\w].</summary>
+        </member>
+        <member name="P:System.Text.RegularExpressions.Generated.Utilities.WordCharBitmap">
+            <summary>Gets a bitmap for whether each character 0 through 127 is in [\w]</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_asciiExceptLetters">
+            <summary>Supports searching for characters in or not in "\0\u0001\u0002\u0003\u0004\u0005\u0006\a\b\t\n\v\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@[\\]^_`{|}~\u007f".</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_asciiExceptLettersAndDigits">
+            <summary>Supports searching for characters in or not in "\0\u0001\u0002\u0003\u0004\u0005\u0006\a\b\t\n\v\f\r\u000e\u000f\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !\"#$%&amp;'()*+,-./:;&lt;=&gt;?@[\\]^_`{|}~\u007f".</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_ascii_A2A00000A2A000">
+            <summary>Supports searching for characters in or not in "IMOUWimouw".</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_indexOfAnyStrings_OrdinalIgnoreCase_F6803A15A7E9471A0795A668CA5E91074B81DC9B87D254EF1C84458BC694DFFE">
+            <summary>Supports searching for the specified strings.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_indexOfString_DB15C063DD65A8050CE5FCB2D74866B343F6CE92DC1B4D0C8B3FD759C4F6030E">
+            <summary>Supports searching for the string "narrative person:".</summary>
+        </member>
+    </members>
+</doc>

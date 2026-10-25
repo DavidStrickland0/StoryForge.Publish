@@ -1,0 +1,101 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 4.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":4,"ViewpointCharacterId":"Elias Thorne","Objective":"The party navigates the final stretch of the keep\u0027s interior, bypasses the last physical obstacle before the cellar junction, and establishes the tactical position required to proceed to the captives.","IntendedChange":"The group transitions from active infiltration to a state of readiness at the junction, having secured the path and assessed the immediate environment without alerting the goblins.","PacingPosture":3,"ProhibitedPatterns":["Replaying the entry through the broken outer wall or the neutralization of the initial guard post, as these events are already established in Chapter 3.","Repeating the specific relationship dynamics of \u0027Torin expressing approval\u0027 or \u0027Maren asserting competence\u0027 as new developments, as these were already established in Chapter 3.","Introducing a new combat encounter or confrontation with a goblin guard, as the current objective is to reach the junction quietly.","Revealing the location of the captives or the storage chamber, as this is reserved for Chapter 5.","Resolving the rescue of the captives or the confrontation with Skrit Ironjaw, as these are reserved for Chapter 6."],"Scenes":[{"Sequence":1,"Purpose":"The party navigates the narrow, damp corridor leading to the junction, managing Kaelen\u0027s limited light and Maren\u0027s injury to maintain stealth and cohesion.","IntendedChange":"The group reaches the midpoint of the corridor, with Kaelen\u0027s light dimmed to a minimum and Maren\u0027s pain acknowledged but managed, establishing the physical constraints of their movement.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren"]},{"Sequence":2,"Purpose":"The party assesses the junction, identifying the two routes (direct vs. stealthy) and the specific hazards associated with each, including the proximity to Skrit\u0027s room.","IntendedChange":"The group identifies the junction and the two potential paths, with Torin and Elara providing the tactical and analytical assessments necessary to make an informed decision.","FocusCharacterIds":["Torin","Elara","Elias Thorne"]},{"Sequence":3,"Purpose":"The party chooses the safer, stealthier route through the side passages, balancing the need for speed against the risk of detection, and begins their descent into the cellar levels.","IntendedChange":"The group commits to the stealthier path, moving into the side passage and establishing their position at the entrance to the cellar levels, ready to proceed to the storage chamber.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"The party navigates the narrow, damp corridor leading to the junction, managing Kaelen\u0027s limited light and Maren\u0027s injury to maintain stealth and cohesion.","IntendedChange":"The group reaches the midpoint of the corridor, with Kaelen\u0027s light dimmed to a minimum and Maren\u0027s pain acknowledged but managed, establishing the physical constraints of their movement.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"The party assesses the junction, identifying the two routes (direct vs. stealthy) and the specific hazards associated with each, including the proximity to Skrit\u0027s room.","IntendedChange":"The group identifies the junction and the two potential paths, with Torin and Elara providing the tactical and analytical assessments necessary to make an informed decision.","FocusCharacterIds":["Torin","Elara","Elias Thorne"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The corridor narrowed as they descended, the stone walls pressing in with a damp, claustrophobic intimacy that seemed to absorb the last of the light. The air here was heavier, thick with the scent of wet moss and the distinct, metallic tang of old iron. There was no rain here, no sound of it; only the subtle, rhythmic tick of condensation dripping from the ceiling onto the flagstones below. Each drop fell with a precision that felt almost deliberate, a metronome marking their progress into the keep’s deeper bowels.
+
+Elias kept his hand on the pommel of his sword, not out of necessity, but out of habit. The steel was cold against his palm, a grounding weight in the suffocating dark. He focused on the space between his boots and the uneven stone, feeling for the slight give of loose mortar or the hollow ring of a hidden panel. The ground was treacherous here, slick with moisture that had seeped through the ancient masonry. A single misstep, a sudden slip, would be enough to shatter the silence they had worked so hard to maintain.
+
+Behind him, the creak of the cart axle against Maren’s shoulder was a constant, low-frequency hum. It was a sound that did not belong in a stealth approach, a rhythmic reminder of the physical cost of their intrusion. Elias heard the shift in her weight as she adjusted her grip, the subtle grinding of leather against leather as she compensated for the drag of the broken wood. He did not turn to look at her, nor did he offer a word of encouragement. Words were unnecessary. They both understood the equation: her pain was a variable they had to manage, not a variable to be eliminated. To stop would be to risk the goblins regrouping; to move faster would be to risk her footing. So they moved at the speed of her worst moment, a slow, agonizing crawl that stretched the minutes into something indistinguishable from hours.
+
+Kaelen moved beside Elias, his presence a dim, pulsing glow in the darkness. The brass gauntlet on his right hand had dimmed to a faint, amber flicker, barely enough to cast a shadow on the immediate floor. It was a fragile light, a spark struggling against the overwhelming weight of the dark. Elias could see the strain in Kaelen’s posture, the way his shoulders hunched inward, protecting the gauntlet as if it were a live coal. Every few steps, Kaelen’s breath hitched, a sharp, silent intake that spoke of the cost of maintaining even this minimal output. The magic was not just draining his energy; it was sapping his physical strength, leaving him hollowed out, trembling at the edges.
+
+"Keep it low," Elias whispered, the words barely a breath, lost in the damp air. He didn't look at Kaelen; he didn't need to. The dimness of the light was enough.
+
+Kaelen nodded, a jerky motion that seemed to cost him dearly. "It’s holding," the mage murmured, his voice rough, stripped of its usual dry humor. "But it’s… thin. Like oil on water. One drop, and it’s gone."
+
+Elias nodded. He knew the feeling of resources running out, of the gap between what was required and what was available widening with every step. He adjusted his own breathing, slowing it down, forcing his heart rate to settle. He needed to be calm. He needed to be steady. If he panicked, if he rushed, the group would unravel.
+
+Maren stopped.
+
+The sudden halt was jarring. The creak of the axle ceased, replaced by a sharp, silent inhale. Elias froze, his hand tightening on his sword hilt. He didn't move. He didn't breathe. He waited for the sound of footsteps, for the hiss of a blade, for the shout of a goblin. But there was only the dripping of the condensation, the faint, rhythmic pulse of Kaelen’s gauntlet, and the heavy, labored breathing of the four of them.
+
+Maren was leaning against the wall, her head bowed, her hands resting on her knees. She was not looking at them. She was looking at the floor, her eyes closed, her face contorted in a silent struggle. The pain was there, raw and unmasked, a physical weight that had finally become more than she could simply carry.
+
+Elias didn't offer a hand. He didn't speak. He simply waited, his eyes fixed on the darkness ahead, his body rigid, ready to react. The silence stretched, taut and fragile. Kaelen’s light flickered, the amber glow dimming further, struggling to maintain its coherence. The air was still, thick with tension and the shared, unspoken acknowledgment of their limits.
+
+After a long moment, Maren straightened. The movement was slow, deliberate, a careful redistribution of weight that spoke of immense effort. She adjusted the straps of the axle, her hands moving with a precision that was almost mechanical. She took a breath, a deep, shuddering draw of air that filled her lungs, and then released it slowly.
+
+"Ready," she said, her voice flat, devoid of emotion.
+
+Elias nodded. He stepped forward, his boots finding the next secure footing. The group resumed their movement, slower now, more cautious. The corridor continued to narrow, the darkness pressing in, the light of Kaelen’s gauntlet a small, defiant spark in the vast, indifferent dark. They were moving forward, step by step, into the unknown.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

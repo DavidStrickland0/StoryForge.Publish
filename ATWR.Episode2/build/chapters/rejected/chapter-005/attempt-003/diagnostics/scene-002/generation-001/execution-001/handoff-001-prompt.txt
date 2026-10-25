@@ -1,0 +1,143 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 5.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":5,"ViewpointCharacterId":"Elias Thorne","Objective":"The party moves from the cellar to the upper levels to confront Skrit Ironjaw, using the rescued captives as leverage or bait to force the goblin leader to reveal himself or surrender, thereby neutralizing the command structure of the band.","IntendedChange":"The group transitions from tactical retreat to strategic confrontation, demonstrating their ability to leverage their current advantage (possession of captives) to dismantle the goblin hierarchy without a costly melee.","PacingPosture":3,"ProhibitedPatterns":["Copying verbatim prose from Chapter 4, specifically the descriptions of the goblins huddled by the fire, the specific dialogue about the \u0027spark\u0027 magic, or the physical actions of Torin carrying Hobb.","Resolving the confrontation with Skrit Ironjaw through a sudden, unearned surrender without establishing the specific leverage (the captives\u0027 safety) and the threat of their loss.","Ignoring the active Short arc to pursue unrelated activity such as moving furniture or looting the keep instead of confronting the leader.","Introducing a new, larger threat (e.g., a dragon, a necromancer) or a cliffhanger that delays the resolution of the goblin band.","Having Kaelen use significant offensive magic (fireballs, heavy shields) that contradicts his established depleted state."],"Scenes":[{"Sequence":1,"Purpose":"The party ascends from the cellar to the main floor, navigating the goblins\u0027 living quarters while managing the physical toll of carrying the injured captives and avoiding detection by the remaining goblins.","IntendedChange":"The group reaches the threshold of the upper level, with Torin and Maren physically strained but holding their positions, and the goblins unaware of their immediate proximity to the chief\u0027s room.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Kaelen","Elara"]},{"Sequence":2,"Purpose":"Elias coordinates a tactical approach to Skrit Ironjaw\u0027s room, using the rescued captives as visible leverage to force the goblin leader to reveal himself, while Kaelen prepares a minimal, non-offensive magical distraction to cover their entry.","IntendedChange":"Skrit Ironjaw is forced to emerge from his room to confront the party, establishing a direct confrontation where the goblins\u0027 command structure is exposed and the party holds the tactical advantage of the captives\u0027 presence.","FocusCharacterIds":["Elias Thorne","Kaelen","Skrit Ironjaw"]},{"Sequence":3,"Purpose":"The party confronts Skrit Ironjaw, using the threat of harm to the captives and the display of their coordinated competence to force the goblin band\u0027s surrender or incapacitation, thereby neutralizing the command structure.","IntendedChange":"Skrit Ironjaw and his band are defeated or captured, the goblin hierarchy is dismantled, and the party secures the keep, with Kaelen\u0027s magical reserves fully depleted and Maren\u0027s injury exacerbated by the exertion.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Skrit Ironjaw"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Elias coordinates a tactical approach to Skrit Ironjaw\u0027s room, using the rescued captives as visible leverage to force the goblin leader to reveal himself, while Kaelen prepares a minimal, non-offensive magical distraction to cover their entry.","IntendedChange":"Skrit Ironjaw is forced to emerge from his room to confront the party, establishing a direct confrontation where the goblins\u0027 command structure is exposed and the party holds the tactical advantage of the captives\u0027 presence.","FocusCharacterIds":["Elias Thorne","Kaelen","Skrit Ironjaw"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The party confronts Skrit Ironjaw, using the threat of harm to the captives and the display of their coordinated competence to force the goblin band\u0027s surrender or incapacitation, thereby neutralizing the command structure.","IntendedChange":"Skrit Ironjaw and his band are defeated or captured, the goblin hierarchy is dismantled, and the party secures the keep, with Kaelen\u0027s magical reserves fully depleted and Maren\u0027s injury exacerbated by the exertion.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Skrit Ironjaw"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":5,"CompletedSceneSequence":1,"Location":"Main floor of the keep, specifically inside Skrit Ironjaw\u0027s room","TimeContext":"Night, immediately following the tactical distraction and entry into the chief\u0027s quarters","PresentCharacterIds":["Elias Thorne","Torin","Maren","Kaelen","Elara","Skrit Ironjaw","Nella","Hobb"],"PhysicalConditions":["Torin is carrying the injured captive Hobb on his back, suffering from a flare-up in his old shoulder injury.","Maren is guiding Nella with a firm grip due to her weak legs.","Kaelen has depleted his magical reserves and is holding a piece of flint.","The goblin guards are armed and tensed but currently unarmed against the party\u0027s leverage.","Skrit Ironjaw is seated, armed with a proper sword, and appears calm and unafraid."],"KnowledgeEstablished":["The main floor contains crude beds made of crates/furs, a heavy oak table with stolen goods, and five unarmed goblins huddled in fear.","Skrit Ironjaw is the leader, older, intelligent, and armed with a well-kept sword.","There are two guards inside Skrit\u0027s room.","The party holds the tactical advantage by possessing the rescued captives (Nella and Hobb).","The goblins in the main hall are terrified of the word \u0027raids\u0027 and the party\u0027s authority."],"DecisionsMade":["Elias ordered the five goblins in the main hall to stay put, not move, make sound, or run.","The party decided to enter Skrit Ironjaw\u0027s room together quietly rather than fighting immediately.","Skrit Ironjaw invited the party to sit down for a discussion."],"PossessionChanges":["Kaelen possesses a chunk of flint found in the corridor.","Torin is physically carrying Hobb.","Maren is guiding Nella."],"RelationshipChanges":["The goblins in the main hall are now submissive and fearful of Elias.","Skrit Ironjaw has established a deceptive rapport with the party, inviting them to negotiate under false pretenses."],"CompletedActions":["Kaelen found flint and dropped it as a distraction.","The party ascended the stairs from the cellar to the main floor.","Elias interrogated the goblins in the main hall, learning about Skrit\u0027s location and guards.","Elias ordered the goblins to stay put.","The party entered Skrit Ironjaw\u0027s room.","Skrit Ironjaw revealed himself and invited the party to sit."],"UnresolvedImmediateAction":"The party is standing inside Skrit Ironjaw\u0027s room, listening to his invitation to sit down for a discussion, while Skrit maintains a calm demeanor despite the threat of harm to his captives.","ContinuationPosition":"Inside Skrit Ironjaw\u0027s cluttered room. Elias, Torin (carrying Hobb), Maren (guiding Nella), Kaelen, and Elara are facing Skrit Ironjaw and his two guards. Skrit is seated on a chair and has just spoken to the party.","ProhibitedRepetition":["The description of finding flint in the gravel.","The sound of the flint hitting the floor.","The dialogue regarding \u0027One count\u0027, \u0027Three\u0027, \u0027Two\u0027, \u0027One\u0027.","The description of Torin\u0027s shoulder wincing and lifting Hobb.","Maren guiding Nella with a firm grip on her elbow.","Elias scanning the upper landing before emerging onto the main floor.","The description of the main floor layout (beds, table, spoils).","The dialogue between Elias and the scarred goblin regarding raids and the chief\u0027s anger.","The goblins lowering their weapons and pointing to the door.","Elias ordering the goblins to stay put."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+Skrit did not move. He sat in the chair with the easy, sprawling posture of a man who had never been told to stop doing something. His hands rested on the pommel of his sword, fingers loose, relaxed. The blade was short, curved, and gleamed with a polish that stood out starkly against the grime of the room. It was a good weapon. Better than most of the steel Elias had seen in the village armory.
+
+Elias kept his own sword sheathed, but his hand hovered near the hilt. He felt the eyes of his companions burning into his back. Torin was a mountain of tension, Hobb’s weight a dead, aching load across his shoulders. Maren’s grip on Nella’s elbow was white-knuckled, the blacksmith trembling against her like a leaf in a gale. Kaelen stood behind them, a piece of flint in his hand, his face a mask of exhausted patience.
+
+"We have no time for discussion," Elias said. His voice was flat, devoid of the courtesy Skrit seemed to expect. "We have your people. We have your goods. We are here to end this. Skrit Ironjaw, stand up. Now."
+
+Skrit blinked. The smile didn't leave his face, but it tightened at the edges. "You are being very rude," he said. "And very loud. Do you know how much work it is to keep a band together? I have to feed them. I have to keep them warm. And you walk in here, trampling the dust, demanding I stand up as if I were a dog."
+
+"One," Kaelen said.
+
+The word was soft, but it cut through the air with a sharpness that made the two goblins standing by the door flinch. Their spears, which had been raised in a clumsy threat, dropped to the floor with a clatter.
+
+"Two," Kaelen said.
+
+Skrit’s eyes shifted. They moved past Elias, past Torin, to the mage. He looked at the flint in Kaelen’s hand. He looked at the darkness of the corridor behind the party, where the shadows were deep and absolute. He looked at the two guards, who were now crouching low, their weapons abandoned.
+
+Skrit sighed. It was a long, weary sound, the sigh of a man dealing with a bureaucratic inconvenience rather than a life-or-death threat. He stood up, slowly, deliberately. He did not draw his sword. He kept his hands where he could see them, palms open.
+
+"Fine," he said. "I am standing. What do you want?"
+
+Elias took a step forward, then stopped. He looked at Skrit, really looked at him, for the first time. The goblin was smaller than Elias had expected, but dense. His eyes were not the wild, yellow panic of the others; they were calculating, cold, and intelligent. He was not a mindless raider. He was a manager. And managers could be reasoned with, if the reasoning was built on the right kind of leverage.
+
+"You want to know what I want?" Elias asked. He gestured to Torin, to Hobb. "I want to know why you are hurting them. They are not soldiers. They are not spies. They are farmers. And you are stealing their food, their tools, their lives. Why?"
+
+Skrit looked at Hobb, then at Nella. His expression was one of mild confusion. "They are useful," he said. "Nella knows how to fix a plow. Hobb can drive a cart. We have grain. We have livestock. We need to move them. They are... assets."
+
+"Assets," Elias repeated. The word tasted like ash in his mouth. "You are holding them captive to work for you. That is not an asset. That is slavery. And it is going to end tonight."
+
+Skrit tilted his head. "Or it is going to end with you dead. I have two guards. I have a sword. I have the high ground. And you have... what? A broken stick and a tired man?"
+
+He pointed a long, green finger at Torin. The soldier didn't flinch, but his jaw clenched. The pain in his shoulder was a hot, sharp line, but he didn't let it show. Not to Skrit. Not to anyone.
+
+Elias looked at Kaelen. The mage gave a barely perceptible nod.
+
+"Three," Kaelen whispered.
+
+The flint left Kaelen’s hand. It did not fly. It dropped, a simple, gravity-driven arc, and struck the stone floor with a sharp, ringing *clack*. The sound was small, but in the silence of the room, it was deafening.
+
+Skrit’s eyes widened. He looked at the flint on the floor. Then he looked at Kaelen. Then he looked at the door.
+
+He understood.
+
+He understood that Kaelen had not just dropped a rock. He had dropped a signal. And he understood that if the signal was followed by more noise, more light, more force, the two guards by the door would not be the only ones to react. The goblins in the main hall, the ones who were currently cowering in the corner, would panic. And panicked goblins were dangerous.
+
+Skrit looked at Elias. The smile was gone. In its place was a cold, hard calculation. He was weighing his options. He could fight. He could run. He could negotiate.
+
+He chose to negotiate.
+
+"You have a point," Skrit said, his voice low. "You do have a point. I am... not a hero. I am a survivor. And survival requires resources. I am willing to talk. But I am not willing to be a prisoner. I have people who depend on me. If I am captured, they will scatter. And if they scatter, they will be more dangerous. They will go to other villages. They will steal more. They will kill more."
+
+Elias stared at him. It was a classic gambit. The villain who argues that his defeat will cause more chaos than his survival. It was a lie, but it was a plausible one. And Elias knew that Skrit was not lying about the danger. If the band broke up, the goblins would indeed become more dangerous. They would be feral, desperate, and unaccountable.
+
+But they would also be defeated.
+
+"No," Elias said. "If you are captured, you will be taken to Pinehollow. You will stand trial. And the band will be disbanded. Not because you say so, but because there will be no one left to lead them. They will go home. To their caves. To their families. They will stop raiding. Not because they are good, but because they are tired. And because you will be gone."
+
+Skrit was silent for a long moment. He looked at the flint on the floor. He looked at his guards, who were now on their knees, their heads bowed. He looked at his sword, and then at the captives.
+
+He saw the truth. He saw that his power was not in his sword, or his guards, or his intelligence. His power was in his position. And his position was gone.
+
+"Very well," Skrit said. He sheathed his sword. The sound of the blade sliding into the scabbard was a final, decisive click. "I will come with you. But I will not be chained. And I will not be killed. If you want me to stop the raids, you must let me stop them. My way."
+
+Elias looked at Kaelen. The mage gave a sharp nod.
+
+"Deal," Elias said.
+
+The tension in the room broke, not with a bang, but with a sigh. Skrit Ironjaw, the leader of the goblin band, the terror of Pinehollow, the man who had stolen their lives and their livelihood, had surrendered. Not to violence. Not to magic. But to logic. To the simple, unyielding fact that he had lost.
+
+Elias turned to his companions. "Let's go," he said. "We have a long way to walk."
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

@@ -1,0 +1,7 @@
+Elias stepped back from the wall, his boots finding purchase on the smooth stone of the junction floor. The air here was colder than in the outer corridor, carrying a damp chill that seemed to settle deep into the bones of anyone standing still too long. He looked at Elara, who was already crouching by the base of the masonry where they had slipped through the fracture. Her lantern cast a wavering pool of light across the floor, revealing the faint, rhythmic pulse of the secondary trap mechanism beneath their feet.
+
+"Torin," Elias said quietly, his voice low enough not to carry beyond the immediate circle of companions. "Keep your eyes on the corridor ahead. If we hear anything, you're first to react."
+
+Torin nodded, his hand resting lightly on the pommel of his sword. He didn't speak, but the set of his jaw indicated that the order was accepted and executed simultaneously. His gaze swept over the darkened passage beyond the junction, scanning for any sign of movement or breath in the gloom. The silence felt heavy, broken only by the distant drumming of rain against the keep's roof and the soft creaking of Maren's cart axle as she shifted her weight.
+
+Elara stood slowly, brushing dust from her knees as she handed Elias a small vial of loose

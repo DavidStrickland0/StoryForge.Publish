@@ -1,0 +1,5 @@
+The corridor stretched ahead of them, a narrow throat of cold stone that seemed to swallow the faint light from their lanterns. The air here was still, lacking the damp chill of the outer courtyard, but it carried a heavier scent—a mix of wet earth, old wood, and the faint, metallic tang of rusted iron. Torin moved first, his boots finding purchase on the uneven flagstones with a practiced silence that spoke of years spent navigating hostile terrain. He did not rush. Rushing was a luxury they could not afford, and more importantly, it was a mistake they could not afford to make twice.
+
+He paused at the first junction, a low archway that branched off to the left. His hand rested lightly on the pommel of his sword, not in threat, but in readiness. He listened. The rain drummed against the distant roof, a steady, rhythmic backdrop that masked any subtle sounds from deeper within the keep. But beneath that, there was a silence that felt deliberate. The goblins were not moving. They were waiting.
+
+Torin raised a hand, halting the group. Elias stepped up beside him, his own blade sheathed but his eyes sharp,

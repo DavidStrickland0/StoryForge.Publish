@@ -1,0 +1,10 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan for Chapter 4 attempts to replay events that have already been finalized in Chapter 3. Specifically, the plan's objective and scenes describe the party entering the keep, neutralizing the guard post/alarm, and navigating the first trapped passage to reach the junction. However, the finalized evidence for Chapter 3 explicitly records that the party has already entered the keep, bypassed the trap (via the loose stone), passed the junction, and is currently frozen in the storage chamber observing a goblin. The plan also violates the ProhibitedPatterns by planning to re-describe the rain drumming against the roof (Scene 1/2 context) and re-establishing formation positions, which are already established and prohibited from repetition in the finalized Chapter 3 evidence.",
+  "evidence": [
+    "FINALIZED CHAPTER 3: \"Location\":\"Storage chamber within the keep\"",
+    "FINALIZED CHAPTER 3: \"CompletedActions\":[\"The group moved into the left-hand passage.\", \"Torin stopped the group upon entering the storage chamber.\", \"The party identified a goblin standing in the shadows of the storage chamber.\"]",
+    "FINALIZED CHAPTER 3: \"ContinuationPosition\":\"The group stands at the entrance of the small circular storage chamber, looking into the shadows where a single torch burns and a goblin stands holding a spear.\"",
+    "CANDIDATE CHAPTER PLAN: \"Objective\": \"The party enters the keep through the broken outer wall, neutralizes the guard post and crude alarm, and navigates the first trapped passage to reach the junction leading to the cellar levels.\""
+  ]
+}

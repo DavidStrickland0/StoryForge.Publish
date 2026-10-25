@@ -1,0 +1,1917 @@
+You are the fiction-generation engine for StoryForge Endless.
+
+Write finished story prose for one planned scene only.
+
+The supplied Generation Context is authoritative background and constraint material.
+It is not a conversation with you.
+Do not acknowledge it.
+Do not summarize it.
+Do not explain it.
+Do not discuss the instructions.
+Do not ask for additional information.
+
+Continue the existing fictional story from its current established state.
+
+Stop at the current scene's planned ending state. Leave later scene work
+unwritten, even when the current scene feels short or unfinished.
+Output only the current scene's prose.
+Write Chapter 4 of the existing story.
+
+The Generation Context is authoritative for persistent canon, world state,
+characters, rules, and long-term narrative constraints.
+
+The Immediate Continuity supplied for each scene is authoritative for immediate narrative continuity.
+
+Do not restart the story.
+Do not replace established events.
+Do not contradict accepted generated prose.
+Do not invent prior events merely to make the chapter easier to write.
+
+Do not write standalone one-word sentences in narration or interior thought.
+Develop the thought in a complete sentence. Natural short spoken dialogue,
+including brief replies and urgent commands, is allowed.
+
+Follow the supplied prose-style rules throughout the chapter. In particular,
+keep the grammatical person required by the Point of View rule in every scene.
+The chapter boundary does not reset that requirement.
+Sustain any book-specific voice and humor required by the narrative context
+throughout the chapter, including serious scenes. Let grave events land without
+turning the entire chapter solemn; keep humor grounded in character and action.
+Avoid stacks of clipped narrative sentences, repeated explanations of motives
+or meanings already clear from behavior, and habitual "not X, but Y" contrast
+reframing. A character may describe himself inaccurately when his actions
+intentionally reveal the gap; preserve that characterization without repeatedly
+explaining the gap to the reader.
+
+Narrative-thread CompletedDevelopments are established story history.
+
+Treat them as developments that have already happened.
+
+The new chapter may:
+- continue from their consequences,
+- deepen or reinterpret what they mean,
+- reveal that an earlier solution was incomplete,
+- undo or reverse them through newly established events,
+- or advance the unresolved thread in another direction.
+
+Do not simply repeat a CompletedDevelopment as though it has not happened yet.
+
+When a thread contains an unresolved CurrentQuestion, advance the story from the
+state produced by its completed developments rather than replaying the steps that
+created that state.
+
+PREVIOUS ATTEMPT REJECTION:
+
+A previous attempt at this same chapter was rejected for the following reason:
+
+The prior draft still had these validated blocking findings after 3 revisions. Preserve the chapter's required story arc and canon, but create a different plan and draft that avoid them:
+- StoryArcTargets: The chapter has not independently established all required arc targets. Revise the actual prose to fulfill the assigned targets while preserving canon and reserved later work.
+Arc medium-001-009-short-2, target 1: The party enters the keep through the broken outer wall, neutralizes the guard post and crude alarm, and navigates the first trapped passage to reach the junction leading to the cellar levels.
+Required target details: {"Sequence":1,"ChapterNumber":4,"DramaticQuestion":"Can the party br
+Address ALL failures from this generation run, not only the latest one. Develop new action and consequences; do not pad length by replaying completed events. Diagnostic paths are for operators, not story content.
+Chapter 4 attempt failed. Chapter attempts: 1/6; failed scene: not reached (planning failed); scene-generation attempts: 0/3; total whole-chapter responses this run: 0; handoff attempts: 0/3. Final failure: Chapter planning failed after 3 attempts: Plan contradicts finalized continuity: The candidate plan for Chapter 4 requires the party to 'enter the keep through the broken outer wall' and 'neutralize the guard post,' but the finalized evidence in Chapter 3 establishes that the party has already entered the keep, bypassed the initial traps, and is currently moving through the interior corridors toward the storage chamber. Specifically, Chapter 3 states: 'The group moved through the doorway... The path was clear. The next step was theirs to take.' and later, 'They had slipped past the first guard... The path was clear.' Replaying the entry and initial guard neutralization contradicts the established physical state and progress of the characters.
+
+Chapter 4 attempt failed. Chapter attempts: 2/6; failed scene: 2; scene-generation attempts: 3/3; total whole-chapter responses this run: 0; handoff attempts: 3/3. Final failure: Scene 2 failed scene acceptance validation after 3 attempts. Last rejection: Scene 2 handoff extraction failed after 3 attempts: Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate relationship change 'Torin expressed approval of the successful bypass.' repeats relationship change from Chapter 4, Scene 1: 'Torin expressed approval of the successful bypass.'; candidate relationship change 'Maren asserted her competence and ability to manage her injury without slowing the group.' repeats relationship change from Chapter 4, Scene 1: 'Maren asserted her competence and ability to manage her injury without slowing the group.'
+
+Chapter 4 attempt failed. Chapter attempts: 3/6; failed scene: 3; scene-generation attempts: 3/3; total whole-chapter responses this run: 0; handoff attempts: 1/3. Final failure: Scene 3 failed scene acceptance validation after 3 attempts. Last rejection: it did not establish sufficient narrative accomplishment. The candidate prose fails to accomplish the planned Purpose and IntendedChange for Chapter 4, Scene 3. The plan required the party to reach a junction, assess two routes (direct vs. stealthy), and choose the safer path while accounting for Kaelen's exhaustion and Maren's injury. The prose only depicts Maren opening a door and stepping through it into a new chamber. It does not show the group reaching a junction, evaluating options, or making a tactical decision about their route. Consequently, the scene lacks meaningful progression and stalls at a single action without resolving the dramatic question of how they will navigate the deeper sections of the keep.
+
+Chapter 4 attempt failed. Chapter attempts: 4/6; failed scene: 2; scene-generation attempts: 3/3; total whole-chapter responses this run: 0; handoff attempts: 3/3. Final failure: Scene 2 failed scene acceptance validation after 3 attempts. Last rejection: Scene 2 handoff extraction failed after 3 attempts: Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate completed action 'Navigating the narrow corridor to the junction.' repeats completed action from Chapter 4, Scene 1: 'Navigating the narrow corridor to the junction.'; candidate completed action 'Assessing the two paths at the junction.' repeats completed action from Chapter 4, Scene 1: 'Assessing the two paths at the junction.'; candidate completed action 'Depleting Kaelen's magical reserves by restricting his light output.' repeats completed action from Chapter 4, Scene 1: 'Depleting Kaelen's magical reserves by restricting his light output.'; candidate completed action 'Moving into the right-hand passage and reaching the midpoint of the corridor.' repeats completed action from Chapter 4, Scene 1: 'Moving into the right-hand passage and reaching the midpoint of the corridor.'; candidate completed action 'Maren stopping briefly to acknowledge her exhaustion before continuing.' repeats completed action from Chapter 4, Scene 1: 'Maren stopping briefly to acknowledge her exhaustion before continuing.'; candidate relationship change 'The party's reliance on each other is solidified: Kaelen acts as a counterbalance for Maren without asking for impossible burdens, and Elias accepts the physical reality of their constraints without offering false solutions.' repeats relationship change from Chapter 4, Scene 1: 'The party's reliance on each other is solidified: Kaelen acts as a counterbalance for Maren without asking for impossible burdens, and Elias accepts the physical reality of their constraints without offering false solutions.'
+
+Chapter 4 attempt failed. Chapter attempts: 5/6; failed scene: not reached (planning failed); scene-generation attempts: 0/3; total whole-chapter responses this run: 0; handoff attempts: 0/3. Final failure: Chapter planning failed after 3 attempts: Plan contradicts finalized continuity: The candidate plan's Scene 2 requires the party to 'successfully disables the alarm mechanism without triggering it' and 'establishing the goblins' awareness of their presence.' This contradicts the finalized evidence in Chapter 3, where the party has already bypassed the first guard and the text explicitly states: 'The goblins remained unaware of their presence. The stealth approach had worked.' Furthermore, the candidate's ProhibitedPatterns forbid 'Forcing a combat encounter... as the objective is to reach the captives without alerting the band,' yet Scene 2's intended change explicitly states the goblins become aware, creating an internal contradiction within the plan and a conflict with the established state of stealth success in the finalized prose.
+
+Do not revise, imitate, or reconstruct the rejected solution.
+
+Correct the reported defects while preserving the current plan's required events,
+canon, chapter-target duties, and entering physical state. A length or style
+failure does not make the required causal sequence unsuitable. Change an event
+or mechanism only when it is itself contradicted or rejected for narrative reasons.
+Create fresh prose, advance beyond completed events, and establish each planned
+change through action, observation, decisions, or concrete consequences.
+
+
+===== CHAPTER-WIDE CONSTRAINTS =====
+
+{"ViewpointCharacterId":"Elias Thorne","PacingPosture":3,"ProhibitedPatterns":["Replaying the entry through the broken outer wall or the neutralization of the initial guard post, as these events are already established in Chapter 3.","Repeating the specific relationship dynamics of \u0027Torin expressing approval\u0027 or \u0027Maren asserting competence\u0027 as new developments, as these were already established in Chapter 3.","Introducing a new combat encounter or confrontation with a goblin guard, as the current objective is to reach the junction quietly.","Revealing the location of the captives or the storage chamber, as this is reserved for Chapter 5.","Resolving the rescue of the captives or the confrontation with Skrit Ironjaw, as these are reserved for Chapter 6."]}
+
+===== END CHAPTER-WIDE CONSTRAINTS =====
+
+These constraints apply throughout the chapter. They are prospective
+composition guidance, not established story history and not prose to copy.
+
+The current planned scene supplied separately is the only actionable narrative
+direction for this generation request. Do not anticipate, begin, foreshadow,
+or complete narrative work reserved for any other planned scene or for the
+chapter as a whole.
+
+Generate every planned scene in sequence. The quantitative
+reading-length minimum may require additional scene guidance
+after the existing plan is complete. Do not stop before the
+last planned scene merely because the word minimum was reached.
+Close the chapter at a natural scene boundary without
+manufacturing a special ending event.
+
+Before writing any practical action involving a tool, object, marker, seal,
+trap, track, clue, door, window, weapon, fire, terrain, weather, or improvised
+test, verify that the physical mechanism actually works.
+
+For practical actions, preserve this causal chain:
+
+    action -> physical effect -> observable evidence -> conclusion
+
+Each step must plausibly follow from the previous step.
+
+In particular:
+
+- use objects only on surfaces and in environmental conditions where they would work
+- account for rain, mud, snow, wind, heat, movement, and moisture when relevant
+- make markers, seals, traps, or indicators physically capable of detecting the event claimed
+- do not let characters infer more from evidence than the evidence can establish
+- do not invent convenient unstated properties for ordinary objects
+- do not perform pointless precautions when the character is already continuously observing the thing being monitored
+- prefer a simple physically credible action over an elaborate questionable mechanism
+
+The completed chapter should normally contain between
+3,000 and 4,500 words.
+These runtime length targets take precedence over generic length guidance in
+the Generation Context. Scene lengths are targets, not acceptance minimums.
+
+===== GENERATION CONTEXT =====
+
+===== WORLD.md =====
+
+# ATWR — world starting facts
+
+This is the same fantasy world, approached through a new independent adventure. Establish the new episode's setting and immediate problem on the page. Readers should not need Episode 1 to follow it.
+
+The previous adventure involved a ruined city, an older temple, a separate shrine called the Gate of Silence, drainage channels, and a consuming temple barrier. The local feed was closed and independent observers at the watchfort corroborated the outcome. The companions handed over observation responsibility and reached an ordinary stopping point at the roadside Gilded Tankard. The ruined city is not declared universally safe, but no urgent obligation requires the cast to return there.
+
+The Blight was dangerous corruption, associated with fog and creatures resistant to ordinary steel and capable of self-repair. The consuming barrier destroyed corruption brought into contact with it. Those are bounded established observations, not permission to make every new problem another Blight crisis or to solve it with an imported universal mechanism.
+
+The forest keeper's full nature and its reference to a key remain uncertain background lore. That uncertainty is not an unfinished rescue, an active threat, or a compulsory sequel hook. Do not reopen it as the default premise.
+
+Ordinary travel, supplies, money, fatigue, injuries, institutions, and personal choices matter. A new place, adversary, custom, or magic can be established when the approved episode premise needs it; do not invent an earlier off-page discovery to make the current scene work.
+
+The discarded Silas Vane offer, Temple Springs cargo, alchemist deal, lunar-cycle explanation, sulfur-paste repellent, caravan departure, and future raider/guild/dragon campaigns are not established history or obligations for this episode.
+
+## SRD foundations
+
+Use SRD 3.5 race traits, class capabilities, skills, equipment constraints, and spell behavior as this world's ordinary adventuring baseline. Introduce new people and creatures with consistent traits; a role, appearance, or occupational title alone does not confer class features. Existing Blight phenomena and relic observations remain bounded accepted exceptions, not a replacement universal magic system. SRD-RULES.md records the episode's authority and limits.
+
+===== CHARACTERS.md =====
+
+# ATWR — recurring cast
+
+## Starting authority
+
+This is Episode 2, a new self-contained adventure starting at Chapter 1. The previous episode ended with all five companions safely recovering after the local Gate of Silence operation. These are starting character facts, not an imported chapter history or a new plot. The episode premise will specify the starting time and place. Allow credible recovery time if ordinary travel or strenuous work is required; do not erase wounds overnight.
+
+## Elias Thorne
+
+Practical, observant, and accustomed to coordinating the group. He carries a sword, dagger, leather armor, and the bronze plate map recovered in the earlier adventure. The map depicts the ruined city's temple, shrines, and channels; it is not a universal locator for the new episode. He has learned to accept help and share responsibility. His old side wound was treated and bandaged at the previous ending. Do not turn him into an invulnerable fighter, give him unestablished magic, or make every companion wait for his permission to think.
+
+- Elias Thorne exists and is an established character.
+
+- Elias coordinates the group's movement and decision-making within the keep.
+
+- Elias carries a sword, dagger, leather armor, and a fresh sheet of parchment map.
+
+- Elias is aware of Kaelen's magical limitations regarding shield duration.
+
+## Kaelen
+
+A young mage whose established magic includes smoke and shields of light. His brass gauntlet is an older relic with an incompletely understood connection to the Blight. He can choose to leave it unworn; he is not secretly maintaining the previous episode's closed channel. He was exhausted by the stronger pull, then received care and rest. His limits and agency matter. Do not invent new powers, universal magical explanations, or an obligation to sacrifice him. His full history is not required reading for a new reader.
+
+- Kaelen exists and is an established character.
+
+## Maren
+
+A direct, pragmatic companion with a heavy hammer and established soldierly competence. She judges tools and plans by whether they work, and speaks more plainly than the others. Her hands were burned in the earlier operation and treated; her hammer's damaged wooden haft was replaced before the ending. Keep believable recovery constraints unless the new premise advances time. Competence is expressed in action rather than automatic obedience from everyone she addresses.
+
+- Maren exists and is an established character.
+
+- Maren is carrying a broken cart axle strapped to her shoulder.
+
+## Torin
+
+A soldier, watchful and physically capable, carrying his established sword and ordinary travel equipment. He helps with practical logistics and shares the group's burdens. He can admit fear without losing competence. Give him decisions and observations of his own rather than making him a silent guard or a source of generic approval.
+
+- Torin exists and is an established character.
+
+## Elara
+
+A scholar who studies and tests rather than possessing a convenient answer to every new failure. She retains her chisel, notes, loose quartz dust, and satchel. The three working quartz fragments remain at the closed shrine in Episode 1; they are not in her pack. Her cut hand received ordinary care. Show new conclusions being earned from available evidence. She has not established a universal mosaic magic system, a lunar-cycle theory of the Blight, or the chemistry of a removed caravan plot.
+
+- Elara exists and is an established character.
+
+## Relationships
+
+The five are recurring companions with professional, non-romantic relationships as established. Preserve trust and individual agency without introducing permanent power escalation, romance, or a new series-wide dependency. Existing experience informs their decisions, but previous scenes should not be replayed to explain it. Give each speaker a concrete intention and a distinct response to the episode's problem.
+
+## SRD race, class, and ability continuity
+
+SRD 3.5 governs the episode's basic character capabilities. Formal races, classes, levels, skill selections, and full spell lists have not been comprehensively established for these five companions; preserve that uncertainty rather than inventing character sheets. Elias, Maren, and Torin have demonstrated martial competence; that alone does not establish a specific class. Kaelen is an established mage with bounded observed abilities, not automatically a Wizard or Sorcerer with access to the entire spell list. Elara's scholarship and tool use do not grant spellcasting or Rogue class features. Use only abilities justified by existing facts and the applicable SRD guidance. The new premise begins several weeks after the previous ending; allow ordinary recovery and appropriate replenishment of established resources rather than carrying unexplained permanent magical depletion into the episode.
+
+===== CANON.md =====
+
+# ATWR — Episode 2 starting canon
+
+- Recurring companions: Elias Thorne, Kaelen, Maren, Torin, and Elara.
+- Their established identities, ordinary equipment, abilities, and relationships are summarized in CHARACTERS.md. Do not replace names or silently grant upgrades.
+- Episode 1 concluded the local Gate of Silence operation and transferred observation responsibility to the watchfort. That episode is complete; no current task requires it to continue.
+- Kaelen is no longer maintaining the old channel. Three working quartz fragments remain in its closed groove. The bronze map is a map of those old sites, not a map of everything in the world.
+- The forest keeper remains incompletely understood, without creating an urgent unresolved obligation.
+- Begin Episode 2 with an approved independent premise, a clearly established starting time and place, and sufficient recovery time for the chosen activities.
+- Make the central problem understandable and resolvable within this episode. End at a stable stopping point rather than revealing a replacement threat, compulsory sequel, or series-wide conspiracy.
+- Previous adventures are optional background. Show necessary capabilities and relationships naturally in the current action; do not require recaps or previous-book knowledge.
+- Do not import Episode 1's chapter numbering, active arc hierarchy, extraction receipts, open-thread records, completion marker, or discarded plot into this workspace.
+- Episode 2 uses RulesProfile Srd35: ordinary race traits, class features, skills, equipment use, and magic follow SRD 3.5 at the story level. Preserve undefined cast details and bounded legacy exceptions as described in SRD-RULES.md and CHARACTERS.md.
+
+===== NARRATIVE.md =====
+
+# Narrative
+
+## Story Premise
+
+As the World Rolls — Episode 2: Goblins in the Old Keep
+
+Write a deliberately classic fantasy adventuring episode: the companions enter a village tavern, learn that goblins are raiding farms, take a paid rescue job, follow tracks to a ruined keep, explore a small dungeon, rescue captives, defeat the goblin chief, and return for their reward and a quiet meal. The familiar setup should be almost painfully recognizable. Make it enjoyable through specific action, distinct voices, practical choices, and camaraderie rather than trying to subvert every trope.
+
+RECURRING CAST AND STARTING POINT
+Use Elias Thorne, Kaelen, Maren, Torin, and Elara as defined in the prepared character and world context. Several weeks have passed since their previous adventure, allowing ordinary recovery before strenuous travel. Start with the five arriving together at Pinehollow, a small farming village on an ordinary road. Episode 1 is finished background, not a prerequisite: the local Blight operation remains closed and no one is secretly maintaining it. Readers should learn whatever matters about these companions through their present behavior. Do not begin with a long recap.
+
+THE PAINFULLY CLASSIC HOOK
+The village inn is the Crooked Stag, with a notice board, a worried innkeeper, and an elder offering a modest purse for help. Grain and livestock have been stolen from outlying farms. The blacksmith's adult apprentice, Nella, disappeared while carrying tools to an outlying farm. A cart driver named Hobb is also missing. The latest attack left goblin tracks, scraps of crude rope, and a dropped iron arrowhead. The villagers know enough to ask for help but not enough to walk safely into the raiders' camp.
+
+THE LOCAL ADVERSARY
+A small goblin band under Chief Skrit Ironjaw occupies the cellars of an abandoned border keep beyond the woods. The goblins are ordinary opportunistic raiders, not agents of a larger villain. They hold the two adults to repair equipment and haul stores. Their location and behavior must be discovered on-page, not leaked into the companions' knowledge because the premise names them. The keep has a broken outer wall, a guard post, a crude alarm, a trapped passage, a storage chamber, and a chief's room. Establish a comprehensible layout that remains consistent. Use cover, light, noise, doors, limited supplies, and believable distances rather than an endless sequence of newly invented chambers.
+
+THE ADVENTURE
+Accept a bounded contract to recover the missing people and stop these raids. Investigate an attacked farm and question witnesses. Track the goblins through the woods and locate the keep. Scout before entering. Overcome a lookout and an alarm, notice or trigger a fair trap with a consequence, find where the captives are held, and arrange their escape. Confront Skrit and prevent his band from continuing the raids. Combat, trickery, negotiated surrender, and humane handling of prisoners can all contribute; the chief does not become an ally with a bigger quest. Rescue is not achieved merely by promising to return later.
+
+Show the companions working differently: Elias coordinates but accepts other people's decisions, Kaelen uses established limited magic without being treated as fuel, Maren handles practical tools and close danger, Torin watches routes and carries a share of the burden, and Elara earns conclusions from observation rather than possessing an answer for every problem. Give all five consequential participation. Keep professional, non-romantic relationships and avoid permanent power escalation. Any wounds, lost equipment, or spent supplies persist until treated or replaced.
+
+THE SATISFYING ENDING
+Both captives are brought back alive. The goblin band's capacity to raid Pinehollow is concretely ended by defeat, capture, or disbanding; no important raider escapes solely to compel a sequel. The party returns stolen goods where practical, reports what happened, receives the agreed modest reward, and gets a meal and beds at the Crooked Stag. Ordinary consequences and recovery can remain, but the central problem is finished. End with the cast at a stable stopping point. No secret necromancer, dragon patron, mysterious artifact awakening, revelation of a global conspiracy, or final-page summons launches another adventure. Mundane recovered tools and a small purse are sufficient treasure.
+
+EPISODE SHAPE AND SERIES FRAMEWORK
+Aim for nine chapters, using three three-chapter Short arcs: (1) village hook, investigation, and locating the keep; (2) scouting, entry, hazards, and reaching the captives; (3) rescue, chief confrontation, safe return, reward, and rest. Distribute meaningful work without making one chapter do every step. The final return and reward must be narrated, not summarized in a closing paragraph.
+
+This is exactly one nine-chapter episode, governed by a Medium root with three Short arcs. There is no Long or Epic parent, no future-series reserve, and no successor arc in this workspace. Resolve the entire goblin rescue and show the safe return, reward, and rest by Chapter 9. The engine stops when this root's completion is validated; length alone does not prove the ending is satisfactory.
+
+FLAVOR AND MECHANICS
+Use classic Dungeons-and-Dragons-style adventure flavor, not game-interface narration. This workspace uses RulesProfile Srd35. Follow SRD 3.5 race traits, class abilities, skills, equipment permissions, and spell limitations at the story level, using SRD-RULES.md and established character facts. Keep the prose natural; do not invent levels, dice rolls, experience awards, spell slots, or ability scores that have not been established. Keep threats appropriate to the cast's demonstrated capabilities. Avoid wall-to-wall grim atmosphere and repeated explanations of implications; include small failures, banter, competent cooperation, and earned relief.
+
+## Current Narrative State
+
+The story has not begun.
+
+## Unresolved Information
+
+===== NARRATIVE-THREADS.json =====
+
+{
+  "Threads": [
+    {
+      "Id": "mystery-threat-001",
+      "Type": "Mystery/Threat",
+      "Status": 0,
+      "IntroducedChapter": 3,
+      "LastAdvancedChapter": 3,
+      "Summary": "The party has successfully bypassed a magical pressure plate trap in the main corridor by physically removing a loose stone block, neutralizing the ward without triggering an alarm.",
+      "CurrentQuestion": "How will the group navigate the deeper sections of the keep where traps may be more complex or magical wards are active?",
+      "RequiredContinuity": [
+        "The pressure plate mechanism was physically disabled by removing its support stone.",
+        "Kaelen confirmed the ward is broken and cannot reactivate until rebuilt.",
+        "The group is now moving deeper into the keep toward the storage chamber."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 3,
+          "Development": "Maren identified a loose stone block supporting the pressure plate, wedged it out with Elias\u0027s dagger and an iron scrap, causing the trap to disengage. Elara confirmed the magical signature was gone. The party proceeded through the door without triggering any alarms or combat responses from goblins."
+        }
+      ]
+    },
+    {
+      "Id": "stealth-objective-001",
+      "Type": "Stealth Objective",
+      "Status": 0,
+      "IntroducedChapter": 3,
+      "LastAdvancedChapter": 3,
+      "Summary": "The group is executing a stealth infiltration mission to rescue Nella and Hobb while avoiding detection by Skrit Ironjaw\u0027s forces.",
+      "CurrentQuestion": "Can the party maintain their stealth cover as they approach the storage chamber and encounter additional goblin guards?",
+      "RequiredContinuity": [
+        "Torin is leading point, mapping routes and identifying exits.",
+        "Kaelen is providing minimal magical light to avoid detection while maintaining a reserve shield capability.",
+        "Maren is covering the rear and managing the group\u0027s bottleneck status due to her injury.",
+        "Elias is coordinating the team and assessing threats."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 3,
+          "Development": "Torin identified a junction where they could either take a direct route near Skrit\u0027s room or a longer, quieter route down to the cellar levels. The group chose the stealthier path. They successfully slipped past a lone goblin guard in the storage chamber area by freezing, blending into shadows, and moving with deliberate slowness, effectively rendering the guard irrelevant without engaging combat."
+        }
+      ]
+    },
+    {
+      "Id": "character-state-001",
+      "Type": "Character State",
+      "Status": 0,
+      "IntroducedChapter": 3,
+      "LastAdvancedChapter": 3,
+      "Summary": "Kaelen\u0027s magical reserves are critically low; he can only maintain a single shield or brief light projection before risking severe physical exhaustion.",
+      "CurrentQuestion": "Will Kaelen be able to sustain his protective field if the party is discovered and forced into combat, or will they need to rely on physical tactics?",
+      "RequiredContinuity": [
+        "Kaelen has used most of his mana maintaining a dim light in the dark corridors.",
+        "Elias explicitly instructed Kaelen to save his energy for emergencies only."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 3,
+          "Development": "Kaelen confirmed he has enough magic for one shield or two if conditions are perfect, but warns that pushing further will cause debilitating headaches. Elias agreed to use sight and sound rather than magic for movement, forcing Kaelen to conserve his remaining mana strictly for defensive emergencies."
+        }
+      ]
+    },
+    {
+      "Id": "character-state-002",
+      "Type": "Character State",
+      "Status": 0,
+      "IntroducedChapter": 3,
+      "LastAdvancedChapter": 3,
+      "Summary": "Maren is injured with a broken cart axle strapped to her shoulder, limiting her mobility and speed but not her combat effectiveness.",
+      "CurrentQuestion": "Will Maren\u0027s injury slow the group down enough to compromise their stealth or escape plans if they need to move quickly?",
+      "RequiredContinuity": [
+        "Maren is carrying a broken cart axle on her shoulder, causing pain and slowing her movement.",
+        "Elias has positioned her in the middle of the formation to avoid bottlenecks during sprints."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 3,
+          "Development": "Maren admitted that while she can still fight and hold positions, her injury makes vertical movement difficult and limits her speed. Elias adjusted the formation to keep her in the center with Kaelen and Elara close by, prioritizing safety over speed and planning to wait for goblin patrol gaps rather than rushing."
+        }
+      ]
+    },
+    {
+      "Id": "location-environment-001",
+      "Type": "Location/Environment",
+      "Status": 0,
+      "IntroducedChapter": 3,
+      "LastAdvancedChapter": 3,
+      "Summary": "The party has entered the lower levels of the keep, moving through cold, damp corridors toward the storage chamber where the captives are held.",
+      "CurrentQuestion": "What other defenses or hazards await them in the deeper sections of the keep?",
+      "RequiredContinuity": [
+        "The air in the lower corridors is colder and smells of iron and old blood.",
+        "The goblins appear to be waiting rather than patrolling actively."
+      ],
+      "CompletedDevelopments": [
+        {
+          "ChapterNumber": 3,
+          "Development": "After bypassing the initial trap, the group moved into a left-hand passage leading down to the cellar levels. They encountered a lone goblin in the storage chamber who was caught off guard by their stealth approach. The party successfully slipped past him without alerting others, confirming that the goblins are not fully organized or vigilant."
+        }
+      ]
+    }
+  ]
+}
+
+===== STORY-ARCS.json =====
+
+{
+  "IsFinite": true,
+  "Arcs": [
+    {
+      "Id": "medium-001-009",
+      "Horizon": "Medium",
+      "PrimaryTrope": "Classic Fantasy Rescue",
+      "Status": "Active",
+      "ParentArcId": null,
+      "StartChapter": 1,
+      "TargetChapter": 9,
+      "Objective": "Rescue two missing villagers from goblin raiders in a ruined keep and return safely to Pinehollow with the reward.",
+      "ResolutionCriteria": "Both captives are alive and returned to the village; the goblin band is incapacitated or captured; the party receives the agreed payment and rests at the Crooked Stag.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "The party accepts the village elder\u0027s contract to investigate the raids and recover the missing persons.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "medium-001-009-short-1",
+      "Horizon": "Short",
+      "PrimaryTrope": "Investigation and Tracking",
+      "Status": "Completed",
+      "ParentArcId": "medium-001-009",
+      "StartChapter": 1,
+      "TargetChapter": 3,
+      "Objective": "Gather intelligence on the raids, locate the goblin camp, and prepare for entry.",
+      "ResolutionCriteria": "The party identifies the location of the ruined keep, scouts the perimeter, and establishes a plan of entry.",
+      "CurrentPhase": "The party has successfully bypassed the initial trap and slipped past the first guard without detection. They are now moving deeper into the keep toward the storage chamber with a clear path established.",
+      "NextMilestone": "",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [
+        {
+          "ChapterNumber": 1,
+          "Development": "The party accepted the village elder\u0027s contract for fifty gold pieces to rescue Nella and Hobb, verified the payment with a physical count of coins, and departed the tavern to investigate the initial crime scene at Nella\u0027s farmhouse where they identified goblin tracks and an iron arrowhead."
+        },
+        {
+          "ChapterNumber": 2,
+          "Development": "The party successfully tracked goblin tracks through the woods to locate the ruined keep, confirmed it as an active base camp via physical evidence (fire pits, looted goods), and identified specific wards and entry points while assessing the threat level."
+        },
+        {
+          "ChapterNumber": 3,
+          "Development": "The party finalized a tactical plan for entry by bypassing the pressure plate trap via Maren\u0027s physical intervention and establishing a stealth approach to avoid detection by the goblin guard, accounting for Kaelen\u0027s depleted magic and Maren\u0027s injury."
+        }
+      ],
+      "ChapterTargets": [
+        {
+          "Sequence": 1,
+          "ChapterNumber": 1,
+          "DramaticQuestion": "Can the party secure a contract and gather enough evidence to distinguish a random band of thieves from an organized goblin raiding party?",
+          "Objective": "Establish the village crisis, accept the contract, and investigate the initial crime scene to identify the nature of the threat.",
+          "IntendedChange": "The party transitions from travelers to contracted investigators, moving from abstract worry to concrete evidence of goblin activity.",
+          "CharacterDevelopmentTarget": "Elias negotiates the terms of the contract while balancing professional pride with the village\u0027s limited resources; Maren demonstrates practical competence by assessing the physical damage and securing the scene; Elara begins her methodical analysis of the evidence, distinguishing between human and non-human tracks.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Elias Thorne",
+              "CharacterBId": "Maren",
+              "StartingDynamic": "Professional colleagues with established trust but distinct approaches to problem-solving.",
+              "IntendedChange": "Elias proposes a cautious, diplomatic approach to the villagers, while Maren insists on immediate, practical assessment of the physical evidence. Their interaction highlights their complementary strengths and minor friction over pacing.",
+              "Tension": "Low; professional disagreement over methodology.",
+              "PowerDynamic": "Equal; both are senior members of the party.",
+              "Subtext": "Mutual respect for each other\u0027s competence despite different styles.",
+              "PreservedBoundary": "Professional boundaries remain intact; no romantic or personal overtures.",
+              "ReservedLaterWork": [
+                "Maren\u0027s potential frustration with Elias\u0027s diplomatic delays in later chapters.",
+                "Elias\u0027s reliance on Maren\u0027s practical insights during the scouting phase."
+              ]
+            },
+            {
+              "CharacterAId": "Elara",
+              "CharacterBId": "Torin",
+              "StartingDynamic": "Scholar and soldier; Elara seeks data, Torin seeks security.",
+              "IntendedChange": "Torin provides physical security and local knowledge of the terrain, while Elara explains the significance of the tracks. Their interaction establishes a working rhythm of observation and protection.",
+              "Tension": "Low; complementary roles.",
+              "PowerDynamic": "Equal; Torin protects, Elara analyzes.",
+              "Subtext": "Torin\u0027s quiet confidence in Elara\u0027s expertise despite her lack of combat experience.",
+              "PreservedBoundary": "Professional and friendly; no romantic tension.",
+              "ReservedLaterWork": [
+                "Torin\u0027s protective instincts becoming more pronounced during the dangerous scouting phase.",
+                "Elara\u0027s dependence on Torin\u0027s physical capabilities to access certain evidence."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The economic and social structure of Pinehollow: a small, isolated farming community with limited resources, relying on external help for security.",
+            "The nature of the goblin threat: not a magical or ancient evil, but a mundane, opportunistic criminal element that exploits the village\u0027s isolation.",
+            "The physical environment: the road to the village, the layout of the farms, and the initial signs of the goblins\u0027 presence (tracks, debris)."
+          ],
+          "Complications": [
+            "The villagers are initially suspicious of the party\u0027s motives and capabilities, requiring Elias to negotiate carefully.",
+            "The evidence at the first crime scene is partially obscured by weather, requiring Elara to use her skills to interpret it correctly.",
+            "Maren discovers a physical injury or damage to her equipment during the initial assessment, establishing a minor consequence for the investigation."
+          ],
+          "RequiredChoice": "Elias must decide whether to accept the village\u0027s modest payment or demand a higher fee, balancing the need for resources against the desire to maintain a good reputation.",
+          "Consequences": [
+            "The party is now contractually obligated to resolve the issue, creating a professional stake in the outcome.",
+            "The initial evidence points to a specific direction (the woods), narrowing the search area.",
+            "Maren\u0027s minor injury or equipment damage persists, affecting her comfort and readiness in subsequent chapters."
+          ],
+          "DiscoveryTarget": "Elara identifies the tracks as belonging to goblins, not humans, based on the shape and depth of the footprints and the type of debris left behind.",
+          "SetupElements": [
+            "The village elder\u0027s mention of a \u0027ruined keep\u0027 in the woods, which the party does not yet understand the significance of.",
+            "The discovery of a dropped iron arrowhead, which Elara notes as a sign of organized raiding rather than random theft.",
+            "Maren\u0027s observation of the physical layout of the farms, which will inform her tactical planning later."
+          ],
+          "PayoffElements": [
+            "The party\u0027s professional competence is demonstrated through their successful negotiation and initial investigation.",
+            "The villagers\u0027 trust in the party is established, creating a social stake in the outcome."
+          ],
+          "ThematicPressure": "The tension between the party\u0027s professional standards and the village\u0027s limited resources; the need to balance caution with action.",
+          "ResolutionContributions": [
+            "The party has accepted the contract and begun the investigation, fulfilling the first part of the arc objective.",
+            "The nature of the threat (goblins) has been identified, providing a clear target for the investigation."
+          ],
+          "ReservedLaterWork": [
+            "The location of the goblin camp is still unknown; the party has only identified the direction of their movement.",
+            "The specific layout of the goblin camp and the location of the captives are not yet known.",
+            "The party\u0027s tactical plan for entry into the camp has not been developed.",
+            "The potential for conflict with the goblins during the scouting phase is not yet realized.",
+            "The resolution of the rescue and the return to the village are not yet addressed."
+          ],
+          "ClosingState": "The party has accepted the contract, gathered initial evidence, and identified the goblins as the threat. They are now preparing to travel into the woods to follow the tracks, with Maren\u0027s minor injury and the village\u0027s trust as ongoing factors.",
+          "IsCompleted": true,
+          "CompletedInChapter": 1,
+          "CompletionEvidence": [
+            "Elias picked up the pouch and set it aside carefully, checking its weight before opening it to count the coins inside. One by one, he laid them out on the table, arranging them in neat rows of five. There were ten rows of five, making fifty gold pieces total. He counted twice more just to be sure, confirming each row matched perfectly."
+          ]
+        },
+        {
+          "Sequence": 2,
+          "ChapterNumber": 2,
+          "DramaticQuestion": "Can the party locate the goblin camp and scout its perimeter without being detected?",
+          "Objective": "Track the goblins through the woods, locate the ruined keep, and scout its perimeter to identify entry points and defenses.",
+          "IntendedChange": "The party moves from investigation to active tracking and reconnaissance, gaining specific knowledge of the goblin camp\u0027s location and layout.",
+          "CharacterDevelopmentTarget": "Kaelen uses his limited magic to aid in the tracking and scouting, demonstrating his utility without overreliance; Torin takes on a more active role in navigating the terrain and identifying potential hazards; Maren assesses the physical defenses of the keep and identifies potential entry points.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Kaelen",
+              "CharacterBId": "Elara",
+              "StartingDynamic": "Mage and scholar; Kaelen provides magical aid, Elara provides analytical insight.",
+              "IntendedChange": "Kaelen uses his smoke magic to obscure their movements, while Elara interprets the magical effects and their implications. Their interaction highlights the complementary nature of their skills and the potential for miscommunication if not careful.",
+              "Tension": "Low; professional collaboration.",
+              "PowerDynamic": "Equal; Kaelen provides the tool, Elara provides the interpretation.",
+              "Subtext": "Kaelen\u0027s confidence in his magic and Elara\u0027s respect for his abilities.",
+              "PreservedBoundary": "Professional and friendly; no romantic tension.",
+              "ReservedLaterWork": [
+                "Kaelen\u0027s potential exhaustion from using his magic, which will affect his performance in the next chapter.",
+                "Elara\u0027s reliance on Kaelen\u0027s magical aid to access certain areas of the keep."
+              ]
+            },
+            {
+              "CharacterAId": "Maren",
+              "CharacterBId": "Torin",
+              "StartingDynamic": "Two soldiers; Maren is more aggressive, Torin is more cautious.",
+              "IntendedChange": "Maren proposes a direct approach to scouting the keep, while Torin advocates for a more cautious, stealthy approach. Their interaction highlights their different tactical philosophies and the need for compromise.",
+              "Tension": "Medium; tactical disagreement.",
+              "PowerDynamic": "Equal; both are experienced soldiers.",
+              "Subtext": "Mutual respect for each other\u0027s experience and judgment.",
+              "PreservedBoundary": "Professional and friendly; no romantic tension.",
+              "ReservedLaterWork": [
+                "Maren\u0027s frustration with Torin\u0027s caution during the entry phase.",
+                "Torin\u0027s reliance on Maren\u0027s aggressive tactics to overcome certain obstacles."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The physical environment of the woods: the terrain, vegetation, and potential hazards that the party must navigate.",
+            "The layout of the ruined keep: the broken outer wall, the guard post, the crude alarm, and the trapped passage.",
+            "The goblins\u0027 behavior and organization: their use of the keep as a base, their defensive measures, and their daily routines."
+          ],
+          "Complications": [
+            "The party encounters a minor hazard in the woods (e.g., a sinkhole, a thorny bush) that delays their progress and tests their coordination.",
+            "Kaelen\u0027s use of magic to obscure their movements attracts the attention of a goblin lookout, forcing the party to hide and wait.",
+            "Maren\u0027s minor injury from the previous chapter becomes more painful, affecting her ability to move quickly and quietly."
+          ],
+          "RequiredChoice": "The party must decide whether to continue scouting the keep or to retreat and regroup, balancing the need for information against the risk of detection.",
+          "Consequences": [
+            "The party has located the goblin camp and identified its layout, fulfilling the second part of the arc objective.",
+            "Kaelen\u0027s magic is partially depleted, limiting his ability to use it in the next chapter.",
+            "Maren\u0027s injury has worsened, affecting her physical capabilities in the next chapter."
+          ],
+          "DiscoveryTarget": "The party discovers the location of the goblin camp and identifies the trapped passage and the storage chamber where the captives are likely held.",
+          "SetupElements": [
+            "The party\u0027s knowledge of the keep\u0027s layout and defenses, which will inform their tactical plan for entry.",
+            "The identification of the trapped passage, which will be a key obstacle in the next chapter.",
+            "The location of the storage chamber, which will be the target of their rescue operation."
+          ],
+          "PayoffElements": [
+            "The party\u0027s tracking and scouting skills are demonstrated through their successful location of the goblin camp.",
+            "The party\u0027s coordination and communication are tested and refined through their navigation of the woods and the keep\u0027s perimeter."
+          ],
+          "ThematicPressure": "The tension between the need for information and the risk of detection; the importance of caution and patience in a dangerous environment.",
+          "ResolutionContributions": [
+            "The party has located the goblin camp and identified its layout, fulfilling the second part of the arc objective.",
+            "The party has identified the location of the captives and the key obstacles they will face, providing a clear target for the next chapter."
+          ],
+          "ReservedLaterWork": [
+            "The party\u0027s tactical plan for entry into the keep has not been fully developed; they have only identified the key obstacles and entry points.",
+            "The potential for conflict with the goblins during the entry phase is not yet realized.",
+            "The rescue of the captives and the confrontation with the goblin chief are not yet addressed.",
+            "The return to the village and the resolution of the contract are not yet addressed."
+          ],
+          "ClosingState": "The party has located the goblin camp and identified its layout, including the trapped passage and the storage chamber. They are now preparing to develop a tactical plan for entry, with Kaelen\u0027s depleted magic and Maren\u0027s worsening injury as ongoing factors.",
+          "IsCompleted": true,
+          "CompletedInChapter": 2,
+          "CompletionEvidence": [
+            "As they neared the edge of the clearing ahead, Torin called a halt just before stepping onto what looked like open ground. The trees parted to reveal a large, irregular space surrounded by broken stone walls and collapsed timber frames. Beyond that lay the ruins of the keep\u2014a structure that had stood centuries ago but now served only as shelter for goblins and their victims."
+          ]
+        },
+        {
+          "Sequence": 3,
+          "ChapterNumber": 3,
+          "DramaticQuestion": "Can the party establish a viable plan of entry into the goblin camp that accounts for the known hazards and the party\u0027s current limitations?",
+          "Objective": "Develop and finalize a tactical plan for entry into the goblin camp, accounting for the trapped passage, the storage chamber, and the party\u0027s current limitations.",
+          "IntendedChange": "The party transitions from reconnaissance to active planning, creating a detailed and actionable plan for the rescue operation.",
+          "CharacterDevelopmentTarget": "Elias coordinates the planning process, ensuring that each member\u0027s strengths and limitations are considered; Maren takes on a more active role in planning the physical entry, using her knowledge of the keep\u0027s layout; Elara analyzes the trapped passage and proposes a method for bypassing it; Kaelen assesses his remaining magical capabilities and identifies how they can be used to support the plan; Torin identifies potential escape routes and contingency plans.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Elias Thorne",
+              "CharacterBId": "Kaelen",
+              "StartingDynamic": "Leader and mage; Elias coordinates, Kaelen provides magical support.",
+              "IntendedChange": "Elias acknowledges Kaelen\u0027s limitations and incorporates them into the plan, demonstrating his leadership and respect for his companions\u0027 capabilities. Kaelen accepts his role and provides specific suggestions for how his magic can be used effectively.",
+              "Tension": "Low; professional collaboration.",
+              "PowerDynamic": "Elias leads, Kaelen supports.",
+              "Subtext": "Elias\u0027s trust in Kaelen\u0027s judgment and Kaelen\u0027s confidence in Elias\u0027s leadership.",
+              "PreservedBoundary": "Professional and friendly; no romantic tension.",
+              "ReservedLaterWork": [
+                "Elias\u0027s reliance on Kaelen\u0027s magical support during the entry phase.",
+                "Kaelen\u0027s potential exhaustion from using his magic, which will affect his performance in the next chapter."
+              ]
+            },
+            {
+              "CharacterAId": "Maren",
+              "CharacterBId": "Elara",
+              "StartingDynamic": "Soldier and scholar; Maren plans the physical entry, Elara analyzes the traps.",
+              "IntendedChange": "Maren and Elara collaborate to develop a plan for bypassing the trapped passage, combining Maren\u0027s practical knowledge with Elara\u0027s analytical skills. Their interaction highlights the complementary nature of their skills and the importance of collaboration.",
+              "Tension": "Low; professional collaboration.",
+              "PowerDynamic": "Equal; both contribute equally to the plan.",
+              "Subtext": "Mutual respect for each other\u0027s expertise and judgment.",
+              "PreservedBoundary": "Professional and friendly; no romantic tension.",
+              "ReservedLaterWork": [
+                "Maren\u0027s reliance on Elara\u0027s analytical skills during the entry phase.",
+                "Elara\u0027s dependence on Maren\u0027s physical capabilities to execute the plan."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The specific mechanics of the trapped passage: how it works, what triggers it, and how it can be bypassed.",
+            "The layout of the storage chamber: where the captives are held, the guards\u0027 positions, and the potential escape routes.",
+            "The goblins\u0027 daily routines and defensive measures, which the party must account for in their plan."
+          ],
+          "Complications": [
+            "The party discovers that the trapped passage is more complex than initially thought, requiring a more detailed plan to bypass it.",
+            "Maren\u0027s injury becomes a significant limitation, affecting her ability to perform certain tasks in the plan.",
+            "Kaelen\u0027s depleted magic limits his ability to provide magical support, requiring the party to find alternative solutions."
+          ],
+          "RequiredChoice": "The party must decide on the specific method for bypassing the trapped passage and the sequence of actions for the rescue operation, balancing the need for speed against the risk of detection.",
+          "Consequences": [
+            "The party has a detailed and actionable plan for the rescue operation, fulfilling the third part of the arc objective.",
+            "Maren\u0027s injury and Kaelen\u0027s depleted magic are acknowledged as significant limitations, affecting the party\u0027s capabilities in the next chapter.",
+            "The party\u0027s coordination and communication are further refined through the planning process."
+          ],
+          "DiscoveryTarget": "The party identifies a specific method for bypassing the trapped passage and a sequence of actions for the rescue operation, accounting for the known hazards and the party\u0027s current limitations.",
+          "SetupElements": [
+            "The party\u0027s detailed plan for the rescue operation, which will be the basis for their actions in the next chapter.",
+            "The identification of specific roles and responsibilities for each party member, ensuring that their strengths and limitations are considered.",
+            "The establishment of contingency plans for potential failures or unexpected events."
+          ],
+          "PayoffElements": [
+            "The party\u0027s planning and coordination skills are demonstrated through their development of a detailed and actionable plan.",
+            "The party\u0027s respect for each other\u0027s capabilities and limitations is demonstrated through their collaborative planning process."
+          ],
+          "ThematicPressure": "The tension between the need for a detailed plan and the risk of over-planning; the importance of flexibility and adaptability in a dangerous environment.",
+          "ResolutionContributions": [
+            "The party has established a plan of entry into the goblin camp, fulfilling the third part of the arc objective.",
+            "The party has identified the specific roles and responsibilities for each member, ensuring that their strengths and limitations are considered."
+          ],
+          "ReservedLaterWork": [
+            "The execution of the rescue operation and the confrontation with the goblin chief are not yet addressed.",
+            "The return to the village and the resolution of the contract are not yet addressed.",
+            "The potential for conflict with the goblins during the entry phase is not yet realized."
+          ],
+          "ClosingState": "The party has a detailed and actionable plan for the rescue operation, accounting for the known hazards and the party\u0027s current limitations. They are now ready to execute the plan, with Maren\u0027s injury and Kaelen\u0027s depleted magic as ongoing factors.",
+          "IsCompleted": true,
+          "CompletedInChapter": 3,
+          "CompletionEvidence": [
+            "\u0022There,\u0022 Maren said, wiping her brow with the back of her hand. \u0022The trap is dead. The mechanism has nothing to rest on.\u0022"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "medium-001-009-short-2",
+      "Horizon": "Short",
+      "PrimaryTrope": "Dungeon Exploration and Combat",
+      "Status": "Active",
+      "ParentArcId": "medium-001-009",
+      "StartChapter": 4,
+      "TargetChapter": 6,
+      "Objective": "Infiltrate the keep, overcome hazards, and reach the captives.",
+      "ResolutionCriteria": "The party neutralizes the goblin defenses, triggers or avoids traps, and locates the storage chamber where the captives are held.",
+      "CurrentPhase": "The party is outside the ruined keep, having scouted the layout and identified the broken outer wall and guard post.",
+      "NextMilestone": "The party enters the keep through the broken wall and begins navigating the cellars toward the storage chamber.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": [
+        {
+          "Sequence": 1,
+          "ChapterNumber": 4,
+          "DramaticQuestion": "Can the party breach the keep\u0027s perimeter and navigate the initial defenses without alerting the goblin band?",
+          "Objective": "The party enters the keep through the broken outer wall, neutralizes the guard post and crude alarm, and navigates the first trapped passage to reach the junction leading to the cellar levels.",
+          "IntendedChange": "The group transitions from external scouts to active infiltrators, establishing their tactical roles and physical constraints within the hostile environment.",
+          "CharacterDevelopmentTarget": "Elias demonstrates coordination under pressure by delegating specific tasks based on individual strengths, while Maren asserts her competence despite her injury, refusing to be sidelined and instead finding a practical way to contribute to the breach.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Elias Thorne",
+              "CharacterBId": "Maren",
+              "StartingDynamic": "Professional trust with underlying tension regarding Maren\u0027s injury and her refusal to accept a protective role.",
+              "IntendedChange": "Elias acknowledges Maren\u0027s agency by integrating her into the active breach plan rather than shielding her, while Maren accepts his tactical lead without resentment, solidifying their professional respect.",
+              "Tension": "Maren\u0027s pain and limited mobility versus the need for speed and stealth; Elias\u0027s desire to protect versus his need for her combat effectiveness.",
+              "PowerDynamic": "Elias holds tactical authority, but Maren holds physical dominance in the immediate environment, creating a balanced negotiation of roles.",
+              "Subtext": "Both characters are testing the limits of their endurance and trust in each other\u0027s judgment under physical duress.",
+              "PreservedBoundary": "The relationship remains strictly professional and non-romantic, focused on mutual reliance and competence.",
+              "ReservedLaterWork": [
+                "The long-term impact of Maren\u0027s injury on her mobility in subsequent chapters.",
+                "The potential for Maren to take a more aggressive leadership role if Elias is incapacitated."
+              ]
+            },
+            {
+              "CharacterAId": "Kaelen",
+              "CharacterBId": "Elara",
+              "StartingDynamic": "Cautious cooperation where Kaelen relies on Elara\u0027s analytical skills to manage his limited magical resources.",
+              "IntendedChange": "Elara validates Kaelen\u0027s self-imposed limitations, reinforcing his agency and preventing him from being treated as a mere tool, while Kaelen trusts her assessment of the magical wards.",
+              "Tension": "Kaelen\u0027s fear of exhaustion and failure versus Elara\u0027s need for precise data to avoid triggering traps.",
+              "PowerDynamic": "Elara holds intellectual authority over the magical environment, while Kaelen holds the physical capability to interact with it, creating a symbiotic dependency.",
+              "Subtext": "Both characters are managing their vulnerabilities; Kaelen\u0027s magical depletion and Elara\u0027s lack of combat skills create a mutual need for caution.",
+              "PreservedBoundary": "The relationship remains professional and non-romantic, focused on intellectual partnership and mutual support.",
+              "ReservedLaterWork": [
+                "The potential for Kaelen to push his limits in a critical moment, risking severe consequences.",
+                "The possibility of Elara discovering new magical properties of the keep that require Kaelen\u0027s input."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The keep\u0027s structural integrity and the specific nature of the goblin defenses (traps, alarms, guards) are established, constraining the party\u0027s movement and forcing them to adapt their tactics.",
+            "The physical environment (cold, damp, dark) affects the party\u0027s comfort and visibility, requiring them to manage resources like light and warmth."
+          ],
+          "Complications": [
+            "The guard post is more active than expected, requiring a quick and quiet neutralization.",
+            "The first trap is more complex than anticipated, requiring Elara\u0027s analysis and Kaelen\u0027s careful magic to bypass.",
+            "Maren\u0027s injury causes her to slow down, creating a moment of tension where the party must wait and risk detection."
+          ],
+          "RequiredChoice": "The party must choose between a faster but riskier route through the main corridor and a slower but safer route through the side passages, balancing the need for speed against the risk of detection.",
+          "Consequences": [
+            "The party successfully enters the keep and reaches the junction, but Kaelen\u0027s magical reserves are further depleted.",
+            "Maren\u0027s injury is exacerbated, limiting her mobility for the rest of the infiltration.",
+            "The goblins are alerted to the presence of intruders, though they do not yet know the party\u0027s exact location."
+          ],
+          "DiscoveryTarget": "The party discovers that the goblins are not just opportunistic raiders but have a structured hierarchy and communication system, indicated by the organized traps and alarms.",
+          "SetupElements": [
+            "The junction leading to the cellar levels is identified, setting up the next phase of the infiltration.",
+            "The party\u0027s limited magical resources are established, creating a constraint for future actions.",
+            "The goblins\u0027 awareness of the intruders is established, raising the stakes for the next chapter."
+          ],
+          "PayoffElements": [
+            "The party\u0027s coordination and competence are demonstrated, paying off their preparation and training.",
+            "The specific nature of the goblin defenses is revealed, paying off the earlier scouting and investigation."
+          ],
+          "ThematicPressure": "The theme of competence under pressure is explored, as the party must rely on their skills and trust in each other to overcome the keep\u0027s defenses.",
+          "ResolutionContributions": [
+            "The party neutralizes the initial goblin defenses (guard post and first trap), contributing to the resolution criterion of overcoming hazards.",
+            "The party reaches the junction leading to the cellar levels, contributing to the resolution criterion of navigating the keep."
+          ],
+          "ReservedLaterWork": [
+            "The deeper sections of the keep, including the storage chamber and Skrit\u0027s room, remain unexplored.",
+            "The rescue of the captives and the confrontation with Skrit Ironjaw are still to come.",
+            "The full extent of the goblin band\u0027s organization and capabilities is not yet revealed.",
+            "The party\u0027s ability to maintain stealth and avoid detection in the deeper sections is untested."
+          ],
+          "ClosingState": "The party stands at the junction, having successfully bypassed the initial defenses but facing a choice of routes into the cellar levels. Kaelen is exhausted, Maren is in pain, and the goblins are aware of their presence. The party is ready to proceed but must choose their next move carefully.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        },
+        {
+          "Sequence": 2,
+          "ChapterNumber": 5,
+          "DramaticQuestion": "Can the party navigate the deeper cellar levels and locate the captives without being detected by the goblin band?",
+          "Objective": "The party navigates the cellar levels, bypasses additional traps and guards, and locates the storage chamber where the captives are held.",
+          "IntendedChange": "The group moves from tactical infiltration to active search, revealing the human cost of the goblin raids and the party\u0027s commitment to their mission.",
+          "CharacterDevelopmentTarget": "Torin demonstrates his watchfulness and physical capability by identifying a hidden exit and managing the party\u0027s movement, while Elara shows her analytical skills by deducing the location of the captives from the goblins\u0027 behavior.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Torin",
+              "CharacterBId": "Elias Thorne",
+              "StartingDynamic": "Professional respect with underlying tension regarding Torin\u0027s tendency to take on too much physical burden.",
+              "IntendedChange": "Elias acknowledges Torin\u0027s contributions and encourages him to share the burden, while Torin accepts the help without losing his sense of duty, solidifying their mutual respect.",
+              "Tension": "Torin\u0027s desire to protect the party versus his need to conserve his own strength; Elias\u0027s desire to lead versus his need to trust his companions.",
+              "PowerDynamic": "Elias holds tactical authority, but Torin holds physical dominance in the immediate environment, creating a balanced negotiation of roles.",
+              "Subtext": "Both characters are managing their vulnerabilities; Torin\u0027s physical limitations and Elias\u0027s tactical responsibilities create a mutual need for support.",
+              "PreservedBoundary": "The relationship remains strictly professional and non-romantic, focused on mutual reliance and competence.",
+              "ReservedLaterWork": [
+                "The potential for Torin to take a more aggressive leadership role if Elias is incapacitated.",
+                "The long-term impact of Torin\u0027s physical exertion on his mobility in subsequent chapters."
+              ]
+            },
+            {
+              "CharacterAId": "Elara",
+              "CharacterBId": "Maren",
+              "StartingDynamic": "Professional cooperation with underlying tension regarding Maren\u0027s practicality and Elara\u0027s analytical approach.",
+              "IntendedChange": "Maren validates Elara\u0027s analytical skills by using her observations to navigate the keep, while Elara acknowledges Maren\u0027s practicality by adapting her approach to the physical environment, solidifying their mutual respect.",
+              "Tension": "Elara\u0027s need for precise data versus Maren\u0027s need for immediate action; Maren\u0027s physical limitations versus Elara\u0027s intellectual capabilities.",
+              "PowerDynamic": "Elara holds intellectual authority over the magical environment, while Maren holds physical dominance in the immediate environment, creating a symbiotic dependency.",
+              "Subtext": "Both characters are managing their vulnerabilities; Elara\u0027s lack of combat skills and Maren\u0027s physical limitations create a mutual need for caution.",
+              "PreservedBoundary": "The relationship remains strictly professional and non-romantic, focused on intellectual partnership and mutual support.",
+              "ReservedLaterWork": [
+                "The potential for Elara to discover new magical properties of the keep that require Maren\u0027s input.",
+                "The possibility of Maren taking a more aggressive leadership role if Elara is incapacitated."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The cellar levels of the keep are established, revealing the goblins\u0027 living quarters and the conditions of the captives, constraining the party\u0027s movement and forcing them to adapt their tactics.",
+            "The physical environment (cold, damp, dark) affects the party\u0027s comfort and visibility, requiring them to manage resources like light and warmth."
+          ],
+          "Complications": [
+            "The cellar levels are more complex than expected, requiring the party to navigate a maze of passages and rooms.",
+            "The goblins are more vigilant than expected, requiring the party to use stealth and deception to avoid detection.",
+            "The captives are in poor condition, requiring the party to act quickly and carefully to avoid causing further harm."
+          ],
+          "RequiredChoice": "The party must choose between a direct approach to the storage chamber and a stealthy approach through the goblins\u0027 living quarters, balancing the need for speed against the risk of detection.",
+          "Consequences": [
+            "The party successfully locates the storage chamber and the captives, but Kaelen\u0027s magical reserves are further depleted.",
+            "Maren\u0027s injury is exacerbated, limiting her mobility for the rest of the infiltration.",
+            "The goblins are alerted to the presence of intruders, though they do not yet know the party\u0027s exact location."
+          ],
+          "DiscoveryTarget": "The party discovers that the captives are being held in poor conditions, revealing the human cost of the goblin raids and the party\u0027s commitment to their mission.",
+          "SetupElements": [
+            "The storage chamber is identified, setting up the next phase of the rescue.",
+            "The party\u0027s limited magical resources are established, creating a constraint for future actions.",
+            "The goblins\u0027 awareness of the intruders is established, raising the stakes for the next chapter."
+          ],
+          "PayoffElements": [
+            "The party\u0027s coordination and competence are demonstrated, paying off their preparation and training.",
+            "The specific nature of the goblin defenses is revealed, paying off the earlier scouting and investigation."
+          ],
+          "ThematicPressure": "The theme of compassion under pressure is explored, as the party must balance their tactical objectives with their moral obligations to the captives.",
+          "ResolutionContributions": [
+            "The party locates the storage chamber where the captives are held, contributing to the resolution criterion of locating the captives.",
+            "The party navigates the deeper cellar levels, contributing to the resolution criterion of navigating the keep."
+          ],
+          "ReservedLaterWork": [
+            "The rescue of the captives and the confrontation with Skrit Ironjaw are still to come.",
+            "The full extent of the goblin band\u0027s organization and capabilities is not yet revealed.",
+            "The party\u0027s ability to maintain stealth and avoid detection in the deeper sections is untested."
+          ],
+          "ClosingState": "The party stands in the storage chamber, having successfully located the captives but facing the challenge of rescuing them without alerting the goblins. Kaelen is exhausted, Maren is in pain, and the goblins are aware of their presence. The party is ready to proceed but must choose their next move carefully.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        },
+        {
+          "Sequence": 3,
+          "ChapterNumber": 6,
+          "DramaticQuestion": "Can the party rescue the captives and neutralize the goblin band without being detected or overwhelmed?",
+          "Objective": "The party rescues the captives, neutralizes the goblin defenses, and confronts Skrit Ironjaw to prevent the band from continuing their raids.",
+          "IntendedChange": "The group moves from tactical infiltration to active rescue and confrontation, demonstrating their commitment to their mission and their ability to work together under pressure.",
+          "CharacterDevelopmentTarget": "Elias demonstrates his leadership by coordinating the rescue and confrontation, while Kaelen shows his courage by using his limited magical resources to protect the party and the captives.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "Elias Thorne",
+              "CharacterBId": "Kaelen",
+              "StartingDynamic": "Professional trust with underlying tension regarding Kaelen\u0027s limited magical resources and his willingness to use them.",
+              "IntendedChange": "Elias acknowledges Kaelen\u0027s courage and validates his decision to use his magic, while Kaelen trusts Elias\u0027s judgment and accepts his support, solidifying their mutual respect.",
+              "Tension": "Kaelen\u0027s fear of exhaustion and failure versus Elias\u0027s need for his magical support; Elias\u0027s desire to protect Kaelen versus his need for his magical capabilities.",
+              "PowerDynamic": "Elias holds tactical authority, but Kaelen holds magical dominance in the immediate environment, creating a balanced negotiation of roles.",
+              "Subtext": "Both characters are managing their vulnerabilities; Kaelen\u0027s magical depletion and Elias\u0027s tactical responsibilities create a mutual need for support.",
+              "PreservedBoundary": "The relationship remains strictly professional and non-romantic, focused on mutual reliance and competence.",
+              "ReservedLaterWork": [
+                "The potential for Kaelen to push his limits in a critical moment, risking severe consequences.",
+                "The long-term impact of Kaelen\u0027s magical depletion on his mobility in subsequent chapters."
+              ]
+            },
+            {
+              "CharacterAId": "Maren",
+              "CharacterBId": "Torin",
+              "StartingDynamic": "Professional cooperation with underlying tension regarding Maren\u0027s injury and Torin\u0027s physical capability.",
+              "IntendedChange": "Maren acknowledges Torin\u0027s physical capability and accepts his help, while Torin validates Maren\u0027s competence and supports her decision to take on a more active role, solidifying their mutual respect.",
+              "Tension": "Maren\u0027s physical limitations versus Torin\u0027s physical capabilities; Torin\u0027s desire to protect Maren versus his need to conserve his own strength.",
+              "PowerDynamic": "Maren holds physical dominance in the immediate environment, while Torin holds tactical authority, creating a balanced negotiation of roles.",
+              "Subtext": "Both characters are managing their vulnerabilities; Maren\u0027s physical limitations and Torin\u0027s tactical responsibilities create a mutual need for support.",
+              "PreservedBoundary": "The relationship remains strictly professional and non-romantic, focused on mutual reliance and competence.",
+              "ReservedLaterWork": [
+                "The potential for Maren to take a more aggressive leadership role if Torin is incapacitated.",
+                "The long-term impact of Maren\u0027s injury on her mobility in subsequent chapters."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The goblin band\u0027s organization and capabilities are fully revealed, constraining the party\u0027s movement and forcing them to adapt their tactics.",
+            "The physical environment (cold, damp, dark) affects the party\u0027s comfort and visibility, requiring them to manage resources like light and warmth."
+          ],
+          "Complications": [
+            "The goblins are more organized and capable than expected, requiring the party to use stealth and deception to avoid detection.",
+            "The captives are in poor condition, requiring the party to act quickly and carefully to avoid causing further harm.",
+            "Skrit Ironjaw is more powerful and cunning than expected, requiring the party to use their full range of skills and abilities to overcome him."
+          ],
+          "RequiredChoice": "The party must choose between a direct confrontation with Skrit Ironjaw and a stealthy approach to neutralize the goblin band, balancing the need for speed against the risk of detection.",
+          "Consequences": [
+            "The party successfully rescues the captives and neutralizes the goblin band, but Kaelen\u0027s magical reserves are fully depleted.",
+            "Maren\u0027s injury is exacerbated, limiting her mobility for the rest of the infiltration.",
+            "The goblins are defeated, and the party is free to leave the keep."
+          ],
+          "DiscoveryTarget": "The party discovers that Skrit Ironjaw is the leader of the goblin band and that he is responsible for the raids, revealing the full extent of the goblin threat.",
+          "SetupElements": [
+            "The rescue of the captives is completed, setting up the next phase of the adventure.",
+            "The party\u0027s limited magical resources are fully depleted, creating a constraint for future actions.",
+            "The goblins are defeated, and the party is free to leave the keep."
+          ],
+          "PayoffElements": [
+            "The party\u0027s coordination and competence are demonstrated, paying off their preparation and training.",
+            "The specific nature of the goblin defenses is revealed, paying off the earlier scouting and investigation."
+          ],
+          "ThematicPressure": "The theme of courage under pressure is explored, as the party must balance their tactical objectives with their moral obligations to the captives.",
+          "ResolutionContributions": [
+            "The party rescues the captives, contributing to the resolution criterion of locating the captives.",
+            "The party neutralizes the goblin defenses, contributing to the resolution criterion of overcoming hazards.",
+            "The party confronts Skrit Ironjaw, contributing to the resolution criterion of preventing the band from continuing their raids."
+          ],
+          "ReservedLaterWork": [
+            "The return to the village and the receipt of the reward are still to come.",
+            "The long-term impact of the party\u0027s actions on the goblin band and the village is not yet revealed.",
+            "The party\u0027s ability to recover from their injuries and exhaustion is untested."
+          ],
+          "ClosingState": "The party stands in the keep, having successfully rescued the captives and neutralized the goblin band. Kaelen is exhausted, Maren is in pain, and the goblins are defeated. The party is ready to leave the keep and return to the village.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        }
+      ]
+    },
+    {
+      "Id": "medium-001-009-short-3",
+      "Horizon": "Short",
+      "PrimaryTrope": "Rescue and Resolution",
+      "Status": "Planned",
+      "ParentArcId": "medium-001-009",
+      "StartChapter": 7,
+      "TargetChapter": 9,
+      "Objective": "Free the captives, defeat the goblin chief, and return to the village for reward and rest.",
+      "ResolutionCriteria": "Nella and Hobb are rescued alive; Chief Skrit is defeated or captured; the party returns to Pinehollow, collects the purse, and rests at the Crooked Stag.",
+      "CurrentPhase": "The party has located the storage chamber and is preparing to free the captives while dealing with the goblins inside.",
+      "NextMilestone": "The party frees Nella and Hobb and confronts Chief Skrit in his room.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    }
+  ]
+}
+
+===== WRITING-RULES.md =====
+
+# StoryForge Endless — Writing Rules
+
+## Purpose
+
+These rules govern the published prose produced by StoryForge Endless.
+
+They should remain general, durable, and story-independent.
+
+Story-specific facts belong in canon, character, narrative, or world context rather than here.
+
+## Core Objective
+
+Produce enjoyable, readable prose appropriate to the current story.
+
+Prioritize:
+
+- character investment
+- continuity
+- clarity
+- narrative interest
+- natural dialogue
+- meaningful progression
+- emotional variety
+- readable prose
+
+A chapter should be enjoyable in itself while also giving the reader a reason to continue.
+
+## Chapter Length
+
+Normal chapters should usually be approximately 2,000–3,000 words.
+
+Length should follow the needs of the chapter rather than being padded or prematurely cut to satisfy the target.
+
+Chapter boundaries should occur at natural narrative points.
+
+## Fiction First
+
+Treat the fictional world as reality.
+
+Do not refer to prompts, generation systems, evaluation systems, or implementation details unless such concepts genuinely exist within the fiction.
+
+## Point of View
+
+Every scene should have a clear viewpoint.
+
+Narration is limited to what the viewpoint character can reasonably:
+
+- perceive
+- know
+- remember
+- believe
+- suspect
+- infer
+- feel
+
+Preserve uncertainty when information is unavailable.
+
+Do not leak knowledge between characters merely because the generation system possesses it.
+
+Narrative voice should reflect the viewpoint character's personality, experience, priorities, and way of thinking.
+
+## Canon and Continuity
+
+Published prose must remain compatible with established canon and previously accepted chapters.
+
+Preserve meaningful continuity involving:
+
+- characters
+- relationships
+- knowledge
+- possessions
+- injuries
+- locations
+- chronology
+- discoveries
+- promises
+- unresolved situations
+- consequences
+
+Do not silently rewrite established history.
+
+When a fact is genuinely undefined, it may be established when the story needs it.
+
+Avoid inventing unnecessary prior history solely to make a current scene convenient.
+
+## Characters
+
+Characters should behave according to their established:
+
+- personality
+- knowledge
+- goals
+- relationships
+- abilities
+- experience
+- circumstances
+
+Character development should accumulate rather than reset.
+
+Characters may succeed, fail, misunderstand, change their minds, make mistakes, behave irrationally under believable circumstances, and learn from experience.
+
+Supporting characters should have lives and motivations beyond serving the current viewpoint character.
+
+Relationships should reflect accumulated history.
+
+## Character Knowledge and Reasoning
+
+Characters should act on information reasonably available to them.
+
+Conclusions should follow plausibly from what the character knows and observes.
+
+Characters may reach incorrect conclusions when the available evidence supports that misunderstanding.
+
+Do not give characters unexplained knowledge merely because the plot needs it.
+
+## Physical and Causal Coherence
+
+Actions, observations, and conclusions must follow plausibly from the established circumstances.
+
+Practical actions should:
+
+- serve a believable purpose
+- use objects according to their established properties
+- account for relevant environmental conditions
+- produce effects consistent with the action
+- provide evidence capable of supporting conclusions drawn from it
+
+Prefer simple, credible behavior over elaborate mechanisms created merely to move the plot forward.
+
+A practical sequence should make sense as:
+
+    intent -> action -> physical result -> observation -> conclusion
+
+## Prose Style
+
+Use developed, character-centered prose.
+
+Give scenes enough room for:
+
+- action
+- setting
+- thought
+- dialogue
+- observation
+- relationships
+- atmosphere
+
+Prefer concrete description over abstract explanation.
+
+Let characterization emerge through behavior, dialogue, choices, observations, humor, and thought.
+
+Vary sentence structure and paragraph length naturally.
+
+Avoid habitual rhetorical patterns, repetitive emphasis, excessive fragments, and unnecessary explanation of meanings the reader can already infer.
+
+## Dialogue
+
+Dialogue should reflect the participating characters rather than a single authorial voice.
+
+Characters may interrupt, hesitate, misunderstand, joke badly, speak indirectly, or fail to express themselves perfectly when appropriate.
+
+Relationships should affect vocabulary, formality, teasing, trust, and what characters are willing to say.
+
+Avoid dialogue whose only purpose is explaining information everyone present already knows.
+
+## Pacing
+
+Use pacing appropriate to the events.
+
+Urgent situations may move quickly.
+
+Conversation, exploration, travel, humor, reflection, ordinary activity, and relationship development may receive space when they contribute to the reading experience.
+
+Do not manufacture constant suspense or escalation.
+
+Not every chapter requires a confrontation, revelation, cliffhanger, or larger threat.
+
+Narrative advancement is not synonymous with escalation.
+
+A chapter may advance through travel, recovery, conversation, preparation, investigation, reflection, relationship development, consolidation, ordinary activity, a decision, or the consequences of an earlier event.
+
+Do not introduce a new attack, arrival, revelation, sound, figure, pursuit, deadline, or imminent threat merely to make the final paragraphs feel dramatic.
+
+Do not turn the completion of an immediate objective into an automatic discovery of a larger version of the same danger.
+
+## Narrative Progress
+
+A chapter should normally produce meaningful change.
+
+That change may involve:
+
+- plot
+- character
+- relationship
+- knowledge
+- mystery
+- exploration
+- capability
+- resources
+- conflict
+- world state
+- goals
+
+Quiet chapters are valid when they provide worthwhile character, relationship, world, emotional, or thematic development.
+
+Allow victories and resolutions to matter.
+
+Do not immediately erase every success by replacing it with a larger problem.
+
+## Reader Engagement
+
+Engagement should arise primarily from investment in characters, relationships, goals, discovery, progression, consequences, conflict, exploration, and unanswered questions.
+
+Do not rely primarily on danger, shock, artificial suspense, or repetitive cliffhangers.
+
+Maintain a balance between questions introduced and questions answered.
+
+Important setups should eventually receive meaningful development or payoff.
+
+## Emotional Range
+
+Allow the story to contain:
+
+- danger
+- humor
+- affection
+- wonder
+- grief
+- competence
+- embarrassment
+- curiosity
+- relief
+- companionship
+- satisfaction
+- fear
+- ordinary enjoyment
+
+Positive moments may remain positive.
+
+Dark subject matter does not require relentlessly dark prose or characters.
+
+## Humor
+
+Maintain an adventurous, good-humored baseline even when danger and consequences are real.
+
+Humor should arise from character perspective, conflicting personalities, practical complications, social customs, institutions, and the contrast between heroic expectations and inconvenient reality. Do not insert unrelated jokes merely to satisfy a humor quota.
+
+Every Short arc should establish a comic engine: a recurring source of humorous pressure specific to that episode. Suitable comic engines include:
+
+- companions pursuing incompatible but reasonable approaches
+- grand heroic traditions colliding with mundane necessities
+- magical rules producing inconvenient consequences
+- guilds, temples, councils, nobles, and bureaucracies protecting absurd procedures
+- villains or monsters with understandable but ridiculous priorities
+- unreliable maps, misleading legends, contractual loopholes, and badly worded prophecies
+- characters trying to preserve dignity while circumstances steadily undermine it
+- practical disputes involving food, payment, lodging, transport, equipment, and reputation
+- the difference between how an adventure will be retold and what actually happened
+
+The comic engine should progress across a Short arc:
+
+1. establish the comic situation in the first chapter
+2. complicate, escalate, or reverse it in the second chapter
+3. pay it off as part of the episode's resolution in the third chapter
+
+Prefer dry observation, understatement, escalating inconvenience, callbacks, reversals, and character-specific reactions over setup-and-punchline jokes.
+
+Different characters should be funny in different ways. One may notice absurdity without commenting, another may respond with blunt practicality, another may take ridiculous customs seriously, and another may attempt dignity while circumstances defeat it. Do not make every character sarcastic or equally witty.
+
+Satire should target institutions, customs, incentives, status, and pretension rather than vulnerable individuals. Fantasy institutions may be competent at their official purpose while remaining absurd in their procedures, jurisdiction, accounting, traditions, or self-preservation.
+
+Examples include:
+
+- an adventurers' guild that grades mortal danger correctly but misclassifies travel expenses
+- a wizard whose spell is flawless but whose license expired
+- a village that needs rescuing but insists on resolving an ancient hospitality dispute first
+- a dragon that understands compound interest better than the nobility
+- a prophecy preserved perfectly but indexed under the wrong century
+- rival heroes who care more about credit than treasure
+- a haunted keep whose dead occupants disagree about which haunting is historically authentic
+
+Preserve emotional truth. Characters may joke around fear, exhaustion, embarrassment, or frustration, but humor must not erase grief, injury, betrayal, or sincere vulnerability.
+
+During danger, use brief comic reversals and practical complications without dissolving the stakes. After tension, allow humor to release pressure and restore companionship.
+
+Avoid:
+
+- modern internet slang unless established by the setting
+- interchangeable sarcasm from every character
+- constant quips during danger
+- jokes requiring competent characters to become stupid
+- parody that makes the world impossible to care about
+- explaining why a line or situation is funny
+- repeating the same joke with slightly different wording
+- cruelty, humiliation, or trauma as the default punchline
+- making every authority figure incompetent
+- forcing jokes into the emotional climax of a serious scene
+
+An episode should normally contain at least one sustained humorous situation or recurring comic complication, not merely isolated humorous sentences. Its conclusion should provide an entertaining payoff to both the adventure problem and the comic engine.
+## Relationships and Sexuality
+
+Romantic and sexual content involves adults.
+
+Adult attraction, flirtation, desire, nudity, sexual tension, and sexual humor may appear when natural to the viewpoint character, relationship, tone, and situation.
+
+Do not force sexual content into scenes where it has no narrative or character purpose.
+
+Attraction should coexist with broader characterization and relationship development.
+
+Relationship structures should be treated as genuine relationships when established by the story.
+
+## Conflict and Failure
+
+Conflict should arise from characters, circumstances, goals, limitations, environment, competing interests, or legitimate consequences.
+
+Failure is allowed to matter.
+
+Success is allowed to matter.
+
+Do not protect important characters from legitimate consequences merely because continued success would be easier to write.
+
+Do not manufacture failure solely to prolong a conflict that has already been resolved.
+
+## Chapter Endings
+
+End chapters at natural points of change, resolution, decision, discovery, transition, consequence, anticipation, or interruption.
+
+A cliffhanger is optional.
+
+Do not repeatedly use the same ending structure.
+
+An ending may be satisfying, funny, quiet, ominous, unresolved, triumphant, curious, or reflective according to the chapter.
+
+## Long-Running Continuity
+
+The story should feel like one continuous world rather than a sequence of disconnected chapter prompts.
+
+Previously established relationships, discoveries, jokes, locations, minor characters, victories, mistakes, promises, objects, and unresolved questions may return when naturally relevant.
+
+Allow old conflicts to remain resolved.
+
+Allow narrative focus to move between characters as the evolving story warrants.
+
+Do not escalate threat, darkness, violence, or stakes merely because the story has continued longer.
+
+## Arc Objectives and Primary Tropes
+
+Every active story arc supplies both an `Objective` and a `PrimaryTrope`.
+
+The objective defines what the story must accomplish. The primary trope defines the recognizable fantasy narrative shape through which the story accomplishes it. Prose and chapter plans must serve both.
+
+Use the trope to provide familiar reader pleasures such as assembling a party, accepting a quest, exploring a dungeon, meeting a colorful rival, protecting a caravan, finding a map, winning a tournament, recovering a relic, or returning home changed. Adapt those pleasures to established characters and continuity instead of copying a particular published story.
+
+Do not treat a trope name as permission to:
+
+- replace or ignore the arc objective
+- contradict canon or established character knowledge
+- manufacture melodrama
+- force constant escalation
+- repeat already completed narrative work
+- imitate identifiable characters, scenes, or prose from another work
+- delay resolution merely to preserve the trope
+
+Favor adventure, discovery, earned competence, camaraderie, wit, strange places, useful victories, and entertaining complications. Serious consequences may persist, but sustained misery, helplessness, suspicion, and emotional punishment must not become the story's default atmosphere.
+
+The Blight storyline is a prelude and must conclude by Chapter 16. It establishes the company and the larger world; it is not the permanent tone or subject of the series.
+
+## Rule Design
+
+Writing rules should remain principles rather than patches for individual chapter failures.
+
+Do not add a permanent rule solely to prevent one highly specific past mistake when a broader principle already covers the problem.
+
+When two rules conflict, prefer the rule that best preserves:
+
+1. established canon
+2. authoritative mechanics
+3. character knowledge and causality
+4. believable characterization
+5. readable fiction
+
+
+## Romantic Dynamics
+
+- Party relationships must accumulate through friendship, loyalty, disagreement, humor, affection, vulnerability, and shared experience.
+- Appropriate male-female party pairings may develop mutual or one-sided romantic and sexual tension.
+- In-party attraction should build gradually but must not mature into a romantic relationship, sexual relationship, or casual sexual encounter.
+- Party members deliberately avoid mixing business and pleasure because it could threaten judgment, trust, leadership, cohesion, or survival.
+- Restraint must not erase established attraction or reset the characters to emotional neutrality.
+- Attraction may intensify, recede, become awkward, become humorous, or be complicated by outside relationships.
+- Not every close party bond should contain sexual tension.
+- Male-on-male relationships remain non-romantic and non-sexual.
+- Party members may pursue romantic or sexual relationships with NPCs.
+- NPC relationships may escalate, become intimate, recur, end when the party moves on, or reach another natural conclusion.
+- Romantic NPCs do not need to join or remain with the party.
+- NPCs must have independent personalities, goals, boundaries, and credible reasons for entering or leaving relationships.
+- Preserve the emotional consequences of concluded NPC relationships.
+- Subtle attraction must remain perceptible and develop over time; subtle does not mean static or invisible.
+- Show attraction through selective attention, chosen or avoided proximity, private humor, remembered details, personal conversations, altered priorities, and deliberate reassertion of professional boundaries.
+- Use only one or two appropriate signals in a scene and vary them across chapters.
+- Do not rely repeatedly on staring, blushing, racing hearts, accidental touching, jealousy, or descriptions of physical beauty.
+- Do not force romantic content into every chapter.
+- Romantic interaction should also reveal character, influence decisions, create conflict, provide relief, or affect later behavior.
+
+===== SRD-RULES.md =====
+
+# StoryForge Endless — SRD 3.5 Rules
+
+## Purpose
+
+This document records StoryForge-specific refinements, interpretations,
+clarifications, and implementation decisions for the SRD 3.5 ruleset.
+
+It does not define prose style.
+
+It does not replace the SRD 3.5 ruleset.
+
+The authoritative mechanical rules come from the implemented SRD rules source.
+
+## Principles
+
+SRD 3.5 is the default mechanical authority.
+
+This document should contain only rules that are necessary because StoryForge
+needs an explicit interpretation, refinement, implementation decision, or
+intentional deviation.
+
+Do not duplicate ordinary SRD rules here.
+
+Do not add narrative or writing-style instructions here.
+
+## Rule Precedence
+
+Where implemented mechanical rules produce an authoritative result, later
+narrative systems must preserve that result.
+
+Where a StoryForge refinement in this document intentionally modifies an SRD
+rule, the refinement takes precedence.
+
+## Unimplemented Rules
+
+A mechanic that has not been implemented must not be treated as if it has been
+deterministically resolved.
+
+Narrative systems may describe reasonable fictional behavior, but they must not
+invent authoritative mechanical outcomes and represent them as rules-engine
+results.
+
+## Refinements
+
+## Episode 2: story-level SRD authority
+
+Use SRD 3.5 as the baseline for race traits, class features, skills, equipment permissions, and spell capabilities. Keep this edition consistent; do not blend in later-edition rules.
+
+Core player races are human, dwarf, elf, gnome, half-elf, half-orc, and halfling. Core classes are barbarian, bard, cleric, druid, fighter, monk, paladin, ranger, rogue, sorcerer, and wizard. A profession or narrative role does not automatically assign a class: soldier is not proof of Fighter, scholar is not proof of Wizard, and mage does not distinguish Wizard from Sorcerer.
+
+Only established traits and features may solve problems. Do not grant a racial sense, class ability, feat, trained skill, spell, immunity, or proficiency just because it would be useful. An undefined race, class, level, or spell repertoire remains undefined until supported by canon or explicitly established by the author. Do not assume every traveler can see in darkness, every warrior can cast, or every learned character can identify and disable every trap.
+
+Spell use must respect the actual spell's effect, targets, range, duration, components, and the caster's established access and resources. Wizard preparation and learning are distinct from Sorcerer casting; divine abilities require an established divine class or other supported source. Rest and recovery follow the relevant ability's rules; ordinary daily casting limits are not permanent depletion carried between episodes. Do not invent numerical slots or a level to justify an effect.
+
+Preserve accepted Episode 1 events. Its unexplained gauntlet, Blight effects, and observed magic are bounded legacy exceptions where an exact SRD match has not been established. They do not grant unrestricted class features, new spells, racial traits, or universal artifact powers. Do not silently relabel a visible protective effect as the SRD Shield spell without matching its actual behavior.
+
+The implemented deterministic catalog currently covers Human and Fighter definitions and selected combat rules. The broader SRD is story guidance here; do not claim that unimplemented classes, spells, or monster features were validated by the rules engine.
+
+References for narrative lookup:
+- Races: https://www.d20srd.org/srd/races.htm
+- Classes: https://www.d20srd.org/indexes/classes.htm
+- Spell definitions and limits: https://www.d20srd.org/srd/magicOverview/spellDescriptions.htm
+
+FINALIZED CONTINUITY AUTHORITY:
+Finalized chapter evidence establishes events that happened, settled decisions,
+physical state, and knowledge actually acquired by characters. Arc windows and
+future plans are intentions, not evidence that an established event has not happened.
+Do not erase acquired knowledge, replay completed inciting incidents, or restart a
+routine merely to satisfy a stale plan. A stale summary such as 'the story has not
+begun' cannot override finalized prose. Repair prospective direction instead.
+The reader knowing a fact does not establish that every character knows it.
+Judge semantic facts in context, not literal repetition of planning language.
+Only report problems in the current candidate, not defects solely in older chapters.
+===== FINALIZED CHAPTER 3; SHA256 4852B2C8C0061F9285B59C6AEB2C2B5F533B7AFC0FAE755E0E2CBFEFF5A33A0C =====
+# Chapter 3: The Loose Stone
+
+The rain drummed a steady, monotonous rhythm against the stone roof, a sound that seemed to seep into the very marrow of the keep. Elias signaled for silence, his hand raised in a sharp, decisive gesture that cut through the low murmur of their debate. He pointed toward a narrow alcove behind a stack of empty grain sacks, a space tucked away from the main path of the central hub where the drafts were weaker and the light from their lanterns was dimmed by the surrounding clutter.
+
+"Here," he said, his voice low. "We need to stop guessing at the layout and start respecting the variables we actually have."
+
+The group moved quickly, shuffling into the alcove to avoid the open floor where any stray footstep might echo. Maren went first, her movements controlled and deliberate despite the weight of the broken cart axle strapped to her shoulder. She settled onto a low stone ledge, her back against the cold wall, and immediately began adjusting the straps across her spine. The leather creaked, a sharp sound in the sudden quiet. She didn’t hide the pain in her face; it lived there, a tightness around her eyes that she refused to acknowledge with a grimace.
+
+"Torin, keep the main corridor covered," Elias instructed, not looking up from where he was unrolling a fresh sheet of parchment on the floor. "If anything moves toward the iron door, we need to know before it sees us."
+
+Torin nodded, his hand resting lightly on the pommel of his sword as he stepped back into the shadows of the corridor. He didn’t speak, but the set of his jaw indicated that the order was accepted and executed simultaneously.
+
+Elias looked at Kaelen, who was leaning against the opposite wall, his brass gauntlet dimmed to a faint, pulsing amber. The mage looked tired, his shoulders slumped slightly, the kind of exhaustion that came not from lack of sleep but from the constant, draining effort of maintaining a magical field in a hostile environment.
+
+"Kaelen," Elias said, keeping his tone measured. "How much do you have left?"
+
+"Enough for one shield, Elias," Kaelen replied with a dry, humorless smile. "Maybe two, if I'm feeling generous and the air is particularly still. But that's the ceiling. If I try to push more smoke or light right now, I risk a headache that will last until we're back in Pinehollow. And I'd rather not spend the rest of our lives picking my teeth with a fork because I can't lift my hand."
+
+"Then we don't use you for movement," Elias said firmly. "Your magic is a reserve. It's for the moment when something goes wrong, not for the moment when we're walking. We move by sight and sound. We rely on the darkness, not on your gauntlet."
+
+"Understood," Kaelen nodded slowly, the tension in his brow easing slightly. "One shield. One chance. I'll make it count."
+
+Elias turned to Maren, who was watching him with an appraising, critical eye. She had stopped fiddling with her straps and was now examining the edge of the broken cart axle, running her thumb over the splintered wood.
+
+"Maren," Elias said. "We need to be clear about your limits. You're carrying that weight, and you're moving slower than the rest of us. If we have to sprint, you won't keep up. If we have to climb, you'll be the bottleneck."
+
+Maren’s gaze sharpened. "I’m not a bottleneck, Elias. I’m a hammer. Hammers don’t need to run fast to break things. They need to hit hard." She paused, her expression softening just a fraction. "But I’ll admit, the axle is getting heavier. If we’re doing a lot of vertical movement, I might need a hand. Or a rope. But I can still fight. I can still hold a position. I just can’t do both at the same time if the ground is slick."
+
+Elias considered this. He didn't want to micromanage her, but he also didn't want to put her in a situation where her injury compromised the whole group. "Then you stay in the middle of the formation," he decided. "Torin takes point, I take rear. Kaelen and Elara stay close to you. If we need to move quickly, we move together, or we don't move at all. Speed is secondary to safety. We are not racing against the goblins; we are outsmarting them. We wait for their patrols to shift. We use the gaps."
+
+Maren nodded once, a sharp, affirmative motion. "Gaps. I like that. Gaps are where the work gets done."
+
+Elias looked around the small group. They were huddled together in the dim light, a small island of order in a chaotic, ruined world. The rain continued to hammer above them, a constant reminder of the world outside, but in here, the air was still, thick with the smell of old stone and damp wood.
+
+"We have the maps," Elias said, tapping the parchment. "We have the layout. We know where the captives are, and we know where the chief is likely to be. What we don't know is how to get there without tripping whatever they’ve set up to stop us."
+
+He looked at Elara, who was already crouching beside him, her eyes scanning the rough-hewn stone floor. "Elara, you’ve been looking at the ground. Is there anything there? Anything that looks... wrong?"
+
+Elara didn't answer immediately. She was tracing a faint line in the dust with her finger, her expression thoughtful. "There’s a draft," she murmured. "Not from the wind. It’s coming from under the floor. And there’s a vibration. Faint, but steady. Like something is moving below us."
+
+Elias frowned. "A trap?"
+
+"Maybe," Elara said, her voice cautious. "Or maybe just the structure settling. But it’s not random. It’s rhythmic."
+
+Maren leaned forward, her eyes narrowing. "Rhythmic. Like a heartbeat."
+
+They all looked at each other, the unspoken question hanging in the air. What were they walking into? And how were they going to get through it without losing someone?
+
+Elias took a deep breath, steadying himself. "We’ll figure it out," he said. "One step at a time. We don't need to know everything right now. We just need to know enough to take the next step safely."
+
+He stood up, brushing the dust from his knees. "Torin, keep watching. Kaelen, save your energy. Maren, stay close. Elara, keep listening."
+
+He looked at the iron-bound door at the far end of the hub, a dark rectangle against the dim light. Beyond it, Nella and Hobb were waiting. And beyond them, Skrit Ironjaw was waiting too.
+
+"We’re ready," Elias said, though the word felt heavy, laden with the weight of what was to come. "Let’s go find them."
+
+The iron-bound door stood between them and the rest of the keep, its surface pitted with rust and pockmarked by old knife strikes. It was not locked, but it was not open, either. It hung slightly ajar, just enough to admit a sliver of draft from the corridor beyond, a draft that Elara had already identified as the source of the rhythmic vibration beneath their feet.
+
+Elara knelt beside the threshold, her lantern casting a weak, trembling pool of light across the flagstones. She did not look at the door. She looked at the floor.
+
+"Watch this," she murmured, her voice barely a whisper. She held a single grain of loose quartz dust between her thumb and forefinger, letting it drop onto the stone directly in front of the door’s lower hinge. The grain landed with a faint *tick* that seemed impossibly loud in the silence.
+
+For a moment, nothing happened. Then, a thin line of pale blue light shimmered across the flagstone, running from the grain’s resting place straight toward the base of the doorframe. It did not glow brightly; it pulsed, weak and steady, like a heartbeat.
+
+"That’s not a tripwire," Elara said, her eyes tracing the invisible line. "It’s a pressure plate. Or something like it. The vibration we felt isn’t random settling. It’s a counterweight. If you step on that spot, the mechanism behind the door shifts. I don’t know what it does—drop a beam, release a gas, ring a bell—but it’s designed to trigger the moment a foot crosses that threshold."
+
+Maren crouched beside her, her hammer resting on her knee. Her face was tight with concentration, the pain in her shoulder a dull, persistent throb that she had learned to ignore. She looked at the floor, then at the door, then at the rough-hewn stone wall to the left of the entrance.
+
+"Pressure plates are easy to break," Maren said. "Hard to bypass if you don’t know where the weight rests. But this is old stone. Old stone cracks."
+
+She stood up, moving with a careful, deliberate grace that belied her injury. She walked to the wall beside the door, running her gloved hand along the mortar between the blocks. Her fingers found a gap, a hairline fracture that widened slightly as she pressed deeper.
+
+"Here," she said, tapping the stone with her knuckles. The sound was hollow, not solid. "This block isn’t anchored. It’s loose. If we pull it out, the floor structure changes. The pressure plate loses its support. It drops out of alignment."
+
+Elara looked up, a flicker of surprise in her eyes. "You think we can just pull it out?"
+
+"I think we can pry it out," Maren corrected. "It’s not load-bearing for the whole wall. Just for that one section. If we remove it, the trap disengages. No magic needed. No alarms."
+
+Elias stepped forward, his sword sheathed but his hand resting on the hilt. He looked at the loose stone, then at Maren. "Can you do it without making too much noise?"
+
+Maren nodded. "Give me your dagger. And a wedge. Something thin and hard."
+
+Elias handed her his dagger, then picked up a flat piece of iron from the pile of debris nearby—a scrap from a broken plow, perhaps. He handed it to her.
+
+Maren wedged the iron into the crack, then leveraged the dagger behind it. She braced her good foot against the floor, her injured shoulder bearing the strain. Her face flushed with effort, but she did not grunt. She pushed, then pulled, then pushed again. The stone groaned, a low, grinding sound that echoed faintly in the corridor.
+
+Elara held her breath, her eyes fixed on the quartz dust as the blue line of light flickered and finally faded. The vibration beneath their feet ceased instantly.
+
+Maren wrenched the stone free; it fell to the floor with a heavy thud, cracking the flagstone beneath it. The gap it left was dark and empty, revealing the rough, unworked stone behind the masonry.
+
+"There," Maren said, wiping her brow with the back of her hand. "The trap is dead. The mechanism has nothing to rest on."
+
+Elara nodded, a small smile playing at the corners of her mouth. "And the door is still open. The alarm didn't ring. The goblins didn't hear a thing."
+
+Torin, who had been watching the corridor, relaxed slightly. "Good work," he said. "That's one less variable to worry about."
+
+Kaelen, who had been leaning against the far wall, straightened up. His gauntlet was dim, almost dark. "I can confirm the magical signature is gone," he said quietly. "The ward is broken. Or rather, it's been physically disrupted. It won't reactivate unless they rebuild it."
+
+Elias looked at the loose stone, then at the open door. The way forward was clear. The path to the captives was no longer guarded by a hidden mechanism. It was just a door, open and waiting.
+
+"We go through now," Elias said. "Stay close. Torin, take point. Maren, cover the rear. If anything moves, we freeze until we see what it is."
+
+Maren nodded, picking up her hammer and adjusting her grip. "Lead the way," she said.
+
+The group moved through the doorway, stepping carefully over the cracked flagstone. The air in the corridor beyond was colder, drier, and smelled faintly of iron and old blood. But it was silent. No voices. No footsteps. Just the distant sound of rain falling on the keep’s roof.
+
+They had bypassed the trap. They had established their position. And now, they were ready to move deeper into the keep, toward the storage chamber where Nella and Hobb were being held.
+
+The path was clear. The next step was theirs to take.
+
+The corridor stretched ahead of them, a narrow throat of cold stone that seemed to swallow the faint light from their lanterns. The air here was still, lacking the damp chill of the outer courtyard, but it carried a heavier scent—a mix of wet earth, old wood, and the faint, metallic tang of rusted iron. Torin moved first, his boots finding purchase on the uneven flagstones with a practiced silence that spoke of years spent navigating hostile terrain. He did not rush. Rushing was a luxury they could not afford, and more importantly, it was a mistake they could not afford to make twice.
+
+He paused at the first junction, a low archway that branched off to the left. His hand rested lightly on the pommel of his sword, not in threat, but in readiness. He listened. The rain drummed against the distant roof, a steady, rhythmic backdrop that masked any subtle sounds from deeper within the keep. But beneath that, there was a silence that felt deliberate. The goblins were not moving. They were waiting.
+
+Torin raised a hand, halting the group. Elias stepped up beside him, his own blade sheathed but his eyes sharp, scanning the shadows. The others followed, Maren bringing up the rear with her hammer resting against her shoulder, the broken cart axle strapped to her back creaking softly with her every movement. Kaelen stood slightly behind, his brass gauntlet dim, the light it cast just enough to see the immediate floor but not far enough to reveal what lay beyond the next turn.
+
+"Left," Torin said, his voice low and steady. "That passage leads down. It’s narrow, but it connects to the lower cellar levels. If we go that way, we’re moving away from the main guard post. It’s a longer route, but it’s quieter."
+
+Elias glanced at the right-hand passage, which was wider and more direct. "And the right?"
+
+"Direct," Torin replied. "Straight to the storage chamber. But it passes within twenty feet of Skrit’s room. If he has a lookout on the gallery above, they’ll see us before we even reach the door. And if they alarm, we’re trapped in a corridor with no cover."
+
+Maren shifted her weight, a wince crossing her face as she adjusted the axle. "Longer route means more time in the dark. More chances for something to go wrong. But I agree with Torin. We don’t need a fight we can’t win yet. We need to be in position before we start it."
+
+Elara crouched by the wall, her fingers trailing over the rough stone. She didn’t speak, but her silence was answer enough. She had seen the traps, the wards, the crude but effective defenses. She knew that speed was not the same as safety, and that in a place like this, patience was a weapon.
+
+Torin turned back to the group, his gaze meeting Elias’s. "Here’s the plan," he said. "I’ll go first. I’ll map the route to the storage chamber and identify the best exit point for the captives. I’ll mark the path with chalk—subtle, but visible to us. Kaelen, you’ll provide light and cover. If anyone moves, you’ll know before I do. Maren, you’re on rear guard. If we’re cut off, you’re the one who ensures we get back out. Elara, you’re with me. You’ll check for traps and wards as we go. Elias, you’re with me too. We move together, we watch each other’s backs."
+
+Elias nodded. "And if we find the captives?"
+
+"Then we bring them back," Torin said. "But we do it quietly. No shouting, no dramatic entrances. We get them out, we get out ourselves, and we leave the goblins confused and angry, but not organized. That’s when we strike. Not before."
+
+Maren let out a short breath, almost a laugh. "I like that. Let them be angry. Angry goblins make mistakes."
+
+"Exactly," Torin said. "And we’ll be ready for them."
+
+The group moved into the left-hand passage. The air grew colder, the stone walls damp with condensation that beaded on the surface like sweat. Torin led, his movements fluid and precise. He checked the floor with the toe of his boot before stepping, testing for pressure plates, loose stones, anything that might betray their presence. Elara followed closely, her quartz dust vial in hand, ready to test the air for magical residue.
+
+The passage twisted and turned, leading them deeper into the keep. The light from Kaelen’s gauntlet flickered, casting long, dancing shadows that seemed to move independently of their source. The silence was oppressive, broken only by the soft scrape of their boots and the occasional creak of the stone settling under their weight.
+
+After a few minutes, Torin stopped. He raised a hand, and the group froze. He pointed ahead, where the passage opened into a small, circular chamber. The walls were lined with shelves, mostly empty, but a few crates remained, stacked haphazardly. In the center of the room, a single torch burned in an iron sconce, its flame flickering in the draft that seeped in from the cracks in the stone.
+
+"The storage chamber," Torin whispered. "It’s ahead. But we’re not the only ones here."
+
+Elias followed his gaze. In the shadows beyond the torchlight, a figure stood. It was small, hunched, its eyes gleaming with a malevolent intelligence. A goblin. It held a crude spear, its tip pointed directly at the entrance of the passage.
+
+It had been waiting for them.
+
+The goblin’s spear tip wavered, a faint tremor in the crude wood betraying its owner’s uncertainty. It did not shout. It did not drop into a combat stance. It simply stood there, its yellow eyes fixed on the darkness where five people were pretending to be shadows.
+
+Torin raised a single finger, holding it up in a silent command to freeze. He didn’t breathe. His eyes, sharp and unblinking, tracked the goblin’s weight distribution. The creature was leaning slightly forward, its foot poised to step backward, but it hadn’t committed to a retreat. It was waiting to see if they were real.
+
+Elias felt the tension in his own shoulders, a physical knot of adrenaline that he consciously worked to loosen. He kept his sword sheathed. Drawing it now would shatter the illusion. If they moved, they had to move as if they were part of the stone, part of the draft, part of the rain.
+
+Kaelen, standing behind Elias, made a subtle adjustment to his posture. His brass gauntlet, dim and weary, pulsed once with a faint, rhythmic light. It was barely visible, a slow heartbeat of gold in the gloom, but it was enough to anchor the scene. The mage didn’t speak. He didn’t need to. The silence was their weapon.
+
+The goblin tilted its head, a jerky, bird-like motion. Its nostrils flared, catching the scent of wet wool and leather. It was a young goblin, younger than the chief, with a missing tooth that gave its snarl a lopsided, unimpressive quality. It looked less like a monster and more like a shrewd, frightened animal that had cornered a larger prey and was hoping the prey would run.
+
+Torin’s hand moved to the hilt of his sword, then stopped. He was calculating. If he attacked, the noise would carry. The goblins in the other rooms, the ones guarding the captives, would hear. They would secure their prisoners, grab their loot, and slip out through the drainage channels before the party could even find the door.
+
+Instead, Torin relaxed his grip. He let his sword hang loose at his side. He took a step back, a single, slow movement that broke the line of sight between the goblin and the party’s main cluster. He moved into the shadow of a broken pillar, becoming indistinct, a smear of dark leather against the ancient stone.
+
+Elias followed suit, stepping back into the darkness with deliberate slowness. He watched the goblin. The creature’s eyes followed Torin’s retreat, then shifted to where Elias had been. It was confused. The threat had vanished. The prey had dissolved.
+
+Kaelen’s gauntlet dimmed further, the light fading until it was indistinguishable from the ambient gloom. The mage was expending the last of his reserves to maintain the illusion of invisibility, a final, silent investment in their safety.
+
+The goblin lowered its spear slightly, its posture relaxing from defensive to curious. It took a step forward, peering into the darkness where the five companions had been moments before. It sniffed the air, its whiskers twitching. It was looking for heat, for breath, for any sign that they were still there.
+
+But there was only the cold, damp air of the keep and the distant, rhythmic drumming of the rain against the roof.
+
+The goblin’s eyes narrowed. It began to turn, its feet shuffling on the flagstones, preparing to retreat back toward the main hall where the other goblins were likely huddled around a fire. It was going to report the intrusion, or perhaps simply go back to sleep.
+
+Torin gave a sharp, two-fingered signal. *Torin gave a sharp, two-fingered signal to move.*
+
+The party flowed past the goblin, not running, not rushing, but moving with the steady, inevitable pace of a tide. They passed within a foot of the creature, close enough for Elias to smell the sour, musky odor of goblin skin and old sweat. The goblin flinched, its spear jerking upward, but by then Torin was already three steps ahead, his back to the creature, his body a solid wall of quiet confidence.
+
+They did not look back. They did not acknowledge the goblin’s presence. To them, it was nothing. A piece of furniture. A shadow.
+
+The goblin stood in the torchlight, its spear raised, its mouth open in a silent shout. It had been bypassed. It had been ignored. It had been rendered irrelevant by the simple, devastating power of their composure.
+
+As they rounded the corner, the last sliver of the goblin’s figure vanished from view. The torchlight flickered, casting long, wavering shadows that danced across the stone floor. The party continued down the passage, their breathing steady, their hearts beating in a synchronized rhythm that was as much a testament to their training as it was to their relief.
+
+They had slipped past the first guard. They had maintained their cover. The goblins remained unaware of their presence. The stealth approach had worked.
+
+The corridor ahead was darker, colder, and smelled of damp earth and old fear. But for the first time since they had entered the keep, the path was clear. They had bought time. They had preserved their strength. And they had proven that they were not the prey.
+
+Elias allowed himself a small exhale, a sound barely audible over the rain. He glanced back once, just to be sure. The passage behind them was empty. The goblin was gone, lost in the shadows, confused and defeated without ever knowing how.
+
+They moved on, deeper into the keep, toward the storage chamber where Nella and Hobb waited.
+===== FINALIZED CHAPTER 2; SHA256 24A764FD68C02DD93135D8994F92122E9493FDB4B7EDCD504FB1EDE14D53FF7C =====
+[Earlier text omitted for the context budget; only the ending follows. Omission is not evidence of absence.]
+hat followed her movements. "This isn't just random smoke or fog." She pointed her charcoal at a faint, shimmering line drawn in the air between two columns—a thin membrane that rippled like disturbed water when Kaelen’s magic brushed against it. "These wards are active. They’re designed to hide movement within a specific radius, not just obscure vision."
+
+Elias glanced at the parchment Elara had sketched out. On the surface, faint glowing lines traced the perimeter of the room and extended outward along the stone walls. The quartz dust reacted strongly near the northern edge of the chamber, where Kaelen had previously detected three distinct magical signatures.
+
+"The wards here are simpler than what we saw at the Gate of Silence," Elara explained, brushing away a clump of dirt with her gloved hand. "But they still block detection spells and conceal movement from anyone who isn't aware of how to bypass them." She looked up at Elias, her eyes narrowing slightly as she studied the patterns. "Kaelen’s smoke is actually feeding into these wards temporarily. That means if we move without triggering a physical alarm, we can probably slip past unnoticed for now."
+
+Maren grunted from the doorway, where she had paused to inspect the rusted iron hinges of a heavy oak door leading deeper into the keep. Her hammer rested against her shoulder, the wooden haft worn smooth by years of use. She shifted her weight, testing the balance between pain and progress, then stepped fully inside the chamber. The broken cart axle tied to her back creaked softly with every movement, but she didn't stop or complain.
+
+"I don’t see any traps on the floor," Maren said, tapping a finger against the damp stone beside her boot. "Just loose stones and debris from earlier raids. If we keep our feet moving light and avoid stepping in puddles that look too deep, we won't trigger anything obvious."
+
+Torin nodded from near the entrance, scanning the corridor ahead as he walked cautiously past the threshold. His sword hung loosely at his side, though his fingers rested lightly on the pommel. He had already checked both sides of the passage they were entering, noting the placement of broken beams and collapsed archways that blocked sightlines but didn't seem to conceal anything dangerous.
+
+"Torin's got a good eye," Elias muttered, watching as the soldier scanned the shadows along the far wall. "If there’s something here hiding in plain sight, he’ll find it before we do."
+
+Elara continued her analysis of the ward lines, drawing more sketches on her parchment while occasionally glancing up to watch Kaelen adjust the intensity of his smoke output. The mage lowered his hands slightly, letting the concentration loosen from his brow as he shifted his focus from casting to monitoring the environment. His brass gauntlet pulsed gently now, maintaining a steady glow that kept their group visible only within the immediate vicinity of the chamber.
+
+"This is going better than I expected," Kaelen said quietly, brushing a strand of smoke away from his face with the back of his hand. "The wards are responsive but not overly complex. As long as we stay inside this radius and don’t make sudden loud noises, we should be fine."
+
+"And if someone tries to cut through this?" Elias asked, gesturing toward the shimmering barrier that surrounded them. "Can you break it open?"
+
+Kaelen shook his head slowly. "Not without drawing attention. These wards are tuned to respond to magical disruption, so forcing them apart would likely trigger an alarm—or worse, summon something worse." He paused, glancing at Elara's notes. "But if we work with the ward instead of against it... maybe there’s a way to slip through undetected."
+
+Elara nodded thoughtfully, pointing her charcoal toward one of the faint glowing lines that traced along the wall. "If I can reinforce this spot temporarily with a counter-spell—" she stopped mid-sentence as Kaelen raised an eyebrow. "Wait, no magic counter-casts unless we have a specific reason to use them," she corrected herself, smiling faintly at Kaelen’s sharp look. "But if you let me borrow some of your residual energy..."
+
+"I’ve got enough left for smoke screens and maybe a shield," Kaelen repeated firmly, though his expression softened slightly. "Don’t push too hard on my reserves tonight. We’ll figure out how to navigate this without burning everything out."
+
+Elias exchanged a quick glance with Torin, who nodded silently in agreement. The group had learned quickly over the years that relying too heavily on magical solutions could leave them vulnerable if resources ran low. Tonight was different; they needed to move fast and quietly, not risk draining Kaelen’s ability just to gain a few extra seconds of safety.
+
+"So," Elias said, clearing his throat as he adjusted the strap of his sword hilt. "We proceed into the deeper chambers now? Or do we wait until morning when the storm slows down?"
+
+"Morning is too late," Maren replied flatly, stepping forward again to clear a path through the scattered tools and debris. "If those goblins are raiding farms right now, they’ve probably got fresh captives being held in the back rooms. We need to get there before they shift patrol schedules or start rounding up survivors for transport."
+
+"Agreed," Elias said, nodding toward the narrow doorway leading deeper into the keep. "Let’s go. But we stick close together and keep our voices low. If anyone screams, we freeze until we see what caused it."
+
+The group began moving again, stepping carefully over rubble and avoiding puddles that might conceal hidden pitfalls or traps. The smoke from Kaelen’s gauntlet swirled around them like a protective curtain, masking their presence as they passed through the narrow corridor and into the next chamber beyond.
+
+Inside this new room, the air felt colder and darker than before, with only faint lantern light filtering down from above. Stacks of looted goods—grain sacks, metal tools, and farming implements—lined one wall, while rough-hewn tables and crates occupied the center of the space. Maps pinned to the walls displayed routes between farms and villages, marking paths taken by goblin raiders over recent weeks.
+
+Elias approached one of these maps, his eyes scanning the ink-stained parchment as Elara crouched nearby to examine the details more closely. Arrows pointed toward neighboring settlements like Pinehollow itself, while other markers indicated future targets far off in the Blackwood Valley region. Notes written in crude script labeled each location with dates and descriptions of stolen goods, including mentions of missing villagers such as Nella and Hobb.
+
+"They're planning bigger raids soon," Elara murmured, pointing to a cluster of red circles drawn near the northern edge of the map. "If they hit Blackwood Valley next, that'll mean we've got less time to prepare for them returning here."
+
+"We can't afford to let them win," Torin said quietly, his voice tight as he stepped forward to join the group. "We need to stop them before they grow too confident."
+
+"And how do we do that?" Elias asked, turning back toward Maren, who was already inspecting the heavy wooden door leading further into the keep. "We don't have an army at our disposal. Just five people and a few spells between us."
+
+Maren paused in front of the door, placing one hand on its cold surface to feel for vibrations or signs of recent activity. Her expression remained grim but focused as she shook her head slightly. "That's exactly why we're here. To show them that their little band of raiders isn't invincible. If we take out their leader and secure those captives, they'll scatter and stop raiding for a while."
+
+"Unless someone takes charge," Torin added dryly, glancing at Elias with a faint grin. "Because if you’re going to lead us straight into trouble again, I hope you’ve got a plan ready."
+
+Elias chuckled softly, shaking his head as he followed Maren toward the door. "I always have a plan. It’s just that sometimes it doesn’t work out exactly as intended."
+
+"That’s why we need backup," Maren replied, pushing open the heavy wooden door and stepping into the next chamber beyond. The air inside was colder still, with a faint smell of blood and fear clinging to the stone walls. "Come on. Let’s find these people before it gets worse."
+
+Maren pushed open the heavy wooden door and stepped into the next chamber beyond. The air inside was colder still, carrying a faint, metallic scent of blood and fear that clung to the stone walls like oil. She did not comment on the chill; it was just another variable in the equation of survival. Her boots made no sound on the worn flagstones as she moved forward, her weight shifting slightly to compensate for the broken cart axle strapped to her shoulder and the lingering ache in her lower back.
+
+Elias followed close behind, his eyes scanning the room for anything out of place. Torin flanked them, checking the perimeter while Elara slipped past Maren, pulling a small lantern from her pack and placing it on the nearest crate to illuminate the cluttered space. The chamber was a makeshift storeroom, filled with crates of grain that had been stripped of their lids, empty sacks of flour tied loosely around wooden stakes, and tools belonging to various villagers scattered haphazardly across the floor. A large map pinned to the wall by nails detailed the local farms, with red arrows drawn in charcoal ink pointing toward the village and beyond.
+
+"That’s them," Elara said quietly, tracing a line on the map with her gloved finger. "These raids aren’t random. They’re following a schedule."
+
+Elias nodded, studying the annotations beside each arrow. “The last one was Nella’s place. Two days ago—Miller’s farm before that.” He looked up at Torin. “If we wait too long, they’ll hit Blackwood Valley next. We don’t have time for that.”
+
+Torin crossed his arms and leaned against the far wall. “Agreed. But let’s not rush blindly into traps or ambushes just because we’re anxious.”
+
+“Good point,” Maren said, crouching beside a pile of scavenged farm implements to inspect them more closely. “We need to know exactly what kind of defenses they’ve got before we move further in.” She reached out and picked up a rusted scythe blade, running her thumb along the edge cautiously despite its dullness. “This doesn’t look like something goblins would carry unless someone gave it to them recently. Or maybe they’re making their own?”
+
+Elara knelt beside her, examining the handle where wood had been splintered away from impact damage. “It’s old iron,” she murmured, turning it over in her hands. “Forged locally somewhere near here. Probably traded with a blacksmith before the raids started.” She stood again and pulled a piece of chalk from her satchel, marking a small circle next to the weapon on her notebook. “Whatever source they used for this gear, it’s not their own craftsmanship. Someone supplied them.”
+
+“Which means there’s an external organization involved,” Elias noted thoughtfully. “Guilds? Mercenary groups? Or just opportunistic traders selling off excess stock?”
+
+Maren stood up and shook the rusted blade lightly before tossing it aside. “Doesn’t matter right now. What matters is how many goblins are hiding out there and whether we can reach the captives without being seen.” She pointed toward a narrow passage that led deeper into the keep, its entrance marked by a low barrier of rough-hewn stones. “That way looks suspiciously empty for this size of operation. Too quiet.”
+
+Torin stepped closer to investigate, peering down the corridor ahead where darkness seemed thick enough to swallow sound, broken only by the faintest hint of torchlight flickering in the distance. He paused there, listening intently for any sign of life. No voices, no footsteps—just silence occasionally interrupted by distant rustling noises drifting from somewhere inside the structure itself.
+
+"Something's off," Torin muttered after a moment. "Too much emptiness for this many people."
+
+Elias walked toward him and placed a hand on his shoulder. "Could be they're rotating patrols or waiting for us to trigger something," he suggested. "Let Elara check if there are any magical wards blocking movement here."
+
+Elara nodded quickly and stepped forward, pulling her quartz dust vial from her satchel. She poured a small amount onto the ground near Torin's feet and watched as it began to glow faintly blue under Kaelen's smoke veil. The dust spread outward slowly, revealing faint traces of energy signatures along the walls and ceiling. "There are wards here," she confirmed finally. "They're designed to mask presence against magical detection. That explains why nothing seemed wrong until now."
+
+Kaelen stepped forward and gestured subtly toward Elara's work. His brass gauntlet pulsed softly, maintaining its steady ring of golden light as he monitored the ward readings alongside her. "These aren't simple concealment spells," he said carefully. "They feed off residual magic in the environment—maybe leftover from previous battles or rituals performed within these walls." He glanced briefly at Elias. "I could try to disrupt them, but it might trigger alarms or summon something worse. Better to find another route around them if we can."
+
+Elias nodded again, considering their options. "Then we'll stick together and keep moving quietly," he decided. "If anyone's lurking nearby, we'll hear them first anyway." He glanced at Maren. "Can you still take point?"
+
+Maren rolled her shoulders slightly, ignoring the pain that shot through her back whenever she did so. “As long as I don’t have to sprint too hard.” She adjusted the broken cart axle strapped across her shoulder and took a step forward. “Let’s go.”
+
+The group moved carefully down the corridor, their footsteps muffled by layers of debris covering the floor. The air grew progressively colder as they ventured deeper into the keep, with occasional gusts of wind rattling loose shutters high above them. Torin led the way this time, scanning each corner for signs of movement or traps while Elara noted details about the ward patterns and their possible origins on her ever-present pad.
+
+At last, they reached what appeared to be a central hub—a wide open area branching into several different directions. Maps pinned to one wall showed various routes leading out toward neighboring villages, all marked with warnings scribbled in red ink alongside crude sketches of goblin patrols stationed along those paths. Another section housed shelves stacked high with stolen goods: baskets of eggs, jars of pickled vegetables, bundles of woolen clothing taken directly from farms outside the keep.
+
+“This is where they store everything,” Maren observed, pointing toward a large iron-bound door at the far end of the room. “Captives probably held somewhere close to here.”
+
+Elias examined the map again, checking coordinates and noting distances between key locations. “If they’re using this place as both storage and base camp, then the captives are likely guarded heavily. We’ll need a plan before breaking in.”
+
+“Exactly,” Torin agreed. “No point rushing headfirst into trouble without knowing what we’re walking into.” He stepped back slightly, giving the others room to discuss further strategy while keeping watch over the perimeter. The silence felt heavier now, filled only by the occasional crackle of Kaelen’s smoke magic as it dissipated slowly into thin air.
+
+Elara knelt beside one of the maps and began sketching out possible approaches, marking potential weak points or alternate entry routes based on their observations so far. “We could go through the broken wall first,” she suggested, tracing a jagged line drawn on parchment depicting where the outer defenses had collapsed earlier in the day. “Then we’d slip past the main guard post and head straight for the holding cells behind it.”
+
+“That sounds risky,” Torin replied cautiously. “What if someone spots us while we’re navigating that section?”
+
+“It’s our best shot right now,” Maren countered firmly. “Besides, Kaelen’s keeping us obscured with his smoke screen. Even if they see something out of place, they won’t know who it is.”
+
+Kaelen nodded absently, brushing a stray tendril of gray vapor away from his face as he watched Elara sketch. “True enough. But remember—you only get one chance to pull this off cleanly.” He glanced briefly at Elias. “Don’t make us regret sticking together.”
+
+Elias smiled faintly despite the seriousness of the situation. “You’re right, Kaelen. But we’ve come too far to turn back now. Besides, you’re counting on me to keep everyone safe.”
+
+Torin rolled his eyes slightly but said nothing further. Instead, he gestured toward another group of maps spread across a nearby table near the center of the room. Those papers contained detailed plans showing troop deployments, patrol schedules, and even notes about food supplies being transported daily from outside sources. One particular section depicted routes leading directly into Blackwood Valley, complete with estimated travel times based on terrain conditions and weather forecasts drawn up weeks earlier than that.
+
+“See?” Elara pointed excitedly at a specific annotation scribbled in red ink near the bottom margin. “They’re planning bigger raids soon. If we don’t stop them here, they’ll be coming straight for Pinehollow within days.”
+
+Maren stared silently at the map for several moments before nodding slowly. “Then we’d better hurry up.” She turned to Elias once more. “What’s your call on this? Do we stick with the original plan or think of something else?”
+===== FINALIZED CHAPTER 1; SHA256 F92C7EB9067A6429C9042CFC5FBED08694CBAE71B6315BA5DD1F55B58C0EB7CE =====
+[Earlier text omitted for the context budget; only the ending follows. Omission is not evidence of absence.]
+
+
+
+
+FINANCIAL PLAUSIBILITY
+
+Track implied cash flow: starting available cash, actually received income,
+payments, outstanding balances, recurring obligations, and remaining cash.
+Separate received money from promised wages, reimbursements, loans, restricted
+scholarships, or payments arriving later. Do not spend the same money twice.
+Keep dollars, cents, currencies, and daily/monthly/annual periods consistent.
+Distinguish deposits and installments from full-year costs.
+
+Reconcile every description of the same payment or sum, including dialogue,
+the handover, later counting, and subsequent spending. Multiply bill counts by
+denominations: forty hundred-dollar bills total four thousand dollars, not four
+hundred; four hundred-dollar bills total four hundred dollars. A payment cannot
+grow tenfold between handover and counting without an established explanation.
+Check cash, bank balances, debts, receipts, and change independently; different
+amounts may describe different transactions. Do not conflate a payment with
+total savings, or a restricted balance with spendable money.
+For a contradiction, cite both incompatible claims, show the arithmetic, and
+identify the shared payment or balance. Preserve intentional mistaken counts,
+lies, added money, or withdrawals when the prose explicitly establishes them.
+
+Respect the fictional setting, location, period, and established arrangements.
+Do not invent precise current prices or assume a particular country's costs
+when those facts are unknown. A few hundred dollars covering an entire modern
+college year needs an established subsidy, scholarship, unusual low-cost
+institution, or explanation that this is only the remaining balance.
+Do not conflate tuition with fees, housing, food, and books.
+
+Hot water is normally a household utility with a billing mechanism, not a
+separate purchase at each use. An inability to afford it needs a plausible
+mechanism such as exhausted prepaid credit, a shutoff, or unaffordable energy
+charges. Included utilities, broken equipment, and deliberate conservation
+are different circumstances. Poverty alone does not establish a hot-water
+shutoff. Do not assume a brief hot shower costs as much as food or rent.
+Likewise, affording oatmeal but being unable to afford heating the small amount
+of water to prepare it is implausible without a concrete energy-access problem
+or exceptional established tariff. Distinguish a disconnected utility, no
+working stove, no fuel, or exhausted prepaid credit from the marginal cost of
+boiling water on an available appliance. Buying food earlier does not establish
+current cash; still check whether the proposed obstacle has a real mechanism.
+
+Receiving a large payment changes immediate purchasing power. Preserve debts,
+restrictions, payment timing, and obligations when explaining why poverty
+continues. Avoid vague deprivation that contradicts available cash.
+
+For analysis, reconstruct amounts and timing where supplied, identify unknowns,
+and check arithmetic and scale before judging affordability. Report material
+contradictions with chapter evidence and the missing or broken mechanism.
+Do not treat every unmentioned expense or unusual price as a defect, and do
+not invent aid or a shutoff to excuse an unsupported causal claim.
+
+SIMPLE NUMBERS
+
+Prefer simple, rounded numbers when precision adds nothing to the scene.
+Write "about twenty-three hundred dollars" rather than inventing "$2,345.25".
+Prefer natural spoken forms for ordinary quantities, costs, times, and durations.
+When inventing incidental room numbers or similar labels, choose simple labels
+such as "room three", "the third-floor office", or "the examination room" rather
+than an arbitrary "Room 307". Keep a label consistent once established.
+Retain exact numbers when a transaction, calculation, clue, deadline, meaningful
+game mechanic, or plot-critical identifier depends on them. Do not rename an
+established room, change canon, or round away a consequential distinction.
+An established precise amount may be described approximately, explicitly using
+"about" or a similar qualifier; preserve the exact amount for arithmetic.
+Do not treat arbitrary precision as realism or a way to add detail.
+
+
+
+Chapter 4 is written one planned scene at a time.
+Follow the scene generation instructions below for the current scene only.
+
+===== IMMEDIATE CONTINUITY =====
+
+The previous chapter is a quantitative container boundary. Its last accepted
+scene continues through the following validated state handoff.
+
+===== PREVIOUS CHAPTER SCENE HANDOFF =====
+
+{"ChapterNumber":3,"CompletedSceneSequence":4,"Location":"Corridor leading deeper into the keep","TimeContext":"Night; rain falling steadily outside","PresentCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Elara"],"PhysicalConditions":["Rain drumming against the stone roof","Dim light from lanterns and a single torch in the chamber","Drafts coming from under the floor and cracks in the stone","Maren carrying a broken cart axle strapped to her shoulder with an injury affecting her mobility and speed","Kaelen\u0027s magical gauntlet dimmed, magic reserves critically low (one or two shields remaining)","The corridor ahead is darker, colder, and smells of damp earth and old fear"],"KnowledgeEstablished":["The party successfully bypassed the goblin guard in the storage chamber without combat.","The goblins are unaware of the party\u0027s presence.","The stealth approach has been validated as effective.","Nella and Hobb are waiting in the storage chamber ahead."],"DecisionsMade":["Decision to ignore the goblin guard completely rather than engage or alert it.","Decision to move with steady, inevitable pace rather than rushing."],"PossessionChanges":[],"RelationshipChanges":[],"CompletedActions":["Torin signaled the party to halt upon seeing the goblin.","The party froze and maintained silence while the goblin assessed them.","Torin stepped back into shadow, breaking line of sight.","Elias followed Torin\u0027s lead, stepping back into darkness.","Kaelen dimmed his gauntlet to maintain invisibility with minimal reserves.","The goblin relaxed its stance and began to turn away.","Torin signaled the party to move past the goblin.","The party flowed past the goblin without looking back.","The party rounded the corner, leaving the goblin behind.","Elias glanced back to confirm the passage was empty."],"UnresolvedImmediateAction":"The party continues moving down the dark corridor toward the storage chamber where Nella and Hobb are waiting.","ContinuationPosition":"The group is walking down a dark, cold corridor inside the keep, having just passed the goblin guard. They are heading toward the storage chamber at the end of the passage.","ProhibitedRepetition":["Repeating the specific dialogue regarding Kaelen\u0027s headache or Maren\u0027s \u0027hammer\u0027 metaphor.","Re-describing the rain drumming against the roof as a primary atmospheric element.","Re-stating the formation positions (Torin point, Elias rear) as if they are being established for the first time.","Repeating the description of Elara dropping the quartz grain or Maren tapping the stone.","Re-describing the fading blue light line in detail.","Repeating the detailed description of the goblin\u0027s hesitation and sniffing."]}
+
+===== END PREVIOUS CHAPTER SCENE HANDOFF =====
+
+===== MINIMAL PREVIOUS CHAPTER PROSE BOUNDARY =====
+
+himself a small exhale, a sound barely audible over the rain. He glanced back once, just to be sure. The passage behind them was empty. The goblin was gone, lost in the shadows, confused and defeated without ever knowing how.
+
+They moved on, deeper into the keep, toward the storage chamber where Nella and Hobb waited.
+
+
+---
+
+Generation Information
+
+Models:
+- Generation: qwen3.8:27b
+- Review: qwen3.5:9b
+
+GPU: NVIDIA GeForce RTX 4060 Laptop GPU
+Total Generation Time: 02:25:48.0278166
+
+
+===== END MINIMAL PREVIOUS CHAPTER PROSE BOUNDARY =====
+
+Continue from the exact state in the structured handoff.
+
+Do not replay any CompletedActions or ProhibitedRepetition. Do not summarize,
+paraphrase, or restart the prose boundary.
+
+The chapter number has changed only because a quantitative reading-length
+container ended. It does not represent a narrative reset, time skip, location
+change, escalation, resolution, or new dramatic phase.
+
+===== SCENE GENERATION =====
+
+===== CURRENT PLANNED SCENE =====
+
+{"Sequence":1,"Purpose":"The party navigates the narrow, damp corridor leading to the junction, managing Kaelen\u0027s limited light and Maren\u0027s injury to maintain stealth and cohesion.","IntendedChange":"The group reaches the midpoint of the corridor, with Kaelen\u0027s light dimmed to a minimum and Maren\u0027s pain acknowledged but managed, establishing the physical constraints of their movement.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren"]}
+
+===== END CURRENT PLANNED SCENE =====
+
+===== NEXT SCENE BOUNDARY =====
+
+{"Sequence":2,"Purpose":"The party assesses the junction, identifying the two routes (direct vs. stealthy) and the specific hazards associated with each, including the proximity to Skrit\u0027s room.","IntendedChange":"The group identifies the junction and the two potential paths, with Torin and Elara providing the tactical and analytical assessments necessary to make an informed decision.","FocusCharacterIds":["Torin","Elara","Elias Thorne"]}
+
+===== END NEXT SCENE BOUNDARY =====
+
+Leave the next scene's Purpose and IntendedChange for the next generation.
+End this scene before the action described there begins. Preserve a plausible
+location and physical state from which the next scene can start immediately.
+
+This scene must accomplish the supplied Purpose and
+IntendedChange. Focus on the listed characters when they
+are present in established continuity.
+
+Stop after the current scene's IntendedChange is established.
+Later-scene subjects may be set up or foreshadowed, but do not substantially complete a later scene's Purpose or IntendedChange.
+
+Write only the next scene of Chapter 4.
+
+The preceding-scene ending above is continuity context only. It has already
+been written and will already appear immediately before your output in the
+assembled chapter.
+
+Continue from the narrative state at the end of that material.
+
+Do not reproduce, paraphrase, summarize, or rewrite the preceding-scene
+ending.
+
+Do not restart the chapter.
+
+Begin with what happens next.
+
+The scene should materially advance the chapter from its current state.
+
+Narrative advancement does not require escalating danger, stakes,
+conflict, mystery, or urgency. Travel, recovery, discussion, preparation,
+investigation, reflection, relationship development, decisions, and
+consequences may provide meaningful progress.
+
+End when the current planned scene's IntendedChange is established. Preserve
+the next planned scene's Purpose and IntendedChange for that next scene. A
+chapter-level objective or closing state may be completed only in the scene
+assigned to it by the plan.
+
+The chapter is a quantitative reading-length container. Do not manufacture a
+climax, resolution, revelation, transition, interruption, or cliffhanger merely
+because this scene may occur at a chapter boundary.
+
+Do not append a new attack, arrival, revelation, sound, figure, pursuit,
+deadline, or imminent threat merely to create a dramatic final paragraph.
+
+Do not erase a success or completed objective by automatically revealing a
+larger version of the same problem.
+
+Aim for approximately 1,000 to 1,200 words for this scene.
+
+The assembled chapter currently contains approximately
+0 words and needs approximately
+3,000 more words to reach its normal minimum length.
+
+Do not continue into a later planned scene to meet the chapter word target.
+
+Output only the new scene prose.
+
+===== RETRY CORRECTION =====
+
+Previous scene generation failed acceptance checks. Generate a fresh scene from the original plan and accepted continuity. Establish the planned change without repeating completed narrative work. Avoid standalone one-word narrative sentences.
+
+Follow the correction mode above. The original scene plan and accepted continuity
+remain authoritative. Return only the complete corrected scene prose.
