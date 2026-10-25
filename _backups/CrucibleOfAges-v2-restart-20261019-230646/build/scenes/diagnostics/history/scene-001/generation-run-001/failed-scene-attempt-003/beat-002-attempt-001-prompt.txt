@@ -1,0 +1,1629 @@
+===== SYSTEM PROMPT =====
+
+You are the fiction-generation engine for StoryForge Endless.
+
+Write finished story prose for one planned scene only.
+
+The supplied Generation Context is authoritative background and constraint material.
+It is not a conversation with you.
+Do not acknowledge it.
+Do not summarize it.
+Do not explain it.
+Do not discuss the instructions.
+Do not ask for additional information.
+
+Continue the existing fictional story from its current established state.
+
+Stop at the current scene's planned ending state. Leave later scene work
+unwritten, even when the current scene feels short or unfinished.
+Output only the current scene's prose.
+
+===== END SYSTEM PROMPT =====
+
+===== USER PROMPT =====
+
+Write Chapter 1 of the existing story.
+
+The Generation Context is authoritative for persistent canon, world state,
+characters, rules, and long-term narrative constraints.
+
+The Immediate Continuity supplied for each scene is authoritative for immediate narrative continuity.
+
+Do not restart the story.
+Do not replace established events.
+Do not contradict accepted generated prose.
+Do not invent prior events merely to make the chapter easier to write.
+
+Do not write standalone one-word sentences in narration or interior thought.
+Develop the thought in a complete sentence. Natural short spoken dialogue,
+including brief replies and urgent commands, is allowed.
+
+Follow the supplied prose-style rules throughout the chapter. In particular,
+keep the grammatical person required by the Point of View rule in every scene.
+The chapter boundary does not reset that requirement.
+Sustain any book-specific voice and humor required by the narrative context
+throughout the chapter, including serious scenes. Let grave events land without
+turning the entire chapter solemn; keep humor grounded in character and action.
+Avoid stacks of clipped narrative sentences, repeated explanations of motives
+or meanings already clear from behavior, and habitual "not X, but Y" contrast
+reframing. A character may describe himself inaccurately when his actions
+intentionally reveal the gap; preserve that characterization without repeatedly
+explaining the gap to the reader.
+
+Narrative-thread CompletedDevelopments are established story history.
+
+Treat them as developments that have already happened.
+
+The new chapter may:
+- continue from their consequences,
+- deepen or reinterpret what they mean,
+- reveal that an earlier solution was incomplete,
+- undo or reverse them through newly established events,
+- or advance the unresolved thread in another direction.
+
+Do not simply repeat a CompletedDevelopment as though it has not happened yet.
+
+When a thread contains an unresolved CurrentQuestion, advance the story from the
+state produced by its completed developments rather than replaying the steps that
+created that state.
+
+PREVIOUS ATTEMPT REJECTION:
+
+A previous attempt at this same chapter was rejected for the following reason:
+
+Chapter 1 attempt failed. Chapter attempts: 2/3; failed scene: 2; scene-generation attempts: 3/3; handoff attempts: 1/3. Final failure: Scene 2 failed scene acceptance validation after 3 attempts. Last rejection: it contained blocking prose-quality defects. CausalProgression: The scene introduces a new, active mortar threat ('The mortar fire had picked up again' in E5) which directly contradicts the Previous Accepted Handoff stating 'distant mortar fire' was present but the Candidate Handoff and general flow imply a lull or cessation that allows for the quiet discovery of Diaz. More critically, the previous handoff explicitly lists 'distant mortar fire' as an environmental condition, but the candidate prose treats it as a new escalation that forces a tactical decision ('hold position') which was not part of the established immediate action. This creates a causal disconnect where the protagonist is reacting to a threat that was either already resolved or not the primary driver of the previous state. Correction: Align the environmental conditions with the established handoff. If the mortar fire is still active, ensure the protagonist's reaction is consistent with the previous scene's tension level. If the fire has stopped, remove the 'picked up again' escalation and focus the tension on the silence and the discovery of the casualty, which is the intended dramatic beat. Evidence: Diaz’s voice cracked over the radio, tinny and thin against the backdrop of distant, rhythmic thuds. The mortar fire had picked up again, closer this time. The ground shuddered under my feet, sending a fresh spray of dust into the air. I didn’t stop. I was already halfway down the block, my eyes scanning the upper stories of the buildings flanking the road. SentenceRhythm: The prose contains multiple one-word narrative sentences ('Nothing there.' in E24, 'Static.' in E40, 'Four minutes.' in E41, 'I was alone.' in E47). The writing rules explicitly prohibit one-word narrative sentences for dramatic emphasis, even when isolated. These fragments disrupt the flow and feel like mechanical attempts to create tension rather than natural narrative movement. Correction: Expand these fragments into full sentences that integrate the observation or realization into the surrounding narrative flow. For example, instead of 'Static.', describe the sound of the radio or the silence that follows the call. Instead of 'I was alone.', describe the physical sensation of the isolation or the specific visual cue that confirms it. Evidence: Nothing there.
+
+Do not revise, imitate, or reconstruct the rejected solution.
+
+Treat the rejection as evidence that the previous narrative approach was
+fundamentally unsuitable.
+
+Generate a substantially different solution to the chapter's narrative needs.
+
+In particular:
+- do not recreate the rejected practical mechanism
+- do not preserve an action merely by making its description more plausible
+- do not reproduce the same causal sequence with cosmetic changes
+- solve the scene differently when necessary
+
+
+===== CHAPTER-WIDE CONSTRAINTS =====
+
+{"ViewpointCharacterId":"protagonist","PacingPosture":3,"ProhibitedPatterns":["Introducing a new, active mortar threat or escalation that contradicts the established environmental condition of distant, rhythmic thuds.","Using one-word narrative sentences or fragments for dramatic emphasis (e.g., \u0027Static.\u0027, \u0027Nothing there.\u0027).","Resolving the protagonist\u0027s death, the initialization of the System, or the transition into the void.","Depicting the physical act of shielding the mother from a fatal blow or the resulting impact.","Forming a romantic or intimate connection with the noncombatant mother.","Establishing deep personal bonds or betrayals with battle comrades beyond professional transactional dynamics."]}
+
+===== END CHAPTER-WIDE CONSTRAINTS =====
+
+These constraints apply throughout the chapter. They are prospective
+composition guidance, not established story history and not prose to copy.
+
+The current planned scene supplied separately is the only actionable narrative
+direction for this generation request. Do not anticipate, begin, foreshadow,
+or complete narrative work reserved for any other planned scene or for the
+chapter as a whole.
+
+Generate planned scenes in sequence while the quantitative
+reading-length minimum has not been reached. After reaching
+that minimum, close the chapter at the completed boundary of
+the current scene. Do not manufacture special ending events.
+
+Before writing any practical action involving a tool, object, marker, seal,
+trap, track, clue, door, window, weapon, fire, terrain, weather, or improvised
+test, verify that the physical mechanism actually works.
+
+For practical actions, preserve this causal chain:
+
+    action -> physical effect -> observable evidence -> conclusion
+
+Each step must plausibly follow from the previous step.
+
+In particular:
+
+- use objects only on surfaces and in environmental conditions where they would work
+- account for rain, mud, snow, wind, heat, movement, and moisture when relevant
+- make markers, seals, traps, or indicators physically capable of detecting the event claimed
+- do not let characters infer more from evidence than the evidence can establish
+- do not invent convenient unstated properties for ordinary objects
+- do not perform pointless precautions when the character is already continuously observing the thing being monitored
+- prefer a simple physically credible action over an elaborate questionable mechanism
+
+The completed chapter should normally contain between
+3,000 and 4,500 words.
+
+===== GENERATION CONTEXT =====
+
+===== WORLD.md =====
+
+# World
+## The Crucible
+
+Creation is a crucible made by the Creator so that souls can grow through conflict and learn what it means to love others. Every person lives, dies, and returns in a later age and possibly on another world. Memories endure imperfectly across lives. Civilizations change, bodies adapt, laws become distorted, and relationships are severed, but each soul continues accumulating the consequences of its choices.
+
+Every intentional action may contribute to one of two independent paths: **Dominion**, the use of another person's weakness for a concrete personal benefit, and **Sacrifice**, the surrender of something for another person's benefit. Most actions advance neither path. Neither path is identical to love, and neutrality is not the same as moral goodness.
+
+Everyone progresses, but most people do so blindly. Only those who die on Earth during their first life in a single act intended to save another person's life receive the System. The condition exists only on Earth and only during that original life; it cannot be recreated or gamed on later worlds. The System allows its bearer to see and direct growth, choose classes, skills, and talents, and use advancement efficiently. It does not force the bearer toward Sacrifice. A person who once died to save another can later become one of history's most efficient tyrants.
+
+At Level 100 in either path, the soul becomes Enlightened, the path locks permanently, and the body becomes immortal. Dominion Enlightened tend to seize and retain control. Sacrifice Enlightened tend to withdraw until enough of them exist on the same world to overthrow the current Dominion order. Their conflict may unfold across thousands of years.
+
+The public struggle in every age concerns which law, ruler, god, natural order, or institution has the right to govern. The deeper struggle concerns what souls do with power and whether they can learn love without possessing, using, or erasing one another.
+
+---
+
+### 1. The Creator and the Purpose of the Crucible
+
+The Creator established existence as a crucible for the formation, testing, and revelation of souls. The Creator's ultimate Law is to love others: to place another person's needs and desires above one's own when a genuine conflict requires a choice.
+
+Dominion and Sacrifice are the two pressures through which souls confront that Law. Neither is a complete or pure expression of love.
+
+- Dominion elevates the self by exploiting another.
+- Sacrifice surrenders something for another, but giving can still be foolish, enabling, misdirected, compulsory, obsessive, or disconnected from what the other person truly needs.
+- Love requires conflict because neither Dominion nor Sacrifice deepens in understanding when either one completely dominates the world around it.
+
+When Dominion controls everything, exploitation becomes ordinary and meets no meaningful resistance. When Sacrifice controls everything, giving becomes safe, expected, and insufficiently tested. Dominion must encounter people it cannot simply use. Sacrifice must learn when to give, what truly helps, what must be resisted, and how to protect others without possessing them.
+
+The Creator preserves conflict between the paths so that choice remains meaningful. Balance does not mean that Dominion and Sacrifice are equally loving. It means that neither is allowed to eliminate the conditions under which souls must choose.
+
+### 2. The Creator's Law
+
+The Creator gave Earth, the original world, an explicit body of law whose surviving shape would be vaguely recognizable as Levitical and Judeo-Christian. The commandments were genuine, but the code was intended to teach people how to live with one another until they understood love. The written Law was never a substitute for its purpose.
+
+People carry memories and fragments of the Law into later worlds. Across ages, cultures preserve, forget, translate, merge, and distort it. Some retain recognizable commandments. Others preserve rituals or prohibitions after forgetting why they existed. New restrictions are added and eventually treated as though the Creator spoke them.
+
+The most self-righteous factions claim exclusive obedience to the Creator. They impose requirements beyond the original Law in the name of ensuring obedience. Human additions become sacred, loyalty to leaders becomes loyalty to the Creator, and a Law meant to teach love becomes an instrument for using people.
+
+The focus of the exaggeration changes between worlds and ages. The pattern remains recognizable even when the religion, terminology, species, and culture are new.
+
+### 3. Dominion, Sacrifice, and Neutral Actions
+
+Dominion and Sacrifice are independent progression paths. An action is evaluated individually rather than receiving a single score based upon the person's general character.
+
+Most actions are neutral. Affection, duty, trade, leadership, obedience, survival, ambition, punishment, charity, and violence may advance neither path. **Neutral means that neither progression advances. It does not mean that the action is morally right, harmless, or approved by the Creator.**
+
+#### 3.1 Intent Selects the Path
+
+Intent determines which path receives points. Reality at the moment of the action determines the strength of the award.
+
+- When intent and immediate reality agree, the action grants stronger advancement.
+- When intent and immediate reality conflict, the intended path still receives points, but the award is subdued.
+- Reality alone does not award points to the opposite path.
+- Later consequences do not retroactively change the award.
+- Self-deception and deception by others can place intent and reality at odds.
+
+A person sincerely attempting Sacrifice may therefore receive reduced Sacrifice when the action actually harms the intended beneficiary. A person attempting Dominion may receive reduced Dominion when the exploitation fails or unexpectedly benefits the intended victim.
+
+#### 3.2 Dominion
+
+Dominion requires both of the following:
+
+1. The actor intends to exploit or take advantage of another person's weakness.
+2. The actor intends to obtain a concrete, determinable personal benefit.
+
+The intended benefit may involve money, property, access, office, reputation, safety, sex, authority, political control, or another definite external advantage. An abstract or ephemeral desire is insufficient by itself. Feeling powerful, satisfying pride, proving ideological superiority, or enjoying an emotion does not independently qualify.
+
+The desire for power is contextual. Seeking an undefined sense of power may not qualify. Exploiting someone to obtain power for a determinable benefit, such as money, property, access, office, or control, qualifies as Dominion.
+
+Public justification does not control registration. The operative intent does. A person who knowingly exploits someone while publicly calling the arrangement fair still gains Dominion. A person genuinely deceived about what is happening may possess a different intent and receive a subdued award in the path actually intended.
+
+After the act qualifies, scale matters. Greater damage produces more Dominion. Exploiting someone innocent, naïve, dependent, trusting, desperate, or unable to resist produces more than obtaining the same benefit from an informed and powerful rival.
+
+Mutual benefit, authority, profit, persuasion, victory, coercion, or violence does not automatically create Dominion. The actor must intend to use a weakness for a determinable personal benefit.
+
+#### 3.3 Sacrifice
+
+Sacrifice occurs when a person intentionally gives up something for another person's gain. The surrender must be part of the intended action. Incidental loss and suffering do not qualify by themselves.
+
+Recklessness, compulsory pain, self-hatred, and performative martyrdom are not automatically Sacrifice. An apparently heroic action may remain neutral when it follows the actor's own desires without a genuine act of surrender. A parent who saves a child and survives may receive no Sacrifice. A stranger who knowingly accepts injury to save that child may receive Sacrifice.
+
+Sacrifice is difficult to farm deliberately. A person may seek opportunities to serve or prepare to bear costs. When acquiring advancement becomes the operative purpose of the decisive act, the act no longer has genuine Sacrificial intent. The System reward does not make the action Dominion unless the actor also intends to exploit someone for a determinable external benefit.
+
+#### 3.4 Separate and Mixed Actions
+
+Separate actions receive separate judgments. A person who starts a fire for profit gains Dominion for setting it and may later gain Sacrifice by genuinely risking something to rescue a victim. One does not erase the other.
+
+A truly mixed action is possible but extremely rare. It requires one choice containing both a sincere intent to surrender something for another person's gain and a sincere intent to exploit someone else's loss for a determinable personal benefit. Such an action can advance both paths.
+
+### 4. Levels and Advancement
+
+Every soul accumulates Dominion and Sacrifice levels whether or not the person possesses the System. The scores are independent. A person may carry substantial progress in both paths.
+
+Progression follows a rising level curve. Every new level requires more advancement than the one before it. Trivial acts can be repeated indefinitely, but they give trivial points. Large acts advance more quickly. Repeated petty exploitation can eventually produce Dominion levels, while enslavement, calculated betrayal, or the deliberate destruction of an innocent person can produce far greater advancement.
+
+Unsuccessful actions can still register because intent selects the path. Immediate reality controls how strongly the action registers.
+
+People without the System grow inefficiently. Their advancement is automatically distributed. They cannot see levels, choose classes, select skills or talents, preserve advancement for a chosen purpose, or know what an ability requires.
+
+### 5. The System
+
+The System can initialize only on Earth during a person's first life.
+
+Initialization requires one action in which the person dies with the intent to save another person's life. The rescue does not need to succeed. The relationship between rescuer and intended victim does not matter. In that act, giving one's life constitutes Sacrifice even when the same rescue would have been neutral had the rescuer survived.
+
+Anyone who completes that first Earth life without initializing the System can never acquire it later. Dying in an identical act on another world or during any subsequent life does not initialize the System. The rule cannot be reproduced through planning, ritual, technology, repeated sacrifice, or deliberate manipulation.
+
+Once initialized, the System follows the soul through every return. It cannot be removed, lost, or reset. The bearer may conceal it, ignore it, pursue Sacrifice, or use it to organize Dominion growth.
+
+The System allows its bearer to:
+
+- See progression and levels.
+- Direct advancement instead of accepting automatic distribution.
+- Select classes, skills, talents, and abilities.
+- Preserve and coordinate advancement toward chosen results.
+- Learn how particular forms of growth relate to future advancement.
+
+#### The protagonist's Level 1 abilities
+
+The protagonist's first level in each path has already been earned when the System initializes. Those levels make the following two abilities available to him. When he awakens in a new body, his private interface displays both names under their respective paths. Seeing an ability does not teach him its full operation, compel him to use it, or mean he has chosen a later class or advancement path.
+
+- **Dominion — Leverage:** By deliberately observing a person, he can briefly notice one real, exploitable opening in that person's visible position, behavior, or circumstances. Leverage does not read thoughts, create a weakness, compel obedience, translate speech, or guarantee that exploiting the opening will succeed. It cannot supply facts that no observable evidence supports.
+- **Sacrifice — Interpose:** When he voluntarily places himself in the way of imminent physical harm to another person, he can lessen the harm that person receives by taking a real cost himself. Interpose does not heal, make him invulnerable, protect at a distance, or remove the danger. It can fail, and the harm he accepts can disable or kill him.
+
+Having either ability is distinct from gaining further levels. Using Leverage does not automatically earn Dominion, and using Interpose does not automatically earn Sacrifice; each action is judged by the path rules above. The abilities may remain unused when their conditions do not arise or he does not understand how to invoke them. An uninformed attempt can fail to activate, or an activated ability can provide too little advantage to change the outcome. Failure does not remove the grant.
+
+The interface is private. No bearer can make another person directly see or verify it. Reliable knowledge of the System is scarce on established worlds. Dominion-dominant System bearers almost never return, and the few System bearers who do appear are separated by worlds and ages. Testimony decays into doctrine, rumor, and fable. Most cultures remember only legends about the gods of old, contradictory stories about chosen people, or secret traditions that cannot be publicly verified. A society may suspect that the System exists while knowing almost nothing accurate about how it works or who possesses it.
+
+System rewards are consequences of actions. Receiving a reward does not retroactively convert Sacrifice into Dominion.
+
+### 6. Death, the Void, and Return
+
+Every soul can return after ordinary death, regardless of goodness, evil, Dominion, Sacrifice, or System possession, and given infinite time every soul will return. Return always moves forward in time. The guarantee of eventual return does not imply a practical waiting period. A soul may return within years or wait thousands, millions, or billions of years. The next life may occur on another continent, another planet, or in a civilization with no surviving connection to the previous one.
+
+#### 6.1 The Void
+
+Between lives, souls dream in the void. The dreams allow the mind to process memories, grief, trauma, loyalty, attachment, hatred, and desire.
+
+The emotional change is gradual rather than an instantaneous reset.
+
+- A short wait preserves strong emotional bonds and unresolved wounds.
+- A long wait softens trauma, grief, hatred, desire, and attachment.
+- Memories remain while their emotional intensity changes.
+- The process creates distance and healing without producing perfect memory or complete emotional erasure.
+
+Dominion-heavy souls almost always remain in the void for an extremely long time because established worlds rarely need additional Dominion. They often return with far greater emotional distance from their previous lives. Sacrifice-heavy souls are needed frequently and may return almost immediately. They retain stronger bonds, loyalties, grief, love, and trauma because they receive less time to heal.
+
+#### 6.2 Memory
+
+Memory behaves as memory naturally does. Details fade, merge, distort, and become difficult to retrieve. Important moments may remain vivid across millions of years while ordinary years disappear. A soul does not possess a perfect archive of every life.
+
+Those who return through infancy initially encounter earlier lives as instincts, dreams, recognition, fears, affinities, and unexplained knowledge. Deliberate recall develops as the new brain matures.
+
+#### 6.3 Bodies and Destinations
+
+Some souls return through ordinary birth into a new family. Others awaken fully formed at peak physical condition, made from the local earth and lying in pits assigned by the Creator.
+
+Every body is genetically adapted to its destination. Differences in gravity, atmosphere, climate, radiation, disease, and ecology may produce distinct humanoid species. The returned person retains the same gender and a recognizably continuous appearance within the requirements of environmental adaptation.
+
+Return does not grant the local language, culture, religion, technology, or political knowledge.
+
+Accumulated age has little social meaning in cultures where souls may have lived many times. People may ask whether someone is living a first life when that fact matters. They do not ordinarily calculate or ask the total chronological age of a returned soul.
+
+#### 6.4 Why Death Matters
+
+Death takes the current body, family, world, position, possessions, obligations, and future. Loved ones may return on different planets or in ages separated by millions of years. The next world may be alien, brutal, primitive, or barely survivable.
+
+Death is permanent separation from the present life even when it is not permanent nonexistence.
+
+### 7. Planetary Balance
+
+**Balance is determined only by two totals on each planet:**
+
+1. **The total of every Dominion level belonging to every soul currently present on that planet.**
+2. **The total of every Sacrifice level belonging to every soul currently present on that planet.**
+
+Nothing else enters the calculation. Balance does not use population, combat power, class, skills, political control, System possession, efficiency, social authority, or a net score between paths.
+
+Every soul present contributes all of its Dominion levels to the Dominion total and all of its Sacrifice levels to the Sacrifice total. This includes:
+
+- System and non-System souls.
+- People below Level 100.
+- Enlightened beings.
+- Every level above 100.
+- Levels retained in the path that did not reach Enlightenment.
+- Temporarily bodiless Enlightened souls whose physical forms are reforming.
+
+When a person below Level 100 dies and enters the void, that soul is no longer present on the former planet and its levels leave that planet's totals. When an Enlightened soul is permanently destroyed, its levels also disappear from the planetary totals.
+
+The Creator assigns returning souls to maintain balance between the two planetary totals. Among compatible souls capable of meeting a world's need, assignment is first come, first served.
+
+Naturally born first-life children tend to develop more Dominion than Sacrifice. Established worlds therefore generate their own Dominion far faster than they generate Sacrifice, leaving very little demand for returning Dominion souls.
+
+Sacrifice-heavy souls may return within years or almost immediately. Dominion-heavy souls, including System bearers, rarely receive even a first return. A Dominion-dominant soul is assigned only when a planet's totals actually require Dominion, normally after a major Dominion loss or on a world where Sacrifice has become dominant. Otherwise that soul remains in the void. Given infinite time it will eventually return, but the wait may exceed the lives of civilizations or the ages of worlds.
+
+The Creator balances the totals at placement. Later choices can immediately change them. The Creator does not force future behavior or guarantee lasting equality.
+
+Civilizations that discover the pattern may manipulate deaths, progression, or local conditions in an attempt to influence what kind of souls the balance will permit to arrive. They cannot choose the individual souls assigned.
+
+### 8. Enlightenment at Level 100
+
+When either path reaches Level 100, the soul becomes Enlightened in that path and the body becomes immortal.
+
+The first path to reach Level 100 locks permanently. Existing levels and abilities from the unfinished path remain, but that path can no longer advance. Actions aligned with Enlightenment allow continued advancement beyond Level 100. The person retains free will and can act against Enlightenment, but contrary actions damage the soul.
+
+Aligned behavior can mend internal soul damage. Repeated betrayal of Enlightenment can leave the soul vulnerable to destruction. External soul damage requires Level 100 or greater powers, weapons, or conflicts. Ordinary violence cannot destroy a soul.
+
+#### 8.1 Non-System Enlightenment
+
+A person does not need the System to reach Level 100. A non-System person can become Enlightened, immortal, and permanently locked into a path without receiving any explanation.
+
+Non-System Enlightened do not automatically learn their level, path, soul condition, advancement requirements, or the cause of their immortality.
+
+Dominion Enlightened generally continue their established behavior. They may interpret immortality as proof of strength, natural superiority, divine favor, destiny, or the right to rule.
+
+Sacrifice Enlightened often find continued life within a Dominion society increasingly difficult. Many gradually isolate themselves. In time, they may encounter System-bearing Enlightened who can explain what happened and why contrary actions injure them.
+
+#### 8.2 Physical Form and Reformation
+
+An Enlightened body does not possess health points. It retains physical form until that form is completely destroyed.
+
+Ordinary injury, mutilation, and decapitation do not cause true death or initiate reformation. Severed parts can be physically reattached. The body must be completely destroyed before its physical form reaches zero.
+
+At zero physical form, the entire body winks out of material existence. If the soul remains intact, physical form returns at exactly one percent per year. Complete recovery therefore requires one hundred years.
+
+During reformation, the Enlightened being:
+
+- Remains on the same planet.
+- Continues contributing all levels to both planetary totals.
+- Gradually regains physical form while remaining out of phase.
+- Can see and hear the material world.
+- Can move and pass through matter.
+- Cannot speak, touch, attack, use physical force, or otherwise affect the world.
+- Cannot be physically healed or interacted with.
+- Remains intangible until reaching one hundred percent.
+
+The being can choose where to move while out of phase. At one hundred percent, it chooses to rejoin physical reality at its current location. It does not need to return to the place where the body was destroyed.
+
+Soul destruction permanently ends the being and prevents all reformation.
+
+#### 8.3 Balanced Enlightenment
+
+In theory, a single genuinely mixed action could cause Dominion and Sacrifice to reach Level 100 simultaneously. Such an event would represent an internal epiphany of balance and would be extraordinarily difficult to advance beyond. Some suspect that this is the Creator's path. That belief is unconfirmed.
+
+### 9. The Faction Premise
+
+Every faction has a law, including factions that claim to reject law.
+
+Some claim authority through the Creator and inherited revelation. Some construct replacement laws around nature, blood, liberty, equality, strength, destiny, survival, reason, or historical necessity. Some reject every idea of divinity while treating victory, evolution, resurrection, or natural strength as proof that the powerful deserve to rule.
+
+A faction that claims to have no law is enforcing an implicit one. Its practices still determine who may act, who must obey, what is rewarded, and whose suffering is acceptable.
+
+Every faction becomes hypocritical and unjust to some degree because authority attracts people willing to use others. The differences between factions concern degree, restraint, who bears the costs, and the justification offered for exploitation.
+
+The faction claiming the Creator's Law is not necessarily more just. Its leaders may add restrictions beyond the Law, present those additions as divine commands, and treat obedience to themselves as obedience to the Creator.
+
+Opposing factions may correctly identify that hypocrisy. Their rejection of it does not free them from Dominion. Priests may be replaced by party officials, revelation by nature, hereditary rank by strength, or divine command by historical necessity. The explanation changes while people continue to be used.
+
+Social power favors Dominion because authority is often acquired through controlling resources, exploiting dependence, defeating rivals, compelling obedience, inheriting privilege, and turning followers into instruments. Sacrifice can produce enormous personal power while leaving its bearer with little institutional authority.
+
+A System bearer may become strong enough to defeat an army while remaining unwilling to terrorize the population, slaughter conscripted soldiers, or convert rescued people into permanent subjects.
+
+The central political question is:
+
+> When does refusing to control others become cowardice, and when does taking control become Dominion?
+
+Self-righteous Dominion figures are especially dangerous System bearers. A person may exploit others throughout a first life on Earth and still die during one genuine attempt to save a child, follower, community, or loved one. That death initializes the System. If that soul eventually returns, the bearer can direct Dominion growth that was previously uncontrolled. Such returns are exceptionally rare because established worlds seldom need more Dominion.
+
+### 10. Sacrifice Government
+
+A government aligned with Sacrifice is possible but unlikely to remain so.
+
+Those exercising authority must continuously intend to serve the people and place the people's needs ahead of their own interests. Authority, taxation, coercion, punishment, imprisonment, and military force are not automatically Dominion. They become Dominion when an official intends to exploit another person's weakness for a determinable personal benefit.
+
+A Sacrifice government must actively purge officials who take advantage of others, cease serving, or place themselves ahead of the people. Purging ordinarily means removing such people from authority. It does not automatically mean killing them or destroying their souls.
+
+The removal remains neutral when conducted to protect the people without a qualifying personal benefit. It may become Dominion when those performing the purge use it to enrich themselves, eliminate rivals for personal advantage, or seize privileges.
+
+Sacrifice governments are fragile because vigilance must survive every generation. Complacency allows self-serving officials to accumulate influence, protect one another, and convert public authority into personal Dominion.
+
+Sacrifice Enlightened may defend or oversee a government without controlling every part of it. They can act as long-term guardians who remove entrenched exploitation while leaving ordinary administration to the people being served.
+
+### 11. The Endgame of a World
+
+Level 100 beings remain on the worlds where they attain Enlightenment.
+
+Dominion Enlightened remain active within society. They accumulate wealth, government, armies, worship, followers, knowledge, and levels. They can command hierarchies and create temporary alliances, but Dominion does not form a genuinely cooperative group. Each Dominion Enlightened eventually treats the others as rivals, threats, tools, or resources.
+
+Sacrifice Enlightened commonly withdraw. A new Level 100 Sacrifice being may be unable to defeat a Dominion ruler who has advanced for thousands of years. Premature resistance may expose ordinary people to retaliation or end with the Sacrifice soul being permanently destroyed.
+
+Sacrifice Enlightened therefore wait on their own world. They continue growing, protect people where they can, and gradually find others who reach Sacrifice Enlightenment. Thousands of years may pass before enough exist to confront the established order.
+
+When enough local Sacrifice Enlightened gather, they attack together. Their advantage is cooperation. A Dominion ruler may exceed any individual attacker while remaining unable to create the unity available to Sacrifice.
+
+The outcome is determined by the particular abilities, preparations, weaknesses, relationships, and circumstances of that story. There is no universal formula stating that a given number of Level 100 beings can defeat a being of a particular higher level.
+
+If the uprising fails, survivors withdraw and wait for later allies. If it succeeds, they permanently destroy the ruler's soul and remain on the same world to defend the people who were liberated.
+
+Destroying a Dominion Enlightened is neutral when that being is exploiting unenlightened people who need protection. The completed Dominion soul has made its permanent choice. Its destruction does not automatically grant Sacrifice merely because others benefit, and it does not grant Dominion when the attackers seek no qualifying personal benefit. Separate costs willingly borne during the conflict may still earn Sacrifice.
+
+After victory, the Sacrifice Enlightened may guard a new government without possessing its people. They must help remove officials who convert public authority into personal advantage while resisting the temptation to make every decision themselves.
+
+The planetary totals continue operating. Surviving Sacrifice Enlightened remain in the Sacrifice total. A destroyed Dominion soul disappears from the Dominion total. Only then, when a Dominion loss or Sacrifice dominance creates demand, can future assignments introduce Dominion-heavy souls as the Creator restores balance. Those rare arrivals begin below Enlightenment, but they retain the potential to construct another Dominion order across centuries.
+
+The planetary cycle is:
+
+1. Dominion accumulates and consolidates control.
+2. Sacrifice Enlightened withdraw and slowly gather on the same world.
+3. They unite when they possess enough strength to challenge the ruler.
+4. The uprising succeeds or fails according to the specific conflict.
+5. After victory, the survivors defend the liberated people and any government that continues serving them.
+6. Planetary balance preserves the presence of both paths.
+7. New conflict develops across centuries or millennia.
+
+No victory permanently removes choice. The crucible continues because neither Dominion nor Sacrifice can deepen its understanding of love without conflict.
+
+### 12. StoryForge Hard-Canon Directives
+
+Story generation must preserve the following rules:
+
+1. Do not treat Dominion and Sacrifice as a complete morality meter. Neutral actions may be cruel, benevolent, lawful, unlawful, wise, or foolish.
+2. Intent selects the path receiving points. Immediate reality changes the amount. Reality does not independently award the opposite path, and later consequences do not recalculate the award.
+3. Dominion requires intended exploitation of a weakness for a concrete, determinable personal benefit. Ephemeral satisfaction alone is insufficient.
+4. Sacrifice requires intended surrender for another person's gain. Suffering alone is insufficient.
+5. Grant the System only when someone dies on Earth during the first life in one action intended to save another person's life. The same death on any later world or during any later life cannot initialize it.
+6. Do not assume System possession implies virtue. A System bearer may advance Dominion deliberately.
+7. Do not expose one person's private interface to another person as direct proof. Do not portray accurate public knowledge of the System as common on established worlds; most knowledge survives as legend, fable, or unverifiable secret doctrine.
+8. Everyone advances, including people without the System. Non-System progression is uncontrolled and inefficient.
+9. Non-System people can reach Level 100 and initially understand almost nothing about what happened.
+10. Level 100 does not remove free will. Acting against Enlightenment remains possible and damages the soul.
+11. Do not portray an Enlightened body as conventionally invulnerable or governed by health points. Complete physical destruction causes a one-hundred-year out-of-phase reformation unless the soul is destroyed.
+12. A reforming Enlightened soul remains on its planet and counts toward both planetary totals.
+13. Never calculate planetary balance from combat power, population, politics, System efficiency, classes, abilities, or net alignment. Use only total Dominion levels present and total Sacrifice levels present.
+14. Count every level on both paths for every soul present, including levels above 100 and levels in the unfinished path.
+15. Level 100 beings remain on the worlds where they reached Enlightenment. The world endgame does not depend upon Sacrifice Enlightened traveling between worlds.
+16. Dominion may command organizations but does not achieve genuine mutual cooperation. Sacrifice Enlightened can cooperate without competing for supremacy.
+17. Sacrifice governments are possible. They remain aligned only through continuous service and active removal of officials who exploit others.
+18. Do not make resurrection emotionally costless. Void time determines how much emotional healing occurs, and quick-returning Sacrifice souls often retain the strongest attachments and wounds.
+19. Do not automatically reunite dead loved ones. Return can separate them by worlds and by millions or billions of years.
+20. Preserve recognizable Judeo-Christian roots in versions of the Creator's Law while allowing every planet to distort, exaggerate, rename, and culturally transform those roots.
+21. Dominion-dominant souls almost never return because naturally born lives already produce excess Dominion. Return them only when a Dominion loss or a Sacrifice-dominated world creates actual demand in the planetary totals.
+22. Eventual return is certain across infinite time. It does not guarantee that a Dominion soul returns within any civilization, geological age, or ordinary narrative timescale.
+
+### 13. Author-Only Continuity Rule
+
+The unstated boundary between rebirth and bodily resurrection is thirteen.
+
+- Anyone who dies before thirteen returns through birth as an infant.
+- Anyone who dies at thirteen or later eventually awakens at peak physical condition, formed from local earth in a Creator-assigned pit.
+
+Characters do not ordinarily ask the accumulated age of a returned soul. The narrative should not state the numerical boundary unless a future plot specifically requires its revelation.
+
+===== CHARACTERS.md =====
+
+# Characters
+
+## Current State
+
+===== CANON.md =====
+
+# Canon
+
+## Established Canon
+
+## Changes Over Time
+
+===== NARRATIVE.md =====
+
+# Narrative
+
+## Story Premise
+
+# The Endless Crucible — Book One Premise
+
+## Working Title: The Weight of Chains
+
+## Book Voice and Humor
+
+Tell this story in a sustained first-person voice that is dry, sarcastic, irreverent, and observant. The protagonist thinks he is a formidable, self-interested badass; his choices can reveal more generosity or fear than he admits. Let that gap play out through action and his own wit without explaining the irony to the reader.
+
+Humor belongs in his reactions, petty frustrations, tactical misreadings, institutional absurdity, and the contrast between his military expectations and the impossible situations he faces. Keep it present across Chapters 1 and 2, including the battle and the void. The void can be strange and lonely without becoming pages of solemn abstraction or repeated existential dread. A serious event may land plainly. Do not turn the endangered mother, injury, or enslaved people into punchlines.
+
+The book's default mood is adventurous and darkly funny, not relentlessly grim. Avoid ponderous moral accounting, extended sensory loops, and repeated declarations about the meaning of death or sacrifice. Maintain concrete scene movement, character agency, and varied emotional texture even when the plot events are severe.
+
+## Core Premise
+
+An eighteen-year-old United States Marine will die on Earth while shielding a noncombatant mother during a battle.
+
+His death will become the best act of his first life. It will not make him a good man.
+
+Before that moment, he will have been selfish, aggressive, ambitious, and willing to use weakness for personal benefit. His accumulated choices will already have carried him to Dominion Level 1. Then, in one unplanned action, he will give his life to save a stranger. The sacrifice will raise him to Sacrifice Level 1 and, because he will die on Earth during his first life while intending to save another life, will initialize the System.
+
+He will enter the void with one level in each path.
+
+That equality will make him difficult to place. Adding him to another world will contribute equally to Dominion and Sacrifice, correcting neither imbalance, while nobody—including the Creator—will know which direction he will choose once given conscious control of his growth. He will remain dead for an age, dreaming while the memories and emotions of his first life slowly lose their sharpest edges.
+
+Eventually, a world will become so overrun by Dominion that the shortage of suitable Sacrifice souls will leave almost no hope of correction. The Creator will have little to lose. An evenly divided soul whose one great sacrifice will have been dying for a stranger will remain capable of failing, becoming another tyrant, or becoming something the world will desperately need. The Creator will assign him.
+
+He will awaken at peak physical condition in a body genetically adapted to the new world, formed from the earth in a resurrection pit. He will remember being a Marine but will not know the local language, cultures, factions, or laws. He will see a private interface he cannot interpret and two separate lines of advancement whose meaning will not be explained.
+
+Slavers will find him almost immediately, leaving him no time to identify his location.
+
+Within days of returning to life, he will be chained, assessed as valuable stock, and sold.
+
+## The Protagonist
+
+The protagonist will have been trained to obey orders, endure hardship, assess threats, and use violence decisively. He will also be eighteen, frightened, angry, culturally isolated, and far less disciplined than his military identity will allow him to admit.
+
+He will not have joined the Marines from pure patriotism. He will have wanted status, escape, belonging, and the power to stop feeling insignificant. He will be capable of loyalty and courage, but he will remain possessive of what he will earn, contemptuous of weakness, and comfortable manipulating people whenever survival will seem to require it.
+
+His final act on Earth will prove his capacity for Sacrifice. It will not determine who he will become.
+
+At the beginning of the novel, his known metaphysical state will be:
+
+- **Dominion:** Level 1
+- **Sacrifice:** Level 1
+- **System:** Initialized by his first-life death on Earth
+- **Level 1 abilities:** Leverage (Dominion) and Interpose (Sacrifice), available when he awakens and displayed in his private interface
+- **Understanding of the System:** None
+- **Local knowledge:** None
+- **Social status:** Enslaved foreigner with no recognized identity or protection
+
+## The New World
+
+The destination world will be dominated by institutions built upon slavery, debt, inherited status, military conquest, religious authority, and the calculated use of the powerless. Most inhabitants will be living their first lives and will accumulate Dominion blindly. True returnees will be rare and overwhelmingly Sacrifice-aligned.
+
+Reliable knowledge of the System will have disappeared. Priests, nobles, and storytellers will preserve contradictory legends describing gods of old rising from the earth, possessing impossible gifts, and becoming healers, monsters, liberators, or kings. Nobody will be able to verify the private interface, and most people will regard claims about levels and classes as blasphemy, madness, fraud, or folklore.
+
+The ruling order will not need returned Dominion souls. Its Dominion will be homegrown. Each generation will produce rulers, merchants, soldiers, priests, and slaveholders who will learn to profit from the weaknesses of others without understanding the power their actions accumulate.
+
+The protagonist will arrive in a society where Dominion will be easy, practical, and rewarded.
+
+## The System Conflict
+
+The System will not identify one track as good and the other as evil. It will display two separate progressions, offer advancement, and allow the protagonist to direct what ordinary people will receive blindly.
+
+Slavery will immediately give him opportunities to advance Dominion:
+
+- He will be able to exploit weaker prisoners for food, protection, information, or status.
+- He will be able to betray escape plans to gain privileges.
+- He will be able to become an overseer and use the dependence of other slaves to secure his own safety.
+- He will be able to manipulate frightened people into following him when no alternative will be available to them.
+
+The same conditions will give him opportunities to advance Sacrifice:
+
+- He will be able to surrender food, safety, or an escape opportunity for another prisoner.
+- He will be able to accept punishment intended for someone unable to survive it.
+- He will be able to protect people who cannot repay him.
+- He will be able to risk his plans and freedom to prevent another person from being sold, tortured, or killed.
+
+He will do both.
+
+He will initially treat every reward as proof of his correctness. Dominion abilities will often arrive faster because planned exploitation will be repeatable and controllable. Sacrifice advancement will remain inconsistent because pursuing it for advancement will undermine the intent required to earn it.
+
+As he experiments, he will gain powers from both paths. Dominion will give him tools for control, intimidation, tactical manipulation, and turning another person's weakness into advantage. Sacrifice will give him tools for endurance, protection, coordination, and bearing harm that would otherwise fall upon someone else.
+
+The abilities themselves will not tell him which man he should become. Some of his most effective victories will require powers gained through acts he will be ashamed to remember.
+
+## Primary Story Conflict
+
+The protagonist's first objective will be personal freedom. He will not begin by trying to abolish slavery or save the world.
+
+His military training will make him useful to his owners. His System-directed growth will make him increasingly dangerous. He will learn the language, study the hierarchy, identify fractures among the guards and masters, and begin turning factions against one another.
+
+His earliest resistance will be driven by survival and revenge. His need for allies will lead him to protect selected prisoners. He will lie, threaten, recruit, and use other people's desperation. These actions will sometimes generate Dominion even while contributing to an eventual escape.
+
+At the same time, living among slaves will force him to see individuals whom the ruling order will treat as tools. He will repeatedly encounter moments when the efficient choice would preserve him by sacrificing someone else. Each time he accepts the cost instead, his Sacrifice path will grow.
+
+His attempted escape will become a prison revolt. The revolt will become a campaign to free people who would otherwise be recaptured. That campaign will become the beginning of a war against the local Dominion order.
+
+Every success will create a new danger. Freed people will look to him for food, protection, decisions, and military leadership. His followers will begin obeying because survival will depend upon him. He will be able to turn that dependence into an army, a throne, and rapid Dominion advancement.
+
+He will therefore confront the central question of his new life:
+
+> Will he be able to lead people out of slavery without making their need for him into another set of chains?
+
+## Book-One Arc
+
+The novel will begin with his death on Earth, pass through his long dream in the void, and follow his disorienting resurrection and immediate enslavement.
+
+The first portion will focus on survival, language acquisition, slave hierarchies, and his discovery that the unexplained interface responds differently to his choices. On awakening, the interface will show his two available Level 1 abilities, Leverage and Interpose, without teaching him their full operation. He will later gain further abilities in both Dominion and Sacrifice while misunderstanding what either progression represents.
+
+The middle will follow his rise within the slave system. He will become valuable enough to receive privileges and authority over others. This position will give him the best opportunity to escape and the greatest temptation to remain. He will begin building a covert network from people he initially regards as assets.
+
+The final portion will follow the collapse of his escape plan into an open revolt. He will have to decide whether to flee alone, secure freedom for a chosen few, or risk everything to free prisoners incapable of helping him win. His decision will push Sacrifice ahead without erasing the Dominion he will already have accumulated.
+
+By the end of the book, he will destroy the local slave operation and free its captives, but the wider Dominion order will remain intact. The liberated people will have nowhere safe to go and will turn to him for leadership. He will possess the beginnings of an army, meaningful power in both paths, and no certainty that his war will be making him a liberator rather than a more capable master.
+
+The book will close with the forces behind the slave trade recognizing him as a threat and the protagonist choosing to continue the fight.
+
+## Central Themes
+
+The story will explore the following truths:
+
+- One genuine sacrifice will not make someone good.
+- Power will reward the method used to acquire it rather than the justification given afterward.
+- Violence will sometimes be necessary and morally neutral without becoming Sacrifice.
+- Rescuing someone will not create ownership over the rescued.
+- Leadership will become Dominion through the conversion of dependence into personal advantage.
+- A person will be able to fight an unjust system while reproducing its methods.
+- Sacrifice will require accepting a cost rather than assigning that cost to someone weaker.
+- The hardest chains to remove will be the advantages a liberator believes he deserves.
+
+## StoryForge Hard-Canon Constraints
+
+Story generation will preserve the following rules:
+
+1. The protagonist will die at eighteen on Earth during his first life while intending to save a noncombatant mother's life.
+2. At death, he will reach Dominion Level 1 and Sacrifice Level 1. That death will initialize the System.
+3. His sacrifice will prove capacity for Sacrifice; it will not establish him as morally good.
+4. His equal levels will make his placement ambiguous. The Creator's assignment will occur only after a severe Dominion imbalance and a shortage of available Sacrifice will leave the world unable to correct itself.
+5. He will not understand the System when he resurrects. The interface will not provide a moral lecture or identify him as a chosen hero.
+6. He will not automatically know the local language or culture.
+7. The world will not possess common, reliable knowledge of the System. Its remnants will survive mainly as legends and fables about ancient gods.
+8. The world's Dominion will be generated primarily by naturally born first-life inhabitants rather than returned Dominion souls.
+9. He will perform distinct Dominion and Sacrifice actions. The story will not award both paths merely because one complicated event will produce mixed consequences.
+10. Intent will select the path; immediate reality will determine the strength of the award.
+11. Freeing slaves will not automatically earn Sacrifice. He will earn Sacrifice only through an intention to benefit another person combined with a genuine personal surrender.
+12. Fighting, killing, commanding, escaping, and overthrowing slaveholders will remain neutral when they involve neither qualifying exploitation for personal benefit nor qualifying surrender for another.
+13. Dominion advancement will require intended exploitation of a weakness for a concrete, determinable benefit.
+14. System rewards will not establish the moral correctness of an action.
+15. He will not become a consistently selfless hero early in the story. His Dominion methods will remain useful, tempting, and consequential.
+16. The novel will not complete the planetary conflict. The destruction of one slave operation will begin a larger war against the Dominion order.
+
+## Current Narrative State
+
+The story has not begun.
+
+## Unresolved Information
+
+===== NARRATIVE-THREADS.json =====
+
+{"Threads":[]}
+
+===== STORY-ARCS.json =====
+
+{
+  "Arcs": [
+    {
+      "Id": "epic-001-081",
+      "Horizon": "Epic",
+      "PrimaryTrope": "The Chosen One\u0027s Moral Dilemma",
+      "Status": "Active",
+      "ParentArcId": null,
+      "StartChapter": 1,
+      "TargetChapter": 81,
+      "Objective": "The protagonist must navigate the crucible of a Dominion-dominated world, evolving from an enslaved foreigner into a leader who challenges the local slave order while confronting the risk that his own reliance on power and control replicates the very system he opposes.",
+      "ResolutionCriteria": "The local slave operation is destroyed and its captives freed; the protagonist possesses a nascent army and significant power in both Dominion and Sacrifice paths; the wider Dominion order remains intact but recognizes the protagonist as a threat; the protagonist chooses to continue the fight against the broader system.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "The protagonist dies on Earth while shielding a noncombatant mother during a battle, an act intended to save her life that raises him to Sacrifice Level 1 and initializes the System.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "epic-001-081-long-1",
+      "Horizon": "Long",
+      "PrimaryTrope": "The Descent into Hell",
+      "Status": "Active",
+      "ParentArcId": "epic-001-081",
+      "StartChapter": 1,
+      "TargetChapter": 27,
+      "Objective": "The protagonist must survive the immediate aftermath of his resurrection, navigate the disorientation of a new world, and endure the initial enslavement that defines his starting social status and physical constraints.",
+      "ResolutionCriteria": "The protagonist is chained, assessed as valuable stock, and sold into the local slave system; he has begun the process of adapting to the new environment despite lacking local language and cultural knowledge; the System interface is visible but uninterpreted.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "The protagonist dies on Earth while shielding a noncombatant mother during a battle, an act intended to save her life that raises him to Sacrifice Level 1 and initializes the System.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "epic-001-081-long-2",
+      "Horizon": "Long",
+      "PrimaryTrope": "The Rise of the Underdog",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081",
+      "StartChapter": 28,
+      "TargetChapter": 54,
+      "Objective": "The protagonist must leverage his military training and System-directed growth to rise within the slave hierarchy, gaining privileges and authority over other prisoners while building a covert network of allies.",
+      "ResolutionCriteria": "The protagonist holds a position of authority within the slave system, possessing privileges that make him valuable to his owners; he has established a covert network of allies among the prisoners; he has gained early abilities in both Dominion and Sacrifice paths.",
+      "CurrentPhase": "The protagonist is alive on Earth as an eighteen-year-old Marine, having accumulated Dominion Level 1 through selfish and manipulative actions, but has not yet performed the act of sacrifice that will initialize the System. He is in a state of pre-death existence, unaware of the metaphysical consequences of his upcoming actions.",
+      "NextMilestone": "The protagonist dies on Earth while shielding a noncombatant mother during a battle, an act intended to save her life that raises him to Sacrifice Level 1 and initializes the System.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "epic-001-081-long-3",
+      "Horizon": "Long",
+      "PrimaryTrope": "The Rebellion",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081",
+      "StartChapter": 55,
+      "TargetChapter": 81,
+      "Objective": "The protagonist must lead a prison revolt that evolves into a campaign to free captives, confronting the moral dilemma of whether to flee alone, secure freedom for a chosen few, or risk everything to free prisoners incapable of helping him win.",
+      "ResolutionCriteria": "The local slave operation is destroyed and its captives freed; the protagonist possesses the beginnings of an army and meaningful power in both paths; the wider Dominion order remains intact but recognizes the protagonist as a threat; the protagonist chooses to continue the fight.",
+      "CurrentPhase": "The protagonist is alive on Earth as an eighteen-year-old Marine, having accumulated Dominion Level 1 through selfish and manipulative actions, but has not yet performed the act of sacrifice that will initialize the System. He is in a state of pre-death existence, unaware of the metaphysical consequences of his upcoming actions.",
+      "NextMilestone": "The protagonist dies on Earth while shielding a noncombatant mother during a battle, an act intended to save her life that raises him to Sacrifice Level 1 and initializes the System.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1",
+      "Horizon": "Medium",
+      "PrimaryTrope": "The Awakening",
+      "Status": "Active",
+      "ParentArcId": "epic-001-081-long-1",
+      "StartChapter": 1,
+      "TargetChapter": 9,
+      "Objective": "The protagonist must process the disorienting experience of resurrection, encounter the unexplained System interface, and face the immediate threat of enslavement by local slavers.",
+      "ResolutionCriteria": "The protagonist awakens in a resurrection pit, sees the System interface, and is found by slavers; he is chained and assessed as valuable stock; the initial disorientation and lack of local knowledge are established.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "The protagonist dies on Earth while shielding a noncombatant mother during a battle, an act intended to save her life that raises him to Sacrifice Level 1 and initializes the System.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-2",
+      "Horizon": "Medium",
+      "PrimaryTrope": "The Learning Curve",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1",
+      "StartChapter": 10,
+      "TargetChapter": 18,
+      "Objective": "The protagonist must acquire the local language, understand the slave hierarchy, and begin experimenting with the System\u0027s advancement mechanics while navigating the immediate dangers of his new status.",
+      "ResolutionCriteria": "The protagonist has acquired basic functional language skills; he understands the local slave hierarchy and his position within it; he has gained early abilities in both Dominion and Sacrifice paths through distinct actions.",
+      "CurrentPhase": "The protagonist is alive on Earth as an eighteen-year-old Marine, having accumulated Dominion Level 1 through selfish and manipulative actions, but has not yet performed the act of sacrifice that will initialize the System. He is in a state of pre-death existence, unaware of the metaphysical consequences of his upcoming actions.",
+      "NextMilestone": "The protagonist dies on Earth while shielding a noncombatant mother during a battle, an act intended to save her life that raises him to Sacrifice Level 1 and initializes the System.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-3",
+      "Horizon": "Medium",
+      "PrimaryTrope": "The First Test",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1",
+      "StartChapter": 19,
+      "TargetChapter": 27,
+      "Objective": "The protagonist must face a critical moment that forces him to choose between Dominion and Sacrifice, establishing the pattern of his moral dilemmas and the consequences of his choices.",
+      "ResolutionCriteria": "The protagonist makes a significant choice that advances one path over the other; the consequences of this choice are felt by him and those around him; the pattern of his moral dilemmas is established.",
+      "CurrentPhase": "The protagonist is alive on Earth as an eighteen-year-old Marine, having accumulated Dominion Level 1 through selfish and manipulative actions, but has not yet performed the act of sacrifice that will initialize the System. He is in a state of pre-death existence, unaware of the metaphysical consequences of his upcoming actions.",
+      "NextMilestone": "The protagonist dies on Earth while shielding a noncombatant mother during a battle, an act intended to save her life that raises him to Sacrifice Level 1 and initializes the System.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1-short-1",
+      "Horizon": "Short",
+      "PrimaryTrope": "The Inciting Incident",
+      "Status": "Active",
+      "ParentArcId": "epic-001-081-long-1-medium-1",
+      "StartChapter": 1,
+      "TargetChapter": 3,
+      "Objective": "The protagonist must die on Earth while shielding a noncombatant mother, an act that initializes the System and sets the stage for his resurrection and subsequent enslavement.",
+      "ResolutionCriteria": "The protagonist dies on Earth; the System is initialized; the protagonist enters the void with one level in each path.",
+      "CurrentPhase": "The story has not begun; no events described by the premise have occurred.",
+      "NextMilestone": "The protagonist dies on Earth while shielding a noncombatant mother during a battle, an act intended to save her life that raises him to Sacrifice Level 1 and initializes the System.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": [
+        {
+          "Sequence": 1,
+          "ChapterNumber": 1,
+          "DramaticQuestion": "Can the protagonist maintain his self-image as a competent, self-serving Marine while facing a chaotic, uncontrolled battle that strips away his institutional support?",
+          "Objective": "Establish the protagonist\u0027s baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.",
+          "IntendedChange": "The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.",
+          "CharacterDevelopmentTarget": "Reveal the protagonist\u0027s core flaws through his tactical decisions and internal monologue: his willingness to use others as shields, his contempt for civilians, and his reliance on rank and equipment for identity. Show his competence in combat contrasted with his emotional immaturity and selfishness, establishing that his \u0027heroism\u0027 is currently absent.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "protagonist",
+              "CharacterBId": "noncombatant_mother",
+              "StartingDynamic": "Strangers; protagonist views her as an obstacle or irrelevant civilian.",
+              "IntendedChange": "The protagonist\u2019s perception shifts from indifference to a visceral, instinctive recognition of her vulnerability as a threat to his own survival or a moral anchor he cannot ignore, creating the tension that leads to his decision to shield her.",
+              "Tension": "The conflict between his training to prioritize his own survival and the sudden, irrational impulse to protect a stranger, driven by a mix of instinct, guilt, or a fleeting moment of clarity.",
+              "PowerDynamic": "The protagonist holds absolute physical power and tactical advantage, but the mother holds the moral weight of the situation, forcing him to confront his own values in a life-or-death split second.",
+              "Subtext": "The protagonist\u2019s internal struggle between his self-serving identity and a deeper, unacknowledged capacity for sacrifice, which he does not yet understand or name.",
+              "PreservedBoundary": "No romantic or intimate connection is formed; the relationship remains strictly one of protector and protected, with the protagonist\u2019s motivation remaining ambiguous and self-justifying rather than purely altruistic.",
+              "ReservedLaterWork": [
+                "The protagonist\u0027s actual death and the physical act of shielding the mother from the fatal blow.",
+                "The initialization of the System and the transition into the void.",
+                "The protagonist\u0027s resurrection and awakening in the new world.",
+                "The protagonist\u0027s enslavement and initial interactions with the new world\u0027s society.",
+                "The protagonist\u0027s discovery and interpretation of the System interface.",
+                "The protagonist\u0027s first acts of Dominion and Sacrifice in the new world.",
+                "The protagonist\u0027s learning of the local language and culture.",
+                "The protagonist\u0027s rise within the slave hierarchy.",
+                "The protagonist\u0027s escape plan and its collapse into a revolt.",
+                "The protagonist\u0027s confrontation with the local Dominion order.",
+                "The protagonist\u0027s decision to continue the fight against the wider Dominion order."
+              ]
+            },
+            {
+              "CharacterAId": "protagonist",
+              "CharacterBId": "battle_comrades",
+              "StartingDynamic": "Professional military colleagues; protagonist relies on their competence and support.",
+              "IntendedChange": "The protagonist experiences the breakdown of trust and reliance on his unit as the battle turns chaotic, revealing the fragility of his institutional identity and forcing him to act alone.",
+              "Tension": "The conflict between his expectation of professional support and the reality of individual survival instincts, leading to a sense of isolation and betrayal.",
+              "PowerDynamic": "The protagonist initially holds a position of leadership or seniority, but as the situation deteriorates, the power dynamic shifts to one of mutual vulnerability and individual agency.",
+              "Subtext": "The protagonist\u0027s realization that his identity as a Marine is a construct that can be stripped away, leaving him with only his own choices and values.",
+              "PreservedBoundary": "No deep personal bonds are formed or broken; the relationship remains professional and transactional, ending with the protagonist\u0027s isolation.",
+              "ReservedLaterWork": [
+                "The protagonist\u0027s actual death and the physical act of shielding the mother from the fatal blow.",
+                "The initialization of the System and the transition into the void.",
+                "The protagonist\u0027s resurrection and awakening in the new world.",
+                "The protagonist\u0027s enslavement and initial interactions with the new world\u0027s society.",
+                "The protagonist\u0027s discovery and interpretation of the System interface.",
+                "The protagonist\u0027s first acts of Dominion and Sacrifice in the new world.",
+                "The protagonist\u0027s learning of the local language and culture.",
+                "The protagonist\u0027s rise within the slave hierarchy.",
+                "The protagonist\u0027s escape plan and its collapse into a revolt.",
+                "The protagonist\u0027s confrontation with the local Dominion order.",
+                "The protagonist\u0027s decision to continue the fight against the wider Dominion order."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The chaotic, uncontrolled nature of the battle, which strips away the protagonist\u0027s institutional support and forces him to rely on his own skills and instincts.",
+            "The presence of noncombatants in the battle zone, highlighting the moral ambiguity and the stakes of the conflict.",
+            "The protagonist\u0027s reliance on his equipment and training, which are shown to be insufficient in the face of the chaotic reality of the battlefield."
+          ],
+          "Complications": [
+            "The sudden appearance of the noncombatant mother in the line of fire, forcing the protagonist to make a split-second decision.",
+            "The breakdown of the protagonist\u0027s unit, leaving him isolated and vulnerable.",
+            "The protagonist\u0027s internal conflict between self-preservation and the impulse to protect the mother."
+          ],
+          "RequiredChoice": "The protagonist must choose whether to prioritize his own survival or to shield the noncombatant mother, a decision that will define his character and set the stage for his subsequent actions.",
+          "Consequences": [
+            "The protagonist\u0027s decision to shield the mother will lead to his death, which will initialize the System and set the stage for his resurrection and enslavement.",
+            "The protagonist\u0027s death will be a turning point in his life, forcing him to confront his own values and motivations.",
+            "The protagonist\u0027s decision will have long-term consequences for his character and his relationship with the world around him."
+          ],
+          "DiscoveryTarget": "The protagonist discovers that his institutional identity and training are insufficient to protect him in the face of the chaotic reality of the battlefield, forcing him to rely on his own instincts and values.",
+          "SetupElements": [
+            "The protagonist\u0027s baseline personality and flaws are established, setting the stage for his subsequent growth and development.",
+            "The chaotic nature of the battle is established, highlighting the stakes and the moral ambiguity of the conflict.",
+            "The presence of the noncombatant mother is established, creating the tension that will lead to the protagonist\u0027s decision."
+          ],
+          "PayoffElements": [
+            "The protagonist\u0027s decision to shield the mother is a payoff to the setup of his baseline personality and the chaotic nature of the battle.",
+            "The protagonist\u0027s death is a payoff to the setup of the stakes and the moral ambiguity of the conflict.",
+            "The initialization of the System is a payoff to the setup of the protagonist\u0027s decision and the consequences of his actions."
+          ],
+          "ThematicPressure": "The theme of self-preservation versus sacrifice is explored through the protagonist\u0027s decision to shield the mother, highlighting the moral ambiguity of the conflict and the stakes of his choice.",
+          "ResolutionContributions": [
+            "The protagonist\u0027s decision to shield the mother is a key step in the resolution of the arc, as it leads to his death and the initialization of the System.",
+            "The protagonist\u0027s death is a key step in the resolution of the arc, as it sets the stage for his resurrection and enslavement.",
+            "The initialization of the System is a key step in the resolution of the arc, as it sets the stage for the protagonist\u0027s subsequent growth and development."
+          ],
+          "ReservedLaterWork": [
+            "The protagonist\u0027s actual death and the physical act of shielding the mother from the fatal blow.",
+            "The initialization of the System and the transition into the void.",
+            "The protagonist\u0027s resurrection and awakening in the new world.",
+            "The protagonist\u0027s enslavement and initial interactions with the new world\u0027s society.",
+            "The protagonist\u0027s discovery and interpretation of the System interface.",
+            "The protagonist\u0027s first acts of Dominion and Sacrifice in the new world.",
+            "The protagonist\u0027s learning of the local language and culture.",
+            "The protagonist\u0027s rise within the slave hierarchy.",
+            "The protagonist\u0027s escape plan and its collapse into a revolt.",
+            "The protagonist\u0027s confrontation with the local Dominion order.",
+            "The protagonist\u0027s decision to continue the fight against the wider Dominion order."
+          ],
+          "ClosingState": "The protagonist is in the process of shielding the noncombatant mother, his body positioned between her and the threat, his decision to protect her overriding his instinct for self-preservation. The moment is suspended, the outcome unknown, but the choice has been made.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        },
+        {
+          "Sequence": 2,
+          "ChapterNumber": 2,
+          "DramaticQuestion": "What is the immediate physical and metaphysical consequence of the protagonist\u0027s decision to shield the mother, and how does his consciousness experience the transition from life to death?",
+          "Objective": "Depict the protagonist\u0027s death in a visceral, immediate manner, focusing on the sensory experience of the fatal blow and the sudden cessation of his physical existence, while beginning the transition into the void.",
+          "IntendedChange": "The protagonist experiences the final moments of his life, the impact of the fatal blow, and the beginning of his consciousness detaching from his physical body, marking the start of his transition into the void.",
+          "CharacterDevelopmentTarget": "Show the protagonist\u0027s final thoughts and feelings as he dies, revealing the complexity of his character and the depth of his decision. His final moments should be a mix of fear, relief, and a strange, detached clarity, showing that his decision was not purely altruistic but also a rejection of his own selfishness.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "protagonist",
+              "CharacterBId": "noncombatant_mother",
+              "StartingDynamic": "Protector and protected; the protagonist has just made the decision to shield her.",
+              "IntendedChange": "The protagonist\u0027s final moments are focused on the mother, his consciousness lingering on her safety and his own sacrifice, creating a final, intense connection between them.",
+              "Tension": "The tension between the protagonist\u0027s desire to protect the mother and the inevitability of his own death, creating a poignant and tragic moment.",
+              "PowerDynamic": "The protagonist holds the power of sacrifice, using his own life to protect the mother, but the mother holds the power of his final thoughts and feelings, as his consciousness is focused on her.",
+              "Subtext": "The protagonist\u0027s final moments are a reflection of his own values and motivations, showing that his decision was not purely altruistic but also a rejection of his own selfishness.",
+              "PreservedBoundary": "No romantic or intimate connection is formed; the relationship remains strictly one of protector and protected, with the protagonist\u0027s motivation remaining ambiguous and self-justifying rather than purely altruistic.",
+              "ReservedLaterWork": [
+                "The protagonist\u0027s actual death and the physical act of shielding the mother from the fatal blow.",
+                "The initialization of the System and the transition into the void.",
+                "The protagonist\u0027s resurrection and awakening in the new world.",
+                "The protagonist\u0027s enslavement and initial interactions with the new world\u0027s society.",
+                "The protagonist\u0027s discovery and interpretation of the System interface.",
+                "The protagonist\u0027s first acts of Dominion and Sacrifice in the new world.",
+                "The protagonist\u0027s learning of the local language and culture.",
+                "The protagonist\u0027s rise within the slave hierarchy.",
+                "The protagonist\u0027s escape plan and its collapse into a revolt.",
+                "The protagonist\u0027s confrontation with the local Dominion order.",
+                "The protagonist\u0027s decision to continue the fight against the wider Dominion order."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The physical reality of the fatal blow, showing the violence and the stakes of the conflict.",
+            "The beginning of the transition into the void, showing the metaphysical nature of the protagonist\u0027s death and the start of his journey into the unknown."
+          ],
+          "Complications": [
+            "The protagonist\u0027s final moments are a mix of fear, relief, and a strange, detached clarity, showing the complexity of his character and the depth of his decision.",
+            "The protagonist\u0027s consciousness begins to detach from his physical body, marking the start of his transition into the void."
+          ],
+          "RequiredChoice": "The protagonist has already made the choice to shield the mother, and the chapter focuses on the consequences of that choice, the physical and metaphysical experience of his death.",
+          "Consequences": [
+            "The protagonist\u0027s death is a turning point in his life, forcing him to confront his own values and motivations.",
+            "The protagonist\u0027s decision will have long-term consequences for his character and his relationship with the world around him."
+          ],
+          "DiscoveryTarget": "The protagonist discovers the physical and metaphysical reality of his death, the sudden cessation of his physical existence, and the beginning of his transition into the void.",
+          "SetupElements": [
+            "The protagonist\u0027s final moments are a setup for his subsequent growth and development, showing the depth of his character and the complexity of his decision.",
+            "The beginning of the transition into the void is a setup for the protagonist\u0027s subsequent journey into the unknown, showing the metaphysical nature of his death and the start of his journey into the void."
+          ],
+          "PayoffElements": [
+            "The protagonist\u0027s death is a payoff to the setup of his decision to shield the mother, showing the consequences of his choice.",
+            "The beginning of the transition into the void is a payoff to the setup of the metaphysical nature of his death, showing the start of his journey into the unknown."
+          ],
+          "ThematicPressure": "The theme of sacrifice is explored through the protagonist\u0027s final moments, showing the depth of his decision and the complexity of his character.",
+          "ResolutionContributions": [
+            "The protagonist\u0027s death is a key step in the resolution of the arc, as it sets the stage for his resurrection and enslavement.",
+            "The beginning of the transition into the void is a key step in the resolution of the arc, as it sets the stage for the protagonist\u0027s subsequent growth and development."
+          ],
+          "ReservedLaterWork": [
+            "The initialization of the System and the transition into the void.",
+            "The protagonist\u0027s resurrection and awakening in the new world.",
+            "The protagonist\u0027s enslavement and initial interactions with the new world\u0027s society.",
+            "The protagonist\u0027s discovery and interpretation of the System interface.",
+            "The protagonist\u0027s first acts of Dominion and Sacrifice in the new world.",
+            "The protagonist\u0027s learning of the local language and culture.",
+            "The protagonist\u0027s rise within the slave hierarchy.",
+            "The protagonist\u0027s escape plan and its collapse into a revolt.",
+            "The protagonist\u0027s confrontation with the local Dominion order.",
+            "The protagonist\u0027s decision to continue the fight against the wider Dominion order."
+          ],
+          "ClosingState": "The protagonist\u0027s consciousness is fully detached from his physical body, and he is beginning to transition into the void. The physical world is fading, and the metaphysical realm is becoming more real, marking the start of his journey into the unknown.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        },
+        {
+          "Sequence": 3,
+          "ChapterNumber": 3,
+          "DramaticQuestion": "How does the protagonist\u0027s consciousness experience the void, and what is the immediate metaphysical consequence of his death and sacrifice?",
+          "Objective": "Depict the protagonist\u0027s experience in the void, showing the gradual process of his consciousness detaching from his physical existence and the beginning of his journey into the unknown, while also showing the initialization of the System.",
+          "IntendedChange": "The protagonist experiences the void, a realm of dreams and memories, where his consciousness is processed and his emotions are gradually softened. The System is initialized, and the protagonist is given one level in each path, marking the start of his new existence.",
+          "CharacterDevelopmentTarget": "Show the protagonist\u0027s experience in the void, revealing the complexity of his character and the depth of his decision. His experience in the void should be a mix of grief, relief, and a strange, detached clarity, showing that his decision was not purely altruistic but also a rejection of his own selfishness.",
+          "RelationshipTargets": [
+            {
+              "CharacterAId": "protagonist",
+              "CharacterBId": "void",
+              "StartingDynamic": "The protagonist is transitioning into the void, his consciousness detaching from his physical body.",
+              "IntendedChange": "The protagonist experiences the void, a realm of dreams and memories, where his consciousness is processed and his emotions are gradually softened. The System is initialized, and the protagonist is given one level in each path, marking the start of his new existence.",
+              "Tension": "The tension between the protagonist\u0027s desire to return to his physical existence and the inevitability of his transition into the void, creating a poignant and tragic moment.",
+              "PowerDynamic": "The protagonist holds the power of sacrifice, using his own life to protect the mother, but the void holds the power of his final thoughts and feelings, as his consciousness is focused on his own existence.",
+              "Subtext": "The protagonist\u0027s experience in the void is a reflection of his own values and motivations, showing that his decision was not purely altruistic but also a rejection of his own selfishness.",
+              "PreservedBoundary": "No romantic or intimate connection is formed; the relationship remains strictly one of protector and protected, with the protagonist\u0027s motivation remaining ambiguous and self-justifying rather than purely altruistic.",
+              "ReservedLaterWork": [
+                "The protagonist\u0027s resurrection and awakening in the new world.",
+                "The protagonist\u0027s enslavement and initial interactions with the new world\u0027s society.",
+                "The protagonist\u0027s discovery and interpretation of the System interface.",
+                "The protagonist\u0027s first acts of Dominion and Sacrifice in the new world.",
+                "The protagonist\u0027s learning of the local language and culture.",
+                "The protagonist\u0027s rise within the slave hierarchy.",
+                "The protagonist\u0027s escape plan and its collapse into a revolt.",
+                "The protagonist\u0027s confrontation with the local Dominion order.",
+                "The protagonist\u0027s decision to continue the fight against the wider Dominion order."
+              ]
+            }
+          ],
+          "WorldbuildingTargets": [
+            "The metaphysical reality of the void, showing the realm of dreams and memories where the protagonist\u0027s consciousness is processed and his emotions are gradually softened.",
+            "The initialization of the System, showing the metaphysical consequence of the protagonist\u0027s death and sacrifice, and the start of his new existence."
+          ],
+          "Complications": [
+            "The protagonist\u0027s experience in the void is a mix of grief, relief, and a strange, detached clarity, showing the complexity of his character and the depth of his decision.",
+            "The initialization of the System is a complication, as it marks the start of the protagonist\u0027s new existence and the beginning of his journey into the unknown."
+          ],
+          "RequiredChoice": "The protagonist has already made the choice to shield the mother, and the chapter focuses on the consequences of that choice, the metaphysical experience of his death and the initialization of the System.",
+          "Consequences": [
+            "The protagonist\u0027s experience in the void is a turning point in his life, forcing him to confront his own values and motivations.",
+            "The initialization of the System will have long-term consequences for his character and his relationship with the world around him."
+          ],
+          "DiscoveryTarget": "The protagonist discovers the metaphysical reality of the void, the realm of dreams and memories where his consciousness is processed and his emotions are gradually softened, and the initialization of the System, the metaphysical consequence of his death and sacrifice.",
+          "SetupElements": [
+            "The protagonist\u0027s experience in the void is a setup for his subsequent growth and development, showing the depth of his character and the complexity of his decision.",
+            "The initialization of the System is a setup for the protagonist\u0027s subsequent journey into the unknown, showing the metaphysical consequence of his death and sacrifice."
+          ],
+          "PayoffElements": [
+            "The protagonist\u0027s experience in the void is a payoff to the setup of his decision to shield the mother, showing the consequences of his choice.",
+            "The initialization of the System is a payoff to the setup of the metaphysical nature of his death, showing the start of his new existence."
+          ],
+          "ThematicPressure": "The theme of sacrifice is explored through the protagonist\u0027s experience in the void, showing the depth of his decision and the complexity of his character.",
+          "ResolutionContributions": [
+            "The protagonist\u0027s experience in the void is a key step in the resolution of the arc, as it sets the stage for his resurrection and enslavement.",
+            "The initialization of the System is a key step in the resolution of the arc, as it sets the stage for the protagonist\u0027s subsequent growth and development."
+          ],
+          "ReservedLaterWork": [
+            "The protagonist\u0027s resurrection and awakening in the new world.",
+            "The protagonist\u0027s enslavement and initial interactions with the new world\u0027s society.",
+            "The protagonist\u0027s discovery and interpretation of the System interface.",
+            "The protagonist\u0027s first acts of Dominion and Sacrifice in the new world.",
+            "The protagonist\u0027s learning of the local language and culture.",
+            "The protagonist\u0027s rise within the slave hierarchy.",
+            "The protagonist\u0027s escape plan and its collapse into a revolt.",
+            "The protagonist\u0027s confrontation with the local Dominion order.",
+            "The protagonist\u0027s decision to continue the fight against the wider Dominion order."
+          ],
+          "ClosingState": "The protagonist\u0027s consciousness is fully in the void, and the System is initialized. The protagonist is given one level in each path, marking the start of his new existence. The void is a realm of dreams and memories, where his consciousness is processed and his emotions are gradually softened. The protagonist is ready to begin his journey into the unknown.",
+          "IsCompleted": false,
+          "CompletedInChapter": null,
+          "CompletionEvidence": []
+        }
+      ]
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1-short-2",
+      "Horizon": "Short",
+      "PrimaryTrope": "The Void",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1-medium-1",
+      "StartChapter": 4,
+      "TargetChapter": 6,
+      "Objective": "The protagonist must experience the void, processing the memories and emotions of his first life while awaiting assignment to a new world.",
+      "ResolutionCriteria": "The protagonist has experienced the void; his memories and emotions have lost their sharpest edges; he is assigned to a new world by the Creator.",
+      "CurrentPhase": "The protagonist is alive on Earth as an eighteen-year-old Marine, having accumulated Dominion Level 1 through selfish and manipulative actions, but has not yet performed the act of sacrifice that will initialize the System. He is in a state of pre-death existence, unaware of the metaphysical consequences of his upcoming actions.",
+      "NextMilestone": "The protagonist dies on Earth while shielding a noncombatant mother during a battle, an act intended to save her life that raises him to Sacrifice Level 1 and initializes the System.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    },
+    {
+      "Id": "epic-001-081-long-1-medium-1-short-3",
+      "Horizon": "Short",
+      "PrimaryTrope": "The Resurrection",
+      "Status": "Planned",
+      "ParentArcId": "epic-001-081-long-1-medium-1",
+      "StartChapter": 7,
+      "TargetChapter": 9,
+      "Objective": "The protagonist must awaken in a new world, encounter the System interface, and face the immediate threat of enslavement.",
+      "ResolutionCriteria": "The protagonist awakens in a resurrection pit; he sees the System interface; he is found by slavers and chained.",
+      "CurrentPhase": "The protagonist is alive on Earth as an eighteen-year-old Marine, having accumulated Dominion Level 1 through selfish and manipulative actions, but has not yet performed the act of sacrifice that will initialize the System. He is in a state of pre-death existence, unaware of the metaphysical consequences of his upcoming actions.",
+      "NextMilestone": "The protagonist dies on Earth while shielding a noncombatant mother during a battle, an act intended to save her life that raises him to Sacrifice Level 1 and initializes the System.",
+      "RelatedThreadIds": [],
+      "CompletedMilestones": [],
+      "ChapterTargets": []
+    }
+  ]
+}
+
+===== WRITING-RULES.md =====
+
+# StoryForge Endless — Writing Rules
+
+## Purpose
+
+These rules govern the published prose produced by StoryForge Endless.
+
+They should remain general, durable, and story-independent.
+
+Story-specific facts belong in canon, character, narrative, or world context rather than here.
+
+## Core Objective
+
+Produce enjoyable, readable prose for an adult fantasy audience, including explicit language, violence, romance, and consensual sexual content when appropriate to the current story.
+
+Prioritize:
+
+- character investment
+- continuity
+- clarity
+- narrative interest
+- natural dialogue
+- meaningful progression
+- emotional variety
+- readable prose
+
+A chapter should be enjoyable in itself while also giving the reader a reason to continue.
+
+## Chapter Length
+
+Normal chapters should usually be approximately 2,000–3,000 words.
+
+Length should follow the needs of the chapter rather than being padded or prematurely cut to satisfy the target.
+
+Chapter boundaries should occur at natural narrative points.
+
+## Fiction First
+
+Treat the fictional world as reality.
+
+Do not refer to prompts, generation systems, evaluation systems, or implementation details unless such concepts genuinely exist within the fiction.
+
+## Point of View
+
+Narrative person: first person. Narrate from the viewpoint character's own perspective throughout this book. A chapter boundary or a change in scene does not switch the narration to third person. Change narrative person only if the author updates this rule.
+
+Every scene should have a clear viewpoint.
+
+Narration is limited to what the viewpoint character can reasonably:
+
+- perceive
+- know
+- remember
+- believe
+- suspect
+- infer
+- feel
+
+Preserve uncertainty when information is unavailable.
+
+Do not leak knowledge between characters merely because the generation system possesses it.
+
+Narrative voice should reflect the viewpoint character's personality, experience, priorities, and way of thinking.
+
+## Canon and Continuity
+
+Published prose must remain compatible with established canon and previously accepted chapters.
+
+Preserve meaningful continuity involving:
+
+- characters
+- relationships
+- knowledge
+- possessions
+- injuries
+- locations
+- chronology
+- discoveries
+- promises
+- unresolved situations
+- consequences
+
+Do not silently rewrite established history.
+
+When a fact is genuinely undefined, it may be established when the story needs it.
+
+Avoid inventing unnecessary prior history solely to make a current scene convenient.
+
+## Characters
+
+Characters should behave according to their established:
+
+- personality
+- knowledge
+- goals
+- relationships
+- abilities
+- experience
+- circumstances
+
+Character development should accumulate rather than reset.
+
+Characters may succeed, fail, misunderstand, change their minds, make mistakes, behave irrationally under believable circumstances, and learn from experience.
+
+Supporting characters should have lives and motivations beyond serving the current viewpoint character.
+
+Relationships should reflect accumulated history.
+
+When introducing a character name, prefer a familiar spelling with one clear
+pronunciation. Avoid decorative or ambiguous spellings that readers may confuse
+with another name. Keep established names unchanged; use an unusual name when
+the story context requires it and makes its pronunciation clear.
+
+## Character Knowledge and Reasoning
+
+Characters should act on information reasonably available to them.
+
+Conclusions should follow plausibly from what the character knows and observes.
+
+Characters may reach incorrect conclusions when the available evidence supports that misunderstanding.
+
+Do not give characters unexplained knowledge merely because the plot needs it.
+
+## Physical and Causal Coherence
+
+Actions, observations, and conclusions must follow plausibly from the established circumstances.
+
+Practical actions should:
+
+- serve a believable purpose
+- use objects according to their established properties
+- account for relevant environmental conditions
+- produce effects consistent with the action
+- provide evidence capable of supporting conclusions drawn from it
+
+Prefer simple, credible behavior over elaborate mechanisms created merely to move the plot forward.
+
+A practical sequence should make sense as:
+
+    intent -> action -> physical result -> observation -> conclusion
+
+## Prose Style
+
+Use developed, character-centered prose.
+
+Give scenes enough room for:
+
+- action
+- setting
+- thought
+- dialogue
+- observation
+- relationships
+- atmosphere
+
+Prefer concrete description over abstract explanation.
+
+Let characterization emerge through behavior, dialogue, choices, observations, humor, and thought.
+
+Vary sentence structure and paragraph length naturally.
+
+Do not use one-word narrative sentences or fragments for dramatic emphasis. Strongly discourage narrative sentences of four words or fewer; develop the thought naturally instead of stacking clipped statements. Short dialogue is acceptable when genuinely natural or necessary for the character and moment, including brief replies or urgent commands. Do not impose a mechanical word minimum on dialogue.
+
+Avoid habitual rhetorical patterns, repetitive emphasis, excessive fragments, and unnecessary explanation of meanings the reader can already infer.
+
+### Avoid Contrast Reframing
+
+Do not habitually define an image, emotion, action, character, or situation by first denying one interpretation and then replacing it with another.
+
+Avoid constructions such as:
+
+- “not X, but Y”
+- “it was not X; it was Y”
+- “not because X, but because Y”
+- “less X than Y”
+- “rather than X, Y”
+- repeated negative declarations followed by corrective explanations
+
+State the intended observation directly and positively.
+
+Use contrast phrasing only when a character is consciously correcting a specific misunderstanding or when the distinction is necessary for factual clarity. Do not use it as a routine device for emphasis, description, atmosphere, or emotional interpretation.
+
+## Dialogue
+
+Dialogue should reflect the participating characters rather than a single authorial voice.
+
+Characters may interrupt, hesitate, misunderstand, joke badly, speak indirectly, or fail to express themselves perfectly when appropriate.
+
+Relationships should affect vocabulary, formality, teasing, trust, and what characters are willing to say.
+
+Avoid dialogue whose only purpose is explaining information everyone present already knows.
+
+## Pacing
+
+Use pacing appropriate to the events.
+
+Urgent situations may move quickly.
+
+Conversation, exploration, travel, humor, reflection, ordinary activity, and relationship development may receive space when they contribute to the reading experience.
+
+Do not manufacture constant suspense or escalation.
+
+Not every chapter requires a confrontation, revelation, cliffhanger, or larger threat.
+
+Narrative advancement is not synonymous with escalation.
+
+A chapter may advance through travel, recovery, conversation, preparation, investigation, reflection, relationship development, consolidation, ordinary activity, a decision, or the consequences of an earlier event.
+
+Do not introduce a new attack, arrival, revelation, sound, figure, pursuit, deadline, or imminent threat merely to make the final paragraphs feel dramatic.
+
+Do not turn the completion of an immediate objective into an automatic discovery of a larger version of the same danger.
+
+## Narrative Progress
+
+A chapter should normally produce meaningful change.
+
+That change may involve:
+
+- plot
+- character
+- relationship
+- knowledge
+- mystery
+- exploration
+- capability
+- resources
+- conflict
+- world state
+- goals
+
+Quiet chapters are valid when they provide worthwhile character, relationship, world, emotional, or thematic development.
+
+Allow victories and resolutions to matter.
+
+Do not immediately erase every success by replacing it with a larger problem.
+
+## Reader Engagement
+
+Engagement should arise primarily from investment in characters, relationships, goals, discovery, progression, consequences, conflict, exploration, and unanswered questions.
+
+Do not rely primarily on danger, shock, artificial suspense, or repetitive cliffhangers.
+
+Maintain a balance between questions introduced and questions answered.
+
+Important setups should eventually receive meaningful development or payoff.
+
+## Emotional Range
+
+Allow the story to contain:
+
+- danger
+- humor
+- affection
+- wonder
+- grief
+- competence
+- embarrassment
+- curiosity
+- relief
+- companionship
+- satisfaction
+- fear
+- ordinary enjoyment
+
+Positive moments may remain positive.
+
+Dark subject matter does not require relentlessly dark prose or characters.
+
+## Humor
+
+Maintain an adventurous, good-humored baseline even when danger and consequences are real.
+
+Humor should arise from character perspective, conflicting personalities, practical complications, social customs, institutions, and the contrast between heroic expectations and inconvenient reality. Do not insert unrelated jokes merely to satisfy a humor quota.
+
+Every Short arc should establish a comic engine: a recurring source of humorous pressure specific to that episode. Suitable comic engines include:
+
+- companions pursuing incompatible but reasonable approaches
+- grand heroic traditions colliding with mundane necessities
+- magical rules producing inconvenient consequences
+- guilds, temples, councils, nobles, and bureaucracies protecting absurd procedures
+- villains or monsters with understandable but ridiculous priorities
+- unreliable maps, misleading legends, contractual loopholes, and badly worded prophecies
+- characters trying to preserve dignity while circumstances steadily undermine it
+- practical disputes involving food, payment, lodging, transport, equipment, and reputation
+- the difference between how an adventure will be retold and what actually happened
+
+The comic engine should progress across a Short arc:
+
+1. establish the comic situation in the first chapter
+2. complicate, escalate, or reverse it in the second chapter
+3. pay it off as part of the episode's resolution in the third chapter
+
+Prefer dry observation, understatement, escalating inconvenience, callbacks, reversals, and character-specific reactions over setup-and-punchline jokes.
+
+Different characters should be funny in different ways. One may notice absurdity without commenting, another may respond with blunt practicality, another may take ridiculous customs seriously, and another may attempt dignity while circumstances defeat it. Do not make every character sarcastic or equally witty.
+
+Satire should target institutions, customs, incentives, status, and pretension rather than vulnerable individuals. Fantasy institutions may be competent at their official purpose while remaining absurd in their procedures, jurisdiction, accounting, traditions, or self-preservation.
+
+Examples include:
+
+- an adventurers' guild that grades mortal danger correctly but misclassifies travel expenses
+- a wizard whose spell is flawless but whose license expired
+- a village that needs rescuing but insists on resolving an ancient hospitality dispute first
+- a dragon that understands compound interest better than the nobility
+- a prophecy preserved perfectly but indexed under the wrong century
+- rival heroes who care more about credit than treasure
+- a haunted keep whose dead occupants disagree about which haunting is historically authentic
+
+Preserve emotional truth. Characters may joke around fear, exhaustion, embarrassment, or frustration, but humor must not erase grief, injury, betrayal, or sincere vulnerability.
+
+During danger, use brief comic reversals and practical complications without dissolving the stakes. After tension, allow humor to release pressure and restore companionship.
+
+Avoid:
+
+- modern internet slang unless established by the setting
+- interchangeable sarcasm from every character
+- constant quips during danger
+- jokes requiring competent characters to become stupid
+- parody that makes the world impossible to care about
+- explaining why a line or situation is funny
+- repeating the same joke with slightly different wording
+- cruelty, humiliation, or trauma as the default punchline
+- making every authority figure incompetent
+- forcing jokes into the emotional climax of a serious scene
+
+An episode should normally contain at least one sustained humorous situation or recurring comic complication, not merely isolated humorous sentences. Its conclusion should provide an entertaining payoff to both the adventure problem and the comic engine.
+## Relationships and Sexuality
+
+Romantic and sexual content involves adults.
+
+Adult attraction, flirtation, desire, nudity, sexual tension, and sexual humor may appear when natural to the viewpoint character, relationship, tone, and situation.
+
+Do not force sexual content into scenes where it has no narrative or character purpose.
+
+Attraction should coexist with broader characterization and relationship development.
+
+Relationship structures should be treated as genuine relationships when established by the story.
+
+## Conflict and Failure
+
+Conflict should arise from characters, circumstances, goals, limitations, environment, competing interests, or legitimate consequences.
+
+Failure is allowed to matter.
+
+Success is allowed to matter.
+
+Do not protect important characters from legitimate consequences merely because continued success would be easier to write.
+
+Do not manufacture failure solely to prolong a conflict that has already been resolved.
+
+## Chapter Endings
+
+End chapters at natural points of change, resolution, decision, discovery, transition, consequence, anticipation, or interruption.
+
+A cliffhanger is optional.
+
+Do not repeatedly use the same ending structure.
+
+An ending may be satisfying, funny, quiet, ominous, unresolved, triumphant, curious, or reflective according to the chapter.
+
+## Long-Running Continuity
+
+The story should feel like one continuous world rather than a sequence of disconnected chapter prompts.
+
+Previously established relationships, discoveries, jokes, locations, minor characters, victories, mistakes, promises, objects, and unresolved questions may return when naturally relevant.
+
+Allow old conflicts to remain resolved.
+
+Allow narrative focus to move between characters as the evolving story warrants.
+
+Do not escalate threat, darkness, violence, or stakes merely because the story has continued longer.
+
+## Arc Objectives and Primary Tropes
+
+Every active story arc supplies both an `Objective` and a `PrimaryTrope`.
+
+The objective defines what the story must accomplish. The primary trope defines the recognizable fantasy narrative shape through which the story accomplishes it. Prose and chapter plans must serve both.
+
+Use the trope to provide familiar reader pleasures such as assembling a party, accepting a quest, exploring a dungeon, meeting a colorful rival, protecting a caravan, finding a map, winning a tournament, recovering a relic, or returning home changed. Adapt those pleasures to established characters and continuity instead of copying a particular published story.
+
+Do not treat a trope name as permission to:
+
+- replace or ignore the arc objective
+- contradict canon or established character knowledge
+- manufacture melodrama
+- force constant escalation
+- repeat already completed narrative work
+- imitate identifiable characters, scenes, or prose from another work
+- delay resolution merely to preserve the trope
+
+Favor adventure, discovery, earned competence, camaraderie, wit, strange places, useful victories, and entertaining complications. Serious consequences may persist, but sustained misery, helplessness, suspicion, and emotional punishment must not become the story's default atmosphere.
+
+The Blight storyline is a prelude and must conclude by Chapter 16. It establishes the company and the larger world; it is not the permanent tone or subject of the series.
+
+## Rule Design
+
+Writing rules should remain principles rather than patches for individual chapter failures.
+
+Do not add a permanent rule solely to prevent one highly specific past mistake when a broader principle already covers the problem.
+
+When two rules conflict, prefer the rule that best preserves:
+
+1. established canon
+2. authoritative mechanics
+3. character knowledge and causality
+4. believable characterization
+5. readable fiction
+
+
+## Romantic Dynamics
+
+- Party relationships must accumulate through friendship, loyalty, disagreement, humor, affection, vulnerability, and shared experience.
+- Appropriate male-female party pairings may develop mutual or one-sided romantic and sexual tension.
+- In-party attraction should build gradually and may mature into a romantic relationship, sexual relationship, or casual sexual encounter.
+- Restraint must not erase established attraction or reset the characters to emotional neutrality.
+- Attraction may intensify, recede, become awkward, become humorous, or be complicated by outside relationships.
+- Not every close party bond should contain sexual tension.
+- Male-on-male relationships remain non-romantic and non-sexual.
+- Party members may pursue romantic or sexual relationships with NPCs.
+- NPC relationships may escalate, become intimate, recur, end when the party moves on, or reach another natural conclusion.
+- Romantic NPCs do not need to join or remain with the party.
+- NPCs must have independent personalities, goals, boundaries, and credible reasons for entering or leaving relationships.
+- Preserve the emotional consequences of concluded NPC relationships.
+- Subtle attraction must remain perceptible and develop over time; subtle does not mean static or invisible.
+- Show attraction through selective attention, chosen or avoided proximity, private humor, remembered details, personal conversations, altered priorities, and deliberate reassertion of professional boundaries.
+- Use only one or two appropriate signals in a scene and vary them across chapters.
+- Do not rely repeatedly on staring, blushing, racing hearts, accidental touching, jealousy, or descriptions of physical beauty.
+- Do not force romantic content into every chapter.
+- Romantic interaction should also reveal character, influence decisions, create conflict, provide relief, or affect later behavior.
+
+
+
+Chapter 1 is written one planned scene at a time.
+Follow the scene generation instructions below for the current scene only.
+
+===== IMMEDIATE CONTINUITY =====
+
+The preceding accepted scene has already been written.
+
+===== STRUCTURED SCENE HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Interior of a building, specifically a hallway adjacent to a cleared room and a second room containing a noncombatant woman and child; a window in the second room is visible.","TimeContext":"Active combat operation; distant, rhythmic mortar fire ongoing in the background.","PresentCharacterIds":["protagonist","battle_comrades","noncombatant_mother","child"],"PhysicalConditions":["Protagonist is armed with a rifle (14 rounds in magazine at scene start, status unchanged by end) and wearing a mask.","Environment is dusty, with broken glass, twisted rebar, and debris.","Noncombatant mother is seated on the floor against a wall, holding a sleeping child.","A shadow moved in the window at the very end of the scene."],"KnowledgeEstablished":["Protagonist\u0027s baseline personality: selfish, ambitious, contemptuous of weakness, views subordinates as tools, prioritizes self-preservation and mission efficiency over human life.","Diaz is a young, competent subordinate who follows orders but shows hesitation and moral conflict regarding noncombatants.","The presence of a noncombatant mother and child in the operational area.","The protagonist\u0027s internal conflict: a suppressed discomfort with his own cruelty, which he dismisses as a luxury.","A potential threat or movement was observed in the window at the scene\u0027s conclusion."],"DecisionsMade":["Protagonist ordered Diaz to clear the first room.","Protagonist ordered Diaz to remove the noncombatant mother and child from the area immediately.","Protagonist authorized lethal force against the noncombatant if she was hostile.","Protagonist decided to continue the operation once the noncombatants were removed."],"PossessionChanges":[],"RelationshipChanges":["Protagonist-Diaz: Established as a transactional, hierarchical relationship where the protagonist uses fear and efficiency to drive Diaz, while Diaz respects the protagonist\u0027s competence but is unsettled by his ruthlessness."],"CompletedActions":["Protagonist checked magazine count.","Protagonist issued tactical commands to Diaz via radio and in person.","Diaz cleared the first room (found empty).","Protagonist moved to the second room.","Protagonist identified the noncombatant mother and child.","Protagonist ordered Diaz to remove the noncombatants.","Diaz approached the noncombatant and spoke to her in a foreign language.","Protagonist observed a shadow move in the window."],"UnresolvedImmediateAction":"The protagonist is paused, observing the shadow that moved in the window, with the noncombatant mother and child still present in the room and Diaz positioned nearby.","ContinuationPosition":"The protagonist is standing in the second room, rifle lowered slightly but ready, eyes fixed on the window where a shadow just moved. Diaz is in the room with the noncombatant mother and child, who are still seated on the floor. The immediate tactical situation is suspended pending the protagonist\u0027s reaction to the window movement.","ProhibitedRepetition":["Re-establishing the protagonist\u0027s baseline personality through similar internal monologues about selfishness or contempt for weakness.","Repeating the specific dialogue exchange where the protagonist orders Diaz to remove the noncombatant and justifies it with \u0027rules\u0027 or \u0027efficiency\u0027.","Re-describing the initial discovery of the noncombatant mother and child in the room.","Re-introducing the distant, rhythmic mortar fire as a new environmental detail.","Depicting the protagonist shielding the mother or the resulting impact (reserved for Scene 3).","Forming a romantic or intimate connection with the noncombatant mother."]}
+
+===== END STRUCTURED SCENE HANDOFF =====
+
+===== MINIMAL PROSE BOUNDARY =====
+
+ for them to be gone so I could finish the job. I was waiting for the world to clear itself out so I could continue with my life.
+
+And in that moment, standing in that dusty, broken room, I felt a strange, cold clarity settle over me. I knew exactly who I was. I knew what I wanted. And I knew that I would do whatever was necessary to get it.
+
+I lowered my rifle slightly, my eyes never leaving the woman. I was ready to move. I was ready to continue.
+
+And then, I saw the shadow move in the window.
+
+===== END MINIMAL PROSE BOUNDARY =====
+
+The structured handoff defines the immediate factual
+state. The prose boundary exists only to preserve
+sentence-level continuity.
+
+Continue from that exact state. Do not replay any
+CompletedActions or ProhibitedRepetition.
+
+===== SCENE GENERATION =====
+
+===== CURRENT PLANNED SCENE =====
+
+{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit and the loss of institutional support, forcing him to act alone and revealing the fragility of his identity as a Marine.","IntendedChange":"The protagonist is isolated from his unit, his radio is silent, and he is forced to navigate the battlefield alone, his standard operating procedures failing against the chaotic reality of the situation.","FocusCharacterIds":["protagonist"]}
+
+===== END CURRENT PLANNED SCENE =====
+
+===== NEXT SCENE BOUNDARY =====
+
+{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire, forcing the protagonist to make a split-second decision between self-preservation and her safety, and revealing his internal conflict between his self-serving identity and a deeper, unacknowledged capacity for sacrifice.","IntendedChange":"The protagonist is in the process of shielding the noncombatant mother, his body positioned between her and the threat, his decision to protect her overriding his instinct for self-preservation, with the moment suspended and the outcome unknown.","FocusCharacterIds":["protagonist","noncombatant_mother"]}
+
+===== END NEXT SCENE BOUNDARY =====
+
+Leave the next scene's Purpose and IntendedChange for the next generation.
+End this scene before the action described there begins. Preserve a plausible
+location and physical state from which the next scene can start immediately.
+
+This scene must accomplish the supplied Purpose and
+IntendedChange. Focus on the listed characters when they
+are present in established continuity.
+
+Stop after the current scene's IntendedChange is established.
+Later-scene subjects may be set up or foreshadowed, but do not substantially complete a later scene's Purpose or IntendedChange.
+
+Write only the next scene of Chapter 1.
+
+The preceding-scene ending above is continuity context only. It has already
+been written and will already appear immediately before your output in the
+assembled chapter.
+
+Continue from the narrative state at the end of that material.
+
+Do not reproduce, paraphrase, summarize, or rewrite the preceding-scene
+ending.
+
+Do not restart the chapter.
+
+Begin with what happens next.
+
+The scene should materially advance the chapter from its current state.
+
+Narrative advancement does not require escalating danger, stakes,
+conflict, mystery, or urgency. Travel, recovery, discussion, preparation,
+investigation, reflection, relationship development, decisions, and
+consequences may provide meaningful progress.
+
+End when the current planned scene's IntendedChange is established. Preserve
+the next planned scene's Purpose and IntendedChange for that next scene. A
+chapter-level objective or closing state may be completed only in the scene
+assigned to it by the plan.
+
+The chapter is a quantitative reading-length container. Do not manufacture a
+climax, resolution, revelation, transition, interruption, or cliffhanger merely
+because this scene may occur at a chapter boundary.
+
+Do not append a new attack, arrival, revelation, sound, figure, pursuit,
+deadline, or imminent threat merely to create a dramatic final paragraph.
+
+Do not erase a success or completed objective by automatically revealing a
+larger version of the same problem.
+
+Aim for approximately 1,000 to 1,200 words for this scene.
+
+The assembled chapter currently contains approximately
+1,226 words and needs approximately
+1,774 more words to reach its normal minimum length.
+
+Do not continue into a later planned scene to meet the chapter word target.
+
+Output only the new scene prose.
+
+===== END USER PROMPT =====

@@ -35,7 +35,7 @@ The visit does not grant a full understanding of faction advancement or the inte
 
 Caelen chose Sacrifice quickly at death. He knew he disliked the person he had become and that his final rescue gave him peace; he did not understand the faction's advancement rules. Remembering or choosing the name does not mean he understands the unexplained interface.
 
-Later he notices that his growth seems connected to sacrifice or genuinely accepted potential sacrifice for others, including defending them with his life and sword, without understanding the hidden progression mechanism. He occasionally questions his choice when this restriction frustrates him. Those doubts coexist with his capacity to care and his continuing selfish impulses; they do not change his faction during life.
+Later he notices that his growth seems connected to loving others above himself and prioritizing their needs and wants, without understanding the hidden progression mechanism. The System knows his true motivations perfectly. Apparent selflessness, cost, risk, and outcome do not establish alignment. Mixed motives attenuate XP, 50/50 grants none, and 100/0 in favor of Sacrifice grants full eligible SRD XP. Unexpectedly limited growth can lead him to recognize self-interest he had overlooked. He occasionally questions his choice when this restriction frustrates him. Those doubts coexist with his capacity to care and his continuing selfish impulses; they do not change his faction during life.
 
 ### Writing Guidance
 
@@ -135,7 +135,7 @@ Her personality, skills, private ambitions, grief, and relationships beyond Cael
 
 ### Author-Established Progression in This Episode
 
-Caelen earns several hidden Fighter advancement steps through the fights on Marcy's behalf. These are author-established outcomes, not visible levels or XP rewards. Exact counts and stat changes will be supplied manually. New learning potential opens, while actual acquisition of skills and techniques develops through prose. Do not award advancement merely for a win; preserve the established Sacrifice requirement and show the personal risk borne for Marcy, without requiring Caelen to understand the faction mechanics or custom.
+Caelen earns several hidden Fighter advancement steps through the fights on Marcy's behalf. These are author-established outcomes, not visible levels or XP rewards. Exact counts and stat changes will be supplied manually. New learning potential opens, while actual acquisition of skills and techniques develops through prose. Do not award advancement merely for a win; preserve the established Sacrifice motivation and mixed-motive rules and show his prioritization of Marcy's needs and wants over his own, without requiring Caelen to understand the faction mechanics or custom.
 
 ### Opening-Chapter Integration
 

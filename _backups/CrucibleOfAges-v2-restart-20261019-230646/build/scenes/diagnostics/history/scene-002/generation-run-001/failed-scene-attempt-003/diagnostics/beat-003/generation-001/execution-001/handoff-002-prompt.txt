@@ -1,0 +1,153 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 2.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":2,"ViewpointCharacterId":"Caelen","Objective":"Depict Caelen\u0027s transition into the void, his processing of death, and the initialization of the System with dual-path progression.","IntendedChange":"Caelen stabilizes in the void, accepts his death, and recognizes his unique status as a System bearer with Dominion Level 1 and Sacrifice Level 1.","PacingPosture":0,"ProhibitedPatterns":["Do not introduce a confrontation, revelation, larger replacement threat, arrival, pursuit, interruption, or cliffhanger merely to make the chapter seem eventful.","Do not require comrades to die, scatter, betray one another, or lose competence merely to isolate the viewpoint character for a decision.","Do not create cosmetic variations of the same search, discussion, ritual, journey step, discovery, or confrontation.","Do not fill the schema\u0027s maximum string length or stop in the middle of a sentence.","Do not designate a final scene.","Do not pull objectives, milestones, or resolution work forward from later sibling arcs.","Do not introduce, perform, summarize, reveal, or resolve that work merely to fill scenes or create an ending.","Do not claim that it occurred unless the generated chapter actually establishes it.","Do not copy the failed sequence or treat its prose as accepted story history.","Do not rush into later plot events.","Do not use one-word narrative sentences or fragments for dramatic emphasis.","Do not use contrast phrasing as a routine device for emphasis, description, atmosphere, or emotional interpretation."],"Scenes":[{"Sequence":1,"Purpose":"Establish the sensory and emotional nature of the void as Caelen\u0027s consciousness detaches from his dying body, processing the immediate trauma and confusion of his death.","IntendedChange":"Caelen transitions from the physical pain of his fatal wounds to a state of suspended animation in the void, where his memories of the battlefield begin to soften and his identity starts to fragment.","FocusCharacterIds":["Caelen"]},{"Sequence":2,"Purpose":"Depict Caelen\u0027s internal struggle to reconcile his self-image as a selfish Marine with the reality of his sacrificial act, leading to the sudden initialization of the System interface.","IntendedChange":"Caelen confronts the cognitive dissonance of his final choice, and the System manifests as a private, neutral interface, revealing his dual-path progression for the first time.","FocusCharacterIds":["Caelen","The System"]},{"Sequence":3,"Purpose":"Show Caelen exploring the System\u0027s basic rules and his unique status, accepting his death and the reality of his new state as a soul in the void.","IntendedChange":"Caelen stabilizes his consciousness in the void, understands the concept of levels and his dual-path progression (Dominion Level 1, Sacrifice Level 1), and chooses to engage with the System rather than resist it.","FocusCharacterIds":["Caelen","The System"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Show Caelen exploring the System\u0027s basic rules and his unique status, accepting his death and the reality of his new state as a soul in the void.","IntendedChange":"Caelen stabilizes his consciousness in the void, understands the concept of levels and his dual-path progression (Dominion Level 1, Sacrifice Level 1), and chooses to engage with the System rather than resist it.","FocusCharacterIds":["Caelen","The System"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":2,"CompletedSceneSequence":2,"Location":"The Void (now structured as a grid with a visible interface)","TimeContext":"Post-mortem; time has lost linear meaning; an eternal, static present","PresentCharacterIds":["Caelen","The System"],"PhysicalConditions":["Caelen is disembodied; physical anchors (pain, dust, wounds) have dissolved into distant memory","Caelen exists in a state of suspended animation without up/down or horizon","Caelen\u0027s identity (name, rank, history) is softening and becoming part of the landscape","The void has resolved into a grid structure containing a private interface","Caelen perceives a phantom pressure/echo in the space where his chest was, distinct from pain"],"KnowledgeEstablished":["The System interface is private, neutral, and absolute","Caelen possesses a dual-path progression: Dominion Level 1 and Sacrifice Level 1","Dominion is defined by Caelen\u0027s history of self-interest, hoarding, and using others for survival","Sacrifice is defined by the specific act of giving his life for the woman and infant, recorded as a transaction rather than heroism","The System records actions without moral judgment or narrative justification","Caelen is now a \u0027data point\u0027 observed by the System, rather than an observer","The interface is immutable and cannot be dismissed or turned off by Caelen"],"DecisionsMade":["Caelen chooses to stop resisting the interface and accepts it as a new fact of his existence"],"PossessionChanges":["Caelen now possesses the System interface (Dominion Level 1, Sacrifice Level 1)"],"RelationshipChanges":["Caelen\u0027s relationship with his own identity shifts from \u0027Marine/Soldier\u0027 to \u0027data point\u0027 within the System"],"CompletedActions":["Caelen perceived the initial pulse as a pressure/recognition rather than a voice","The void resolved into a grid structure","The System interface manifested, displaying Dominion Level 1 and Sacrifice Level 1","Caelen analyzed the definitions of Dominion and Sacrifice based on his memories","Caelen attempted to reconcile his self-image as a selfish Marine with the evidence of his sacrificial act","Caelen accepted the existence of the System and his dual-path status"],"UnresolvedImmediateAction":"Caelen is suspended in the silence, observing the steady interface, waiting for the world to call him home or for further interaction with the System.","ContinuationPosition":"Caelen is floating in the structured void, staring at the stable grid interface displaying his Dominion and Sacrifice levels, having just accepted its presence as immutable.","ProhibitedRepetition":["Do not re-describe the initial manifestation of the System interface or the grid formation","Do not re-narrate the specific memories of hoarding rations or the courtyard sacrifice as new events","Do not re-explain the definitions of Dominion and Sacrifice as if they are new discoveries","Do not repeat Caelen\u0027s initial instinct to reject the interface as a hallucination","Do not re-establish that Caelen is dead or in the void"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The silence had a texture now. It was heavy, like the air in a sealed room before a storm breaks, but without the promise of rain. Caelen drifted in the center of the grid, his awareness unmoored from the weight of bone and blood. He could still feel the phantom pressure where his chest had been, a dull echo of impact that no longer hurt, only reminded.
+
+He looked at the interface. It hung in the space before him, a lattice of light and data that defied the geometry of the void. There were no words, no instructions, no moral commentary. Just two columns of numbers, steady and absolute.
+
+Dominion: 1.
+Sacrifice: 1.
+
+Caelen tried to reach out, to touch the light, but his hand passed through it as if it were smoke. He withdrew his attention, and the interface remained. It did not fade. It did not blink. It simply was.
+
+He thought about the woman. The mother. He remembered her face, the way her eyes had widened not with fear of him, but with the shock of his refusal to let her die. He remembered the weight of the infant in her arms, cold and still. He remembered the sound of the rifle, the sharp crack that seemed to split the world in two.
+
+And he remembered himself.
+
+He had been selfish. He had been cruel. He had hoarded rations, laughed at the pain of others, and used his strength to keep his head above water while others sank. He had been a Marine, a tool of the state, a machine of violence wrapped in human skin. He had believed he was good because he was effective. He had believed he was strong because he could break things.
+
+But the interface did not care about his beliefs. It did not care about his justifications. It only recorded the transactions. The times he had taken. The times he had given.
+
+And in the end, the ledger was balanced.
+
+One for the taking. One for the giving.
+
+Caelen felt a strange sensation in the pit of his nonexistent stomach. It was not relief. It was not pride. It was a cold, clinical clarity. He was not a hero. He was not a villain. He was a data point. A variable in an equation he could not see.
+
+He looked at the number again. *Level 1*.
+
+What did it mean? What was a level?
+
+He tried to ask, but there was no one to ask. The void was empty. The grid was silent. The interface did not respond to questions. It responded to actions.
+
+Caelen realized, with a slow dawning horror, that he was alone. Truly alone. There was no one to tell him what to do. No sergeant to bark orders. No drill instructor to push him. No mission to define his purpose.
+
+He was just a soul, floating in the dark, with a score and a choice.
+
+He could try to dismiss it. He could close his eyes, if he had eyes, and pretend the grid was a hallucination brought on by the trauma of his death. He could wait for the dream to end, for the next life to begin, and hope that the interface would vanish like a bad dream.
+
+But he knew it wouldn't. He could feel it. It was part of him now, as real as his heartbeat had been, as solid as the ground beneath his feet.
+
+He was a Marine. He was trained to assess the situation. He was trained to adapt. He was trained to overcome.
+
+So he adapted.
+
+He stopped resisting. He stopped trying to break the grid. He stopped trying to understand it. He simply accepted it.
+
+He was in the void. He was dead. He had a System.
+
+It was a fact. A new fact. A fact as immutable and undeniable as death itself.
+
+Caelen let out a breath he didn't need. He felt a strange sense of calm settle over him. The panic was gone. The confusion was fading. In its place was a quiet, focused attention.
+
+He looked at the interface again.
+
+Dominion: 1.
+Sacrifice: 1.
+
+He didn't know what it meant. He didn't know what he was supposed to do. He didn't know when he would wake up, or where, or who he would be.
+
+But he knew one thing.
+
+He was ready.
+
+He was a man of two halves, standing on a precipice that had no bottom. And for the first time in his life, he was not afraid of the fall.
+
+He was balanced. He was divided. He was whole.
+
+Caelen closed his eyes, or the part of him that remembered eyes, and waited. The grid hummed, steady and patient. The silence stretched, long and deep. And in the distance, in the dark, he could almost hear the world calling him home.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate decision 'Caelen chooses to stop resisting the System and accepts it as an immutable fact of his existence' repeats decision from Chapter 2, Scene 2: 'Caelen chooses to stop resisting the interface and accepts it as a new fact of his existence'; candidate relationship change 'Caelen's relationship with his own identity shifts from 'Marine/Soldier' to 'data point' within the System' repeats relationship change from Chapter 2, Scene 2: 'Caelen's relationship with his own identity shifts from 'Marine/Soldier' to 'data point' within the System'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.

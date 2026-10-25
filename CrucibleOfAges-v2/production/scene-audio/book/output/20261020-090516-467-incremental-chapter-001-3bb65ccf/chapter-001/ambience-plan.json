@@ -1,0 +1,86 @@
+{
+  "version": 3,
+  "fingerprint": "80552de86fe3013ba87fdf23ec9c969bb5fa7d7ab3727c27dba15172e36dedfd",
+  "model": "qwen3.8:27b",
+  "cues": [
+    {
+      "startSegment": 0,
+      "endSegment": 9,
+      "tags": [
+        "hum",
+        "indoors"
+      ],
+      "setting": "briefing room",
+      "prompt": "Continuous low-frequency electrical hum from fluorescent lighting, no voices or music",
+      "evidence": "The fluorescent lights of the briefing room hummed with a low, persistent drone",
+      "intensity": "moderate"
+    },
+    {
+      "startSegment": 10,
+      "endSegment": 17,
+      "tags": [
+        "engine",
+        "outdoors",
+        "wind"
+      ],
+      "setting": "transport vehicle on dirt road",
+      "prompt": "Rough engine idle and wind rushing past open vehicle windows, no voices or music",
+      "evidence": "the wind whipping past the open windows",
+      "intensity": "strong"
+    },
+    {
+      "startSegment": 18,
+      "endSegment": 24,
+      "tags": [
+        "dust",
+        "outdoors",
+        "wind"
+      ],
+      "setting": "a dusty road in a war zone, near a military vehicle.",
+      "prompt": "Continuous ambient bed of dry, hot wind blowing across a dusty road, with the faint sound of loose dust particles shifting. No voices, no music, no gunshots.",
+      "evidence": "a small, dark figure against the pale yellow of the road",
+      "intensity": "moderate"
+    },
+    {
+      "startSegment": 25,
+      "endSegment": 36,
+      "tags": [
+        "heat",
+        "indoors",
+        "vehicle"
+      ],
+      "setting": "inside a military vehicle in a hot, dry environment.",
+      "prompt": "Continuous ambient bed of the hum of a vehicle engine or idling machinery, mixed with the oppressive stillness of extreme heat. No voices, no music, no mechanical clicks.",
+      "evidence": "The click of the bolt was loud in the quiet vehicle",
+      "intensity": "moderate"
+    },
+    {
+      "startSegment": 37,
+      "endSegment": 52,
+      "tags": [
+        "dust",
+        "heat",
+        "outdoors",
+        "wind"
+      ],
+      "setting": "the open road outside the vehicle, under a hot, still sky.",
+      "prompt": "Continuous ambient bed of heavy, suffocating heat and dry wind moving through the air, with the subtle sound of dust settling. No voices, no music, no gunshots.",
+      "evidence": "The heat hit him like a wall, thick and suffocating",
+      "intensity": "strong"
+    },
+    {
+      "startSegment": 53,
+      "endSegment": 53,
+      "tags": [
+        "outdoors",
+        "vehicle",
+        "wind"
+      ],
+      "setting": "outdoors",
+      "prompt": "Continuous low-level ambient bed of a distant, muffled vehicle hum and very faint, still air movement. No voices, no music, no gunfire, no footsteps.",
+      "evidence": "The hum of the vehicle was a distant, muffled sound. The wind was still.",
+      "intensity": "soft"
+    }
+  ],
+  "warnings": []
+}

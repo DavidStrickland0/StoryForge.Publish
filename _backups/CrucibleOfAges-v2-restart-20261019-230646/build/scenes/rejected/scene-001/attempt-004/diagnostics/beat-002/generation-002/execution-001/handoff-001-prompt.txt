@@ -1,0 +1,161 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"Protagonist","Objective":"Establish the protagonist\u0027s pre-death character as a selfish, aggressive Marine and depict the specific battlefield incident where he shields a noncombatant mother, resulting in his fatal injury.","IntendedChange":"The protagonist transitions from a state of active combat engagement and self-preservation to a state of fatal physical trauma and imminent death, having made a singular, unplanned choice to protect a stranger.","PacingPosture":3,"ProhibitedPatterns":["Ending the chapter with the protagonist alive and walking away, which contradicts the required fatal outcome.","Using repetitive, clipped sentences and contrast reframing (e.g., \u0027I was the one who...\u0027) to emphasize the protagonist\u0027s self-image.","Summarizing the protagonist\u0027s death or System initialization rather than depicting the immediate physical and sensory experience of the fatal injury."],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s baseline personality as a selfish, status-driven Marine through his tactical decisions and internal monologue during a chaotic firefight, highlighting his contempt for weakness and reliance on military discipline to mask insecurity.","IntendedChange":"The protagonist is actively engaged in combat, prioritizing his own survival and status, and has just moved into a position that places him near a noncombatant mother and child, viewing them as an environmental hazard rather than human lives.","FocusCharacterIds":["Protagonist"]},{"Sequence":2,"Purpose":"Depict the specific battlefield incident where the protagonist faces a lethal threat to the noncombatant mother, forcing a split-second choice between his survival instinct and a sudden, visceral recognition of her vulnerability.","IntendedChange":"The protagonist chooses to physically interpose his body between the lethal threat and the mother, accepting the high probability of fatal injury to ensure her survival, thereby shifting from self-preservation to a singular act of sacrifice.","FocusCharacterIds":["Protagonist","Noncombatant Mother"]},{"Sequence":3,"Purpose":"Show the immediate physical consequence of the shielding action, where the protagonist sustains fatal injuries and the mother is spared, while his consciousness begins to fade and he experiences a moment of clarity and detachment as the noise of the battle recedes.","IntendedChange":"The protagonist is dying on the battlefield, his body broken and his consciousness fading, with the mother alive and safe from the immediate threat, and his last thought is a mix of confusion, relief, and a strange sense of completion as the world goes dark.","FocusCharacterIds":["Protagonist","Noncombatant Mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the specific battlefield incident where the protagonist faces a lethal threat to the noncombatant mother, forcing a split-second choice between his survival instinct and a sudden, visceral recognition of her vulnerability.","IntendedChange":"The protagonist chooses to physically interpose his body between the lethal threat and the mother, accepting the high probability of fatal injury to ensure her survival, thereby shifting from self-preservation to a singular act of sacrifice.","FocusCharacterIds":["Protagonist","Noncombatant Mother"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Show the immediate physical consequence of the shielding action, where the protagonist sustains fatal injuries and the mother is spared, while his consciousness begins to fade and he experiences a moment of clarity and detachment as the noise of the battle recedes.","IntendedChange":"The protagonist is dying on the battlefield, his body broken and his consciousness fading, with the mother alive and safe from the immediate threat, and his last thought is a mix of confusion, relief, and a strange sense of completion as the world goes dark.","FocusCharacterIds":["Protagonist","Noncombatant Mother"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Shattered intersection in a populated urban battle zone, near a collapsed wall and a bus on its side","TimeContext":"Daytime, active combat, smoke-filled sky","PresentCharacterIds":["protagonist","battle_comrades","noncombatant_mother"],"PhysicalConditions":["Protagonist is armed with a rifle, magazine full, and physically unharmed","Protagonist is standing up after rolling from a sniper shot","Noncombatant_mother is standing still, holding a baby, three meters to the protagonist\u0027s right","Environment is chaotic with broken glass, dust, and smoke"],"KnowledgeEstablished":["Protagonist is 18 years old and has been in the Corps for four months","Enemy snipers are positioned on rooftops and ledges in the immediate area","The objective is two blocks east","The noncombatant_mother is present in the kill zone and is being monitored by Davis"],"DecisionsMade":["Protagonist decided to view the noncombatant_mother as a tactical liability rather than a moral concern","Protagonist ordered Davis to hold position and monitor the noncombatant_mother, threatening to shoot if she moved (later clarified to shoot near her foot)","Protagonist decided to proceed with the mission despite the presence of the civilian"],"PossessionChanges":[],"RelationshipChanges":["Protagonist established a command dynamic with Davis, issuing direct orders regarding the civilian"],"CompletedActions":["Protagonist moved through the battle zone, checking corners and scanning for threats","Protagonist issued orders to Davis regarding the noncombatant_mother","Protagonist evaded a sniper round by rolling to the left","Protagonist stood up and declared they were behind schedule"],"UnresolvedImmediateAction":"Protagonist is preparing to move toward the objective two blocks east, with the noncombatant_mother still in the immediate vicinity and the sniper threat potentially active","ContinuationPosition":"Protagonist is standing in the intersection, having just evaded a sniper shot, with the noncombatant_mother standing three meters to his right. He has just said \u0027Let\u0027s go\u0027 and is about to move toward the objective.","ProhibitedRepetition":["Repeating the protagonist\u0027s internal monologue about his self-serving competence and disdain for disorder","Repeating the specific order to Davis to shoot the civilian if she moves","Repeating the description of the sniper glint and the protagonist\u0027s roll to evade","Repeating the protagonist\u0027s observation of the noncombatant_mother\u0027s resignation turning to terror"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The air in the intersection tasted of copper and burnt rubber. I took a step forward, my boots crunching on the shattered glass that littered the asphalt like a bed of broken teeth. The objective was two blocks east, a grid of concrete and steel that we were supposed to secure before the sun dipped below the horizon. I checked my magazine. The magazine was full. I checked my weapon. The weapon was ready. The routine was the only thing that kept the noise in my head from becoming a scream.
+
+Davis was close behind me, his breathing ragged. He was twenty-two, a kid from Ohio who still talked about college degrees in his free time, and right now he looked like he wanted to crawl back into his mother’s basement and never come out. He was good at following orders, which was the primary reason I had him on my team. He didn’t ask why. He just did what was told. It was efficient. It was predictable. It was safe.
+
+I stopped at the corner of the intersection, leaning against a concrete barrier that had been torn from the ground. To my right, three meters away, the woman stood with the baby. She hadn’t moved. She was a statue carved out of exhaustion, her eyes wide and unblinking, fixed on a point in the distance that I couldn’t see. The baby in her arms was silent, a small, warm bundle of skin and bone that hung limp against her chest.
+
+I looked at her. I really looked at her for the first time.
+
+She was young. Younger than me, probably. Her hair was matted with dust, and her clothes were torn, but she held the child with a ferocity that defied logic. She wasn’t fighting. She wasn’t running. She was just holding on, as if letting go would cause the universe to collapse around her.
+
+"Stay put," I said to her, my voice rough. "Don't make me do anything I don't want to do."
+
+It was a bluff. I didn't want to do anything to her. I just wanted her out of the way. She was a liability, a moving target in a static kill zone, and I was an eighteen-year-old Marine who had been in the Corps for four months and was terrified of being the one who got killed first.
+
+She didn’t answer. She just tightened her grip on the baby.
+
+I turned back to the street. The smoke was thick now, a grey shroud that hid the upper floors of the buildings. I couldn’t see the sniper, but I could feel the weight of his attention. It was a physical pressure, a cold hand on the back of my neck.
+
+"Movement," Davis whispered.
+
+I froze. My eyes darted to the building on the left. A shadow shifted in the window. A glint of light, brief and sharp, caught the sun.
+
+I moved.
+
+It wasn’t a decision. It was a reflex, a primal scramble for survival that bypassed the logical part of my brain. I dropped to the ground, rolling to the left, my rifle clattering against the pavement. The sound of the bullet tearing through the air was a high-pitched whine, like a angry wasp, and then the impact.
+
+The concrete barrier exploded. Shards of grey stone flew outward, slicing through the air. I felt the heat of the impact on my face, the sting of a fragment cutting across my cheek.
+
+I lay on the ground, my heart hammering against my ribs. My hands were shaking. I had to stop shaking. If I shook, I’d be dead. If I shook, I’d be a target.
+
+I looked up.
+
+The woman was still standing there. She hadn’t flinched. She hadn’t screamed. She was just standing there, holding the baby, watching the dust settle.
+
+And then I saw it.
+
+A second glint. Higher up. A different angle.
+
+The sniper wasn’t firing from the window. He was firing from the roof.
+
+My eyes tracked the trajectory. The bullet path was a straight line, a laser beam of death that cut through the intersection. It passed over the concrete barrier. It passed over my head. It passed over the space where I had been standing.
+
+It passed through the space where the woman was standing.
+
+Time slowed down.
+
+I saw the baby’s face. I saw the dust on its cheeks. I saw the way the light caught the fine hairs on its arms. I saw the woman’s eyes, wide and terrified, looking directly at the building above.
+
+I didn’t think. I didn’t plan. I didn’t calculate the odds or the distance or the risk.
+
+I moved.
+
+I didn’t run toward the safety of the barrier. I didn’t dive for cover. I ran toward the woman.
+
+It was a stupid, irrational, suicidal act. Every instinct in my body screamed at me to stay down, to stay safe, to live. But something else, something deep and old and unnameable, pulled at my gut. It was a hook in my soul, a chain that I couldn’t break.
+
+I lunged.
+
+I tackled her.
+
+My body hit her body. I wrapped my arms around her, around the baby, around the whole terrifying, fragile, living mess of it. I pulled her down to the ground, my shoulder slamming into the asphalt, my chest pressing against her back. I felt her gasp, felt the baby cry out, felt the sudden, sharp pain in my ribs as the ground took the force of the impact.
+
+And then the sound came.
+
+The high-pitched whine. The angry wasp.
+
+The impact hit my chest.
+
+It felt like being hit by a truck. It felt like being hit by a god. My body jerked backward, my head snapping against the pavement. The air left my lungs in a violent rush. My vision blurred, white spots dancing in the darkness.
+
+I tried to move. I tried to push the woman away, to save her, to make sure she was safe. But my body wouldn’t listen. My arms were dead weight. My legs were useless.
+
+I lay on the ground, my chest heaving, my blood pooling on the asphalt. The pain was a white-hot fire, a roaring inferno that consumed everything. I couldn’t breathe. I couldn’t think. I could only feel the weight of the woman’s body on top of me, the small, warm weight of the baby, the cold, hard reality of the world.
+
+The woman was crying. I could hear her sobs, high and thin, like a bird in a trap. She was shaking, her body vibrating against mine.
+
+I looked up.
+
+The sky was grey and empty. The sun was hidden behind the clouds. The world was silent.
+
+I was alive.
+
+Or I was dead. I didn’t know which one it was. The pain was so intense that it had become a kind of numbness, a strange, detached calm that settled over my mind. I could see the woman’s face, her eyes wide with fear, her lips moving in a prayer or a plea. I could see the baby’s face, its eyes closed, its mouth open in a silent cry.
+
+I was the only one who knew what I had done. I was the only one who knew why I had done it.
+
+And for the first time in my life, I didn’t care.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

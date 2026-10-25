@@ -1,0 +1,139 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s selfish, competent baseline and the chaotic breakdown of his unit, culminating in his decision to shield a noncombatant mother, leaving the outcome suspended.","IntendedChange":"The protagonist transitions from relying on institutional support to acting alone, making a final choice to protect a stranger over his own survival, with the physical consequence of that choice deferred to the next chapter.","PacingPosture":3,"ProhibitedPatterns":["Repetitive clipped narrative sentences or fragments for dramatic emphasis","Habitual contrast reframing (e.g., \u0027not X, but Y\u0027)","Depicting the protagonist surviving the fatal blow or the mother escaping unharmed","Static, unresolved endings without a decisive action or choice","Revealing the System interface or metaphysical void transition"],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s self-serving competence and contempt for civilians through his tactical decisions and internal monologue during a chaotic firefight.","IntendedChange":"The protagonist successfully eliminates a threat using a subordinate as a shield, reinforcing his reliance on rank and equipment while establishing his baseline selfishness.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit as the battle turns chaotic, stripping away his institutional support and forcing him to act alone.","IntendedChange":"The protagonist is isolated from his comrades, who are either incapacitated or fleeing, leaving him vulnerable and reliant on his own instincts rather than professional support.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire, forcing the protagonist to confront the moral weight of the situation and his own values in a life-or-death split second.","IntendedChange":"The protagonist\u0027s perception shifts from indifference to a visceral recognition of the mother\u0027s vulnerability, creating the tension that leads to his decision to shield her.","FocusCharacterIds":["protagonist","noncombatant_mother"]},{"Sequence":4,"Purpose":"Culminate in the moment where the protagonist is forced to choose between self-preservation and the safety of the noncombatant mother, making the decision to shield her.","IntendedChange":"The protagonist positions his body between the mother and the threat, his decision to protect her overriding his instinct for self-preservation, with the moment suspended and the outcome unknown.","FocusCharacterIds":["protagonist","noncombatant_mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit as the battle turns chaotic, stripping away his institutional support and forcing him to act alone.","IntendedChange":"The protagonist is isolated from his comrades, who are either incapacitated or fleeing, leaving him vulnerable and reliant on his own instincts rather than professional support.","FocusCharacterIds":["protagonist","battle_comrades"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire, forcing the protagonist to confront the moral weight of the situation and his own values in a life-or-death split second.","IntendedChange":"The protagonist\u0027s perception shifts from indifference to a visceral recognition of the mother\u0027s vulnerability, creating the tension that leads to his decision to shield her.","FocusCharacterIds":["protagonist","noncombatant_mother"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Street outside a ruined building (formerly a family home), active combat zone","TimeContext":"Daytime, active firefight, immediate post-engagement","PresentCharacterIds":["protagonist","battle_comrades"],"PhysicalConditions":["Protagonist: 7 rounds remaining in M4 magazine, minor plaster dust on face/teeth, elevated heart rate but physically stable","Battle_comrades (Diaz): Hiding behind collapsed beam, pale, breathing heavily, physically unharmed but shaken","Environment: Ruined hallway with shattered drywall/twisted rebar, street with three bodies (two enemy, one civilian woman), distant mortar fire, burning debris"],"KnowledgeEstablished":["Protagonist is 18 years old and identifies as a Marine","Protagonist views his control and competence as the primary value in combat","Protagonist perceives civilians (specifically the dead woman) as irrelevant to his mission (\u0027no time for that\u0027)","Protagonist successfully eliminated a hostile threat in the hallway","Extraction is pending (\u0027Stand by for extraction\u0027)"],"DecisionsMade":["Protagonist ordered Diaz to provide cover","Protagonist chose to engage and kill the armed individual in the hallway without hesitation","Protagonist chose to ignore the dead civilian woman and continue moving toward the street"],"PossessionChanges":["Protagonist expended 1 round from M4 magazine (now 7 remaining)"],"RelationshipChanges":["Protagonist asserts dominance over Diaz through strict orders and criticism of his breathing","Diaz expresses admiration/fear (\u0027Nice shot\u0027) but remains subordinate and passive"],"CompletedActions":["Protagonist checked magazine count","Protagonist moved through the hallway under fire","Protagonist returned fire and killed an armed individual","Protagonist verified the body was not holding a grenade","Protagonist reported \u0027Sector clear\u0027 over radio","Protagonist exited the building onto the street","Protagonist observed three bodies on the street and looked away"],"UnresolvedImmediateAction":"Protagonist is moving through the street, having just stepped out of the building, with extraction pending but not yet arrived.","ContinuationPosition":"Protagonist is standing in the street, having just looked away from the bodies, continuing to move forward while Diaz remains behind in the building or nearby, awaiting the next tactical development or extraction.","ProhibitedRepetition":["Repeating the hallway firefight or the killing of the armed individual","Repeating the internal monologue about \u0027control\u0027 as a new realization (it is already established as his baseline lie)","Repeating the observation of the dead civilian woman as a new discovery","Repeating the radio check for extraction status"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The radio crackled, a burst of static that sounded like sand being poured over gravel. I clicked the transmit button, my thumb hovering over the switch. “Eagle One, this is Eagle Two. Status?”
+
+Silence.
+
+I waited until the carrier wave died, then clicked again. “Eagle One, repeat, status. Do you copy?”
+
+Nothing. Just the wind whistling through the shattered window frames of the building I had just exited. The air smelled of cordite and wet dust, a metallic tang that coated the back of my throat. I adjusted my grip on the M4, the polymer stock cold against my cheek. Seven rounds. A number that felt precarious, a math problem I hadn’t wanted to solve.
+
+“Diaz,” I said, turning back toward the doorway.
+
+He was still there, pressed against the collapsed beam, his face a mask of pale shock. His breathing was ragged, a wet, hitching sound that grated against my nerves. I had told him to breathe. I had told him to control it. He hadn’t listened.
+
+“Move,” I ordered.
+
+He flinched, his eyes wide and darting. “Extraction’s—”
+
+“Extraction is late. We are moving to the rally point. Now.”
+
+He scrambled to his feet, his legs shaking visibly. He was young, younger than me by a year, and he still had the look of a boy who had just learned that the world did not care about his potential. I didn’t have time to fix that. I had a job to do, and I had a body count to maintain.
+
+We stepped out into the street. It was a narrow, choked artery of rubble, the asphalt buckled and split by the earlier mortar impacts. The sun was high and bleaching, turning the dust into a fine, white fog that hung in the air. It was beautiful, in a sterile, dead way. It was the kind of beauty that didn’t ask anything of you.
+
+I moved first. Always first. I scanned the left, then the right, my eyes tracking the shadows between the piles of concrete. Diaz followed, his boots crunching on the debris. He was loud. He was always loud. I wanted to tell him to be quiet, but I knew he was trying. That was the problem with Diaz; he tried so hard it made him clumsy.
+
+We reached the corner of the intersection. A bus lay on its side, its windows shattered, the interior a tangle of twisted metal and torn fabric. I raised my rifle, checking the corner. The corner was clear. I signaled for him to follow.
+
+As we rounded the bend, the world seemed to tilt.
+
+A scream cut through the air. It was high, thin, and desperate. It came from behind us, from the direction of the building we had just left.
+
+I froze. My body locked, every muscle tensing. I turned slowly, my rifle sweeping back toward the source of the sound.
+
+Diaz was gone.
+
+The space where he had been standing was empty. The dust swirled in the spot where his shadow had been a second ago. There was no blood, no body, no sign of him. Just a faint, fading trail of disturbed dust in the air.
+
+I stared at the empty space. My mind tried to process the data. Diaz was gone. Diaz was not there. The equation was broken.
+
+“Diaz!” I shouted, the word tearing out of my throat before I could stop it.
+
+The room fell into silence.
+
+I ran back toward the building. My boots slammed against the asphalt, the impact jarring my knees. I reached the doorway, peering inside. The hallway was dark, the light from the street cutting a sharp, angular slice across the floor.
+
+There was nothing.
+
+I checked the rooms. The kitchen, the bathroom, the bedroom. The rooms were empty. I checked the windows. The windows were broken. I checked the roof. I climbed up, my heart hammering against my ribs, a frantic bird trapped in a cage.
+
+He was gone.
+
+I stood on the roof, looking out over the city. The smoke rose in thick, gray columns. The distant sound of gunfire was a constant, rhythmic pulse. I was alone.
+
+I looked down at my hands. They were steady. That was the worst part. They should have been shaking. They should have been trembling. But they were steady, gripping the rifle with a precision that felt unnatural, mechanical.
+
+I was the Marine. I was the one who made the decisions. I was the one who kept the others alive.
+
+But the others weren’t there.
+
+I climbed back down, my movements efficient, controlled. I returned to the street, my eyes scanning the horizon. The rally point was two blocks away. I needed to get there. I needed to report. I needed to find a way to make sense of this.
+
+I walked. I didn’t run. Running would have been a mistake, a display of weakness. I walked with a steady, purposeful stride, my rifle held at the ready. The dust settled on my shoulders, my face, my hair. I felt the weight of the world settling onto me, a heavy, oppressive burden that I had no choice but to carry.
+
+I was alone.
+
+And I was ready.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

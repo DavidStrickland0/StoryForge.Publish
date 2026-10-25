@@ -10,7 +10,7 @@ He remains dead in Nothing, experiencing time as the acuteness of his memories d
 
 Caelen is awakened and comes from Earth. Everyone from Earth eventually awakens, and only Earth-origin people are awakened. Billions of such people are distributed across trillions of planets, leaving only a few on a planet at any time. Each planet begins with at least one Sacrifice awakened and one Dominion awakened. Almost nobody understands the mechanics reliably. His private interface displays two ones, whose meaning is not established.
 
-Actions in the tutorial determine faction assignment. A person advances only within the assigned faction. Dominion and Sacrifice points are recorded behind the scenes. During life nothing reveals the scales; weighing occurs only at death. Changing faction is difficult and possible only at death. Reassignment at death depends on a pattern of intentional domination or sacrifice during life and is exceptionally rare, known only to a few. Caelen's rescue death triggers automatic Sacrifice assignment, but his tutorial choices weigh so strongly toward Dominion that the conflict triggers a rare choice between factions. At death he quickly chooses Sacrifice because he dislikes what he became and finds peace only in his final rescue. He does not yet understand the consequences of that choice. The scale reflects hidden faction points. Its weighting is revealed only at death, never during life.
+Actions in the tutorial determine faction assignment. A person advances only within the assigned faction. Dominion and Sacrifice points are recorded behind the scenes. During life nothing reveals the scales; weighing occurs only at death. Changing faction is difficult and possible only at death. Reassignment at death depends on the pattern of true motivations prioritizing self or others during life and is exceptionally rare, known only to a few. Caelen's rescue death triggers automatic Sacrifice assignment, but his tutorial choices weigh so strongly toward Dominion that the conflict triggers a rare choice between factions. At death he quickly chooses Sacrifice because he dislikes what he became and finds peace only in his final rescue. He does not yet understand the consequences of that choice. The scale reflects hidden faction points. Its weighting is revealed only at death, never during life.
 
 ## The Creator's Visit
 
@@ -83,9 +83,13 @@ After the slave operation falls, allow the victory to stand. The next difficulti
 
 Caelen's death-time choice is quick and emotionally motivated. His final rescue supplies peace that his earlier pursuit of status and advantage did not. He chooses Sacrifice without knowing the obligations and constraints he will later encounter.
 
-Let him encounter those constraints through experience without receiving an explanation of XP, levels, or the hidden advancement mechanism. Actual surrender and genuine exposure to potential loss for others can advance him; defending others with his life and sword is a concrete example. A successful defense can qualify even if he survives unharmed. Show what he risked and whom he intended to protect.
+Let him encounter those constraints through experience without receiving an explanation of XP, levels, or the hidden advancement mechanism. Sacrifice means loving others above oneself and prioritizing their needs and wants over one's own. Dominion means loving oneself above others and prioritizing one's own wants and needs over theirs. Faction alignment depends on true motivation, which the System knows perfectly; apparent selflessness, personal cost or risk, and the outcome do not determine faction alignment.
 
-His occasional later doubts should arise from specific frustrations and tempting alternatives. He may resent having to place himself at risk, wish self-serving victories advanced him, or wonder whether Dominion would have made survival easier. Keep those thoughts distinct from changing faction or abandoning everyone he cares about.
+XP accrues only for actions aligned with the assigned faction. A 50/50 balance of motivations grants zero XP; 100/0 in favor of the assigned faction grants full eligible XP. Mixed motivations attenuate XP. No exact intermediate attenuation formula is established. The SRD rules continue to determine eligible experience valuation; these motivation rules govern eligibility and attenuation without replacing SRD valuation.
+
+Caelen may expect growth from an apparently selfless action and encounter little or none, later recognizing mixed motivations. Depict his changing understanding without visible XP or level announcements.
+
+His occasional later doubts should arise from specific frustrations and tempting alternatives. He may resent having to prioritize others over himself, wish self-serving victories advanced him, or wonder whether Dominion would have made survival easier. Keep those thoughts distinct from changing faction or abandoning everyone he cares about.
 
 ### Moral Development and Relationships
 
@@ -117,7 +121,7 @@ Marcy is an adult, non-awakened fellow slave whose malnutrition gives her a youn
 
 She meets Caelen in the slave carriage. The overseer notices her beauty; other men harass or attempt to assault her. Caelen's nonparticipation is initially largely due to ignorance of the language and situation. In desperation, she claims him as protector under the slave-pit custom. He does not answer or surrender her, is forced to fight other slaves, and gradually learns what the claim means.
 
-His military hand-to-hand training helps him prevail. The author has established several hidden Fighter advancements from defending her; exact changes remain manually managed. Show personal risk, emerging learning potential, and actual training without XP or level announcements.
+His military hand-to-hand training helps him prevail. The author has established several hidden Fighter advancements from defending her; exact changes remain manually managed. Show his true concern for Marcy above his own wants and needs, emerging learning potential, and actual training without XP or level announcements. Personal risk alone does not establish alignment; preserve the mixed-motivation rules in WORLD.md.
 
 Caelen initially struggles with attraction and uncertainty about her younger appearance. Understanding her history requires persistent questioning in a culture that stops routine age tracking after naming. Her adult status is established; the custom and protector claim do not establish consent. Marcy's goals, skills, choices, and boundaries must develop alongside the romance.
 

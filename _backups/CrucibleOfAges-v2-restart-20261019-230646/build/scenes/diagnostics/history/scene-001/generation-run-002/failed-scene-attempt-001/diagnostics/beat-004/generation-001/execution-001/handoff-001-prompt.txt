@@ -1,0 +1,93 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 4 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s selfish, institutional identity and tactical competence during a chaotic battle, culminating in his decision to shield a noncombatant mother, leaving the outcome suspended.","IntendedChange":"The protagonist transitions from relying on unit support to isolated survival, making a split-second choice to protect a civilian over his own safety, with the fatal impact still pending.","PacingPosture":3,"ProhibitedPatterns":["Ending the chapter with the protagonist alive and walking away from the threat.","Using repetitive clipped sentences or fragments to emphasize self-image.","Using \u0027not X, but Y\u0027 contrast reframing as a habitual rhetorical device.","Depicting the protagonist\u0027s death or the initialization of the System.","Resolving the fate of the mother or the protagonist before the moment of impact."],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s baseline personality through his tactical decisions and internal monologue during the initial phase of the battle, revealing his contempt for weakness and reliance on institutional support.","IntendedChange":"The protagonist is positioned in a defensive line with his unit, actively using a subordinate as a shield and dismissing the presence of civilians as irrelevant obstacles, establishing his selfish, self-serving identity before the chaos escalates.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit and the failure of his standard operating procedures against the chaotic reality of the battlefield, forcing him into a state of isolated, visceral survival.","IntendedChange":"The protagonist\u0027s unit is scattered or incapacitated by the uncontrolled nature of the battle, leaving him alone and vulnerable, stripping away his institutional identity and forcing him to rely on his own instincts and equipment.","FocusCharacterIds":["protagonist"]},{"Sequence":3,"Purpose":"Introduce the noncombatant mother into the line of fire and depict the protagonist\u0027s internal conflict between self-preservation and a sudden, instinctive impulse to protect her, leading to his decision to shield her.","IntendedChange":"The protagonist perceives the mother\u0027s vulnerability as a threat to his own survival or a moral anchor he cannot ignore, and he positions his body between her and the imminent threat, making the choice to protect her while the outcome remains unknown.","FocusCharacterIds":["protagonist","noncombatant_mother"]},{"Sequence":4,"Purpose":"Capture the immediate sensory and physical reality of the protagonist\u0027s final moments as he stands in the mud, focusing on the mundane, gritty details of his environment and his own bodily state to ground the abstract decision in visceral reality.","IntendedChange":"The narrative shifts from the high-level tactical decision to the low-level physical experience of waiting, emphasizing the protagonist\u0027s human fragility and the absurdity of his situation through his internal commentary on the mud, the weight of his gear, and the silence of the approaching enemy.","FocusCharacterIds":["protagonist"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":4,"Purpose":"Capture the immediate sensory and physical reality of the protagonist\u0027s final moments as he stands in the mud, focusing on the mundane, gritty details of his environment and his own bodily state to ground the abstract decision in visceral reality.","IntendedChange":"The narrative shifts from the high-level tactical decision to the low-level physical experience of waiting, emphasizing the protagonist\u0027s human fragility and the absurdity of his situation through his internal commentary on the mud, the weight of his gear, and the silence of the approaching enemy.","FocusCharacterIds":["protagonist"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":3,"Location":"Defensive trench line near a drainage culvert choke point, protagonist now standing in the open mud between the trench and the enemy line","TimeContext":"Daytime, obscured by smoke and dust; immediate moment before enemy contact","PresentCharacterIds":["protagonist","noncombatant_mother","enemy_forces"],"PhysicalConditions":["Protagonist: Standing in open mud, rifle slung on back (full magazine), hands no longer shaking from firing but physically committed to a static defensive posture","Noncombatant Mother: Standing behind/beside the enemy line, dressed in clean clothes, hair pinned up, observing the protagonist with detached curiosity","Enemy Forces: Within 5 meters of the protagonist, calm, purposeful, young, not returning fire, advancing in loose formation","Environment: Mud slurry, dust haze, trench damaged, debris from previous shots"],"KnowledgeEstablished":["Protagonist perceives the noncombatant mother as a moral anchor whose death would cause permanent self-loathing","Protagonist recognizes his instinct to protect conflicts with his established selfish identity","Enemy forces are young and appear scared rather than monstrous","Protagonist has decided to sacrifice his life to shield the mother"],"DecisionsMade":["Protagonist decided to stop shooting","Protagonist decided to slung his rifle and step out of the trench","Protagonist decided to position his body between the enemy and the noncombatant mother"],"PossessionChanges":["Protagonist moved his rifle from active firing position to slung on back"],"RelationshipChanges":["Protagonist established a protective intent toward the noncombatant mother, overriding his self-preservation instinct"],"CompletedActions":["Protagonist fired multiple shots that missed and failed to deter the enemy","Protagonist observed the noncombatant mother in the line of fire","Protagonist experienced an internal conflict regarding his selfish identity vs. instinct to protect","Protagonist stopped shooting","Protagonist slung his rifle on his back","Protagonist stepped out of the trench into the open mud","Protagonist walked toward the enemy line to position himself as a shield"],"UnresolvedImmediateAction":"Protagonist is standing in the open mud, unarmed in hand, positioned between the approaching enemy and the noncombatant mother, awaiting the moment of impact or contact","ContinuationPosition":"Protagonist is standing in the mud 5 meters from the enemy line, rifle on his back, body oriented toward the enemy to shield the noncombatant mother who is watching him from behind the enemy formation","ProhibitedRepetition":["Re-describing the protagonist\u0027s initial decision to stand up and fight","Re-establishing the death of Miller and Vance","Re-describing the protagonist\u0027s isolation as a new realization","Repeating the internal monologue about being \u0027just a boy with a gun\u0027","Re-describing the enemy\u0027s calm advance from 200m to 50m","Re-describing the protagonist\u0027s initial selfish motivation for joining the service as a new discovery","Re-describing the act of stepping out of the trench"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The mud was cold. That was the first thing my brain latched onto. It wasn't the fear, or the adrenaline, or the bizarre, floating sensation of knowing I was about to die. It was the cold. It soaked through my boots, seeping into the fabric of my trousers, and it felt like every drop of water in the universe had decided to become my personal enemy. I stood there, ankle-deep in the slurry, my knees aching from the impact of the earlier shelling. My rifle hung heavy on my back, the strap cutting into my shoulders, a dead weight that I had no intention of using.
+
+I tried to breathe. That was the second thing. Breathing used to be automatic, a background process that required zero conscious effort. Now, it felt like a chore. I had to remember to pull the air in, to push it out. In, out. The air tasted of sulfur and wet earth and the metallic tang of blood that wasn't mine. I could hear the enemy moving. They were close. Five meters, maybe four. I could see the edges of their uniforms, the way the dust clung to their shoulders. They were young. I could tell by the way they moved, the slight tremor in their arms. They weren't monsters. They were just boys, like me, wearing different colors and following different orders.
+
+And then there was the woman. She was standing behind them, just beyond the reach of their formation, watching me with an expression I couldn't read. It wasn't fear. It wasn't hope. It was curiosity. She looked at me the way one might look at a dog that had wandered into the wrong yard, wondering what it was going to do next. Her hair was pinned up, her clothes clean. She belonged to a world where people didn't stand in the mud and wait to be killed. I envied her. I envied her clarity. I envied the fact that she didn't have to make a choice. She just had to survive.
+
+I looked down at my hands. They were shaking. Not the violent, jagged shakes of panic, but a low, constant vibration, like a phone on a table. I flexed my fingers, trying to steady them, but they kept trembling. I could feel the grit of the mud under my fingernails, the roughness of my gloves. I was eighteen years old. I was a Marine. I was supposed to be the one who made the hard choices, the one who held the line. But standing here, in the open, with no cover and no plan, I felt incredibly small.
+
+The enemy stopped. They were right in front of me now. I could smell them. Sweat, and gun oil, and the faint, sweet scent of the rain that had just stopped falling. One of them, a boy with a scar running through his eyebrow, raised his weapon. I didn't flinch. I didn't brace myself. I just stood there, letting the mud settle around my boots, letting the weight of the world settle onto my shoulders.
+
+I thought about Miller. I thought about Vance. I thought about the way they had laughed in the mess hall, the way they had argued about music, the way they had looked at me with that mix of respect and suspicion that I had come to rely on. They were gone. They were dust. And I was still here, standing in the mud, waiting for the bullet that would end it all.
+
+It was absurd. That was the third thing. The sheer, unadulterated absurdity of it all. I had joined the Marines to escape my father's shadow, to find a place where my worth was measured in something other than money or status. And now, here I was, measuring my worth in the number of strangers I could shield with my body. It was a trade I hadn't made a deal for. It was a price I hadn't agreed to pay. But here it was, sitting in the mud, cold and wet and waiting.
+
+The boy with the scar took a step forward. His boot squelched in the slurry. He raised his rifle, aiming at my chest. I could see the glint of the barrel in the dusty light. I didn't close my eyes. I didn't pray. I just watched. I watched the way his finger hovered over the trigger, the way his breath fogged in the cool air. I watched the woman behind him, her face still calm, her eyes still curious.
+
+I realized, with a strange, detached clarity, that I wasn't afraid. I wasn't even excited. I was just... I was just tired. Tired of running, tired of hiding, tired of pretending that I was someone I wasn't. This was the end of that. This was the moment where the mask slipped off and fell into the mud. And for the first time in my life, I didn't care who saw what was underneath.
+
+The boy's finger tightened. The air seemed to hold its breath. The world narrowed down to a single point, a single moment, a single choice. I stood in the mud, cold and wet and alive, and I waited for the darkness to come.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

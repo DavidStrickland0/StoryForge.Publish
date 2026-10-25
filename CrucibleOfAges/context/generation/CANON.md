@@ -48,7 +48,9 @@ After an accepted chapter, update present-tense state and retain earlier events 
 
 ## Author Decisions Superseding Earlier Interpretations
 
-Use WORLD.md for cosmology, hidden Fighter progression, timekeeping, numbering, measurements, anatomy, naming customs, and observances. Use CHARACTERS.md for character state and author-supplied mechanics, and NARRATIVE.md for book direction and reveal timing.
+Use WORLD.md for cosmology, hidden Fighter progression, timekeeping, numbering, measurements, anatomy, naming customs, and observances.
+
+Sacrifice means loving others above oneself and prioritizing their needs and wants over one's own. Dominion means loving oneself above others and prioritizing one's own wants and needs over theirs. Faction alignment depends on true motivation, which the System knows perfectly; apparent selflessness, personal cost or risk, and the outcome do not determine faction alignment. XP accrues only for actions aligned with the assigned faction. A 50/50 balance of motivations grants zero XP; 100/0 in favor of the assigned faction grants full eligible XP. Mixed motivations attenuate XP. No exact intermediate attenuation formula is established. The SRD rules continue to determine eligible experience valuation; these motivation rules govern eligibility and attenuation without replacing SRD valuation. Use CHARACTERS.md for character state and author-supplied mechanics, and NARRATIVE.md for book direction and reveal timing.
 
 Caelen chooses Sacrifice at death and receives the Creator's verification visit. Marcy meets him in the carriage and claims protection, leading to fights and author-established hidden advancement. Book One ends with Caelen becoming planetary Sacrifice ruler and learning the Creator's full plan. These commitments supersede the earlier dual-progression and local-liberation-only premise.
 

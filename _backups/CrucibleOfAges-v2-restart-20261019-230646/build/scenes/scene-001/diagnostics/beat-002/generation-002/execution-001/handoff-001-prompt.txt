@@ -1,0 +1,111 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"Protagonist","Objective":"Establish the protagonist\u0027s pre-death character as a selfish, aggressive Marine and depict the specific battlefield incident where he shields a noncombatant mother, resulting in his fatal injury.","IntendedChange":"The protagonist transitions from a state of active combat engagement and self-preservation to a state of fatal physical trauma and imminent death, having made a singular, unplanned choice to protect a stranger.","PacingPosture":3,"ProhibitedPatterns":["Sustained pattern of clipped narrative sentences and fragments for dramatic emphasis","One-word narrative sentences or fragments of four words or fewer","Habitual contrast reframing (e.g., \u0027not X, but Y\u0027)","Excessive fragments or repetitive emphasis"],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s baseline personality through his internal monologue and tactical decisions during a chaotic firefight, revealing his desire for status, contempt for weakness, and reliance on military discipline to mask insecurity.","IntendedChange":"The protagonist is actively engaged in combat, moving with his squad, and his internal voice is focused on self-preservation, gaining recognition, and dismissing the chaos around him as irrelevant to his personal advancement.","FocusCharacterIds":["Protagonist","Squad Leader"]},{"Sequence":2,"Purpose":"Introduce the noncombatant mother and child as a specific human presence within the battlefield, shifting the protagonist\u0027s perception from viewing them as an environmental hazard to recognizing their vulnerability and humanity.","IntendedChange":"The protagonist identifies the mother and child as a distinct threat to his mission and a potential liability, but also perceives their fear and helplessness, creating a moment of hesitation that conflicts with his standard operating procedures.","FocusCharacterIds":["Protagonist","Noncombatant Mother"]},{"Sequence":3,"Purpose":"Depict the specific lethal threat (a stray bullet or direct attack) and the protagonist\u0027s split-second decision to interpose his body between the threat and the mother, overcoming his survival instinct and fear of being seen as weak.","IntendedChange":"The protagonist physically shields the mother, sustaining fatal injuries to his chest and thigh, while the mother and child are spared from the immediate lethal impact.","FocusCharacterIds":["Protagonist","Noncombatant Mother"]},{"Sequence":4,"Purpose":"Illustrate the protagonist\u0027s fading consciousness and the moment of clarity where the noise of the battle recedes, allowing him to experience a mix of confusion, relief, and a strange sense of completion as his life ends.","IntendedChange":"The protagonist is dying on the battlefield, his body broken, his consciousness fading, and the world goes dark, marking the end of his first life on Earth.","FocusCharacterIds":["Protagonist"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Introduce the noncombatant mother and child as a specific human presence within the battlefield, shifting the protagonist\u0027s perception from viewing them as an environmental hazard to recognizing their vulnerability and humanity.","IntendedChange":"The protagonist identifies the mother and child as a distinct threat to his mission and a potential liability, but also perceives their fear and helplessness, creating a moment of hesitation that conflicts with his standard operating procedures.","FocusCharacterIds":["Protagonist","Noncombatant Mother"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Depict the specific lethal threat (a stray bullet or direct attack) and the protagonist\u0027s split-second decision to interpose his body between the threat and the mother, overcoming his survival instinct and fear of being seen as weak.","IntendedChange":"The protagonist physically shields the mother, sustaining fatal injuries to his chest and thigh, while the mother and child are spared from the immediate lethal impact.","FocusCharacterIds":["Protagonist","Noncombatant Mother"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Collapsed courtyard of a mud-brick compound","TimeContext":"Active firefight, daytime","PresentCharacterIds":["Protagonist","Squad Leader","Private Davis","Noncombatant Mother","Child"],"PhysicalConditions":["Protagonist is unharmed but physically exerted, sweating, and covered in dust","Protagonist is holding a rifle with a fresh magazine loaded","Noncombatant Mother is crouching behind rubble, holding a child, trembling, and covered in dust and tears","Squad Leader is present in the combat zone, communicating via radio","Private Davis is covering the rear, pale, and shaking"],"KnowledgeEstablished":["Protagonist identifies the figure moving toward the exit gate as a non-combatant woman holding a child","Protagonist recognizes the woman\u0027s fear and pleading hope","Squad Leader orders the neutralization of the figure as a threat","Protagonist determines that engaging the woman is the \u0027easiest\u0027 but \u0027wrong\u0027 answer"],"DecisionsMade":["Protagonist decides not to engage the non-combatant woman and child","Protagonist refuses to step aside from his position despite direct orders from the Squad Leader"],"PossessionChanges":["Protagonist swapped his rifle magazine for a fresh one"],"RelationshipChanges":["Protagonist\u0027s relationship with the Squad Leader shifts from compliant subordinate to direct defiance","Protagonist\u0027s internal perception of the Noncombatant Mother shifts from tactical variable to a fragile, breathing person"],"CompletedActions":["Protagonist killed an enemy combatant on a roofline","Protagonist killed an enemy combatant behind crates","Protagonist moved to a new position in the courtyard","Protagonist identified the Noncombatant Mother and Child","Protagonist lowered his rifle and verbally refused the order to engage"],"UnresolvedImmediateAction":"Protagonist is standing his ground, refusing to move or engage, while the Squad Leader has issued a final warning and the firefight continues around them.","ContinuationPosition":"Protagonist is positioned in the courtyard, rifle lowered but ready, eyes fixed on the crouching Noncombatant Mother and Child, having just verbally defied the Squad Leader\u0027s order to neutralize them.","ProhibitedRepetition":["Re-describing the initial firefight chaos or the protagonist\u0027s general tactical competence without new specific action","Re-introducing the Noncombatant Mother and Child as if they are new to the scene","Repeating the protagonist\u0027s internal monologue about his past invisibility or desire for status without new context","Repeating the Squad Leader\u0027s initial order to neutralize the threat"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The radio crackled again, but Caelen let it buzz in his ear. He kept his weight on the balls of his feet, his center of gravity low, a habit drilled into him until it felt like bone structure. Around him, the courtyard was a chaos of dust and debris. Broken mud bricks lay scattered across the packed earth, and the air tasted of cordite and dried clay. Somewhere to his left, Davis was firing in controlled bursts, the muzzle flash blooming in the dim light of the broken windows. The rhythm was frantic, unsteady. Caelen could hear the young Marine breathing, a sharp, reedy whistle that betrayed a heart hammering against his ribs.
+
+Caelen looked back at the woman. She hadn’t moved. She was still crouched in the shadow of a collapsed wall, her back pressed against the rough stone. Her arms were wrapped tightly around the child, pulling the small body against her chest as if she could physically merge with the child to make them a single, smaller target. The child was silent. That was the thing that caught Caelen’s attention more than the mother’s trembling. The child wasn’t crying. It wasn’t screaming or thrashing. It was perfectly, terribly still, its face a mask of white shock beneath a layer of gray dust.
+
+Caelen’s mind, trained to process data, tried to categorize the threat. She was a non-combatant. A liability. If they pushed through the gate, they would have to clear her, and clearing a crouching civilian in a confined space was a nightmare scenario for a squad that didn’t want to make a casualty. He could see the logic of the order. Remove the obstacle. Secure the perimeter. It was clean. It was efficient. It was the right answer according to the manual he had memorized three years ago.
+
+But the manual didn’t have a chapter for the way the woman’s eyes looked. They were wide, the pupils dilated in the low light, staring at him with a mix of terror and a desperate, bewildering hope. She was looking for a savior. She was looking for a monster. She was looking at him, and he was just a man with a rifle in his hand, sweating and shaking like the rest of them.
+
+"Caelen." The voice was sharper this time, edged with the specific anger of a leader who felt his control slipping. "Move. I am authorizing you to use lethal force. Confirm you copy."
+
+Caelen pulled the earpiece out of his ear and let it dangle from the wire. He raised his hand, the gesture clear and unmistakable, and shook his head.
+
+On the other side of the courtyard, the woman flinched as if he had fired at her. She pressed the child deeper into her lap, her fingers digging into the fabric of her tattered dress. Caelen saw the muscle in her forearm tense, a thin white cord under the dirt-streaked skin. She was trying to be invisible. She was trying to become part of the rubble, part of the broken world.
+
+He felt a strange, cold sensation in his stomach. It wasn’t fear. It was a hollow feeling, a void where his usual certainty used to be. He had spent his whole life feeling invisible, pushing himself to the front of the line so people would notice him, so he would matter. He had joined the Marines because he wanted to be the one who was seen, the one who was powerful, the one who could command respect without asking for it. He had built his entire identity on the premise that he was stronger than the people around him, that he was the one who made the decisions that kept him safe.
+
+And now he was standing in the way of a decision that would keep him safe.
+
+He looked at his rifle. The weapon was heavy in his hands, a familiar anchor in a world that had suddenly become weightless. He could feel the recoil of the last shot still vibrating in his shoulders, a ghost of the violence he was so good at. He had killed two men today. One on a roof, one behind some crates. They had been threats. They had been targets. Their deaths had been clean, purposeful, and they had advanced his career in a way that was invisible to the rest of the world but real to him.
+
+But this woman wasn’t a target. She was a person. And the realization that he could kill her, that he was fully capable of killing her, and that his training would call it necessary, made his hands feel dirty.
+
+The firefight continued around him. A bullet sparked off the wall behind him, spraying a shower of red dust into his hair. He didn’t flinch. He just stood there, a monument to his own indecision. He could hear Davis calling out, "Sergeant, I need cover! I need cover!" The desperation in the young Private’s voice was a mirror to his own. They were all afraid. They were all trying to survive. And he was the one who had to decide what survival meant.
+
+He thought about his father. He thought about the way his father had looked at him, with that disappointed, hard gaze that said *you are not enough*. He had spent eighteen years trying to be enough. He had tried to be the best, the strongest, the most competent. He had tried to be the one who never hesitated, never doubted, never failed. And now, in this moment, in the middle of a war that wasn’t his, he was failing. He was hesitating. And he realized, with a sudden, shocking clarity, that he didn’t want to be the one who killed her. He didn’t want to be the weapon that finished her. He wanted to be the one who stopped it.
+
+It was a stupid thought. It was a weak thought. It was the kind of thought that got people killed.
+
+But as he looked at the woman, he saw something in her eyes that he recognized. It was the same look he had seen in the mirror every morning. It was the look of someone who was trying to hold on to a piece of themselves that was slipping away. She was holding her child. He was holding his rifle. They were both trying to protect something.
+
+He lowered his rifle further. The muzzle pointed at the ground, the barrel resting on a broken brick. He wasn’t going to shoot. He wasn’t going to move. He was going to stand there, and he was going to let them look at him, and he was going to let them decide what to do.
+
+The radio buzzed again, then went silent. The Squad Leader was probably talking to someone else. Maybe he was calling for backup. Maybe he was calling for a airstrike. It didn’t matter. Caelen was done. He was done being the guy who followed orders. He was done being the guy who did what was expected. He was standing in the courtyard, in the dust, in the heat, in the middle of a war, and he was finally, truly, present.
+
+The woman watched him. Her trembling slowed. The child in her arms blinked, a slow, heavy movement that seemed to take a great amount of effort. For a second, just a second, the tension in the courtyard shifted. The air seemed to still. The dust motes hung suspended in the beams of light that cut through the broken windows.
+
+Caelen didn’t breathe. He didn’t blink. He just existed, a still point in the center of the chaos. He didn’t know what was going to happen next. He didn’t know if he was going to live or die. He didn’t know if he had done the right thing. But he knew, with a certainty that felt more solid than any training drill, that he had chosen. And for the first time in his life, the choice was his.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

@@ -1,0 +1,122 @@
+﻿{
+  "SceneNumber": 1,
+  "Records": [
+    {
+      "Stage": "Generation",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:15:41.9239233",
+      "Artifact": "draft.md",
+      "CompletedUtc": "2026-10-20T05:39:04.7179615+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b; comparison: qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:05:55.2168785",
+      "Artifact": "draft.md",
+      "CompletedUtc": "2026-10-20T05:45:00.128638+00:00"
+    },
+    {
+      "Stage": "Review",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:16:21.8742560",
+      "Artifact": "review-001.md",
+      "CompletedUtc": "2026-10-20T06:01:22.260042+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:07:48.6742687",
+      "Artifact": "review-001.validation.json",
+      "CompletedUtc": "2026-10-20T06:09:11.1812893+00:00"
+    },
+    {
+      "Stage": "Revision",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:38:56.7294579",
+      "Artifact": "revision-001.md",
+      "CompletedUtc": "2026-10-20T06:48:08.1706608+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b; comparison: qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:14:20.9916829",
+      "Artifact": "revision-001.md",
+      "CompletedUtc": "2026-10-20T07:02:29.3531146+00:00"
+    },
+    {
+      "Stage": "Review",
+      "Sequence": 2,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:20:40.6090697",
+      "Artifact": "review-002.md",
+      "CompletedUtc": "2026-10-20T07:23:10.1301397+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 2,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:13:38.2510127",
+      "Artifact": "review-002.validation.json",
+      "CompletedUtc": "2026-10-20T07:36:48.6292212+00:00"
+    },
+    {
+      "Stage": "Revision",
+      "Sequence": 2,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:27:49.5893528",
+      "Artifact": "revision-002.md",
+      "CompletedUtc": "2026-10-20T08:04:38.4080579+00:00"
+    },
+    {
+      "Stage": "ProseEditing",
+      "Sequence": 2,
+      "Model": "qwen3.8:27b; comparison: qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:14:19.5282575",
+      "Artifact": "revision-002.md",
+      "CompletedUtc": "2026-10-20T08:18:58.1084602+00:00"
+    },
+    {
+      "Stage": "Review",
+      "Sequence": 3,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:21:15.0408857",
+      "Artifact": "review-003.md",
+      "CompletedUtc": "2026-10-20T08:40:13.2923905+00:00"
+    },
+    {
+      "Stage": "ReviewFindingValidation",
+      "Sequence": 3,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:14:03.5811554",
+      "Artifact": "review-003.validation.json",
+      "CompletedUtc": "2026-10-20T08:54:17.0570131+00:00"
+    },
+    {
+      "Stage": "Title",
+      "Sequence": 1,
+      "Model": "qwen3.8:27b",
+      "Gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "Duration": "00:00:32.8785808",
+      "Artifact": "title.txt",
+      "CompletedUtc": "2026-10-20T09:05:08.9816507+00:00"
+    }
+  ]
+}

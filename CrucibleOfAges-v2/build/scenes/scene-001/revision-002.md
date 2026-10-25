@@ -1,0 +1,125 @@
+﻿The fluorescent lights of the briefing room hummed with a low, persistent drone that seemed to vibrate in the bones of the teeth. Caelen sat with his elbows on the metal table, his fingers interlaced, watching the way the light caught the dust motes swirling in the stale air. He was smiling. It was a controlled, confident expression that he had perfected over the last six months of deployment, one that suggested he had already solved the problem before the details were even finished.
+
+Sergeant Miller stood at the head of the table, his back rigid, his eyes fixed on the topographic map spread out before him. The Sergeant did not look up. He traced a line across the valley with a dry-erase marker, a red streak cutting through the green terrain. The air smelled of old coffee and the metallic tang of the rifles leaning against the wall.
+
+"Private Davis," Miller said, his voice flat and devoid of inflection. "You identified the secondary egress route through the northern ridge. Good work."
+
+Caelen felt the satisfaction settle in his gut, a warm, heavy stone. He had nudged Davis’s shoulder in the truck on the way back, a casual gesture that had guided the private’s finger toward the right spot on the map. Davis had been quiet, his eyes downcast, and Caelen had seen the hesitation in the man’s posture. He had also seen the opportunity. The commendation was a small thing, a verbal nod in a world where paper trails mattered more than truth, but it was a thread that Caelen could pull. He could use it to argue for better rations, for a lighter load, for a spot in the rotation that kept him away from the front line. It was leverage.
+
+Davis looked up, his face pale under the harsh light. "Thank you, Sergeant," he said, his voice thin. He glanced at Caelen, and for a second, something flickered in his eyes. A confusion, a recognition that the moment had been stolen, lingered behind his gaze. But Davis did not speak. He had never spoken out of turn. He was the kind of man who absorbed the weight of the world and tried to make it look like he was carrying it willingly.
+
+Caelen held Miller’s gaze, letting the silence stretch just long enough to be comfortable. He wanted Miller to see the confidence, the certainty. He wanted the Sergeant to believe that the tactical insight was a natural extension of Caelen’s own competence. Miller finally looked up, his eyes cold and appraising.
+
+"Keep your heads down, Marines," Miller said. "We move at first light. The objective is the compound in the valley. Intel suggests it’s occupied. If you see a threat, you engage. If you see a non-combatant, you secure them or clear them. I don’t want any hesitation."
+
+Caelen nodded, his expression unchanging. He liked Miller’s clarity. It was a simple world of binaries: threat or non-threat, engage or clear. There was no room for ambiguity, no space for the messy, complicated negotiations of civilian life. It was a place where a man could be what he was: efficient, effective, and untouchable.
+
+The drive to the staging area was quiet. The transport vehicle rattled over the dirt road, the wind whipping past the open windows, carrying the scent of dry earth and distant smoke. Caelen sat by the door, his rifle across his knees, watching the landscape scroll by. The sun was high and white, bleaching the colors out of the world. The valley opened up ahead of them, a green depression in the brown hills, and the compound was a cluster of low buildings at its center.
+
+As they approached the kill zone, Caelen saw her.
+
+She was standing in the middle of the dirt road, a few hundred meters ahead of the vehicle. She was a woman, small and frail, her clothes dusty and torn. In her arms, she held a bundle of cloth. Caelen’s trained eye picked out the details before his mind could process them. The bundle was still. The woman’s head was bowed, her shoulders hunched, and her arms were locked in a rigid embrace around the shape in her arms.
+
+Caelen felt a tightness in his chest. He looked away, focusing on the map in his head. She was a liability. She was an obstacle. She was a variable that could disrupt the mission, delay the advance, and complicate the extraction. He knew the protocol. Non-combatants were to be secured or cleared. It was a standard procedure, a necessary part of the job. But seeing her there, so still, so vulnerable, made the procedure feel heavy.
+
+Miller was watching her too. The Sergeant’s face was unreadable, but his hand was resting on the trigger of his rifle. The tension in the vehicle was palpable. The other Marines were silent, their eyes fixed on the woman.
+
+"She’s in the kill zone," Miller said, his voice low. "She needs to be moved."
+
+Caelen looked at the woman again. She had not moved. She was standing in the center of the road, her eyes closed, her body stiff with grief. The vehicle slowed, the engine idling with a rough, uneven rhythm. Through the open hatch, the air was hot and still, carrying the faint, cloying scent of dust and something else, something organic and sweet that Caelen tried to ignore.
+
+"Target is stationary," Miller said. His voice was level, stripped of any command cadence. It was the voice of a man stating a fact, like the weather or the time. "She is obstructing the primary axis of advance. Private Davis, you are on point. Secure the area. If she does not comply, she is a threat."
+
+The words hung in the air, heavy and final. Caelen felt the gaze of the squad shift. He looked at Davis, who was already moving, his rifle up, his body coiled with the tension of a man who had been waiting for this moment. Davis moved with a fluidity that Caelen envied, a grace that came from a lifetime of being told what to do and doing it without question. Caelen, on the other hand, was a man who had to justify his actions, who had to build a narrative around his obedience to make it look like competence.
+
+Caelen looked back at the woman. She was still standing there, a small, dark figure against the pale yellow of the road. Her arms were locked around the bundle in her lap. She did not look up. She did not run. She did not beg. She simply stood, a statue of grief in the middle of a war zone.
+
+Something in Caelen’s chest tightened, a physical pain that had nothing to do with fear. He looked at his hands, resting on his knees. They were steady. They were strong. They were the hands of a Marine, trained to kill, to protect, to survive. He thought about the commendation he had stolen from Davis. He thought about the leverage he would use to get a better rotation. He thought about the way Miller’s eyes had looked at him, appraising, cold, seeing him as a tool, a resource, a thing to be used and discarded.
+
+He looked at the woman again. She was a thing, too. A variable. An obstacle. But she was also a person. She had a face, a body, a life. She had lost someone, and she was holding onto the last piece of that life she had left.
+
+Caelen’s mind raced. He could do nothing. He could let Davis do his job. He could let the woman be cleared. It was the right thing to do. It was the efficient thing to do. It was the thing that would keep him safe, keep him in Miller’s good graces, keep him alive.
+
+But the image of the woman, small and still and grieving, burned in his mind. He thought about his mother, back home. He thought about the way she had looked at him, with that mixture of pride and disappointment. He thought about the lies he had told her, the injuries he had hidden, the credit he had taken. He thought about the person he was becoming, a man who stole, who lied, who used others to climb.
+
+He didn’t want to be that man.
+
+Caelen stood up.
+
+"Private Davis," he said, his voice steady. "Hold your position."
+
+Davis looked at him, confused. "Sir?"
+
+"I said hold your position," Caelen repeated. He unclipped his rifle from his back and checked the chamber. The click of the bolt was loud in the quiet vehicle. He looked at Miller, who was watching him with a cold, hard stare.
+
+"Private Caelen," Miller said, his voice low and dangerous. "You are out of line."
+
+"I am securing the area," Caelen said. "She is a non-combatant. I will handle her."
+
+Miller’s eyes narrowed. "She is in the kill zone. She is a threat."
+
+"I am the threat," Caelen said. "I am the one who is going to get shot."
+
+He climbed out of the vehicle. The heat hit him like a wall, thick and suffocating. The air was still, heavy with the scent of dust and the faint, sweet smell of decay. He walked toward the woman, his rifle held low, his eyes fixed on her.
+
+She did not move. She did not look up. She simply stood there, a small, dark figure in the middle of the road.
+
+Caelen stopped a few meters away. He looked at her, really looked at her. Her face was pale, her eyes closed. Her lips were moving, silently, as if she were praying. Or whispering. He couldn’t tell.
+
+"Ma'am," he said, his voice soft. "You need to move."
+
+She did not respond.
+
+Caelen looked back at the vehicle. Miller was watching him, his rifle up, his finger on the trigger. Davis was behind him, his rifle up, his eyes fixed on the woman.
+
+Caelen looked at the woman again. He saw the bundle in her arms. He saw the shape of the body inside the cloth. He saw the stillness, the absolute, final stillness of death.
+
+A surge of anger, hot and bright, rose in his throat. It was anger at himself. At his own selfishness. At his own ambition. At the way he had treated people, used them, discarded them. He was a Marine. He was supposed to be better than this.
+
+He dropped his rifle.
+
+The sound of it hitting the dirt was sharp and final. He stepped forward, placing himself between the woman and the vehicle. He spread his arms, his body a barrier between her and the guns.
+
+"Stand down," he said, his voice steady. "She is a non-combatant. She is not a threat."
+
+Miller’s voice came through the hatch, cold and hard. "You are out of line, Caelen. Step back."
+
+Caelen did not move. He looked at Miller, his eyes hard. He saw the coldness in the Sergeant’s eyes, the lack of empathy, the absolute, unyielding adherence to the rules. He saw the man Miller was, and he saw the man he was becoming.
+
+He didn’t want to be that man.
+
+"Stand down," Caelen said again. "Or I will engage."
+
+Miller’s finger tightened on the trigger. Caelen felt the hair on the back of his neck stand up. He knew Miller would shoot. He knew Miller would shoot because it was the right thing to do, the efficient thing to do, the thing that would keep the mission on track.
+
+He closed his eyes.
+
+He thought about the woman. He thought about the bundle in her arms. He thought about the person he had been, and the person he was becoming. He thought about the lies, the theft, the exploitation. He thought about the peace he had felt when he had shielded her, the sudden, clear, absolute peace.
+
+He opened his eyes.
+
+"Shoot," he said.
+
+The first bullet hit him in the chest.
+
+The pain was instant and total. It was a white, blinding fire that exploded in his center, spreading out into his limbs, his head, his toes. He felt his body jerk backward, his knees buckling. He tried to stand, but his legs gave way, and he fell to the dirt.
+
+The second bullet hit him in the thigh.
+
+The pain was a deep, aching throb that seemed to come from the bone itself. He felt the heat of the blood soaking through his pants, spreading out on the dusty ground.
+
+He looked up. Miller was still standing in the hatch, his rifle raised, his face a mask of cold indifference. The other Marines were watching, their faces blank, their eyes empty.
+
+Caelen looked at the woman. She was still standing there, her arms locked around the bundle in her arms. Her eyes were still closed. She did not know what had happened. She did not know why he had done it. She did not know that he was dead.
+
+Caelen tried to speak, but his mouth was full of blood. He tasted iron, thick and metallic. He tried to move, but his body was heavy, limp, unresponsive.
+
+He looked at the sky. It was a pale, hazy yellow, the sun a white, bleached disc. The world was quiet. The hum of the vehicle was a distant, muffled sound. The wind was still.
+
+A strange, calm sensation spread through him. It was a sense of rightness, of completion. He had done the right thing. He had chosen the right thing.
+
+He looked at the woman one last time. She was still standing there, a small, dark figure in the middle of the road. She was alive.
+
+Caelen’s eyes closed.
+
+The world faded to black.

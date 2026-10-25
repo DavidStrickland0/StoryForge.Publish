@@ -1,0 +1,139 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s selfish, competent baseline and the chaotic breakdown of his unit, culminating in his decision to shield a noncombatant mother, leaving the outcome suspended.","IntendedChange":"The protagonist transitions from relying on institutional support to acting alone, making a final choice to protect a stranger over his own survival, with the physical consequence of that choice deferred to the next chapter.","PacingPosture":3,"ProhibitedPatterns":["Repetitive clipped narrative sentences or fragments for dramatic emphasis","Habitual contrast reframing (e.g., \u0027not X, but Y\u0027)","Depicting the protagonist surviving the fatal blow or the mother escaping unharmed","Static, unresolved endings without a decisive action or choice","Revealing the System interface or metaphysical void transition"],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s self-serving competence and contempt for civilians through his tactical decisions and internal monologue during a chaotic firefight.","IntendedChange":"The protagonist successfully eliminates a threat using a subordinate as a shield, reinforcing his reliance on rank and equipment while establishing his baseline selfishness.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit as the battle turns chaotic, stripping away his institutional support and forcing him to act alone.","IntendedChange":"The protagonist is isolated from his comrades, who are either incapacitated or fleeing, leaving him vulnerable and reliant on his own instincts rather than professional support.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire, forcing the protagonist to confront the moral weight of the situation and his own values in a life-or-death split second.","IntendedChange":"The protagonist\u0027s perception shifts from indifference to a visceral recognition of the mother\u0027s vulnerability, creating the tension that leads to his decision to shield her.","FocusCharacterIds":["protagonist","noncombatant_mother"]},{"Sequence":4,"Purpose":"Culminate in the moment where the protagonist is forced to choose between self-preservation and the safety of the noncombatant mother, making the decision to shield her.","IntendedChange":"The protagonist positions his body between the mother and the threat, his decision to protect her overriding his instinct for self-preservation, with the moment suspended and the outcome unknown.","FocusCharacterIds":["protagonist","noncombatant_mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Establish the protagonist\u0027s self-serving competence and contempt for civilians through his tactical decisions and internal monologue during a chaotic firefight.","IntendedChange":"The protagonist successfully eliminates a threat using a subordinate as a shield, reinforcing his reliance on rank and equipment while establishing his baseline selfishness.","FocusCharacterIds":["protagonist","battle_comrades"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit as the battle turns chaotic, stripping away his institutional support and forcing him to act alone.","IntendedChange":"The protagonist is isolated from his comrades, who are either incapacitated or fleeing, leaving him vulnerable and reliant on his own instincts rather than professional support.","FocusCharacterIds":["protagonist","battle_comrades"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The dust in the room tasted like copper and old sweat. I wiped my forearm across my mouth, trying to clear the grit from my teeth, and checked the magazine in my M4. Seven rounds left. Not enough for a fight, but enough for a conversation.
+
+"Contact left," I said. My voice was steady. It was always steady. That was the first thing they taught us at Parris Island, and it was the last thing they took away.
+
+Private Diaz flinched. He was nineteen, green in a way that had nothing to do with his skin and everything to do with his eyes. They were wide, darting around the ruined hallway, looking for a door, a window, a mother, anything that would tell him where to go. I didn’t have that luxury. I had a sector, a weapon, and a job to do.
+
+"Cover me," I ordered.
+
+"I can't see—"
+
+"I said cover me."
+
+I moved. The hallway was a mess of shattered drywall and twisted rebar, the remnants of a building that had once been a family home and was now a corridor of death. The enemy was somewhere ahead, pinned down by the mortar fire from the support team, but they weren’t dead. Not yet.
+
+I saw the flash of muzzle fire from the corner. Three shots. Two missed. The third hit the wall above my head, showering me in plaster. I dropped, rolled behind a collapsed beam, and returned fire without looking. I heard the body hit the floor. I didn’t need to see it. I knew the sound.
+
+"Another one," I called out. "Stay down, Diaz."
+
+"I'm trying, sir."
+
+"You're breathing too loud."
+
+He stopped breathing. Or at least, he tried to. I could hear the rapid intake of air in his throat, the wet click of his tongue against his teeth. He was scared. Scared people made mistakes. Mistakes got people killed.
+
+I stood up. The hallway was dark, lit only by the intermittent flare of explosions in the distance and the faint, orange glow of burning debris. I moved forward, step by step, my boots crunching on broken glass. I was eighteen. I was a Marine. I was the best thing in that building, and I knew it.
+
+There was another figure in the shadows. A insurgent, maybe, or a local who had gotten in the way. He was holding a rifle, his hands shaking. He looked at me, and I saw the fear in his eyes. It was the same fear I saw in Diaz. The same fear I had seen in every person who had ever stood in my line of fire.
+
+I raised my weapon.
+
+"Drop it," I said.
+
+He didn’t drop it. He raised it.
+
+I didn’t hesitate. I didn’t think. I didn’t feel a surge of righteousness or a pang of sorrow. I simply pulled the trigger.
+
+The rifle shot rang out. The man fell.
+
+I walked over to his body. He was dead. I checked his hands to make sure he wasn’t holding a grenade. He wasn’t. I looked at his face. He was young. Younger than me, maybe.
+
+"Threat eliminated," I said into my radio. "Sector clear."
+
+"Copy, Six-Bravo. Stand by for extraction."
+
+I exhaled. My heart rate was elevated, but I was in control. That was the thing about control. It was a feeling. It was a warm, solid thing that lived in your chest, and it was the only thing that mattered when the world was falling apart.
+
+I turned back to Diaz. He was still huddled behind the beam, his face pale.
+
+"Nice shot," he said. His voice was quiet, almost a whisper.
+
+"Yeah," I said. "Next time, don't let them get a bead on you."
+
+I didn’t wait for his reply. I moved toward the exit, where the air was cleaner and the noise was louder. The sounds of the battle were deafening. Mortars thumping in the distance, the whine of bullets passing through the air, the shouts of men who were no longer in control of their own lives.
+
+I was in control.
+
+That was the lie I told myself. That was the story I had built for myself, brick by brick, bullet by bullet. I was the Marine. I was the one who made the decisions. I was the one who kept the others alive.
+
+But as I stepped out into the street, I saw the bodies. There were three of them, lying in the dirt. Two were enemy combatants. The third was a woman. She was wearing a dress, torn and bloody. Her eyes were open, but they were empty.
+
+I looked at her for a second. Then I looked away.
+
+There was no time for that. There was never time for that.
+
+I kept moving.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

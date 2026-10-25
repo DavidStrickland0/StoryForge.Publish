@@ -1,0 +1,121 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 2.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":2,"ViewpointCharacterId":"Caelen","Objective":"Depict the protagonist\u0027s experience in the void, including the initialization of the System and his entry into a state of suspended animation with one level in each path.","IntendedChange":"The protagonist transitions from a dying human consciousness to a soul in the void, experiencing the initialization of the System and the establishment of his dual-path progression (Dominion Level 1, Sacrifice Level 1).","PacingPosture":0,"ProhibitedPatterns":["Do not depict Caelen\u0027s physical resurrection or awakening in a new world.","Do not introduce slavers, captors, or any physical interaction with a new environment.","Do not have the System provide a moral lecture, identify Caelen as a hero, or explain the broader cosmic purpose of the Crucible.","Do not resolve Caelen\u0027s internal conflict regarding his selfishness; he must retain self-doubt and confusion.","Do not allow Caelen to fully understand the mechanics of Dominion vs. Sacrifice; he should only perceive the interface\u0027s existence and his current levels."],"Scenes":[{"Sequence":1,"Purpose":"Establish the sensory and psychological transition from the physical battlefield to the abstract void, grounding Caelen\u0027s disorientation in the fading of his bodily senses and the persistence of his final memory.","IntendedChange":"Caelen moves from the fading sensation of pain and the sound of gunfire to a state of sensory isolation where he is aware of his own consciousness but lacks a physical body or external environment.","FocusCharacterIds":["Caelen"]},{"Sequence":2,"Purpose":"Explore Caelen\u0027s internal processing of his death and his conflicting self-image, contrasting his history of selfish ambition with the singular act of sacrifice that ended his life, while introducing the first visual manifestation of the System interface.","IntendedChange":"Caelen confronts the cognitive dissonance of being rewarded for an act that contradicts his core identity, and perceives the initial, unexplained appearance of the System\u0027s dual-path interface (Dominion Level 1, Sacrifice Level 1) as a neutral, mechanical overlay rather than a divine judgment.","FocusCharacterIds":["Caelen"]},{"Sequence":3,"Purpose":"Depict Caelen\u0027s attempt to interact with the System interface, revealing its private, rule-based nature and his limited agency within the void, while establishing the emotional weight of his suspended animation.","IntendedChange":"Caelen accepts the reality of his death and the existence of the System, choosing to observe his dual-path progression rather than resist it, and settles into a state of suspended animation where his memories are preserved but his emotional intensity begins to soften.","FocusCharacterIds":["Caelen"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Explore Caelen\u0027s internal processing of his death and his conflicting self-image, contrasting his history of selfish ambition with the singular act of sacrifice that ended his life, while introducing the first visual manifestation of the System interface.","IntendedChange":"Caelen confronts the cognitive dissonance of being rewarded for an act that contradicts his core identity, and perceives the initial, unexplained appearance of the System\u0027s dual-path interface (Dominion Level 1, Sacrifice Level 1) as a neutral, mechanical overlay rather than a divine judgment.","FocusCharacterIds":["Caelen"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Depict Caelen\u0027s attempt to interact with the System interface, revealing its private, rule-based nature and his limited agency within the void, while establishing the emotional weight of his suspended animation.","IntendedChange":"Caelen accepts the reality of his death and the existence of the System, choosing to observe his dual-path progression rather than resist it, and settles into a state of suspended animation where his memories are preserved but his emotional intensity begins to soften.","FocusCharacterIds":["Caelen"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":2,"CompletedSceneSequence":1,"Location":"The Void (abstract, colorless, boundaryless space)","TimeContext":"Post-mortem; subjective time is unreliable and non-linear","PresentCharacterIds":["Caelen"],"PhysicalConditions":["Disembodied consciousness","No sensory input (sight, touch, hearing, smell, taste)","No pain","No physical agency (cannot move, breathe, or interact with matter)"],"KnowledgeEstablished":["Caelen is dead and exists as a disembodied consciousness in a void","Physical sensations (pain, heat, blood loss) are absent","Memories of the battlefield and the act of sacrifice are intact but emotionally detached","There is a subtle, structural presence at the periphery of his awareness (hint of a grid/framework)","The void is indifferent and lacks divine judgment or external agency"],"DecisionsMade":["Caelen attempts to interact with the subtle structural presence at the edge of his awareness"],"PossessionChanges":[],"RelationshipChanges":[],"CompletedActions":["Transitioned from physical battlefield sensations to sensory isolation","Processed the absence of physical body and pain","Recalled and emotionally detached from memories of the sacrifice","Perceived the initial, unexplained structural hint of the System interface"],"UnresolvedImmediateAction":"Caelen is focusing his mind on the subtle, geometric structural presence at the periphery of his awareness, attempting to perceive or interact with it.","ContinuationPosition":"Caelen is suspended in the void, his consciousness sharpened by curiosity as he reaches out mentally toward the faint, geometric underpinning that has just become visible to him.","ProhibitedRepetition":["Do not re-describe the fading of physical senses or the transition from the battlefield","Do not re-establish the absence of pain or body","Do not re-introduce the concept of the void as a new discovery","Do not depict Caelen attempting to move or breathe again","Do not resolve the internal conflict regarding the nature of his sacrifice (selfish vs. altruistic) yet"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The grid didn’t answer. It didn’t pulse, or shimmer, or offer a prompt. It simply *was*, a faint lattice of geometry suspended in the absolute nothing, waiting with the patience of stone. Caelen probed it again, pushing against the concept of it with a mental pressure that felt like straining against a wall made of water. There was no resistance, but there was no give. The interface remained a passive overlay, a map of a territory he hadn’t yet learned to traverse.
+
+He pulled his focus back from the edges and turned his attention inward, toward the source of the anomaly. The silence of the void was a heavy, physical weight, pressing against a mind that had been built for noise, for the roar of engines and the snap of radio traffic. Without the hum of the world, his own thoughts sounded loud, jagged, and uncomfortably clear.
+
+He was eighteen years old. He had a rifle, a squad, and a future that was supposed to be a long, straight line of rank and paychecks. He had died in a courtyard in a country whose name he couldn’t remember, holding a woman whose eyes were wide with a terror that didn’t belong to her. And now, he was floating in a colorless dark, trying to understand a geometric ghost.
+
+It was, by any standard of logic he had ever applied to a battlefield, insane.
+
+Caelen floated there, suspended in the quiet, and began to dismantle his own life. He had been good at it, at the dismantling. He had learned to look at people and see their leverage points, the specific weaknesses he could press to get what he wanted. He had been a Marine because it was the most efficient way to get from being invisible to being someone. He had told himself it was duty, but the truth was simpler and colder: he wanted to be the one giving the orders, the one whose word mattered, the one who didn’t have to ask permission to exist.
+
+He had used people for that. He had smiled at Private Davis and handed over his extra rations, knowing Davis would owe him a favor, a debt of gratitude that Caelen could cash in when the moment was right. He had listened to Sergeant Miller’s grievances and validated them, not out of respect, but because a happy sergeant was a sergeant who overlooked his own mistakes and covered for his own laziness. He had been a manipulator of small, human details, and he had been proud of it. He had called it intelligence. He had called it survival.
+
+And then there had been the mother.
+
+He tried to remember the moment he had thrown himself in front of Miller’s gun. He remembered the heat of the barrel, the smell of gunpowder and dust, the sharp, electric crack of the shot hitting his chest. But the memory of the *why* was slippery, eluding his grasp. He had been trained to assess threats, to prioritize the survival of the unit. The woman had been a non-combatant, a variable, a problem to be solved or ignored. Yet, in that split second, the logic of his training had snapped, replaced by a raw, animal refusal to let her die.
+
+It hadn’t felt heroic. It hadn’t felt like a grand, cinematic choice. It had felt like a reflex, a sudden, violent rejection of the geometry of the situation. He had wanted to be seen, not as a weapon, not as a Marine, but as a person who mattered enough to stop a bullet.
+
+And the universe had rewarded him. Or maybe it had just logged him.
+
+The grid in his periphery seemed to expand, the lines becoming clearer, more defined. He focused on it, and the abstract lattice resolved into something almost tangible. Two distinct lines of light, or perhaps just two areas of brighter clarity, stretched out before him. They were separate, independent, and yet they shared the same underlying framework.
+
+One was a deep, saturated red. The other was a pale, almost white silver.
+
+They were identical in their structure, in their length, in their progression. Both began at a single, small point. One level.
+
+Caelen stared at them. The red line was marked with a single, simple symbol that he couldn’t quite read, and the silver line had a different one. But the numbers, the *quantity* of the progress, was the same. One and one.
+
+It was a score. A tally.
+
+He felt a cold, sharp spike of confusion. He had done one thing for his own benefit, using his position and his skills to keep his head down and his rank climbing. That was the red. And he had done one thing for another person, throwing his body into the path of a bullet to save a life that had no connection to his own survival. That was the silver.
+
+The System didn’t care about his intentions. It didn’t care about his pride or his fear or his selfish ambition. It had simply watched the transaction and balanced the books. It had seen a man who had used another man’s weakness to get ahead, and a man who had surrendered his own life to protect a stranger. And it had given him one point for each.
+
+It was the most terrifying thing he had ever seen. It meant that his life, his choices, his very soul, were just entries in a ledger. It meant that the good he did and the bad he did were weighed against each other, not to cancel each other out, but to build him up, to make him something more, something stronger.
+
+He had been a Marine. He had been a killer. He had been a selfish, ambitious kid who wanted to be important.
+
+And now, he was Level 1 in both.
+
+The interface didn’t offer a choice. It didn’t ask him to pick a side. It simply displayed the facts, the mechanical reality of his existence. He could see the progress, he could see the levels, and he could see the potential for more. But he didn’t know how to use it. He didn’t know what it was for. He didn’t know if the red was good or the silver was good. He didn’t know if he was supposed to be proud of his sacrifice or ashamed of his selfishness.
+
+He just knew that he was here. In the void. With a map of his own soul that he couldn’t read, and a future that he couldn’t see.
+
+The silence of the void pressed in, heavy and indifferent. Caelen let his focus drift, letting the grid fade back into the background, a faint whisper of geometry at the edge of his mind. He was tired. Not physically tired, but mentally drained, exhausted by the sheer effort of trying to process a reality that defied every law he had ever known.
+
+He floated there, suspended in the nothing, his consciousness sharp and clear. The memories of the battlefield were still there, but the emotional intensity was already beginning to dull, the sharp edges of the fear and the pain softening under the weight of the void. He was waiting. He didn’t know for what, or how long. He just knew that the clock had started, and he had no way to stop it.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

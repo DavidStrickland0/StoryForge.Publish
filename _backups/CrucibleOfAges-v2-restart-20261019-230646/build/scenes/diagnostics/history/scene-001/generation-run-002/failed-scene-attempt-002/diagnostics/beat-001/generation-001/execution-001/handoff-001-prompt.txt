@@ -1,0 +1,117 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.","IntendedChange":"The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.","PacingPosture":3,"ProhibitedPatterns":["Describing the protagonist\u0027s rifle magazine as being in his pocket while the rifle is slung on his back.","Resolving the protagonist\u0027s death or the physical impact of the fatal blow.","Revealing the System interface or the void.","Using the phrase \u0027not X, but Y\u0027 for characterization or emphasis."],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s self-serving, contemptuous personality and his reliance on institutional support during the initial chaos of the battle.","IntendedChange":"The protagonist is positioned in a defensive line, actively using a wounded comrade as a shield while dismissing the presence of civilians as irrelevant obstacles, maintaining his confidence in his equipment and rank.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Demonstrate the breakdown of the protagonist\u0027s unit and the failure of his standard operating procedures in the face of uncontrolled chaos.","IntendedChange":"The protagonist\u0027s immediate support is severed as his comrades are killed or scattered, leaving him isolated and forcing him to rely solely on his own tactical competence and physical equipment.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":3,"Purpose":"Introduce the noncombatant mother into the line of fire and force the protagonist to confront the moral weight of her vulnerability against his instinct for self-preservation.","IntendedChange":"The protagonist is positioned between the mother and the imminent threat, his body physically interposed to shield her, with the decision to protect her overriding his instinct for survival, leaving the outcome suspended.","FocusCharacterIds":["protagonist","noncombatant_mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Establish the protagonist\u0027s self-serving, contemptuous personality and his reliance on institutional support during the initial chaos of the battle.","IntendedChange":"The protagonist is positioned in a defensive line, actively using a wounded comrade as a shield while dismissing the presence of civilians as irrelevant obstacles, maintaining his confidence in his equipment and rank.","FocusCharacterIds":["protagonist","battle_comrades"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Demonstrate the breakdown of the protagonist\u0027s unit and the failure of his standard operating procedures in the face of uncontrolled chaos.","IntendedChange":"The protagonist\u0027s immediate support is severed as his comrades are killed or scattered, leaving him isolated and forcing him to rely solely on his own tactical competence and physical equipment.","FocusCharacterIds":["protagonist","battle_comrades"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The heat in the trench was a physical weight, pressing against my skin through the sweat-soaked fabric of my uniform. It smelled of cordite, wet earth, and the metallic tang of old blood that had soaked into the sandbags we’d used as cover. I sat with my back against the packed dirt, rifle across my knees, watching the muzzle flash of the enemy positions across the valley. They were sloppy. Their aim was drifting, their fire patterns predictable. In my experience, predictable fire was the first sign of a collapsing morale, and the second sign that our artillery had finally started to do its job.
+
+“Easy, kid,” Sergeant Miller said from the next sandbag over. He didn’t look up from the map he was studying, his finger tracing a line of blue ink that represented a river I couldn’t see. “You’re breathing like you’re running a marathon.”
+
+“I’m regulating my heart rate, Sarge,” I said, keeping my voice flat and professional. “Standard procedure. Keeps the hands steady.”
+
+Miller snorted, a dry, rattling sound. He was older than me by a decade, maybe two, and had a scar that ran from his left ear to his jaw, a souvenir from some forgotten border skirmish. He was also, in my professional assessment, a liability. He moved like his joints were filled with sand, and he complained about his back every time he lifted anything heavier than a canteen. But he was the senior NCO in the sector, which meant his opinion was the only one that counted if someone asked.
+
+I didn’t ask. I didn’t need to ask. I needed to stay alive, and for that, I needed to be useful. Usefulness was a currency in the Marines, and I had a lot of it to spend. I had the best marksmanship in the platoon, and I had the least to lose. That last part was the part I kept quiet. If I lost, there was no one to send a letter. No one to inherit my savings. I was a single, efficient unit of violence, and I intended to keep it that way.
+
+A burst of fire from the left flank kicked up a spray of dirt and shrapnel. I watched the dirt fly, calculating the trajectory, and realized the enemy had shifted their focus. They were probing our left, looking for a weakness. Our left.
+
+I looked to my left. Private Vance was there, huddled behind a stack of ammunition crates, his face pale and slick with sweat. He was young, barely older than me, and he had a tremor in his hands that made it difficult for him to hold his rifle steady. He was shaking so hard that his teeth were chattering, a rapid, clicking sound that was louder than the distant artillery.
+
+Vance was a problem. A problem in a combat zone is a liability, and liabilities get you killed. I watched him struggle to load a magazine, his fingers fumbling with the rounds. He dropped one. It skittered across the dirt and rolled into the shadow of the sandbag.
+
+I didn’t help him. I didn’t even look at him. I kept my eyes on the enemy positions, tracking the muzzle flashes, building a mental map of their firing intervals. I was three seconds ahead of their next volley. I was three seconds ahead of their next volley. I was three seconds ahead of their next volley.
+
+The shot came. It wasn’t aimed at me. It was aimed at Vance.
+
+The bullet hit the sandbag beside his head, spraying dust and grit into his face. He screamed, a high, thin sound that cut through the roar of the battlefield. He scrambled backward, his rifle slipping from his hands and clattering to the ground. He was paralyzed, frozen by the sheer terror of being targeted, his eyes wide and unseeing.
+
+I was already moving. I didn’t think about it. I didn’t make a decision. I simply reacted. I grabbed Vance by the collar of his uniform and yanked him behind the sandbag, placing my own body between him and the line of fire. It was a tactical adjustment. Vance was in the open. I was in cover. Moving him into cover was the logical response to a threat.
+
+I pressed him down, my weight pinning him to the dirt. I could feel his heart hammering against my chest, a frantic, bird-like rhythm. I could feel the heat of his skin, the dampness of his sweat. I could smell the fear on him, a sour, acidic odor that reminded me of old cheese.
+
+“Stay down,” I said, my voice low and hard. I didn’t look at him. I looked up, scanning the enemy positions. I had a clear shot. I had three seconds.
+
+I raised my rifle. The stock pressed against my shoulder, familiar and solid. I aligned the iron sights with the muzzle flash of the enemy position that had fired the shot. I exhaled. I held my breath.
+
+I fired.
+
+The recoil kicked into my shoulder, a sharp, familiar punch. The bullet flew. I didn’t wait to see if it hit. I didn’t need to. I knew my aim. I knew my marksmanship. I was the best in the platoon.
+
+I lowered the rifle and looked down at Vance. He was still shaking, his eyes wide and terrified. He looked at me, and for a second, I saw something in his eyes. Gratitude, maybe. Or relief. Or just the raw, animal instinct for survival.
+
+I didn’t care. I didn’t want his gratitude. I didn’t want his relief. I wanted him to stay quiet and stay down. I wanted him to be a shield, a physical barrier between me and the next volley.
+
+“Good,” I said, turning my attention back to the enemy. “Stay down.”
+
+The battle continued around us, a symphony of explosions and gunfire. I sat in the dirt, my rifle across my lap, my hand resting on Vance’s shoulder. I was efficient. I was effective. I was alive.
+
+And I was already planning how to get out of this trench before the next wave of soldiers came in to collect the body bags.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

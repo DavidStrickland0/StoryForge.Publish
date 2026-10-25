@@ -1,0 +1,27 @@
+The absence of pain was the first thing that registered, and it was a strange, hollow sensation, like a limb that had gone numb after sleeping too long on it. It was not the relief of healing; the wounds were still there, the holes in his chest and thigh were still open, the blood was still warm and wet against his skin. But the signal had been cut. The neural pathways that had been screaming at a frequency capable of shattering bone had simply stopped transmitting.
+
+Caelen tried to move his hand. He did not remember moving it, but his arm was raised, fingers splayed, hovering above the dust-covered ground. The muscles did not respond to the command. The connection between the mind and the meat had been severed, leaving him as a passenger in a vehicle that had rolled off the road. He looked down at his body, which was lying in the dirt, and felt a detached curiosity, as if he were observing a stranger who had made a poor tactical decision. The blood was pooling, dark and viscous, soaking into the red earth. It was a practical detail. He noted it, filed it away, and then the file closed.
+
+The noise of the world was receding. The distant thunder of weapons fire, the shouts of men, the crying of the mother—all of it was becoming muffled, as if he were hearing it from underwater. The sounds were losing their edges, their sharpness, their immediate threat. They became a low, rhythmic hum, a background texture to a reality that was rapidly losing its definition.
+
+He was no longer in the courtyard.
+
+The mud, the broken brick, the smell of cordite and iron—these things faded into a gray haze. The sky above him, which had been a hard, blue expanse, softened into a pale, shifting light. It was not a sky. It was not a room. It was a space defined by the absence of boundaries. There were no walls, no floor, no ceiling. There was only a pervasive, soft luminescence that seemed to come from everywhere and nowhere, casting no shadows.
+
+Caelen tried to stand, but the concept of standing required a floor, and there was no floor. He drifted. The motion was slow, graceful, and entirely effortless. It was the feeling of floating in a dream where the dreamer knows they are safe, where the laws of physics are suggestions rather than mandates. The weight of his body, the heaviness of his gear, the ache in his muscles—all of it had evaporated. He was light. He was empty. He was a thought without a thinker.
+
+He looked at his hands. They were solid, or they appeared to be. They had the same color, the same scars, the same calluses. But they did not feel like his hands. They were objects, separate from the consciousness that was observing them. He flexed his fingers, and they moved, but the movement did not convey a sense of agency. It was a demonstration, a display, rather than an action.
+
+The memories of his life were beginning to surface, but they were not clear. They were images without sound, scenes without context. He saw his mother’s face, but the details were blurred, the features shifting like a photograph left in the rain. He saw the Marine Corps training grounds, the mud, the sweat, the grueling runs. He saw the faces of his squad, Miller, Davis, the others. Their expressions were neutral, their mouths open in silent speech. The emotions attached to these memories—the fear, the pride, the resentment, the love—were being stripped away, leaving only the skeletal structure of the events.
+
+He remembered the moment before he lunged. The command from Miller, the sight of the woman, the infant in her arms. The decision. It was a clean, sharp memory, the only one that remained vivid. He had chosen. He had chosen to die. The clarity of that choice was strange, almost alien. He had been a man who avoided choices, who followed orders, who let the system make the decisions for him. And yet, in that final instant, he had made the most significant choice of his life, and it had been effortless. It had been the most natural thing in the world.
+
+The void was quiet. It was not a silence, because there was no sound to be silent against. It was a peace. A deep, resonant peace that settled into the core of his being, filling the hollow spaces where his fears and ambitions had lived. He did not feel afraid. He did not feel angry. He did not feel anything, except for a faint, distant awareness that he was still himself, that Caelen still existed, even if the name felt like a label applied to a box that had been emptied.
+
+He drifted through the gray light, watching the edges of his perception soften. The boundary between his mind and the space around him was becoming permeable. He could feel the presence of other things, other minds, but they were far away, distant stars in a vast, dark sky. They were not threats. They were not friends. They were simply there, part of the fabric of the void.
+
+The pain was gone. The fear was gone. The desire for status, for power, for recognition—these things had dissolved like sugar in water. He was left with a clean, empty slate. He was a soul, suspended in time, waiting for something he did not yet know.
+
+The light around him pulsed, a slow, rhythmic beat that matched a heartbeat he no longer had. It was a gentle, inviting pulse, a lullaby sung in a language he could not understand but felt in his bones. He let himself drift, let the memories fade, let the edges of his identity blur. He was safe. He was still. He was waiting.
+
+The void accepted him.

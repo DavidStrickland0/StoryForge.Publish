@@ -1,0 +1,109 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.","IntendedChange":"The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.","PacingPosture":3,"ProhibitedPatterns":["Describing the protagonist\u0027s death or the physical impact of the fatal blow.","Revealing the System interface, the void, or any metaphysical transition.","Establishing a deep emotional bond or romantic connection with the mother.","Resolving the battle or securing a clear victory for the protagonist\u0027s unit.","Using the \u0027not X, but Y\u0027 contrast reframing pattern in internal monologue."],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s self-serving, contemptuous baseline personality and his reliance on institutional support during the initial phase of the chaotic battle.","IntendedChange":"The protagonist is actively engaging in combat, using his squad as a shield and displaying tactical competence mixed with arrogance, while the battle environment begins to degrade his unit\u0027s cohesion.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Demonstrate the breakdown of the protagonist\u0027s institutional support and his isolation as his unit is decimated or scattered by the chaotic, uncontrolled nature of the battle.","IntendedChange":"The protagonist is left alone or with a severely compromised position, his standard operating procedures failing against the reality of the battlefield, forcing him to rely on his own instincts and revealing his fear of being alone without his rank and equipment.","FocusCharacterIds":["protagonist"]},{"Sequence":3,"Purpose":"Introduce the noncombatant mother into the line of fire and force the protagonist to confront the conflict between his training to prioritize self-preservation and the sudden, visceral impulse to protect her.","IntendedChange":"The protagonist is positioned between the mother and the threat, his body shielding her, his decision to protect her overriding his instinct for self-preservation, with the moment suspended and the outcome unknown.","FocusCharacterIds":["protagonist","noncombatant_mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Demonstrate the breakdown of the protagonist\u0027s institutional support and his isolation as his unit is decimated or scattered by the chaotic, uncontrolled nature of the battle.","IntendedChange":"The protagonist is left alone or with a severely compromised position, his standard operating procedures failing against the reality of the battlefield, forcing him to rely on his own instincts and revealing his fear of being alone without his rank and equipment.","FocusCharacterIds":["protagonist"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Introduce the noncombatant mother into the line of fire and force the protagonist to confront the conflict between his training to prioritize self-preservation and the sudden, visceral impulse to protect her.","IntendedChange":"The protagonist is positioned between the mother and the threat, his body shielding her, his decision to protect her overriding his instinct for self-preservation, with the moment suspended and the outcome unknown.","FocusCharacterIds":["protagonist","noncombatant_mother"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Khorath trench line","TimeContext":"Approximately 20 minutes before the next phase of the assault","PresentCharacterIds":["protagonist","battle_comrades"],"PhysicalConditions":["Chalky limestone dust coating skin, neck, and eyes","Rhythmic, concussive thud of distant artillery","Specialist Miller\u0027s hands trembling while repairing rifle stock","Radio static interfering with comms signal"],"KnowledgeEstablished":["Protagonist (Private Elias Thorne) views his squad as tools for his own safety and status","Protagonist previously moved a nervous lieutenant to the front line to secure high ground for himself","Specialist Miller is visibly terrified and physically shaking","Artillery is adjusting its targeting solution due to lateral drift on the left flank","The next phase of the assault is scheduled in approximately 20 minutes"],"DecisionsMade":["Protagonist decided to maintain a posture of \u0027resting\u0027 rather than \u0027tiredness\u0027 to project authority","Protagonist decided to use Miller\u0027s fear as a resource to maintain his own perspective and sharpness","Protagonist decided to stand up and prepare for the next phase of the assault"],"PossessionChanges":["Protagonist consumed a protein bar"],"RelationshipChanges":["Protagonist\u0027s internal view of Specialist Miller is characterized as a \u0027symbiotic relationship\u0027 where Miller is a useful shield and the protagonist is the leader"],"CompletedActions":["Protagonist spat dust from his mouth","Protagonist adjusted his rifle strap","Protagonist checked the radio comms and requested artillery adjustment confirmation","Protagonist ate a protein bar","Protagonist stood up from the trench wall"],"UnresolvedImmediateAction":"Protagonist is standing in the trench, ready for the next phase of the assault, while the artillery continues to adjust and the unit maintains its position.","ContinuationPosition":"Private Elias Thorne is standing in the Khorath trench line, having just finished eating a protein bar and standing up from the earth wall. Specialist Miller is nearby, still repairing his rifle with trembling hands. The distant artillery is adjusting its fire, and the next phase of the assault is imminent.","ProhibitedRepetition":["Re-establishing the protagonist\u0027s baseline personality or contempt for weakness","Re-describing the chalky dust or the sound of the artillery as new sensory details","Repeating the interaction where the protagonist checks the comms or requests artillery adjustment","Re-describing Specialist Miller\u0027s trembling hands or his repair of the rifle stock","Re-stating the protagonist\u0027s internal monologue about being a \u0027cog\u0027 or the \u0027bureaucracy of war\u0027"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The whistle blew. It was a high, thin shriek that cut through the low rumble of the distant guns, and for a second, the only thing I heard was the blood rushing in my ears. Then the world fell apart.
+
+I didn’t wait for the order to go over the top. I didn’t have to. The ground itself seemed to reject the idea of staying put. Around me, the trench line erupted in a chaotic scramble of mud, metal, and screaming men. Miller was gone. One moment he was hunched over his rifle, his hands shaking so violently he couldn’t keep the stock steady; the next, a shell landed close enough to the left that the shockwave lifted him off his feet. I saw him fly, a ragdoll of uniform and flesh, before he crashed back down into the dirt. He didn’t move. I didn’t look back. There was no time for looking back, and more importantly, there was no point. He was a resource that had been expended. I was the asset that still had value.
+
+I hit the lip of the trench and rolled forward, my boots slipping on the slick, churned earth. The air was thick with chalky dust, a suffocating gray fog that coated my tongue and stung my eyes. I blinked it away, my vision blurring, and pushed forward. The plan, whatever it had been, was gone. The artillery had adjusted its fire, but it hadn’t adjusted it for me. It had adjusted it for the enemy, and in doing so, it had turned the open ground into a killing field.
+
+I was running blind.
+
+My training kicked in, but it felt like trying to steer a car with a broken wheel. I knew the rules. Keep your head down. Move in bursts. Watch for suppressive fire. But the enemy wasn’t firing in bursts. They were firing everywhere. Tracers zipped past me, leaving bright red streaks in the dusty air. I dove into a crater, the impact jarring my teeth, and lay there, gasping, my rifle raised.
+
+I was alone.
+
+The thought hit me harder than the shockwave. I was alone. The squad was scattered. The lieutenant I had pushed to the front line to secure my own safety was somewhere in the mud, dead or dying. The radio was static. The chain of command was a ghost. I was just a man in a hole, holding a piece of metal, waiting for the world to end.
+
+I checked my magazine. The magazine was full. I checked my grenades. I had four grenades left. I checked my watch. The hands were trembling, or maybe I was. Time had lost its meaning. The only thing that mattered was the next second. The next breath. The next step.
+
+I stood up. My knees felt like they were filled with sand. I looked around. The trench line was empty. The men who had been there moments ago were gone. Some were running. Some were lying still. I couldn’t tell the difference. The dust was too thick. The noise was too loud.
+
+I was supposed to be a leader. I was supposed to be the man who knew what to do. But I didn’t know what to do. I was an eighteen-year-old kid from a small town in Ohio, and I was about to die in a hole in the ground.
+
+I tightened my grip on the rifle. My knuckles were white. I could feel the sweat running down my back, soaking through my uniform. I was cold and hot at the same time. I was terrified. I was angry. I was alive.
+
+I started to move. I didn’t have a destination. I didn’t have a mission. I just had a direction. Away from the crater. Away from the dust. Away from the feeling of being trapped.
+
+I moved through the mud, my boots sinking with every step. The tracers were getting closer. I could see them now, bright lines of light cutting through the gray. I dropped to one knee, moving in short, sharp bursts. I was fast. I was strong. I was the best.
+
+I was lying to myself.
+
+I was scared. I was alone. And I was running.
+
+The next burst of fire hit the ground in front of me. Dirt sprayed up into my face. I coughed, choking on the dust, and kept moving. I didn’t stop. I couldn’t stop. If I stopped, I would die. If I moved, I might live.
+
+I was a Marine. I was a survivor. I was the man who knew what to do.
+
+And I was alone.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

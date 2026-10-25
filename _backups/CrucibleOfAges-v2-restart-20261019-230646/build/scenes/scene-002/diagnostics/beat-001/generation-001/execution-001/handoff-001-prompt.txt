@@ -1,0 +1,101 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 2.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":2,"ViewpointCharacterId":"Caelen","Objective":"Depict Caelen\u0027s transition into the void, his processing of death, and the initialization of the System, resulting in his stabilization with Dominion Level 1 and Sacrifice Level 1.","IntendedChange":"Caelen moves from the fading consciousness of a dying Marine to a stabilized soul in the void, accepting his death and acknowledging the System\u0027s dual-path progression.","PacingPosture":0,"ProhibitedPatterns":["Do not depict Caelen\u0027s resurrection or physical awakening in a new world.","Do not introduce slavers, new world inhabitants, or physical combat.","Do not have the System provide moral lectures, explanations of the Creator, or detailed rules for Level 100.","Do not resolve the mystery of the mother\u0027s fate or Sergeant Miller\u0027s consequences.","Do not use the phrase \u0027not X, but Y\u0027 for emphasis or description."],"Scenes":[{"Sequence":1,"Purpose":"Establish the sensory and emotional transition from physical death to the void, focusing on the gradual loss of pain and the emergence of a dreamlike state.","IntendedChange":"Caelen\u0027s consciousness detaches from his physical body, and the immediate trauma of his death begins to soften into a detached, observational state.","FocusCharacterIds":["Caelen"]},{"Sequence":2,"Purpose":"Explore Caelen\u0027s internal processing of his final act, contrasting his self-image as a selfish Marine with the reality of his sacrifice, and introduce the initial, confusing appearance of the System interface.","IntendedChange":"Caelen confronts the dissonance between his identity and his actions, and perceives the System as an unfamiliar, neutral overlay on his consciousness.","FocusCharacterIds":["Caelen"]},{"Sequence":3,"Purpose":"Depict Caelen\u0027s interaction with the System\u0027s basic interface, where he recognizes his dual-path progression (Dominion Level 1, Sacrifice Level 1) and accepts his new state of suspended animation.","IntendedChange":"Caelen stabilizes in the void, acknowledging the System\u0027s presence and his unique status, and settles into a state of waiting.","FocusCharacterIds":["Caelen"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Establish the sensory and emotional transition from physical death to the void, focusing on the gradual loss of pain and the emergence of a dreamlike state.","IntendedChange":"Caelen\u0027s consciousness detaches from his physical body, and the immediate trauma of his death begins to soften into a detached, observational state.","FocusCharacterIds":["Caelen"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Explore Caelen\u0027s internal processing of his final act, contrasting his self-image as a selfish Marine with the reality of his sacrifice, and introduce the initial, confusing appearance of the System interface.","IntendedChange":"Caelen confronts the dissonance between his identity and his actions, and perceives the System as an unfamiliar, neutral overlay on his consciousness.","FocusCharacterIds":["Caelen"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The absence of pain was the first thing that registered, and it was a strange, hollow sensation, like a limb that had gone numb after sleeping too long on it. It was not the relief of healing; the wounds were still there, the holes in his chest and thigh were still open, the blood was still warm and wet against his skin. But the signal had been cut. The neural pathways that had been screaming at a frequency capable of shattering bone had simply stopped transmitting.
+
+Caelen tried to move his hand. He did not remember moving it, but his arm was raised, fingers splayed, hovering above the dust-covered ground. The muscles did not respond to the command. The connection between the mind and the meat had been severed, leaving him as a passenger in a vehicle that had rolled off the road. He looked down at his body, which was lying in the dirt, and felt a detached curiosity, as if he were observing a stranger who had made a poor tactical decision. The blood was pooling, dark and viscous, soaking into the red earth. It was a practical detail. He noted it, filed it away, and then the file closed.
+
+The noise of the world was receding. The distant thunder of weapons fire, the shouts of men, the crying of the mother—all of it was becoming muffled, as if he were hearing it from underwater. The sounds were losing their edges, their sharpness, their immediate threat. They became a low, rhythmic hum, a background texture to a reality that was rapidly losing its definition.
+
+He was no longer in the courtyard.
+
+The mud, the broken brick, the smell of cordite and iron—these things faded into a gray haze. The sky above him, which had been a hard, blue expanse, softened into a pale, shifting light. It was not a sky. It was not a room. It was a space defined by the absence of boundaries. There were no walls, no floor, no ceiling. There was only a pervasive, soft luminescence that seemed to come from everywhere and nowhere, casting no shadows.
+
+Caelen tried to stand, but the concept of standing required a floor, and there was no floor. He drifted. The motion was slow, graceful, and entirely effortless. It was the feeling of floating in a dream where the dreamer knows they are safe, where the laws of physics are suggestions rather than mandates. The weight of his body, the heaviness of his gear, the ache in his muscles—all of it had evaporated. He was light. He was empty. He was a thought without a thinker.
+
+He looked at his hands. They were solid, or they appeared to be. They had the same color, the same scars, the same calluses. But they did not feel like his hands. They were objects, separate from the consciousness that was observing them. He flexed his fingers, and they moved, but the movement did not convey a sense of agency. It was a demonstration, a display, rather than an action.
+
+The memories of his life were beginning to surface, but they were not clear. They were images without sound, scenes without context. He saw his mother’s face, but the details were blurred, the features shifting like a photograph left in the rain. He saw the Marine Corps training grounds, the mud, the sweat, the grueling runs. He saw the faces of his squad, Miller, Davis, the others. Their expressions were neutral, their mouths open in silent speech. The emotions attached to these memories—the fear, the pride, the resentment, the love—were being stripped away, leaving only the skeletal structure of the events.
+
+He remembered the moment before he lunged. The command from Miller, the sight of the woman, the infant in her arms. The decision. It was a clean, sharp memory, the only one that remained vivid. He had chosen. He had chosen to die. The clarity of that choice was strange, almost alien. He had been a man who avoided choices, who followed orders, who let the system make the decisions for him. And yet, in that final instant, he had made the most significant choice of his life, and it had been effortless. It had been the most natural thing in the world.
+
+The void was quiet. It was not a silence, because there was no sound to be silent against. It was a peace. A deep, resonant peace that settled into the core of his being, filling the hollow spaces where his fears and ambitions had lived. He did not feel afraid. He did not feel angry. He did not feel anything, except for a faint, distant awareness that he was still himself, that Caelen still existed, even if the name felt like a label applied to a box that had been emptied.
+
+He drifted through the gray light, watching the edges of his perception soften. The boundary between his mind and the space around him was becoming permeable. He could feel the presence of other things, other minds, but they were far away, distant stars in a vast, dark sky. They were not threats. They were not friends. They were simply there, part of the fabric of the void.
+
+The pain was gone. The fear was gone. The desire for status, for power, for recognition—these things had dissolved like sugar in water. He was left with a clean, empty slate. He was a soul, suspended in time, waiting for something he did not yet know.
+
+The light around him pulsed, a slow, rhythmic beat that matched a heartbeat he no longer had. It was a gentle, inviting pulse, a lullaby sung in a language he could not understand but felt in his bones. He let himself drift, let the memories fade, let the edges of his identity blur. He was safe. He was still. He was waiting.
+
+The void accepted him.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

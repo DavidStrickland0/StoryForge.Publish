@@ -1,0 +1,139 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s baseline personality and tactical competence during a chaotic battle, culminating in his decision to shield a noncombatant mother from an imminent threat.","IntendedChange":"The protagonist transitions from viewing the civilian as a tactical liability to actively positioning himself between her and the danger, accepting personal risk to ensure her survival.","PacingPosture":3,"ProhibitedPatterns":["Repetitive clipped sentences or fragments used for dramatic emphasis","Habitual contrast reframing (e.g., \u0027not X, but Y\u0027) to define character or situation","Ending the chapter with the protagonist alive and walking away","Moralizing internal monologues that explain the irony of his actions","Disintegration of the combat unit or betrayal by comrades"],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s self-serving competence and the chaotic physical reality of the battle zone, highlighting the moral ambiguity of fighting in a populated area.","IntendedChange":"The protagonist is actively engaged in combat, demonstrating his tactical skill and disdain for the disorder, while the presence of civilians is noted as an irritating complication rather than a moral crisis.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Introduce the noncombatant mother as an immediate tactical obstacle and force the protagonist to confront the failure of his standard survival calculations.","IntendedChange":"The protagonist identifies the mother in the line of fire, recognizing that his usual options for self-preservation are compromised by her presence and the specific threat vector.","FocusCharacterIds":["protagonist","noncombatant_mother"]},{"Sequence":3,"Purpose":"Depict the protagonist\u0027s internal conflict and the breakdown of his self-serving logic as he weighs the cost of inaction against the risk of intervention.","IntendedChange":"The protagonist realizes that his training and ambition do not provide a solution, forcing him to rely on an instinct that contradicts his established identity.","FocusCharacterIds":["protagonist"]},{"Sequence":4,"Purpose":"Execute the physical choice to shield the mother, establishing the concrete risk he accepts and the immediate consequence of his decision.","IntendedChange":"The protagonist positions his body between the mother and the threat, committing to the act of protection and leaving the outcome suspended in the moment of impact.","FocusCharacterIds":["protagonist","noncombatant_mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Introduce the noncombatant mother as an immediate tactical obstacle and force the protagonist to confront the failure of his standard survival calculations.","IntendedChange":"The protagonist identifies the mother in the line of fire, recognizing that his usual options for self-preservation are compromised by her presence and the specific threat vector.","FocusCharacterIds":["protagonist","noncombatant_mother"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Depict the protagonist\u0027s internal conflict and the breakdown of his self-serving logic as he weighs the cost of inaction against the risk of intervention.","IntendedChange":"The protagonist realizes that his training and ambition do not provide a solution, forcing him to rely on an instinct that contradicts his established identity.","FocusCharacterIds":["protagonist"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":1,"Location":"Shattered intersection in a populated urban battle zone, near a collapsed wall and a bus on its side","TimeContext":"Daytime, active combat, smoke-filled sky","PresentCharacterIds":["protagonist","battle_comrades","noncombatant_mother"],"PhysicalConditions":["Protagonist is armed with a rifle, magazine full, and physically unharmed","Protagonist is standing up after rolling from a sniper shot","Noncombatant_mother is standing still, holding a baby, three meters to the protagonist\u0027s right","Environment is chaotic with broken glass, dust, and smoke"],"KnowledgeEstablished":["Protagonist is 18 years old and has been in the Corps for four months","Enemy snipers are positioned on rooftops and ledges in the immediate area","The objective is two blocks east","The noncombatant_mother is present in the kill zone and is being monitored by Davis"],"DecisionsMade":["Protagonist decided to view the noncombatant_mother as a tactical liability rather than a moral concern","Protagonist ordered Davis to hold position and monitor the noncombatant_mother, threatening to shoot if she moved (later clarified to shoot near her foot)","Protagonist decided to proceed with the mission despite the presence of the civilian"],"PossessionChanges":[],"RelationshipChanges":["Protagonist established a command dynamic with Davis, issuing direct orders regarding the civilian"],"CompletedActions":["Protagonist moved through the battle zone, checking corners and scanning for threats","Protagonist issued orders to Davis regarding the noncombatant_mother","Protagonist evaded a sniper round by rolling to the left","Protagonist stood up and declared they were behind schedule"],"UnresolvedImmediateAction":"Protagonist is preparing to move toward the objective two blocks east, with the noncombatant_mother still in the immediate vicinity and the sniper threat potentially active","ContinuationPosition":"Protagonist is standing in the intersection, having just evaded a sniper shot, with the noncombatant_mother standing three meters to his right. He has just said \u0027Let\u0027s go\u0027 and is about to move toward the objective.","ProhibitedRepetition":["Repeating the protagonist\u0027s internal monologue about his self-serving competence and disdain for disorder","Repeating the specific order to Davis to shoot the civilian if she moves","Repeating the description of the sniper glint and the protagonist\u0027s roll to evade","Repeating the protagonist\u0027s observation of the noncombatant_mother\u0027s resignation turning to terror"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The dust kicked up by my roll was still settling, a gray curtain that hung in the air with the heavy, suffocating density of a funeral shroud. I kept my head down, my boots finding purchase on the slick pavement where shattered glass mixed with the grit of pulverized concrete. To my right, the mother stood frozen. She wasn't moving toward the cover of the collapsed storefront, nor was she fleeing back into the street. She was just standing there, the baby pressed tight against her chest, her eyes wide and unblinking as she stared at a point somewhere in the middle distance.
+
+I checked my magazine. The magazine was full. I checked the chamber. The chamber was locked. My heart rate was elevated, a steady thumping in my ears that the noise of the distant artillery couldn’t quite drown out. This was the part of the job where you stopped thinking and started moving. You didn’t stop to analyze the human element; you didn’t stop to wonder why a civilian was in the kill zone when the radio had promised a clear corridor. You moved.
+
+"Check your six," I said, my voice low and rough. I didn’t turn around. I didn’t need to. I knew where Davis was, three meters to my left, pressing his back against the rusted hull of the overturned bus. He was a good soldier. He was reliable. He was also exactly where I wanted him, which meant he was watching the mother, too.
+
+I took a step forward, then another. The air smelled of cordite and burnt rubber, a sharp, metallic tang that coated the back of my throat. I scanned the rooftop edges, looking for the tell-tale glint of a scope, the shadow of a barrel. There was nothing. Just the smoke and the ruins.
+
+"Target is in the open," Davis muttered. His voice was tight, controlled. He had his rifle up, the barrel leveled toward the mother’s head. "If she moves, I put a round in the pavement to scare her. If she runs, I put one in her leg. If she gets in your line of fire, I put one in her center mass. Your call, Sergeant."
+
+It was a standard protocol, stripped down to its brutal, utilitarian essence. He was offering me the option to save my own life by ensuring the obstacle was removed. It was efficient. It was correct. It was exactly what I had done a dozen times in the simulation bays back at Parris Island, where the targets were made of plastic and the consequences were simulated.
+
+But this wasn't a simulation. The mother wasn't a plastic target. She was a woman who looked like she hadn’t slept in days, wearing a dress that was too thin for the weather, holding a child who was finally starting to wail. The sound was small, a thin, reedy cry that cut through the ambient roar of the city.
+
+I looked at her. Really looked at her.
+
+She was terrified. It wasn't the performative fear of a movie scene, where someone screams and runs. It was a deep, primal paralysis, a recognition that running was useless because the enemy was faster, stronger, and more precise. She was waiting for the bullet. She was waiting for the end.
+
+And I was waiting for her to move out of the way.
+
+My brain started to run the calculations. It was a reflex, a habit drilled into me until it was as automatic as breathing. Angle of approach. Distance to the nearest cover. Time to reaction. If I moved left, I would be exposed for four seconds. If I moved right, I would be exposed for six. If I stayed where I was, I was safe for now, but I was blocked. The objective was two blocks east, and the street was a straight line. I couldn’t get around her. I couldn’t push her. I couldn’t shoot her.
+
+I couldn't shoot her.
+
+The thought sat in my mind, heavy and awkward, like a stone in my shoe. I had the authority. I had the weapon. I had the tactical justification. If I gave the order, Davis would pull the trigger. The problem would be solved. The street would be clear. We would reach the objective. I would survive.
+
+And I would be a monster.
+
+The word felt strange in my head, foreign and ill-fitting. I was a Marine. I was a professional. I didn't think in terms of monsters. I thought in terms of outcomes. And the outcome here was clear: I needed to move, and she was in the way.
+
+I took a deep breath, the air tasting of ash. I looked at Davis. He was waiting, his finger resting lightly on the trigger guard, his eyes fixed on the mother with a cold, detached focus. He wasn't enjoying it. He wasn't hating it. He was just waiting for the command.
+
+"Stand down," I said.
+
+Davis blinked. He lowered his rifle an inch. "Sergeant?"
+
+"I said stand down. Keep your eyes on her, but put the weapon down."
+
+Davis hesitated. He was confused. I could see it in the slight tilt of his head, the way his brow furrowed. He was used to me making the hard, cold calls. I was the guy who never flinched. I was the guy who looked at the world and saw only angles and vectors.
+
+"Are you sure?" he asked. It was a simple question, but it carried the weight of our lives.
+
+I didn't answer. I didn't need to. I just turned my back to him and walked toward the mother.
+
+The baby stopped crying. The silence that followed was louder than the artillery. I stopped three feet from her. She flinched, her body tensing, expecting a blow. I didn't move. I just stood there, looking at her.
+
+"Can you walk?" I asked. My voice sounded strange to my own ears, too quiet, too gentle.
+
+She didn't speak. She just shook her head, a tiny, jerky motion.
+
+"Okay," I said. "I'm going to ask you to move with me. I'm going to ask you to walk to that building over there." I pointed to a low, concrete barrier about ten meters away. It wasn't great cover, but it was better than the open street. "If you can, I want you to go there. If you can't, I want you to tell me."
+
+She looked at me, then at the barrier, then back at me. Her eyes were wide, filled with a confusion that mirrored my own. Why was I talking to her? Why wasn't I shooting? Why was I asking?
+
+I realized, with a cold, sinking feeling in my stomach, that I didn't have a plan. I didn't have a tactical solution. I didn't have a way to get past her without risking my life. I just had a feeling, a nagging, irrational conviction that if I left her here, I would carry it with me. I would carry it for the rest of my life.
+
+It was a bad reason. It was a stupid reason. It was the kind of reason that got people killed.
+
+But I was an eighteen-year-old Marine who had been in the Corps for four months, and I had a feeling that I was about to learn a lesson that no amount of training could teach me.
+
+I extended my hand.
+
+"Come on," I said. "Let's move."
+
+She stared at my hand. Then, slowly, with a trembling grace that belied the terror in her eyes, she reached out and took it.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

@@ -1,0 +1,125 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"protagonist","Objective":"Establish the protagonist\u0027s baseline personality (selfish, ambitious, contemptuous of weakness) and the immediate tactical situation of the battle, culminating in the moment where he is forced to choose between self-preservation and the safety of a noncombatant mother.","IntendedChange":"The protagonist transitions from a state of confident, institutional reliance to a state of isolated, visceral survival, where his standard operating procedures fail against the chaotic reality of the battlefield, forcing a raw, instinctive reaction to the threat posed to the mother.","PacingPosture":3,"ProhibitedPatterns":["Repetitive internal monologue and contrast reframing to explain motives","Dry, observational voice undermined by excessive self-explanation","Slowing pacing of critical moments through abstract moral accounting","Defining images or emotions by denying one interpretation and replacing it with another (e.g., \u0027not X, but Y\u0027)","One-word narrative sentences or fragments for dramatic emphasis","Habitual rhetorical patterns and repetitive emphasis","Unnecessary explanation of meanings the reader can already infer"],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s baseline personality through tactical decisions and internal monologue, revealing his selfishness, ambition, and contempt for weakness while demonstrating his competence in combat.","IntendedChange":"The protagonist is positioned in a defensive line, actively using a subordinate as a shield to cover his own advance, and is observed by his unit leader as a competent but morally compromised soldier.","FocusCharacterIds":["protagonist","battle_comrades"]},{"Sequence":2,"Purpose":"Depict the breakdown of the protagonist\u0027s unit and the chaotic, uncontrolled nature of the battle, stripping away his institutional support and forcing him to rely on his own skills and instincts.","IntendedChange":"The protagonist\u0027s unit is scattered and disorganized, leaving him isolated and vulnerable, and he is forced to engage in close-quarters combat without the support of his comrades.","FocusCharacterIds":["protagonist"]},{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire, forcing the protagonist to make a split-second decision between self-preservation and her safety.","IntendedChange":"The protagonist is in the process of shielding the noncombatant mother, his body positioned between her and the threat, his decision to protect her overriding his instinct for self-preservation, with the moment suspended and the outcome unknown.","FocusCharacterIds":["protagonist","noncombatant_mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"Introduce the noncombatant mother in the line of fire, forcing the protagonist to make a split-second decision between self-preservation and her safety.","IntendedChange":"The protagonist is in the process of shielding the noncombatant mother, his body positioned between her and the threat, his decision to protect her overriding his instinct for self-preservation, with the moment suspended and the outcome unknown.","FocusCharacterIds":["protagonist","noncombatant_mother"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":1,"CompletedSceneSequence":2,"Location":"Destroyed urban street with gutted buildings, moving from a collapsed wall to the main thoroughfare","TimeContext":"Active combat transitioning to a lull, late afternoon with the sun beginning to set","PresentCharacterIds":["protagonist"],"PhysicalConditions":["Protagonist is standing, walking steadily, rifle functional with a fresh magazine","Protagonist has a gunshot wound to the shoulder, left arm is numb and dead weight","Protagonist is bleeding, blood soaking through uniform","Environment is a destroyed city with gutted buildings, debris, and long shadows from the setting sun"],"KnowledgeEstablished":["Protagonist\u0027s radio is dead and command post is unreachable","Protagonist\u0027s squad is effectively non-existent or scattered (\u0027a ghost\u0027)","Protagonist views pain as manageable information and fear as a mental noise to be ignored","Protagonist perceives himself as the most dangerous and functional entity in the immediate area"],"DecisionsMade":["Protagonist decided to engage an enemy combatant in close-quarters combat","Protagonist decided to ignore the pain in his shoulder to maintain functionality","Protagonist decided to continue moving forward down the street despite being wounded and isolated"],"PossessionChanges":["Protagonist expended his current magazine and inserted a fresh one","Protagonist acquired a pistol from a dead enemy combatant (kicked away from the body)"],"RelationshipChanges":["Protagonist\u0027s relationship with his unit is now defined by total isolation and loss of institutional support"],"CompletedActions":["Protagonist stepped over Miller\u0027s body and moved into open ground","Protagonist took a gunshot wound to the shoulder during a simultaneous exchange with an enemy","Protagonist killed an enemy combatant with a pistol","Protagonist reloaded his rifle","Protagonist evaded a passing military truck by hiding against a wall","Protagonist walked down the destroyed street into the setting sun"],"UnresolvedImmediateAction":"Protagonist is walking steadily down the destroyed street, moving with quiet confidence, rifle ready, heading into the shadows of the setting sun.","ContinuationPosition":"Protagonist is walking down the main street of the destroyed city, moving away from the location of the close-quarters combat, with the sun setting and casting long shadows across the rubble.","ProhibitedRepetition":["Re-describing the initial exchange with the enemy pistol-wielder","Re-describing the moment of taking the shoulder wound","Re-describing the reloading of the rifle","Re-describing the evasion of the military truck","Re-establishing the protagonist\u0027s isolation through new internal monologue about the dead radio or missing squad"]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The street was quiet in the way that only a graveyard is quiet, a heavy, suffocating silence that pressed against my eardrums. I had been walking for three minutes, maybe four. My left arm hung at my side, a dead weight that dragged against my thigh with every step. The blood had stopped soaking through the fabric of my uniform, which was a good sign, though it didn’t change the fact that I was still leaking fluid onto the cracked asphalt. I checked the magazine well of my M4 again, a nervous habit that had become second nature. The bolt was home. The chamber was loaded. I was functional.
+
+That was the important part. Everything else was just noise.
+
+I rounded the corner of a collapsed building, the debris forming a jagged skyline against the orange sky. The sun was dipping below the horizon, turning the dust motes in the air into suspended gold. It was almost beautiful, in a sterile, dead way. If you ignored the smell of cordite and rotting meat that hung thick in the breeze.
+
+I stopped.
+
+There was a figure in the middle of the street.
+
+I didn’t see her at first. I saw the shape of her, the hunch of her shoulders, the way she was cradling a bundle of cloth in her arms. My brain, still running on tactical protocols, tried to categorize her. I wondered if she was hostile. It was unlikely that she was hostile. She wasn’t holding a weapon. She wasn’t wearing a uniform. She was small, frail, and moving with a desperate, jerky rhythm that had nothing to do with combat.
+
+A civilian.
+
+I cursed under my breath, the sound harsh and ragged in the quiet street. Civilians were a liability. They were obstacles. They were the reason missions went sideways, the reason we had to hold our fire, the reason we took casualties we didn’t expect. They were the chaotic variable that no amount of training could predict.
+
+I kept walking. My boots crunched on the glass and gravel. I kept my eyes forward, my rifle raised, my finger on the trigger guard. I was scanning for the real threat. The one that would come from the shadows, from the rubble, from the dark windows of the gutted buildings. The one that would put a round in my chest before I could react.
+
+The woman turned.
+
+She was young, maybe twenty, maybe twenty-five. Her face was smeared with dirt and tears, her hair matted and tangled. She was holding a baby, a small, squirming bundle that was crying softly, a sound that seemed impossibly loud in the silence. She looked at me, and for a second, I saw her eyes widen. Her eyes widened with fear. She recognized me as a soldier. She knew I was a soldier. She knew what that meant.
+
+I stopped.
+
+I should have kept moving. I should have looked away, focused on the perimeter, on the threat. I should have treated her as a piece of scenery, an obstacle to navigate around. That was the training. That was the discipline.
+
+But I didn’t move.
+
+I stood there, my rifle still raised, my breathing shallow and controlled. The baby stopped crying. The woman stared at me, her eyes wide and unblinking. I could see the fear in her face, the raw, animal terror that comes from being in the middle of a war you didn’t start and can’t stop. I could see the hope, too, the fragile, desperate hope that maybe, just maybe, the soldier in front of her was a good one.
+
+I felt a pang in my chest, a tight, uncomfortable pressure that had nothing to do with the wound in my shoulder. It was a feeling I didn’t like. It was a feeling that suggested I cared. I hated it. It was a weakness. A distraction.
+
+I looked at the baby. Then I looked at the woman. Then I looked at the dark windows of the building across the street.
+
+Something was moving in there.
+
+A shadow. A shape. A glint of metal.
+
+I didn’t think. I didn’t calculate. I didn’t weigh the odds or assess the risk. I just moved.
+
+I stepped forward, placing myself between the woman and the window. It was a stupid move. It was a reckless, suicidal move. I was wounded, isolated, and outgunned. I was a target.
+
+But I was the only target.
+
+I turned to face the window, my rifle aimed squarely at the darkness. My heart was pounding in my ears, a frantic, drumming rhythm that drowned out the sounds of the city. I could feel the heat of the sun on my back, the cold of the wind on my face. I could feel the weight of the rifle in my hands, the solidity of the weapon, the promise of violence.
+
+I was ready.
+
+I was the wall. I was the shield. I was the only thing standing between that woman and the death that was waiting for her in the dark.
+
+I waited.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

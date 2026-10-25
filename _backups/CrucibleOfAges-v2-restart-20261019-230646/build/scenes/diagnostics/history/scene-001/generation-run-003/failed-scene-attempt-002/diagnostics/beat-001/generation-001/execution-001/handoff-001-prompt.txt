@@ -1,0 +1,109 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 1.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":1,"ViewpointCharacterId":"Protagonist","Objective":"Establish the protagonist\u0027s pre-death character as a selfish, aggressive Marine and depict the specific battlefield incident where he shields a noncombatant mother, resulting in his fatal injury.","IntendedChange":"The protagonist transitions from a state of active combat engagement and self-preservation to a state of fatal physical trauma and imminent death, having made a singular, unplanned choice to protect a stranger.","PacingPosture":3,"ProhibitedPatterns":["Standalone one-word narrative sentences (e.g., \u0027Good.\u0027, \u0027No.\u0027, \u0027Yes.\u0027)","Narrative sentences of four words or fewer used for dramatic emphasis","Contrast reframing structures (\u0027not X, but Y\u0027)","Rushing into the void or System initialization","Resolving the mother\u0027s long-term fate or the protagonist\u0027s internal processing of the choice"],"Scenes":[{"Sequence":1,"Purpose":"Establish the protagonist\u0027s baseline personality through tactical decision-making and internal monologue during a high-pressure combat scenario, revealing his selfishness, desire for status, and reliance on military discipline.","IntendedChange":"The protagonist is actively engaged in a firefight, prioritizing his own survival and tactical advantage over the safety of nearby civilians, and has identified a specific threat vector that requires immediate action.","FocusCharacterIds":["Protagonist"]},{"Sequence":2,"Purpose":"Depict the specific battlefield incident where the protagonist confronts the choice to shield a noncombatant mother, highlighting the conflict between his survival instinct and the sudden recognition of her vulnerability.","IntendedChange":"The protagonist hesitates and debates the cost of saving a stranger versus his own survival, ultimately choosing to physically interpose his body between the lethal threat and the mother.","FocusCharacterIds":["Protagonist","Noncombatant Mother"]},{"Sequence":3,"Purpose":"Show the immediate physical consequence of the shielding action and the protagonist\u0027s fading consciousness, marking the end of his first life on Earth.","IntendedChange":"The protagonist sustains fatal injuries, the mother survives the immediate threat, and the protagonist\u0027s consciousness begins to fade as he experiences a moment of clarity and detachment.","FocusCharacterIds":["Protagonist","Noncombatant Mother"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Establish the protagonist\u0027s baseline personality through tactical decision-making and internal monologue during a high-pressure combat scenario, revealing his selfishness, desire for status, and reliance on military discipline.","IntendedChange":"The protagonist is actively engaged in a firefight, prioritizing his own survival and tactical advantage over the safety of nearby civilians, and has identified a specific threat vector that requires immediate action.","FocusCharacterIds":["Protagonist"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Depict the specific battlefield incident where the protagonist confronts the choice to shield a noncombatant mother, highlighting the conflict between his survival instinct and the sudden recognition of her vulnerability.","IntendedChange":"The protagonist hesitates and debates the cost of saving a stranger versus his own survival, ultimately choosing to physically interpose his body between the lethal threat and the mother.","FocusCharacterIds":["Protagonist","Noncombatant Mother"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The dust kicked up by the incoming mortar rounds tasted of copper and old stone, a gritty film that coated the back of Cade’s throat and settled into the creases of his tactical vest. He pressed his back against the crumbling plaster of the alleyway, the concrete vibrating with a low, rhythmic hum that he could feel in his teeth. Through the gap in the wall, the street beyond was a blur of motion and smoke, a chaotic smear of color and noise that his brain refused to fully process. He wasn’t here for the street. He was here for the extraction point, and he was here to make sure that nothing slowed him down.
+
+Cade checked the charge count on his rifle, the digital display glowing a steady green in the dim light of the alley. Fourteen rounds. Enough for a few more close encounters, provided he didn’t have to waste them on targets that didn’t matter. He adjusted the strap of his rucksack, the weight of the extra ammunition and the med-kit pulling at his shoulder. It was a heavy burden, but it was also a symbol. Every item in that bag was a step closer to the life he wanted. The life where he wasn’t just another grunt in the mud, but a name that carried weight in the briefings, a Marine who had earned his stripes through competence and results.
+
+A shout echoed from the main road, high-pitched and panicked, cutting through the drone of the artillery. Cade didn’t turn his head. He didn’t need to. He had heard that tone before, the specific frequency of fear that preceded a mistake. He shifted his weight, angling his body so that he could see the mouth of the alley without exposing his profile. A figure stumbled into view, a child no older than eight, dragging a woman by the arm. The woman was older, her face a mask of terror, her clothes torn and stained with dirt. They were civilians. They were obstacles.
+
+Cade’s eyes tracked the woman’s movement, calculating the distance to the extraction zone. They were blocking the direct line of sight. If he fired through the gap now, the blast might send debris into the street, but more importantly, they were a liability. Civilians were unpredictable. They froze, they screamed, they tripped. They had no training, no discipline, no understanding of the tactical reality that was unfolding around them. To Cade, they were a variable that needed to be eliminated or bypassed, a friction that slowed the machine.
+
+He took a breath, the air hot and thick with the smell of cordite. He could go around. It would add ten seconds to his crossing time. Ten seconds was a lifetime in a firefight. Ten seconds was enough for a sniper to find his head, for a grenade to land at his feet, for the mission to go sideways. The efficient choice was clear. The efficient choice was to move now, to use the cover of the smoke, to push through the gap and clear the street before the next wave of fire arrived. The civilians would scatter. They always did. They would run, they would hide, they would survive or they wouldn’t, but their survival was not his responsibility. His responsibility was the mission. His responsibility was his own survival.
+
+He moved.
+
+His boots hit the pavement with a sharp crunch, the sound lost in the roar of the battle. He slid across the cobblestones, his rifle raised, his eyes scanning for threats. The woman was still in the middle of the street, frozen in place, her hands over her head. The child was crying, a thin, reedy sound that grated against Cade’s nerves. He didn’t look at them. He looked at the shadows, at the buildings, at the places where enemies might be hiding. He was a professional. He knew how to kill. He knew how to survive. He didn’t know how to deal with the mess of human emotion that clung to the innocent.
+
+A flash of movement caught his eye. A figure in a grey uniform was moving along the roofline of the building opposite the alley. A sniper. Cade’s heart rate spiked, his fingers tightening on the trigger guard. He had less than two seconds. He had to get to cover. He had to get to the extraction point. He had to live.
+
+The woman was still in his path.
+
+For a fraction of a second, time seemed to dilate. The world narrowed to the space between his body and the woman’s. He could see the fear in her eyes, the raw, animal terror that mirrored his own. He could hear the whine of the bullet as it left the sniper’s rifle, a high-pitched scream that cut through the air. He knew the trajectory. He knew the speed. He knew that if he didn’t move, the bullet would hit her.
+
+He didn’t want to move. Every instinct in his body screamed at him to dive to the left, to get to cover, to save himself. It was the right thing to do. It was the smart thing to do. It was the thing that kept him alive.
+
+But something else was there. Something cold and hard in his chest. A refusal. A rejection of the idea that this specific person, this specific mother, would die in front of him while he had the chance to stop it. It wasn’t kindness. It wasn’t love. It was a visceral, almost physical revulsion at the waste of it. The inefficiency of letting a life disappear when he could have preserved it. The arrogance of allowing another human being to be erased by a single, meaningless act of violence.
+
+He moved.
+
+He didn’t think. He didn’t calculate. He simply threw himself into the space between the sniper’s line of fire and the woman. His body hit the ground with a sickening crunch, his ribs cracking under the impact. The bullet tore through his chest, a white-hot line of pain that exploded in his center. He felt the warmth of his own blood soaking into his uniform, spreading across the cobblestones.
+
+The woman screamed, a sound of pure, unadulterated shock. The child stopped crying.
+
+Cade lay on his side, his vision blurring at the edges. The world was fading, the sounds of the battle receding into a distant hum. He felt the cold of the stone seeping into his skin. He looked at the woman. She was alive. She was breathing. She was looking at him with an expression he couldn’t quite read, a mix of horror and gratitude and something else, something that he didn’t have the strength to understand.
+
+He tried to speak, to tell her to run, to tell her to live. But his mouth was full of blood, and his voice was a whisper that died on his lips. The pain was becoming a distant thing, a background noise that was slowly being drowned out by a profound and terrifying silence. He felt a strange sense of completion, a closing of a loop that he hadn’t known was open. He had made a choice. He had paid the price.
+
+The darkness crept in, not as an ending, but as a transition. A shift. A door closing in one room and opening in another. The last thing he felt was the weight of his own body, the reality of his own mortality, and the strange, quiet peace of knowing that he had, in that single moment, done something that mattered.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
