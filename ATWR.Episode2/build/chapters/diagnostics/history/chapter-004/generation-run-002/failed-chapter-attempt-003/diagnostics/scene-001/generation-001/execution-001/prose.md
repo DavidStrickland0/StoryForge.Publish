@@ -1,0 +1,5 @@
+The corridor ahead offered no choice but to move forward, the passage narrowing as it wound deeper into the belly of the ruined structure. The stone walls were slick with condensation that had settled in pockets along the damp mortar, making every step a negotiation between friction and slip. Elias kept his eyes on the path directly in front of them, scanning for uneven flagstones or debris that might indicate where a goblin had recently walked.
+
+Maren led the way, her boots finding purchase despite the slick surface. The broken cart axle strapped to her shoulder remained a constant reminder of her reduced mobility; every time she shifted her weight, the wood creaked in protest. She moved with a deliberate economy of motion, conserving energy rather than rushing blindly. Torin followed closely behind her, his hand resting lightly on the pommel of his sword as he checked the corners for signs of movement or traps.
+
+Elias brought up the rear of the group’s forward formation, though not quite at the very back where K

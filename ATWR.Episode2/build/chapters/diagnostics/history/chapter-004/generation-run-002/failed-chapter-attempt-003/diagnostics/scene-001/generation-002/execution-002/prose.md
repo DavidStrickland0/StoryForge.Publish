@@ -1,0 +1,3 @@
+The corridor narrowed, the ceiling lowering until Torin had to duck slightly, his boots finding purchase on flagstones slick with condensation. The air here tasted of wet clay and stagnant water, a sharp contrast to the dry dust of the upper levels. Elias kept his hand on the pommel of his sword, though the leather of his grip felt cold and clammy in his palm. He listened for the sound of breathing ahead, but there was only the faint, rhythmic dripping of water somewhere in the deep dark.
+
+"Stay close," Torin whispered, his voice barely audible over the drip. "The floor is uneven. Watch your

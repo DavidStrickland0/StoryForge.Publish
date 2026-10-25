@@ -1,0 +1,11 @@
+Elias looked at the two corridors branching off from the junction, the darkness beyond swallowing the faint glow of Kaelen’s gauntlet. The rain continued its relentless drumming against the stone roof, a constant reminder that they were still connected to the world above, yet trapped within this cold, subterranean labyrinth.
+
+"The trap is dead," Elias said, his voice carrying easily in the quiet corridor without breaking the silence Torin had cultivated. "The fracture clears it. We slip through."
+
+He didn’t need Elara to confirm the floor was safe beneath their boots; she had already done that work with her quartz dust and careful observation. He needed to know where they were going next, which meant looking at the options before them rather than re-examining what lay behind them. The junction offered two distinct paths into the cellar levels: a direct route that cut straight toward the storage chamber where Nella and Hobb were being held, and a secondary passage that wound away from the main axis, presumably leading toward the goblin living quarters or perhaps the chief’s private chambers on the upper levels.
+
+Torin stepped forward, his boots finding purchase on the flagstones with practiced silence. He moved to the entrance of the direct corridor, peering into the gloom beyond. "Direct line," he murmured, more to himself than to the group. "But it runs right past the guard post that’s probably stationed near the stairs leading up. If they’re awake and watching the gallery above, we’ll be spotted before we even reach the door."
+
+Maren shifted her weight, the broken cart axle creaking softly against her shoulder blades as she adjusted her stance. She didn’t complain about the pain radiating through her injured leg; she had learned long ago that whining about soreness only made it worse. Instead, she focused on the mechanics of their movement, calculating how the group’s formation would hold if they had to navigate a tight squeeze or avoid a sudden noise.
+
+"I can handle the direct route," Maren said, her voice steady despite the strain in her face. "I’ll cover the rear and keep an eye on the floor for anything that looks too loose. If Torin thinks we’re moving too fast, I’ll slow us down.

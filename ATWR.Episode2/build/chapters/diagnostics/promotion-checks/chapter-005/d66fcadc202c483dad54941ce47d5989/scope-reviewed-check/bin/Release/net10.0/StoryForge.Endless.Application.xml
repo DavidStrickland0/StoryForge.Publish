@@ -1,0 +1,3382 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoryForge.Endless.Application</name>
+    </assembly>
+    <members>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.IStoryBootstrapArcHierarchyPlanningService">
+            <summary>
+            Plans the initial prospective story-arc hierarchy after imported history.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.Bootstrap.IStoryBootstrapArcHierarchyPlanningService.PlanAsync(StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningRequest,System.Threading.CancellationToken)">
+            <summary>
+            Infers a complete Epic, Long, Medium, and Short hierarchy from
+            reconstructed authoritative context.
+            </summary>
+            <param name="request">The bootstrap hierarchy-planning request.</param>
+            <param name="cancellationToken">
+            A token that can cancel the asynchronous operation.
+            </param>
+            <returns>The validated prospective hierarchy plan.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.IStoryBootstrapArcRootMaterializationService">
+            <summary>
+            Materializes the initial prospective Epic arc for an imported story.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.Bootstrap.IStoryBootstrapArcRootMaterializationService.MaterializeAsync(StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcRootMaterializationRequest,System.Threading.CancellationToken)">
+            <summary>
+            Creates the authoritative initial story-arc state.
+            </summary>
+            <param name="request">The root materialization request.</param>
+            <param name="cancellationToken">A cancellation token.</param>
+            <returns>The materialization result.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.IStoryBootstrapInventoryService">
+            <summary>
+            Inventories immutable finalized chapters for story-context reconstruction.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.Bootstrap.IStoryBootstrapInventoryService.InventoryAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Validates and inventories finalized chapters in a story workspace.
+            </summary>
+            <param name="repositoryRoot">The absolute or relative story workspace path.</param>
+            <param name="cancellationToken">A token that can cancel the operation.</param>
+            <returns>The verified bootstrap manifest.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.IStoryBootstrapWorkspaceInitializer">
+            <summary>
+            Initializes the rules-neutral context required to reconstruct an imported
+            story.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.Bootstrap.IStoryBootstrapWorkspaceInitializer.ResetGeneratedArtifacts(System.String)">
+            <summary>
+            Deletes all generated chapter artifacts, including publication and lifecycle
+            state, restores the saved initial authoring context, and preserves story
+            configuration and the baseline. Missing baselines reject context-bearing
+            workspaces before deletion; Windows may retain locked empty directories.
+            </summary>
+            <param name="repositoryRoot">The explicit story workspace root.</param>
+            <returns>The relative paths removed from the workspace.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Application.Bootstrap.IStoryBootstrapWorkspaceInitializer.InitializeAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Creates missing bootstrap context while preserving existing files.
+            </summary>
+            <param name="repositoryRoot">The story workspace root.</param>
+            <param name="cancellationToken">A cancellation token.</param>
+            <returns>The workspace initialization result.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlan">
+            <summary>
+            Describes the complete initial story-arc hierarchy inferred after imported
+            history.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlan.RootHorizon">
+            <summary>Gets the horizon of the root; older artifacts default to Epic.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlan.IsFinite">
+            <summary>Gets a value indicating whether the root is the complete story.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlan.Epic">
+            <summary>
+            Gets the root's semantic plan. The Epic field name is retained for existing bootstrap artifacts.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlan.LongChildren">
+            <summary>
+            Gets the three ordered Long children of the Epic arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlan.MediumChildren">
+            <summary>
+            Gets the three ordered Medium children of the first Long arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlan.ShortChildren">
+            <summary>
+            Gets the three ordered Short children of the first Medium arc.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningRequest">
+            <summary>
+            Describes a request to infer the prospective arc hierarchy following
+            imported story history.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningRequest.RepositoryRoot">
+            <summary>
+            Gets the story workspace root containing reconstructed context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningRequest.LastImportedChapterNumber">
+            <summary>
+            Gets the number of the final imported chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningRequest.LastImportedChapterPath">
+            <summary>
+            Gets the path to the final imported chapter prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningRequest.Model">
+            <summary>
+            Gets the model used to infer the prospective hierarchy.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningRequest.Temperature">
+            <summary>
+            Gets the planning temperature.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningResult">
+            <summary>
+            Contains the validated prospective arc hierarchy inferred after imported
+            history.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningResult.StartChapter">
+            <summary>
+            Gets the first chapter governed by the prospective hierarchy.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningResult.Plan">
+            <summary>
+            Gets the complete inferred hierarchy plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningResult.RawResponse">
+            <summary>
+            Gets the unmodified model response retained for provenance.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningResult.Model">
+            <summary>
+            Gets the model that produced the hierarchy.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcHierarchyPlanningResult.Duration">
+            <summary>
+            Gets the total hierarchy-planning duration across all attempts.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcRootMaterializationRequest">
+            <summary>
+            Requests atomic creation of the initial prospective story-arc hierarchy
+            after imported history.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcRootMaterializationRequest.RepositoryRoot">
+            <summary>
+            Gets the story workspace root.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcRootMaterializationRequest.StartChapter">
+            <summary>
+            Gets the first chapter governed by the prospective hierarchy.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcRootMaterializationRequest.Plan">
+            <summary>
+            Gets the inferred semantic plan for the complete hierarchy.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcRootMaterializationResult">
+            <summary>
+            Describes the authoritative initial arc hierarchy created by bootstrap.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcRootMaterializationResult.RootArcId">
+            <summary>
+            Gets the identifier of the initial Epic arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcRootMaterializationResult.CreatedArcIds">
+            <summary>
+            Gets the identifiers of every arc created in hierarchy order.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcRootMaterializationResult.State">
+            <summary>
+            Gets the materialized authoritative arc state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapArcRootMaterializationResult.OutputPath">
+            <summary>
+            Gets the path of the authoritative story-arc file.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.StoryBootstrapChapter">
+            <summary>
+            Identifies one immutable finalized chapter discovered during story bootstrap.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapChapter.ChapterNumber">
+            <summary>
+            Gets the positive sequential chapter number.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapChapter.RelativePath">
+            <summary>
+            Gets the finalized prose path relative to the story workspace.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapChapter.Sha256">
+            <summary>
+            Gets the lowercase SHA-256 hash of the finalized prose bytes.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapChapter.CharacterCount">
+            <summary>
+            Gets the finalized prose length in characters.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.StoryBootstrapManifest">
+            <summary>
+            Records the immutable finalized chapters available for context reconstruction.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapManifest.SchemaVersion">
+            <summary>
+            Gets the manifest schema version.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapManifest.VerifiedAtUtc">
+            <summary>
+            Gets the time at which the inventory was last verified.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapManifest.Chapters">
+            <summary>
+            Gets the discovered finalized chapters in chronological order.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Bootstrap.StoryBootstrapWorkspaceInitializationResult">
+            <summary>
+            Describes files created or preserved during bootstrap initialization.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapWorkspaceInitializationResult.CreatedFiles">
+            <summary>
+            Gets the workspace-relative paths created by initialization.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Bootstrap.StoryBootstrapWorkspaceInitializationResult.PreservedFiles">
+            <summary>
+            Gets the workspace-relative paths preserved by initialization.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ChapterBeatPlan">
+            <summary>Defines one required, observable outcome within an ordered scene.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterBeatPlan.Sequence">
+            <summary>Gets the stable one-based beat position within its parent scene.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterBeatPlan.RequiredOutcome">
+            <summary>Gets the concrete change that prose must establish, rather than merely intend.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ChapterPacingPosture">
+            <summary>
+            Identifies the dominant pacing posture intended for a chapter.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.ChapterPacingPosture.Quiet">
+            <summary>
+            Emphasizes recovery, reflection, relationships, or ordinary activity.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.ChapterPacingPosture.Balanced">
+            <summary>
+            Balances action, interaction, discovery, and reflection.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.ChapterPacingPosture.Exploratory">
+            <summary>
+            Emphasizes investigation, travel, preparation, or discovery.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.ChapterPacingPosture.Urgent">
+            <summary>
+            Emphasizes immediate action under established time pressure.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ChapterPlan">
+            <summary>
+            Defines validated adaptive composition guidance for one chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlan.ChapterNumber">
+            <summary>
+            Gets the chapter number governed by the plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlan.ViewpointCharacterId">
+            <summary>
+            Gets the identifier of the planned viewpoint character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlan.Objective">
+            <summary>
+            Gets the immediate objective that gives the chapter direction.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlan.IntendedChange">
+            <summary>
+            Gets the meaningful narrative change the completed chapter should establish.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlan.PacingPosture">
+            <summary>
+            Gets the dominant pacing posture for the chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlan.ProhibitedPatterns">
+            <summary>
+            Gets recent narrative patterns that the chapter must avoid repeating.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlan.Scenes">
+            <summary>
+            Gets the ordered adaptive scene purposes for the chapter.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtension">
+            <summary>
+            Defines an additional validated batch of scene guidance for a chapter whose
+            existing guidance was exhausted before its quantitative length minimum.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtension.ChapterNumber">
+            <summary>
+            Gets the chapter number receiving the additional scene guidance.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtension.StartingSceneSequence">
+            <summary>
+            Gets the sequence number assigned to the first additional scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtension.Scenes">
+            <summary>
+            Gets the additional ordered qualitative scene purposes.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest">
+            <summary>
+            Defines the accepted state required to extend exhausted scene guidance.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest.EpisodicSeries">
+            <summary>Gets episodic scope that extended scenes must preserve.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing authoritative story context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest.ChapterPlan">
+            <summary>
+            Gets the original validated prospective chapter plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest.ExistingScenes">
+            <summary>
+            Gets all scene guidance already available to the current generation run,
+            including any previously accepted extensions.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest.LatestHandoff">
+            <summary>
+            Gets the latest validated handoff from the most recently accepted scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest.AccumulatedWordCount">
+            <summary>
+            Gets the number of prose words already accepted for the chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest.TargetMinimumWords">
+            <summary>
+            Gets the quantitative minimum word count still governing the container.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest.ExtensionNumber">
+            <summary>
+            Gets the one-based extension attempt number for artifact naming.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest.Model">
+            <summary>
+            Gets the optional text-generation model override.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest.Temperature">
+            <summary>
+            Gets the model sampling temperature used for extension planning.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionResult">
+            <summary>
+            Contains validated additional scene guidance and generation metadata.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionResult.Extension">
+            <summary>
+            Gets the validated additional scene-guidance batch.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionResult.Model">
+            <summary>
+            Gets the model that produced the additional guidance.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionResult.Duration">
+            <summary>
+            Gets the total time spent producing the additional guidance.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionValidator">
+            <summary>
+            Validates additional scene guidance against guidance already assigned to a
+            quantitative chapter container.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionValidator.Validate(StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtension,System.Int32,System.Collections.Generic.IReadOnlyList{StoryForge.Endless.Application.ChapterPlanning.ChapterScenePlan})">
+            <summary>
+            Validates an additional scene-guidance batch.
+            </summary>
+            <param name="extension">The proposed additional guidance.</param>
+            <param name="expectedChapterNumber">
+            The chapter container receiving the additional guidance.
+            </param>
+            <param name="existingScenes">
+            The initial and previously extended scene guidance.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when required structured input is missing.
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when the expected chapter number is not positive.
+            </exception>
+            <exception cref="T:System.IO.InvalidDataException">
+            Thrown when the extension is inconsistent, discontinuous, empty, too
+            large, or duplicates existing narrative guidance.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest">
+            <summary>
+            Defines the inputs required to plan one chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest.EpisodicSeries">
+            <summary>Gets opt-in episodic direction; null preserves continuous arc planning.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing authoritative story context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number to plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest.ChapterObjective">
+            <summary>
+            Gets the optional user-supplied objective for this chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest.RejectionReason">
+            <summary>
+            Gets the reason the previous chapter attempt was rejected, when present.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest.TargetMinimumWords">
+            <summary>
+            Gets the normal minimum chapter length the plan must support.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest.TargetMaximumWords">
+            <summary>
+            Gets the normal maximum chapter length the plan must support.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest.Model">
+            <summary>
+            Gets the optional text-generation model override.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest.ValidationModel">
+            <summary>Gets the separate model for validating a generated plan against finalized continuity.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest.Temperature">
+            <summary>
+            Gets the model sampling temperature used for planning.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningResult">
+            <summary>
+            Contains a validated adaptive chapter plan and generation metadata.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningResult.Plan">
+            <summary>
+            Gets the validated adaptive chapter plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningResult.Model">
+            <summary>
+            Gets the model that produced the plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningResult.Duration">
+            <summary>
+            Gets the total time spent producing the plan.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanValidator">
+            <summary>
+            Applies deterministic structural and composition rules to chapter plans.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanValidator.Validate(StoryForge.Endless.Application.ChapterPlanning.ChapterPlan,System.Int32)">
+            <summary>
+            Validates a chapter plan for the expected chapter.
+            </summary>
+            <param name="plan">The chapter plan to validate.</param>
+            <param name="expectedChapterNumber">
+            The chapter number the plan must govern.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="plan"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            Thrown when <paramref name="expectedChapterNumber"/> is not positive.
+            </exception>
+            <exception cref="T:System.IO.InvalidDataException">
+            Thrown when the plan violates a deterministic planning rule.
+            </exception>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ChapterPlanning.ChapterPlanValidator.ValidateBeats(StoryForge.Endless.Application.ChapterPlanning.ChapterScenePlan)">
+            <summary>Validates ordered beat identities and concrete outcomes, accepting empty legacy lists only for migration.</summary>
+            <param name="scene">The containing scene.</param>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ChapterScenePlan">
+            <summary>
+            Describes the intended function of one ordered chapter scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterScenePlan.Sequence">
+            <summary>
+            Gets the one-based position of the scene within the chapter plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterScenePlan.Beats">
+            <summary>Gets the ordered required beats; legacy plans are upgraded before generation or promotion.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterScenePlan.Purpose">
+            <summary>
+            Gets the concrete narrative purpose of the scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterScenePlan.IntendedChange">
+            <summary>
+            Gets the meaningful state change the scene should establish.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.ChapterScenePlan.FocusCharacterIds">
+            <summary>
+            Gets the identifiers of characters who should receive meaningful focus.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.IChapterPlanExtensionService">
+            <summary>
+            Extends exhausted scene guidance from the latest accepted narrative state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ChapterPlanning.IChapterPlanExtensionService.ExtendAsync(StoryForge.Endless.Application.ChapterPlanning.ChapterPlanExtensionRequest,System.Threading.CancellationToken)">
+            <summary>
+            Creates and validates an additional adaptive scene-guidance batch.
+            </summary>
+            <param name="request">
+            The accepted plan, scene history, handoff, and quantitative length state.
+            </param>
+            <param name="cancellationToken">
+            A token that may cancel the asynchronous operation.
+            </param>
+            <returns>
+            The validated additional scene guidance and generation metadata.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.IChapterPlanningService">
+            <summary>
+            Creates structured adaptive plans that guide chapter prose generation.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ChapterPlanning.IChapterPlanningService.PlanAsync(StoryForge.Endless.Application.ChapterPlanning.ChapterPlanningRequest,System.Threading.CancellationToken)">
+            <summary>
+            Creates and validates an adaptive plan for a chapter.
+            </summary>
+            <param name="request">The chapter-planning request.</param>
+            <param name="cancellationToken">
+            A token that may cancel the asynchronous operation.
+            </param>
+            <returns>The validated chapter-planning result.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ISceneAccomplishmentValidationService">
+            <summary>
+            Assesses narrative accomplishment before candidate scene acceptance.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ChapterPlanning.ISceneAccomplishmentValidationService.ValidateAsync(StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest,System.Threading.CancellationToken)">
+            <summary>
+            Validates accomplishment using candidate prose as evidence.
+            A valid rejection is returned as an assessment, not an exception.
+            </summary>
+            <param name="request">The candidate scene and its continuity context.</param>
+            <param name="cancellationToken">The token used to cancel validation.</param>
+            <returns>The validated assessment and execution metadata.</returns>
+            <exception cref="T:System.IO.InvalidDataException">
+            The request is invalid or no valid assessment can be obtained within
+            the bounded structured-output retry limit.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ISceneProseQualityAssessmentService">
+            <summary>
+            Assesses the prose quality of an accepted candidate scene.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ChapterPlanning.ISceneProseQualityAssessmentService.AssessAsync(StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentRequest,System.Threading.CancellationToken)">
+            <summary>
+            Produces an evidence-backed prose-quality assessment.
+            </summary>
+            <param name="request">The candidate scene and its narrative context.</param>
+            <param name="cancellationToken">The token used to cancel assessment.</param>
+            <returns>The validated assessment and execution metadata.</returns>
+            <exception cref="T:System.IO.InvalidDataException">
+            The request is invalid or no valid assessment can be obtained within
+            the bounded structured-output retry limit.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.ISceneStateHandoffExtractionService">
+            <summary>
+            Extracts immediate structured narrative state from an accepted scene.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ChapterPlanning.ISceneStateHandoffExtractionService.ExtractAsync(StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionRequest,System.Threading.CancellationToken)">
+            <summary>
+            Extracts and validates the state required to continue after a scene.
+            </summary>
+            <param name="request">The handoff extraction request.</param>
+            <param name="cancellationToken">
+            A token used to cancel the extraction operation.
+            </param>
+            <returns>The validated scene-state handoff and generation metadata.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentAssessment">
+            <summary>
+            Describes whether a candidate scene establishes meaningful narrative change.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentAssessment.Approved">
+            <summary>
+            Gets a value indicating whether the scene accomplishes its intended
+            development or a meaningful, continuity-compatible alternative.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentAssessment.BeatPromotionEvidence">
+            <summary>Gets serialized beat-to-scene evidence for explicit planned beats.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentAssessment.Reason">
+            <summary>
+            Gets the explanation for approval or the specific unmet requirement
+            that should guide a rejected scene's retry.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentAssessment.ActualChange">
+            <summary>
+            Gets the material change actually established by the prose,
+            or an empty string when no material change occurred.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentAssessment.FutureSceneEncroachment">
+            <summary>
+            Gets a value indicating whether the candidate substantially completes
+            narrative work assigned to a later planned scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentAssessment.EncroachedSceneSequences">
+            <summary>
+            Gets the later scene sequences whose planned work was substantially
+            completed by the candidate.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentAssessment.EvidenceQuotes">
+            <summary>
+            Gets exact excerpts from the candidate prose supporting the assessment.
+            Approval requires evidence; excerpts must not come from the plan or handoff.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentAssessmentValidator">
+            <summary>
+            Checks assessment structure and verifies quotations against candidate prose.
+            This validator does not determine whether the quoted events are meaningful.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentAssessmentValidator.Validate(StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentAssessment,System.String)">
+            <summary>
+            Validates an assessment before it can influence scene acceptance.
+            </summary>
+            <param name="assessment">The assessment returned by the validation model.</param>
+            <param name="candidateProse">The exact candidate prose supplied to the model.</param>
+            <exception cref="T:System.ArgumentNullException">
+            The assessment is null.
+            </exception>
+            <exception cref="T:System.IO.InvalidDataException">
+            The assessment is incomplete or contains unsupported evidence quotations.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest">
+            <summary>
+            Supplies the evidence required to assess a candidate scene's accomplishment.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number containing the candidate scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest.PlannedScene">
+            <summary>
+            Gets the prospective scene purpose and intended change.
+            The plan is guidance, not evidence that an event occurred.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest.RemainingPlannedScenes">
+            <summary>
+            Gets later planned scenes whose substantial narrative work must remain
+            available after the candidate scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest.CandidateProse">
+            <summary>
+            Gets the candidate prose, which is the evidence for events in the scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest.CandidateHandoff">
+            <summary>
+            Gets the candidate handoff to cross-check against the prose.
+            This handoff is not independently authoritative evidence.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest.PreviousHandoff">
+            <summary>
+            Gets the latest accepted handoff, including across a chapter boundary,
+            or null when no preceding handoff is available.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest.GenerationContext">
+            <summary>
+            Gets the relevant authoritative generation context for continuity checks.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest.Model">
+            <summary>
+            Gets the model to use for validation, or null to use the service default.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationRequest.ProseRepairModel">
+            <summary>Gets the prose model for proposing unaccepted local corrections; validation keeps its separate model.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationResult">
+            <summary>
+            Contains a structurally validated accomplishment assessment and execution metadata.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationResult.Assessment">
+            <summary>
+            Gets the assessment after structural and exact-evidence validation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationResult.Model">
+            <summary>
+            Gets the model reported by the validation service.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationResult.Duration">
+            <summary>
+            Gets the total model execution duration, including structured-output retries.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationResult.RepairedProse">
+            <summary>Gets an unaccepted local repair that must undergo fresh scene checks.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneAccomplishmentValidationResult.RequiresFreshProse">
+            <summary>
+            Gets a value indicating whether an unresolved assessment requires fresh prose rather than
+            local edits guided by an unverified objection.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessment">
+            <summary>
+            Describes the evidence-backed prose quality of a candidate scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessment.MeetsQualityStandard">
+            <summary>
+            Gets a value indicating whether the scene meets the calibrated prose
+            quality standard.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessment.Summary">
+            <summary>
+            Gets the concise overall explanation of the assessment.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessment.Findings">
+            <summary>
+            Gets the evidence-backed prose-quality defects found in the scene.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentRequest">
+            <summary>
+            Supplies the prose and context required to assess one candidate scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number containing the candidate scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentRequest.PlannedScene">
+            <summary>
+            Gets the prospective scene purpose and intended change.
+            The plan provides context but is not evidence of prose quality.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentRequest.RemainingPlannedScenes">
+            <summary>
+            Gets later planned scenes whose intended progression helps establish
+            whether this scene ends at an effective narrative boundary.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentRequest.CandidateProse">
+            <summary>
+            Gets the candidate prose that provides evidence for the assessment.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentRequest.CandidateHandoff">
+            <summary>
+            Gets the candidate scene handoff used to understand its resulting state.
+            The handoff is context and not independently authoritative evidence.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentRequest.PreviousHandoff">
+            <summary>
+            Gets the latest accepted handoff, including across a chapter boundary,
+            or null when no preceding handoff is available.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentRequest.GenerationContext">
+            <summary>
+            Gets authoritative generation context used to assess continuity,
+            character voice, and story-specific prose requirements.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentRequest.Model">
+            <summary>
+            Gets the model to use for assessment, or null to use the service default.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentResult">
+            <summary>
+            Contains a validated prose-quality assessment and execution metadata.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentResult.Assessment">
+            <summary>
+            Gets the assessment after structural and exact-evidence validation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentResult.Model">
+            <summary>
+            Gets the model reported by the assessment service.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentResult.Duration">
+            <summary>
+            Gets total model execution duration, including structured-output retries.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentValidator">
+            <summary>
+            Validates prose-quality assessment structure and exact candidate evidence.
+            This validator does not independently judge literary quality.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessmentValidator.Validate(StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityAssessment,System.String)">
+            <summary>
+            Validates a prose-quality assessment before it is recorded or enforced.
+            </summary>
+            <param name="assessment">The assessment to validate.</param>
+            <param name="candidateProse">
+            The exact candidate prose from which evidence must originate.
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+            The assessment is null.
+            </exception>
+            <exception cref="T:System.IO.InvalidDataException">
+            The assessment is incomplete, internally inconsistent, or contains
+            unsupported evidence.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityDimension">
+            <summary>
+            Identifies a prose-quality dimension assessed for a candidate scene.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityDimension.CausalProgression">
+            <summary>
+            Cause-and-effect progression through the scene.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityDimension.CharacterVoice">
+            <summary>
+            Viewpoint and character-specific voice.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityDimension.Dialogue">
+            <summary>
+            Dialogue that changes knowledge, emotion, or relationships.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityDimension.ConcreteSpecificity">
+            <summary>
+            Concrete and selective narrative detail.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityDimension.RedundantExplanation">
+            <summary>
+            Unnecessary restatement of information, thought, or emotion.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityDimension.SentenceRhythm">
+            <summary>
+            Variation and intentionality in sentence and paragraph cadence.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityDimension.Tension">
+            <summary>
+            Pressure appropriate to the scene without artificial escalation.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityDimension.SceneEnding">
+            <summary>
+            A natural stopping point following the scene's material change.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityFinding">
+            <summary>
+            Describes one evidence-backed prose-quality defect in a candidate scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityFinding.Dimension">
+            <summary>
+            Gets the prose-quality dimension affected by the defect.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityFinding.Severity">
+            <summary>
+            Gets the narrative impact assigned to the defect.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityFinding.Explanation">
+            <summary>
+            Gets the explanation of how the cited prose exhibits the defect.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityFinding.RevisionGuidance">
+            <summary>
+            Gets narrowly scoped guidance for correcting the defect.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualityFinding.EvidenceQuotes">
+            <summary>
+            Gets exact candidate-prose passages supporting the finding.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualitySeverity">
+            <summary>
+            Describes the narrative impact of an observed prose-quality defect.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualitySeverity.Advisory">
+            <summary>
+            The defect is worth recording but does not materially compromise the
+            scene.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.ChapterPlanning.SceneProseQualitySeverity.Blocking">
+            <summary>
+            The defect materially compromises the scene and would justify rejection
+            after calibration establishes reliable enforcement.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff">
+            <summary>
+            Captures immediate narrative state after one accepted planned scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.ChapterNumber">
+            <summary>
+            Gets the chapter containing the completed scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.CompletedSceneSequence">
+            <summary>
+            Gets the sequence number of the completed scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.Location">
+            <summary>
+            Gets the location established at the end of the scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.TimeContext">
+            <summary>
+            Gets the time or temporal relationship established at the end.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.PresentCharacterIds">
+            <summary>
+            Gets the identifiers of characters present at the continuation point.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.PhysicalConditions">
+            <summary>
+            Gets established physical conditions, including injuries and fatigue.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.KnowledgeEstablished">
+            <summary>
+            Gets knowledge directly established by the completed scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.DecisionsMade">
+            <summary>
+            Gets decisions directly made during the completed scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.PossessionChanges">
+            <summary>
+            Gets established possession changes.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.RelationshipChanges">
+            <summary>
+            Gets established relationship changes.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.CompletedActions">
+            <summary>
+            Gets actions completed during the scene that must not be replayed.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.UnresolvedImmediateAction">
+            <summary>
+            Gets the immediate unresolved action at the end of the scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.ContinuationPosition">
+            <summary>
+            Gets the precise narrative position from which continuation begins.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff.ProhibitedRepetition">
+            <summary>
+            Gets actions, discoveries, or structures the next scene must not repeat.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionRequest">
+            <summary>
+            Describes a request to extract continuation state from an accepted scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionRequest.ChapterPlan">
+            <summary>
+            Gets the validated plan for the chapter being generated.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionRequest.CompletedScene">
+            <summary>
+            Gets the planned scene whose accepted prose is being processed.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionRequest.AcceptedScene">
+            <summary>
+            Gets the complete accepted prose of the completed scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionRequest.PreviousHandoff">
+            <summary>
+            Gets the preceding scene handoff when one exists.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionRequest.Model">
+            <summary>
+            Gets the model used to extract structured scene state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionRequest.DiagnosticDirectory">
+            <summary>
+            Gets the optional attempt directory used to retain extraction diagnostics.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionRequest.Temperature">
+            <summary>
+            Gets the extraction temperature.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionResult">
+            <summary>
+            Contains a validated scene-state handoff and extraction metadata.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionResult.Attempts">
+            <summary>
+            Gets the number of extraction attempts used for the accepted result.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionResult.Handoff">
+            <summary>
+            Gets the validated state extracted from the accepted scene.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionResult.Model">
+            <summary>
+            Gets the model that produced the structured handoff.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffExtractionResult.Duration">
+            <summary>
+            Gets the total extraction duration, including retries.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffValidator">
+            <summary>
+            Validates structured state transferred between planned chapter scenes.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoffValidator.Validate(StoryForge.Endless.Application.ChapterPlanning.SceneStateHandoff,System.Int32,System.Int32)">
+            <summary>
+            Validates a scene-state handoff against its expected chapter and scene.
+            </summary>
+            <param name="handoff">The handoff to validate.</param>
+            <param name="expectedChapterNumber">
+            The chapter expected to contain the completed scene.
+            </param>
+            <param name="expectedSceneSequence">
+            The expected sequence number of the completed scene.
+            </param>
+            <exception cref="T:System.IO.InvalidDataException">
+            Thrown when the handoff is incomplete or identifies the wrong scene.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ContextReconciliationValidation.ContextReconciliationValidationRequest">
+            <summary>
+            Describes a request to validate reconciled context update operations.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliationValidation.ContextReconciliationValidationRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number associated with the candidate operations.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliationValidation.ContextReconciliationValidationRequest.ChapterPath">
+            <summary>
+            Gets the path to the finalized chapter prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliationValidation.ContextReconciliationValidationRequest.CandidateOperations">
+            <summary>
+            Gets the reconciled context update operations to validate.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliationValidation.ContextReconciliationValidationRequest.Model">
+            <summary>
+            Gets the model used for reconciliation validation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliationValidation.ContextReconciliationValidationRequest.Temperature">
+            <summary>
+            Gets the generation temperature.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliationValidation.ContextReconciliationValidationRequest.ContextLength">
+            <summary>
+            Gets the model context-window size.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliationValidation.ContextReconciliationValidationRequest.MaxOutputTokens">
+            <summary>
+            Gets the maximum number of output tokens the model may generate.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ContextReconciliation.ContextReconciliationRequest">
+            <summary>
+            Describes a request to reconcile proposed context updates with current story context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliation.ContextReconciliationRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing the story context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliation.ContextReconciliationRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number that produced the proposed operations.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliation.ContextReconciliationRequest.ProposedOperations">
+            <summary>
+            Gets the context update operations proposed for reconciliation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliation.ContextReconciliationRequest.Model">
+            <summary>
+            Gets the model used for reconciliation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliation.ContextReconciliationRequest.Temperature">
+            <summary>
+            Gets the generation temperature.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliation.ContextReconciliationRequest.ContextLength">
+            <summary>
+            Gets the model context-window size.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ContextReconciliation.ContextReconciliationRequest.MaxOutputTokens">
+            <summary>
+            Gets the maximum number of output tokens the model may generate.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Episodes.EpisodeChapterAssessment">
+            <summary>An evidence-backed assessment that does not modify accepted episode state.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodeChapterAssessment.Satisfied">
+            <summary>Gets a value indicating whether chapter work and any due episode closure are established.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodeChapterAssessment.Reason">
+            <summary>Gets the concrete assessment reason.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodeChapterAssessment.Evidence">
+            <summary>Gets exact supporting excerpts from supplied prose.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Episodes.EpisodeChapterSelector">
+            <summary>Maps global chapter numbering to one validated episode.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.Episodes.EpisodeChapterSelector.Select(StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan,System.Int32)">
+            <summary>Finds the episode whose inclusive range contains the chapter.</summary>
+            <param name="series">The episode manifest.</param>
+            <param name="chapterNumber">The global chapter number.</param>
+            <returns>The selected episode.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Episodes.EpisodePlan">
+            <summary>Defines one self-contained story spanning one or more chapters.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodePlan.Id">
+            <summary>Gets the stable episode identifier.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodePlan.FirstChapterNumber">
+            <summary>Gets the first chapter number, using existing global numbering.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodePlan.LastChapterNumber">
+            <summary>Gets the final chapter number, inclusive.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodePlan.Objective">
+            <summary>Gets the episode's central objective or conflict.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodePlan.PlannedResolution">
+            <summary>Gets the intended closure of that objective; this is not evidence of completion.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodePlan.CarryForward">
+            <summary>Gets planned lasting consequences that may carry into later episodes.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Episodes.EpisodeProgressReceipt">
+            <summary>Records independently checked progress from accepted published prose.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodeProgressReceipt.SchemaVersion">
+            <summary>Gets the receipt schema version.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodeProgressReceipt.ChapterNumber">
+            <summary>Gets the global accepted chapter number.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodeProgressReceipt.EpisodeId">
+            <summary>Gets the selected episode identifier.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodeProgressReceipt.BindingHash">
+            <summary>Gets the binding to the manifest, plan, and accepted episode prose.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodeProgressReceipt.EpisodeCompleted">
+            <summary>Gets a value indicating whether this accepted chapter closes the episode.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodeProgressReceipt.Assessment">
+            <summary>Gets the independent evidence-backed assessment.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan">
+            <summary>Defines shared series context and self-contained episode plans.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan.SchemaVersion">
+            <summary>Gets the supported manifest version.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan.SeriesId">
+            <summary>Gets the stable series identifier.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan.Setting">
+            <summary>Gets the shared setting description.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan.RecurringCharacterIds">
+            <summary>Gets identifiers of the recurring cast in existing character context.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan.PersistentContinuity">
+            <summary>Gets established facts that persist between episodes.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan.Episodes">
+            <summary>Gets episodes in chapter order.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Episodes.EpisodicSeriesPlanValidator">
+            <summary>Validates episode structure without invoking story generation.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.Episodes.EpisodicSeriesPlanValidator.Validate(StoryForge.Endless.Application.Episodes.EpisodicSeriesPlan)">
+            <summary>Validates shared context, episode identity, and chapter boundaries.</summary>
+            <param name="plan">The supplied manifest.</param>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Finalization.ChapterFinalizationRequest">
+            <summary>
+            Describes an approved chapter that must be finalized and published.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterFinalizationRequest.ChapterNumber">
+            <summary>
+            Gets the positive chapter number.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterFinalizationRequest.ChapterPath">
+            <summary>
+            Gets the source prose path.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterFinalizationRequest.TitlePath">
+            <summary>
+            Gets the chapter-title path.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterFinalizationRequest.OutputPath">
+            <summary>
+            Gets the internal finalized-artifact path.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterFinalizationRequest.PublicationPath">
+            <summary>
+            Gets the durable reader-facing publication path.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Finalization.ChapterFinalizationResult">
+            <summary>
+            Reports the finalized and published chapter artifacts.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterFinalizationResult.OutputPath">
+            <summary>
+            Gets the internal finalized-artifact path.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterFinalizationResult.PublicationPath">
+            <summary>
+            Gets the durable reader-facing publication path.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterFinalizationResult.Title">
+            <summary>
+            Gets the finalized chapter title.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterFinalizationResult.Models">
+            <summary>
+            Gets the distinct models recorded while processing the chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterFinalizationResult.Gpus">
+            <summary>
+            Gets the distinct GPUs recorded while processing the chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterFinalizationResult.TotalProcessingTime">
+            <summary>
+            Gets the total recorded chapter-processing duration.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Finalization.ChapterPublicationRequest">
+            <summary>
+            Describes a finalized chapter that must be copied into durable publication.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterPublicationRequest.ChapterNumber">
+            <summary>
+            Gets the positive chapter number.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterPublicationRequest.FinalizedChapterPath">
+            <summary>
+            Gets the internal finalized chapter path.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterPublicationRequest.PublicationPath">
+            <summary>
+            Gets the durable reader-facing publication path.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Finalization.ChapterPublicationResult">
+            <summary>
+            Reports a durable chapter-publication operation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterPublicationResult.ChapterNumber">
+            <summary>
+            Gets the positive published chapter number.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterPublicationResult.FinalizedChapterPath">
+            <summary>
+            Gets the internal finalized chapter path.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Finalization.ChapterPublicationResult.PublicationPath">
+            <summary>
+            Gets the durable reader-facing publication path.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Finalization.IChapterFinalizationService">
+            <summary>
+            Finalizes approved chapter prose and publishes reader-facing artifacts.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.Finalization.IChapterFinalizationService.FinalizeAsync(StoryForge.Endless.Application.Finalization.ChapterFinalizationRequest,System.Threading.CancellationToken)">
+            <summary>
+            Finalizes and publishes an approved chapter.
+            </summary>
+            <param name="request">The finalization request.</param>
+            <param name="cancellationToken">A token used to cancel the operation.</param>
+            <returns>The finalization and publication result.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Application.Finalization.IChapterFinalizationService.PublishAsync(StoryForge.Endless.Application.Finalization.ChapterPublicationRequest,System.Threading.CancellationToken)">
+            <summary>
+            Publishes an existing finalized chapter without rebuilding it.
+            </summary>
+            <param name="request">The publication request.</param>
+            <param name="cancellationToken">A token used to cancel the operation.</param>
+            <returns>The chapter-publication result.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Generation.ChapterGenerationRequest">
+            <summary>
+            Describes a request to generate chapter prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.EpisodicSeries">
+            <summary>Gets opt-in episodic direction; null preserves continuous prose generation.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.WholeChapter">
+            <summary>Gets a value indicating whether to compose all planned scenes in one model response.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.DraftFirst">
+            <summary>Gets a value indicating whether to preserve generated prose for review before scene acceptance checks.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing the story context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number to generate.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.Plan">
+            <summary>
+            Gets the validated adaptive plan that guides chapter composition.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.PlanExtensions">
+            <summary>
+            Gets validated persisted extensions appended to the original plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.PreviousChapterHandoff">
+            <summary>
+            Gets the validated final scene handoff from the previous chapter
+            container, when one exists.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.TargetMinimumWords">
+            <summary>
+            Gets the target minimum chapter length in words.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.TargetMaximumWords">
+            <summary>
+            Gets the target maximum chapter length in words.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.SceneMinimumWords">
+            <summary>
+            Gets the target minimum scene length in words.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.SceneMaximumWords">
+            <summary>
+            Gets the target maximum scene length in words.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.RejectionReason">
+            <summary>
+            Gets an optional reason explaining why a previous attempt was rejected.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.Model">
+            <summary>
+            Gets the model used to generate the chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.HandoffModel">
+            <summary>
+            Gets the model used to extract structured inter-scene handoffs.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.PlanningModel">
+            <summary>
+            Gets the model used to extend exhausted scene-guidance batches.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.AccomplishmentModel">
+            <summary>
+            Gets the accomplishment validation model, or null to use the service default.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.ProseQualityModel">
+            <summary>
+            Gets the prose-quality assessment model, or null to use the service default.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.Temperature">
+            <summary>
+            Gets the generation temperature.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationRequest.MaxOutputTokens">
+            <summary>
+            Gets the maximum number of output tokens the model may generate.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Generation.ChapterGenerationResult.ReviewNotes">
+            <summary>Gets unresolved generation findings for an unaccepted review draft.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.IO.IAtomicTextFileWriter">
+            <summary>Publishes complete text files without exposing partial writes.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.IO.IAtomicTextFileWriter.WriteAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)">
+            <summary>Writes text and publishes it after the write completes.</summary>
+            <param name="path">The destination path.</param>
+            <param name="text">The complete text.</param>
+            <param name="overwrite">Whether an existing destination can be replaced.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The asynchronous write operation.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.NarrativeThreads.NarrativeThread">
+            <summary>
+            Describes a persistent narrative thread and its accumulated development history.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThread.Id">
+            <summary>
+            Gets the persistent thread identifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThread.Type">
+            <summary>
+            Gets the narrative-thread type.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThread.Status">
+            <summary>
+            Gets the current thread status.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThread.IntroducedChapter">
+            <summary>
+            Gets the chapter in which the thread was introduced.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThread.LastAdvancedChapter">
+            <summary>
+            Gets the most recent chapter that materially advanced the thread.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThread.Summary">
+            <summary>
+            Gets the thread's current persistent narrative state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThread.CurrentQuestion">
+            <summary>
+            Gets the unresolved narrative question represented by the thread.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThread.RequiredContinuity">
+            <summary>
+            Gets facts that future chapters must preserve for continuity.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThread.CompletedDevelopments">
+            <summary>
+            Gets the developments already completed within this thread.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadChange">
+            <summary>
+            Describes a proposed change to persistent narrative-thread state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadChange.Action">
+            <summary>
+            Gets the action to perform.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadChange.ThreadId">
+            <summary>
+            Gets the existing thread identifier, or <see langword="null"/> for a new thread.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadChange.Type">
+            <summary>
+            Gets the narrative-thread type.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadChange.Summary">
+            <summary>
+            Gets the thread's resulting persistent narrative state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadChange.CurrentQuestion">
+            <summary>
+            Gets the unresolved narrative question after the change.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadChange.RequiredContinuity">
+            <summary>
+            Gets facts future chapters must preserve for continuity.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadChange.Development">
+            <summary>
+            Gets a concise description of what this chapter materially accomplished
+            within the thread.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadDevelopment">
+            <summary>
+            Describes a completed development in a persistent narrative thread.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadDevelopment.ChapterNumber">
+            <summary>
+            Gets the chapter in which the development occurred.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadDevelopment.Development">
+            <summary>
+            Gets a concise description of the development established by the chapter.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadExtractionRequest">
+            <summary>
+            Describes a request to extract narrative-thread changes from a chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadExtractionRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing the story context and chapter artifacts.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadExtractionRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number to analyze.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadExtractionRequest.Model">
+            <summary>
+            Gets the model used for narrative-thread extraction.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadExtractionRequest.Temperature">
+            <summary>
+            Gets the generation temperature.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadExtractionRequest.ContextLength">
+            <summary>
+            Gets the model context-window size.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadExtractionRequest.MaxOutputTokens">
+            <summary>
+            Gets the maximum number of output tokens the model may generate.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadReconciliationRequest">
+            <summary>
+            Describes a request to reconcile proposed narrative-thread changes with
+            the current narrative-thread state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadReconciliationRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing the story context and chapter artifacts.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadReconciliationRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number associated with the proposed changes.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadReconciliationRequest.Changes">
+            <summary>
+            Gets the narrative-thread changes to reconcile.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadReconciliationRequest.Model">
+            <summary>
+            Gets the model used for reconciliation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadReconciliationRequest.Temperature">
+            <summary>
+            Gets the generation temperature.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadReconciliationRequest.ContextLength">
+            <summary>
+            Gets the model context-window size.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadReconciliationRequest.MaxOutputTokens">
+            <summary>
+            Gets the maximum number of output tokens the model may generate.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadValidationRequest">
+            <summary>
+            Describes a request to validate proposed narrative-thread changes.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadValidationRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing the story context and chapter artifacts.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadValidationRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number associated with the proposed changes.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadValidationRequest.Changes">
+            <summary>
+            Gets the narrative-thread changes to validate.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadValidationRequest.Model">
+            <summary>
+            Gets the model used for validation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadValidationRequest.Temperature">
+            <summary>
+            Gets the generation temperature.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadValidationRequest.ContextLength">
+            <summary>
+            Gets the model context-window size.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.NarrativeThreads.NarrativeThreadValidationRequest.MaxOutputTokens">
+            <summary>
+            Gets the maximum number of output tokens the model may generate.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ProseEditing.ChapterProseEditingRequest">
+            <summary>The prose, style requirements, and models for a conservative edit.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ProseEditing.ChapterProseEditingResult">
+            <summary>The full chapter and auditable passage decisions.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ProseEditing.IChapterProseEditingService">
+            <summary>Edits chapters while retaining unsafe or unimproved source passages.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ProseEditing.IChapterProseEditingService.EditAsync(StoryForge.Endless.Application.ProseEditing.ChapterProseEditingRequest,System.Threading.CancellationToken)">
+            <summary>Edits a chapter and reports the disposition of each passage.</summary>
+            <param name="request">The source prose and model configuration.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The complete prose and passage decisions.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ProseEditing.IProseEditComparisonService">
+            <summary>Assesses whether edited passages preserve content and improve prose.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ProseEditing.IProseEditComparisonService.CompareAsync(System.String,System.String[],System.String,System.String,System.Threading.CancellationToken)">
+            <summary>Compares source paragraphs with a proposed edit.</summary>
+            <param name="source">The serialized original paragraphs.</param>
+            <param name="candidates">The proposed paragraphs in source order.</param>
+            <param name="writingRules">The book writing rules.</param>
+            <param name="validationModel">The comparison model.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The comparison outcome and execution duration.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ProseEditing.ProseEditingDecision">
+            <summary>The disposition of a contiguous, one-based paragraph range.</summary>
+            <param name="FirstParagraph">The first paragraph number.</param>
+            <param name="ParagraphCount">The number of paragraphs.</param>
+            <param name="Outcome">The acceptance or rejection reason.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Application.ProseEditing.ProseEditingDecision.#ctor(System.Int32,System.Int32,StoryForge.Endless.Application.ProseEditing.ProseEditingOutcome)">
+            <summary>The disposition of a contiguous, one-based paragraph range.</summary>
+            <param name="FirstParagraph">The first paragraph number.</param>
+            <param name="ParagraphCount">The number of paragraphs.</param>
+            <param name="Outcome">The acceptance or rejection reason.</param>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ProseEditing.ProseEditingDecision.FirstParagraph">
+            <summary>The first paragraph number.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ProseEditing.ProseEditingDecision.ParagraphCount">
+            <summary>The number of paragraphs.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ProseEditing.ProseEditingDecision.Outcome">
+            <summary>The acceptance or rejection reason.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ProseEditing.ProseEditingOutcome">
+            <summary>Explains why a passage changed or retained its original text.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.ReviewFindingValidation.ReviewFindingValidationRequest">
+            <summary>
+            Describes a request to validate chapter-review findings.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ReviewFindingValidation.ReviewFindingValidationRequest.EpisodicSeries">
+            <summary>Gets episodic direction for independent finding validation.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ReviewFindingValidation.ReviewFindingValidationRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing the authoritative story context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ReviewFindingValidation.ReviewFindingValidationRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number whose findings are being validated.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ReviewFindingValidation.ReviewFindingValidationRequest.ChapterPath">
+            <summary>
+            Gets the path to the chapter prose being evaluated.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ReviewFindingValidation.ReviewFindingValidationRequest.Findings">
+            <summary>
+            Gets the review findings to validate.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ReviewFindingValidation.ReviewFindingValidationRequest.Model">
+            <summary>
+            Gets the model used to validate the findings.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.ReviewFindingValidation.ReviewFindingValidationRequest.Temperature">
+            <summary>
+            Gets the validation temperature.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Review.ChapterReviewFinding">
+            <summary>
+            Represents an individual finding identified during chapter review.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.ChapterReviewFinding.Category">
+            <summary>
+            Gets the category of the finding.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.ChapterReviewFinding.Finding">
+            <summary>
+            Gets the issue or observation identified by the review.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.ChapterReviewFinding.Evidence">
+            <summary>
+            Gets supporting evidence from the chapter, when available.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Review.ChapterReviewRequest">
+            <summary>
+            Describes a request to review chapter prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.ChapterReviewRequest.EpisodicSeries">
+            <summary>Gets opt-in episode scope for reviewing narrative direction.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.ChapterReviewRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing story context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.ChapterReviewRequest.ChapterPath">
+            <summary>
+            Gets the path to the chapter being reviewed.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.ChapterReviewRequest.Model">
+            <summary>
+            Gets the model used for review.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.ChapterReviewRequest.Temperature">
+            <summary>
+            Gets the review temperature.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.ChapterReviewRequest.ContextLength">
+            <summary>
+            Gets the model context-window size.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.ChapterReviewRequest.MaxOutputTokens">
+            <summary>
+            Gets the maximum number of output tokens the model may generate.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Review.StructuredChapterReview">
+            <summary>
+            Represents the structured result of reviewing a chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.StructuredChapterReview.OverallAssessment">
+            <summary>
+            Gets the overall assessment of the chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.StructuredChapterReview.Findings">
+            <summary>
+            Gets the findings identified during review.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.StructuredChapterReview.ContinuityFindings">
+            <summary>
+            Gets findings related to narrative continuity.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.StructuredChapterReview.EngagementFindings">
+            <summary>
+            Gets findings related to reader engagement.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Review.StructuredChapterReview.RevisionGuidance">
+            <summary>
+            Gets guidance for revising the chapter.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Revision.ChapterRevisionRequest">
+            <summary>
+            Describes a request to revise chapter prose using validated review findings.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionRequest.EpisodicSeries">
+            <summary>Gets opt-in episode scope for revision.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing story context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionRequest.ChapterPath">
+            <summary>
+            Gets the path to the chapter prose to revise.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionRequest.ReviewPath">
+            <summary>
+            Gets the path to the review used to guide the revision.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionRequest.TargetMinimumWords">
+            <summary>Gets the default minimum chapter length when the story has no override.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionRequest.TargetMaximumWords">
+            <summary>Gets the default maximum chapter length when the story has no override.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionRequest.Model">
+            <summary>
+            Gets the model used for revision.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionRequest.PreferAnchoredEdits">
+            <summary>Gets a value indicating whether automated repairs should start with anchored corrections instead of recopying the chapter.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionRequest.Temperature">
+            <summary>
+            Gets the revision temperature.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionRequest.ContextLength">
+            <summary>
+            Gets the model context-window size.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionRequest.MaxOutputTokens">
+            <summary>
+            Gets the maximum number of output tokens the model may generate.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Revision.ChapterRevisionResult">
+            <summary>
+            Describes the result of an attempted chapter revision.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionResult.Succeeded">
+            <summary>
+            Gets a value indicating whether an acceptable revision was produced.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionResult.Prose">
+            <summary>
+            Gets the complete revised prose when successful, or the unchanged
+            source prose when revision could not be completed safely.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionResult.Model">
+            <summary>
+            Gets the model used for the revision attempts.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionResult.WordCount">
+            <summary>
+            Gets the word count of <see cref="P:StoryForge.Endless.Application.Revision.ChapterRevisionResult.Prose"/>.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionResult.Duration">
+            <summary>
+            Gets the total duration of all revision attempts.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Revision.ChapterRevisionResult.FailureReason">
+            <summary>
+            Gets the reason revision could not be completed safely.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.IStoryArcChildMaterializationService">
+            <summary>
+            Materializes a validated three-child plan in authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.IStoryArcChildMaterializationService.MaterializeAsync(StoryForge.Endless.Application.StoryArcs.StoryArcChildMaterializationRequest,System.Threading.CancellationToken)">
+            <summary>
+            Materializes three deterministic child arcs beneath their planned parent.
+            </summary>
+            <param name="request">The materialization request.</param>
+            <param name="cancellationToken">
+            A token that can cancel the asynchronous operation.
+            </param>
+            <returns>The resulting authoritative story-arc state and receipt data.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.IStoryArcChildPlanningService">
+            <summary>
+            Plans the three narrative children required by a non-Short story arc.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.IStoryArcChildPlanningService.PlanAsync(StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningRequest,System.Threading.CancellationToken)">
+            <summary>
+            Plans three ordered child arcs beneath the requested parent arc.
+            </summary>
+            <param name="request">The child-planning request.</param>
+            <param name="cancellationToken">
+            A token that can cancel the asynchronous operation.
+            </param>
+            <returns>The proposed three-child narrative plan.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.IStoryArcEpicMaterializationService">
+            <summary>
+            Materializes a planned successor Epic story arc.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.IStoryArcEpicMaterializationService.MaterializeAsync(StoryForge.Endless.Application.StoryArcs.StoryArcEpicMaterializationRequest,System.Threading.CancellationToken)">
+            <summary>
+            Adds a validated successor Epic plan to authoritative story-arc state.
+            </summary>
+            <param name="request">
+            The successor-Epic materialization request.
+            </param>
+            <param name="cancellationToken">
+            A token used to cancel the asynchronous operation.
+            </param>
+            <returns>
+            The resulting story-arc state and durable materialization paths.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.IStoryArcEpicPlanningService">
+            <summary>
+            Plans the narrative direction of a successor Epic story arc.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.IStoryArcEpicPlanningService.PlanAsync(StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningRequest,System.Threading.CancellationToken)">
+            <summary>
+            Plans the Epic arc that will succeed the supplied predecessor Epic arc.
+            </summary>
+            <param name="request">
+            The successor-Epic planning request.
+            </param>
+            <param name="cancellationToken">
+            A token used to cancel the asynchronous operation.
+            </param>
+            <returns>
+            The validated narrative plan for the successor Epic arc.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.IStoryArcProgressApplicationService">
+            <summary>
+            Applies independently validated story-arc progress deterministically.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.IStoryArcProgressApplicationService.ApplyAsync(StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationRequest,System.Threading.CancellationToken)">
+            <summary>
+            Applies approved progress and performs required lifecycle transitions.
+            </summary>
+            <param name="request">The progress-application request.</param>
+            <param name="cancellationToken">
+            A token that can cancel the asynchronous operation.
+            </param>
+            <returns>The resulting story-arc state and application receipt.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.IStoryArcProgressExtractionService">
+            <summary>
+            Extracts proposed story-arc progress from finalized chapter prose.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.IStoryArcProgressExtractionService.ExtractAsync(StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest,System.Threading.CancellationToken)">
+            <summary>
+            Extracts evidence-supported story-arc progress proposals.
+            </summary>
+            <param name="request">The extraction request.</param>
+            <param name="cancellationToken">
+            A token that may cancel the asynchronous operation.
+            </param>
+            <returns>
+            A task producing the extracted story-arc progress proposals.
+            </returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.IStoryArcProgressValidationService">
+            <summary>
+            Validates proposed story-arc progress against finalized chapter prose and
+            authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.IStoryArcProgressValidationService.ValidateAsync(StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationRequest,System.Threading.CancellationToken)">
+            <summary>
+            Validates proposed story-arc progress.
+            </summary>
+            <param name="request">The validation request.</param>
+            <param name="cancellationToken">
+            A token that can cancel the asynchronous operation.
+            </param>
+            <returns>The validated story-arc progress results.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArc">
+            <summary>
+            Describes a persistent, prospective story arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.Id">
+            <summary>
+            Gets the persistent arc identifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.Horizon">
+            <summary>
+            Gets the arc's intended narrative horizon.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.PrimaryTrope">
+            <summary>
+            Gets the named narrative trope that supplies the arc's primary shape.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.Status">
+            <summary>
+            Gets the arc's current lifecycle status.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.ParentArcId">
+            <summary>
+            Gets the parent arc identifier, or <see langword="null"/> for a root arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.StartChapter">
+            <summary>
+            Gets the intended first chapter of the arc's pacing window.
+            </summary>
+            <remarks>
+            Directly evidenced development may activate or advance the arc earlier.
+            </remarks>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.TargetChapter">
+            <summary>
+            Gets the intended pacing target for resolving the arc.
+            </summary>
+            <remarks>
+            This is a planning target rather than permission to force an unsupported
+            resolution.
+            </remarks>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.Objective">
+            <summary>
+            Gets the concrete narrative objective toward which the arc progresses.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.ResolutionCriteria">
+            <summary>
+            Gets the conditions finalized prose must establish to complete the arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.CurrentPhase">
+            <summary>
+            Gets the arc's current prospective planning state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.NextMilestone">
+            <summary>
+            Gets the next concrete milestone toward which generation should progress.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.RelatedThreadIds">
+            <summary>
+            Gets persistent narrative-thread identifiers related to this arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.CompletedMilestones">
+            <summary>
+            Gets milestones already established by finalized prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArc.ChapterTargets">
+            <summary>
+            Gets the ordered bounded chapter targets allocated to a Short arc.
+            </summary>
+            <remarks>
+            Non-Short arcs do not contain chapter targets. An empty collection is
+            temporarily accepted for compatibility with story state created before
+            chapter-target planning was introduced.
+            </remarks>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget">
+            <summary>
+            Allocates bounded narrative work to one chapter within a Short story arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.Sequence">
+            <summary>
+            Gets the one-based position of the target within its Short arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.ChapterNumber">
+            <summary>
+            Gets the absolute chapter number governed by the target.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.DramaticQuestion">
+            <summary>
+            Gets the dramatic question the chapter should answer.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.Objective">
+            <summary>
+            Gets the bounded objective assigned to this chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.IntendedChange">
+            <summary>
+            Gets the observable narrative change the chapter should establish.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.CharacterDevelopmentTarget">
+            <summary>
+            Gets the required development of the viewpoint or principal character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.RelationshipTargets">
+            <summary>
+            Gets relationship developments assigned to this chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.WorldbuildingTargets">
+            <summary>
+            Gets world facts or pressures that must materially affect the chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.Complications">
+            <summary>
+            Gets complications that resist uncomplicated objective completion.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.RequiredChoice">
+            <summary>
+            Gets the consequential choice the principal character must confront.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.Consequences">
+            <summary>
+            Gets consequences that must be experienced or created.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.DiscoveryTarget">
+            <summary>
+            Gets the local discovery or answered question assigned to the chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.SetupElements">
+            <summary>
+            Gets concrete elements planted for later use.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.PayoffElements">
+            <summary>
+            Gets previously planted elements that may pay off in this chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.ThematicPressure">
+            <summary>
+            Gets the thematic pressure expressed through decisions and consequences.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.ResolutionContributions">
+            <summary>
+            Gets the portion of the Short arc's resolution advanced by this chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.ReservedLaterWork">
+            <summary>
+            Gets later narrative work this chapter must preserve.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.ClosingState">
+            <summary>
+            Gets the bounded state in which the chapter should close.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.IsCompleted">
+            <summary>
+            Gets a value indicating whether finalized prose completed this target.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.CompletedInChapter">
+            <summary>
+            Gets the chapter whose finalized prose completed this target.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTarget.CompletionEvidence">
+            <summary>
+            Gets direct finalized-prose evidence supporting completion.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTargetValidator">
+            <summary>
+            Validates bounded chapter targets attached to a story arc.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.StoryArcChapterTargetValidator.Validate(StoryForge.Endless.Application.StoryArcs.StoryArc)">
+            <summary>
+            Validates the chapter targets attached to an arc.
+            </summary>
+            <param name="arc">The arc whose chapter targets should be validated.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="arc"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.IO.InvalidDataException">
+            Thrown when a chapter target violates a structural invariant.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcChildMaterializationRequest">
+            <summary>
+            Describes a request to materialize three planned child arcs.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildMaterializationRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildMaterializationRequest.ChapterNumber">
+            <summary>
+            Gets the chapter that triggered construction of the child hierarchy.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildMaterializationRequest.Plan">
+            <summary>
+            Gets the validated child-planning result to materialize.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcChildMaterializationResult">
+            <summary>
+            Contains the result of materializing a three-child story-arc plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildMaterializationResult.State">
+            <summary>
+            Gets the resulting authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildMaterializationResult.CreatedArcIds">
+            <summary>
+            Gets the identifiers of the child arcs created by the operation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildMaterializationResult.OutputPath">
+            <summary>
+            Gets the path of the updated authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildMaterializationResult.ReceiptPath">
+            <summary>
+            Gets the path of the materialization receipt.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlan">
+            <summary>
+            Describes the narrative content proposed for one ordered child arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlan.Sequence">
+            <summary>
+            Gets the one-based position of the child beneath its parent.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlan.PrimaryTrope">
+            <summary>
+            Gets the concrete narrative objective for the child arc.
+            </summary>
+            <summary>
+            Gets the named narrative trope that supplies the child's primary shape.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlan.ResolutionCriteria">
+            <summary>
+            Gets the conditions finalized prose must establish to complete the child.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlan.InitialPhase">
+            <summary>
+            Gets the child's prospective state before its development begins.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlan.FirstMilestone">
+            <summary>
+            Gets the first concrete milestone toward the child's objective.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningRequest">
+            <summary>
+            Describes a request to plan three children for a story arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing authoritative story context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningRequest.ParentArcId">
+            <summary>
+            Gets the identifier of the parent arc whose children must be planned.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number that triggered successor planning.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningRequest.ChapterPath">
+            <summary>
+            Gets the path to the finalized chapter that triggered planning.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningRequest.Model">
+            <summary>
+            Gets the model used to plan the child arcs.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningRequest.Temperature">
+            <summary>
+            Gets the planning temperature.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningResult">
+            <summary>
+            Contains the proposed narrative plan for three child arcs.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningResult.ParentArcId">
+            <summary>
+            Gets the identifier of the parent arc addressed by the plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningResult.Children">
+            <summary>
+            Gets the three ordered child-arc plans.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningResult.RawResponse">
+            <summary>
+            Gets the unmodified model response retained for provenance.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningResult.Model">
+            <summary>
+            Gets the model that produced the plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcChildPlanningResult.Duration">
+            <summary>
+            Gets the total planning duration.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcEpicMaterializationRequest">
+            <summary>
+            Describes a request to materialize a planned successor Epic story arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicMaterializationRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicMaterializationRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number that triggered successor construction.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicMaterializationRequest.Plan">
+            <summary>
+            Gets the validated successor-Epic plan to materialize.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcEpicMaterializationResult">
+            <summary>
+            Contains the result of materializing a successor Epic story arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicMaterializationResult.State">
+            <summary>
+            Gets the resulting authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicMaterializationResult.CreatedEpicArcId">
+            <summary>
+            Gets the identifier assigned to the successor Epic arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicMaterializationResult.OutputPath">
+            <summary>
+            Gets the path of the updated authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicMaterializationResult.ReceiptPath">
+            <summary>
+            Gets the path of the durable materialization receipt.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlan">
+            <summary>
+            Describes the narrative direction proposed for a successor Epic story arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlan.PrimaryTrope">
+            <summary>
+            Gets the concrete narrative objective of the successor Epic arc.
+            </summary>
+            <summary>
+            Gets the named narrative trope that supplies the Epic arc's primary shape.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlan.ResolutionCriteria">
+            <summary>
+            Gets the conditions finalized prose must establish to complete the arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlan.InitialPhase">
+            <summary>
+            Gets the prospective state from which the successor arc begins.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlan.FirstMilestone">
+            <summary>
+            Gets the first concrete milestone toward the successor objective.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlan.RelatedThreadIds">
+            <summary>
+            Gets existing narrative-thread identifiers related to the successor arc.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningRequest">
+            <summary>
+            Describes a request to plan the next root Epic story arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing authoritative story context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningRequest.PredecessorEpicArcId">
+            <summary>
+            Gets the identifier of the Epic arc being succeeded.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number that triggered successor planning.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningRequest.ChapterPath">
+            <summary>
+            Gets the path to the finalized chapter that established the transition.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningRequest.Model">
+            <summary>
+            Gets the model used to plan the successor Epic arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningRequest.Temperature">
+            <summary>
+            Gets the planning temperature.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningResult">
+            <summary>
+            Contains the validated narrative plan for a successor Epic story arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningResult.PredecessorEpicArcId">
+            <summary>
+            Gets the identifier of the Epic arc being succeeded.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningResult.Plan">
+            <summary>
+            Gets the narrative plan for the successor Epic arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningResult.RawResponse">
+            <summary>
+            Gets the unmodified model response retained for provenance.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningResult.Model">
+            <summary>
+            Gets the model that produced the plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcEpicPlanningResult.Duration">
+            <summary>
+            Gets the total planning duration.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcHorizon">
+            <summary>
+            Identifies the intended narrative horizon of a story arc.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.StoryArcs.StoryArcHorizon.Short">
+            <summary>
+            Identifies an arc spanning exactly three chapters.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.StoryArcs.StoryArcHorizon.Medium">
+            <summary>
+            Identifies an arc spanning exactly nine chapters.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.StoryArcs.StoryArcHorizon.Long">
+            <summary>
+            Identifies an arc spanning exactly twenty-seven chapters.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.StoryArcs.StoryArcHorizon.Epic">
+            <summary>
+            Identifies an arc spanning exactly eighty-one chapters.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcMilestone">
+            <summary>
+            Describes a story-arc milestone established by finalized prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcMilestone.ChapterNumber">
+            <summary>
+            Gets the chapter that established the milestone.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcMilestone.Development">
+            <summary>
+            Gets a concise description of the established development.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationReceipt">
+            <summary>
+            Records the deterministic effects of applying story-arc progress.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationReceipt.ChapterNumber">
+            <summary>
+            Gets the finalized chapter whose progress was applied.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationReceipt.AppliedProposalIndexes">
+            <summary>
+            Gets the indexes of proposals approved and applied.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationReceipt.CompletedArcIds">
+            <summary>
+            Gets story-arc identifiers completed by the operation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationReceipt.ActivatedArcIds">
+            <summary>
+            Gets story-arc identifiers activated by the operation.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationRequest">
+            <summary>
+            Describes independently validated story-arc progress to apply.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationRequest.ChapterNumber">
+            <summary>
+            Gets the finalized chapter that established the progress.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationRequest.Proposals">
+            <summary>
+            Gets the extracted story-arc progress proposals.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationRequest.Validations">
+            <summary>
+            Gets the independent validation of every proposal.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationResult">
+            <summary>
+            Contains the result of applying independently validated story-arc progress.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationResult.State">
+            <summary>
+            Gets the resulting authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationResult.Receipt">
+            <summary>
+            Gets the deterministic application receipt.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationResult.OutputPath">
+            <summary>
+            Gets the path of the updated authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressApplicationResult.ReceiptPath">
+            <summary>
+            Gets the path of the application receipt.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcProgressDisposition">
+            <summary>
+            Identifies whether a proposed story-arc development may be applied.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.StoryArcs.StoryArcProgressDisposition.Rejected">
+            <summary>
+            The proposal is not sufficiently supported and must not be applied.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.StoryArcs.StoryArcProgressDisposition.Approved">
+            <summary>
+            The proposal is supported by finalized prose and may be applied.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest">
+            <summary>
+            Describes a request to extract story-arc progress from a finalized chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing story context and chapter artifacts.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest.ChapterNumber">
+            <summary>
+            Gets the finalized chapter number to analyze.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest.ChapterPath">
+            <summary>
+            Gets the path to the finalized chapter prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest.TargetArcIds">
+            <summary>
+            Gets the optional identifiers of active arcs eligible for extraction.
+            When omitted, all active arcs are eligible.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest.Model">
+            <summary>
+            Gets the model used for story-arc progress extraction.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest.ValidationFeedback">
+            <summary>Gets independent validation feedback for correcting extraction metadata against unchanged prose.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest.ChapterTargetsOnly">
+            <summary>Gets a value indicating whether non-final targets should be assessed without claiming broader milestone completion.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest.Temperature">
+            <summary>
+            Gets the generation temperature.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest.ContextLength">
+            <summary>
+            Gets the model context-window size.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionRequest.MaxOutputTokens">
+            <summary>
+            Gets the maximum number of output tokens the model may generate.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionResult">
+            <summary>
+            Contains story-arc progress proposals extracted from finalized prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionResult.Proposals">
+            <summary>
+            Gets the proposed story-arc progress changes.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionResult.RawResponse">
+            <summary>
+            Gets the unmodified model response retained for provenance.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionResult.Model">
+            <summary>
+            Gets the model that produced the extraction.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressExtractionResult.Duration">
+            <summary>
+            Gets the total extraction duration.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcProgressProposal">
+            <summary>
+            Describes a proposed evidence-supported change to one active story arc.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressProposal.ArcId">
+            <summary>
+            Gets the identifier of the active arc that may have progressed.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressProposal.ChapterNumber">
+            <summary>
+            Gets the finalized chapter that allegedly established the progress.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressProposal.Development">
+            <summary>
+            Gets a concise description of the development established by the chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressProposal.Evidence">
+            <summary>
+            Gets direct prose evidence supporting the proposed development.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressProposal.CompletedChapterTargetSequence">
+            <summary>
+            Gets the sequence of the Short-arc chapter target completed by the
+            finalized prose, or <see langword="null"/> when the chapter did not
+            complete its assigned target.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressProposal.CompletesCurrentMilestone">
+            <summary>
+            Gets a value indicating whether the current milestone was completed.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressProposal.ProposedCurrentPhase">
+            <summary>
+            Gets the proposed current phase after applying the chapter's progress.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressProposal.ProposedNextMilestone">
+            <summary>
+            Gets the proposed next milestone, or <see langword="null"/> when the arc
+            is proposed for completion.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressProposal.ClaimsResolution">
+            <summary>
+            Gets a value indicating whether the proposal claims that the arc's
+            resolution criteria have been satisfied.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidation">
+            <summary>
+            Contains the independent validation of one story-arc progress proposal.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidation.ProposalIndex">
+            <summary>
+            Gets the zero-based index of the validated proposal.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidation.ArcId">
+            <summary>
+            Gets the identifier of the story arc addressed by the proposal.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidation.Disposition">
+            <summary>
+            Gets the validation disposition.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidation.Evidence">
+            <summary>
+            Gets direct finalized-prose evidence supporting the disposition.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidation.Reason">
+            <summary>
+            Gets the reason for the disposition.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationRequest">
+            <summary>
+            Describes a request to validate extracted story-arc progress.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing authoritative story-arc state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationRequest.ChapterNumber">
+            <summary>
+            Gets the finalized chapter number associated with the proposals.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationRequest.ChapterPath">
+            <summary>
+            Gets the path to the finalized chapter prose.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationRequest.Proposals">
+            <summary>
+            Gets the story-arc progress proposals to validate.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationRequest.Model">
+            <summary>
+            Gets the model used to validate the proposals.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationRequest.Temperature">
+            <summary>
+            Gets the validation temperature.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationResult">
+            <summary>
+            Contains independent validation results for story-arc progress proposals.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationResult.Validations">
+            <summary>
+            Gets the proposal validation results.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationResult.Model">
+            <summary>
+            Gets the model that performed validation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationResult.Duration">
+            <summary>
+            Gets the total validation duration.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcProgressValidationResult.HasApprovedProgress">
+            <summary>
+            Gets a value indicating whether at least one proposal was approved.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcRelationshipTarget">
+            <summary>
+            Defines bounded relationship movement assigned to one chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcRelationshipTarget.CharacterAId">
+            <summary>
+            Gets the first participating character identifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcRelationshipTarget.CharacterBId">
+            <summary>
+            Gets the second participating character identifier.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcRelationshipTarget.StartingDynamic">
+            <summary>
+            Gets the relationship state expected at the chapter's beginning.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcRelationshipTarget.IntendedChange">
+            <summary>
+            Gets the relationship change assigned to the chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcRelationshipTarget.Tension">
+            <summary>
+            Gets the attraction, conflict, suspicion, dependence, or other pressure
+            that drives the interaction.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcRelationshipTarget.PowerDynamic">
+            <summary>
+            Gets the imbalance of knowledge, authority, need, status, or capability
+            that affects the relationship.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcRelationshipTarget.Subtext">
+            <summary>
+            Gets the emotional or romantic implication expressed indirectly.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcRelationshipTarget.PreservedBoundary">
+            <summary>
+            Gets the boundary that must remain intact during this chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcRelationshipTarget.ReservedLaterWork">
+            <summary>
+            Gets unresolved relationship work reserved for later chapters.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcState">
+            <summary>
+            Contains the authoritative persistent story-arc plan.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcState.IsFinite">
+            <summary>Gets a value indicating whether completing the root ends this story instead of activating an Epic successor.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryArcs.StoryArcState.Arcs">
+            <summary>
+            Gets the planned story arcs.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcStateValidator">
+            <summary>
+            Validates structural and pacing invariants in persistent story-arc state.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.StoryArcStateValidator.Validate(StoryForge.Endless.Application.StoryArcs.StoryArcState)">
+            <summary>
+            Validates the supplied story-arc state.
+            </summary>
+            <param name="state">The story-arc state to validate.</param>
+            <exception cref="T:System.ArgumentNullException">
+            Thrown when <paramref name="state"/> is <see langword="null"/>.
+            </exception>
+            <exception cref="T:System.IO.InvalidDataException">
+            Thrown when the state violates a story-arc invariant.
+            </exception>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcStatus">
+            <summary>
+            Identifies the current lifecycle status of a story arc.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.StoryArcs.StoryArcStatus.Planned">
+            <summary>
+            Indicates that the arc is structurally defined but has not yet begun.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.StoryArcs.StoryArcStatus.Active">
+            <summary>
+            Indicates that the arc currently guides story development.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.StoryArcs.StoryArcStatus.Dormant">
+            <summary>
+            Indicates that the unresolved arc has been intentionally set aside.
+            </summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.StoryArcs.StoryArcStatus.Completed">
+            <summary>
+            Indicates that the arc's resolution criteria have been satisfied.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryArcs.StoryArcStructure">
+            <summary>Defines arc sizes and the finite root boundary independently of model execution.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.StoryArcStructure.Span(StoryForge.Endless.Application.StoryArcs.StoryArcHorizon)">
+            <summary>Returns the chapter count governed by a horizon.</summary>
+            <param name="horizon">The arc horizon.</param>
+            <returns>The chapter count.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.StoryArcStructure.HorizonForLength(System.Int32)">
+            <summary>Maps a supported finite story length to its root.</summary>
+            <param name="chapters">The requested length.</param>
+            <returns>The root horizon.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Application.StoryArcs.StoryArcStructure.FiniteRoot(StoryForge.Endless.Application.StoryArcs.StoryArcState)">
+            <summary>Returns the single root of a finite story, rejecting ambiguous hierarchies.</summary>
+            <param name="state">The story-arc state.</param>
+            <returns>The finite root.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryStateValidation.ChapterStateValidationRequest">
+            <summary>
+            Describes a request to validate story-state changes extracted from a chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryStateValidation.ChapterStateValidationRequest.ChapterNumber">
+            <summary>
+            Gets the chapter number associated with the extracted state changes.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryStateValidation.ChapterStateValidationRequest.ChapterPath">
+            <summary>
+            Gets the path to the chapter prose being validated.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryStateValidation.ChapterStateValidationRequest.ExtractionPath">
+            <summary>
+            Gets the path to the extracted story-state changes.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryStateValidation.ChapterStateValidationRequest.Model">
+            <summary>
+            Gets the model used for story-state validation.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryStateValidation.ChapterStateValidationRequest.Temperature">
+            <summary>
+            Gets the generation temperature.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryStateValidation.ChapterStateValidationRequest.ContextLength">
+            <summary>
+            Gets the model context-window size.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryStateValidation.ChapterStateValidationRequest.MaxOutputTokens">
+            <summary>
+            Gets the maximum number of output tokens the model may generate.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryState.ChapterStateExtraction">
+            <summary>
+            Represents story-state information extracted from a chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryState.ChapterStateExtraction.CanonAdditions">
+            <summary>
+            Gets newly established canonical facts.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryState.ChapterStateExtraction.CanonChangesOverTime">
+            <summary>
+            Gets changes to previously established canonical facts.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryState.ChapterStateExtraction.WorldStateUpdates">
+            <summary>
+            Gets updates to the current world state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryState.ChapterStateExtraction.CharacterStateUpdates">
+            <summary>
+            Gets updates to individual character state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryState.ChapterStateExtraction.NarrativeStateUpdates">
+            <summary>
+            Gets updates to the current narrative state.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryState.ChapterStateExtraction.UnresolvedInformation">
+            <summary>
+            Gets information that remains unresolved after the chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryState.ChapterStateExtraction.ExtractionWarnings">
+            <summary>
+            Gets warnings produced during state extraction.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.StoryState.CharacterStateUpdate">
+            <summary>
+            Represents state changes associated with a single character.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryState.CharacterStateUpdate.Character">
+            <summary>
+            Gets the character to which the state changes apply.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.StoryState.CharacterStateUpdate.Updates">
+            <summary>
+            Gets the state changes established for the character.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.TextGeneration.EmptyGenerationResponseException">
+            <summary>Indicates that the model completed a request without returning text.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.TextGeneration.EmptyGenerationResponseException.#ctor(System.String)">
+            <summary>Initializes a new instance of the <see cref="T:StoryForge.Endless.Application.TextGeneration.EmptyGenerationResponseException"/> class.</summary>
+            <param name="message">The generation failure and available response metadata.</param>
+        </member>
+        <member name="T:StoryForge.Endless.Application.TextGeneration.GenerationAbortedException">
+            <summary>Indicates that model output was aborted because generation degenerated.</summary>
+            <param name="message">The model failure diagnostic.</param>
+            <param name="duration">The time spent generating the rejected output.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Application.TextGeneration.GenerationAbortedException.#ctor(System.String,System.TimeSpan)">
+            <summary>Indicates that model output was aborted because generation degenerated.</summary>
+            <param name="message">The model failure diagnostic.</param>
+            <param name="duration">The time spent generating the rejected output.</param>
+        </member>
+        <member name="P:StoryForge.Endless.Application.TextGeneration.GenerationAbortedException.ModelDuration">
+            <summary>Gets the time spent generating the rejected output.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.TextGeneration.HistoricalContext">
+            <summary>Marks historical source prose that may be reduced to exact excerpts.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.TextGeneration.HistoricalContext.Wrap(System.String)">
+            <summary>Wraps historical prose with source-specific reduction boundaries.</summary>
+            <param name="text">The historical source prose.</param>
+            <returns>The marked source block.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Application.TextGeneration.HistoricalContext.Reduce(System.String,System.Int32)">
+            <summary>Reduces marked history while preserving source order and complete paragraphs.</summary>
+            <param name="prompt">The complete prompt.</param>
+            <param name="targetCharacters">The desired prompt size.</param>
+            <returns>The prompt with bounded historical excerpts.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.TextGeneration.ModelAssessmentAttemptsExhaustedException">
+            <summary>Identifies unusable model assessments after bounded retries, rather than invalid application state.</summary>
+            <param name="message">The assessment failure.</param>
+            <param name="duration">The model time consumed by the assessment.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Application.TextGeneration.ModelAssessmentAttemptsExhaustedException.#ctor(System.String,System.TimeSpan)">
+            <summary>Identifies unusable model assessments after bounded retries, rather than invalid application state.</summary>
+            <param name="message">The assessment failure.</param>
+            <param name="duration">The model time consumed by the assessment.</param>
+        </member>
+        <member name="P:StoryForge.Endless.Application.TextGeneration.ModelAssessmentAttemptsExhaustedException.ModelDuration">
+            <summary>Gets the model time consumed by the exhausted assessment.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Application.TextGeneration.PromptContextBudget">
+            <summary>Fits prompts into bounded input space without trimming current prose or canon.</summary>
+        </member>
+        <member name="F:StoryForge.Endless.Application.TextGeneration.PromptContextBudget.SafetyTokens">
+            <summary>Gets the template and token-estimation margin.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.TextGeneration.PromptContextBudget.EstimateTokens(System.String)">
+            <summary>Estimates token use conservatively for prose, JSON, and non-ASCII text.</summary>
+            <param name="text">The input text.</param>
+            <returns>The estimated token count.</returns>
+        </member>
+        <member name="M:StoryForge.Endless.Application.TextGeneration.PromptContextBudget.Fit(StoryForge.Endless.Application.TextGeneration.TextGenerationRequest,System.Int32)">
+            <summary>Reduces optional history and formatting until the requested output has room.</summary>
+            <param name="request">The original request.</param>
+            <param name="contextLimit">The total input and output token limit.</param>
+            <returns>The fitted request, preserving its output schema and candidate prose.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Application.TextGeneration.TextGenerationUnavailableException">
+            <summary>Reports a model server or transport failure separately from invalid model output.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Application.TextGeneration.TextGenerationUnavailableException.#ctor(System.String,System.Exception)">
+            <summary>Initializes a new instance of the <see cref="T:StoryForge.Endless.Application.TextGeneration.TextGenerationUnavailableException"/> class.</summary>
+            <param name="message">The server failure description.</param>
+            <param name="innerException">The underlying transport failure.</param>
+        </member>
+        <member name="T:StoryForge.Endless.Application.Titles.ChapterTitleRequest">
+            <summary>
+            Describes a request to generate a title for a chapter.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Titles.ChapterTitleRequest.RepositoryRoot">
+            <summary>
+            Gets the repository root containing the story context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Titles.ChapterTitleRequest.ChapterPath">
+            <summary>
+            Gets the path to the chapter prose for which a title will be generated.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Titles.ChapterTitleRequest.Model">
+            <summary>
+            Gets the model used to generate the chapter title.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Titles.ChapterTitleRequest.Temperature">
+            <summary>
+            Gets the generation temperature.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Titles.ChapterTitleRequest.ContextLength">
+            <summary>
+            Gets the model context-window size.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Application.Titles.ChapterTitleRequest.MaxOutputTokens">
+            <summary>
+            Gets the maximum number of output tokens the model may generate.
+            </summary>
+        </member>
+    </members>
+</doc>

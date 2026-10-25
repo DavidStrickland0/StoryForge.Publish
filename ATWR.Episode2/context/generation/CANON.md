@@ -1,4 +1,4 @@
-# ATWR — Episode 2 starting canon
+﻿# ATWR — Episode 2 starting canon
 
 - Recurring companions: Elias Thorne, Kaelen, Maren, Torin, and Elara.
 - Their established identities, ordinary equipment, abilities, and relationships are summarized in CHARACTERS.md. Do not replace names or silently grant upgrades.
@@ -10,3 +10,20 @@
 - Previous adventures are optional background. Show necessary capabilities and relationships naturally in the current action; do not require recaps or previous-book knowledge.
 - Do not import Episode 1's chapter numbering, active arc hierarchy, extraction receipts, open-thread records, completion marker, or discarded plot into this workspace.
 - Episode 2 uses RulesProfile Srd35: ordinary race traits, class features, skills, equipment use, and magic follow SRD 3.5 at the story level. Preserve undefined cast details and bounded legacy exceptions as described in SRD-RULES.md and CHARACTERS.md.
+
+## Established Canon
+
+
+- Nella is the blacksmith's adult apprentice from Pinehollow who was missing.
+
+
+- Hobb is a cart driver from Pinehollow who was missing.
+
+
+- Elara possesses a vial of 'Water of life' which acts as a stabilizer to slow shock and keep hearts steady but does not cure injuries.
+
+
+- Kaelen's magical reserves are depleted; he can no longer cast significant spells or generate light/smoke effectively.
+
+
+- Torin has an old injury to his right side/shoulder that flares up when lifting heavy loads.

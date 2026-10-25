@@ -1,0 +1,141 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 5.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":5,"ViewpointCharacterId":"Elias Thorne","Objective":"The party moves from the cellar to the upper levels to confront Skrit Ironjaw, using the rescued captives as leverage or bait to force the goblin leader to reveal himself or surrender, thereby neutralizing the command structure of the band.","IntendedChange":"The group transitions from tactical retreat to strategic confrontation, demonstrating their ability to leverage their current advantage (possession of captives) to dismantle the goblin hierarchy without a costly melee.","PacingPosture":3,"ProhibitedPatterns":["Kaelen casting any significant magical effect, generating light, smoke, or shields, as his reserves are fully depleted per Chapter 4 continuity.","Replaying the specific dialogue or actions from Chapter 4 regarding the initial rescue of Nella and Hobb or the assessment of their injuries.","Introducing a new, larger magical threat or a secret necromancer behind the goblins.","Resolving the return to the village or the receipt of the reward, which are reserved for Chapter 6.","Using verbatim prose or identical sentence structures from the rejected draft or previous chapters."],"Scenes":[{"Sequence":1,"Purpose":"The party navigates the narrow, vertical shaft connecting the cellar to the upper levels, managing the physical strain of carrying the injured captives while maintaining stealth against the panicking goblins below.","IntendedChange":"The group reaches the threshold of the upper keep\u0027s main hall, with Torin and Maren physically exhausted but stable, and the goblins unaware of their immediate location.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Nella","Hobb"]},{"Sequence":2,"Purpose":"Elias coordinates a non-magical distraction using physical objects and the environment to draw the goblin guards away from the main hall entrance, allowing the party to secure a position without combat.","IntendedChange":"The goblin guards are lured into a side corridor, leaving the main hall entrance unguarded, and the party establishes a defensive perimeter around the captives.","FocusCharacterIds":["Elias Thorne","Kaelen","Elara","Torin"]},{"Sequence":3,"Purpose":"The party confronts Skrit Ironjaw in his quarters, using the presence of the rescued captives and the threat of their coordinated force to force a negotiation rather than a fight.","IntendedChange":"Skrit Ironjaw is forced to surrender his command authority and the goblin band\u0027s organization is neutralized through intimidation and the promise of capture rather than death.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Skrit Ironjaw"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The party confronts Skrit Ironjaw in his quarters, using the presence of the rescued captives and the threat of their coordinated force to force a negotiation rather than a fight.","IntendedChange":"Skrit Ironjaw is forced to surrender his command authority and the goblin band\u0027s organization is neutralized through intimidation and the promise of capture rather than death.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Skrit Ironjaw"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":5,"CompletedSceneSequence":2,"Location":"Upper level of the goblin keep, specifically the main hall (a vast, circular room with a stone table) and the entrance to the left corridor.","TimeContext":"Night; the party has initiated a new distraction using a heavy iron pot to lure goblins away from the main shaft entrance.","PresentCharacterIds":["Elias Thorne","Torin","Maren","Nella","Hobb","Kaelen","Elara"],"PhysicalConditions":["Torin and Maren are physically exhausted but stable.","Nella is pale, weak-legged, but standing and able to walk with support.","Hobb is injured (painful shoulder) but capable of walking if necessary.","Kaelen\u0027s magical reserves are fully depleted; he is suffering from a severe headache and physical exhaustion.","The party is armed and positioned defensively in the main hall.","Goblins below have stopped shouting and are listening intently to the new noise source."],"KnowledgeEstablished":["The goblin guards have been distracted by a heavy iron pot rolling into the left corridor.","The party has decided not to engage immediately but to lead the goblins away from the main hall entrance using sound.","Torin is capable of pushing the heavy iron pot despite his fatigue.","Maren is holding the line at the captives\u0027 side.","Elara is assigned to stay with the captives and prepare an escape route via the window if the goblins breach Maren\u0027s position.","Kaelen is positioned with Elias to manage the distraction and watch for movement from the cellar entrance."],"DecisionsMade":["Elias decided to use a heavy iron pot as a non-magical sound distraction.","Torin agreed to push the pot to guide it into the left corridor.","Maren agreed to guard the captives and hold the line against any goblins coming up the shaft.","Elara agreed to remain with Nella and Hobb, ready to retreat to the window if necessary.","Kaelen agreed to assist Elias in managing the distraction despite his exhaustion."],"PossessionChanges":[],"RelationshipChanges":[],"CompletedActions":["Elias directed Elara to stay with the captives and prepare an escape route via the window.","Torin stood up and agreed to push the heavy iron pot despite his fatigue.","Maren positioned herself by the captives, resting her hammer on her shoulder.","Kaelen set the heavy iron pot on the floor.","Elias pushed the iron pot toward the left corridor.","The party coordinated their positions: Torin at the pot, Maren with captives, Elara ready to climb, Kaelen and Elias managing the distraction.","The goblins below ceased shouting and began listening to the new noise source."],"UnresolvedImmediateAction":"Elias has just pushed the iron pot into the shadows of the left corridor. The sound is echoing through the hall. Torin is watching the entrance to the cellar, while Maren holds the line with the captives. The goblins below are reacting to the new noise source and may begin moving toward the left corridor.","ContinuationPosition":"The characters are standing in the main hall of the upper keep. Elias has just pushed the iron pot into the left corridor. Torin is watching the cellar entrance, Maren is with Nella and Hobb, Elara is ready to climb, and Kaelen is assisting Elias. The goblins below are listening and preparing to move toward the source of the noise.","ProhibitedRepetition":["The specific dialogue regarding the flagstone drop and immediate movement instructions from Scene 1.","Descriptions of Torin\u0027s shoulder pain or Maren\u0027s breathing during the climb from Scene 1.","The description of Nella\u0027s pale eyes and shaking legs while being supported from Scene 1.","The sequence of moving through the narrow passage/shaft upward from Scene 1.","The observation that the goblins are in chaos below chasing the stone from Scene 1.","Repeating the decision to establish a defensive perimeter in the main hall, as this was already completed in Scene 1."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The iron pot did not roll forever. It was heavy, a solid chunk of blackened metal that had once held stew for a dozen hungry raiders, and gravity, combined with the slight incline of the flagstones, gave it a momentum that felt almost sentient. It clattered into the left corridor, a dull, rhythmic *thud-thud-thud* that echoed off the wet stone walls.
+
+Elias did not wait for the echo to die. He spun on his heel, his boots scraping against the damp floor, and signaled the others with a sharp chop of his hand. *He signaled the others to move.*
+
+Torin was already moving. He had abandoned his post at the cellar entrance, the old pain in his shoulder flaring with a white-hot spike as he shifted his weight, but he ignored it. He moved toward the center of the main hall, his sword drawn, the steel catching the faint, ambient light from the high windows. He positioned himself between the left corridor and the main shaft, a broad wall of leather and steel.
+
+Maren did not move toward the center. She stepped back, placing herself directly in front of Nella and Hobb. The blacksmith was trembling, her knees knocking together, but she did not collapse. Maren’s hand rested on the haft of her hammer, her fingers tight, her knuckles white. She looked at the cellar entrance, then at the left corridor, her eyes calculating angles, distances, and the precise moment when fear would turn into action.
+
+Elara had climbed to the edge of the stone table, her back against the wall, her eyes fixed on the window. The window was high, a narrow slit of glass that looked out onto the rain-slicked night. It was not an escape route for Hobb, whose leg was broken, but it was a possibility. A hope. She kept her hands on the window frame, ready to unlatch it if the goblins broke through Maren’s line.
+
+Kaelen stood beside Elias, his face gray, his breath coming in short, shallow gasps. He looked at the left corridor, where the sound of the pot had finally ceased, replaced by a silence that was heavier than the noise.
+
+"They’re coming," Kaelen whispered. His voice was thin, strained. "I can hear them. Multiple sets of feet. And... shouting."
+
+Elias nodded. He could hear it too. The wet slap of bare feet on stone. The guttural, panicked yells of goblins who had been broken by the darkness and the silence, now driven by the promise of a noise that sounded like a threat.
+
+They were coming to investigate. They were coming to see who had made the sound.
+
+And they were coming to the center of the hall, where the light was brightest, and the exit was widest.
+
+Elias took a step forward. Then another. He moved into the center of the main hall, his sword unsheathed, the blade held low, the tip pointing toward the left corridor. He stood in the open, in the light, a single figure of defiance in the middle of the goblins’ domain.
+
+He was not afraid. He was tired. He was hungry. He was ready to be done with this.
+
+The goblins emerged from the left corridor, one by one, then in a cluster. They were hunched, their eyes wide and yellow, their hands clutching crude weapons. Spears, knives, a broken axe. They stopped at the edge of the light, their movements jerky, uncertain. They looked at Elias. They looked at Torin, who stood to his left, his sword drawn. They looked at Maren, who stood to his right, her hammer resting on her shoulder, her posture rigid, her eyes cold.
+
+They looked at the captives.
+
+Nella stood behind Maren, her face pale, her hands clasped tightly in front of her. Hobb leaned against the wall, his face a mask of pain, but his eyes were open, alert. They were alive. They were free. And they were being watched by a group of armed men who had the upper hand.
+
+The goblins hesitated.
+
+The silence stretched, thin and taut. The rain drummed against the roof, a steady, rhythmic sound that filled the void left by the goblins’ hesitation.
+
+Elias spoke. His voice was low, steady, and clear. It carried across the hall, bouncing off the stone walls, filling the space with a quiet authority.
+
+"Skrit Ironjaw," he said. "I know you are here. I know you are the one who gave the orders. I know you are the one who held them."
+
+He paused. He let the name hang in the air, a weight, a threat.
+
+"I am not here to kill you. I am here to take you. And I am here to take your friends. And I am here to take your keep."
+
+He looked at the goblins. He looked at their weapons, their fear, their uncertainty. He looked at their leader, who was not visible, but was surely listening, surely watching, surely calculating.
+
+"You can come out and surrender," Elias said. "You can give up your weapons, your loot, and your claim to this keep. And you can walk out of here, into the rain, into the night, and into the hands of the village guard."
+
+He paused again. He let the words settle.
+
+"Or you can stay here. And I can come to you. And I can take you. And I can take your keep. And I can take your life."
+
+The goblins looked at each other. They looked at their weapons. They looked at Elias.
+
+The silence stretched again.
+
+Then, a sound. A soft, shuffling sound. From the shadows, from the darkness, from the place where the leader should be.
+
+A goblin stepped forward.
+
+He was tall for a goblin, his skin a mottled gray-green, his eyes sharp and intelligent. He wore a leather tunic, patched and repaired, and a belt with a short sword. He held no weapon in his hands. His hands were open, his palms out, a gesture of surrender.
+
+He looked at Elias. He looked at Torin. He looked at Maren.
+
+He looked at the captives.
+
+And then, he lowered his head.
+
+"I am Skrit Ironjaw," he said. His voice was rough, tired, and resigned. "I am here. I am yours."
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

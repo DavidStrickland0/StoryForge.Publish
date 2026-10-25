@@ -1,4 +1,4 @@
-# Narrative
+﻿# Narrative
 
 ## Story Premise
 
@@ -34,5 +34,8 @@ Use classic Dungeons-and-Dragons-style adventure flavor, not game-interface narr
 ## Current Narrative State
 
 The story has not begun.
+
+
+- The party has successfully located and rescued Nella and Hobb from the goblin captivity in the cellar.
 
 ## Unresolved Information

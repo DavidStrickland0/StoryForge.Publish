@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoryForge.Endless.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:StoryForge.Endless.Infrastructure.Bootstrap.StoryAuthoringBaseline">
+            <summary>
+            Stores the initial authoring context separately from mutable story progress.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Bootstrap.StoryAuthoringBaseline.Capture(System.String)">
+            <summary>Captures author-approved starting context without overwriting an existing baseline.</summary>
+            <param name="repositoryRoot">The story workspace root.</param>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Bootstrap.StoryBootstrapInventoryService">
+            <summary>
+            Inventories immutable finalized chapters in an existing story workspace.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Bootstrap.StoryBootstrapInventoryService.InventoryAsync(System.String,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Bootstrap.StoryBootstrapInventoryService.ChapterDirectoryRegex">
+            <remarks>
+            Pattern:<br/>
+            <code>^chapter-(?&lt;number&gt;[0-9]{3,})$</code><br/>
+            Options:<br/>
+            <code>RegexOptions.IgnoreCase | RegexOptions.CultureInvariant</code><br/>
+            Explanation:<br/>
+            <code>
+            ○ Match if at the beginning of the string.<br/>
+            ○ Match a character in the set [Cc].<br/>
+            ○ Match a character in the set [Hh].<br/>
+            ○ Match a character in the set [Aa].<br/>
+            ○ Match a character in the set [Pp].<br/>
+            ○ Match a character in the set [Tt].<br/>
+            ○ Match a character in the set [Ee].<br/>
+            ○ Match a character in the set [Rr].<br/>
+            ○ Match '-'.<br/>
+            ○ "number" capture group.<br/>
+                ○ Match a character in the set [0-9] atomically at least 3 times.<br/>
+            ○ Match if at the end of the string or if before an ending newline.<br/>
+            </code>
+            </remarks>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Bootstrap.StoryBootstrapWorkspaceInitializer">
+            <summary>
+            Creates a minimal rules-neutral workspace for chronological reconstruction.
+            </summary>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Bootstrap.StoryBootstrapWorkspaceInitializer.ResetGeneratedArtifacts(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Bootstrap.StoryBootstrapWorkspaceInitializer.InitializeAsync(System.String,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Context.DevelopmentContextBuilder">
+            <summary>Builds development context from repository files and metadata.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Context.DevelopmentContextBuilder.BuildAsync(StoryForge.Endless.Application.Context.ContextBuildRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Context.RepositoryFileInventory">
+            <summary>Lists repository files available for development context.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Infrastructure.Context.RepositoryFileInventory.Files">
+            <summary>Gets repository-relative file paths.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Context.RepositoryFileInventoryBuilder">
+            <summary>Collects and ranks repository files for development context.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Context.RepositoryFileInventoryBuilder.Build(System.String,System.String)">
+            <summary>Builds an inventory of supported files, optionally ranked by focus.</summary>
+            <param name="repositoryRoot">The repository directory.</param>
+            <param name="focus">Optional terms used to select relevant files.</param>
+            <returns>The selected repository files.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Context.RepositoryInventory">
+            <summary>Lists the projects and solution files in a repository.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Infrastructure.Context.RepositoryInventory.Projects">
+            <summary>Gets repository-relative project paths.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Infrastructure.Context.RepositoryInventory.SolutionFiles">
+            <summary>Gets repository-relative solution paths.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Context.RepositoryInventoryBuilder">
+            <summary>Finds projects and solution files in a repository.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Context.RepositoryInventoryBuilder.Build(System.String)">
+            <summary>Builds a project and solution file inventory.</summary>
+            <param name="repositoryRoot">The repository directory.</param>
+            <returns>The discovered projects and solution files.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Context.RepositorySourceLoader">
+            <summary>Loads selected repository source files within a character budget.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Context.RepositorySourceLoader.LoadAsync(System.String,System.Collections.Generic.IReadOnlyList{System.String},System.Int32,System.Threading.CancellationToken)">
+            <summary>Reads matching source files until the character budget is exhausted.</summary>
+            <param name="repositoryRoot">The repository directory.</param>
+            <param name="relativeFiles">The repository-relative files to read.</param>
+            <param name="maxCharacters">The maximum total number of characters to include.</param>
+            <param name="cancellationToken">A token to cancel file reads.</param>
+            <returns>The included source files and counts.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Context.RepositorySourceLoadResult">
+            <summary>
+            Represents the result of loading repository source files into a bounded context.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Infrastructure.Context.RepositorySourceLoadResult.Files">
+            <summary>
+            Gets the repository files that were successfully loaded.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Infrastructure.Context.RepositorySourceLoadResult.TotalCharacters">
+            <summary>
+            Gets the total number of source characters loaded.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Infrastructure.Context.RepositorySourceLoadResult.MatchedFileCount">
+            <summary>
+            Gets the number of repository files considered for loading.
+            </summary>
+        </member>
+        <member name="P:StoryForge.Endless.Infrastructure.Context.RepositorySourceLoadResult.OmittedFileCount">
+            <summary>
+            Gets the number of repository files omitted from the result.
+            </summary>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Context.RepositoryStateMetadata">
+            <summary>Describes the repository's current Git state.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Infrastructure.Context.RepositoryStateMetadata.GitCommit">
+            <summary>Gets the current commit, if Git is available.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Infrastructure.Context.RepositoryStateMetadata.GitDirty">
+            <summary>Gets a value indicating whether Git reports uncommitted changes.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Context.RepositoryStateMetadataBuilder">
+            <summary>Reads Git metadata for a repository.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Context.RepositoryStateMetadataBuilder.Build(System.String)">
+            <summary>Reads the current commit and working-tree status.</summary>
+            <param name="repositoryRoot">The repository directory.</param>
+            <returns>The repository's Git state.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Hardware.GpuDetector">
+            <summary>Detects locally available NVIDIA GPUs.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Hardware.GpuDetector.Detect">
+            <summary>Queries NVIDIA GPU names using nvidia-smi.</summary>
+            <returns>The GPU names, or null if detection is unavailable.</returns>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.IO.AtomicTextFileWriter">
+            <summary>Writes a temporary sibling file before renaming it into place.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.IO.AtomicTextFileWriter.WriteAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:StoryForge.Endless.Infrastructure.Provenance.JsonChapterProcessingHistoryStore">
+            <summary>Stores chapter processing history as JSON in the repository.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Provenance.JsonChapterProcessingHistoryStore.#ctor(System.String)">
+            <summary>Initializes a new instance of the <see cref="T:StoryForge.Endless.Infrastructure.Provenance.JsonChapterProcessingHistoryStore"/> class.</summary>
+            <param name="repositoryRoot">The story repository directory.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Provenance.JsonChapterProcessingHistoryStore.#ctor(System.String,StoryForge.Endless.Application.IO.IAtomicTextFileWriter)">
+            <summary>Initializes a new instance of the <see cref="T:StoryForge.Endless.Infrastructure.Provenance.JsonChapterProcessingHistoryStore"/> class.</summary>
+            <param name="repositoryRoot">The story repository directory.</param>
+            <param name="writer">The atomic history writer.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Provenance.JsonChapterProcessingHistoryStore.LoadAsync(System.Int32,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:StoryForge.Endless.Infrastructure.Provenance.JsonChapterProcessingHistoryStore.AppendAsync(System.Int32,StoryForge.Endless.Application.Provenance.ChapterProcessingRecord,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.ChapterDirectoryRegex_0">
+            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the ChapterDirectoryRegex method.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.ChapterDirectoryRegex_0.Instance">
+            <summary>Cached, thread-safe singleton instance.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ChapterDirectoryRegex_0.#ctor">
+            <summary>Initializes the instance.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.ChapterDirectoryRegex_0.RunnerFactory">
+            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ChapterDirectoryRegex_0.RunnerFactory.CreateInstance">
+            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.ChapterDirectoryRegex_0.RunnerFactory.Runner">
+            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ChapterDirectoryRegex_0.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ChapterDirectoryRegex_0.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if a possible match was found; false if no more matches are possible.</returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.Generated.ChapterDirectoryRegex_0.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
+            <param name="inputSpan">The text being scanned by the regular expression.</param>
+            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.Generated.Utilities">
+            <summary>Helper methods used by generated <see cref="T:System.Text.RegularExpressions.Regex"/>-derived implementations.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_defaultTimeout">
+            <summary>Default timeout value set in <see cref="T:System.AppContext"/>, or <see cref="F:System.Text.RegularExpressions.Regex.InfiniteMatchTimeout"/> if none was set.</summary>
+        </member>
+        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_hasTimeout">
+            <summary>Whether <see cref="F:System.Text.RegularExpressions.Generated.Utilities.s_defaultTimeout"/> is non-infinite.</summary>
+        </member>
+    </members>
+</doc>

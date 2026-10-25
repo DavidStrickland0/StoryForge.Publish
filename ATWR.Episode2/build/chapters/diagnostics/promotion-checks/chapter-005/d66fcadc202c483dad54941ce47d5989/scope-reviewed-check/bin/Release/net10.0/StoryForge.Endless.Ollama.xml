@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoryForge.Endless.Ollama</name>
+    </assembly>
+    <members>
+        <member name="T:StoryForge.Endless.Ollama.TextGeneration.OllamaContextBudgetOptions">
+            <summary>Bounds local inference context and memory recovery.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Ollama.TextGeneration.OllamaContextBudgetOptions.MaximumContextTokens">
+            <summary>Gets the configured context ceiling, including input and output.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Ollama.TextGeneration.OllamaContextBudgetOptions.MinimumContextTokens">
+            <summary>Gets the smallest context attempted after a memory failure.</summary>
+        </member>
+        <member name="P:StoryForge.Endless.Ollama.TextGeneration.OllamaContextBudgetOptions.MemoryRecoveryAttempts">
+            <summary>Gets the maximum number of retries after explicit memory failures.</summary>
+        </member>
+        <member name="T:StoryForge.Endless.Ollama.TextGeneration.OllamaTextGenerationService">
+            <summary>Generates text using an Ollama server.</summary>
+        </member>
+        <member name="M:StoryForge.Endless.Ollama.TextGeneration.OllamaTextGenerationService.#ctor(System.Net.Http.HttpClient,System.String,StoryForge.Endless.Ollama.TextGeneration.OllamaContextBudgetOptions)">
+            <summary>Initializes a new instance of the <see cref="T:StoryForge.Endless.Ollama.TextGeneration.OllamaTextGenerationService"/> class.</summary>
+            <param name="httpClient">The HTTP client configured for Ollama.</param>
+            <param name="defaultModel">The model to use when a request does not select one.</param>
+            <param name="contextOptions">Optional context and memory-recovery limits.</param>
+        </member>
+        <member name="M:StoryForge.Endless.Ollama.TextGeneration.OllamaTextGenerationService.GenerateAsync(StoryForge.Endless.Application.TextGeneration.TextGenerationRequest,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

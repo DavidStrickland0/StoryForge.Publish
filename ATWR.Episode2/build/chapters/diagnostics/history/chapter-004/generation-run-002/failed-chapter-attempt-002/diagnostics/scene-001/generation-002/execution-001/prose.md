@@ -1,0 +1,5 @@
+The corridor stretched ahead of them, a narrow throat of cold stone that seemed to swallow the faint light from their lanterns. Elias kept his hand near the hilt of his sword, not out of fear, but because the silence felt heavy and deliberate. The goblins had been waiting in the dark, watching for mistakes. They were gone now, but the tension remained.
+
+Maren walked at the rear, her boots making no sound on the flagstones as she moved forward. The broken cart axle strapped to her shoulder creaked softly with every step, a rhythmic complaint that didn't demand attention but served as a constant reminder of their physical state. She paused briefly to check the alignment of the straps before continuing, her eyes scanning the shadows along the walls.
+
+Torin moved ahead, his sword held loosely at his side. He was mapping the

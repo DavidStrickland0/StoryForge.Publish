@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "bookId": "storyforge-atwr-episode2",
+  "assignments": [
+    {
+      "characterId": "maren",
+      "voiceId": "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959",
+      "confidence": 0.8,
+      "rationale": "Verified speech reference and matching attributed voice; generated voices also passed a fresh Chatterbox audition. Generated attributes describe the design request.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "elara",
+      "voiceId": "voiceforge-0a33208975a64efc8d34ae88fc742238",
+      "confidence": 0.8,
+      "rationale": "Verified speech reference and matching attributed voice; generated voices also passed a fresh Chatterbox audition. Generated attributes describe the design request.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "elias",
+      "voiceId": "voiceforge-c05ae4204d244c90b1270f74b10cb1f5",
+      "confidence": 0.8,
+      "rationale": "Verified speech reference and matching attributed voice; generated voices also passed a fresh Chatterbox audition. Generated attributes describe the design request.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "kaelen",
+      "voiceId": "voiceforge-f00a50ade82e4bf8942a326015ac4456",
+      "confidence": 0.8,
+      "rationale": "Verified speech reference and matching attributed voice; generated voices also passed a fresh Chatterbox audition. Generated attributes describe the design request.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "torin",
+      "voiceId": "voiceforge-34f379dbc86b416a86a243010ee1315d",
+      "confidence": 0.8,
+      "rationale": "Verified speech reference and matching attributed voice; generated voices also passed a fresh Chatterbox audition. Generated attributes describe the design request.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "narrator",
+      "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+      "confidence": 0.8,
+      "rationale": "Verified speech reference and matching attributed voice; generated voices also passed a fresh Chatterbox audition. Generated attributes describe the design request.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.4,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    }
+  ],
+  "retiredAssignments": [
+    {
+      "characterId": "elara",
+      "voiceId": "prideandprejudice-01-04-austen-apc-64kb",
+      "confidence": 0.85,
+      "rationale": "The character Elara is analytical and quiet, traits often found in classic female narrators or serious literary voices. This specific voice ID (Austen) provides a clear, articulate female presentation suitable for sustained narration of evidence-based dialogue.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "maren",
+      "voiceId": "prideandprejudice-01-03-austen-64kb",
+      "confidence": 0.85,
+      "rationale": "The character Maren is female with a gruff, clipped, and practical demeanor. This voice is female and suitable for narration, offering a stable baseline when specific \u0027gruff\u0027 metadata is absent from all options.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "elias",
+      "voiceId": "lektonarium-podcast-segment-intro-neutral-voice-448583",
+      "confidence": 0.6,
+      "rationale": "Elias is a steady, pragmatic leader; this neutral male voice offers a clear, sustained presentation suitable for narration without inventing unverified qualities.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "kaelen",
+      "voiceId": "advisorintro03",
+      "confidence": 0.85,
+      "rationale": "Kaelen is a calm, magical support character with \u0027Unreadable\u0027 and \u0027Brief\u0027 traits. The voice ID \u0027advisorintro03\u0027 implies an advisory or calm tone suitable for a mage conserving energy, matching the required male presentation.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "torin",
+      "voiceId": "07-you-can-farm-joel-salatin",
+      "confidence": 0.6,
+      "rationale": "Torin is a male scout with commanding and alert traits; this verified male voice is the best available match despite lacking specific metadata.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.65,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    },
+    {
+      "characterId": "narrator",
+      "voiceId": "freesound-community-santa-claus-a-reading-christmas-story-17777",
+      "confidence": 0.95,
+      "rationale": "Selected a male voice suitable for narration or storytelling, fitting the context of reading classic literature like Pride and Prejudice.",
+      "isLocked": false,
+      "synthesis": {
+        "exaggeration": 0.4,
+        "cfgWeight": 0.5,
+        "temperature": 0.7
+      }
+    }
+  ],
+  "chapterVoiceUsage": {
+    "chapter-001": {
+      "chapterIndex": 0,
+      "sourceSha256": "d5cc90254415be1145327aa81baef43f29572bb78fe2b0984e7cbe169ee38600",
+      "voiceUseCounts": {
+        "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287": 102,
+        "voiceforge-c05ae4204d244c90b1270f74b10cb1f5": 43,
+        "voiceforge-0a33208975a64efc8d34ae88fc742238": 30,
+        "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959": 22,
+        "voiceforge-34f379dbc86b416a86a243010ee1315d": 10,
+        "voiceforge-f00a50ade82e4bf8942a326015ac4456": 2
+      }
+    },
+    "chapter-002": {
+      "chapterIndex": 1,
+      "sourceSha256": "26d17ed983a7b9aef286258f3d3f061dd46e3d75103a124c15e1ed6c31f019a9",
+      "voiceUseCounts": {
+        "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287": 115,
+        "voiceforge-c05ae4204d244c90b1270f74b10cb1f5": 38,
+        "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959": 28,
+        "voiceforge-34f379dbc86b416a86a243010ee1315d": 19,
+        "voiceforge-0a33208975a64efc8d34ae88fc742238": 29,
+        "voiceforge-f00a50ade82e4bf8942a326015ac4456": 15
+      }
+    }
+  },
+  "voiceUseCounts": {
+    "affinitysupremacy17": 0,
+    "emma-01-03-austen-64kb": 0,
+    "faespencer-about-anger-179423": 0,
+    "faespencer-life-is-sexually-transmitted-spoken-204928": 0,
+    "faespencer-love-bombing-female-spoken-213174": 0,
+    "faespencer-walk-a-mile-184785": 0,
+    "faespencer-you-canx27t-fool-mom-spoken-204936": 0,
+    "freesound-community-requested-quiz-file-27473": 0,
+    "freesound-community-scifistuff-57632": 0,
+    "freesound-community-the-cosmic-dance-scratch-vocals-50581": 0,
+    "freesound-community-this-isnt-50122": 0,
+    "prideandprejudice-01-04-austen-apc-64kb": 0,
+    "techseismicinduction": 0,
+    "prideandprejudice-01-03-austen-64kb": 0,
+    "prideandprejudice-04-05-austen-64kb": 0,
+    "prideandprejudice-06-austen-64kb": 0,
+    "prideandprejudice-07-austen-64kb": 0,
+    "prideandprejudice-08-austen-64kb": 0,
+    "prideandprejudice-09-austen-64kb": 0,
+    "prideandprejudice-12-13-austen-64kb": 0,
+    "prideandprejudice-16-17-austen-64kb": 0,
+    "prideandprejudice-18-19-austen-64kb": 0,
+    "prideandprejudice-26-austen-64kb": 0,
+    "prideandprejudice-27-austen-64kb": 0,
+    "prideandprejudice-28-29-austen-64kb": 0,
+    "prideandprejudice-30-austen-64kb": 0,
+    "prideandprejudice-34-35-austen-64kb": 0,
+    "prideandprejudice-36-37-austen-64kb": 0,
+    "prideandprejudice-38-39-austen-64kb": 0,
+    "prideandprejudice-46-austen-64kb": 0,
+    "prideandprejudice-47-48-austen-64kb": 0,
+    "prideandprejudice-49-austen-64kb": 0,
+    "prideandprejudice-52-53f-austen-64kb": 0,
+    "prideandprejudice-54-austen-64kb": 0,
+    "prideandprejudice-56-57-austen-64kb": 0,
+    "prideandprejudice-58-austen-64kb": 0,
+    "prideandprejudice-42-43-austen-64kb": 0,
+    "07-you-can-farm-joel-salatin": 0,
+    "08-numbers-03": 0,
+    "14-track-014": 0,
+    "20-track-020": 0,
+    "advisorintro03": 0,
+    "andreas-christensen-the-complete-exodus-trilogy-04-52": 0,
+    "commencement-chapel-2010-1": 0,
+    "freesound-community-03-no-i-have-not-sir-try-asking-someone-else-102772": 0,
+    "freesound-community-ah-good-morning-sir-would-you-like-a-cup-of-tea-26151": 0,
+    "freesound-community-audiokingsz-illusion-72071": 0,
+    "freesound-community-dude-we-are-bking-out-of-the-situation-2-takes-34865": 0,
+    "freesound-community-global-village-hochdeutsch-34080": 0,
+    "freesound-community-gt000022-55821": 0,
+    "freesound-community-how-to-pop-balloons-pt-2-22552": 0,
+    "freesound-community-morphagenepierreschaeffer08voices-24bit-56177": 0,
+    "freesound-community-pachamama-50866": 0,
+    "freesound-community-pulp-election-kb-breyn-49599": 0,
+    "freesound-community-read-my-lips-nowav-14906": 0,
+    "freesound-community-requesting-medevac-at-6924-4769-hot-zone-1-critical-96459": 0,
+    "freesound-community-santa-claus-a-reading-christmas-story-17777": 0,
+    "freesound-community-shortfilm-voice-56795": 0,
+    "freesound-community-spaceoperajudge-50747": 0,
+    "freesound-community-spoken-word-request-104029": 0,
+    "freesound-community-thanksgiving-wishes-70014": 0,
+    "freesound-community-twm-or-nant-59160": 0,
+    "half-a-war-11": 0,
+    "hear-ye-my-defense": 0,
+    "judges-3-12-24": 0,
+    "kamhunt-old-school-preacher-clips-3-pastor-darryl-hussey-victorious-129623": 0,
+    "kamhunt-old-testament-scripture-reading-129625": 0,
+    "lektonarium-podcast-segment-intro-neutral-voice-448583": 0,
+    "sampled-stuff-sample-pack-links-in-bio-sampled-stuff-288267": 0,
+    "urban-renewal": 0,
+    "prideandprejudice-10-11-austen-64kb": 0,
+    "prideandprejudice-14-15-austen-64kb": 0,
+    "prideandprejudice-20-austen-64kb": 0,
+    "prideandprejudice-21-22-austen-64kb": 0,
+    "prideandprejudice-23-25-austen-64kb": 0,
+    "prideandprejudice-32-33-austen-64kb": 0,
+    "prideandprejudice-40-41-austen-64kb": 0,
+    "prideandprejudice-44-45-austen-64kb": 0,
+    "voiceforge-0a33208975a64efc8d34ae88fc742238": 59,
+    "voiceforge-34f379dbc86b416a86a243010ee1315d": 29,
+    "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287": 217,
+    "voiceforge-c05ae4204d244c90b1270f74b10cb1f5": 81,
+    "voiceforge-ddfd70cdf30c4b7e99e6671de48c4959": 50,
+    "voiceforge-f00a50ade82e4bf8942a326015ac4456": 17
+  }
+}

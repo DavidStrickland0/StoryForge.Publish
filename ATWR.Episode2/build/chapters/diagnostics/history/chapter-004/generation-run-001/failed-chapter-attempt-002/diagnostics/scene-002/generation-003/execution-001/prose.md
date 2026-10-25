@@ -1,0 +1,9 @@
+"The fracture is wide enough," Elias said, his voice cutting through the low murmur of rain against the roof. He held up a lantern shield by his own light source, keeping the beam steady on the jagged edge where the stone had been cleared. "It leads down to the cellar levels. But before we commit to stepping into that darkness, Elara, finish your scan of the threshold."
+
+Elara knelt beside the gap, her fingers trembling slightly as she brushed a loose shard of chalk from the stone floor. She didn't look at Elias; her eyes remained fixed on the intersection of the corridor walls where the hairline fracture met the main path. "There's a secondary mechanism here," she murmured, pulling a small coil of brass wire from her satchel. "It runs along the ceiling. If we walk directly over the fracture without compensating for the weight shift, it trips a pulley system hidden behind the false paneling."
+
+Maren grunted, shifting the broken cart axle so that the splintered wood settled deeper into her shoulder straps. The pain flared hot and sharp, but she didn't complain again. She kept her head down, watching the wet flagstones reflect their lantern light. "Then we don't walk over it," she said simply. "We use the wall on the left. That's solid stone. No wards there that I can feel."
+
+Torin nodded from the rear of the group, his hand resting lightly on his sword hilt. He hadn't spoken much since they entered the junction, but his silence was heavy with agreement. He moved forward now, testing the balance of the broken cart axle against his own stride. "Lead the way," he said to Elias.
+
+Elias stepped aside, letting Torin pass through the narrow passage first. Behind him, Maren followed, her movements measured and deliberate. She adjusted her grip on the hammer

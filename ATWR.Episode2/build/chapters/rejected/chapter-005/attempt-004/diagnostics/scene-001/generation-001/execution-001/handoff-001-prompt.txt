@@ -1,0 +1,163 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 1 of
+Chapter 5.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":5,"ViewpointCharacterId":"Elias Thorne","Objective":"The party moves from the cellar to the upper levels to confront Skrit Ironjaw, using the rescued captives as leverage or bait to force the goblin leader to reveal himself or surrender, thereby neutralizing the command structure of the band.","IntendedChange":"The group transitions from tactical retreat to strategic confrontation, demonstrating their ability to leverage their current advantage (possession of captives) to dismantle the goblin hierarchy without a costly melee.","PacingPosture":3,"ProhibitedPatterns":["Repeating the stealth exit plan and decoy sound tactic established in Chapter 4.","Re-performing the rescue of Nella and Hobb or the assessment of their injuries.","Introducing Skrit Ironjaw and his guards as a new threat in the final scene without earning it through the chapter\u0027s primary action.","Copying substantial verbatim prose from the previous finalized chapter."],"Scenes":[{"Sequence":1,"Purpose":"Elias coordinates the party\u0027s ascent from the cellar, leveraging the rescued captives as leverage to force Skrit Ironjaw to reveal himself or surrender, thereby neutralizing the command structure of the band.","IntendedChange":"The group transitions from tactical retreat to strategic confrontation, demonstrating their ability to leverage their current advantage (possession of captives) to dismantle the goblin hierarchy without a costly melee.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Elara"]},{"Sequence":2,"Purpose":"Kaelen uses his remaining magical reserves for a non-combat utility (e.g., a distraction or a shield) rather than direct offense, while Elias acknowledges Kaelen\u0027s courage and validates his decision to use his magic for a precise, low-cost effect.","IntendedChange":"Kaelen trusts Elias\u0027s judgment and accepts his support, solidifying their mutual respect.","FocusCharacterIds":["Elias Thorne","Kaelen"]},{"Sequence":3,"Purpose":"Maren acknowledges Torin\u0027s physical capability and accepts his help in managing the captives\u0027 movement, while Torin validates Maren\u0027s competence and supports her decision to take on a more active role in the confrontation.","IntendedChange":"Maren and Torin solidify their mutual respect, managing their vulnerabilities and supporting each other\u0027s roles.","FocusCharacterIds":["Maren","Torin"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":1,"Purpose":"Elias coordinates the party\u0027s ascent from the cellar, leveraging the rescued captives as leverage to force Skrit Ironjaw to reveal himself or surrender, thereby neutralizing the command structure of the band.","IntendedChange":"The group transitions from tactical retreat to strategic confrontation, demonstrating their ability to leverage their current advantage (possession of captives) to dismantle the goblin hierarchy without a costly melee.","FocusCharacterIds":["Elias Thorne","Kaelen","Maren","Torin","Elara"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Kaelen uses his remaining magical reserves for a non-combat utility (e.g., a distraction or a shield) rather than direct offense, while Elias acknowledges Kaelen\u0027s courage and validates his decision to use his magic for a precise, low-cost effect.","IntendedChange":"Kaelen trusts Elias\u0027s judgment and accepts his support, solidifying their mutual respect.","FocusCharacterIds":["Elias Thorne","Kaelen"]}
+
+===== PREVIOUS HANDOFF =====
+
+null
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The stone Kaelen selected was a chunk of flint, jagged and heavy, sitting in a pile of debris near the corridor’s mouth. He didn’t pick it up. Instead, he waited until the goblins’ shouts had shifted from panic to a low, angry bickering about who had dropped the last sack of grain.
+
+Elias gave the signal.
+
+Kaelen tossed the flint. It skittered across the flagstones, bounced off a crate, and rolled into the darkness of the left-hand passage with a rhythmic *clack-clack-clack* that sounded exactly like a falling body hitting stone.
+
+The effect was immediate. The goblins froze. For a heartbeat, there was only the sound of their own breathing, sharp and wet in the cold air. Then, a single voice, high and thin, shouted a command in guttural goblin. Two of the goblins spun toward the left passage, their eyes wide, their weapons raised. They did not go in. They shouted back, confused and frightened, their voices echoing off the damp walls.
+
+Elias moved.
+
+He didn’t run; he flowed, stepping into the open space with the deliberate pace of a man who knew exactly where his friends were standing. Torin was already moving, his body a shield around Hobb, who was leaning heavily against the soldier’s chest. Maren guided Nella, her hand firm on the blacksmith’s elbow, her own weight shifting to compensate for the broken axle strapped to her shoulder.
+
+They crossed the open space in a single, fluid motion. Elias kept his eyes on the goblins, who were still staring down the left passage, convinced that the source of the noise was there, not here. He saw the moment their attention wavered, the split second where their fear of the unknown overrode their confusion.
+
+"Now," Elias whispered.
+
+Maren’s hammer flashed. It was not a killing blow, but it was a stunning one. The heavy head connected with the goblin’s knee, sending the creature crashing to the floor with a yelp of pain. The other goblin, the one holding the spear, flinched back, his weapon dropping to the ground with a clatter.
+
+Torin was already at the door. He shoved it open with his shoulder, the old injury screaming in protest, but he held the line. "Elara! Kaelen! Move!"
+
+Elara was already inside, her eyes scanning the room with rapid, precise movements. Kaelen followed, his face pale, his hands trembling slightly, but his steps steady. They entered the room, and the door closed behind them with a heavy thud.
+
+Silence rushed in, thick and suffocating.
+
+Elias turned to face the room. It was larger than the storage chamber, a rectangular space with a single, crude table in the center. On the table sat a pile of stolen goods: a wheel of cheese, a loaf of bread, a handful of silver coins, and a small, leather-bound book.
+
+And behind the table sat Skrit Ironjaw.
+
+He was larger than the others, his skin a mottled green-grey, his eyes sharp and intelligent. He wore a tattered cloak of stolen fur, and a knife was tucked into his belt. He did not look surprised. He looked, Elias realized, disappointed.
+
+"You have my apprentices," Skrit said. His voice was rough, like gravel grinding under a boot. "And my driver. They are... useful."
+
+"They are people," Elias said, his voice steady. "And they are coming with us."
+
+Skrit laughed, a dry, hacking sound. "You think you can just walk out? You think I will let you take my workers? I have a reputation to maintain."
+
+"Your reputation is that of a thief," Maren said, stepping forward. Her hammer was lowered, but her stance was wide, her eyes fixed on Skrit’s hands. "And a coward. You hide in a cellar, stealing grain and livestock, and calling it a trade."
+
+Skrit’s eyes narrowed. "I am a chief. I command this keep. I command this band."
+
+"You command a room," Torin said, his voice low and dangerous. "And you are surrounded by five people who have already broken your traps, silenced your guards, and taken your prisoners. Your command is over, Skrit."
+
+Skrit looked at the five of them, his gaze lingering on Maren’s hammer, on Torin’s sword, on Elias’s calm demeanor. He looked at the door, which was now closed and guarded by Kaelen. He looked at the goblin on the floor, who was picking himself up, whimpering.
+
+He looked at the stolen goods on the table. Then, slowly, he stood up.
+
+He did not reach for his knife. He did not shout. He simply spread his hands, palms out, in a gesture of surrender.
+
+"Take them," Skrit said. "Take the goods. Take the keep. I do not care. But if you harm me, my band will remember. And they will come back."
+
+Elias stepped forward. He placed his hand on Skrit’s shoulder, not a threat, but a firm, physical connection. "No one is coming back," Elias said. "Because there is no band. There is only a group of frightened thieves in a ruined keep. And you are the only one who is not frightened. You are the only one who has the sense to know when to stop."
+
+Skrit looked up at Elias, his eyes wide. For a moment, there was a flicker of something in his gaze: respect, perhaps, or recognition. He saw the truth in Elias’s words. He was not a chief. He was a man who had run out of options.
+
+"Very well," Skrit said. "Take them. But leave me my knife. It is the only thing I have that is truly mine."
+
+Elias looked at Maren. She shrugged. "It’s a cheap thing. But it’s his. Let him keep it."
+
+Elias nodded. "You may keep it."
+
+Skrit’s shoulders dropped, the tension leaving his body. He sat back down on the stool, his hands resting on the table. He looked at the captured goblin, who was now standing in the corner, trembling.
+
+"Go," Skrit said to the goblin. "All of you. Go. This is not your fight. This is not your keep."
+
+The goblin stared at him, confused. "But... Chief..."
+
+"There is no chief," Skrit said, his voice hard. "There are only thieves. And thieves run."
+
+The goblin ran. The door opened and closed, and the sound of shuffling feet faded down the corridor.
+
+Elias looked at Skrit. "Now, the captives."
+
+Skrit nodded. He reached into a drawer in the table and pulled out a small key. He held it out to Elias.
+
+"Take them," Skrit said. "And take the silver. It is yours. It was always yours, in a way. I only stole it from others."
+
+Elias took the key. He looked at the silver coins on the table. They were not enough to buy a new farm, or a new life, or a new world. But they were enough to pay for the work they had done. And that was enough.
+
+"Let's go," Elias said.
+
+They moved out of the room, the door closing behind them. The corridor was empty. The goblins were gone. The keep was silent.
+
+Elias looked at his companions. They were tired, bruised, and exhausted. But they were alive. And they had the people.
+
+"We did it," Kaelen said, his voice barely a whisper.
+
+"We did," Elias confirmed.
+
+They began to walk, their steps slow and steady, moving toward the exit, toward the light, toward the end of the dark.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

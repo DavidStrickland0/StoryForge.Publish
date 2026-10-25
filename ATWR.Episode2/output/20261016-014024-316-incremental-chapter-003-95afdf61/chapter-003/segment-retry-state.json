@@ -1,0 +1,2766 @@
+{
+  "schemaVersion": 1,
+  "settings": {
+    "maxAttemptsPerWording": 3,
+    "maxFragmentRewrites": 3,
+    "totalAttempts": 12
+  },
+  "attempt": 7,
+  "pendingAction": "complete",
+  "unresolvedSegmentIndexes": [
+    22
+  ],
+  "rewriteCounts": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "11": 0,
+    "12": 0,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0,
+    "18": 0,
+    "19": 0,
+    "20": 0,
+    "21": 0,
+    "22": 2,
+    "23": 0,
+    "24": 0,
+    "25": 0,
+    "26": 0,
+    "27": 0,
+    "28": 0,
+    "29": 0,
+    "30": 0,
+    "31": 0,
+    "32": 0,
+    "33": 0,
+    "34": 0,
+    "35": 0,
+    "36": 0,
+    "37": 0,
+    "38": 0,
+    "39": 0,
+    "40": 0,
+    "41": 0,
+    "42": 0,
+    "43": 0,
+    "44": 0,
+    "45": 0,
+    "46": 0,
+    "47": 0,
+    "48": 0,
+    "49": 0,
+    "50": 0,
+    "51": 0,
+    "52": 0,
+    "53": 0,
+    "54": 0,
+    "55": 0,
+    "56": 0,
+    "57": 0,
+    "58": 0,
+    "59": 0,
+    "60": 0,
+    "61": 0,
+    "62": 0,
+    "63": 0,
+    "64": 0,
+    "65": 0,
+    "66": 0,
+    "67": 0,
+    "68": 0,
+    "69": 0,
+    "70": 0,
+    "71": 0,
+    "72": 0,
+    "73": 0,
+    "74": 0,
+    "75": 0,
+    "76": 0,
+    "77": 0,
+    "78": 0,
+    "79": 0,
+    "80": 0,
+    "81": 0,
+    "82": 0,
+    "83": 0,
+    "84": 0,
+    "85": 0,
+    "86": 0,
+    "87": 0,
+    "88": 0,
+    "89": 0,
+    "90": 0,
+    "91": 0,
+    "92": 0,
+    "93": 0,
+    "94": 0,
+    "95": 0,
+    "96": 0,
+    "97": 0,
+    "98": 0,
+    "99": 0,
+    "100": 0,
+    "101": 0,
+    "102": 0,
+    "103": 0,
+    "104": 0,
+    "105": 0,
+    "106": 0,
+    "107": 0,
+    "108": 0,
+    "109": 0,
+    "110": 0,
+    "111": 0,
+    "112": 0,
+    "113": 0,
+    "114": 0,
+    "115": 0,
+    "116": 0,
+    "117": 0,
+    "118": 0,
+    "119": 0,
+    "120": 0,
+    "121": 0,
+    "122": 0,
+    "123": 0,
+    "124": 0,
+    "125": 0,
+    "126": 0,
+    "127": 0,
+    "128": 0,
+    "129": 0,
+    "130": 0,
+    "131": 0,
+    "132": 0,
+    "133": 0,
+    "134": 0
+  },
+  "bestCandidates": {
+    "1": {
+      "attempt": 2,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0001-attempt-02.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Here.",
+            "transcription": "here.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0001-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "4a497c97ab5e0ad8a40c32613fd2aeeed64ea9cacdbd149068065f39d05f132a",
+            "verificationReused": false,
+            "segmentIndex": 1,
+            "chunkIndex": 0,
+            "speakerId": "elias",
+            "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 1,
+        "speakerId": "elias",
+        "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Here,\"",
+        "expectedText": "\"Here,\"",
+        "spokenText": "\"Here,\"",
+        "wasRewritten": false,
+        "transcription": "here.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0001.wav"
+      }
+    },
+    "2": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0002-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 5,
+            "transcribedWordCount": 5,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "he said, his voice low.",
+            "transcription": "He said, his voice low.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0002-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.41
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "d3ae70c3460ac71844bfe356c9442234580ebed98dbaf346e0b135954e483223",
+            "verificationReused": false,
+            "segmentIndex": 2,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 5,
+        "transcribedWordCount": 5,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 2,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " he said, his voice low. ",
+        "expectedText": " he said, his voice low.",
+        "spokenText": " he said, his voice low.",
+        "wasRewritten": true,
+        "transcription": "He said, his voice low.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0002.wav"
+      }
+    },
+    "9": {
+      "attempt": 2,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0009-attempt-02.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Kaelen.",
+            "transcription": "Kailin",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0009-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.04
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "0162cc47401329b9707eb4fa523ae5827dbd29d32ab3923f4c8ffc2d154ea198",
+            "verificationReused": false,
+            "segmentIndex": 9,
+            "chunkIndex": 0,
+            "speakerId": "elias",
+            "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 9,
+        "speakerId": "elias",
+        "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Kaelen,\"",
+        "expectedText": "\"Kaelen,\"",
+        "spokenText": "\"Kaelen,\"",
+        "wasRewritten": false,
+        "transcription": "Kailin",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0009.wav"
+      }
+    },
+    "12": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0012-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 5,
+            "transcribedWordCount": 5,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Enough for one shield, Elias,\"",
+            "transcription": "Enough for one shield, Elias.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0012-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "f0ccaccde7ef07c1d5bcfb14c9580f722ee86dd7f8ba4ef6269e661c0d3f4a31",
+            "verificationReused": false,
+            "segmentIndex": 12,
+            "chunkIndex": 0,
+            "speakerId": "kaelen",
+            "voiceId": "voiceforge-e5f5dd91befa4795a296281cde68f721"
+          }
+        ],
+        "expectedWordCount": 5,
+        "transcribedWordCount": 5,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 12,
+        "speakerId": "kaelen",
+        "voiceId": "voiceforge-e5f5dd91befa4795a296281cde68f721",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Enough for one shield, Elias,\"",
+        "expectedText": "\"Enough for one shield, Elias,\"",
+        "spokenText": "\"Enough for one shield, Elias,\"",
+        "wasRewritten": false,
+        "transcription": "Enough for one shield, Elias.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0012.wav"
+      }
+    },
+    "16": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0016-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Elias said firmly.",
+            "transcription": "Elias said firmly.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0016-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "76209c4c9e30e7ab59fb438debfea4b981ba3ebb57d7ee21aafb3436717f94c3",
+            "verificationReused": false,
+            "segmentIndex": 16,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 16,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Elias said firmly. ",
+        "expectedText": " Elias said firmly.",
+        "spokenText": " Elias said firmly.",
+        "wasRewritten": true,
+        "transcription": "Elias said firmly.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0016.wav"
+      }
+    },
+    "18": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0018-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Understood.",
+            "transcription": "Understood.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0018-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.04
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "d7dc1f09e4b8a661a2f2821b09a3969f935309a805f5a5e2aa95c211e70d8d6c",
+            "verificationReused": false,
+            "segmentIndex": 18,
+            "chunkIndex": 0,
+            "speakerId": "kaelen",
+            "voiceId": "voiceforge-e5f5dd91befa4795a296281cde68f721"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 18,
+        "speakerId": "kaelen",
+        "voiceId": "voiceforge-e5f5dd91befa4795a296281cde68f721",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Understood,\"",
+        "expectedText": "\"Understood,\"",
+        "spokenText": "\"Understood,\"",
+        "wasRewritten": false,
+        "transcription": "Understood.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0018.wav"
+      }
+    },
+    "22": {
+      "attempt": 7,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0022-attempt-07.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Maren.",
+            "transcription": "Marin.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0022-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "478b8d2df6de3a38367e0fcca3c8ada29a28b5b185febb5b01443f2c70d9e4a9",
+            "verificationReused": false,
+            "segmentIndex": 22,
+            "chunkIndex": 0,
+            "speakerId": "elias",
+            "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 22,
+        "speakerId": "elias",
+        "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Maren,\"",
+        "expectedText": "\"Maren,\"",
+        "spokenText": "\"Maren,\"",
+        "wasRewritten": false,
+        "transcription": "Marin.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0022.wav"
+      }
+    },
+    "23": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0023-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Elias said.",
+            "transcription": "Elias said.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0023-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "4368f35e85e8edb9d2fb1ab2d947f01b670c1e62f9ed06863cb0235b41b7cf40",
+            "verificationReused": false,
+            "segmentIndex": 23,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 23,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Elias said. ",
+        "expectedText": " Elias said.",
+        "spokenText": " Elias said.",
+        "wasRewritten": true,
+        "transcription": "Elias said.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0023.wav"
+      }
+    },
+    "25": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0025-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Maren's gaze sharpened.",
+            "transcription": "Maren's gaze sharpened.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0025-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.09
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "51f105e11ac56a0bd81f0f3f66e2d17d2819abea737e40fb1fa8693600c25eae",
+            "verificationReused": false,
+            "segmentIndex": 25,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 25,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\n\nMaren’s gaze sharpened. ",
+        "expectedText": "\n\nMaren's gaze sharpened.",
+        "spokenText": "\n\nMaren's gaze sharpened.",
+        "wasRewritten": true,
+        "transcription": "Maren's gaze sharpened.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0025.wav"
+      }
+    },
+    "31": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0031-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "he decided.",
+            "transcription": "He decided.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0031-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "6e0003f2eefc19a8a2e893aa0eeb09cf40b2db53b01e89e37e2a9112a49ca6a3",
+            "verificationReused": false,
+            "segmentIndex": 31,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 31,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " he decided. ",
+        "expectedText": " he decided.",
+        "spokenText": " he decided.",
+        "wasRewritten": true,
+        "transcription": "He decided.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0031.wav"
+      }
+    },
+    "36": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0036-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"We have the maps,\"",
+            "transcription": "We have the maps.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0036-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.09
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "b55c30ab49aca3187605dfc6220bedf647a6214ead3572f815c3f11842449ed8",
+            "verificationReused": false,
+            "segmentIndex": 36,
+            "chunkIndex": 0,
+            "speakerId": "elias",
+            "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 36,
+        "speakerId": "elias",
+        "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"We have the maps,\"",
+        "expectedText": "\"We have the maps,\"",
+        "spokenText": "\"We have the maps,\"",
+        "wasRewritten": false,
+        "transcription": "We have the maps.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0036.wav"
+      }
+    },
+    "37": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0037-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 5,
+            "transcribedWordCount": 5,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Elias said, tapping the parchment.",
+            "transcription": "Elias said, tapping the parchment.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0037-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.3
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "b140efb494e705af2417e2073ae4b44770891c7109b6c91678fdd38988d8d7a0",
+            "verificationReused": false,
+            "segmentIndex": 37,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 5,
+        "transcribedWordCount": 5,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 37,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Elias said, tapping the parchment. ",
+        "expectedText": " Elias said, tapping the parchment.",
+        "spokenText": " Elias said, tapping the parchment.",
+        "wasRewritten": true,
+        "transcription": "Elias said, tapping the parchment.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0037.wav"
+      }
+    },
+    "42": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0042-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"There's a draft,\"",
+            "transcription": "There's a draft.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0042-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.06
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "85609ffd2046e895f316ffebf1443f21dea7814e2dcde3f1a3f4c235400e3f44",
+            "verificationReused": false,
+            "segmentIndex": 42,
+            "chunkIndex": 0,
+            "speakerId": "elara",
+            "voiceId": "voiceforge-95114a51f31f4f37ab64b84eeb4b87d7"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 42,
+        "speakerId": "elara",
+        "voiceId": "voiceforge-95114a51f31f4f37ab64b84eeb4b87d7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"There’s a draft,\"",
+        "expectedText": "\"There's a draft,\"",
+        "spokenText": "\"There's a draft,\"",
+        "wasRewritten": true,
+        "transcription": "There's a draft.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0042.wav"
+      }
+    },
+    "43": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0043-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "she murmured.",
+            "transcription": "She murmured.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0043-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "a77df9c2611e194049c494c1eb609c805a7f2bf46173917560ac2bc1487c4d2a",
+            "verificationReused": false,
+            "segmentIndex": 43,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 43,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " she murmured. ",
+        "expectedText": " she murmured.",
+        "spokenText": " she murmured.",
+        "wasRewritten": true,
+        "transcription": "She murmured.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0043.wav"
+      }
+    },
+    "45": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0045-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Elias frowned.",
+            "transcription": "Elias frowned.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0045-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "9a42ae7386cec4e10f9e6297471255fc2ffb3e37d9b30aeb3f74307212da0785",
+            "verificationReused": false,
+            "segmentIndex": 45,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 45,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\n\nElias frowned. ",
+        "expectedText": "\n\nElias frowned.",
+        "spokenText": "\n\nElias frowned.",
+        "wasRewritten": true,
+        "transcription": "Elias frowned.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0045.wav"
+      }
+    },
+    "46": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0046-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"A trap?\"",
+            "transcription": "A trap?",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0046-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.09
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "4b36e7a1583c6b3176e04c59c5ec5ff165760e82036392f7ec54c3c5965a9b46",
+            "verificationReused": false,
+            "segmentIndex": 46,
+            "chunkIndex": 0,
+            "speakerId": "elias",
+            "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 46,
+        "speakerId": "elias",
+        "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"A trap?\"\n\n",
+        "expectedText": "\"A trap?\"\n\n",
+        "spokenText": "\"A trap?\"\n\n",
+        "wasRewritten": false,
+        "transcription": "A trap?",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0046.wav"
+      }
+    },
+    "47": {
+      "attempt": 2,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0047-attempt-02.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Maybe.",
+            "transcription": "Maybe.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0047-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "300620b881b9bc99bb5fa8df805ffee46b3b712b946ab40649cb20cd4099f9cc",
+            "verificationReused": false,
+            "segmentIndex": 47,
+            "chunkIndex": 0,
+            "speakerId": "elara",
+            "voiceId": "voiceforge-95114a51f31f4f37ab64b84eeb4b87d7"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 47,
+        "speakerId": "elara",
+        "voiceId": "voiceforge-95114a51f31f4f37ab64b84eeb4b87d7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Maybe,\"",
+        "expectedText": "\"Maybe,\"",
+        "spokenText": "\"Maybe,\"",
+        "wasRewritten": false,
+        "transcription": "Maybe.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0047.wav"
+      }
+    },
+    "48": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0048-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "unhintedTranscription": "Alara said, her voice cautious.",
+            "nameHintTranscription": "Elara said, her voice cautious.",
+            "nameHints": [
+              "Elara"
+            ],
+            "nameHintAccepted": true,
+            "expectedWordCount": 5,
+            "transcribedWordCount": 5,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript-character-name-hint",
+            "expectedText": "Elara said, her voice cautious.",
+            "transcription": "Elara said, her voice cautious.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0048-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.16
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "99ed8394baf780322967a3800ba7c0d32ebd870ac0534db3b435b27bd28de71a",
+            "verificationReused": false,
+            "segmentIndex": 48,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 5,
+        "transcribedWordCount": 5,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 48,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Elara said, her voice cautious. ",
+        "expectedText": " Elara said, her voice cautious.",
+        "spokenText": " Elara said, her voice cautious.",
+        "wasRewritten": true,
+        "transcription": "Elara said, her voice cautious.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0048.wav"
+      }
+    },
+    "51": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0051-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Rhythmic. Like a heartbeat.\"",
+            "transcription": "Rhythmic. Like a heartbeat.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0051-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.6
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "58793d84b993c6eb4c8489c9303f064b934fec4c268bac9c878065e35838106c",
+            "verificationReused": false,
+            "segmentIndex": 51,
+            "chunkIndex": 0,
+            "speakerId": "maren",
+            "voiceId": "voiceforge-ac5fedf3ba1a48d2a67c273a9922ca61"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 51,
+        "speakerId": "maren",
+        "voiceId": "voiceforge-ac5fedf3ba1a48d2a67c273a9922ca61",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Rhythmic. Like a heartbeat.\"",
+        "expectedText": "\"Rhythmic. Like a heartbeat.\"",
+        "spokenText": "\"Rhythmic. Like a heartbeat.\"",
+        "wasRewritten": false,
+        "transcription": "Rhythmic. Like a heartbeat.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0051.wav"
+      }
+    },
+    "53": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0053-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"We'll figure it out,\"",
+            "transcription": "We'll figure it out.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0053-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "d0f4006072b712769e22652aef45dbd78f09ccef4e62224f7a64240cd9d6d118",
+            "verificationReused": false,
+            "segmentIndex": 53,
+            "chunkIndex": 0,
+            "speakerId": "elias",
+            "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 53,
+        "speakerId": "elias",
+        "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"We’ll figure it out,\"",
+        "expectedText": "\"We'll figure it out,\"",
+        "spokenText": "\"We'll figure it out,\"",
+        "wasRewritten": true,
+        "transcription": "We'll figure it out.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0053.wav"
+      }
+    },
+    "54": {
+      "attempt": 3,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0054-attempt-03.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "he said.",
+            "transcription": "he said.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0054-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "e61c400bf1e7e6d19df499ba63f39f226cf8be0f1ff59871699516a0f471691d",
+            "verificationReused": false,
+            "segmentIndex": 54,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 54,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " he said. ",
+        "expectedText": " he said.",
+        "spokenText": " he said.",
+        "wasRewritten": true,
+        "transcription": "he said.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0054.wav"
+      }
+    },
+    "59": {
+      "attempt": 3,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0059-attempt-03.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"We're ready,\"",
+            "transcription": "We're ready.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0059-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.51
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "5f3054f175e7a8c81f48589e5ab264cf4507985f33bfbdebbb884609acabe094",
+            "verificationReused": false,
+            "segmentIndex": 59,
+            "chunkIndex": 0,
+            "speakerId": "elias",
+            "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 59,
+        "speakerId": "elias",
+        "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"We’re ready,\"",
+        "expectedText": "\"We're ready,\"",
+        "spokenText": "\"We're ready,\"",
+        "wasRewritten": true,
+        "transcription": "We're ready.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0059.wav"
+      }
+    },
+    "61": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0061-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Let's go find them.\"",
+            "transcription": "Let's go find them.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0061-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "6f08a86194b00a201622b3c68b0bb87afe6cbbc403b601a772065f1d95846076",
+            "verificationReused": false,
+            "segmentIndex": 61,
+            "chunkIndex": 0,
+            "speakerId": "elias",
+            "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 61,
+        "speakerId": "elias",
+        "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Let’s go find them.\"",
+        "expectedText": "\"Let's go find them.\"",
+        "spokenText": "\"Let's go find them.\"",
+        "wasRewritten": true,
+        "transcription": "Let's go find them.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0061.wav"
+      }
+    },
+    "63": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0063-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Watch this,\"",
+            "transcription": "Watch this.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0063-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.06
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "d951f7ddc9478fb0217a894c51f768350c74ed4f47abe5aef8df396727d25d99",
+            "verificationReused": false,
+            "segmentIndex": 63,
+            "chunkIndex": 0,
+            "speakerId": "elara",
+            "voiceId": "voiceforge-95114a51f31f4f37ab64b84eeb4b87d7"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 63,
+        "speakerId": "elara",
+        "voiceId": "voiceforge-95114a51f31f4f37ab64b84eeb4b87d7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Watch this,\"",
+        "expectedText": "\"Watch this,\"",
+        "spokenText": "\"Watch this,\"",
+        "wasRewritten": false,
+        "transcription": "Watch this.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0063.wav"
+      }
+    },
+    "65": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0065-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"That's not a tripwire,\"",
+            "transcription": "That's not a tripwire.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0065-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.08
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "7a260aa2a7da4d6f5bcc1e55adb7446375aaa0be512fcc4e47d2c1ad65200f5e",
+            "verificationReused": false,
+            "segmentIndex": 65,
+            "chunkIndex": 0,
+            "speakerId": "elara",
+            "voiceId": "voiceforge-95114a51f31f4f37ab64b84eeb4b87d7"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 65,
+        "speakerId": "elara",
+        "voiceId": "voiceforge-95114a51f31f4f37ab64b84eeb4b87d7",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"That’s not a tripwire,\"",
+        "expectedText": "\"That's not a tripwire,\"",
+        "spokenText": "\"That's not a tripwire,\"",
+        "wasRewritten": true,
+        "transcription": "That's not a tripwire.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0065.wav"
+      }
+    },
+    "70": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0070-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Maren said.",
+            "transcription": "Marin said.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0070-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "76e215a40db93ceca059bc2b5c423b717c214188fab3417df0476e3840d7ab11",
+            "verificationReused": false,
+            "segmentIndex": 70,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 70,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Maren said. ",
+        "expectedText": " Maren said. ",
+        "spokenText": " Maren said. ",
+        "wasRewritten": false,
+        "transcription": "Marin said.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0070.wav"
+      }
+    },
+    "73": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0073-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Here.",
+            "transcription": "Here.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0073-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "754d837e1978a4058d0d40cc3da82a1bb047f451a8380d6d3bc97f731cfcdaf0",
+            "verificationReused": false,
+            "segmentIndex": 73,
+            "chunkIndex": 0,
+            "speakerId": "maren",
+            "voiceId": "voiceforge-ac5fedf3ba1a48d2a67c273a9922ca61"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 73,
+        "speakerId": "maren",
+        "voiceId": "voiceforge-ac5fedf3ba1a48d2a67c273a9922ca61",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Here,\"",
+        "expectedText": "\"Here,\"",
+        "spokenText": "\"Here,\"",
+        "wasRewritten": false,
+        "transcription": "Here.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0073.wav"
+      }
+    },
+    "79": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0079-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Maren corrected.",
+            "transcription": "Marin corrected.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0079-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.11
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "ca384e423b58347611d98d8f8cc8984ac6eb382cc5d96dda038fd4523a90a72c",
+            "verificationReused": false,
+            "segmentIndex": 79,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 79,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Maren corrected. ",
+        "expectedText": " Maren corrected. ",
+        "spokenText": " Maren corrected. ",
+        "wasRewritten": false,
+        "transcription": "Marin corrected.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0079.wav"
+      }
+    },
+    "83": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0083-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Maren nodded.",
+            "transcription": "Marin nodded.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0083-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "285743d729d1a8591e9f3a2c5733ab3b498ba0ea7174ffb853b391bc1cb4cf12",
+            "verificationReused": false,
+            "segmentIndex": 83,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 83,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\n\nMaren nodded. ",
+        "expectedText": "\n\nMaren nodded. ",
+        "spokenText": "\n\nMaren nodded. ",
+        "wasRewritten": false,
+        "transcription": "Marin nodded.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0083.wav"
+      }
+    },
+    "86": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0086-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "There.",
+            "transcription": "There.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0086-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "95d782dd5cde04a544047def54f99b792f57c094b1ad6eb36fbd6987a105daa8",
+            "verificationReused": false,
+            "segmentIndex": 86,
+            "chunkIndex": 0,
+            "speakerId": "maren",
+            "voiceId": "voiceforge-ac5fedf3ba1a48d2a67c273a9922ca61"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 86,
+        "speakerId": "maren",
+        "voiceId": "voiceforge-ac5fedf3ba1a48d2a67c273a9922ca61",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"There,\"",
+        "expectedText": "\"There,\"",
+        "spokenText": "\"There,\"",
+        "wasRewritten": false,
+        "transcription": "There.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0086.wav"
+      }
+    },
+    "92": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0092-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Good work,\"",
+            "transcription": "Good work.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0092-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.06
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "e28e3a4f6ab21a036ad9a1b4f6c9a7eba22be0e9c8f494ae7fc6c225b74e66ce",
+            "verificationReused": false,
+            "segmentIndex": 92,
+            "chunkIndex": 0,
+            "speakerId": "torin",
+            "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 92,
+        "speakerId": "torin",
+        "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Good work,\"",
+        "expectedText": "\"Good work,\"",
+        "spokenText": "\"Good work,\"",
+        "wasRewritten": false,
+        "transcription": "Good work.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0092.wav"
+      }
+    },
+    "93": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0093-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "he said.",
+            "transcription": "He said.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0093-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "03dbdaf9a91f34d7fa7b2026fbff18a6b1b4d38dfc250146cfa2867206d9e7e3",
+            "verificationReused": false,
+            "segmentIndex": 93,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 93,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " he said. ",
+        "expectedText": " he said. ",
+        "spokenText": " he said. ",
+        "wasRewritten": false,
+        "transcription": "He said.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0093.wav"
+      }
+    },
+    "97": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0097-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "he said quietly.",
+            "transcription": "He said quietly.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0097-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.07
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "49ef093685029e0db6cdcaa33515b4e334b25433eca1633086e05afcc53b4498",
+            "verificationReused": false,
+            "segmentIndex": 97,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 97,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " he said quietly. ",
+        "expectedText": " he said quietly. ",
+        "spokenText": " he said quietly. ",
+        "wasRewritten": false,
+        "transcription": "He said quietly.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0097.wav"
+      }
+    },
+    "100": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0100-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 4,
+            "transcribedWordCount": 4,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"We go through now,\"",
+            "transcription": "We go through now.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0100-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "bda3a5b73e6f446294f1e121adabb511c45d2aceb25c7d49d4b014de2ee778b7",
+            "verificationReused": false,
+            "segmentIndex": 100,
+            "chunkIndex": 0,
+            "speakerId": "elias",
+            "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c"
+          }
+        ],
+        "expectedWordCount": 4,
+        "transcribedWordCount": 4,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 100,
+        "speakerId": "elias",
+        "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"We go through now,\"",
+        "expectedText": "\"We go through now,\"",
+        "spokenText": "\"We go through now,\"",
+        "wasRewritten": false,
+        "transcription": "We go through now.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0100.wav"
+      }
+    },
+    "101": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0101-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "unhintedTranscription": "Aaliyah said.",
+            "nameHintTranscription": "Elias said.",
+            "nameHints": [
+              "Elias"
+            ],
+            "nameHintAccepted": true,
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript-character-name-hint",
+            "expectedText": "Elias said.",
+            "transcription": "Elias said.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0101-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "4dfd53fe85345bb1f475e7d500bd99cc7f82eab9b75a3f2796a34cdb3c21ec20",
+            "verificationReused": false,
+            "segmentIndex": 101,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 101,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Elias said. ",
+        "expectedText": " Elias said. ",
+        "spokenText": " Elias said. ",
+        "wasRewritten": false,
+        "transcription": "Elias said.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0101.wav"
+      }
+    },
+    "104": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0104-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Lead the way,\"",
+            "transcription": "Lead the way.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0104-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "32830e4f7fd7a1290e8ee38f18e0c9fba348500f2851f2ae8dd15b7e30abfe11",
+            "verificationReused": false,
+            "segmentIndex": 104,
+            "chunkIndex": 0,
+            "speakerId": "maren",
+            "voiceId": "voiceforge-ac5fedf3ba1a48d2a67c273a9922ca61"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 104,
+        "speakerId": "maren",
+        "voiceId": "voiceforge-ac5fedf3ba1a48d2a67c273a9922ca61",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Lead the way,\"",
+        "expectedText": "\"Lead the way,\"",
+        "spokenText": "\"Lead the way,\"",
+        "wasRewritten": false,
+        "transcription": "Lead the way.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0104.wav"
+      }
+    },
+    "106": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0106-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Left.",
+            "transcription": "Left.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0106-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.04
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "7171ffca57810d8fb99709c29d9186300021c0c27594f2e6a1ac5a63f29b09de",
+            "verificationReused": false,
+            "segmentIndex": 106,
+            "chunkIndex": 0,
+            "speakerId": "torin",
+            "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 106,
+        "speakerId": "torin",
+        "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Left,\"",
+        "expectedText": "\"Left,\"",
+        "spokenText": "\"Left,\"",
+        "wasRewritten": false,
+        "transcription": "Left.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0106.wav"
+      }
+    },
+    "110": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0110-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"And the right?\"",
+            "transcription": "And the right?",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0110-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.05
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "bf21d3640ec2efdc5834bb973b2eb86dedb280b61b03788b9ca181ba38648d1e",
+            "verificationReused": false,
+            "segmentIndex": 110,
+            "chunkIndex": 0,
+            "speakerId": "elias",
+            "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 110,
+        "speakerId": "elias",
+        "voiceId": "voiceforge-44ed912d19024a9b84093d06026cd24c",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"And the right?\"\n\n",
+        "expectedText": "\"And the right?\"\n\n",
+        "spokenText": "\"And the right?\"\n\n",
+        "wasRewritten": false,
+        "transcription": "And the right?",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0110.wav"
+      }
+    },
+    "111": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0111-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Direct.",
+            "transcription": "direct.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0111-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.1
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "f26ec2a95ed683f2f9486cdb973892276913417922bbceb7f75f19d9202d055e",
+            "verificationReused": false,
+            "segmentIndex": 111,
+            "chunkIndex": 0,
+            "speakerId": "torin",
+            "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 111,
+        "speakerId": "torin",
+        "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Direct,\"",
+        "expectedText": "\"Direct,\"",
+        "spokenText": "\"Direct,\"",
+        "wasRewritten": false,
+        "transcription": "direct.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0111.wav"
+      }
+    },
+    "112": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0112-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Torin replied.",
+            "transcription": "Torrin replied.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0112-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.05
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "0ec469edc133665b8e0f35c5bef5671a6c19295ca276b3f0979e9f3c789c91fa",
+            "verificationReused": false,
+            "segmentIndex": 112,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 112,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Torin replied. ",
+        "expectedText": " Torin replied. ",
+        "spokenText": " Torin replied. ",
+        "wasRewritten": false,
+        "transcription": "Torrin replied.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0112.wav"
+      }
+    },
+    "117": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0117-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Here's the plan,\"",
+            "transcription": "Here's the plan.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0117-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "ba6a35a52078b2e016d2e6c97547d531fea2fb30bff8a186457a3ec7483354d7",
+            "verificationReused": false,
+            "segmentIndex": 117,
+            "chunkIndex": 0,
+            "speakerId": "torin",
+            "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 117,
+        "speakerId": "torin",
+        "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Here’s the plan,\"",
+        "expectedText": "\"Here's the plan,\"",
+        "spokenText": "\"Here's the plan,\"",
+        "wasRewritten": true,
+        "transcription": "Here's the plan.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0117.wav"
+      }
+    },
+    "118": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0118-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "he said.",
+            "transcription": "he said.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0118-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "2f7e58fe531a8428e8e8b9947bc26415181540f0c987f276005ef4d820fec8aa",
+            "verificationReused": false,
+            "segmentIndex": 118,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 118,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " he said. ",
+        "expectedText": " he said. ",
+        "spokenText": " he said. ",
+        "wasRewritten": false,
+        "transcription": "he said.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0118.wav"
+      }
+    },
+    "120": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0120-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Elias nodded.",
+            "transcription": "Elias nodded.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0120-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.01,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "86da9decd277010dc3c91c379288404ca4d9f340b82c624c6ac2fce37a957950",
+            "verificationReused": false,
+            "segmentIndex": 120,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 120,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\n\nElias nodded. ",
+        "expectedText": "\n\nElias nodded. ",
+        "spokenText": "\n\nElias nodded. ",
+        "wasRewritten": false,
+        "transcription": "Elias nodded.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0120.wav"
+      }
+    },
+    "122": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0122-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 5,
+            "transcribedWordCount": 5,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"Then we bring them back,\"",
+            "transcription": "Then we bring them back.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0122-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.06
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "20f04a4e23c94c4e2abb32e769337e2162405c011eda4e8cf404a4d9e3aee7ad",
+            "verificationReused": false,
+            "segmentIndex": 122,
+            "chunkIndex": 0,
+            "speakerId": "torin",
+            "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1"
+          }
+        ],
+        "expectedWordCount": 5,
+        "transcribedWordCount": 5,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 122,
+        "speakerId": "torin",
+        "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Then we bring them back,\"",
+        "expectedText": "\"Then we bring them back,\"",
+        "spokenText": "\"Then we bring them back,\"",
+        "wasRewritten": false,
+        "transcription": "Then we bring them back.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0122.wav"
+      }
+    },
+    "123": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0123-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Torin said.",
+            "transcription": "Torrin said.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0123-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "aec256709be7ef96d1fadbbd8cae9efd1504fb618b8199b71ee439fcb8a5a5db",
+            "verificationReused": false,
+            "segmentIndex": 123,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 123,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Torin said. ",
+        "expectedText": " Torin said. ",
+        "spokenText": " Torin said. ",
+        "wasRewritten": false,
+        "transcription": "Torrin said.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0123.wav"
+      }
+    },
+    "127": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0127-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 1,
+            "transcribedWordCount": 1,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Exactly.",
+            "transcription": "Exactly.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0127-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "af5785453d28056f72ff7d07706d741647d160c86acd9573d5dd48f239933cd0",
+            "verificationReused": false,
+            "segmentIndex": 127,
+            "chunkIndex": 0,
+            "speakerId": "torin",
+            "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1"
+          }
+        ],
+        "expectedWordCount": 1,
+        "transcribedWordCount": 1,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 127,
+        "speakerId": "torin",
+        "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"Exactly,\"",
+        "expectedText": "\"Exactly,\"",
+        "spokenText": "\"Exactly,\"",
+        "wasRewritten": false,
+        "transcription": "Exactly.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0127.wav"
+      }
+    },
+    "128": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0128-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Torin said.",
+            "transcription": "Torrin said.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0128-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.02,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "622d9bc88f4e7394f0c2b868ee79198ed549a129ca9f6899ab6ca6f9649c2ef3",
+            "verificationReused": false,
+            "segmentIndex": 128,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 128,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Torin said. ",
+        "expectedText": " Torin said. ",
+        "spokenText": " Torin said. ",
+        "wasRewritten": false,
+        "transcription": "Torrin said.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0128.wav"
+      }
+    },
+    "131": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0131-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 3,
+            "transcribedWordCount": 3,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "\"The storage chamber,\"",
+            "transcription": "the storage chamber.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0131-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.03
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "28fce917bae606e2ad27d57bccd962dc80b0481b5d9b06e27a5ad8067fcfbfec",
+            "verificationReused": false,
+            "segmentIndex": 131,
+            "chunkIndex": 0,
+            "speakerId": "torin",
+            "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1"
+          }
+        ],
+        "expectedWordCount": 3,
+        "transcribedWordCount": 3,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 131,
+        "speakerId": "torin",
+        "voiceId": "voiceforge-5ade5ba15b5c47ba9b134d98ad7ef4d1",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": "\"The storage chamber,\"",
+        "expectedText": "\"The storage chamber,\"",
+        "spokenText": "\"The storage chamber,\"",
+        "wasRewritten": false,
+        "transcription": "the storage chamber.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0131.wav"
+      }
+    },
+    "132": {
+      "attempt": 1,
+      "score": [
+        0.0,
+        0,
+        0
+      ],
+      "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/short-utterance-candidates/segment-0132-attempt-01.wav",
+      "verification": {
+        "chunks": [
+          {
+            "expectedWordCount": 2,
+            "transcribedWordCount": 2,
+            "editDistance": 0,
+            "wordErrorRate": 0.0,
+            "status": "pass",
+            "verificationMode": "transcript",
+            "expectedText": "Torin whispered.",
+            "transcription": "Torrin whispered.",
+            "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0132-chunk-0000.wav",
+            "audioQuality": {
+              "leadingSilenceSeconds": 0.03,
+              "trailingSilenceSeconds": 0.03,
+              "maximumSilenceSeconds": 0.06
+            },
+            "expectedCurrencyAmountsCents": [],
+            "transcribedCurrencyAmountsCents": [],
+            "verificationPolicy": "ddae432fbec14f1994113670a5777f6ea0ff7e9a93ba3404b501fe703132f83a",
+            "audioSha256": "9db56841402695523c8b351b1344ba8c6f323a9f26a7b39014acbca517f28e66",
+            "verificationReused": false,
+            "segmentIndex": 132,
+            "chunkIndex": 0,
+            "speakerId": "narrator",
+            "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287"
+          }
+        ],
+        "expectedWordCount": 2,
+        "transcribedWordCount": 2,
+        "editDistance": 0,
+        "wordErrorRate": 0.0,
+        "segmentIndex": 132,
+        "speakerId": "narrator",
+        "voiceId": "voiceforge-4d8a5aa0178d473eaab0dc09f32ad287",
+        "status": "pass",
+        "verificationMode": "transcript",
+        "sourceText": " Torin whispered. ",
+        "expectedText": " Torin whispered. ",
+        "spokenText": " Torin whispered. ",
+        "wasRewritten": false,
+        "transcription": "Torrin whispered.",
+        "audioPath": "/books/output/20261016-014024-316-incremental-chapter-003-95afdf61/chapter-003/segment-0132.wav"
+      }
+    }
+  },
+  "completed": true,
+  "unresolvedChunks": [],
+  "pronunciationFingerprint": "b6eaa88269d64b23f3b7b259490476c399e066bcdd919f6c8c0d2559394c675c",
+  "selectiveChunkRetryVersion": 1,
+  "recognitionRecoveryVersion": 1
+}

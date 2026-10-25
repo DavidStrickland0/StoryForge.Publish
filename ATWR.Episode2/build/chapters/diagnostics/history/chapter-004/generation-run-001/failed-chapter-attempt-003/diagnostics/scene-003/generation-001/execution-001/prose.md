@@ -1,0 +1,3 @@
+Maren pushed open the heavy wooden door and stepped into the next chamber beyond. The air inside was colder still, carrying a faint, metallic scent of blood and fear that clung to the stone walls like oil. She did not comment on the chill; it was just another variable in the equation of survival. Her boots made no sound on the worn flagstones as she moved forward, her weight shifting slightly to compensate for the broken cart axle strapped to her shoulder and the lingering ache in her lower back.
+
+Elias followed close behind, his eyes scanning the room for anything out of place. Torin flanked them, checking the perimeter while Elara slipped past Maren, pulling a small lantern from her pack and placing it on the nearest crate to illuminate the

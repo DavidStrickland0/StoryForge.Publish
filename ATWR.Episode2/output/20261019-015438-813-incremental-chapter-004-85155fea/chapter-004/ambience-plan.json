@@ -1,0 +1,47 @@
+{
+  "version": 3,
+  "fingerprint": "1783e0b7087969bb97f7dbc7455e350cb8b10363d61f70648a920ba94268f379",
+  "model": "qwen3.5:9b",
+  "cues": [
+    {
+      "startSegment": 0,
+      "endSegment": 32,
+      "tags": [
+        "indoor",
+        "stone"
+      ],
+      "setting": "dark corridor and junction",
+      "prompt": "low rumble of distant dripping water, faint creaking of settling stone walls, soft whoosh of cold draft air",
+      "evidence": "The corridor narrowed, the ceiling dropping until Torin had to tilt his head back to avoid the rough-hewn flagstones. The air grew heavier, thick with the scent of damp rot and something sharper, like rusted iron.",
+      "intensity": "soft"
+    },
+    {
+      "startSegment": 44,
+      "endSegment": 89,
+      "tags": [
+        "fire",
+        "indoors"
+      ],
+      "setting": "small room with dying fire and damp air",
+      "prompt": "soft crackling of embers and low hiss of smoke in a cramped stone chamber",
+      "evidence": "The fire was dying down, the embers glowing red in the darkness. The air was still cold, still damp.",
+      "intensity": "soft"
+    },
+    {
+      "startSegment": 154,
+      "endSegment": 156,
+      "tags": [
+        "indoors",
+        "stone"
+      ],
+      "setting": "interior keep corridor",
+      "prompt": "soft scrape of boots, rustle of cloth",
+      "evidence": "There was only the soft scrape of boots, the rustle of cloth, and the quiet, focused intensity of five people who understood that their survival depended on each other's competence.",
+      "intensity": "moderate"
+    }
+  ],
+  "warnings": [
+    "Batch 1: unresolved cues omitted after correction attempts; retained 1 valid cues. Cue 1: Cue 32-43 requires an exact evidence quotation from its own source range. Rejected evidence: '\"Fire,\" Torin whispered. \"A small fire. And... voices.\" Elias moved past him, stepping carefully into the new space. The chamber was small, circular, and cluttered with the debris of goblin life.'. Copy a quotation directly from the supplied source segments.",
+    "Batch 3: unresolved cues omitted after correction attempts; retained 0 valid cues. Cue 1: Cue 90-153 requires an exact evidence quotation from its own source range. Rejected evidence: '\"They\\'re shouting. Not at us. At each other. I hear the clatter of metal on metal... One of them is crying. A high, thin sound.\" (segments 116-117)'. Copy a quotation directly from the supplied source segments."
+  ]
+}

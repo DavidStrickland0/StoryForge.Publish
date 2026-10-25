@@ -1,0 +1,52 @@
+﻿{
+  "ValidationProtocolVersion": 2,
+  "ContinuityProtocolVersion": 1,
+  "HasTechnicalFailures": false,
+  "Validations": [
+    {
+      "FindingIndex": 0,
+      "Disposition": 2,
+      "Evidence": "The chapter repeats the exact sequence of bypassing the pressure plate trap and slipping past the goblin guard that was completed in Chapter 3. The historical prose from Chapter 3 explicitly shows Maren removing the loose stone, Elara confirming the ward is broken, and the party moving through the door without triggering alarms. The candidate finding correctly identifies this as a substantial repetition of completed narrative work rather than progression. This violates the rule against replaying",
+      "Reason": "The chapter substantially re-performs the already completed narrative work of bypassing the pressure plate trap and slipping past the goblin guard from Chapter 3. The primary action repeats these events instead of progressing to the rescue or escape."
+    },
+    {
+      "FindingIndex": 1,
+      "Disposition": 2,
+      "Evidence": "The chapter\u0027s primary action is spent recreating the infiltration steps that were already completed in Chapter 3, rather than advancing toward the NextMilestone of locating and rescuing the captives. The text states \u0027They had bypassed the trap. They had bypassed the guard... Now, they stood before the door to the storage chamber,\u0027 but then proceeds to describe the rescue action itself as if it were a new event, ignoring that the infiltration phase is complete. This treats completed work as if it",
+      "Reason": "The chapter ignores the active Short arc\u0027s NextMilestone (locating captives) by spending its primary action delaying an available next step. It recreates the actions that produced the current state of having bypassed defenses rather than advancing to extraction."
+    },
+    {
+      "FindingIndex": 2,
+      "Disposition": 0,
+      "Evidence": "The finding claims Elara uses quartz dust from her pocket, contradicting Canon which states the three working quartz fragments remain at the closed shrine in Episode 1 and are not in her pack. However, the chapter text explicitly establishes that Elara has a \u0027vial of quartz dust\u0027 and she pulls it from her pocket to test the stone. The Canon restriction (\u0027The three working quartz fragments remain at the closed shrine in Episode 1; they are not in her pack\u0027) refers specifically to the *working* or",
+      "Reason": "The finding is Dismissed because the chapter text explicitly establishes that Elara possesses a \u0027vial of quartz dust\u0027 and uses it from her pocket. The Canon restriction states that the \u0027three working quartz fragments remain at the closed shrine,\u0027 but this does not preclude the existence of other, non-working quartz dust or samples in her pack for testing purposes. The chapter\u0027s own continuity evidence (Finalized Chapter 3) confirms Elara has a \u0027quartz dust vial\u0027 and uses it to test the floor. A "
+    },
+    {
+      "FindingIndex": 3,
+      "Disposition": 2,
+      "Evidence": "The chapter introduces a sudden combat interruption (\u0027The shrill scream tore through the damp air...\u0027) in the final paragraphs without prior buildup or meaningful change in circumstances. This violates the rule against manufacturing artificial suspense or escalation merely to create dramatic endings. The scream and subsequent action appear only at the end, serving as an unearned cliffhanger rather than a natural progression of the narrative.",
+      "Reason": "The chapter manufactures escalation by introducing a new attack (the shrill scream) and an imminent threat solely to create artificial momentum at the ending, without earning it through the chapter\u0027s progression."
+    },
+    {
+      "FindingIndex": 4,
+      "Disposition": 0,
+      "Evidence": "The chapter does not resolve the entire rescue arc (which spans Chapters 4-6) but rather completes its specific objective for Chapter 4: locating the captives and initiating their extraction. The ResolutionCriteria for the Short arc (medium-001-009-short-2) are \u0027The party neutralizes the goblin defenses, triggers or avoids traps, and locates the storage chamber where the captives are held.\u0027 This chapter successfully achieves that specific milestone. The fact that the goblin band is not fully \u0027cr",
+      "Reason": "The finding claims the chapter fails to resolve an arc because it does not end with the defeat of the goblin band or capture of Skrit Ironjaw. However, the Story-Arcs.json defines the Short arc (medium-001-009-short-2) as spanning Chapters 4 through 6, with a TargetChapter of 6 and an Objective to \u0027Infiltrate the keep, overcome hazards, and reach the captives.\u0027 The chapter successfully completes this specific objective by locating the storage chamber and freeing Nella and Hobb. The finding confl"
+    },
+    {
+      "FindingIndex": 5,
+      "Disposition": 0,
+      "Evidence": "The candidate finding claims a financial contradiction because Chapter 4 describes the party moving through the keep with no mention of having received an advance payment, despite Chapter 1 stating \u0027The party agreed to spend the advance payment on supplies before leaving.\u0027 However, this claim is unsupported by the supplied text. The historical prose for Chapter 3 (Finalized Continuity Evidence) explicitly states: \u0027Elias now holds a signed contract and a pouch containing exactly fifty gold pieces",
+      "Reason": "The finding asserts that no money was received or deposited into possession. This contradicts the Finalized Continuity Evidence for Chapter 1, which establishes that Elias possesses a verified purse of fifty gold pieces after signing the contract. The narrative in Chapter 3 confirms they are carrying this pouch (\u0027Elias now holds a signed contract and a pouch containing exactly fifty gold pieces\u0027). The absence of a specific scene showing them buying supplies in Chapter 4 does not constitute a \u0027sp"
+    },
+    {
+      "FindingIndex": 6,
+      "Disposition": 0,
+      "Evidence": "The finding claims a contradiction where Maren uses her broken cart axle to pry open a door while it is strapped to her shoulder, contradicting the established limitation that the injury affects her mobility. However, the chapter text explicitly states: \u0027She used the flat head of the hammer to pry at the edge of the door.\u0027 The candidate finding incorrectly attributes the action of prying the door to the axle (\u0027using the axle to pry open a door\u0027) rather than the hammer. The text confirms she uses",
+      "Reason": "The claimed problem is false because the evidence cited in the finding misidentifies the tool used for prying. The chapter explicitly states \u0027She used the flat head of the hammer to pry at the edge of the door,\u0027 not the axle. The axle is described as creaking against her shoulder, but it is not being used as a lever or tool for prying in this scene. Therefore, there is no contradiction between the axle\u0027s presence and her ability to perform physical tasks; she simply uses her hammer for prying."
+    }
+  ],
+  "Model": "qwen3.5:9b",
+  "Duration": "00:05:45.6857942",
+  "HasBlockingFindings": true
+}

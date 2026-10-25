@@ -1,0 +1,83 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 4.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":4,"ViewpointCharacterId":"Elias Thorne","Objective":"The party navigates the final stretch of the upper corridor, bypasses a secondary mechanical trap, and reaches the junction leading to the cellar levels, establishing their tactical roles and physical constraints.","IntendedChange":"The group transitions from active infiltration to a state of heightened alert at the cellar junction, with Maren\u0027s injury exacerbated and Kaelen\u0027s reserves further depleted, while the goblins remain unaware of their exact location.","PacingPosture":3,"ProhibitedPatterns":["Replaying the entry through the broken outer wall or the initial guard post neutralization, as these events are already established in Chapter 3.","Replaying the neutralization of the first pressure plate trap, which was already resolved in Chapter 3.","Introducing a confrontation with Skrit Ironjaw or the rescue of the captives, which are reserved for later chapters.","Using Kaelen\u0027s magic for movement or light beyond his established limit of one shield, as this contradicts his established magical depletion."],"Scenes":[{"Sequence":1,"Purpose":"The party navigates the narrow, damp corridor toward the cellar junction, with Torin leading and Maren struggling with her injury, while Elara identifies a secondary trap mechanism.","IntendedChange":"The group reaches the threshold of the cellar junction, with Maren\u0027s pain visibly worsening and Elara having identified a complex trap that requires careful bypass.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Elara"]},{"Sequence":2,"Purpose":"Elias coordinates the bypass of the secondary trap, delegating specific tasks to Kaelen and Elara, while Maren asserts her competence by finding a practical way to contribute despite her injury.","IntendedChange":"The trap is successfully bypassed without triggering an alarm, with Kaelen\u0027s magical reserves further depleted and Maren\u0027s injury exacerbated, solidifying the party\u0027s professional respect and tactical roles.","FocusCharacterIds":["Elias Thorne","Kaelen","Elara","Maren"]},{"Sequence":3,"Purpose":"The party reaches the junction leading to the cellar levels, assessing the two available routes and choosing the safer, slower path, while the goblins remain unaware of their presence.","IntendedChange":"The group stands at the junction, having successfully bypassed the initial defenses but facing a choice of routes into the cellar levels, with Kaelen exhausted, Maren in pain, and the goblins aware of their presence.","FocusCharacterIds":["Elias Thorne","Torin","Kaelen","Maren","Elara"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Elias coordinates the bypass of the secondary trap, delegating specific tasks to Kaelen and Elara, while Maren asserts her competence by finding a practical way to contribute despite her injury.","IntendedChange":"The trap is successfully bypassed without triggering an alarm, with Kaelen\u0027s magical reserves further depleted and Maren\u0027s injury exacerbated, solidifying the party\u0027s professional respect and tactical roles.","FocusCharacterIds":["Elias Thorne","Kaelen","Elara","Maren"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The party reaches the junction leading to the cellar levels, assessing the two available routes and choosing the safer, slower path, while the goblins remain unaware of their presence.","IntendedChange":"The group stands at the junction, having successfully bypassed the initial defenses but facing a choice of routes into the cellar levels, with Kaelen exhausted, Maren in pain, and the goblins aware of their presence.","FocusCharacterIds":["Elias Thorne","Torin","Kaelen","Maren","Elara"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":4,"CompletedSceneSequence":1,"Location":"The junction leading to the cellar levels","TimeContext":"Night; rain falling outside","PresentCharacterIds":["Elias Thorne","Torin","Maren","Elara"],"PhysicalConditions":["Maren is carrying a broken cart axle across her shoulders, sustaining pain and strain on her injured leg/shoulder.","The corridor beyond the junction is dark and damp.","A hairline fracture in the masonry has been cleared to allow passage without triggering a trap."],"KnowledgeEstablished":["Elara identified a secondary mechanical trap involving a hidden latch, pulley system, and weight-sensitive trigger beneath the floor slab at the junction.","The trap was bypassed by slipping through a hairline fracture in the wall rather than breaking stone or using magic.","The mechanism is sensitive to uneven weight distribution, vibrations, and sound.","No magical residue was found on the trap mechanism; it relies on raw engineering."],"DecisionsMade":["Elias decided not to force the wall open but to find an architectural gap.","The party chose to slip through the cleared hairline fracture in the masonry.","Maren agreed to hold the axle steady while Elias inspected for alternate routes."],"PossessionChanges":[],"RelationshipChanges":["Torin expressed approval of the successful bypass.","Maren asserted her competence and ability to manage her injury without slowing the group."],"CompletedActions":["Torin led the party through the narrow corridor to the junction.","Elara inspected the floor and identified the hidden trap mechanism.","Elias used quartz dust to reveal energy residue, confirming the trap was mechanical.","The party cleared debris from a hairline fracture in the wall.","The party slipped through the fracture to the other side of the junction without triggering the trap."],"UnresolvedImmediateAction":"The party stands on the far side of the junction, having successfully bypassed the secondary trap, ready to assess the two available routes into the cellar levels.","ContinuationPosition":"The group is positioned at the threshold of the cellar junction, looking toward the darkened corridor beyond where they must choose a route. Maren is managing her pain while holding the axle, and Elara has identified the next potential hazard.","ProhibitedRepetition":["Repeating the inspection of the floor for the trap mechanism.","Repeating the discovery of the hairline fracture in the wall.","Repeating the act of clearing debris from the fracture.","Repeating the decision to slip through the fracture rather than breaking stone."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+"The fracture is wide enough," Elias said, his voice cutting through the low murmur of rain against the roof. He held up a lantern shield by his own light source, keeping the beam steady on the jagged edge where the stone had been cleared. "It leads down to the cellar levels. But before we commit to stepping into that darkness, Elara, finish your scan of the threshold."
+
+Elara knelt beside the gap, her fingers trembling slightly as she brushed a loose shard of chalk from the stone floor. She didn't look at Elias; her eyes remained fixed on the intersection of the corridor walls where the hairline fracture met the main path. "There's a secondary mechanism here," she murmured, pulling a small coil of brass wire from her satchel. "It runs along the ceiling. If we walk directly over the fracture without compensating for the weight shift, it trips a pulley system hidden behind the false paneling."
+
+Maren grunted, shifting the broken cart axle so that the splintered wood settled deeper into her shoulder straps. The pain flared hot and sharp, but she didn't complain again. She kept her head down, watching the wet flagstones reflect their lantern light. "Then we don't walk over it," she said simply. "We use the wall on the left. That's solid stone. No wards there that I can feel."
+
+Torin nodded from the rear of the group, his hand resting lightly on his sword hilt. He hadn't spoken much since they entered the junction, but his silence was heavy with agreement. He moved forward now, testing the balance of the broken cart axle against his own stride. "Lead the way," he said to Elias.
+
+Elias stepped aside, letting Torin pass through the narrow passage first. Behind him, Maren followed, her movements measured and deliberate. She adjusted her grip on the hammer
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.

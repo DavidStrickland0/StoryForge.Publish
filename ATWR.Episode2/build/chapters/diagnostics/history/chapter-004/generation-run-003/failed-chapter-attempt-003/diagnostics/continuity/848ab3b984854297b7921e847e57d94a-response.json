@@ -1,0 +1,10 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan for Chapter 4 attempts to replay events that have already been finalized in Chapter 3. Specifically, the plan's objective and scenes describe the party entering the keep, neutralizing the guard post/alarm, and navigating the first trapped passage to reach the junction. However, the finalized evidence for Chapter 3 (Scene 3) explicitly states that the party has already entered the keep, bypassed the trap (via Maren removing the loose stone), passed the junction, and is currently frozen in the storage chamber observing a goblin. The 'CurrentPhase' in the active arc metadata is also stale, claiming the party is outside, which contradicts the finalized prose. The candidate plan effectively restarts the infiltration sequence that was completed in the previous chapter.",
+  "evidence": [
+    "FINALIZED CHAPTER 3; SHA256 4852B2C8C0061F9285B59C6AEB2C2B5F533B7AFC0FAE755E0E2CBFEFF5A33A0C: \"Location\":\"Storage chamber within the keep\"",
+    "FINALIZED CHAPTER 3; SHA256 4852B2C8C0061F9285B59C6AEB2C2B5F533B7AFC0FAE755E0E2CBFEFF5A33A0C: \"CompletedActions\":[\"Torin halted the group at the first junction.\",\"The group moved into the left-hand passage.\",\"The party traveled through the damp, cold corridor.\",\"Torin stopped the group upon entering the storage chamber.\",\"The party identified a goblin standing in the shadows of the storage chamber.\"]",
+    "FINALIZED CHAPTER 3; SHA256 4852B2C8C0061F9285B59C6AEB2C2B5F533B7AFC0FAE755E0E2CBFEFF5A33A0C: \"ContinuationPosition\":\"The group stands at the entrance of the small circular storage chamber, looking into the shadows where a single torch burns and a goblin stands holding a spear.\"",
+    "CANDIDATE CHAPTER PLAN: \"Objective\": \"The party enters the keep through the broken outer wall, neutralizes the guard post and crude alarm, and navigates the first trapped passage to reach the junction leading to the cellar levels.\""
+  ]
+}

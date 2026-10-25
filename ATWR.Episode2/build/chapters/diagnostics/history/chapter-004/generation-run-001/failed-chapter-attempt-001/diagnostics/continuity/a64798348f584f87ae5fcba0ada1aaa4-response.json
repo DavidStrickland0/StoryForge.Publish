@@ -1,0 +1,12 @@
+{
+  "consistent": false,
+  "reason": "The candidate plan for Chapter 4 attempts to replay events that have already been finalized in Chapter 3. Specifically, the plan's objective and scenes (1-3) describe the party entering the keep, neutralizing the guard post, and bypassing the first trapped passage. However, the finalized evidence from Chapter 3 explicitly shows the party already inside the keep, having bypassed the pressure plate trap (the 'first trapped passage'), and reaching the junction leading to the cellar levels. The plan also lists 'Repeating the exact sequence of bypassing the pressure plate trap already resolved in Chapter 3' as a ProhibitedPattern, yet its own scenes describe doing exactly that (Scene 3: 'bypass the trap'). Furthermore, the plan's 'CurrentPhase' in the arc metadata states the party is 'outside the ruined keep,' which contradicts the finalized prose of Chapter 3 where they are deep inside, past the initial defenses, and at the junction. The plan effectively restarts the infiltration sequence that was already completed in the previous chapter.",
+  "evidence": [
+    "FINALIZED CHAPTER 3: 'The iron-bound door stood between them and the rest of the keep... The path was clear. The next step was theirs to take.'",
+    "FINALIZED CHAPTER 3: 'Maren wrenched the stone free... The trap is dead. The mechanism has nothing to rest on.'",
+    "FINALIZED CHAPTER 3: 'They had bypassed the trap. They had established their position. And now, they were ready to move deeper into the keep, toward the storage chamber where Nella and Hobb were being held.'",
+    "FINALIZED CHAPTER 3: 'The corridor stretched ahead of them... Torin moved first... He paused at the first junction... The storage chamber... It’s ahead.'",
+    "CANDIDATE CHAPTER PLAN: 'Objective': 'The party enters the keep through the broken outer wall, neutralizes the guard post and crude alarm, and navigates the first trapped passage to reach the junction leading to the cellar levels.'",
+    "CANDIDATE CHAPTER PLAN: 'Scenes': [{'Sequence': 1, 'Purpose': 'The party approaches the broken outer wall of the keep...'}, {'Sequence': 3, 'Purpose': 'The party navigates the first trapped passage...'}]"
+  ]
+}

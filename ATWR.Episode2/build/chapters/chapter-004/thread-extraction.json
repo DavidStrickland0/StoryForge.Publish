@@ -1,0 +1,73 @@
+﻿{
+  "Changes": [
+    {
+      "Action": "Advance",
+      "ThreadId": "stealth-objective-001",
+      "Type": "Stealth Objective",
+      "Summary": "The party successfully infiltrated a goblin guard room, rescued Nella and Hobb from captivity, and is now navigating the lower levels while carrying the injured captives toward the exit.",
+      "CurrentQuestion": "Can the group maintain their stealth cover while moving through the corridors with heavy burdens (Hobb on Torin\u0027s back, Nella supported by Maren) without alerting the goblins who are currently panicking and reorganizing?",
+      "RequiredContinuity": [
+        "Nella and Hobb have been rescued from the cellar room.",
+        "Hobb has a fractured leg and requires stabilization (Elara\u0027s water of life administered).",
+        "Torin is carrying Hobb, which adds significant weight and alters his movement pattern.",
+        "Maren is supporting Nella, who is weak and unsteady on her feet.",
+        "The goblins in the immediate area are confused and panicking, but others may be alerted by noise.",
+        "Kaelen\u0027s magical reserves are completely depleted; he cannot provide light or healing magic."
+      ],
+      "Development": "The party located the captives in a small chamber guarded by three goblins. They resolved the confrontation non-lethally, freeing Nella and Hobb. Upon exiting the room, they discovered that Torin has an old shoulder injury flared up from carrying Hobb, and Maren\u0027s broken axle is still attached to her shoulder. Kaelen confirmed his mana is fully exhausted. The group formulated a new plan using sound decoys (dropping stones) to distract goblins while they move through the corridor with their heavy load."
+    },
+    {
+      "Action": "Advance",
+      "ThreadId": "character-state-001",
+      "Type": "Character State",
+      "Summary": "Kaelen\u0027s magical reserves are completely depleted; he can no longer cast spells, provide light, or heal. He is physically exhausted and relies on physical tactics.",
+      "CurrentQuestion": "Will the party be able to navigate the remaining traps and combat encounters without Kaelen\u0027s magical support, relying solely on physical skills and Elara\u0027s limited resources?",
+      "RequiredContinuity": [
+        "Kaelen has used all his mana for light and masking scent.",
+        "He explicitly stated he cannot heal Hobb or cast fireballs at this moment.",
+        "He is physically tired and leaning against walls."
+      ],
+      "Development": "After the rescue, Kaelen confirmed that his mana reserves are entirely gone. He admitted he can only attempt a \u0027spark\u0027 if forced to fight, but cannot heal Hobb\u0027s broken leg or maintain light. The party must now proceed without magical illumination or healing capabilities from him."
+    },
+    {
+      "Action": "Advance",
+      "ThreadId": "character-state-002",
+      "Type": "Character State",
+      "Summary": "Maren is injured with a broken cart axle strapped to her shoulder, limiting her mobility and speed but not her combat effectiveness. She is currently supporting the rescued Nella.",
+      "CurrentQuestion": "Will Maren\u0027s injury and the additional burden of carrying Nella compromise the group\u0027s ability to move quickly or react to sudden threats in the narrow corridors?",
+      "RequiredContinuity": [
+        "Maren is carrying a broken cart axle on her shoulder, causing pain and slowing her movement.",
+        "She is currently helping Nella stand and walk, adding another burden to her already compromised state."
+      ],
+      "Development": "Elias observed that Maren\u0027s injury makes vertical movement difficult and limits her speed. While she successfully freed Nella and supported her, the combination of her injury and carrying a weak civilian adds significant weight and slows the group\u0027s overall progress. Torin is also struggling with an old shoulder injury from carrying Hobb."
+    },
+    {
+      "Action": "Advance",
+      "ThreadId": "mystery-threat-001",
+      "Type": "Mystery/Threat",
+      "Summary": "The party has bypassed the initial pressure plate trap and is now navigating deeper sections of the keep where traps may be more complex or magical wards are active. They have encountered a new environmental hazard (a fissure with drag marks) and a goblin patrol.",
+      "CurrentQuestion": "How will the group navigate the deeper sections of the keep where they must move through narrow corridors while carrying injured captives, avoiding detection by goblins who are currently panicking but may regroup?",
+      "RequiredContinuity": [
+        "The pressure plate mechanism was physically disabled by removing its support stone.",
+        "Kaelen confirmed the ward is broken and cannot reactivate until rebuilt.",
+        "The group is now moving deeper into the keep toward the storage chamber (completed) and now exiting it."
+      ],
+      "Development": "The party encountered a new trap indicator: a fissure with fresh drag marks suggesting someone was recently taken or dragged through. They chose to investigate the right-hand passage, finding goblins huddled around a fire. The confrontation revealed the location of the captives. After resolving the immediate threat, they are now moving out of the chamber and planning their next move using sound decoys to clear the corridor."
+    },
+    {
+      "Action": "Advance",
+      "ThreadId": "location-environment-001",
+      "Type": "Location/Environment",
+      "Summary": "The party has entered the lower levels of the keep, moving through cold, damp corridors toward the storage chamber where the captives are held. They have now exited the storage chamber and are moving back into the main corridor system.",
+      "CurrentQuestion": "What other defenses or hazards await them in the deeper sections of the keep as they attempt to exit with their heavy burden?",
+      "RequiredContinuity": [
+        "The air in the lower corridors is colder and smells of iron and old blood.",
+        "The goblins appear to be waiting rather than patrolling actively (though this may change if alerted).",
+        "The party is now carrying two injured captives, which changes their movement dynamics."
+      ],
+      "Development": "After rescuing the captives, the party exited the small chamber into a wider corridor. The environment remains cold and damp. The goblins in the immediate area are panicking and shouting, but others may be moving loot or changing shifts. The party is now focused on exiting the keep rather than just infiltrating it."
+    }
+  ],
+  "Model": "qwen3.5:9b",
+  "Duration": "00:01:18.4480521"
+}

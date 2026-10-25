@@ -1,0 +1,5 @@
+The corridor narrowed, the stone walls pressing in closer until the air felt thick and heavy, tasting of wet moss and stagnant water. Torin’s boots scraped softly against the flagstones, a sound that seemed amplified in the confined space. He moved slowly, his hand trailing along the rough-hewn masonry to gauge the distance to the next turn. The light from Kaelen’s gauntlet, held low in his hand, cast long, distorted shadows that danced across the ceiling, making the broken timber beams look like grasping fingers.
+
+Elias kept his eyes on the floor, scanning for anything that didn’t belong. The goblins had left their mark on everything, from the looted grain sacks to the crude sketches on the walls, but their traps were different. They were simple, brutal, and designed to be heard if triggered.
+
+"Careful," Torin murmured, his voice barely a breath. He stopped abruptly, his body going rigid. "There’s something ahead."

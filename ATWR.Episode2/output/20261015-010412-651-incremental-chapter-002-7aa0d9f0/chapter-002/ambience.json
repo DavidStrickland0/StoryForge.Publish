@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "cleanNarrationPath": "/books/output/20261015-010412-651-incremental-chapter-002-7aa0d9f0/chapter-002/chapter-002.mastered.wav",
+  "narrationSha256": "6ae5379efea23e6a658766d4f702dd75114c1cddb023aac3ac51e6e7cb2eb9f4",
+  "audioPath": "/books/output/20261015-010412-651-incremental-chapter-002-7aa0d9f0/chapter-002/chapter-002.ambience.wav",
+  "gainDb": -22.0,
+  "ducking": true,
+  "cues": [
+    {
+      "startSegment": 79,
+      "endSegment": 118,
+      "tags": [
+        "indoors",
+        "rain"
+      ],
+      "setting": "storage chamber inside a ruined keep during a storm",
+      "prompt": "continuous rain drumming on tin roof and low magical hum from brass gauntlet",
+      "evidence": "The rain hammered against the tin roof of the storage chamber, a rhythmic drumming that seemed to drown out anything less urgent than a screaming goblin inside these walls.",
+      "intensity": "moderate",
+      "startSeconds": 778.71,
+      "endSeconds": 1186.38,
+      "asset": {
+        "prompt": "continuous rain drumming on tin roof and low magical hum from brass gauntlet",
+        "tags": [
+          "indoors",
+          "rain"
+        ],
+        "category": "ambience",
+        "setting": "storage chamber inside a ruined keep during a storm",
+        "intensity": "moderate",
+        "durationSeconds": 24.0,
+        "seed": 10000,
+        "id": "soundforge-2cec54f927c840c28f3a08e28f2ab901",
+        "schemaVersion": 1,
+        "sample": "sound.wav",
+        "model": "small-sfx",
+        "modelSource": "https://github.com/Stability-AI/stable-audio-3",
+        "licenseSource": "https://stability.ai/license",
+        "durationSecondsActual": 23.25,
+        "sampleRate": 44100,
+        "channels": 2,
+        "loopable": true,
+        "sha256": "2980ffb8661ed407cba483c54a2e79fe5cf75cea10f9b0ec35c1021c6f4cf2f6",
+        "verification": {
+          "passed": true,
+          "finiteSamples": true,
+          "rms": 0.09744633734226227,
+          "peak": 0.77294921875,
+          "clippedFraction": 0.0,
+          "speechDetected": false,
+          "semanticMatch": "prompt-and-tags; listen to confirm",
+          "checkedUtc": "2026-10-16T01:01:42.359234+00:00"
+        }
+      },
+      "audioPath": "/books/output/20261015-010412-651-incremental-chapter-002-7aa0d9f0/chapter-002/ambience-assets/soundforge-2cec54f927c840c28f3a08e28f2ab901.wav",
+      "reused": false
+    },
+    {
+      "startSegment": 176,
+      "endSegment": 243,
+      "tags": [
+        "fire",
+        "indoors"
+      ],
+      "setting": "keep interior",
+      "prompt": "soft crackling fire and distant wind rattling shutters",
+      "evidence": "broken only by the faintest hint of torchlight flickering in the distance... occasional gusts of wind rattling loose shutters high above them",
+      "intensity": "soft",
+      "startSeconds": 1591.19,
+      "endSeconds": 1986.3,
+      "asset": {
+        "prompt": "soft crackling fire and distant wind rattling shutters",
+        "tags": [
+          "fire",
+          "indoors"
+        ],
+        "category": "ambience",
+        "setting": "keep interior",
+        "intensity": "soft",
+        "durationSeconds": 24.0,
+        "seed": 10000,
+        "id": "soundforge-0354225b197b43439c66b31c65e57a71",
+        "schemaVersion": 1,
+        "sample": "sound.wav",
+        "model": "small-sfx",
+        "modelSource": "https://github.com/Stability-AI/stable-audio-3",
+        "licenseSource": "https://stability.ai/license",
+        "durationSecondsActual": 23.25,
+        "sampleRate": 44100,
+        "channels": 2,
+        "loopable": true,
+        "sha256": "d11c8b37f91ea302cf66446fbfb1d5437af227ae92506a6dfb9877a55302af6e",
+        "verification": {
+          "passed": true,
+          "finiteSamples": true,
+          "rms": 0.004678322467952967,
+          "peak": 0.186767578125,
+          "clippedFraction": 0.0,
+          "speechDetected": false,
+          "semanticMatch": "prompt-and-tags; listen to confirm",
+          "checkedUtc": "2026-10-14T15:15:25.976308+00:00"
+        }
+      },
+      "audioPath": "/books/output/20261015-010412-651-incremental-chapter-002-7aa0d9f0/chapter-002/ambience-assets/soundforge-0354225b197b43439c66b31c65e57a71.wav",
+      "reused": true
+    }
+  ],
+  "sha256": "4130c03ce27da1bc85d51985cb9fa83077a0f8dc1fd11584d3d12f95e9b154f6"
+}

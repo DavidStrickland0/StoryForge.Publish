@@ -1,0 +1,149 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 2 of
+Chapter 4.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":4,"ViewpointCharacterId":"Elias Thorne","Objective":"The party navigates the final stretch of the upper corridors, neutralizes the last active goblin defense (a crude alarm system), and reaches the junction leading to the cellar levels, establishing their tactical roles and physical constraints.","IntendedChange":"The group transitions from active movement to tactical positioning at the junction, having successfully bypassed the initial defenses and identified the goblins\u0027 structured communication methods.","PacingPosture":3,"ProhibitedPatterns":["Replaying the entry through the broken outer wall or the neutralization of the initial guard post, as these events have already occurred in Chapter 3.","Repeating the specific relationship dynamics of \u0027Torin expressing approval\u0027 or \u0027Maren asserting competence\u0027 in a way that mimics the rejected Scene 2 handoff delta.","Stalling at a single action (like opening a door) without resolving the dramatic question of how the party will navigate the deeper sections or making a tactical decision about their route."],"Scenes":[{"Sequence":1,"Purpose":"The party navigates the narrow, damp corridor leading to the junction, with Maren struggling to maintain pace due to her injury and Kaelen conserving his magical reserves.","IntendedChange":"The group reaches the junction, with Maren\u0027s injury visibly affecting her mobility and Kaelen\u0027s magical reserves further depleted, establishing the physical constraints for the next phase.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen"]},{"Sequence":2,"Purpose":"Elias coordinates the neutralization of the crude alarm system at the junction, delegating specific tasks to Maren and Kaelen based on their strengths and limitations.","IntendedChange":"The alarm system is successfully disabled without alerting the goblins, demonstrating the party\u0027s coordination and competence under pressure.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen","Elara"]},{"Sequence":3,"Purpose":"The party assesses the two routes from the junction (direct vs. stealthy) and chooses the safer path, accounting for Kaelen\u0027s exhaustion and Maren\u0027s injury.","IntendedChange":"The party makes a tactical decision to take the safer route, solidifying their professional respect and mutual reliance, and preparing to proceed into the cellar levels.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen","Torin","Elara"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":2,"Purpose":"Elias coordinates the neutralization of the crude alarm system at the junction, delegating specific tasks to Maren and Kaelen based on their strengths and limitations.","IntendedChange":"The alarm system is successfully disabled without alerting the goblins, demonstrating the party\u0027s coordination and competence under pressure.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen","Elara"]}
+
+===== NEXT SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The party assesses the two routes from the junction (direct vs. stealthy) and chooses the safer path, accounting for Kaelen\u0027s exhaustion and Maren\u0027s injury.","IntendedChange":"The party makes a tactical decision to take the safer route, solidifying their professional respect and mutual reliance, and preparing to proceed into the cellar levels.","FocusCharacterIds":["Elias Thorne","Maren","Kaelen","Torin","Elara"]}
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":4,"CompletedSceneSequence":1,"Location":"The junction within the upper corridors of the keep, specifically at the midpoint of the right-hand passage leading to the storage chamber.","TimeContext":"Night; the party is moving through a damp, oppressive corridor with rain drumming on the roof above.","PresentCharacterIds":["Elias Thorne","Maren","Kaelen","Torin"],"PhysicalConditions":["Maren\u0027s injured shoulder and broken cart axle are severely limiting her mobility; she is leaning heavily on her hammer and bracing against walls.","Kaelen\u0027s magical reserves are critically depleted; his brass gauntlet light is flickering and wavering, and he has only one or two shields remaining before becoming a normal man.","The party is moving slowly and deliberately to conserve energy and maintain stealth.","Elias is monitoring the group\u0027s physical limits and tactical positioning."],"KnowledgeEstablished":["The junction offers two paths: a narrow, debris-choked left path and an exposed right path leading directly to the storage chamber where allies Nella and Hobb are waiting.","Kaelen can maintain a focused beam of light for only twenty feet before his reserves drop further.","Maren is capable of continuing but is running out of stamina.","The goblin territory ahead contains a gallery above the right-hand path, posing a visibility risk if guards are present.","The party has bypassed initial wards and defenses without alerting the goblins."],"DecisionsMade":["The party chose the direct route (right-hand passage) despite the exposure risk because they cannot afford the time for a detour.","Elias assigned Maren to point, Torin to cover the rear, and established a freeze/move protocol if threats appear.","Kaelen agreed to restrict his light output to a narrow beam to extend its duration."],"PossessionChanges":[],"RelationshipChanges":["The party\u0027s reliance on each other is solidified: Kaelen acts as a counterbalance for Maren without asking for impossible burdens, and Elias accepts the physical reality of their constraints without offering false solutions."],"CompletedActions":["Navigating the narrow corridor to the junction.","Assessing the two paths at the junction.","Depleting Kaelen\u0027s magical reserves by restricting his light output.","Moving into the right-hand passage and reaching the midpoint of the corridor.","Maren stopping briefly to acknowledge her exhaustion before continuing."],"UnresolvedImmediateAction":"The party is currently moving slowly down the exposed right-hand corridor toward the storage chamber, with Maren struggling against pain and fatigue while Kaelen struggles to maintain his magical light.","ContinuationPosition":"The characters are standing or walking at the midpoint of the right-hand passage in the junction area. Elias is looking ahead, monitoring Maren\u0027s pace and Kaelen\u0027s fading light, preparing to navigate the final stretch toward the storage chamber where Nella and Hobb await.","ProhibitedRepetition":["Replaying the entry through the broken outer wall.","Repeating the neutralization of the initial guard post.","Repeating the specific relationship dynamics of \u0027Torin expressing approval\u0027 or \u0027Maren asserting competence\u0027 in a way that mimics the rejected Scene 2 handoff delta."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The corridor ahead was a throat of cold stone, narrowing as it approached the junction where the right-hand passage opened into a wider, more exposed section. The air here was stale, thick with the scent of damp moss and old iron. As they rounded the bend, the light from Kaelen’s gauntlet, restricted to a narrow, steady beam, illuminated a crude assembly hanging from the ceiling by a frayed rope.
+
+It was an alarm. Or rather, a collection of alarms. A cluster of hollowed-out gourds, strung together with wire, hung directly above the path. Each gourd was pierced with tiny holes, and inside, small metal rings clattered softly against one another. A single tripwire, barely visible in the dim light, stretched across the width of the passage, connecting the gourd cluster to a weighted lever on the floor. It was a simple, mechanical thing, but effective. Step on the wire, or even brush against it, and the weight would drop, triggering the clatter. The noise would carry for miles in the silence of the keep.
+
+Elias stopped, raising a hand. The group froze. Maren leaned heavily against the wall, her face pale, her breath coming in short, shallow bursts. Kaelen’s gauntlet flickered, the light dimming by a fraction, a subtle sign of his exhaustion.
+
+"Look at that," Elias murmured, his voice barely audible. "Gourds and wire. If we step on that line, the whole keep knows we're here. And if we cut it, the weight drops, and the noise is just as bad."
+
+Torin stepped forward, his eyes narrowing. "We can't go around it. The passage is too narrow, and the wall is solid stone. We can't climb over a weighted lever without making noise."
+
+"Then we don't go around it," Elias said, his tone calm but firm. "We disable it. Quietly."
+
+He turned to Maren. "Maren, your hands are steady. You know how these things work. Can you reach the wire without triggering the lever?"
+
+Maren looked at the assembly, her jaw tightening. She ignored the pain that shot through her shoulder, the ache that threatened to bring her to her knees. "I can reach it," she said, her voice steady. "But I need someone to hold the light steady. If the beam moves, I lose focus."
+
+Kaelen stepped forward, his face grim. "I can hold it," he said, his voice strained. "But I can't hold it long. And I can't cast anything else. If I focus on the light, I have nothing left for a shield."
+
+"Then we work fast," Elias said. "Maren, you disable the trigger. Kaelen, you provide the light. Torin, you cover the entrance. If anything moves, you signal, and we freeze. Elara, stay back. Keep an eye on the floor for any secondary mechanisms."
+
+Elara nodded, her eyes scanning the ground. She spotted a faint discoloration in the stone, a patch of wear that suggested a trap or a loose flagstone. She marked it mentally, her mind already calculating the angle of approach.
+
+Maren moved forward, her steps slow and deliberate. She approached the wire, her hand reaching out. The wire was taut, humming faintly with the tension of the weight. She needed to cut it, but not so close to the lever that the weight would drop. She needed to cut it high, near the gourd cluster, where the wire was less taut and the weight was less likely to trigger.
+
+She looked at Elias, then at Kaelen. "Give me the light," she said.
+
+Kaelen nodded, his gauntlet flaring brighter. The beam of light, narrow and focused, illuminated the wire and the gourd cluster. Maren’s hand moved, her fingers finding a small blade in her belt. She held her breath, her eyes fixed on the wire.
+
+The moment stretched, taut as the wire itself. Maren’s blade touched the wire. She cut.
+
+The wire snapped, but the weight did not drop. Instead, the gourd cluster swung slightly, the metal rings inside clattering softly. The sound was faint, barely a whisper, but it was there.
+
+Maren let out a breath she hadn’t realized she was holding. "Done," she said.
+
+Torin relaxed slightly, his hand still resting on his sword hilt. "Good work," he said. "That was close."
+
+Elias looked at the disabled alarm, then at the path ahead. The way was clear. They had neutralized the threat without alerting the goblins. It was a small victory, but it was a victory nonetheless.
+
+"Keep moving," Elias said. "We’re not done yet."
+
+The group continued forward, their footsteps muffled by the damp stone. The air grew colder, the scent of fear and iron growing stronger. They were closer now. The storage chamber was just ahead. And beyond it, Nella and Hobb were waiting.
+
+Elias glanced back at Maren, who was leaning against the wall, her face pale but her eyes determined. He wanted to tell her to rest, to take a moment, but he knew she wouldn’t. She was a hammer, and hammers didn’t rest until the work was done.
+
+Kaelen’s gauntlet flickered again, the light dimming. He was running out of time, out of energy. But he held the light steady, his face a mask of concentration.
+
+Elara moved beside Elias, her eyes sharp. "There," she said, pointing to a faint draft coming from a crack in the wall. "It’s coming from inside. Someone is in there."
+
+Elias nodded. They were close. Too close.
+
+"We need a plan," he said. "Quietly."
+
+The group gathered, their faces illuminated by the faint, flickering light of Kaelen’s gauntlet. The air was thick with tension, with the weight of what was to come.
+
+Maren straightened, her hand resting on her hammer. "I can hold the door," she said. "Keep them out while you get the captives."
+
+Elias looked at her, then at Kaelen. "Kaelen, you’re with me. We go in. Torin, cover the rear. Elara, watch for traps."
+
+They moved into the storage chamber, their hearts pounding, their breath held. The door was heavy, iron-bound, and locked. But they had the tools, the skills, and the will to break it open.
+
+And beyond that door, Nella and Hobb were waiting.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
+
+===== HANDOFF CORRECTION =====
+
+The previous structured handoff was rejected:
+
+Extracted scene-state delta repeats narrative work from the previous handoff. Omit every listed entry from the delta fields: candidate completed action 'Navigating the narrow corridor to the junction.' repeats completed action from Chapter 4, Scene 1: 'Navigating the narrow corridor to the junction.'; candidate completed action 'Assessing the two paths at the junction.' repeats completed action from Chapter 4, Scene 1: 'Assessing the two paths at the junction.'; candidate completed action 'Depleting Kaelen's magical reserves by restricting his light output.' repeats completed action from Chapter 4, Scene 1: 'Depleting Kaelen's magical reserves by restricting his light output.'; candidate completed action 'Moving into the right-hand passage and reaching the midpoint of the corridor.' repeats completed action from Chapter 4, Scene 1: 'Moving into the right-hand passage and reaching the midpoint of the corridor.'; candidate completed action 'Maren stopping briefly to acknowledge her exhaustion before continuing.' repeats completed action from Chapter 4, Scene 1: 'Maren stopping briefly to acknowledge her exhaustion before continuing.'
+
+Correct every listed defect in the same response. Omit
+every listed repeated entry from all delta fields. Keep
+distinct new actions and other new narrative work that
+the accepted scene actually performed.
+
+Return a complete corrected handoff grounded only in the
+accepted scene and preceding handoff.

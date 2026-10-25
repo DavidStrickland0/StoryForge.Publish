@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "fingerprint": "58452f62079f33ed2d3c8b695d515f8c2260881c3a3aa0719a48fcf2c4158a9d",
+  "model": "qwen3.5:9b",
+  "cues": [
+    {
+      "startSegment": 134,
+      "endSegment": 134,
+      "tags": [
+        "indoors",
+        "rain"
+      ],
+      "setting": "stone corridor of a damp keep",
+      "prompt": "continuous soft rain drumming against roof and stone walls",
+      "evidence": "distant, rhythmic drumming of the rain against the roof",
+      "intensity": "soft"
+    }
+  ],
+  "warnings": [
+    "Batch 1: unresolved cues omitted after correction attempts; retained 0 valid cues. Cue 1: Cue 0-63 requires an exact evidence quotation from its own source range. Rejected evidence: \"The rain drummed a steady, monotonous rhythm against the stone roof... There's a draft... And there's a vibration. Faint, but steady.\". Copy a quotation directly from the supplied source segments.",
+    "Batch 2: unresolved cues omitted after correction attempts; retained 0 valid cues. Cue 1: Cue 64-113 requires an exact evidence quotation from its own source range. Rejected evidence: '\"Just the distant sound of rain falling on the keep’s roof... The rain drummed against the distant roof, a steady, rhythmic backdrop that masked any subtle sounds from deeper within the keep.\" (segments 105-108)'. Copy a quotation directly from the supplied source segments.",
+    "Batch 3: unresolved cues omitted after correction attempts; retained 0 valid cues. Cue 1: Cue 114-133 requires an exact evidence quotation from its own source range. Rejected evidence: '\"The silence was oppressive, broken only by the soft scrape of their boots and the occasional creak of the stone settling under their weight.\"'. Copy a quotation directly from the supplied source segments."
+  ]
+}

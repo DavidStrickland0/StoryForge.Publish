@@ -1,4 +1,4 @@
-# ATWR — world starting facts
+﻿# ATWR — world starting facts
 
 This is the same fantasy world, approached through a new independent adventure. Establish the new episode's setting and immediate problem on the page. Readers should not need Episode 1 to follow it.
 
@@ -15,3 +15,17 @@ The discarded Silas Vane offer, Temple Springs cargo, alchemist deal, lunar-cycl
 ## SRD foundations
 
 Use SRD 3.5 race traits, class capabilities, skills, equipment constraints, and spell behavior as this world's ordinary adventuring baseline. Introduce new people and creatures with consistent traits; a role, appearance, or occupational title alone does not confer class features. Existing Blight phenomena and relic observations remain bounded accepted exceptions, not a replacement universal magic system. SRD-RULES.md records the episode's authority and limits.
+
+## Current State
+
+
+- The party is currently inside the ruined keep's cellar level.
+
+
+- Nella and Hobb have been rescued from captivity in the keep.
+
+
+- Hobb has a fractured left leg and a bruised cheekbone but is stabilized by Elara's water.
+
+
+- Nella is weak, scared, but stable after being freed from her restraints.

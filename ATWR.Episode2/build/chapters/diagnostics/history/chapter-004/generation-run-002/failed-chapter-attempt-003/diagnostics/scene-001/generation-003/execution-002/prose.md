@@ -1,0 +1,3 @@
+The corridor narrowed, the stone walls pressing in close enough that Elias could feel the damp chill seeping through his leather armor. The air here was thicker, tasting of wet mortar and something older, something metallic that stuck to the back of the throat. Torin moved ahead, his hand resting lightly on his sword hilt, while Maren brought up the rear, her movements careful and deliberate despite the heavy weight of the cart axle strapped to her shoulder.
+
+Elias kept his eyes on the path ahead, scanning the uneven flagstones for anything that looked out of place. In the dim glow of Kaelen’s gauntlet

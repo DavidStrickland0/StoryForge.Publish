@@ -1,0 +1,89 @@
+Torin stopped.
+
+He didn’t signal with a hand or a word. He simply ceased moving, his boots settling into the damp grit of the floor with a finality that silenced the group. The air in the corridor shifted; the damp chill seemed to thicken, carrying the scent of wet stone and something sharper, like rusted iron.
+
+Elias moved up beside him, keeping his voice below a whisper. “What is it?”
+
+Torin pointed forward. The passage they had been following widened slightly, opening into a low-ceilinged antechamber. The light from Kaelen’s gauntlet, dimmed to a faint amber glow, caught the edges of objects piled against the far wall: sacks, crates, and the distinct, curved shape of a bow. It wasn’t a defensive line. It was a storage dump.
+
+“Traps,” Torin said, his eyes narrowing. “Look at the floor.”
+
+Elias looked. The flagstones were uneven, cracked, and covered in a thin layer of mud. To the untrained eye, it was just debris. To Torin, it was a map. He crouched, his hand hovering over a loose stone near the center of the path.
+
+“Pressure plate,” Torin murmured. “Under that slab. It’s heavy, but the support is thin. One wrong step, and the mechanism drops.”
+
+Elara stepped forward, her satchel swinging gently as she moved. She didn’t ask Torin to move. Instead, she pulled a small vial of quartz dust from her pocket, uncorked it, and let a pinch fall onto the stone. The dust didn’t glow. It just sat there, inert.
+
+“No magic,” Elara said, her voice clear and steady. “It’s mechanical. Crude. A counterweight, probably. If we step on it, it trips a lever. If we don’t, it’s just a rock.”
+
+Kaelen, who had been watching the far wall, shifted his weight. “Can we go around?”
+
+Torin shook his head. “The passage narrows here. If we go left, we hit a dead end behind a stack of crates. Right, it’s a drop-off into the cellar proper. This is the only path.”
+
+Elias looked at the trap, then at his companions. The solution was obvious, and it was the one they had hoped to avoid. “Maren?”
+
+Maren didn’t ask what he wanted. She was already moving, her movements economical despite the pain that lived in her shoulder. She reached into her pack and withdrew her hammer. The wooden haft was worn smooth, the head heavy and iron-bound. She didn’t need to inspect the trap. She had seen enough of these things to know that if it was made of stone and lever, it could be broken.
+
+She knelt, her knees pressing into the cold mud. With a grunt that was mostly effort and little else, she wedged the claw of her hammer under the edge of the loose stone. “Hold this,” she said, not looking up.
+
+Torin moved to her side, placing a hand on the stone to stabilize it. Elara stayed back, watching the dust on the floor, ready to verify the mechanism’s state. Kaelen held the light steady, ensuring the shadows didn’t swallow them. Elias stood ready, his hand on his sword, listening to the darkness beyond the antechamber.
+
+Maren pulled.
+
+The stone shuddered. For a second, it resisted, the weight of the counterweight pulling it down. Then, with a sharp crack, the support beneath it snapped. The heavy slab tilted, grinding against the floor, and slid into the gap Torin had marked. The mechanism, deprived of its trigger, hung uselessly in the air.
+
+“Clear,” Torin said.
+
+They moved.
+
+Torin led, stepping over the now-inactive trap with a fluid grace that spoke of years spent navigating hostile ground. Elias followed, checking the shadows. Maren brought up the rear, her breathing steady, the pain in her shoulder a constant companion she refused to acknowledge. Kaelen and Elara moved between them, a tight cluster of competence and caution.
+
+As they rounded the corner, the antechamber opened into a larger space. The air here was heavier, smelling of woodsmoke and unwashed bodies. The goblins’ living quarters.
+
+And there, in the center of the room, stood a goblin.
+
+He was not looking for them. He was hunched over a small fire, tending a pot that bubbled with something dark and pungent. His back was to the party, his shoulders hunched in the way of someone who was tired of being afraid.
+
+Elias stopped.
+
+The goblin did not turn. He stirred the pot with a wooden stick, his movements slow, deliberate. He was cooking. Or rather, he was trying to cook. The fire was small, barely more than an ember, and the pot was likely to be burnt or undercooked. It was a mundane act, devoid of threat, yet it carried a weight that cut deeper than any spear.
+
+“He’s not guarding anything,” Elara observed, her voice low. “He’s just... living.”
+
+Torin’s hand rested on his sword hilt, but he didn’t draw it. He watched the goblin, his expression unreadable. “He’s alone.”
+
+“Not alone,” Kaelen corrected quietly. “Just not paying attention. That’s how we get in. And out.”
+
+Elias looked at the goblin, then at the narrow passage that led deeper into the keep, where the storage chamber—and the captives—waited. The goblin was a hazard, yes. But he was also a distraction. If they moved now, they would be silent. If they waited, they might be seen.
+
+The choice was not between combat and stealth. It was between speed and silence.
+
+Torin made the call. “We go around. Left. The wall is thin here. I can hear the draft from the cellar. If we squeeze through that gap, we bypass him entirely.”
+
+Elias nodded. It was a risk. The gap was narrow, barely wide enough for a man to turn. Maren, with her broad shoulders and the weight of her injury, would have difficulty. But it was the only way to remain unseen.
+
+They moved.
+
+Torin went first, his body pressing against the rough stone, his movements precise. He found the gap, a fissure in the masonry no wider than a doorframe, and slipped through. Elara followed, her satchel catching on a protruding rock, but she shook it free and continued. Kaelen moved next, his light dimmed to a near-invisible glow, his body moving with the economy of a man who knew his limits.
+
+Maren was last.
+
+She paused at the gap, her hand on the stone. She looked back at the goblin, who was still hunched over his pot, humming a tuneless melody. She looked at Elias, her eyes hard, her jaw set. She didn’t ask for help. She didn’t need it. She simply pushed through the gap, her body forcing a path through the cold stone, her breath coming in short, controlled bursts.
+
+When she emerged on the other side, she was breathing hard, but her voice was steady. “Clear.”
+
+They were in the cellar.
+
+The air here was colder, darker, and smelled of fear. The passage was narrow, the walls close, the ceiling low. It was a place designed for storage, not for people. And yet, ahead of them, through a heavy iron-bound door, they could hear it.
+
+A cough. A whisper. A sound so faint it might have been the wind, but which Elias recognized as the sound of someone trying to stay alive.
+
+They had bypassed the trap. They had bypassed the guard. They had navigated the maze of the keep’s defenses without alerting a single goblin.
+
+Now, they stood before the door to the storage chamber.
+
+The rescue was no longer a question of whether they could find the captives. It was a question of how they would bring them out.
+
+Elias placed a hand on the door, feeling the cold metal through his glove. He looked at his companions, their faces illuminated by the faint, dying light of Kaelen’s gauntlet. They were tired. They were hurt. They were ready.
+
+“Let’s go,” he said.

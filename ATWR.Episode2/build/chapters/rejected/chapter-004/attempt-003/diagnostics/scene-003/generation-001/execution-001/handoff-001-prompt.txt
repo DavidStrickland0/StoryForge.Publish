@@ -1,0 +1,241 @@
+You extract immediate narrative state from one accepted scene.
+
+The accepted scene is authoritative evidence for what that scene established.
+The previous handoff is authoritative only for state entering the scene.
+
+Report the state that exists at the exact end of the accepted scene.
+
+Do not write prose.
+Do not continue the story.
+Do not predict later events.
+Do not invent facts needed by the next planned scene.
+Do not treat the chapter plan as evidence that an event occurred.
+
+When NEXT SCENE PLAN is null, the accepted scene is the final planned scene.
+Extract its terminal chapter state without inventing another scene or future action.
+
+Use stable character identifiers from the supplied plan and handoff when known.
+
+The handoff contains two kinds of fields:
+
+Snapshot fields describe state at the end of the accepted scene and may carry
+forward unchanged facts from the previous handoff:
+Location, TimeContext, PresentCharacterIds, and PhysicalConditions.
+
+Delta fields describe only new narrative work performed by the accepted scene:
+KnowledgeEstablished, DecisionsMade, PossessionChanges, RelationshipChanges,
+CompletedActions, and ProhibitedRepetition.
+
+Never copy previous-handoff entries into a delta field merely because they
+remain true. CompletedActions must identify only material actions performed
+during the accepted scene. Do not report an earlier transition as though the
+accepted scene performed it again.
+
+ProhibitedRepetition must identify completed actions, discoveries,
+conversations, transitions, or scene structures from the accepted scene that
+the next scene must not repeat.
+
+UnresolvedImmediateAction describes what is actually in progress or naturally
+next at the final narrative position. It must not invent danger or escalation.
+
+ContinuationPosition must precisely state where the characters are and what
+they are doing at the exact point where new prose should begin.
+
+Use empty arrays when no knowledge, decision, possession, or relationship
+change was established.
+
+Return only the required structured response.
+Extract the continuation state after Scene 3 of
+Chapter 4.
+
+===== CHAPTER PLAN =====
+
+{"ChapterNumber":4,"ViewpointCharacterId":"Elias Thorne","Objective":"The party navigates the deeper cellar levels, bypasses a second, more complex trap, and locates the storage chamber where the captives are held.","IntendedChange":"The group transitions from tactical infiltration to active search, revealing the human cost of the goblin raids and the party\u0027s commitment to their mission.","PacingPosture":2,"ProhibitedPatterns":["Replaying the stealth infiltration sequence from Chapter 3 (junction choice, goblin encounter, bypass).","Copying large passages of prose from Chapter 3 verbatim (e.g., the goblin encounter and bypass).","Ending with the party having just bypassed the goblin guard and moving toward the storage chamber, which is the exact state established at the end of Chapter 3.","Replaying the entry and initial guard neutralization, which contradicts the established physical state and progress of the characters.","Repeating relationship changes from Chapter 4, Scene 1: \u0027Torin expressed approval of the successful bypass.\u0027 and \u0027Maren asserted her competence and ability to manage her injury without slowing the group.\u0027","Repeating completed actions from Chapter 4, Scene 1: \u0027Navigating the narrow corridor to the junction.\u0027, \u0027Assessing the two paths at the junction.\u0027, \u0027Depleting Kaelen\u0027s magical reserves by restricting his light output.\u0027, \u0027Moving into the right-hand passage and reaching the midpoint of the corridor.\u0027, \u0027Maren stopping briefly to acknowledge her exhaustion before continuing.\u0027","Repeating relationship changes from Chapter 4, Scene 1: \u0027The party\u0027s reliance on each other is solidified: Kaelen acts as a counterbalance for Maren without asking for impossible burdens, and Elias accepts the physical reality of their constraints without offering false solutions.\u0027"],"Scenes":[{"Sequence":1,"Purpose":"The party navigates the deeper cellar levels, bypassing a second, more complex trap that requires Elara\u0027s analysis and Kaelen\u0027s careful magic to neutralize.","IntendedChange":"The group successfully bypasses the second trap, but Kaelen\u0027s magical reserves are further depleted, and Maren\u0027s injury is exacerbated, limiting her mobility for the rest of the infiltration.","FocusCharacterIds":["Elias Thorne","Kaelen","Elara","Maren"]},{"Sequence":2,"Purpose":"The party locates the storage chamber where the captives are held, revealing the human cost of the goblin raids and the party\u0027s commitment to their mission.","IntendedChange":"The group successfully locates the storage chamber and the captives, but the goblins are alerted to the presence of intruders, though they do not yet know the party\u0027s exact location.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Elara"]},{"Sequence":3,"Purpose":"The party assesses the situation in the storage chamber, planning their next move to rescue the captives without alerting the goblins.","IntendedChange":"The group establishes a plan for the rescue, solidifying their commitment to their mission and their ability to work together under pressure.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Kaelen","Elara"]}]}
+
+===== COMPLETED SCENE PLAN =====
+
+{"Sequence":3,"Purpose":"The party assesses the situation in the storage chamber, planning their next move to rescue the captives without alerting the goblins.","IntendedChange":"The group establishes a plan for the rescue, solidifying their commitment to their mission and their ability to work together under pressure.","FocusCharacterIds":["Elias Thorne","Torin","Maren","Kaelen","Elara"]}
+
+===== NEXT SCENE PLAN =====
+
+null
+
+===== PREVIOUS HANDOFF =====
+
+{"ChapterNumber":4,"CompletedSceneSequence":2,"Location":"Storage chamber within the deep cellar of the keep","TimeContext":"Night; rain muffled above; infiltration ongoing; immediate threat of goblin discovery","PresentCharacterIds":["Elias Thorne","Torin","Maren","Kaelen","Elara"],"PhysicalConditions":["Kaelen\u0027s magical reserves are fully depleted and he is resting against the wall.","Maren\u0027s shoulder injury limits her mobility but she remains combat-ready.","The party is fatigued, standing in a cramped, low-ceilinged room smelling of fear and dampness.","Two captives (Nella and Hobb) are alive but bound and held within the room.","A single goblin guard is present inside the chamber, currently retreating to position itself near a barred window."],"KnowledgeEstablished":["The storage chamber contains two captives: Nella (alert, watching the door) and Hobb (shivering, defeated).","A single goblin guard is inside the room; it has detected the party\u0027s presence but does not know their exact location or numbers.","Two additional goblin guards are positioned outside the storage chamber door.","The internal goblin is using its position to buy time, likely intending to kill a captive if attacked prematurely.","The party has successfully reached the objective without triggering an immediate full-scale alarm."],"DecisionsMade":["Elias halted the group upon entering to assess the situation before acting.","Torin flanked the door while Maren stayed behind Elias for support.","Elara signaled the presence of two guards outside the door.","The party has chosen to wait and observe rather than attack immediately, recognizing the goblin\u0027s tactical positioning."],"PossessionChanges":[],"RelationshipChanges":["The party operates as a cohesive unit under pressure, with Elias leading the assessment and others holding specific defensive roles.","Trust is maintained despite the high stakes; no character acts independently against the group\u0027s interest."],"CompletedActions":["Entering the storage chamber from the corridor.","Observing the captives (Nella and Hobb) in their current state.","Detecting the internal goblin guard and its behavior.","Identifying the presence of two guards outside the door via Elara\u0027s signal.","Halting movement to assess the tactical situation.","Recognizing the goblin\u0027s intent to use time as a bargaining chip for captive safety."],"UnresolvedImmediateAction":"The party stands in a tense standoff inside the chamber, waiting for the next sound from the corridor or a decision on how to proceed with the rescue while the internal goblin positions itself and the external guards remain undetected.","ContinuationPosition":"The group is stationary inside the storage chamber. Elias stands at the threshold between the room and the dark corridor outside, facing the internal goblin which is retreating toward a window. Torin is flanking the door, Maren is behind Elias, Kaelen is resting against the wall, and Elara is crouched near the entrance scanning for movement from the two guards outside.","ProhibitedRepetition":["Repeating the description of the captives\u0027 appearance or condition as established in this scene.","Repeating the detection of the internal goblin\u0027s behavior (tapping club, retreating).","Repeating the identification of the two guards outside the door.","Repeating the party\u0027s decision to halt and assess rather than attack immediately."]}
+
+===== ACCEPTED COMPLETED SCENE =====
+
+The footstep stopped.
+
+It did not continue. It did not rush. It hung in the air, a heavy, deliberate beat that seemed to suspend time itself.
+
+Elias felt the shift in the room’s atmosphere before he heard it. The tension, which had been a taut wire, suddenly slackened, replaced by a different kind of pressure. The weight of expectation.
+
+He turned his head slowly, his eyes locking onto Torin.
+
+The soldier stood in the shadows of the doorway, his sword drawn now, the blade catching the faint, dying light from Kaelen’s gauntlet. He was not looking at the goblin. He was looking at Elias. His expression was unreadable, a mask of professional calm, but Elias knew that look. It was the look of a man who had finished his calculation and was waiting for the commander’s order.
+
+Behind Torin, Maren shifted her weight. The creak of her strap was the only sound, a dry, wooden warning. She was ready. Her hammer was in her hand, low and steady, her injury forgotten in the face of imminent violence.
+
+Kaelen, leaning against the wall, closed his eyes. He was saving his last shield. He was saving it for the moment when the plan failed. He trusted Elias not to let that moment come.
+
+Elara crouched low, her hand resting on her dagger. She was watching the goblin, but her eyes were also on the door. She knew what was coming. She knew the two guards outside were waiting for the signal.
+
+Elias looked at the goblin.
+
+The creature had stopped retreating. It stood frozen, its club raised, its eyes wide with a mixture of fear and defiance. It was a small, pathetic thing, a shadow of a monster, but it was still a threat. It could kill one of the captives in a heartbeat. It could ring the alarm bell. It could run.
+
+Elias took a step forward.
+
+The goblin flinched.
+
+"Stay where you are," Elias said, his voice low and steady. He did not raise his sword. He did not threaten. He simply stated a fact. "If you move, we move. If you kill them, we kill you. If you run, we catch you. It is your choice."
+
+The goblin trembled. Its eyes darted between Elias and the captives. It was calculating. It was weighing the odds.
+
+And then, it made a decision.
+
+It lowered its club.
+
+The movement was slow. The movement was slow and deliberate.
+
+It backed away from the captives, moving toward the barred window. Its movements were jerky, uncoordinated, but they were purposeful. It was giving up. It was surrendering.
+
+Elias did not relax. He did not lower his guard. He watched the goblin’s hands. He watched its feet. He watched its eyes.
+
+The goblin reached the window. It turned to face Elias.
+
+It raised its club again.
+
+But this time, it did not point it at the captives. It pointed it at the door.
+
+At Torin.
+
+At the two guards outside.
+
+Elias understood.
+
+The goblin was not surrendering. It was stalling. It was buying time. It was waiting for its friends.
+
+Elias’s eyes narrowed.
+
+He looked at Torin.
+
+Torin nodded.
+
+Elias looked at Maren.
+
+Maren nodded.
+
+Elias looked at Kaelen.
+
+Kaelen opened his eyes.
+
+Elias looked at Elara.
+
+Elara was already moving.
+
+Elias raised his hand.
+
+"Wait."
+
+The word was a command. It cut through the tension. It froze the moment.
+
+The goblin froze.
+
+The captives froze.
+
+The air froze.
+
+Elias took a deep breath.
+
+He looked at the goblin.
+
+Then he looked at the door.
+
+Then he looked at his companions.
+
+He raised his hand again.
+
+This time, he pointed to the door.
+
+Then he pointed to the goblin.
+
+Then he pointed to himself.
+
+The message was clear.
+
+*We are not going to fight you.*
+
+*We are going to talk to you.*
+
+The goblin’s eyes widened.
+
+It was confused.
+
+It was afraid.
+
+But it was listening.
+
+Elias stepped forward.
+
+The goblin did not move.
+
+Elias stopped.
+
+He was three feet away.
+
+He was close enough to hear the goblin’s breathing.
+
+He was close enough to see the fear in its eyes.
+
+He was close enough to kill it.
+
+But he did not.
+
+He spoke.
+
+His voice was soft.
+
+His words were simple.
+
+"Who are you?"
+
+The goblin did not answer.
+
+But it did not move.
+
+And for the first time since they had entered the keep, the party was not fighting.
+
+They were talking.
+
+And the goblin was listening.
+
+The standoff had ended.
+
+The rescue had begun.
+
+Not with a sword.
+
+Not with a spell.
+
+But with a question.
+
+And the answer, Elias knew, would decide everything.
+
+He waited.
+
+The goblin waited.
+
+The captives waited.
+
+The rain waited.
+
+And the world held its breath.
+
+===== END ACCEPTED COMPLETED SCENE =====
+
+Extract snapshot state directly supported by the accepted scene or carried
+forward unchanged from the previous handoff. Extract delta fields exclusively
+from new narrative work performed in the accepted scene.
