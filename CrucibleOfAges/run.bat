@@ -1,13 +1,16 @@
 @echo off
 setlocal
-title Crucible of Ages - draft review and audio
-set "STORYCAST_REPOSITORY_ROOT=C:\Repos\SRD\StoryCast"
-set "STORYCAST_VOICE_LIBRARY=C:\Users\David\Documents\StoryCast\voices"
+title Crucible of Ages - Beat Editor
 set "STORY_ROOT=%~dp0"
 set "STORY_ROOT=%STORY_ROOT:~0,-1%"
-dotnet run -c Release --project "C:\Repos\SRD\StoryForge.Endless\src\StoryForge.Endless.Worker\StoryForge.Endless.Worker.csproj" -- --repository-root "%STORY_ROOT%" chapter run
+set "STORYFORGE_PROJECT=%~dp0..\..\StoryForge.Endless\src\StoryForge.Endless.Worker\StoryForge.Endless.Worker.csproj"
+if not exist "%STORYFORGE_PROJECT%" (
+    echo Clone StoryForge.Endless beside StoryForge.Publish before starting the editor.
+    pause
+    exit /b 1
+)
+dotnet run -c Release --project "%STORYFORGE_PROJECT%" -- --repository-root "%STORY_ROOT%" editor
 set "RUN_EXIT=%ERRORLEVEL%"
-echo.
-if not "%RUN_EXIT%"=="0" echo Chapter run stopped with code %RUN_EXIT%.
+if not "%RUN_EXIT%"=="0" echo Beat editor stopped with code %RUN_EXIT%.
 pause
 exit /b %RUN_EXIT%

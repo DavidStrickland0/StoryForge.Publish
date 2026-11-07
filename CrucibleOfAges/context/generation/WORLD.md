@@ -10,7 +10,7 @@ This rule governs all prose, dialogue, inscriptions, prices, accounts, dates, an
 - Counting passes from 7 to 10, from 17 to 20, and from 77 to 100. A local 10 is eight units, not ten. A local 100 is sixty-four units, not one hundred.
 - Mathematical familiarity with bases two, four, or sixteen does not authorize a switch in ordinary notation. Any specialized alternative requires explicit author establishment; decimal is not a local default.
 - Write out quantity names when this is clearer, or use the established grouping names. Do not spell out an incorrect decimal interpretation as though it were the local quantity.
-- Decimal is permitted only in explicitly identified author-reference conversions or Caelen's clearly marked Earth-based thoughts, comparisons, and mistakes. His error is an error within the scene, not a change in world arithmetic. Correct transactions must reconcile in base eight.
+- Decimal is permitted only in explicitly identified author-reference conversions or Caelen's clearly marked Earth-based thoughts, comparisons, and mistakes. His error is an error within the beat, not a change in world arithmetic. Correct transactions must reconcile in base eight.
 
 ### Calendar and Periods
 
@@ -129,7 +129,7 @@ Authority can serve people or exploit their dependence. Taxation, command, punis
 
 A liberator must face the material needs of the people freed. Emergency leadership can become possession when followers lose meaningful choice. Protection, shared decisions, accountability, and removal of exploitative officials should matter in the story without being converted into point awards.
 
-## Current Observations — End of Chapter 4
+## Current Observations — End of Scene 4
 
 - Caelen is alive, collared, and captive in a stone-walled slave pen.
 - The new world has a pale yellow sky and a hazy sun. Exact gravity remains uncertain.
@@ -139,7 +139,7 @@ A liberator must face the material needs of the people freed. Emergency leadersh
 
 ## Book-One Worldbuilding Foundation
 
-The following is author-facing setting guidance for future scenes. It develops the premise without asserting that Caelen or local inhabitants know the metaphysical rules. Named places, currencies, offices, species names, and unsupplied mechanical details remain open. Use the timekeeping and measurements established below. The current state above records events already shown.
+The following is author-facing setting guidance for future beats. It develops the premise without asserting that Caelen or local inhabitants know the metaphysical rules. Named places, currencies, offices, species names, and unsupplied mechanical details remain open. Use the timekeeping and measurements established below. The current state above records events already shown.
 
 ### Material Life and Local Scale
 
@@ -159,7 +159,7 @@ Value depends on what a buyer expects a person to do. Physical strength, learned
 
 Collars and records signify claimed ownership. The established collar is locked metal; magical tracking, compulsory obedience, lethal removal, and remote punishment are not established properties. Any added mechanism requires a deliberate introduction and consistent limits.
 
-Enforcement requires information and resources. Guards have shifts, superiors, routines, conflicting duties, and reasons to report or conceal incidents. A guard's retreat in Chapter 4 establishes one local outcome, not general immunity for Caelen. Others may test him, watch him, raise his price, or seek a less costly way to control him.
+Enforcement requires information and resources. Guards have shifts, superiors, routines, conflicting duties, and reasons to report or conceal incidents. A guard's retreat in Scene 4 establishes one local outcome, not general immunity for Caelen. Others may test him, watch him, raise his price, or seek a less costly way to control him.
 
 Freedom has material requirements. Escape leaves questions of water, food, shelter, identification, travel, medical care, and protection from recapture. Freeing a group increases these demands and makes decisions about leadership consequential.
 
@@ -187,7 +187,7 @@ Accurate planetary totals are not public information by default. Observing a pit
 
 ### Ability Design Boundaries
 
-No usable ability has been demonstrated by Caelen through Chapter 4. The two displayed ones have no confirmed meaning under the faction model. They are not Dominion and Sacrifice scores; flickering alone establishes neither advancement nor an unlocked power.
+No additional System-granted ability has been demonstrated at the opening of this new telling. The two displayed ones have no confirmed meaning under the faction model. They are not Dominion and Sacrifice scores; flickering alone establishes neither advancement nor an unlocked power.
 
 For Caelen, class capabilities follow the hidden SRD 3.5 Fighter framework; Sacrifice governs advancement eligibility, not a separate ability catalogue. Do not invent faction-specific powers. Other people's classes and advancement mechanisms remain undefined. Ordinary skill, equipment, organization, and allies remain consequential.
 
@@ -195,7 +195,7 @@ Before a new power resolves a major obstacle, establish what it acts on, what it
 
 ### Details Still Open
 
-The world and settlement names, regional map, political hierarchy, currency, local species taxonomy, exact technology ceiling, and religious denominations remain open. Time periods and measurement units are established below; Caelen's mechanics are author-managed. Establish them in small connected groups as the story requires them. Record an established detail in its proper context so later scenes reuse it.
+The world and settlement names, regional map, political hierarchy, currency, local species taxonomy, exact technology ceiling, and religious denominations remain open. Time periods and measurement units are established below; Caelen's mechanics are author-managed. Establish them in small connected groups as the story requires them. Record an established detail in its proper context so later beats reuse it.
 
 
 ## End Revelation — Planetary Rulership
@@ -210,7 +210,7 @@ The Creator takes a unique interest in Caelen and prompts him throughout his ris
 
 The Creator never intervenes to resolve events. Guidance supplies information; Caelen must notice, interpret, test, and use it. It does not remove opposition, bear his costs, compel anyone's choices, guarantee success, or substitute for his judgment and responsibility.
 
-The exact delivery mechanisms are not yet established. Introduce each in a way compatible with the scene and viewpoint, without assuming new divine powers or a particular messenger. Caelen does not recognize the Creator as the source until the ending. He may discover the practical significance of a clue earlier without identifying its divine origin. Odd information can acquire meaning through later observations and accumulated knowledge.
+The exact delivery mechanisms are not yet established. Introduce each in a way compatible with the beat and viewpoint, without assuming new divine powers or a particular messenger. Caelen does not recognize the Creator as the source until the ending. He may discover the practical significance of a clue earlier without identifying its divine origin. Odd information can acquire meaning through later observations and accumulated knowledge.
 
 Preserve the end revelation: these prompts must not disclose the 120,000 target, Sacrifice-only acceptance, or destruction and replacement of Dominion rulers before Caelen becomes ruler of his planet. The Creator's reason for this unique interest remains unspecified.
 
@@ -250,7 +250,7 @@ Exact current statistics, learned techniques, advancement thresholds, and the pr
 
 The author handles most LitRPG elements manually. Use author-supplied statistics, progression changes, feats, proficiencies, skills, and ability details as authoritative. Do not independently assign numeric stats, hidden class levels, advancement thresholds, mechanical rewards, or new unlocked capabilities unless explicitly requested.
 
-Prose may depict training, experimentation, application of established capabilities, and believable changes in confidence or technique. A new mechanical unlock, completed skill acquisition, or stat increase requires an author-established change or explicit authorization to develop it. Keep learning grounded in scenes while respecting the distinction between practice and a confirmed mechanical gain.
+Prose may depict training, experimentation, application of established capabilities, and believable changes in confidence or technique. A new mechanical unlock, completed skill acquisition, or stat increase requires an author-established change or explicit authorization to develop it. Keep learning grounded in beats while respecting the distinction between practice and a confirmed mechanical gain.
 
 CHARACTERS.md holds Caelen's current author-supplied mechanics, demonstrated capabilities, and any explicitly established learning potential. WORLD.md holds general rules. Unspecified mechanical values remain unspecified.
 
@@ -300,7 +300,7 @@ Local mathematics favors powers of two. Bases two, four, eight, and sixteen are 
 
 Local base-eight numerals use only the digits 0 through 7. Never use 8 or 9 in an in-world numeral. After 7 comes 10; 10 means eight in decimal, 12 means ten, and 100 means sixty-four. Numerals in author-facing descriptions and the decimal column below are reference conversions, not local notation. Caelen's private decimal thinking can appear as such without becoming local notation.
 
-The same written digits can express different quantities to Caelen and a local reader. Spoken number names and numeral glyph designs remain undefined; do not assume a written-base misunderstanding applies identically to speech. Introduce those conventions through scenes if needed.
+The same written digits can express different quantities to Caelen and a local reader. Spoken number names and numeral glyph designs remain undefined; do not assume a written-base misunderstanding applies identically to speech. Introduce those conventions through beats if needed.
 
 ## Measurement Scale
 
@@ -335,7 +335,7 @@ A vessel of another substance has the same volume but need not weigh one heft. D
 
 Caelen initially reads local numerals through his Earth-learned base-ten habits. A posted price of 10 means eight to the seller but ten to him, so he can overpay by two base units. If he writes 12 intending twelve items, a seller reading base eight supplies ten. If he writes 20 intending twenty, the seller reads sixteen. Ensure each mistake follows the actual direction of the conversion.
 
-He can also get more than he intended: after learning that decimal ten is written 12 locally, he may mechanically convert a posted 12 as though it were decimal twelve and request 14 locally, receiving twelve instead of the posted ten. That is an extra conversion caused by decimal habit, not a direct reading of 12 as twelve by the seller. Establish enough context for the reader to follow the error without turning the scene into a lesson.
+He can also get more than he intended: after learning that decimal ten is written 12 locally, he may mechanically convert a posted 12 as though it were decimal twelve and request 14 locally, receiving twelve instead of the posted ten. That is an extra conversion caused by decimal habit, not a direct reading of 12 as twelve by the seller. Establish enough context for the reader to follow the error without turning the beat into a lesson.
 
 Understanding base eight does not erase his decimal reflexes. Fatigue, urgency, distraction, and familiar-looking prices make him slip back into base ten even after he learns the system. These errors can cause overpayment, mistaken quantities, excess goods, disputes over change, and practical inconvenience. Keep merchant responses and costs credible; the confusion does not require every trader to be dishonest or Caelen to lose all competence.
 

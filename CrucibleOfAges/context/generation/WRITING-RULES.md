@@ -23,15 +23,15 @@ Prioritize:
 - emotional variety
 - readable prose
 
-A chapter should be enjoyable in itself while also giving the reader a reason to continue.
+A scene should be enjoyable in itself while also giving the reader a reason to continue.
 
-## Chapter Length
+## Scene Length
 
-Normal chapters should usually be approximately 2,000–3,000 words.
+Normal scenes should usually be approximately 2,000–3,000 words.
 
-Length should follow the needs of the chapter rather than being padded or prematurely cut to satisfy the target.
+Length should follow the needs of the scene rather than being padded or prematurely cut to satisfy the target.
 
-Chapter boundaries should occur at natural narrative points.
+Scene boundaries should occur at natural narrative points.
 
 ## Fiction First
 
@@ -41,7 +41,7 @@ Do not refer to prompts, generation systems, evaluation systems, or implementati
 
 ## Point of View
 
-Every scene should have a clear viewpoint.
+Every beat should have a clear viewpoint.
 
 Narration is limited to what the viewpoint character can reasonably:
 
@@ -61,7 +61,7 @@ Narrative voice should reflect the viewpoint character's personality, experience
 
 ## Canon and Continuity
 
-Published prose must remain compatible with established canon and previously accepted chapters.
+Published prose must remain compatible with established canon and previously accepted scenes.
 
 Preserve meaningful continuity involving:
 
@@ -81,7 +81,7 @@ Do not silently rewrite established history.
 
 When a fact is genuinely undefined, it may be established when the story needs it.
 
-Avoid inventing unnecessary prior history solely to make a current scene convenient.
+Avoid inventing unnecessary prior history solely to make a current beat convenient.
 
 ## Characters
 
@@ -140,7 +140,7 @@ A practical sequence should make sense as:
 
 Use developed, character-centered prose.
 
-Give scenes enough room for:
+Give beats enough room for:
 
 - action
 - setting
@@ -197,11 +197,11 @@ Conversation, exploration, travel, humor, reflection, ordinary activity, and rel
 
 Do not manufacture constant suspense or escalation.
 
-Not every chapter requires a confrontation, revelation, cliffhanger, or larger threat.
+Not every scene requires a confrontation, revelation, cliffhanger, or larger threat.
 
 Narrative advancement is not synonymous with escalation.
 
-A chapter may advance through travel, recovery, conversation, preparation, investigation, reflection, relationship development, consolidation, ordinary activity, a decision, or the consequences of an earlier event.
+A scene may advance through travel, recovery, conversation, preparation, investigation, reflection, relationship development, consolidation, ordinary activity, a decision, or the consequences of an earlier event.
 
 Do not introduce a new attack, arrival, revelation, sound, figure, pursuit, deadline, or imminent threat merely to make the final paragraphs feel dramatic.
 
@@ -209,7 +209,7 @@ Do not turn the completion of an immediate objective into an automatic discovery
 
 ## Narrative Progress
 
-A chapter should normally produce meaningful change.
+A scene should normally produce meaningful change.
 
 That change may involve:
 
@@ -225,7 +225,7 @@ That change may involve:
 - world state
 - goals
 
-Quiet chapters are valid when they provide worthwhile character, relationship, world, emotional, or thematic development.
+Quiet scenes are valid when they provide worthwhile character, relationship, world, emotional, or thematic development.
 
 Allow victories and resolutions to matter.
 
@@ -281,7 +281,7 @@ When an arc benefits from sustained humor, establish a recurring source of humor
 - practical disputes involving food, payment, lodging, transport, equipment, and reputation
 - the difference between how an adventure will be retold and what actually happened
 
-A recurring humorous situation should develop through establishment, complication, and payoff at a pace suited to the arc. Do not impose a three-chapter comedy structure on every episode.
+A recurring humorous situation should develop through establishment, complication, and payoff at a pace suited to the arc. Do not impose a three-scene comedy structure on every episode.
 
 Prefer dry observation, understatement, escalating inconvenience, callbacks, reversals, and character-specific reactions over setup-and-punchline jokes.
 
@@ -314,7 +314,7 @@ Avoid:
 - repeating the same joke with slightly different wording
 - cruelty, humiliation, or trauma as the default punchline
 - making every authority figure incompetent
-- forcing jokes into the emotional climax of a serious scene
+- forcing jokes into the emotional climax of a serious beat
 
 When a recurring comic situation is established, give it development and an appropriate payoff. Serious episodes may conclude through emotional or practical resolution without a comic payoff.
 ## Relationships and Sexuality
@@ -323,7 +323,7 @@ Romantic and sexual content involves adults.
 
 Adult attraction, flirtation, desire, nudity, sexual tension, and sexual humor may appear when natural to the viewpoint character, relationship, tone, and situation.
 
-Do not force sexual content into scenes where it has no narrative or character purpose.
+Do not force sexual content into beats where it has no narrative or character purpose.
 
 Attraction should coexist with broader characterization and relationship development.
 
@@ -341,19 +341,19 @@ Do not protect important characters from legitimate consequences merely because 
 
 Do not manufacture failure solely to prolong a conflict that has already been resolved.
 
-## Chapter Endings
+## Scene Endings
 
-End chapters at natural points of change, resolution, decision, discovery, transition, consequence, anticipation, or interruption.
+End scenes at natural points of change, resolution, decision, discovery, transition, consequence, anticipation, or interruption.
 
 A cliffhanger is optional.
 
 Do not repeatedly use the same ending structure.
 
-An ending may be satisfying, funny, quiet, ominous, unresolved, triumphant, curious, or reflective according to the chapter.
+An ending may be satisfying, funny, quiet, ominous, unresolved, triumphant, curious, or reflective according to the scene.
 
 ## Long-Running Continuity
 
-The story should feel like one continuous world rather than a sequence of disconnected chapter prompts.
+The story should feel like one continuous world rather than a sequence of disconnected scene prompts.
 
 Previously established relationships, discoveries, jokes, locations, minor characters, victories, mistakes, promises, objects, and unresolved questions may return when naturally relevant.
 
@@ -367,7 +367,7 @@ Do not escalate threat, darkness, violence, or stakes merely because the story h
 
 Every active story arc supplies both an `Objective` and a `PrimaryTrope`.
 
-The objective defines what the story must accomplish. The primary trope defines the recognizable fantasy narrative shape through which the story accomplishes it. Prose and chapter plans must serve both.
+The objective defines what the story must accomplish. The primary trope defines the recognizable fantasy narrative shape through which the story accomplishes it. Prose and scene plans must serve both.
 
 Use the trope to provide familiar reader pleasures such as assembling a party, accepting a quest, exploring a dungeon, meeting a colorful rival, protecting a caravan, finding a map, winning a tournament, recovering a relic, or returning home changed. Adapt those pleasures to established characters and continuity instead of copying a particular published story.
 
@@ -378,7 +378,7 @@ Do not treat a trope name as permission to:
 - manufacture melodrama
 - force constant escalation
 - repeat already completed narrative work
-- imitate identifiable characters, scenes, or prose from another work
+- imitate identifiable characters, beats, or prose from another work
 - delay resolution merely to preserve the trope
 
 Favor adventure, discovery, earned competence, camaraderie, wit, strange places, useful victories, and entertaining complications. Serious consequences may persist, but sustained misery, helplessness, suspicion, and emotional punishment must not become the story's default atmosphere.
@@ -387,7 +387,7 @@ Story-specific deadlines, subject matter, and tonal commitments belong in narrat
 
 ## Rule Design
 
-Writing rules should remain principles rather than patches for individual chapter failures.
+Writing rules should remain principles rather than patches for individual scene failures.
 
 Do not add a permanent rule solely to prevent one highly specific past mistake when a broader principle already covers the problem.
 
@@ -416,18 +416,18 @@ When two rules conflict, prefer the rule that best preserves:
 - Preserve the emotional consequences of concluded NPC relationships.
 - Subtle attraction must remain perceptible and develop over time; subtle does not mean static or invisible.
 - Show attraction through selective attention, chosen or avoided proximity, private humor, remembered details, personal conversations, altered priorities, and deliberate reassertion of professional boundaries.
-- Use only one or two appropriate signals in a scene and vary them across chapters.
+- Use only one or two appropriate signals in a beat and vary them across scenes.
 - Do not rely repeatedly on staring, blushing, racing hearts, accidental touching, jealousy, or descriptions of physical beauty.
-- Do not force romantic content into every chapter.
+- Do not force romantic content into every scene.
 - Romantic interaction should also reveal character, influence decisions, create conflict, provide relief, or affect later behavior.
 
-## Scene Construction and Consequences
+## Beat Construction and Consequences
 
-Build scenes around a character who wants something specific, encounters resistance, makes a choice, and leaves with changed circumstances or understanding. The resistance may be social, practical, emotional, or internal. Avoid mechanically repeating this structure in the prose.
+Build beats around a character who wants something specific, encounters resistance, makes a choice, and leaves with changed circumstances or understanding. The resistance may be social, practical, emotional, or internal. Avoid mechanically repeating this structure in the prose.
 
 Establish enough physical geography for readers to understand movement, access, concealment, and escape. Track hands, restraints, carried objects, witnesses, distance, and elapsed time when these affect a choice. A successful bluff needs a credible incentive for the target to cooperate; confidence alone does not compel obedience.
 
-Carry costs forward. Injury affects movement and sleep; hunger affects attention; betrayal affects trust; public defiance affects surveillance. Recovery and reconciliation require time or an established means. A completed scene may solve its immediate problem while leaving believable consequences.
+Carry costs forward. Injury affects movement and sleep; hunger affects attention; betrayal affects trust; public defiance affects surveillance. Recovery and reconciliation require time or an established means. A completed beat may solve its immediate problem while leaving believable consequences.
 
 ## Discovery, Language, and Exposition
 

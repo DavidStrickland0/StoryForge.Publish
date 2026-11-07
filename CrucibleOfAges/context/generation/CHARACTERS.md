@@ -1,12 +1,12 @@
-# Characters
+﻿# Characters
 
 ## Continuity Basis
 
-Current state is anchored to the end of accepted Chapter 4. Earlier states belong in history. Descriptive identifiers remain in use until names are learned in the story. Caelen's readings of motives and rank remain interpretations unless independently established.
+The new telling has not begun. Caelen is alive on Earth, a United States Marine in his first life. No scene has been accepted in this telling. His rescue death, faction choice, Creator visit, void interval, bodily return, capture, and meeting with Marcy are planned events, not completed continuity. Character descriptions and later-life events below are author background or planned material. They do not grant present knowledge, injuries, relationships, captivity, abilities, or achievements before those events occur in the new prose.
 
 ## Caelen
 
-### Established History
+### Author-established Background and Planned Events
 
 - A United States Marine in his first life on Earth.
 - Sought status, escape, belonging, and significance; capable of courage and loyalty alongside selfishness and exploitation.
@@ -15,15 +15,13 @@ Current state is anchored to the end of accepted Chapter 4. Earlier states belon
 - He truly died on Earth; his Earth body was destroyed. He remained dead in Nothing (the void), experiencing the passage of time while the acuteness of his memories gradually diminished. Later, his body was reformed from local dust on another world, where he awakened alive.
 - He is an awakened person from Earth and perceives a private System. Everyone from Earth eventually awakens. His intentional rescue death triggers automatic Sacrifice assignment. His tutorial choices weigh so strongly toward Dominion that this conflict triggers a rare offer to choose between factions. At death he quickly chooses Sacrifice, without understanding its mechanics. He dislikes what he became on Earth and finds peace only in his final rescue. This weighting reflects hidden faction points, inaccessible during life and weighed only at death.
 
-### Current State
+### Current Opening State
 
-- Alive, collared, and captive in the slave pen at the end of Chapter 4. His declaration of identity is resolve; he has not escaped or obtained legal freedom.
-- The returned body has larger, broad-palmed hands and tanned, rough skin. It is locally adapted and physically conditioned but initially unfamiliar.
-- Sustained a staff blow to the ribs during capture. Recovery has not been established. Transport restraints injured his wrists; their exact configuration after entering the pen should not be assumed without clarification in prose.
-- Cannot understand the local language. Recognizes some situational cues, which do not grant precise knowledge of laws or motives.
-- The existing chapters show two private columns containing one and one. Their function under the revised premise is unresolved; they are not visible levels or faction scales. No additional class capability is demonstrated in those chapters.
-- Bluffed a guard into lowering his staff and has attracted attention from guards and captives. His standing is provisional.
-- Immediate aims are survival, understanding the local rules, and eventual freedom. His latest tactic secured personal position rather than establishing a selfless commitment to the other captives.
+- Alive on Earth, serving as a United States Marine before his fatal rescue.
+- Selfish ambitions, trained habits, defensive pride, courage, and capacity to care remain established characterization.
+- He has not yet died, chosen a faction, met the Creator, returned to another world, been enslaved, or met Marcy in this telling.
+- No returned-body injury, local-language learning, System advancement, protector relationship, or slave-pen standing has yet been earned or established.
+- Do not carry injuries, completed events, or character knowledge forward from the archived draft.
 
 ### Knowledge from the Creator's Visit
 
@@ -83,7 +81,7 @@ Preserve a recognizable voice: practical attention, defensive pride, impatience 
 
 ## The Masked Man in Purple
 
-- Introduced in Chapter 4 wearing purple silk robes and a polished bone mask covering nose and mouth.
+- Planned local character wearing purple silk robes and a polished bone mask covering nose and mouth.
 - Pale eyes; carries a ledger and a cane capped with black stone.
 - Directs the guard's actions and publicly diminishes the scarred captive's standing.
 - Caelen does not understand his words. His exact office, intent, and relationship to the blue-clothed man remain undefined.
@@ -92,12 +90,12 @@ Preserve a recognizable voice: practical attention, defensive pride, impatience 
 
 - Older male captive with a facial scar and an apparent following in the pen.
 - Caelen calls him the alpha; that is Caelen's assessment rather than a known local title.
-- His confidence and apparent standing declined during the masked man's visit. He watches Caelen afterward.
+- The former draft's encounter with the masked man is reference material, not an event that has already happened in this telling.
 - Prior privileges, personal loyalties, and reaction to Caelen remain unknown.
 
 ## The Young Woman in the Pen
 
-- Thin, visibly distressed captive struck by a guard in Chapter 4.
+- Planned captive from the former draft; her distress and the guard encounter have not occurred in this telling.
 - Caelen gestures toward her during his bluff. No personal bond, gratitude, allegiance, or romantic interest has been established.
 - Name, adult status, background, skills, and goals remain undefined.
 
@@ -119,7 +117,7 @@ Marcy is a young, non-awakened woman and Caelen's female love interest. She is a
 
 ### First Meeting and Protector Claim
 
-Caelen meets Marcy in the slave carriage during the opening chapters. Her beauty draws the overseer's attention. Other men in the slave cage harass her or attempt to sexually assault her; Caelen is the only man there who does not join them. His lack of participation is initially rooted largely in his inability to understand the language and recognize what is happening. Do not rewrite that passivity as a fully informed heroic stand.
+Caelen meets Marcy in the slave carriage during the opening scenes. Her beauty draws the overseer's attention. Other men in the slave cage harass her or attempt to sexually assault her; Caelen is the only man there who does not join them. His lack of participation is initially rooted largely in his inability to understand the language and recognize what is happening. Do not rewrite that passivity as a fully informed heroic stand.
 
 His different behavior makes Marcy trust him enough to claim him as her protector in desperation. Under slave-pit custom, she claims to have given her life to him in exchange for protection, becoming subordinate to him during her free time. Caelen does not understand the declaration or the obligations it creates.
 
@@ -137,9 +135,9 @@ Her personality, skills, private ambitions, grief, and relationships beyond Cael
 
 Caelen earns several hidden Fighter advancement steps through the fights on Marcy's behalf. These are author-established outcomes, not visible levels or XP rewards. Exact counts and stat changes will be supplied manually. New learning potential opens, while actual acquisition of skills and techniques develops through prose. Do not award advancement merely for a win; preserve the established Sacrifice motivation and mixed-motive rules and show his prioritization of Marcy's needs and wants over his own, without requiring Caelen to understand the faction mechanics or custom.
 
-### Opening-Chapter Integration
+### Opening-Scene Integration
 
-The carriage meeting and protector claim are author-established opening material that must be integrated into the existing chapters. Do not silently assert that the currently accepted text already depicts them. Whether Marcy is the distressed young woman in Chapter 4 remains unestablished; keep their identities separate unless deliberately connected.
+The carriage meeting and protector claim are author-established opening material for the new telling. They are future events until depicted. Whether Marcy is the distressed young woman described separately remains unestablished; keep their identities separate unless deliberately connected.
 
 ## Caelen's Body and Hands
 

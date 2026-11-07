@@ -1,12 +1,10 @@
-# Canon
+﻿# Canon
 
 ## Authority and Scope
 
-The accepted Chapters 1–4 establish the events below. WORLD.md contains authoritative metaphysical mechanics and author-facing setting guidance. NARRATIVE.md holds premise, direction, and current narrative position. CHARACTERS.md separates current character state from history.
+The new telling has not begun. Caelen is alive on Earth, a United States Marine in his first life. No scene has been accepted in this telling. His rescue death, faction choice, Creator visit, void interval, bodily return, capture, and meeting with Marcy are planned events, not completed continuity. WORLD.md contains authoritative metaphysical mechanics and setting guidance. NARRATIVE.md contains planned story direction. CHARACTERS.md distinguishes opening state from planned development. The former draft is archived reference, not accepted history for this telling. Preserve author-established events as future commitments until the new prose depicts them.
 
-Plans describe intended future developments, not completed events. Character beliefs and institutional doctrines are claims until confirmed. When contexts disagree, preserve accepted events and flag any unresolved mechanic rather than inventing an explanation.
-
-## Established History
+## Author-established Background and Planned Opening Events
 
 - Caelen was a United States Marine living his first life on Earth.
 - He lied to his mother about injuries and took credit for Private Davis's tactical call.
@@ -18,18 +16,13 @@ Plans describe intended future developments, not completed events. Character bel
 - The new world has a pale yellow sky and a dim, hazy sun. His initial sensation of heaviness does not settle whether local gravity is greater than Earth's.
 - Local speech is unfamiliar to Caelen, who perceives harsh consonants and rolling vowels.
 - Captors assessed him, locked a metal collar around his neck, struck his ribs with a staff, restrained him, and transported him by cart.
-- Chapter 4 places him in a stone-walled slave pen containing roughly thirty captives, with guards at the gate and a patrolling staff-bearing guard.
+- Scene 4 places him in a stone-walled slave pen containing roughly thirty captives, with guards at the gate and a patrolling staff-bearing guard.
 - A masked man in purple carries a ledger and a black-tipped cane, directs a guard, and undermines the scarred captive's apparent standing.
 - A guard strikes a distressed young woman. Caelen subsequently bluffs a guard into lowering his staff, seeking to improve his own position.
 
-## Current Snapshot — End of Chapter 4
+## Current Opening State
 
-- Caelen is alive, enslaved, collared, and in the pen under observation.
-- His interface still displays one and one; their meaning remains unresolved. Flickering has not established a new level or usable ability.
-- He does not understand the local language, progression paths, local law, or exact institutional hierarchy.
-- His injuries have not been explicitly healed.
-- The scarred captive, other slaves, and the guard are watching him.
-- His intention is to learn, survive, and exploit local rules toward freedom. His closing declaration does not change physical captivity or legal status.
+The new telling has not begun. Caelen is alive on Earth, a United States Marine in his first life. No scene has been accepted in this telling. His rescue death, faction choice, Creator visit, void interval, bodily return, capture, and meeting with Marcy are planned events, not completed continuity.
 
 ## Unresolved Details
 
@@ -43,7 +36,7 @@ Plans describe intended future developments, not completed events. Character bel
 
 ## Continuity Maintenance
 
-After an accepted chapter, update present-tense state and retain earlier events as history. Record newly established facts, character knowledge, injury or resource changes, relationship changes, and unresolved obligations. Avoid retaining obsolete states as simultaneous current facts.
+After an accepted scene, update present-tense state and retain earlier events as history. Record newly established facts, character knowledge, injury or resource changes, relationship changes, and unresolved obligations. Avoid retaining obsolete states as simultaneous current facts.
 
 
 ## Author Decisions Superseding Earlier Interpretations
@@ -54,4 +47,4 @@ Sacrifice means loving others above oneself and prioritizing their needs and wan
 
 Caelen chooses Sacrifice at death and receives the Creator's verification visit. Marcy meets him in the carriage and claims protection, leading to fights and author-established hidden advancement. Book One ends with Caelen becoming planetary Sacrifice ruler and learning the Creator's full plan. These commitments supersede the earlier dual-progression and local-liberation-only premise.
 
-The opening choice, visit, and Marcy episodes still require integration into the existing prose. Do not label them as already depicted in accepted Chapters 1–4. Those chapters' two visible ones remain an unresolved interface detail, not scores or confirmed levels.
+Depict the opening choice, visit, and Marcy episodes in the new telling. No former draft scene establishes completed events here. The former draft's two visible ones remain an unresolved interface choice, not scores or confirmed levels; do not invent a mechanical explanation.

@@ -49,7 +49,7 @@ The freed people need food, care, shelter, safety, and leadership. Their relianc
 
 ## Current Narrative State
 
-At the end of Chapter 4, Caelen is alive, collared, and captive in the pen. He has bluffed a guard into lowering his staff and attracted attention. He does not understand the local language or interface. No usable ability or numerical advancement has been demonstrated. His closing declaration is resolve, not escape.
+The new telling has not begun. Caelen is alive on Earth, a United States Marine in his first life. No scene has been accepted in this telling. His rescue death, faction choice, Creator visit, void interval, bodily return, capture, and meeting with Marcy are planned events, not completed continuity. Begin with the Earth opening and develop the rescue and its consequences in order. Do not begin from the former slave-pen checkpoint.
 
 ## Book-One Development Guidance
 
@@ -57,17 +57,17 @@ At the end of Chapter 4, Caelen is alive, collared, and captive in the pen. He h
 
 The primary experience is survival and earned agency in a progression fantasy whose central temptation is effective control. Use Caelen's close viewpoint to keep the metaphysical mystery grounded in immediate needs. His first great sacrifice creates a possibility that later choices must develop.
 
-The early tone combines disorientation, anger, practical observation, and vulnerability. Make space for dry humor, small comforts, competence, and tentative companionship as relationships grow. Institutional cruelty has lasting effects without making every person cruel or every scene punitive.
+The early tone combines disorientation, anger, practical observation, and vulnerability. Make space for dry humor, small comforts, competence, and tentative companionship as relationships grow. Institutional cruelty has lasting effects without making every person cruel or every beat punitive.
 
-### Near-Term Development from Chapter 4
+### Opening Development
 
-Continue from the pen rather than repeating resurrection or capture. Caelen needs water, food, rest, information, and a realistic reading of his new standing. His bluff gives him attention that may help or endanger him. Establish its consequences through concrete treatment and reactions.
+Begin on Earth before the rescue death. Establish Caelen through his actions and voice, then depict the rescue, death-time choice, limited Creator visit, time in Nothing, bodily return, and capture as the opening unfolds. Marcy's carriage meeting and protector arc remain part of the planned opening. Later captivity must arise through newly depicted events; it is not the starting state.
 
 Build language through recurring tasks, objects, commands, mistakes, and patient or self-interested correction. Let him acquire a few useful distinctions before broader understanding. His first source of instruction should have a reason to help and limits on what they will risk.
 
 Develop the scarred captive, the struck woman, and at least one authority figure as individuals through interaction. Their goals can complicate Caelen's assumptions. Do not require immediate friendship, romantic attachment, or recruitment.
 
-Show System discovery through observed choices and reproducible details. Caelen may form wrong hypotheses, but narration should distinguish those hypotheses from author-known mechanics. His developing Fighter capabilities should have established prerequisites and be learned through scenes; do not invent a magical power or automatic technique.
+Show System discovery through observed choices and reproducible details. Caelen may form wrong hypotheses, but narration should distinguish those hypotheses from author-known mechanics. His developing Fighter capabilities should have established prerequisites and be learned through beats; do not invent a magical power or automatic technique.
 
 ### The Rise Toward Revolt
 
@@ -103,7 +103,7 @@ Romance, if it develops, needs established adult status, mutual knowledge, credi
 
 Book One encompasses the local revolt, the wider planetary conflict, and Caelen's rise to planetary rulership on the Sacrifice path. The local victory must lead into the practical and political demands of freeing and governing a world. The ending reveals the Creator's selection plan once Caelen becomes planetary ruler. The exact progression threshold and means of overcoming ancient powers remain undefined; do not assume a required Level 100 milestone without establishing it.
 
-Use local liberation objectives as intermediate milestones within the larger slave-to-planetary-ruler arc. The existing chapter windows are provisional because they were planned around the narrower ending; revise their distribution before relying on them to pace the full book. Planned outcomes are not completed events.
+Use local liberation objectives as intermediate milestones within the larger slave-to-planetary-ruler arc. The existing scene windows are provisional because they were planned around the narrower ending; revise their distribution before relying on them to pace the full book. Planned outcomes are not completed events.
 
 ## Open Author Decisions
 
@@ -111,7 +111,7 @@ Use local liberation objectives as intermediate milestones within the larger sla
 - How are the death-time choice and Creator's verification visit presented while preserving Caelen's incomplete understanding?
 - What establishes planetary rulership and acceptance, what does destruction mean, and how are replacements selected?
 - What specific pattern is sufficient for reassignment at death? No quantitative threshold is established.
-- What do the two displayed ones mean, or should that interface be revised in the chapters?
+- What do the two displayed ones mean, or should that interface be revised in the scenes?
 - How do destination selection, waiting time, non-awakened progression, and Enlightenment work under this model?
 
 
@@ -143,4 +143,5 @@ WORLD.md is authoritative for base-eight notation, the named pentad cycle, holy 
 
 ## Opening Integration Status
 
-The accepted Chapters 1–4 remain the current prose baseline. This session establishes additions that have not yet been integrated into those chapters: the faction choice, Creator's visit, and Marcy's carriage/protector arc. Author decisions supersede older interpretations, but plans must not claim the existing prose already depicts the additions. Resolve the visible ones before using them as a mechanical clue.
+This is a fresh telling from the beginning. No former scenes are accepted in this run. Preserve the author-established opening, faction motivations, hidden SRD progression, world rules, Marcy material, planetary scope, and revelation boundaries. Depict planned developments rather than inheriting the former draft's completed-event state. The meaning and presentation of the former interface numbers remain unresolved.
+
