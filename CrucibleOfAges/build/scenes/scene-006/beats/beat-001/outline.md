@@ -1,0 +1,1 @@
+Purpose: The girls punishment is changed. Typically new slaves get a week to adjust instead she is now responsible for her saviors quota as well as her own starting tomorrow

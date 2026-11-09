@@ -1,0 +1,9 @@
+Purpose: Caelen wakes in the stone-walled pen, observing his captors shift from transactional indifference to active humiliation as he attempts a desperate social bluff to improve his conditions.
+
+Viewpoint: Third-person limited (Caelen). The camera lingers on the grim texture of the enclosure—pale yellow light filtering through high slits, the rough skin of thirty others huddled in the shadows, and the heavy breathing of guards patrolling the perimeter.
+
+Objective: Caelen must suppress his panic upon waking from the beat-induced unconsciousness. He assesses the immediate threat level: a masked man in purple undermines a scarred captive's authority while a guard strikes a distressed young woman. Caelen identifies an opening to intervene not through combat, but through a calculated social interaction with the guard, attempting to bluff his way into better treatment or at least less pain.
+
+Meaningful Change: The narrative shifts from passive victimhood (transport) to active, albeit precarious, engagement within the slave pen. Caelen transitions from internal analysis of his status as "inventory" to external action, risking a moment of agency that contradicts his physical helplessness. He establishes a temporary dynamic with the guard where deception is the primary tool for survival.
+
+Continuity Dependencies: This beat follows the cart ride ending in unconsciousness; Caelen is now alert but physically restrained by the collar and ropes. The scarred captive's standing must be visibly undermined by the man in purple to provide the context for Caelen’s intervention. The guard’s strike on the woman serves as the catalyst that forces Caelen to act, blending the established harshness of the world with his attempt at a quip-laden bluff.

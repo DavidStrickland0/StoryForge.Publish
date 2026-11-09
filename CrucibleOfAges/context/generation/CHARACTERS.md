@@ -1,27 +1,27 @@
-﻿# Characters
+# Characters
 
 ## Continuity Basis
 
-The new telling has not begun. Caelen is alive on Earth, a United States Marine in his first life. No scene has been accepted in this telling. His rescue death, faction choice, Creator visit, void interval, bodily return, capture, and meeting with Marcy are planned events, not completed continuity. Character descriptions and later-life events below are author background or planned material. They do not grant present knowledge, injuries, relationships, captivity, abilities, or achievements before those events occur in the new prose.
+Current state follows the approved prose through Scene 5, Beat 2. The latest human-edited prose overrides these descriptions wherever they differ. Background and planned material do not establish current appearance, knowledge, relationships, status, or achievements. See CANON.md for the current physical position. Preserve future author material without forcing an obsolete staging or replaying completed events.
 
 ## Caelen
 
-### Author-established Background and Planned Events
+### Author Background and Depicted History
 
-- A United States Marine in his first life on Earth.
+- A Marine in his first life on Earth. Institutional affiliation is not resolved here because the approved prose uses inconsistent wording.
 - Sought status, escape, belonging, and significance; capable of courage and loyalty alongside selfishness and exploitation.
-- Lied to his mother about injuries and took credit for Private Davis's tactical call.
+- Hid injuries from his mother and remembers lies, stolen credit, and using others. The briefing credits Davis while Caelen believes he supplied that insight; do not invent a new incident to reconcile later recollections.
 - Died shielding a noncombatant mother carrying her dead infant from Sergeant Miller's gunfire. The mother survived.
 - He truly died on Earth; his Earth body was destroyed. He remained dead in Nothing (the void), experiencing the passage of time while the acuteness of his memories gradually diminished. Later, his body was reformed from local dust on another world, where he awakened alive.
 - He is an awakened person from Earth and perceives a private System. Everyone from Earth eventually awakens. His intentional rescue death triggers automatic Sacrifice assignment. His tutorial choices weigh so strongly toward Dominion that this conflict triggers a rare offer to choose between factions. At death he quickly chooses Sacrifice, without understanding its mechanics. He dislikes what he became on Earth and finds peace only in his final rescue. This weighting reflects hidden faction points, inaccessible during life and weighed only at death.
 
-### Current Opening State
+### Current State
 
-- Alive on Earth, serving as a United States Marine before his fatal rescue.
-- Selfish ambitions, trained habits, defensive pride, courage, and capacity to care remain established characterization.
-- He has not yet died, chosen a faction, met the Creator, returned to another world, been enslaved, or met Marcy in this telling.
-- No returned-body injury, local-language learning, System advancement, protector relationship, or slave-pen standing has yet been earned or established.
-- Do not carry injuries, completed events, or character knowledge forward from the archived draft.
+- Caelen has died, chosen the other-directed path, received the verification visit, experienced the void, returned, been captured, and reached the cell. These are completed events.
+- He is naked, collared, sore, and unexpectedly resilient. His hands and feet are free. His back was caned while he shielded the girl; her nails marked his forearm.
+- He has stood and helped her stand. His intervention was instinctive and unplanned; avoid turning it into an established manipulation strategy.
+- Earth memories are distant and faded. He cannot understand local speech or explain his recovery, faction mechanics, or any hidden advancement.
+- No demonstrated local-language learning, interface display, protector claim, romantic bond, or measured advancement is established. The girl's identity as Marcy remains unconfirmed.
 
 ### Knowledge from the Creator's Visit
 
@@ -45,15 +45,15 @@ Preserve a recognizable voice: practical attention, defensive pride, impatience 
 
 ## Sergeant Miller
 
-- United States Marine and Caelen's squad leader on Earth.
+- Marine and Caelen's squad leader on Earth.
 - Ordered engagement of the mother; his gunfire killed Caelen as Caelen shielded her.
-- Caelen perceived personal hatred. Miller's full motives, later fate, and any disciplinary consequences remain unknown.
+- The edited engagement depicts his conduct as procedural and cold; it does not establish a personal-hatred explanation. His full motives, later fate, and any disciplinary consequences remain unknown.
 - No presence on the new world or reunion is established.
 
 ## Private Davis
 
 - Member of Caelen's Marine squad.
-- Made a tactical call for which Caelen took credit.
+- Publicly credited by Miller for the secondary egress route. Caelen believes he supplied the insight and sees leverage in letting Davis receive the acknowledgment. Later recollections about stolen credit remain ambiguous; do not reverse the briefing or invent another incident.
 - Later fate and knowledge of Caelen's death remain unestablished.
 
 ## The Mother
@@ -62,42 +62,37 @@ Preserve a recognizable voice: practical attention, defensive pride, impatience 
 - Survived the gunfire that killed Caelen.
 - Name, later circumstances, and understanding of Caelen remain unknown. The infant was already dead before the rescue.
 
-## The Man in the Tunic
+## The Captors at the Wall
 
-- Male with dark, weathered skin and narrow, sharp eyes; wears a coarse brown tunic and a leather belt with a short curved blade.
-- Participated in Caelen's capture at the pit.
-- Personal name, exact office, and knowledge of returnees remain unknown.
+- Two people overpowered and collared Caelen. One held his arms; the other fitted and pulled the collar, had bad breath, and received Caelen's headbutt to the nose.
+- Caelen nicknamed that man Mr. Halitosis, then Meeko after seeing his bruised face during unloading. Meeko cut the foot bindings and received Caelen's kick to the nose.
+- A staff was used during capture. Do not merge the staff user, arm-holder, and later guards beyond what the edited prose establishes. Earlier tunic, blade, and blue-clothed crowned-official descriptions do not establish participants in this telling.
+- Names, ranks, and motives remain unknown. Meeko is Caelen's nickname, not a translated name.
 
-## The Staff-Bearer
+## The Man in Purple
 
-- Established descriptive identifier for a participant in capture and restraint.
-- Keep the identifier unless prose establishes that he is the same individual as another described captor. Names, precise rank, and motives remain unknown.
+- Sits at a rickety table on an overturned crate, with a ledger and black-tipped cane. His face is uncovered. Purple clothing is established; silk fabric, eye color, and exact office are not established by the current edited prose.
+- Stopped the cane-bearing guard with speech, a gesture, and a cane tap. Exact authority and intent remain unknown.
+- Caelen cannot understand his words. Do not assume an ownership transaction, a political humiliation, or a relationship to an unestablished blue-clothed official.
 
-## The Blue-Clothed Man
+## Scarface — The Scarred Man
 
-- Wears a deep blue silk tunic and a crown of twisted metal.
-- Assessed Caelen and authorized his transport as a slave.
-- Clothing and authority in that encounter do not establish kingship or jurisdiction over the whole settlement.
+- A large man with raised, patterned scars spiraling across arms, chest, neck, cheeks, forehead, and hands; scars on face and hands are smaller. Caelen calls him Scarface.
+- Initially stood behind the man in purple. Approached Caelen, offered an open hand, used soothing tones, and gestured for him to stand.
+- Directed the cane-bearing guard back, then returned behind the man in purple while Caelen helped the girl up.
+- His posture looked exhausted and his speech authoritative. His status, rank, motives, and loyalties remain unknown. Do not call him a captive, alpha, displaced leader, or political rival based on the archived version.
 
-## The Masked Man in Purple
+## The Guards in the Cell
 
-- Planned local character wearing purple silk robes and a polished bone mask covering nose and mouth.
-- Pale eyes; carries a ledger and a cane capped with black stone.
-- Directs the guard's actions and publicly diminishes the scarred captive's standing.
-- Caelen does not understand his words. His exact office, intent, and relationship to the blue-clothed man remain undefined.
-
-## The Scarred Captive
-
-- Older male captive with a facial scar and an apparent following in the pen.
-- Caelen calls him the alpha; that is Caelen's assessment rather than a known local title.
-- The former draft's encounter with the masked man is reference material, not an event that has already happened in this telling.
-- Prior privileges, personal loyalties, and reaction to Caelen remain unknown.
+- Two hooded guards with spears stand near the door. Hoods shadow their faces; this does not establish facial coverings.
+- A different cane-bearing guard crossed the cell and struck the girl, then Caelen's back. He withdrew and returned behind the man in purple after the interventions described in the prose.
+- Keep the guard's cane distinct from the man in purple's black-tipped cane. Scarface has no established cane.
 
 ## The Young Woman in the Pen
 
-- Planned captive from the former draft; her distress and the guard encounter have not occurred in this telling.
-- Caelen gestures toward her during his bluff. No personal bond, gratitude, allegiance, or romantic interest has been established.
-- Name, adult status, background, skills, and goals remain undefined.
+- A girl in a bloodstained tunic whom the cane-bearing guard struck. Caelen covered her with his body; she clung to his forearm, wept, accepted soothing, and stood with his help.
+- The remembered woman holding a child is distinct. No infant or food bundle is established for this girl.
+- Her name, age, background, intentions, and relationship to the separately planned Marcy remain unconfirmed. Neither gratitude, obedience, romance nor a formal protector claim follows automatically from accepting help.
 
 ## Supporting Character Development
 
@@ -117,7 +112,7 @@ Marcy is a young, non-awakened woman and Caelen's female love interest. She is a
 
 ### First Meeting and Protector Claim
 
-Caelen meets Marcy in the slave carriage during the opening scenes. Her beauty draws the overseer's attention. Other men in the slave cage harass her or attempt to sexually assault her; Caelen is the only man there who does not join them. His lack of participation is initially rooted largely in his inability to understand the language and recognize what is happening. Do not rewrite that passivity as a fully informed heroic stand.
+The earlier plan places Caelen meeting Marcy in a slave carriage. That meeting has not been depicted; completed transport must not be replayed or current events reversed to force this staging. Adapt the eventual meeting to the edited story. In the planned encounter, her beauty draws the overseer's attention. Other men in the slave cage harass her or attempt to sexually assault her; Caelen is the only man there who does not join them. His lack of participation is initially rooted largely in his inability to understand the language and recognize what is happening. Do not rewrite that passivity as a fully informed heroic stand.
 
 His different behavior makes Marcy trust him enough to claim him as her protector in desperation. Under slave-pit custom, she claims to have given her life to him in exchange for protection, becoming subordinate to him during her free time. Caelen does not understand the declaration or the obligations it creates.
 
@@ -137,7 +132,7 @@ Caelen earns several hidden Fighter advancement steps through the fights on Marc
 
 ### Opening-Scene Integration
 
-The carriage meeting and protector claim are author-established opening material for the new telling. They are future events until depicted. Whether Marcy is the distressed young woman described separately remains unestablished; keep their identities separate unless deliberately connected.
+The meeting and protector claim are author-established future material, not completed events. The earlier carriage staging yields to the edited prose. Whether Marcy is the distressed young woman described separately remains unestablished; keep their identities separate unless deliberately connected.
 
 ## Caelen's Body and Hands
 

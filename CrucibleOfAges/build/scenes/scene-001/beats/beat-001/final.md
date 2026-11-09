@@ -1,0 +1,13 @@
+The fluorescent tube above the briefing table flickered, casting a sickly, stuttering light over the topographic map. Caelen sat with his forearms resting on the metal surface, watching the dust motes dance in the stale air. He kept his expression neutral, a mask of professional calm that he had perfected over the last six months. It was a mask that suggested he was listening intently, even as he calculated how much of the conversation was actually worth remembering.
+
+Sergeant Miller stood at the head of the table, his posture rigid as a rifle stock. He traced a red line across the valley with a dry-erase marker, the squeak of the tip loud in the quiet room. The air smelled of burnt coffee and the metallic tang of the weapons racked against the wall.
+
+"Private Davis," Miller said, his voice flat, devoid of any warmth. "You identified the secondary egress route through the northern ridge. Good work."
+
+Caelen smirked he had actually found it and pointed it out to Davis in the transport on the way back, it had been a casual remark that had guided the private's attention toward the right spot on the map. Davis had been quiet, his eyes downcast, and Caelen had seen the hesitation in the man’s posture. He had also seen the opportunity. Sure, public acknowledgement would have been nice and maybe if he had thought Miller might actually write it up in his report, he might not have done it, but a verbal nod in a world of paper trails mattered very little, but it was a thread that Caelen could potentially pull, or it was at least a bit of leverage with Davis.
+
+Davis looked up, his face pale under the harsh light. "Thank you, Sergeant," he said, his voice thin. He glanced at Caelen, and for a second, something flickered in his eyes. But Davis did not speak. He had never spoken out of turn. He was the kind of man who absorbed the weight of the world and tried to make it look like he was carrying it willingly.
+
+Caelen held Miller’s gaze, letting the silence stretch just long enough to be comfortable. He wanted Miller to see the confidence, the certainty. He wanted the Sergeant to believe that the tactical insight was a natural extension of Caelen’s own competence. Miller finally looked up, his eyes cold and appraising.
+
+"Keep your heads down, Marines," Miller said. "We move at first light. The objective is the compound in the valley. Intel suggests it’s occupied and hostile. If you see a threat, you engage."
