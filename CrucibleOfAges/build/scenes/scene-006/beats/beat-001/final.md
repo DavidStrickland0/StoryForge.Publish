@@ -1,22 +1,16 @@
 The man in purple stopped tapping his cane.
 
-He looked at the girl, then at Caelen, and spoke. The words came evenly, without the heat the guard had put into his blows.
+He looked at the girl, then at Caelen, and spoke. The words came evenly, while the words where unfamiliar there seemed to be no anger in the tone or tamper, just a consistent voice with words evenly spaced.
 
-"New slaves have a week to adjust before they must meet their quota. He would have had that week."
+Everyone else in the room heard the man in purple say, "New slaves have a week to adjust before they must meet their quota. He would have had that week."
 
-Caelen understood none of it. Beside him, the girl stood very still.
+The man in purple pointed his cane at Caelen while addressing the girl beside him.
 
-The man in purple pointed his cane at Caelen.
-
-"But he chose to shield you from your punishment. For that, he will have no week to adjust. His quota begins tomorrow. And you will meet it, as well as your own."
+"But he chose to shield you from your punishment. Seems he's ready now to start acting. His quota begins tomorrow. And you will meet it, as well as your own."
 
 For a moment she did not seem to breathe. Her eyes moved from the cane to Caelen's face, then dropped to the floor. Her mouth opened, but whatever she had been about to say never came out.
 
-Caelen looked between them. He had heard the change in her breathing. That, and the way she had drawn her elbows against her sides, told him more than the words had.
-
-"What?" he asked quietly.
-
-She shook her head. He couldn't tell whether she meant that nothing was wrong or that he should stop talking.
+Caelen looked between them. He had heard the change in her breathing. That, and the way she had drawn her elbows against her sides, told him something unpleasant had happened.
 
 The man in purple lowered the cane. He was still watching her.
 
