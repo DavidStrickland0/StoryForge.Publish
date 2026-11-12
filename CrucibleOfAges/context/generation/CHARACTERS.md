@@ -1,98 +1,36 @@
 # Characters
 
-## Continuity Basis
+## Opening state
 
-Current state follows the approved prose through Scene 5, Beat 2. The latest human-edited prose overrides these descriptions wherever they differ. Background and planned material do not establish current appearance, knowledge, relationships, status, or achievements. See CANON.md for the current physical position. Preserve future author material without forcing an obsolete staging or replaying completed events.
+Caelen starts alive on Earth before the rescue. Later-life roles, encounters, powers, relationships, and revelations below are author planning, not events already depicted. Approved prose establishes continuity.
 
 ## Caelen
 
-### Author Background and Depicted History
+A United States Marine in his first life on Earth. He seeks status, belonging, and significance, and is capable of courage and loyalty alongside selfishness and exploitation. These traits inform his actions and voice.
 
-- A Marine in his first life on Earth. Institutional affiliation is not resolved here because the approved prose uses inconsistent wording.
-- Sought status, escape, belonging, and significance; capable of courage and loyalty alongside selfishness and exploitation.
-- Hid injuries from his mother and remembers lies, stolen credit, and using others. The briefing credits Davis while Caelen believes he supplied that insight; do not invent a new incident to reconcile later recollections.
-- Died shielding a noncombatant mother carrying her dead infant from Sergeant Miller's gunfire. The mother survived.
-- He truly died on Earth; his Earth body was destroyed. He remained dead in Nothing (the void), experiencing the passage of time while the acuteness of his memories gradually diminished. Later, his body was reformed from local dust on another world, where he awakened alive.
-- He is an awakened person from Earth and perceives a private System. Everyone from Earth eventually awakens. His intentional rescue death triggers automatic Sacrifice assignment. His tutorial choices weigh so strongly toward Dominion that this conflict triggers a rare offer to choose between factions. At death he quickly chooses Sacrifice, without understanding its mechanics. He dislikes what he became on Earth and finds peace only in his final rescue. This weighting reflects hidden faction points, inaccessible during life and weighed only at death.
+### Opening state and knowledge
 
-### Current State
+Alive on Earth with the knowledge and circumstances of his Marine life. Exact statistics and unsupplied biographical details remain unspecified.
 
-- Caelen has died, chosen the other-directed path, received the verification visit, experienced the void, returned, been captured, and reached the cell. These are completed events.
-- He is naked, collared, sore, and unexpectedly resilient. His hands and feet are free. His back was caned while he shielded the girl; her nails marked his forearm.
-- He has stood and helped her stand. His intervention was instinctive and unplanned; avoid turning it into an established manipulation strategy.
-- Earth memories are distant and faded. He cannot understand local speech or explain his recovery, faction mechanics, or any hidden advancement.
-- No demonstrated local-language learning, interface display, protector claim, romantic bond, or measured advancement is established. The girl's identity as Marcy remains unconfirmed.
+### Planned trajectory
 
-### Knowledge from the Creator's Visit
-
-After Caelen chooses Sacrifice at death, the Creator personally visits him to verify his choice. Caelen learns that Earth is the breeding ground of candidates to rule the Creator's universe. He does not learn that only Sacrifice rulers are accepted or that Dominion rulers are destroyed and replaced. The target number of 120,000, the Sacrifice-only acceptance rule, and the destruction and replacement of Dominion rulers are withheld from him and the reader until the end.
-
-The visit does not grant a full understanding of faction advancement or the interface. His later doubts remain possible despite this encounter.
-
-### Faction Choice and Later Doubts
-
-Caelen chose Sacrifice quickly at death. He knew he disliked the person he had become and that his final rescue gave him peace; he did not understand the faction's advancement rules. Remembering or choosing the name does not mean he understands the unexplained interface.
-
-Later he notices that his growth seems connected to loving others above himself and prioritizing their needs and wants, without understanding the hidden progression mechanism. The System knows his true motivations perfectly. Apparent selflessness, cost, risk, and outcome do not establish alignment. Mixed motives attenuate XP, 50/50 grants none, and 100/0 in favor of Sacrifice grants full eligible SRD XP. Unexpectedly limited growth can lead him to recognize self-interest he had overlooked. He occasionally questions his choice when this restriction frustrates him. Those doubts coexist with his capacity to care and his continuing selfish impulses; they do not change his faction during life.
-
-### Writing Guidance
-
-His trained habits support observation, endurance, and threat assessment. His experience and judgment have limits independent of any specified age. His extensive military hand-to-hand training is established. Do not invent a service history or command experience merely to explain a convenient capability.
-
-He may mistake hierarchy for stability, compliance for agreement, or usefulness for loyalty. Let those mistakes meet specific people and consequences. His early change should emerge through costly exceptions to self-interest while Dominion methods remain tempting and effective.
-
-Preserve a recognizable voice: practical attention, defensive pride, impatience with helplessness, and dry humor when circumstances permit. Allow fear, embarrassment, grief, tenderness, and dependence to complicate that voice.
+The premise plans his death while shielding a noncombatant mother carrying her dead infant, his quick Sacrifice choice at death, the limited Creator visit, Nothing, bodily reformation, and capture. His hidden SRD Fighter progression and Sacrifice alignment apply only as those planned developments unfold. Do not reveal author-only selection truths early.
 
 ## Sergeant Miller
 
-- Marine and Caelen's squad leader on Earth.
-- Ordered engagement of the mother; his gunfire killed Caelen as Caelen shielded her.
-- The edited engagement depicts his conduct as procedural and cold; it does not establish a personal-hatred explanation. His full motives, later fate, and any disciplinary consequences remain unknown.
-- No presence on the new world or reunion is established.
+A Marine sergeant in Caelen's Earth squad. The premise places his gunfire in the planned rescue death. His actions and motives must be established through the prose.
 
 ## Private Davis
 
-- Member of Caelen's Marine squad.
-- Publicly credited by Miller for the secondary egress route. Caelen believes he supplied the insight and sees leverage in letting Davis receive the acknowledgment. Later recollections about stolen credit remain ambiguous; do not reverse the briefing or invent another incident.
-- Later fate and knowledge of Caelen's death remain unestablished.
+A fellow Marine in Caelen's squad. No briefing, stolen credit, acknowledgment, or later fate is established until written in this telling.
 
 ## The Mother
 
-- Noncombatant woman carrying the corpse of her infant.
-- Survived the gunfire that killed Caelen.
-- Name, later circumstances, and understanding of Caelen remain unknown. The infant was already dead before the rescue.
+The noncombatant mother and her dead infant belong to the planned Earth rescue. Her identity and unsupplied background remain unspecified; the rescue has not yet occurred.
 
-## The Captors at the Wall
+## Planned local supporting roles
 
-- Two people overpowered and collared Caelen. One held his arms; the other fitted and pulled the collar, had bad breath, and received Caelen's headbutt to the nose.
-- Caelen nicknamed that man Mr. Halitosis, then Meeko after seeing his bruised face during unloading. Meeko cut the foot bindings and received Caelen's kick to the nose.
-- A staff was used during capture. Do not merge the staff user, arm-holder, and later guards beyond what the edited prose establishes. Earlier tunic, blade, and blue-clothed crowned-official descriptions do not establish participants in this telling.
-- Names, ranks, and motives remain unknown. Meeko is Caelen's nickname, not a translated name.
-
-## The Man in Purple
-
-- Sits at a rickety table on an overturned crate, with a ledger and black-tipped cane. His face is uncovered. Purple clothing is established; silk fabric, eye color, and exact office are not established by the current edited prose.
-- Stopped the cane-bearing guard with speech, a gesture, and a cane tap. Exact authority and intent remain unknown.
-- Caelen cannot understand his words. Do not assume an ownership transaction, a political humiliation, or a relationship to an unestablished blue-clothed official.
-
-## Scarface — The Scarred Man
-
-- A large man with raised, patterned scars spiraling across arms, chest, neck, cheeks, forehead, and hands; scars on face and hands are smaller. Caelen calls him Scarface.
-- Initially stood behind the man in purple. Approached Caelen, offered an open hand, used soothing tones, and gestured for him to stand.
-- Directed the cane-bearing guard back, then returned behind the man in purple while Caelen helped the girl up.
-- His posture looked exhausted and his speech authoritative. His status, rank, motives, and loyalties remain unknown. Do not call him a captive, alpha, displaced leader, or political rival based on the archived version.
-
-## The Guards in the Cell
-
-- Two hooded guards with spears stand near the door. Hoods shadow their faces; this does not establish facial coverings.
-- A different cane-bearing guard crossed the cell and struck the girl, then Caelen's back. He withdrew and returned behind the man in purple after the interventions described in the prose.
-- Keep the guard's cane distinct from the man in purple's black-tipped cane. Scarface has no established cane.
-
-## The Young Woman in the Pen
-
-- A girl in a bloodstained tunic whom the cane-bearing guard struck. Caelen covered her with his body; she clung to his forearm, wept, accepted soothing, and stood with his help.
-- The remembered woman holding a child is distinct. No infant or food bundle is established for this girl.
-- Her name, age, background, intentions, and relationship to the separately planned Marcy remain unconfirmed. Neither gratitude, obedience, romance nor a formal protector claim follows automatically from accepting help.
+Captors, overseers, guards, and captive companions may be developed as the new-world story unfolds. Their encounters, injuries, ranks, nicknames, relationships, and judgments remain to be established through the prose. Preserve author-defined setting rules.
 
 ## Supporting Character Development
 
@@ -112,7 +50,7 @@ Marcy is a young, non-awakened woman and Caelen's female love interest. She is a
 
 ### First Meeting and Protector Claim
 
-The earlier plan places Caelen meeting Marcy in a slave carriage. That meeting has not been depicted; completed transport must not be replayed or current events reversed to force this staging. Adapt the eventual meeting to the edited story. In the planned encounter, her beauty draws the overseer's attention. Other men in the slave cage harass her or attempt to sexually assault her; Caelen is the only man there who does not join them. His lack of participation is initially rooted largely in his inability to understand the language and recognize what is happening. Do not rewrite that passivity as a fully informed heroic stand.
+The author plans for Caelen to meet Marcy in a slave carriage. Transport and the meeting are planned developments. Depict their first meeting as the opening develops. In the planned encounter, her beauty draws the overseer's attention. Other men in the slave cage harass her or attempt to sexually assault her; Caelen is the only man there who does not join them. His lack of participation is initially rooted largely in his inability to understand the language and recognize what is happening. Do not rewrite that passivity as a fully informed heroic stand.
 
 His different behavior makes Marcy trust him enough to claim him as her protector in desperation. Under slave-pit custom, she claims to have given her life to him in exchange for protection, becoming subordinate to him during her free time. Caelen does not understand the declaration or the obligations it creates.
 
@@ -132,13 +70,15 @@ Caelen earns several hidden Fighter advancement steps through the fights on Marc
 
 ### Opening-Scene Integration
 
-The meeting and protector claim are author-established future material, not completed events. The earlier carriage staging yields to the edited prose. Whether Marcy is the distressed young woman described separately remains unestablished; keep their identities separate unless deliberately connected.
+The meeting and protector claim are planned future material, not completed events. Relationships are established through the prose and explicit author instructions.
 
 ## Caelen's Body and Hands
 
 Physically mature adult, with broad-palmed hands, tanned rough skin, and five digits per hand including the thumb. Local hands have three fingers and a thumb; his difference is conspicuous. His toe count remains unspecified. Do not assign or state a numerical age or infer additional military service from bodily maturity.
 
 ## Author-Managed Mechanics
+
+The following describe planned post-return mechanics. They are not abilities, knowledge, or faction assignments already possessed by Caelen at the Earth opening.
 
 Class: Fighter. Faction: Sacrifice. Follow WORLD.md's hidden SRD 3.5 progression and manual-management rules. Stats, learned feats, skill ranks, proficiencies, equipment, and unlocked learning potential are recorded here only when supplied by the author. Exact values are currently unspecified. Training belongs in prose; no visible XP or levels.
 

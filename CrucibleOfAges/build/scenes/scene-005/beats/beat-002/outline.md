@@ -1,1 +1,0 @@
-Purpose: Caelen gently reassures the girl until she releases his forearm, stands, and helps her up. Scarface has returned behind the man in purple. Continue from this shared standing position. His hands and feet are free; the collar remains. No shackles, cuffs, chains, keys, unlocking, or renewed transport is established.

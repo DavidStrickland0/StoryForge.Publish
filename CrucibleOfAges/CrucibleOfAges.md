@@ -24,4 +24,4 @@ Throughout, odd information gives him critical clues. Only at the ending does he
 - context/generation/CANON.md: accepted events and distinctions between prose and new author commitments.
 - context/generation/WRITING-RULES.md: prose guidance.
 
-No numerical character ages appear in ordinary prose. This premise supersedes the former dual-track progression and local-revolt-only ending.
+No numerical character ages appear in ordinary prose.

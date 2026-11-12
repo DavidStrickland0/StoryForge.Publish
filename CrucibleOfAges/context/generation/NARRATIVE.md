@@ -49,7 +49,7 @@ The freed people need food, care, shelter, safety, and leadership. Their relianc
 
 ## Current Narrative State
 
-The new telling has not begun. Caelen is alive on Earth, a United States Marine in his first life. No scene has been accepted in this telling. His rescue death, faction choice, Creator visit, void interval, bodily return, capture, and meeting with Marcy are planned events, not completed continuity. Begin with the Earth opening and develop the rescue and its consequences in order. Do not begin from the former slave-pen checkpoint.
+Caelen is alive on Earth, a United States Marine in his first life. No scene has been accepted. The rescue death, faction choice, Creator visit, void interval, bodily return, capture, and meeting with Marcy are planned events, not completed continuity.
 
 ## Book-One Development Guidance
 
@@ -143,5 +143,5 @@ WORLD.md is authoritative for base-eight notation, the named pentad cycle, holy 
 
 ## Opening Integration Status
 
-This is a fresh telling from the beginning. No former scenes are accepted in this run. Preserve the author-established opening, faction motivations, hidden SRD progression, world rules, Marcy material, planetary scope, and revelation boundaries. Depict planned developments rather than inheriting the former draft's completed-event state. The meaning and presentation of the former interface numbers remain unresolved.
+Preserve the author-established opening, faction motivations, hidden SRD progression, world rules, Marcy material, planetary scope, and revelation boundaries. Planned developments become established events through approved prose. The presentation of System interface information remains an author decision.
 

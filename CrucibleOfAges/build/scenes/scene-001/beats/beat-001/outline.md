@@ -1,9 +1,9 @@
-Purpose: Establish Caelen's defensive pride and selfish ambition by depicting him taking credit for Private Davis's tactical call during a debrief, while internally resenting Sergeant Miller's rigid adherence to protocol.
+**Purpose:** Caelen's first encounter with Sergeant Miller and the mother, setting up the rescue death and its moral weight.  
 
-What changes: Caelen secures a verbal commendation from Miller, reinforcing his belief that he can manipulate the hierarchy for personal gain, while Davis is left silent and marginalized.
+**Viewpoint:** Caelen’s perspective, focused on duty, status, and the tension between personal ambition and loyalty.  
 
-## Characters
+**Objective:** Introduce the immediate conflict between Caelen and Miller, while subtly establishing the mother as a symbol of sacrifice and moral complexity.  
 
-- Caelen
-- Sergeant Miller
-- Private Davis
+**Meaningful Change:** Caelen’s internal conflict shifts from self-interest to a nascent sense of responsibility, foreshadowing his later Sacrifice choice.  
+
+**Continuity Dependencies:** Earth setting, Marine duties, and the mother’s vulnerability must be clearly established without prior events.
