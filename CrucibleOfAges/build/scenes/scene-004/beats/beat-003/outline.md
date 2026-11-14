@@ -1,9 +1,0 @@
-Purpose: Caelen takes the immediate consequences of covering the injured girl with his own body, choosing to protect her despite having no plan and little strength.
-
-Viewpoint: Third-person limited, Caelen. Begin exactly where approved Beat 2 ends: naked, bruised, stumbling in unfamiliar gravity, he has fallen over the girl and is shielding her back with his. He is not standing aside observing the pen.
-
-Objective: Keep his body between the girl and the guard's cane. Show the guard's immediate response and the physical cost or credible interruption of the threatened blow. Caelen cannot understand the captors' language; dialogue in it must remain unintelligible to him. His awkward shouted challenge was a distraction, not a successful social bluff or bid for status.
-
-Meaningful change: His unplanned protective act makes him the immediate focus of the captors' attention and leaves a concrete consequence for the next scene. Any intervention by the man in purple or the scarred man must arise visibly from this incident, not a detached political contest. Preserve their actual positions: the man in purple at the ledger, the scarred man behind him; the scarred man's status is not established as a captive's.
-
-Continuity dependencies: Approved prose overrides old outlines. The girl being caned is distinct from the remembered girl clutching a babe; do not invent a bundle, rations, or a revelation about an infant. Caelen has recovered surprisingly from earlier beatings but remains sore and physically vulnerable. Do not give him effortless fighting ability, fluent comprehension, a calculated deception strategy, resource-hoarding conclusions, or an unexplained return to passive observation. Do not force self-sacrifice as a rule; show this specific instinctive choice and its consequences. Write only this beat, without recapping the cart ride or replaying his approach to the girl.

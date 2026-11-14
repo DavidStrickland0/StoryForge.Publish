@@ -113,13 +113,13 @@ Death removes the present body, possessions, position, obligations, and shared f
 
 ### Return and Placement Questions
 
-The former balance calculation based on two level totals for each soul is superseded. Do not use equal scores to explain Caelen's wait or placement. The current rules for destination selection, waiting duration, planetary balance, and the treatment of non-awakened people have not been specified under the faction model.
+The current rules for destination selection, waiting duration, planetary balance, and the treatment of non-awakened people have not been specified under the faction model.
 
-Caelen returns by bodily reformation from dust. Whether other souls return through birth and how that choice is determined remain unresolved; do not apply the former numerical-age boundary as current canon.
+Caelen returns by bodily reformation from dust. Whether other souls return through birth and how that choice is determined remain unresolved.
 
 ## Unresolved Metaphysical Mechanics
 
-Enlightenment, immortality, non-awakened progression, destination assignment, and the fate of souls destroyed during ruler selection require author decisions. Former Level 100 and hundred-Earth-year reformation mechanics are retired from active generation context pending confirmation; their prior wording is preserved in the revision archive. Do not introduce these as established rules or use them to solve a plot problem.
+Enlightenment, immortality, non-awakened progression, destination assignment, and the fate of souls destroyed during ruler selection require author decisions. Do not use unspecified mechanics to solve a plot problem.
 
 ## Institutions and Leadership
 
@@ -129,17 +129,9 @@ Authority can serve people or exploit their dependence. Taxation, command, punis
 
 A liberator must face the material needs of the people freed. Emergency leadership can become possession when followers lose meaningful choice. Protection, shared decisions, accountability, and removal of exploitative officials should matter in the story without being converted into point awards.
 
-## Current Observations — End of Scene 4
-
-- Caelen is alive, collared, and captive in a stone-walled slave pen.
-- The new world has a pale yellow sky and a hazy sun. Exact gravity remains uncertain.
-- Local speech is unfamiliar to him.
-- His private interface displays two ones with a shimmering division. Their meaning is unresolved.
-- Captors assess, collar, restrain, and transport people as saleable assets.
-
 ## Book-One Worldbuilding Foundation
 
-The following is author-facing setting guidance for future beats. It develops the premise without asserting that Caelen or local inhabitants know the metaphysical rules. Named places, currencies, offices, species names, and unsupplied mechanical details remain open. Use the timekeeping and measurements established below. The current state above records events already shown.
+The following is author-facing setting guidance for future beats. It develops the premise without asserting that Caelen or local inhabitants know the metaphysical rules. Named places, currencies, offices, species names, and unsupplied mechanical details remain open. Use the timekeeping and measurements established below. These details are worldbuilding and prospective guidance.
 
 ### Material Life and Local Scale
 
@@ -187,7 +179,7 @@ Accurate planetary totals are not public information by default. Observing a pit
 
 ### Ability Design Boundaries
 
-No additional System-granted ability has been demonstrated at the opening of this new telling. The two displayed ones have no confirmed meaning under the faction model. They are not Dominion and Sacrifice scores; flickering alone establishes neither advancement nor an unlocked power.
+System abilities and interface details require author establishment and must respect the faction model.
 
 For Caelen, class capabilities follow the hidden SRD 3.5 Fighter framework; Sacrifice governs advancement eligibility, not a separate ability catalogue. Do not invent faction-specific powers. Other people's classes and advancement mechanisms remain undefined. Ordinary skill, equipment, organization, and allies remain consequential.
 
@@ -244,7 +236,7 @@ Learning occurs in the prose through instruction, observation, experimentation, 
 
 Keep capability growth distinct from hidden faction scales. Neither improved performance nor any interface reveals where his Dominion and Sacrifice scales lie during life. He may notice patterns or wonder about his growth, but narration must not turn that uncertainty into knowledge of XP or levels.
 
-Exact current statistics, learned techniques, advancement thresholds, and the presentation of stats remain undefined. The two displayed ones are not confirmed XP, levels, or faction-scale readings. Military experience informs behavior without granting unlimited competence.
+Exact current statistics, learned techniques, advancement thresholds, and the presentation of stats remain undefined. Military experience informs behavior without granting unlimited competence.
 
 ## Manual LitRPG Management
 
